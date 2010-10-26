@@ -1,0 +1,21 @@
+<div class="blosxomComment">
+<!-- 
+$cmt_title 
+-->
+
+<a name="$cmt_time"></a>
+[$cmt_pubDate] 
+<!--
+$cmt_link
+-->
+<a href="mailto:$cmt_email">$cmt_author</a>
+<sup><a href="$cmt_link">URL</a></sup>
+曰::
+
+<div id="cmt_description">
+
+$cmt_description
+
+</div><!--id="cmt_description"-->
+
+</div><!--class="blosxomComment"-->

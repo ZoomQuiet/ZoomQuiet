@@ -1,0 +1,537 @@
+IOP:实践之一
+~ 如何令Python脚本提速100倍?!
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+
+
+= 背景 =
+
+什么事儿呢?
+- 在一高压力服务环境中,需要加速系统的响应
+- 现行系统对于数据查询要尝试三种数据库源:
+ + memcache
+ + redis
+ + MySQL
+ +
+- 期望查询加速至少 300%
+
+
+
+: 运行环境
+```
+客户机:
+    - 俺的Laptop HP 520
+    - 双核CPU 2G内存
+    - Ubuntu 9.10
+DB主机:
+    - CentOS 5.0
+    - 单核CPU 4G 内存
+```
+
+
+
+== 预案 ==
+
+这事儿,一想,简单哪,都放内存就好的哪
+- 统计了一下需要用来查询的数据不到2千万条
+- 折算成文件不过1G
+- 加载到内存中,使用 Python 字典结构的话,也最多涨一倍,也完全可以接受
+- 速度?!
+ - [python-rbtree和内建dict的性能比较 http://yongsun.me/2007/11/python-rbtree%e5%92%8c%e5%86%85%e5%bb%badict%e7%9a%84%e6%80%a7%e8%83%bd%e6%af%94%e8%be%83/]
+ - 那绝对不是问题!
+ -
+
+
+
+= IOP的加速技巧 =
+
+``没有想到,加速,只要不断将代码住短里面写就好!``
+
+不知道什么是 IOP?
+- [PyIOP http://wiki.woodpecker.org.cn/moin/PyIOP]
+- 咔咔咔,沈游侠总结的编程态度>...
+
+
+
+== 10万:170+4秒 ==
+
+: 最直接的实现
+- 从redis 读
+- 生成 dict 对象
+- 以pickle dump 出序列化文件
+- 用pickle load 加载成dict对象
+
+
+
+=== code ===
+
+: 代码:
+
+```
+#! python
+#!/usr/bin/python 
+# -*- coding: utf-8 -*-
+import struct,sys,time
+import cPickle as pickle
+import redis
+REVERSION = "r2d.py v10.5.7"
+def _push2dict(dictall,key,smembers):
+    dictall[struct.pack('I',int(key[1:]))]=[s.split("|") for s in rb.smembers(k)]    
+    return dictall
+if __name__ == '__main__':      # this way the module can be
+    if 3 != len(sys.argv):
+        print """ %s usage::
+$ python r2d.py redistIP limitnumber [like 10000]
+        """ % REVERSION
+    else:
+        hostIP = sys.argv[1]
+        limitn = sys.argv[2]
+        rb = redis.Redis(host=hostIP, port=6379, db=9)
+        rbkeys = rb.keys().split()
+        loop = int(limitn)
+        s4dict={}
+        for k in rbkeys:
+            if 0 == loop:
+                break
+            else:
+                loop -=1
+                _push2dict(s4dict,k,rb.smembers(k))
+        pickle.dump(s4dict, open('r4d.dump', 'wb'))
+```
+
+
+
+=== speed ===
+
+- 代码足够简单了,单函式,20行
+- 速度测试::
+ - 10W 值对导出 >170秒,导入>4秒;
+ - 100W 值对导出 >500秒,导入>25秒;
+ - 1000W 值对导出 **失败! 内存提前耗光!**
+
+
+
+
+=== improve ===
+
+这完全无法接受哪...
+
+: 加速尝试::
++ 根据 IOP 尽量不用函式,将那个一行函式清除,代码填回循环 ~ //立即获得几秒的加速//
++ 本来用的就是cPickle 了,模块效率没有办法了
++ 嗯嗯嗯,可以不用 cPickle卟?
+ - 直接输出自然 .py 哈?!
+
+
+```
+#! python
+
+# 使用 str() 将字典对象用文本的方式记入 .py 
+vdf = open("r2d.define.py","wa")
+vdf.write("s4dict=")
+vdf.write(str(s4dict))
+vdf.close()
+# 使用时直接 import 就好
+
+```
+
+- 改进后测试::
+ - 10W 值对导出 >160秒,导入>3秒;
+ - 100W 值对导出 >400秒,导入>19秒;
+ - 1000W 值对导出 **依然杯具**
+- 加速不明显:
+ - 导出时速度变化很小
+ - 载入时速度有提升
+- 进一步观察到,导出时内存飞速增长:
+ - 100W级别,要食掉1.6G左右的内存
+ - redis 本身也很占内存,千万级别时,也要占上G (当然这和条目数量/内容有关)
+ - 这对于服务器是个不可接受的方式
+
+
+
+
+== 10万:150+10秒 ==
+
+: 改进中间数据格式:
+- 从redis 读
+- 生成 中间log文件
+- 导入成 字典对象
+
+
+
+=== thinking ===
+
+因为有这些现实:
++ 想输出不论 pickle 或是 .py 的字典对象,都得先在内存中构造出这一对象
++ 随着字典对象的规模增加,必然导致这一构建过程的时间加长
+
+
+经沈游侠提醒,发现字典对象其实是可以线性输出的:
+- 比如说,字典结构如:
+```
+{key:[(v1,v2,v3),..]
+,...
+}
+```
+ - ``K:[list]`` 形式的两层结构
+- 那么,就可以通过中间数据文本:
+```
+('key', [(v1, 'v2', v3)])
+...
+```
+- 进行线性加载,e.g:
+```
+#! python
+for l in open("r2d.define.py.log","r").readlines():
+    dd = eval(l)
+    if dd[0] in s4d:
+        s4d[dd[0]].append((dd[1],dd[2],dd[3]))
+    else:
+        s4d[dd[0]]=[(dd[1],dd[2],dd[3])]
+
+```
+
+
+
+=== code ===
+快速修订对应行动代码:
+```
+#! python
+#!/usr/bin/python 
+# -*- coding: utf-8 -*-
+import struct,sys,time
+import redis
+REVERSION = "r2d.py v10.5.8"
+if __name__ == '__main__':      # this way the module can be
+    if 3 != len(sys.argv):
+        print """ %s usage::
+$ python r2d.py redistIP limitnumber [like 10000] > mid-data.log
+        """ % REVERSION
+    else:
+        hostIP = sys.argv[1]
+        limitn = sys.argv[2]
+        rb = redis.Redis(host=hostIP, port=6379, db=9)
+        rbkeys = rb.keys().split()
+        loop = int(limitn)
+        for k in rbkeys:
+            if 0 == loop:
+                break
+            else:
+                loop -=1
+                dictkey = struct.pack('I',int(k[1:]))
+                sli = []
+                for s in rb.smembers(k):
+                    rli = s.split("|")[:3]
+                    if rli:
+                        rli[0] = int(rli[0])
+                        rli[1] = struct.pack('I',int(rli[1]))
+                        rli[2] = int(rli[2])
+                        sli.append(tuple(rli))
+                print >> d2f,`dictkey,sli`
+                #注意: `obj` 等同 repr(obj)  
+```
+
+
+
+=== improve ===
+
+代码依然简单了,无函式,30行
+- 速度测试::
+ - 10W 值对导出 >150秒,导入>10秒;
+ - 100W 值对导出 >500秒,导入>20秒;
+ - 1000W 值对导出 >1300秒,导入>90秒;
+- 速度看起来没有什么明显的提高
+- **不过!**
+ + 千万级别的数据可以在低配置环境中跑完了!
+ + 内存占用很稳定永远90M左右,不会随字典对象的增长而增长!
+
+
+嗯嗯嗯,这算是可用了...
+
+
+
+== 10万:100+200秒?! ==
+
+: 继续改进:
+- 放弃 redis 直接从MySQL 读
+- 生成 中间日志
+- 导入成 dict 文件
+
+
+
+=== thinking ===
+
+虽然redis 是号称最快的 K/V 数据库产品，但是，明显就是它将整个业务响应速度拖慢了..
+
+: 为什么呢？
+- 服务器程序和本地程序面对的环境是不同的
+- 高压力服务器程序和小压力服务器程序也是不同的
+- 简单来说:
+ + 小型服务~=每秒<C60
+ + 中型服务~=每秒<C600
+ + 大型服务~=每秒>C1000
+- 面对的矛盾是完全不同的:
+ + 小型服务->语言执行效率
+ + 中型服务->框架执行效率
+ + 大型服务->I/O 响应速度
+- 所以，对于面向Web 的查询服务，不论 Redis/MySQL 对于业务系统，都是进程间通讯!
+- 每次跨进程通讯，都意味着至少四次I/O操作！
+- 所以，当前 Redis->log->内存字典的转换流程，其实包含了 MySQL->Redis 的进程操作
+- 另外:
+ - 遍查 Redis 文档，居然没有 ``iterkeys()`` 类似的操作！
+ - 每次不论转换多少 Redis 的值对，都得使用``keys()`` 将键先取出来然后再逐一匹配处理
+ - 怪不得使用 Redis 测试用小仓库(包含20万值对)时，脚本运行速度和使用全数据Redis(千万值对)时速度要相差5倍以上！内存也占用多几倍!
+
+
+
+**所以!要直接从 MySQL 相关表中读取**
+
+
+
+=== code ===
+配合一SQL 模板:
+```
+#! sql
+-- _tpl/all_black.tpl
+SELECT v1,v2,v3,v4,id FROM t_black LIMIT %(limitMAX)s;
+```
+
+核心代码:
+```
+#! python
+#!/usr/bin/python 
+# -*- coding: utf-8 -*-
+REVERSION = "m2d.py v10.5.9"
+import struct,sys,time
+
+if __name__ == '__main__':      # this way the module can be
+    """usage:
+$ python m2d.py limit [such as 100] |\
+  mysql -h xx.xx.xx.xx -u User -D --password=***  |\
+  python m2d.py > m2d.log
+    """
+    if sys.stdin:
+        if 1 < len(sys.argv):
+            limit = sys.argv[1]
+            limitMAX = int(limit)
+            print >> sys.stderr, info
+            print open("_tpl/all_black.tpl","r").read()%locals()
+        else:
+            s4dict={}
+            virusname={}
+            totalN = 0
+            for l in sys.stdin.readlines():
+                if "id" in l:
+                    pass
+                else:
+                    totalN += 1
+                    lkv=l.split()
+                    dictkey = struct.pack('I',int(lkv[0]))
+                    lkv[1] = int(lkv[1])
+                    lkv[2] = struct.pack('I',int(lkv[2]))
+                    lkv[3] = int(lkv[3])
+                    print >> d2f,`dictkey,tuple(lkv[1:])`
+```
+ - 用是否有额外参数来判定是否生成SQL,还是进行MySQL 的输出数据处理
+ - 为了不影响标准输出,调试信息,输出到标准错误IO
+ - 调试也应该根据管道串的层级,一级级运行尝试
+ - 调用的shell:
+```
+#! shell
+#!/bin/sh
+#   m2d.sh v10.5.9
+python m2d.py go |\
+    mysql -h xx.xx.xx.xx -u User --password=***|\
+    python mysql4dict.py $1 |\
+    mysql -h xx.xx.xx.xx -u User --password=***|\
+    python m2d.py > m2d.log
+```
+
+**加载时代码没有怎么变**
+
+
+
+=== speed ===
+
+- 速度测试::
+ - 0.1W 值对导出 <5秒,导入<1秒;
+ - 10W 值对导出 >300秒,导入>10秒;
+ - 100W 值对导出 杯具鸟
+ - 1000W 值对导出 杯具鸟
+- 速度怎么和查询的条目多少有关? 而且一大MySQL 就拒绝服务?
+
+
+
+
+=== improve ===
+嗯嗯嗯,FT! 当然了,MySQL 请求响应时间是有限制的,大数据传输肯定是有问题的,
+利用 ``LIMIT`` 的切片!
+- 改造前述``m2d.py v10.5.9`` SQL生成部分的代码:
+```
+#! python
+step = 5000.0
+limitMAX = int(limit)
+sqltpl = open("_tpl/all_black.tpl","r").read()
+if 1 >= limitMAXb/step:
+    print sqltpl%locals()
+else:
+    for i in range(int(limitMAX/step)):
+        limitMAX = "%d,%d"%(step*i,int(step))
+        print sqltpl%locals()
+```
+- 以 5000 为界限,生成类似 ``LIMIT 15000,5000`` 的限制
+
+
+- 速度测试::
+ - 100W 值对导出 >290秒,导入>190秒;
+ - 1000W 值对导出 杯具鸟
+
+
+**FT!怎么回事儿?速度意外的慢!**
+
+
+
+
+
+
+
+== 1000万:1100秒+480秒 ==
+
+: 冷静后改进:
+- 从MySQL 读使用id 进行限制切分
+- 生成 中间日志,但是重新设计结构
+- 导入成 dict 文件
+
+
+=== thinking ===
+
+: MySQL 为什么这么慢?!
+- 嗯嗯嗯,N久没有使用过DB,这次重温了为什么远离DB的恶体验
+- MySQL 本身就不是千万级别的产品,虽然有很多招可以应对
+ - [mysql limit查询优化（数据量大的时候很优） http://www.cnblogs.com/fjytzh/archive/2010/04/02/1702886.html]
+ - [Mysql limit 优化，百万至千万级快速分页 http://grb12508.blog.163.com/blog/static/273784582009102448061/]
+- 不过,以上招都不好使,咨询了一下同事,直接使用ID范畴来限定就好!
+
+
+
+
+
+=== code ===
+SQL 模板配合改进:
+```
+#! sql
+-- _tpl/all_black.tpl
+SELECT v1,v2,v3,v4,id FROM t_black WHERE id>%(LIMbwID)s AND id<=%(MAXbwID)s;
+```
+
+
+SQL 生成代码:
+```
+#! python
+step = 3000.0
+offset = int(step)
+# < <gen_sql_with_max> > 使用Leo 时可以定义子节点将成堆代码变成语义标记
+for l in sys.stdin.readlines():
+    if "max(id)" not in l:
+        amount = l.split()
+        MAXbwID = int(amount[0]
+        MINbwID = int(amount[1]
+        MAXbwA = MAXbID-MINbID
+MAXbMAX = MAXbwID
+lastID = 0
+sqltpl = open("_tpl/all_black.tpl","r").read()
+for i in range(MAXbwA/offset):
+    MAXbwID,LIMbwID = (MAXbMAX-offset*i,MAXbMAX-offset*(i+1))
+    print sqltpl%locals()
+    lastID = LIMbID
+MAXbID,LIMbID = lastID,MINbID   # 将切片限数之内的尾数个ID也查询出来
+print sqltpl%locals()
+```
+- 咔咔咔,当然的,要进行基于ID 的精确切分选择,就得先知道最大和最小的ID
+- 使用SQL ``SELECT max(id),min(id) FROM t_black ;``
+- 自然运用系统管道串接成处理过程:
+```
+#! shell
+#!/bin/sh
+#   m2d.sh v10.5.9
+DATE=`date "+%y%m%d-%H%M%S"`
+mysql -h xx.xx.xx -u User --password=*** < _tpl/total_black.sql |\
+    python m2d.py go |\
+    mysql -h xx.xx.xx -u User --password=*** |\
+    python m2d.py > m2d_$DATE.log
+```
+
+
+=== improve ===
+- 速度测试::
+ - 100W 值对导出 >280秒,导入>120秒;
+  - m2d.log > 150M
+ - 1000W 值对导出 >1300秒,导入>780秒;
+  - m2d.log > 570M
+
+
+
+进一步的,发现业务其实可以将双层,两次查询优化成一次查询的!
+- 简单的将输出字典的数据结构变成:
+```
+{key:v,...
+}
+```
+- 将原先的2个值结合原先的key 变成键,就成为了全局唯一的key
+- 即和MySQL 每行数据完成一一对应
+- 速度再测试::
+ - 100W 值对导出 >250秒,导入>100秒;
+  - m2d.log > 130M
+ - 1000W 值对导出 >1100秒,导入>480秒;
+  - m2d.log > 490M
+- 哗! 而且加载完后,字典对象所点内存体积也同样减少了 30% !
+
+
+
+== 小记 ==
+
+: 综上:
+- 应用 IOP 方面的主要招术:
+ + 表用 函式
+ + 表用 模块
+ + 尽量使用 OS 的标准 I/O 进行功能串接
+- **DOP**~``Data Oriented Programming``
+ - 面向数据编程
+ - 归根到底,程序都得操作数据解决问题
+ - 服务器端,大并发压力时,最有效的节省I/O 的方式,就是高效方式
+ - 压缩输入/出的数据量自然是最好的代码!
+
+
+
+= 提速100倍 =
+嗯嗯嗯？！怎么说到最后好象也没有加速到100倍哪？
+- 是也乎，是也乎，以上分享的是内存化字典数据的转换脚本加速过程
+- 但是最后要加速的是整个查询业务哈?
+- 因为涉及公司核心服务,代码就无法展示了
+- 不过,现实是:
+ + 使用了以上 IOP 中提及的基础技巧
+ + 每查询业务的处理时间从原先的 0.* 秒,加速到 0.00*秒,至少100倍
+ + 而对应的代码从 几千行,精简到几十行
+
+
+
+所以,基本上可以这么理解:
+- 将代码每**精简一倍体积**
+- 运行速度就有望**提高10倍**
+
+不相信? 尝试一哈噻...
+
+
+
+------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+

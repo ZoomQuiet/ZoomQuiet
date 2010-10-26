@@ -1,0 +1,30 @@
+* { margin: 0; padding: 0; border: 0; }
+
+.rss-popup {
+    margin: 100px auto;
+    padding: 0;
+    width: 100px;
+    position: relative;
+}
+ 
+div.rss-popup em {
+    background: url(/pybstyle/rss-bubble.png) no-repeat;
+    width: 100px;
+    height: 49px;
+    position: absolute;
+    top: -70px;
+    left: -0px;
+    text-align: center;
+    text-indent: -9999px;
+    z-index: 2;
+    display: none;
+}
+ 
+#rss-icon {
+    width: 42px;
+    height: 42px;
+    background: url(/pybstyle/rss-icon.png) no-repeat 0 0;
+    text-indent: -9999px;
+    margin: 0 auto;
+    display: block;
+}

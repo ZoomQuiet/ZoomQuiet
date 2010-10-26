@@ -1,0 +1,37 @@
+[CI]dot 生成可点击网页
+~gen4dot2htm.py 进化记要
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+= 原求 =
+
+== 设想 ==
+= 变化0:logging 不好用 =
+= 变化1:参数处理 =
+= 变化2:TDD反射 =
+= TODO =
+: 真正实用化...:
+
+= 时间帐单 =
++ ~1h   100902 起意，设立目标
++ ~1.5h   100906 OptionParser 设计
++ ~2.5h   100907 logging->zqlog
++ ~3h   100908 交互参数调整
+    兼容所有情况很难...
+    防御还是不防御？
++ ~1h   100910 处理参照,工作流?
++ ~3h   100913 Data-URI 输出,嵌入所有
+Using Dean Edwards IE7 Script
+http://www.charlescooke.me.uk/web/lab_notes/ie7_script.html
+
+------------------------------
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+
+% Leo 4.7.1 final: 编辑
+
+

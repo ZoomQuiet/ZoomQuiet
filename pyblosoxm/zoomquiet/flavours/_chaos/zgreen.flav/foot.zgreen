@@ -1,0 +1,25 @@
+<p>
+  <a href="http://pyblosxom.sourceforge.net/"><img src="http://pyblosxom.sourceforge.net/images/pb_pyblosxom.gif" alt="Made with PyBlosxom" border="0" /></a>
+</p>
+
+<div id="links">
+
+    <p>$calendar</p>
+    
+    <h4>Categories</h4>
+    <p>$categorylinks</p>
+    
+    <h4>Links</h4>
+    <ul>
+    <li><a href="http://www.python.org/">Python</a></li>
+    <li><a href="http://planetpyblosxom.org/">Planet PyBlosxom</a></li>
+    </ul>
+    <!--
+    <h4>Archive</h4>
+    <p>archivelinks</p>
+-->
+
+</div> <!-- End of links div -->
+
+</body>
+</html>

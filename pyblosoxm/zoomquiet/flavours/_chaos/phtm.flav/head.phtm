@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>$blog_author $pi_da $pi_mo $pi_yr</title>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" 
+ href="/styles/phtm.flav/zqgreen.css" />
+<link rel="alternate" type="application/rss+xml" 
+ title="RSS" href="$url/?flav=rss" />
+<link rel="shortcut icon" href="/styles/pyblosxom.ico"
+ type="image/x-icon" />
+<link rel="icon" href="/styles/pyblosxom.ico"
+ type="image/x-icon" />
+
+<!--#Zoomq::060122 add. technorati support 
+ --> 
+<script type="text/javascript" 
+ src="http://embed.technorati.com/embed/m8ttdgxrhx.js"></script>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2331528-3";
+urchinTracker();
+</script>
+
+</head>
+<body>
+<!--
+  $blog_title_with_path $pi_da $pi_mo $pi_yr
+  -->
+<!--
+<h1>$blog_title</h1>
+<p>$pi_da $pi_mo $pi_yr</p>
+-->
+
+<div id="banner">
+  <p id="main"><a href="$base_url">$blog_title</a> </p>
+  <p id="sub">$blog_description $pi_yr $pi_mo $pi_da </p>
+  
+</div> <!-- End of banner div -->
+<div id="content">
+
+

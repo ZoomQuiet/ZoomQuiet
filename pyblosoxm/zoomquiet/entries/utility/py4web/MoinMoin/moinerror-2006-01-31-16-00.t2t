@@ -1,0 +1,39 @@
+MoinMoin问题
+还是中文惹的祸！
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+[/pybimage/snap060130-moinerror.png]
+
+= fixed =
+
+接到举报，看一下子 trackback 是系统 进行字串解析时出错
+```
+## site-packages\MoinMoin\macro\RecentChanges.py line 29 左右
+    if line.action[:3] == 'ATT':
+        import urllib
+        try:
+            filename = urllib.unquote(line.extra)
+        except:
+            filename = "filename can not display...maybe UnicodeDecodeError"
+        if line.action == 'ATTNEW':
+            try:
+                comment = _("Upload of attachment '%(filename)s'.") % {'filename': filename}
+            except:
+                comment = _("Upload of attachment '%(filename)s'.") % "filename can not display..."
+```
+
+简单过滤就成，但是问题还在…………可怜的中文…………
+
+
+------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+

@@ -1,0 +1,84 @@
+FF2GG
+-- 7.04 Feisty Fawn 到7.10 Gutsy Gibbon
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+
+= 很好,很强大! =
+升级!需要理由嘛?
+ - 不需要嘛?
+  - 需要嘛?! ...
+
+: 其实因为忍不住哪！
+    - 19号下载到CD版本的，
+    - 当天HP 520(GQ349AA)也配发到手里
+    - 为了20号的会课先忍了一下
+    - 21号回来就说不得要安装,将原先的 红旗Linux 洗掉~瞧着尽力伪装成M$ 的樣子就想吐
+
+
+== 流水 ==
+
+: 硬盘:
+ - 原来以为是简单的先清后win2k3 再Ubuntu 的事儿,结果,没有那么简单!
+ - 不删除 红旗,win2k3 不认硬盘,使用Ubuntu Alternate 分区重写后,依然!
+ - 罢了,直接来!
+ - Ubuntu 7.10 GG 的Alternate 好象不完整在安装到89%时报错退出!
+ - 只有使用 Ubuntu 7.04 FF 的DVD 先安装成功,然后升级了 ;(
+
+: 分区,最终规划:
+ - 其中前200Mb 有问题,无法格式化,只好让掉...
+. [/pybimage/2007/2007-10-23-202858_mtab_scrot.png];  
+
+
+: 升级:
+ - 通过Alternate CD升级,1小时50分钟,也下载了将近100Mb的东西,平顺完成!
+ - 很智能,将原先的一些定制源也都自动替换成了 GG 的!!
+
+
+== 惊喜 ==
+
+: SETI@home:
+ - 直接包含在源中了! 
+```
+:~$ acs boinc
+boinc-app-seti - SETI@home application for the BOINC client
+boinc-client - core client for the BOINC distributed computing infrastructure
+boinc-dbg - debugging symbols for BOINC binaries
+boinc-dev - development files to build applications for BOINC projects
+boinc-manager - GUI to control and monitor the BOINC core client
+kboincspy - monitoring utility for the BOINC client
+kboincspy-dev - development files for KBoincSpy plugins
+.
+```
+
+: 3D特效:
+ - 内置的非常足够 COOL 了!!
+
+
+
+= 结论 =
+**Ubuntu 越來越贴近用户的实际需求了,反应的快,强大的趋势明显**
+ - 期待 [/pybimage/2007/gobuntu-med.jpg] 的快速成长!
+ - http://www.ubuntu.com/products/whatisubuntu/gobuntu
+
+
+= TODO =
+ + WiFi 怎么也不能连接到公司的AP中,研究中;家里的 6.06 也得整了...p2p下载已经停了些日子了...
+ + VBox 带个能用网银的系统,也得整! 不想再多系统启动了,就Ubuntu!
+ + [XFS 是个蒙事儿的主 http://www.ibm.com/developerworks/cn/linux/l-jfs/],还是得经典的FS才成哪! 周末准备回写成 ReiserFS
+
+
+
+
+
+------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+

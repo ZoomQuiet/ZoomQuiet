@@ -1,0 +1,111 @@
+SVN 无法识别的url方案 
+-- 解决...记要
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+= 现象 =
+
+: 突然之间访问不能:
+```
+svn: 无法识别的URL方案(一般需要svn://，http://，file://等开头)
+“http://svn.rdev.kingsoft.net/kdoc/tangle/KsPIG/Zoom.Quiet/S5”
+```
+
+
+
+== 原因 ==
+: 根据:
+ - http://blog.yesky.com/223/sxy519/1716723.shtml 建议的一看才知道...
+```
+$ svn --version
+svn，版本 1.4.3 (r23084)
+   编译于 Oct 12 2007，13:28:55
+
+版权所有 (C) 2000-2007 CollabNet。
+Subversion 是开放源代码软件，请参阅 http://subversion.tigris.org/
+此产品包含由 CollabNet (http://www.Collab.Net/)开发的软件。
+
+可使用以下的仓库存取 (RA) 模块:
+
+* ra_svn : 使用svn网络协议访问仓库的模块。
+  - 处理“svn”方案
+* ra_local : 访问本地磁盘的仓库模块。
+  - 处理“file”方案
+```
+ - FT! Ubuntu自动升级时，没有完整的升级SVN哪！
+
+
+
+== 解决 ==
+
+: 使用新立得:
+ - 重新安装SVN 相关所有 
+ - 问题依然...
+: 编译!
+ - GNU/Linux 下面一般就这板斧招了!
+```
+$ wget -c http://subversion.tigris.org/downloads/subversion-deps-1.4.5.tar.bz2 &
+$ wget -c http://subversion.tigris.org/downloads/subversion-1.4.5.tar.bz2 &
+$ tar xjvf subversion-1.4.5.tar.bz2 
+$ tar xjvf subversion-deps-1.4.5.tar.bz2 
+$ cd subversion-1.4.5
+$ ./configure
+$ make
+$ sudo make install clean
+...
+```
+ - FT!!怎么还是没有``ra_dav``模块?! 
+```
+$ whereis svn
+svn: /usr/bin/svn /usr/X11R6/bin/svn /usr/bin/X11/svn /usr/local/bin/svn /usr/share/man/man1/svn.1.gz
+$ /usr/local/bin/svn --version
+svn，版本 1.4.5 (r25188)
+   编译于 Oct 15 2007，11:03:39
+
+版权所有 (C) 2000-2007 CollabNet。
+Subversion 是开放源代码软件，请参阅 http://subversion.tigris.org/
+此产品包含由 CollabNet (http://www.Collab.Net/)开发的软件。
+
+可使用以下的仓库访问模块: 
+
+* ra_dav : 通过WebDAV(DeltaV)协议访问仓库的模块。
+  - 处理“http”方案
+* ra_svn : 使用svn网络协议访问仓库的模块。
+  - 处理“svn”方案
+* ra_local : 访问本地磁盘的仓库模块。
+  - 处理“file”方案
+```
+
+
+: 解决:
+ - 原来默认的``/usr/bin/svn`` 还是原先安装的 1.4.3 版本
+ - 手工处理一下
+```
+$ sudo mv /usr/bin/svn /usr/bin/svn143
+$ sudo ln -s /usr/local/bin/svn /usr/bin/svn
+```
+ - 哗,世界恢复正当!
+
+
+
+== 心得 ==
++ 确认现象
++ 搜索资料
++ 编译
++ 测试调整
+
+``嗯嗯嗯~自由世界中的不二法典哪!解决问题的...``
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/FLOSS]
+    ,[Subversion http://www.technorati.com/tags/Subversion]

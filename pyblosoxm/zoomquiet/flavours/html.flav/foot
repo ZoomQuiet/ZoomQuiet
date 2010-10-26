@@ -1,0 +1,241 @@
+</div><!-- id="content" class="g33"-->
+</div><!-- id="main" class="g25"-->
+</td><!-- id="main" -->
+</tr>
+<tr><td><!-- id="footer" -->
+
+<div id="funcbarnner">
+<!-- foot function barnners -->
+    <table class="funcbarnner" align="CENTER" border="0">
+    <tr>
+    <td>
+    <!-- LEFT function barnners -->
+    <div id="footeractions" class="sidebar">
+
+  <!-- used in the search text box -->
+  <script type="text/javascript">
+  function set_if(id, if_value, set_value) {
+    field = document.getElementById(id);
+    if (field.value == if_value)
+      field.value = set_value;
+  }
+  </script>
+<h3>Search</h3>
+<form class="form" method="get" action="http://www.google.com/search"
+  onsubmit="new site_search('zoomquiet.org', q.value); return false;">
+  <input type="hidden" name="sitesearch" value="zoomquiet.org" />
+  <input type="text" size="18" name="q" id="query" value="Search" 
+        onfocus="set_if('query', 'Search', '')"
+        onblur="set_if('query', '', 'Search') " />
+</form>
+
+<script type="text/javascript"
+   src="http://www.google.com.hk/uds/api?file=uds.js&v=1.0&key=ABQIAAAAlv7iO6iSrWdXLWy2P0ESwxQsUXuTv2eYBKPcreHKOEV8Fxl8CRT7Gxa-7r7kr05t4FDbQimxwYwf_w">
+</script>
+<script type="text/javascript" src="/pybshare/ajax_search.js"></script>
+
+
+<h3>abt.</h3>
+<ul id="Blogroll">
+    <li>sys.
+        <ul id="BlogrollSubTopic">
+            <li><a href="/pyblosxom/plugin_info/">plugins</a></li>
+            <li><a href="/pyblosxom/recent.html">recents</a></li>
+           
+        </ul><!--id="BlogrollSubTopic"-->
+        </li>
+    <li>livin
+        <ul id="BlogrollSubTopic">    
+        <li>
+<a href="/pyblosxom/Zen/Chinese/918-2006-09-18-10-30.html"><img alt="i Chinese!" src="/pybimage/icon/china.png"/></a>
+<br/>
+<a href="http://www.google.com/talk/"><img alt="i in GTalking!" src="/pybimage/icon/gtalk.png"/></a>
+<br/>
+<a href="http://planet.jabber.org/"><img alt="i in Jabber!" src="/pybimage/icon/jabber.png"/></a>
+<br/>
+<a href="https://mail.google.com"><img alt="i livin GMail!" src="/pybimage/icon/gmail.png"/></a>
+<br/>
+<a href="http://zoomq.livejournal.com/"><img alt="i in livejournal.com" src="/pybimage/icon/lj.png"/></a>
+<br/>
+<a href="http://www.flickr.com/photos/zoomq/"><img alt="i have been pro." src="/pybimage/icon/flickr.png"/></a>
+<br/>
+        </li>
+        <li>
+<a href="http://freebsd.org.cn"><img alt="Get z Great FreeBSD!" src="/pybimage/icon/freebsd.png"/></a>
+<br/>
+<a href="http://www.ubuntu.org.cn/"><img alt="Get z Great Ubuntu!" src="/pybimage/icon/ubuntu.png"/></a>
+<br/>
+<a href="http://www.gnome.org/"><img alt="Get z Great Gnome!"  src="/pybimage/icon/getgnome.png"/></a>
+<br/>
+        </li>
+        <li>
+<a href="http://www.catb.org/hacker-emblem/"><img alt="happy hacking"  src="/pybimage/icon/hacker.png"/></a>
+<br/>
+
+<a href="http://webpages.charter.net/edreamleo/front.html"><img alt="Get LEO -- z Great Literate Programming Env."  src="/pybimage/icon/button-leo.png"/></a>
+<br/>
+
+<a href="http://www.spreadfirefox.com/?q=affiliates&id=0&t=85"><img alt="Get z Great FireFox!" src="/pybimage/icon/getfirefox.png"/></a>
+<br/>
+
+<a href="http://browsehappy.com/why/"><img alt="i hate IE!" src="/pybimage/icon/no_ie_80x15_2.png"/></a>
+<br/>
+        </li>
+        <li>
+<a href="http://www.putty.org"><img alt="Get z Great Putty!"  src="/pybimage/icon/putty.png"/></a>
+<br/>
+<a href="http://www.7-zip.org/"><img alt="i enjoy 7-zip" src="/pybimage/icon/7zip.png"/></a>
+<br/>
+<a href="http://www.irfanview.com/"><img alt="get the great irfanview!" src="/pybimage/icon/irfanview.png"/></a>
+<br/>
+<a href="http://www.gimp.org/"><img alt="Get z Great GIMP!"  src="/pybimage/icon/getgimp.png"/></a>
+<br/>
+<a href="http://www.inkscape.org/"><img alt="Get z Great Inkscape!"  src="/pybimage/icon/getinkscape.png"/></a>
+<br/>
+<a href="http://www.openoffice.org/"><img alt="Get z Great OOo!"  src="/pybimage/icon/ooo.png"/></a>
+<br/>
+        </li>
+        <li>
+<a href="http://www.onlineghibli.com/"><img alt="i watch GHIBLI mov." src="/pybimage/icon/ghibli.png"/></a>
+<br/>   
+<a href="http://www.thematrix101.com/"><img alt="i watch The Matrix" src="/pybimage/icon/martix.png"/></a>
+<br/>   
+<a href="http://www.fifthelement.com/"><img alt="i watch 第五元素" src="/pybimage/icon/fifthelemen.png"/></a>
+<br/>   
+<a href="http://www.imdb.com/title/tt0266697/"><img alt="i watch KILL BILL" src="/pybimage/icon/killbill.png"/></a>
+<br/>   
+<a href="http://en.wikipedia.org/wiki/Star_Wars"><img alt="i watch STAR WAR" src="/pybimage/icon/starwars.png"/></a>
+<br/>   
+<a href="http://www.fox.com/24/"><img alt="i watch 24hours" src="/pybimage/icon/24.png"/></a>
+<br/>   
+<a href="http://www.xfiles.com/"><img alt="i watch X-FILES" src="/pybimage/icon/xfiles.png"/></a>
+<br/>   
+<a href="http://www.startrek.com/startrek/view/series/ENT/"><img alt="i watch StarTrek" src="/pybimage/icon/tng.png"/></a>
+<br/>   
+<a href="http://stargate.mgm.com/"><img alt="i watch StarGate" src="/pybimage/icon/stargate.png"/></a>
+<br/>   
+<a href="http://www.syfy.com/battlestar/"><img alt="i watch Battlestar Galactica" src="/pybimage/icon/galactica.png"/></a>
+<br/>   
+        </li>
+        <li>
+<a href="http://www.douban.com/group/rock/"><img alt="i listen ROCK!" src="/pybimage/icon/rock.png"/></a>
+<br/>
+<a href="http://www.douban.com/group/together/"><img alt="i listen REGGAE" src="/pybimage/icon/reggae.png"/></a>
+<br/>
+<a href="http://www.douban.com/group/jazz/"><img alt="i listen JAZZ" src="/pybimage/icon/jazz.png"/></a>
+<br/>
+        </li>
+        </ul><!--id="BlogrollSubTopic"-->  
+    </li><!-- livin -->
+    <li>powered
+        <ul id="BlogrollSubTopic">
+        <li>
+<a href="http://txt2tags.sourceforge.net"><img  alt="Get z Great t2t!" src="/pybimage/icon/t2tpowered-white.png"/></a>
+<br/>
+<a href="http://wacom.com.cn"><img alt="i usage WACOM replace mouse" src="/pybimage/icon/wacom.png"/></a>
+<br/>
+<a href="http://www.w3.org/TR/xhtml1/"><img alt="i export XHTML" src="/pybimage/icon/xhtml.png"/></a>
+<br/>
+<a href="http://www.w3.org/Style/CSS/"><img alt="i usage CSS2" src="/pybimage/icon/css2.png"/></a>
+<br/>
+        </li>
+        </ul><!--id="BlogrollSubTopic"-->
+    </li><!-- powered -->
+    
+</ul><!-- id="Blogroll" -->
+
+    </div><!-- id="footeractions" class="sidebar"-->
+
+    </td>
+    <td>
+    <!-- MID function barnners -->
+    <div id="zqcategories" class="sidebar">
+<h3>Category</h3>
+<!--
+<a href="/pyblosxom/category-index.html">.:总索引:.</a>
+-->
+$(categorylinks)
+   
+   </div>
+    </td>
+    <td>
+    <!-- RIGHT function barnners -->
+<div id="montharchives" class="sidebar">
+<h3>Archives</h3>
+<ul class="montharchives">
+    $(archivelinks)
+</ul>
+</div>
+    </td>
+    </tr>
+<!--<tr>
+<td COLSPAN="3">
+<div id="cloudtags" class="sidebar">
+<h3>tags Cloud</h3>
+$(tagcloud)
+
+</td>
+</tr>
+-->
+    </table> <!-- class="funcbarnner" -->
+<!-- END foot function barnners -->
+</div><!-- id="funcbarnner"-->
+
+<div id="footer" class="g33">&sect;
+<a href="#">$(blog_title)</a> is prowdly powered by   <a href="http://pyblosxom.sourceforge.net/"><img src="http://pyblosxom.sourceforge.net/images/pb_pyblosxom.gif" alt="Made with PyBlosxom" border="0" /></a>
+v1.5-rc1 20100129
+|
+theme base on <a href="http://www.bestwpthemes.com/doc/">"Doc"</a>
+&sect;
+<br/>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/cn/88x31.png" /></a>
+<br />&#26412;<span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">&#20316;&#21697;</span>&#30001;<span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Zoom.Quiet</span>&#21019;&#20316;&#65292;&#37319;&#29992;<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/">&#30693;&#35782;&#20849;&#20139;&#32626;&#21517;-&#30456;&#21516;&#26041;&#24335;&#20849;&#20139; 2.5 &#20013;&#22269;&#22823;&#38470;&#35768;&#21487;&#21327;&#35758;</a>&#36827;&#34892;&#35768;&#21487;&#12290;
+<!--<br />-->&#22522;&#20110;<a xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://blog.zoomquiet.org" rel="dc:source">blog.zoomquiet.org</a>&#19978;&#30340;&#20316;&#21697;&#21019;&#20316;&#12290;
+
+</div> <!-- id="footer" -->
+
+<div class="clear"></div> 
+
+</td><!-- id="footer" -->
+</tr>
+</table><!-- main page structure-->
+
+</div> <!--end for class="container"-->
+
+<!-- for syntaxhighlighter_2.1.364_zh Include required JS files -->
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shCore.js"></script>
+<!-- At least one brush, here we choose JS. You need to include a brush for every language you want to highlight -->
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPlain.js"></script>
+
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushJScript.js"></script>
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushCss.js"></script>
+
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPython.js"></script>
+
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushErlang.js"></script>
+
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPlain.js"></script>
+
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushSql.js"></script>
+
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushDiff.js"></script>
+
+<!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
+<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+
+
+<!-- Finally, to loading jQuery Ajax Lib. 
+<script type="text/javascript" src="/pybshare/jquery-1.4.2.min.js"></script>
+-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="/pybshare/jquery-pybactions.js" type="text/javascript"></script>
+
+
+
+</body>
+</html>

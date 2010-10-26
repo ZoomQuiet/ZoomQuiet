@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<title>LDAP的内存泄露
+</title>
+<ipaddress>221.219.160.31</ipaddress>
+<author>is</author>
+<link>a href=http://blog.scaner.i.thu.cn/http://blog.scaner.i.thu.cn//a</link>
+<email>scaner@gmail.com</email>
+<source></source>
+<pubDate>1143648132.48</pubDate>
+<description>呵呵，为啥国人就不喜欢在BLog上评论喃。前两天和Ruby斗争结果也一样，压根就和VM没有什么关系。关心一下用的是什么版本的OpenLDAP啊，Leak是在Client还是在Server?&lt;br /&gt;
+&lt;br /&gt;
+BTW: txt2tag这个东西，看起来不错啊。不过感觉生成的页面有点粗啊，特别是在IE下面看.</description>
+</item>

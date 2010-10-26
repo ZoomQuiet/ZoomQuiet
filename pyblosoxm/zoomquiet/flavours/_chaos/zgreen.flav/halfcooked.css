@@ -1,0 +1,186 @@
+h1 { 
+  font-family: Verdana, arial, helvetica, sans-serif; 
+  font-size: 24pt;
+  line-height: 30pt;
+  font-weight: 100; 
+  margin: 0px; 
+  text-align: center;
+}
+
+h2 { 
+    font-family: Verdana, arial, helvetica, sans-serif; 
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    /* letter-spacing: .1em; */
+}
+
+h3 { 
+  background-color: #999966;
+  font-size: 12px; 
+  line-height: 100%; 
+  margin: 1px; 
+}
+
+body {
+  background-color: #C9C994;
+  font-family: Verdana, arial, helvetica, sans-serif; 
+  font-size: 10pt;
+  /* line-height: 120%; */
+  margin: 0px 0px 10px 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+ul.plain { list-style-type: none;
+           margin-left: 5px;
+           padding-left: 5px;
+         }
+
+a { 
+  color: #000066;
+  text-decoration:none; 
+}
+
+a:hover { 
+  color: #990000;
+  text-decoration: underline; 
+}
+
+a:visited { 
+  color: #006600;
+}
+
+#banner { font-family:verdana, arial, sans-serif;
+          color:#FFF;
+          background:#996;
+          font-size:20px;
+          font-weight:normal;
+          border-bottom:1px;
+          border-top:3px solid #996;
+          padding:15px; 
+          text-transform:uppercase;
+          letter-spacing: .2em;
+}
+
+#content { 
+    float:left;
+    position: absolute;
+    width:65%;
+    border-right:1px dotted #996;
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom:20px;
+}
+
+#content h3 {
+        background-color: #C9C994;
+        font-size: 11px; 
+        border:1px solid #996;
+        padding:5px;
+        margin-bottom:10px;
+        font-weight:normal;
+}
+
+
+#links { 
+    position: absolute;
+    left: 70%;
+    width: 27%;
+    margin-right: 1%;
+    padding-right:15px; 
+}
+
+#links h4 {color:#666;
+             background:#996;
+             font-size:9px;
+             font-weight:bold;
+             line-height:14px;
+             padding:2px;
+             margin-top:10px;
+             text-align:center;
+             text-transform:uppercase;
+             letter-spacing: .2em;
+}
+
+#links ul { 
+    list-style-type: none; 
+    margin-left: 0px;
+    padding-left: 5px;
+}
+
+#links li {
+    text-align: left;
+}
+
+img { 
+  border: none;
+}
+
+cite { 
+  font-style: normal;
+}
+
+acronym[title], abbr[title], cite[title] { 
+  border-bottom: 1px dotted black;
+  cursor: help;
+}
+
+#title { 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+#entries { 
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 76%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+         
+#footer { 
+  background: #C9C994;
+  padding-top: 5px;
+  text-align: right;
+}
+
+.code { 
+  font-family: courier, monospace;
+  font-size: 10pt;
+  line-height: 110%;
+  margin-left: 4em;
+}
+
+.centre {
+    text-align: center;
+}
+
+.inlinecode {
+  font-family: courier, monospace;
+  font-size: 10pt;
+  line-height: 110%;
+}
+
+.toc {
+  margin: 1px 0px 2px 0px  
+}
+
+.blogfooter { 
+  font-size: x-small;
+}
+
+/* Some classes for my CV, produced using XMLResume */
+.skillSetTitle, .jobTitle {
+    font-weight: bold;
+}
+
+.employer {
+    font-style: italic;
+}

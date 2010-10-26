@@ -1,0 +1,30 @@
+ solidot.org
+呜乎哀哉，开始问题了……
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+: **[solidot.org http://solidot.org/]**
+    Geek新闻中心 中文版本
+    今天看突然变成这样子：      
+    呜乎哀哉！技术新闻站点哪！
+    看的也是非常古老的发布配置…………
+:
+[/pybimage/snap-solidot-error.png]
+
+
+[/pybimage/technorati-over.gif]
+    [chinese http://www.technorati.com/tags/chinese]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[internet http://www.technorati.com/tags/internet]
+% #::tags OpenSource,PyBlosxom
+------------------------------
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+
+% Leo 4.7.1 final: 编辑
+
+

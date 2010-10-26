@@ -1,0 +1,83 @@
+[core]fileentry.py
+增补模板元素
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+= fixed =
+
+: Why?
+    [t2t支持的遗留问题 ../060120-PyblosxomFixLog3.phtm#toc5]
+    - 现在我的Blog 基本就两种文件格式:
+        + .py 脚本文件
+        + .t2t 文章
+    - 但是模板中 t2t 额外给出的下载 .t2t和.moin 对 .py 的文件不适用！
+
+: problem
+    [模板有效输出值 http://pyblosxom.sourceforge.net/1.3/manual/x307.html#AEN356]
+    的说明中有问题！
+    - **file_path**	just the filename and extensions of the entry
+    - 实际上没有后缀！
+    - 所以！
+: hacked:
+    //path/to/site-packages/Pyblosxom/entries/fileentry.py//
+```
+::brush: py
+#147 line...
+        self['entryext'] = ext
+        self['filebasename'] = file_basename
+```
+    追加我需要的变量！
+: 模板处理:
+    这样一来**story.***的模板中就可以对应修正输出了！
+```
+::brush: html
+| <a href="$base_url/$file_path_urlencoded.$flavour" 
+    title="permalink">#
+    永久链接</a><!--permanent link to this entry-->
+    <sup>    
+    <a href="/entry/$file_path_urlencoded$entryext">
+    $entryext</a>
+    <a href="/entry/$file_path_urlencoded.t2t">
+    .t2t</a>
+    <a href="/entry/$file_path_urlencoded.moin">
+    .moin</a>
+    </sup>
+```
+
+
+
+
+
+
+
+= TODO =
+
+: contribute 分发!
+    接踵而来的就是如何标准化的反馈社区，
+    贡献代码了…………
+: 进一步的:
+    Pyblosxom的模板属于简单模板，在模板中不能加入逻辑的，
+    所以现在虽然对.py 的文章有了直接下载链接，但是，没有自动生成的.moin 
+    和约定的.t2t 下载并不应该有…………
+    向社区建议吧…………
+
+
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]
+    ,[SNS http://www.technorati.com/tags/SNS]

@@ -1,0 +1,51 @@
+[FFox]searchplugins
+手工定制搜索引擎使用
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+
+: 定制tips:
+    如何快速定制地址栏旁边的搜索引擎？
+    - [清风 http://qingfeng.ushared.com/blog/] 指点
+    + 手工修改:
+        - ``Mozilla.org\FireFox\searchplugins\``
+        - 其中的图片和对应的 .src
+    + 重启 FireFox!
+
+: 注意:
+    .src 中的:
+```
+<browser
+    update="https://addons.mozilla.org/searchplugins/updates/google.src"
+    updateIcon="https://addons.mozilla.org/searchplugins/updates/google.gif"
+    updateCheckDays="1"
+>
+```
+    可清 以免自动更新掉！
+
+: [/pybimage/snap060125-ffox-searcheng.png]
+    我为了使用 google 定义了 [asia.google http://asia.google.com]
+    ; [google.cn http://www.google.cn]
+    两个引擎
+    - 一般讲早上可用 [asia.google http://asia.google.com]的，
+    - 全天可用[google.cn http://www.google.cn]的
+    - [www.google http://www.google.com] 就看运气了…………
+    -
+
+------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[Mozilla http://www.technorati.com/tags/Mozilla]
+    ,[FireFox http://www.technorati.com/tags/FireFox]
+

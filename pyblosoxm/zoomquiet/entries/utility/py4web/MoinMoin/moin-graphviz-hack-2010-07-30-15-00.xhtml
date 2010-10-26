@@ -1,0 +1,408 @@
+<?xml version="1.0"
+      encoding="UTF-8"
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MoinMoin插件hacking</title>
+<meta name="generator" content="http://txt2tags.sf.net" />
+</head>
+<body>
+
+<div class="header" id="header">
+<a name='toptopSlZYV1MzU' id='toptopSlZYV1MzU'></a><h1>MoinMoin插件hacking</h1>
+<h2>~Graphviz 图谱可点击!</h2>
+</div>
+
+<div class="toc" id="toc">
+  <ol>
+  <li><a href="#toc1R0VYQ0IyT">需求</a>
+    <ul>
+    <li><a href="#toc2R0VYRENMU">1.1. Hacking</a>
+    </li>
+    <li><a href="#toc3R0VYREVMU">1.2. jQuery</a>
+    </li>
+    <li><a href="#toc4R0VYREdMU">1.3. 编码问题</a>
+    </li>
+    </ul>
+  </li>
+  <li><a href="#toc5R0lYQ0JaT">小结</a>
+    <ul>
+    <li><a href="#toc6R0lYRENMU">2.1. 时间清单</a>
+    </li>
+    </ul>
+  </li>
+  </ol>
+
+</div>
+<div class="body" id="body">
+<a id="toc1R0VYQ0IyT" name="toc1R0VYQ0IyT"></a>
+<h1><A href='#toptopSlZYV1MzU'> 1. 需求 </A></h1>
+<p>
+<a href="http://moinmo.in/GraphVizForMoin">GraphVizForMoin</a> 插件部署到MoinMoin 中之后,很爽直!
+</p>
+<p>
+参考: <a href="http://wiki.woodpecker.org.cn/moin/GraphVizForMoin">在维基中使用 Graphviz</a>~ 啄木鸟中的效果
+</p>
+<p>
+可以说,解决了在维基中无法快速表达思维导图的问题:
+</p>
+ <ul>
+ <li>以往都是使用 FreeMind 绘制后截屏附件上来
+ </li>
+ <li>或是使用插件 <a href="http://moinmo.in/ParserMarket/FreeMind">ParserMarket/FreeMind - MoinMoin</a> 将文件使用Flash 控件就地发布出来~中文一直是个问题
+ <p></p>
+但是,使用 Graphviz 的dot 图形脚本在维基中书写图谱一直以来残念的问题是无法输出可点击的有热区的导图!
+ </li>
+ </ul>
+
+<ul>
+<li>有点希望的 <a href="http://moinmo.in/ParserMarket/ImageMap/ReleaseNotes">ParserMarket/ImageMap/ReleaseNotes - MoinMoin</a> 插件使用起来和 dot 命令输出的标准图片热区数据又实在相差太远...
+<p></p>
+怎么整?! 自个儿来!
+</li>
+</ul>
+
+<a id="toc2R0VYRENMU" name="toc2R0VYRENMU"></a>
+<h2><A href='#toptopSlZYV1MzU'> 1.1. Hacking </A></h2>
+<dl>
+<dt>思路:</dt><dd>
+    <ul>
+    <li>hacked MoinGraphViz 令其使用<code>-Tcmapx -o **.mp</code>命令,输出热区定义
+    </li>
+    <li>hacked MoinMoin 相关脚本令输出到HTML 的图片认识可能的热区定义
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<dl>
+<dt>fxied:</dt><dd>
+    <ul>
+    <li><code>path/2/moin运行实例/data/plugin/parser/MoinGraphViz/main.py</code> 是插件的主体
+    </li>
+    <li>很直白,快速就定位了具体代码进行了修订
+    <p></p>
+    </li>
+    </ul>
+</dd>
+<dt>diff:</dt><dd>
+<p></p>
+<pre class="brush:  diff">
+
+Index: tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py
+===================================================================
+--- tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py (revision 16946)
++++ tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py (revision 16975)
+@@ -56,4 +56,5 @@
+         p = request.formatter.page
+         self.renderer = Renderer(tool, targetdir=p.getPagePath('attachments'), encoding=config.charset)
++        self.attapath = p.getPagePath('attachments')
+
+     def format(self, formatter):
+@@ -61,5 +62,10 @@
+         ##w('&lt;div style="border:3px ridge gray; padding:5px; width:95%; overflow:auto"&gt;')
+         s = self.renderer.render(self.raw)
++        imgname = os.path.basename(s)
++        #s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
+         s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
++        #   100728 Zoom.Quiet fixed for include URL hotarea map define
++        pfImgMap = "%s/%s.map"%(self.attapath,imgname)
++        s += fread(pfImgMap)
+         print '[TRACE] attachment URL:', s
+         w(s)
+@@ -182,5 +193,7 @@
+
+ def renderGraphImage(tool, format, imagefilename, dotfilename):
+-    cmd = '%(tool)s -T%(format)s -o"%(imagefilename)s" "%(dotfilename)s"' % locals()
++    #100728 Zoom.Quiet fixed for export URL hotarea map export
++    cmd = '%(tool)s -T%(format)s -o"%(imagefilename)s" -Tcmapx -o "%(imagefilename)s.map" "%(dotfilename)s"' % locals()
++    #cmd = '%(tool)s -T%(format)s -o"%(imagefilename)s" "%(dotfilename)s"' % locals()
+     print '[TRACE] executing:', cmd
+     os.system(cmd
+
+</pre>
+</dd>
+</dl>
+
+<dl>
+<dt>html 输出:</dt><dd>
+<p></p>
+<pre class="brush:  html">
+
+&lt;img alt="graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" 
+class="attachment" 
+src="/moin/KupHostsMapping/MapLegend?action=AttachFile&amp;amp;do=get&amp;amp;target=graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" 
+title="graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" /&gt; 
+&lt;map id="hostLegendG" name="hostLegendG"&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="普配主机" alt="" coords="101,36,173,63"/&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="高配主机" alt="" coords="197,36,269,63"/&gt;
+&lt;/map&gt;
+</pre>
+<p></p>
+<b>注意</b>: 发现,插件是直接使用<code>{{attachment:导图图片名}}</code> 标准的图片附件形式来发布的!
+</dd>
+</dl>
+
+<ul>
+<li>然而,HTML 中要想啓用热区图,至少要有专用属性的对应:
+<pre>
+&lt;img usemap="#俺的ImgMap" src="..."/&gt;
+&lt;map id="俺的ImgMap" name="俺的ImgMap"&gt;
+&lt;area shape="rect" href="..." title="普配主机" alt="" coords="101,36,173,63"/&gt;
+...
+&lt;/map&gt;
+</pre>
+ <ul>
+ <li>在dot 输出的map 数据中,id/name 就是``digraph G { `` 第一行的那个G,可以任意命名,当然最好是E文
+ </li>
+ </ul>
+</li>
+<li>所以,就得找到方法来让 MoinMoin 对附件图片追加<code>usemap</code>属性
+<p></p>
+找哈找,幸好有 <a href="http://manpages.ubuntu.com/manpages/jaunty/man1/ack-grep.1p.html">ack-grep</a> 快速从一堆脚本中定位到靠谱的代码段:
+</li>
+</ul>
+
+<pre>
+path/2/python2.5/site-packages/MoinMoin/formatter/text_html.py
+...
+    def attachment_image(self, url, **kw):
+        ...
+        if exists:
+            ...
+            if not 'alt' in kw:
+                kw['alt'] = kw['title']
+            #   100729 Zoom.Quiet fixed for support imagemap for Graphviz
+            kw['usemap'] = "#%s"%kw['alt']
+            return self.image(**kw)
+        ...
+</pre>
+<p></p>
+<p>
+追加一行就好...
+</p>
+<a id="toc3R0VYREVMU" name="toc3R0VYREVMU"></a>
+<h2><A href='#toptopSlZYV1MzU'> 1.2. jQuery </A></h2>
+<p>
+虽然目标完成了,但是心里总感觉不好:
+</p>
+<ul>
+<li>MoinMoin 本身的脚本被hacking 了,就等于,以后升級,迁移时,都要维护这一hacking
+</li>
+<li>很不 Pythonic 哪...
+<p></p>
+怎么样脱离 MoinMoin 系统本身来给附件图片追加<code>usemap</code> 属性?
+</li>
+<li>答案,自然是的 Ajax 哪
+</li>
+<li>jQuery 就是为这类快速夹塞儿式行为诞生的哪...
+</li>
+</ul>
+
+<dl>
+<dt>部署jQuery:</dt><dd>
+    <ul>
+    <li>这是样式的事儿,所以:
+    <p></p>
+<pre>
+path/2/moin实例/
++-- data
+    +-- plugin
+        +-- theme
+            +-- 你的样式定义脚本
+            +-- woodpecker.py ~ 俺用的
+        def footer(self, d, **keywords):
+            ... # 追加
+            u'&lt;!-- Finally, to loading jQuery Ajax Lib. --&gt;',
+            u'&lt;script src="/wiki/common/js/jquery-1.4.2.min.js" type="text/javascript"&gt;&lt;/script&gt;',
+            u'&lt;script src="/wiki/common/js/jquery-graphviz-map.js" type="text/javascript"&gt;&lt;/script&gt;',
+
++-- htdoc
+    +-- common
+        +-- js
+            +-- jquery-1.4.2.min.js ~ 官方运营用压缩版本
+            +-- jquery-graphviz-map.js  ~ 动态行为定义用
+</pre>
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<dl>
+<dt>使用jQuery:</dt><dd>
+    <ul>
+    <li>看看文档,就两行搞定..
+<pre class="brush:  js">
+
+$(document).ready(function() {
+	$("img[class='attachment']").each(function(){
+	    $(this).attr("usemap","#"+$(this).attr("alt"));
+    });
+});
+</pre>
+     <ul>
+     <li><b>特别的</b>:得考虑一页多个导图时的情况,所以是要进行 <code>each()</code> 循环处置
+     </li>
+     </ul>
+    </li>
+    <li>当然的,需要 <code>MoinGraphViz/main.py</code>插件的配合,以便从附图的 alt 中获得正确的图片热区ID
+    <p></p>
+<pre class="brush:  diff">
+
+Index: tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py
+===================================================================
+--- tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py (revision 17010)
++++ tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py (revision 17013)
+@@ -65,5 +65,8 @@
+         fImgName = os.path.basename(s)
+         pfImgMap = "%s/%s.map"%(self.attapath,fImgName)
+-        s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
++        #s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
++        s = wiki2html(self.request, '{{attachment:%s|%s}}' % (os.path.basename(s)
++                        ,fImgName.split("-")[1])
++                    )
+         #   100728 Zoom.Quiet appended &lt;map&gt; data
+         if os.path.exists(pfImgMap):
+</pre>
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<a id="toc4R0VYREdMU" name="toc4R0VYREdMU"></a>
+<h2><A href='#toptopSlZYV1MzU'> 1.3. 编码问题 </A></h2>
+<p>
+一切表现良好,无意间发现凡是有URL包含的 dot 图谱,被其它页面包含时就出错!
+</p>
+<p>
+<img align="middle" src="/pybimage/2010/moin-graphviz-erro-2010-07-30-121804_780x382_scrot.png" border="0" alt=""/>
+</p>
+<dl>
+<dt>囧rz...:</dt><dd>
+</dd>
+</dl>
+
+<ul>
+<li>尝试各种编码,未果
+</li>
+<li>嘗試各种&lt;map&gt;的包装形式:
+    <ol>
+    <li>使用  &lt;pre&gt;
+    </li>
+    <li>使用  &lt;textarea&gt;
+    </li>
+    </ol>
+</li>
+<li>都在  Include 时,可怜的出错了...
+</li>
+<li>实在是因为 MoinMoin 不想处理正常的 HTML 标签属性的其它编码内容
+</li>
+<li>好吧,俺就不给出无用的中文内容!
+</li>
+<li><code>path/2/moin运行实例/data/plugin/parser/MoinGraphViz/main.py</code> 追加一小段正则表达式替换
+</li>
+</ul>
+
+<pre class="brush:  py">
+
+    def format(self, formatter):
+        w = self.request.write
+        #...
+        #   100728 Zoom.Quiet appended &lt;map&gt; data
+        if os.path.exists(pfImgMap):
+            import re
+            p=re.compile( 'title=\".+?\"')
+            s += p.sub("title=\"\"",fread(pfImgMap))
+            #s += fread(pfImgMap)
+
+</pre>
+<p></p>
+<dl>
+<dt>HTML 输出:</dt><dd>
+<p></p>
+<pre class="brush:  html">
+
+&lt;img alt="graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" 
+class="attachment" 
+src="/moin/KupHostsMapping/MapLegend?action=AttachFile&amp;amp;do=get&amp;amp;target=graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" 
+title="graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" /&gt; 
+&lt;map id="hostLegendG" name="hostLegendG"&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="" alt="" coords="101,36,173,63"/&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="" alt="" coords="197,36,269,63"/&gt;
+&lt;/map&gt;
+</pre>
+</dd>
+</dl>
+
+<p>
+一切安定了...
+</p>
+<a id="toc5R0lYQ0JaT" name="toc5R0lYQ0JaT"></a>
+<h1><A href='#toptopSlZYV1MzU'> 2. 小结 </A></h1>
+<ul>
+<li>思路不乱的情况下,主要问题就是定位代码段!以及测试!
+    <ul>
+    <li>面对一运行中的MoinMoin 进行测试开发时
+    </li>
+    <li>使用sshfs 可以快速挂接远程服务器的任意目录,非常方便!
+    </li>
+    <li>使用沙箱页面进行修订插件的测试,可以避免正常文章页面的中间调试失常..
+    </li>
+    <li>在调试中,直接输出预想数据到 HTML 里看,比看系统日志,使用print 要方便
+    </li>
+    <li>MoinMoin 有完备的缓冲机制,要及时看到修订效果,得重启HTTPD     
+    </li>
+    </ul>
+</li>
+<li>jQuery 真的很好用,也好学!
+</li>
+</ul>
+
+<dl>
+<dt>下载:</dt><dd>
+    diff: <a href="/pybnodes/utility/py4web/MoinMoin/MoinMoin_parser_MoinGraphViz_main.py-from-r16946-to-r17013.diff">MoinMoin_parser_MoinGraphViz_main.py-from-r16946-to-r17013.diff</a>
+</dd>
+</dl>
+
+<a id="toc6R0lYRENMU" name="toc6R0lYRENMU"></a>
+<h2><A href='#toptopSlZYV1MzU'> 2.1. 时间清单 </A></h2>
+<ol>
+<li>00:05 定目标
+</li>
+<li>00:15 准备环境
+</li>
+<li>01:30 探查运行环境,明确修订目标脚本
+</li>
+<li>01:45 插件修订完成
+</li>
+<li>00:15 图片应用map jQuery 嘗試
+</li>
+<li>00:35 图片插入系统修订完成
+</li>
+<li>01:00 正则表达式+jQuery 解决 Incldue() 时的编码问题
+</li>
+<li>00:45 整理代码,发布到Blog
+</li>
+<li>00:35 整理代码,反馈到MoinMoin.in
+</li>
+<li>00:40 8次中断,回到工作场景的心理浪费
+</li>
+</ol>
+
+<p>
+<b>总计:</b> ~ 6小时
+</p>
+<hr class="light" />
+<ul>
+<li>t2t渲染:: 2010-10-09 02:21:37
+</li>
+<li>动力源自::<b><a href="http://txt2tags.sf.net">txt2tags</a></b>
+</li>
+</ul>
+
+</div>
+
+<!-- xhtml code generated by txt2tags 2.4 (http://txt2tags.sf.net) -->
+<!-- cmdline: txt2tags ./utility/py4web/MoinMoin/moin-graphviz-hack-2010-07-30-15-00.t2t -->
+</body></html>

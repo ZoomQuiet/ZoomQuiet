@@ -1,0 +1,5 @@
+First Post
+#tags init,PyBlosxom,txt
+<p>
+  This is the first post in my blog.
+</p>

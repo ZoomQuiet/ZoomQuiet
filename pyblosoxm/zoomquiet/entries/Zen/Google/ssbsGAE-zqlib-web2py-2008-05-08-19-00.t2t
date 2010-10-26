@@ -1,0 +1,81 @@
+[ssbsGAE]running web2py
+~在GoogleAppEngine 中跑web2py
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+
+= ssbsGAE =
+
+ slow step by step GAE::
+  - 慢慢使用GAE
+  - 俺计划将基于GAE 的使用体验使用 `[ssbsGAE]` 的标签长期完整的记录分享下来 ;-)
+
+
+== web2py ==
+
+为什么先选择了 `web2py`?
+ - 因为俺比较懒散
+ - [web2py http://www.web2py.com/]
+ - Python web app. framework 中最 Rails 样的新兴实现！
+ - 将核心引擎打造的足够`K.I.S.S` 自然使用之！
+  - M ~ DB的ROM 足够快和全面
+  - C ~ 完全OO而且可以在线编辑的控制层
+  - V ~ 模板系统非常友好，可以直接嵌入 Py 脚本段！
+  - D ~ 设计界面内置在系统中！
+ - 而且文档齐全！
+
+
+,[/pybimage/2008/web2py/gluon-web-framework.png];
+
+
+== zqlib ==
+
+[Zqlib. http://wiki.woodpecker.org.cn/moin/ZqLib] ~ 挖了N久的坑了！
+ - 目标也一直在变化着
+ - 现在就先成为自个儿的想法/代码/知识片段收集仓库吧
+ - 算是比Blog 要自在,但是没有 wiki 开放的地儿,先
+
+
+== go! ==
+
+- 下载web2py:``svn co http://web2py.googlecode.com/svn/trunk/ web2py-read-only``
+- 直接就可以运行:
+
+,[/pybimage/2008/web2py/2008-05-08-145319_0-start_scrot.png];
+
+ - 哗,还给了 GUI 的服务台控制器!
+
+- 直接对目录进行修减,在 GAE SDK 中试运行一下:
+
+,[/pybimage/2008/web2py/2008-05-08-165528_1-loctest_scrot.png];
+
+ - 嗯嗯嗯,除了警告一切正常!
+ - 参考:[web2py in GAE http://blog.donews.com/limodou/archive/2008/05/08/1287684.aspx] ~ limodou
+
+
+- 上传应用:``python appcfg.py update zqlib/``
+
+,[/pybimage/2008/web2py/2008-05-08-165659_2-GAE_scrot.png];
+
+ - 成了!
+
+
+== TODO ==
+
++ 使用gae.db
++ 使用 GBase
++ 使用 reST/t2t
++ 发布 RESTful 接口
+
+
+------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+

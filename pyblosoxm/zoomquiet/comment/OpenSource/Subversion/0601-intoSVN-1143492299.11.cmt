@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<title>Subversion
+</title>
+<ipaddress>219.239.221.66</ipaddress>
+<author>will</author>
+<link>再测试发现</link>
+<email>ddxxk@21cn.com</email>
+<source></source>
+<pubDate>1143492299.11</pubDate>
+<description>[/]&lt;br /&gt;
+*=r&lt;br /&gt;
+[/user1/u1]&lt;br /&gt;
+u1=rw&lt;br /&gt;
+[/user2/u2]&lt;br /&gt;
+u2=rw&lt;br /&gt;
+&lt;br /&gt;
+有前面订定所有用户可读时可以使用U1和U2有效,但这样同我原来想达到的U1和U2只对自己目录内容读写,互相隔离的目标差的太远了．</description>
+</item>

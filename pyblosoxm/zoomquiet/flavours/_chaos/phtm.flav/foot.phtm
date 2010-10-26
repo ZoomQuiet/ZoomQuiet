@@ -1,0 +1,365 @@
+<div id="Poweredby" class="slotbar" style="display:;">
+<a href="http://pyblosxom.sourceforge.net/">
+[PyBlosxom]$pyblosxom_version</a>
+
+| <a href="http://python.org/">[Python]</a>
+| <a href="http://freebsd.org/">[FreeBSD]</a>
+| <a href="http://apache.org/">[Apache]</a>
+</div>
+<div id="CreativeCommons" class="slotbar">
+<!--Creative Commons License-->
+一切内容使用
+<br/>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
+</a>
+<br />
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+Creative Commons Attribution-Noncommercial-Share Alike 3.0 License
+</a>.
+
+<!--
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">
+<img alt="Creative Commons License" border="0" src="http://creativecommons.cn/images/public/somerights.gif"/></a>
+<br/>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons License
+<br/><b>by-nc-sa</b></a>
+<br/>许可证
+-->
+
+<!--/Creative Commons License-->
+
+</div><!-- id="CreativeCommons"-->
+
+
+</div> <!-- End of content div -->
+
+
+<div id="links">
+<!--
+    <h4>popular TAGs</h4>
+    $tagcloud
+-->
+<div id="google">
+<!-- SiteSearch Google -->
+<form method="get" action="http://asia.google.com/custom" target="google_window">
+<table border="0" class="SiteSearch_Google">
+<tr><td nowrap="nowrap" valign="top" align="left" height="32">
+
+<br/>
+<input type="hidden" name="domains" value="blog.zoomquiet.org"></input>
+<input type="text" name="q" size="17" maxlength="255" value=""></input>
+<input type="submit" name="sa" value="Google 搜索"></input>
+</td></tr>
+<tr>
+<td nowrap="nowrap">
+<table>
+<tr style="display:none">
+<td>
+<input type="radio" name="sitesearch" value="blog.zoomquiet.org" checked="checked"></input>
+<font size="-1" color="#ffffff">blog.zoomquiet.org</font>
+</td>
+</tr>
+</table>
+<input type="hidden" name="client" value="pub-4733138268341333"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="channel" value="7476703136"></input>
+<input type="hidden" name="ie" value="UTF-8"></input>
+<input type="hidden" name="oe" value="UTF-8"></input>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"></input>
+<input type="hidden" name="hl" value="zh-CN"></input>
+</td></tr></table>
+</form>
+<!-- SiteSearch Google -->
+
+
+</div><!-- id="google"-->
+    <div id="blosxomCalendar"  class="slotarea">
+    $calendar
+    </div>
+    
+    <h4>AboutMe</h4>
+    <div id="AboutMe" class="slotarea">
+    <a href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet">
+    <img alt="My Wiki Page"  src="/styles/Zoomq_1-1_flickr.jpg"/></a>
+    
+    <br/>
+    <b><a href="mailto:Zoom.Quiet@gmail.com">Zoom.Quiet
+    </a>
+    </b>
+    <SUP>
+    <a href="http://www.douban.com/group/zoomquiet/">
+    ::<img alt="My DOUBAN Group"  src="/entry/pic/douban-ico.png"/>
+    </a>
+    </SUP>
+    
+    <a href="http://wiki.woodpecker.org.cn/moin/ZPyUG">
+    珠三角Py用户组<sup>成员</sup>
+    </a>
+    <!--zoomq::071011 add 哪咤支持
+    <br/><a href="http://www.anothr.com/add?url=http://blog.zoomquiet.org/pyblosxom/"><img src="http://www.anothr.com/images/addtoanothr7.gif" border="0" alt="Subscribe by Anothr"/></a><span style="font-size:10px;display:block;color:DarkGray;line-height:1.2em">订阅到一切</span>
+    -->
+    
+    </div>    <h4>Categories</h4>
+<div id="Categories" class="slotarea">
+$categorylinks
+
+<!--zoomclouds-->
+</div>
+
+
+    
+        <h4>Menu</h4>
+    <div id="Menu" class="slotarea">
+    <ul>
+    <!--
+    <li><a href="$base_url/guestbook/index">
+        访客留言::guestbook</a></li>
+    -->
+    <li><a href="$base_url/plugin_info">
+        插件信息::Plugins running($plugincount)</a></li>
+    
+    <li><a href="$base_url/recent">
+        最新更动::Recent activity</a></li>
+    
+    </ul>
+    
+    </div>
+    
+    <!--
+    
+    -->
+    <h4>Recent Comments</h4>
+    <div id="RecentComments" class="slotarea">
+    $latest_comments
+    
+    </div>
+    
+    
+    <h4>Blogroll</h4>
+    <div id="Blogroll" class="slotarea">
+    
+    <ul id="Blogroll">
+    <li>    <div id="cloud">[PyBlosxom]
+    </div>
+    <ul> 
+        <li><a href="http://bluesock.org/~willg/blog">
+            Will Guaraldi</a>
+            <sup>
+            <a href="http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki">
+            's Plugins</a>
+            </sup></li>
+        <li><a href="http://www.sauria.com/blog">
+            Ted Leung</a></li>
+        <li><a href="http://llimllib.f2o.org/blog/serve/keyword/pyblosxom">
+            Bill Mill</a></li>
+        <li><a href="http://copia.ogbuji.net/blog">
+            copia.ogbuji</a></li>
+        <li><a href="http://zork.net/motd/">
+            Nick Moffitt</a></li>
+            
+    </ul>
+    
+    <li>    <div id="cloud">[CPUG]
+    </div>
+    
+    <ul>
+        <li><a href="http://www.donews.net/limodou/">
+            Limodou</a>
+            <sup>
+            <a href="http://my.donews.com/limodou/">
+            @my.donews</a>
+            </sup></li>
+        <li><a href="http://qingfeng.ushared.com/blog/">
+            清风</a>
+            <sup>
+            <a href="http://blog.donews.com/changzheng/">
+            @donews</a>
+            </sup></li>
+    
+    </ul>    <li>    <div id="cloud">[OpenPeople]
+    </div>
+    
+    <ul>
+        <li><a href="http://www.cathayan.org/">
+            cathayan</a>
+            <sup>
+            <a href="http://blog.cathayan.org/">
+            Blog on 27th Floor</a>
+            </sup></li>
+        <li><a href="http://www.delphij.net/">
+            delphij</a>
+            <sup>
+            <a href="http://blog.delphij.net/">
+            delphij's Chaos</a>
+            </sup></li>
+        <li><a href="http://billxu.com/">
+            Bill Xu</a>
+    
+        </li>
+            
+    </ul>
+    
+    
+    <li>    <div id="cloud">[Blogger]
+    </div>
+    <ul>
+        <li><a href="http://spaces.msn.com/members/EWEN-1985/PersonalSpace.aspx?_c01_blogpart=blogmgmt&_c=blogpart">
+            维罗烈嘉</a>
+            <sup>
+            <a href="http://www.douban.com/group/swe/">
+            @豆瓣</a>
+            </sup></li>
+        <li><a href="http://www4.uuzone.com/blog/yezi">
+            YeZi</a></li>
+            
+    </ul>    </ul>
+    
+    </div>    
+    <h4>Syndication</h4>
+    <div id="Syndication" class="slotarea">
+    <ul>
+    <li><a href="$base_url/index.atom">
+        [Atom]</a></li>
+    <li><a href="$base_url/index.rss">
+        [RSS1]</a></li>
+    <!--
+    Zoomq::060613 乱码! 先不用
+    <li><a href="$base_url/index.rss20">
+        [RSS2]</a></li> 
+    
+    -->
+    </ul>
+    </div>
+    
+    <h4>Extra</h4>
+    <div id="extra" class="slotarea">
+    
+    <ul>
+    <li><a href="http://www.python.org/">[Python]</a></li>
+    <li><a href="http://planetpyblosxom.org/">[PyBlosxom Planet]</a></li>       
+    <li><a href="http://validator.w3.org/check/referer">
+        [Xhtml]</a></li>
+    <li><a href="http://jigsaw.w3.org/css-validator">
+        [CSS2]</a></li>
+    <li><br/></li>
+    <li><a href="http://www.ubuntu.org.cn/">
+    <img alt="Get z Great Ubuntu!"  src="/entry/pic/icon/getubuntu.png"/>
+    </a></li>
+    <li><a href="http://www.spreadfirefox.com/?q=affiliates&id=0&t=85">
+    <img alt="Get z Great FireFox!"  src="/entry/pic/icon/getfirefox.png"/>
+    </a></li>
+    <li><a href="http://www.gnome.org/">
+    <img alt="Get z Great Gnome!"  src="/entry/pic/icon/getgnome.png"/>
+    </a></li>
+    <li><a href="http://webpages.charter.net/edreamleo/front.html">
+    <img alt="Get LEO -- z Great Literate Programming Env."  src="http://leo.zwiki.org/button-leo.png"/>
+    </a></li>
+    
+    
+    <li><a href="http://www.gimp.org/">
+    <img alt="Get z Great GIMP!"  src="/entry/pic/icon/getgimp.png"/>
+    </a></li>
+    <li><a href="http://www.inkscape.org/">
+    <img alt="Get z Great Inkscape!"  src="/entry/pic/icon/getinkscape.png"/>
+    </a></li>
+    
+    <!--
+    <li>
+    <a href="http://songbirdnest.com"><img src="http://songbirdnest.com/files/images/button_jetpack.png" border="0" alt="Get Songbird"/></a>
+    </li>
+    -->
+    <li><a href="http://www.fsf.org/">
+    <img alt="Free software is a matter of liberty not price."  src="/entry/pic/icon/member-button-fsf.png"/>
+    </a></li>
+    
+    
+    </ul>
+    
+    </div>    <table align="center">
+        <tr>
+        <td>
+        </td>
+        <td>
+        <b><a href="http://www.google.com/events/developerday/zh_CN/details.html">
+        我去ed</a></b>
+        <br/>
+        
+        <a href="http://www.google.com/events/developerday/zh_CN/details.html">
+        <img alt="GDD 2007!"  src="/entry/pic/icon/GDD_2007.gif"/>
+        </a>
+    <img alt="GDD with Guido"  src="/entry/pic/070531withGuido.png"/>
+    
+        </td>
+        </tr>
+    
+    <tr>
+    <td>
+    <a href="http://us.pycon.org/TX2006/HomePage">
+    <img src="http://blog.zoomquiet.org/entry/pic/0602-pycon-logo.gif"/>
+    </a>
+    </td>
+    <td>
+    <a href="http://us.pycon.org/TX2006/HomePage">
+    sprint 
+    <br/>and more!
+    </a>
+    </td>
+    
+    </tr>
+    </table>
+    
+    <h4>Archive</h4>
+    <div id="Archive" class="slotarea">
+    $archivelinks
+    </div>
+    
+    <h4>License</h4>
+    <div id="extra" class="slotarea">
+    
+    <ul>
+    <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/">
+    <img alt="Creative Commons License" 
+     style="border-width:0" 
+     src="http://blog.absolute2.cn/wp-content/themes/chaoticsoul-10/images/cc.png" />
+    </a><br/>本站所有内容基于CC发布</li>
+    
+    <li/>
+    
+    </ul>
+    
+    </div>
+    
+
+<!--out door srv.
+<h4>AdSense</h4>
+<div id="AdSense" class="slotarea">
+<script type="text/javascript">
+google_ad_client = "pub-4733138268341333";
+google_ad_width = 250;
+google_ad_height = 250;
+google_ad_format = "250x250_as";
+google_ad_type = "text";
+google_ad_channel ="1462357042";
+google_color_border = "333333";
+google_color_bg = "000000";
+google_color_link = "FFFFFF";
+google_color_url = "999999";
+google_color_text = "CCCCCC";
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<div>
+
+-->
+
+</div> <!-- End of links div -->
+  
+  <!--
+  <img src="http://pyblosxom.sourceforge.net/images/pb_pyblosxom.gif" alt="Made with PyBlosxom" border="0" />
+  -->
+
+</body>
+</html>

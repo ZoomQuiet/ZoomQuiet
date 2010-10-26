@@ -1,0 +1,39 @@
+Index: tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py
+===================================================================
+--- tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py (revision 16946)
++++ tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py (revision 17013)
+@@ -56,4 +56,5 @@
+         p = request.formatter.page
+         self.renderer = Renderer(tool, targetdir=p.getPagePath('attachments'), encoding=config.charset)
++        self.attapath = p.getPagePath('attachments')
+ 
+     def format(self, formatter):
+@@ -61,5 +62,18 @@
+         ##w('<div style="border:3px ridge gray; padding:5px; width:95%; overflow:auto">')
+         s = self.renderer.render(self.raw)
+-        s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
++        #   100728 Zoom.Quiet fixed for include URL hotarea map define
++        fImgName = os.path.basename(s)
++        pfImgMap = "%s/%s.map"%(self.attapath,fImgName)
++        #s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
++        s = wiki2html(self.request, '{{attachment:%s|%s}}' % (os.path.basename(s)
++                        ,fImgName.split("-")[1])
++                    )
++        #   100728 Zoom.Quiet appended <map> data
++        if os.path.exists(pfImgMap):
++            import re
++            p=re.compile( 'title=\".+?\"')
++            s += p.sub("title=\"\"",fread(pfImgMap))
++            #s += fread(pfImgMap)
++            #pass
+         print '[TRACE] attachment URL:', s
+         w(s)
+@@ -182,5 +196,7 @@
+ 
+ def renderGraphImage(tool, format, imagefilename, dotfilename):
+-    cmd = '%(tool)s -T%(format)s -o"%(imagefilename)s" "%(dotfilename)s"' % locals()
++    #100728 Zoom.Quiet fixed for export URL hotarea map export
++    cmd = '%(tool)s -T%(format)s -o"%(imagefilename)s" -Tcmapx -o "%(imagefilename)s.map" "%(dotfilename)s"' % locals()
++    #cmd = '%(tool)s -T%(format)s -o"%(imagefilename)s" "%(dotfilename)s"' % locals()
+     print '[TRACE] executing:', cmd
+     os.system(cmd)

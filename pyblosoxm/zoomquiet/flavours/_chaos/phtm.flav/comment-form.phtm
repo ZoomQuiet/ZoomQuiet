@@ -1,0 +1,43 @@
+<a name="comment_anchor">
+<p>
+  <b>$comment_message</b>
+</p>
+</a>
+
+<div class="blosxomCommentForm">
+<form method="post" action="$base_url/$file_path#comment_anchor" name="comments_form">
+
+<input type="hidden" name="secretToken" value="pleaseDontSpam" />
+<input name="parent" type="hidden" value="$file_path" />
+<input name="title" type="hidden" value="$title" />
+
+
+<input maxlength="50" name="author" size="50" type="text" value="" />
+::名:Name<br />
+
+
+<input maxlength="75" name="email" size="50" type="text" value="" />
+::邮:Mail<br />
+
+
+<input maxlength="100" name="url" size="50" type="text" value="" />
+::址:URL.<br />
+
+注:Comment::<br />
+<textarea cols="50" name="body" rows="9"></textarea><br />
+
+<!--MagicWord AntiSpamer-->
+The Magic Word(防Spamer问答)::<br />
+<i>$mw_question</i><br />
+<input maxlenth="32" name="magicword" size="50" type="text" />
+
+<br />
+<br />
+    <input name="Submit" type="submit" value="就酱::submit" />
+    <input name="reset" type="reset" value="重来::reset" />
+</form>
+
+</div> <!-- ends blosxomCommentForm div -->
+
+</div> <!-- ends blosxomComments div -->
+<!-- end Comments area -->

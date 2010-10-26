@@ -1,0 +1,379 @@
+<?xml version="1.0"
+      encoding="UTF-8"
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TXT2TAGS 示例</title>
+<meta name="generator" content="http://txt2tags.sf.net" />
+</head>
+<body>
+
+<div class="header" id="header">
+<a name='toptopS1JNRklNU' id='toptopS1JNRklNU'></a><h1>TXT2TAGS 示例</h1>
+<h2>~ by ZoomQuiet</h2>
+</div>
+
+<div class="toc" id="toc">
+  <ol>
+  <li><a href="#toc1R0VYQ0JaR">介绍 Intro.</a>
+    <ul>
+    <li><a href="#toc2R0VYRENMU">1.1. 文档声明</a>
+    </li>
+    </ul>
+  </li>
+  <li><a href="#toc3R0lYQ0JaT">字体与美化 Fonts and Beautifiers</a>
+    <ul>
+    <li><a href="#toc4R0lYRENMU">2.1. 美化 Beautifiers</a>
+    </li>
+    <li><a href="#toc5R0lYREVMU">2.2. 更多的装饰 More Cosmetics</a>
+    </li>
+    </ul>
+  </li>
+  <li><a href="#toc6R01YQ0JaT">列表</a>
+    <ul>
+    <li><a href="#toc7R01YRENMU">3.1. 普通列表 Plain List</a>
+    </li>
+    <li><a href="#toc8R01YREVMU">3.2. 数字列表 Numbered List</a>
+    </li>
+    <li><a href="#toc9R01YREdMU">3.3. 定义列表 Definition List</a>
+    </li>
+    </ul>
+  </li>
+  <li><a href="#toc10R1FYQ0IyR">表格 Tables</a>
+  </li>
+  <li><a href="#toc11R1VYQ0JaN">特殊实体 Special Entities</a>
+    <ul>
+    <li><a href="#toc12R1VYRENMU">5.1. 图片 Images</a>
+    </li>
+    <li><a href="#toc13R1VYREVMU">5.2. 其它 Other</a>
+    </li>
+    </ul>
+  </li>
+  </ol>
+
+</div>
+<div class="body" id="body">
+<a id="toc1R0VYQ0JaR" name="toc1R0VYQ0JaR"></a>
+<h1><A href='#toptopS1JNRklNU'> 1. 介绍 Intro. </A></h1>
+<p>
+欢迎阅读 txt2tags 示例文件！
+</p>
+<p>
+这里你可以看到常用的所有 t2t 使用
+</p>
+<p>
+文件的头二行是文档的基本信息，
+按照以下顺序填写:
+</p>
+<pre>
+行 1: 文档标题
+行 2: 作者名，邮箱
+行 3: 日期，时间
+</pre>
+<p></p>
+<p>
+空行，是自然段间的分隔
+</p>
+<p>
+中文用户，一般要再单另一行声明编码:
+</p>
+<pre>
+%!encoding: gb2312
+</pre>
+<p>
+最好使用更加通用的Unicode 编码:
+</p>
+<pre>
+%!encoding: UTF-8
+</pre>
+<p></p>
+<a id="toc2R0VYRENMU" name="toc2R0VYRENMU"></a>
+<h2><A href='#toptopS1JNRklNU'> 1.1. 文档声明 </A></h2>
+<p>
+使用编辑环境时最好加入类似文档声明:
+</p>
+<pre>
+%! Target  : html
+%! Options : --toc --css-inside
+%! Options : --css-sugar
+%! Style   : css/moin.css
+
+</pre>
+<p>
+说明本文输出时的重要参数:
+</p>
+ <ol>
+ <li>输出为标准HTML标签格式
+ </li>
+ <li>要文档标题索引，并将CSS形式表包含在文档内
+ </li>
+ <li>将文章按照结构使用 DIV 层来分离，以便使用CSS来进行美化
+  <ul>
+  <li>就象sample中展示的modern 效果
+  </li>
+  </ul>
+ </li>
+ <li>使用外部指定的一个CSS定义 
+ </li>
+ </ol>
+
+<a id="toc3R0lYQ0JaT" name="toc3R0lYQ0JaT"></a>
+<h1><A href='#toptopS1JNRklNU'> 2. 字体与美化 Fonts and Beautifiers </A></h1>
+<p>
+整体上来说t2t 使用两种字体设定:
+</p>
+<p>
+正常 字体可以使用各种美化处理
+</p>
+<p>
+<code>打印机字体</code> 即“等宽体” 是被预格式化处理的不能被美化处理
+</p>
+<p>
+现在进入详细章节...
+</p>
+<a id="toc4R0lYRENMU" name="toc4R0lYRENMU"></a>
+<h2><A href='#toptopS1JNRklNU'> 2.1. 美化 Beautifiers </A></h2>
+<p>
+就象你在 email 中定义文本样式一样，t2t 可以简单的快速美化字样
+</p>
+<ul>
+<li>双* 产生 <b>加重</b>效果
+</li>
+<li>双/ 产生 <i>斜体</i>效果
+</li>
+<li>双_ 产生 <u>下线</u>
+<p></p>
+并且<i>可以<b>混合</b>使用</i>！
+</li>
+</ul>
+
+<a id="toc5R0lYREVMU" name="toc5R0lYREVMU"></a>
+<h2><A href='#toptopS1JNRklNU'> 2.2. 更多的装饰 More Cosmetics </A></h2>
+<p>
+特殊的内容，比如说 email (<a href="mailto:duh@somewhere.com">duh@somewhere.com</a>) 和
+URL (<a href="http://www.duh.com">http://www.duh.com</a>) 会自动处理
+还有横线:
+</p>
+<hr class="light" />
+<p>
+^ 细的 或是 粗的 v
+</p>
+<hr class="heavy" />
+<p></p>
+<p>
+你也可以定义带URL的标签<a href="http://duh.org">外部链接</a>
+</p>
+<p>
+并且记住,
+</p>
+	<blockquote>
+	在一行前缀一个制表符将产生引用, A TAB in front of the line does a quotation.
+		<blockquote>
+		而且可以嵌套使用用 More TABs, more depth (if allowed).
+		</blockquote>
+	</blockquote>
+<p>
+非常好用的！.
+</p>
+<a id="toc6R01YQ0JaT" name="toc6R01YQ0JaT"></a>
+<h1><A href='#toptopS1JNRklNU'> 3. 列表 </A></h1>
+<p>
+形成一个列表非常的自然，只要在行前使用 <b>减号</b> 或是 <b>加号</b> 
+</p>
+<a id="toc7R01YRENMU" name="toc7R01YRENMU"></a>
+<h2><A href='#toptopS1JNRklNU'> 3.1. 普通列表 Plain List </A></h2>
+<p>
+减号 用来标识默许的列表. 对于嵌套列表只要在行前加 <b>空格</b> ,
+并且很自然的，越多的空格，层次就越深
+</p>
+<ul>
+<li>地球
+  <ul>
+  <li>中国
+    <ul>
+    <li>北京
+      <ul>
+      <li>海淀
+        <ul>
+        <li>还要多深？
+        </li>
+        </ul>
+      </li>
+      </ul>
+    </li>
+    </ul>
+  </li>
+  <li>朝鲜
+    <ul>
+    <li>更多的国家
+    </li>
+    </ul>
+  </li>
+  </ul>
+</li>
+<li>火星
+  <ul>
+  <li>上面有谁？
+  </li>
+  </ul>
+</li>
+</ul>
+
+<p>
+想结束列表，只要使用连续<b>两个空行</b>
+</p>
+<a id="toc8R01YREVMU" name="toc8R01YREVMU"></a>
+<h2><A href='#toptopS1JNRklNU'> 3.2. 数字列表 Numbered List </A></h2>
+<p>
+同样的规则，只是使用 加号，则自动处理为数字式的列表
+</p>
+<ol>
+<li>甲 one
+</li>
+<li>乙 two
+</li>
+<li>丙 three
+  <ul>
+  <li>混合普通列表 mixed lists!
+  </li>
+  <li>没有关系 
+    <ol>
+    <li>继续数字式的 counting again
+    </li>
+    <li>...
+    </li>
+    </ol>
+  </li>
+  </ul>
+</li>
+<li>丁 four
+</li>
+</ol>
+
+<a id="toc9R01YREdMU" name="toc9R01YREdMU"></a>
+<h2><A href='#toptopS1JNRklNU'> 3.3. 定义列表 Definition List </A></h2>
+<p>
+使用冒号，可以引出词典式的列表. 内容是在紧接的下一行
+</p>
+<dl>
+<dt>桔 orange</dt><dd>
+  黄色的水果 a yellow fruit
+</dd>
+<dt>苹果 apple</dt><dd>
+  绿色或是红色的 a green or red fruit
+</dd>
+<dt>其它 other fruits</dt><dd>
+  <ul>
+  <li>嗬嗬 wee!
+  </li>
+  <li>当然可以混合 mixing lists
+    <ol>
+    <li>数字式的 again!
+    </li>
+    <li>带来 and again!
+    </li>
+    </ol>
+  </li>
+  </ul>
+</dd>
+</dl>
+
+<a id="toc10R1FYQ0IyR" name="toc10R1FYQ0IyR"></a>
+<h1><A href='#toptopS1JNRklNU'> 4. 表格 Tables </A></h1>
+<p>
+使用竖线来组成表格,
+双线开始，表示将解析表格，并作为表头
+使用空格对齐来标识每个表格项
+</p>
+<table align="center" border="1">
+<tr>
+<th>表头 1</th>
+<th>表头 2</th>
+<th>表头 3</th>
+</tr>
+<tr>
+<td>内文 1.1</td>
+<td align="center">内文 1.2</td>
+<td align="right">内文 1.3</td>
+</tr>
+<tr>
+<td>内文 2.1</td>
+<td align="center">内文 2.2</td>
+<td align="right">内文 2.3</td>
+</tr>
+</table>
+
+<p>
+没有最后的竖线，则没有边框:
+</p>
+<table align="center">
+<tr>
+<th>表头 1</th>
+<th>表头 2</th>
+<th>表头 3</th>
+</tr>
+<tr>
+<td>内文 1.1</td>
+<td align="center">内文 1.2</td>
+<td align="center">内文 1.3</td>
+</tr>
+<tr>
+<td>内文 2.1</td>
+<td align="center">内文 2.2</td>
+<td align="center">内文 2.3</td>
+</tr>
+</table>
+
+<a id="toc11R1VYQ0JaN" name="toc11R1VYQ0JaN"></a>
+<h1><A href='#toptopS1JNRklNU'> 5. 特殊实体 Special Entities </A></h1>
+<p>
+让事儿都简单哪！
+</p>
+<a id="toc12R1VYRENMU" name="toc12R1VYRENMU"></a>
+<h2><A href='#toptopS1JNRklNU'> 5.1. 图片 Images </A></h2>
+<p>
+非常简单的图片引用方式: <code>[filename]</code>.
+</p>
+                      <center><img align="middle" src="../img/photo.jpg" border="0" alt=""/></center>  
+<ul>
+<li>文件必须是 PNG, JPG, GIF 格式
+</li>
+<li>方框内不能有空格
+</li>
+</ul>
+
+<a id="toc13R1VYREVMU" name="toc13R1VYREVMU"></a>
+<h2><A href='#toptopS1JNRklNU'> 5.2. 其它 Other </A></h2>
+<p>
+<b><code>%%date</code></b> 宏会输出当前日期
+</p>
+<p>
+是标准的ISO <code>YYYYMMDD</code> 格式 20101009 
+</p>
+<p>
+当然可以声明特殊的输出方式
+比如说: <code>%%date(%m-%d-%Y)</code> 会形成: 10-09-2010.
+</p>
+<p>
+That's all ! 现在你知道的足够开始使用 <b>t2t</b> 组织文档了！.
+</p>
+<hr class="light" />
+<p>
+Translated to Chinese by Zoom.Quiet(<a href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet">Zoom Quiet</a>).
+</p>
+<hr class="light" />
+<p></p>
+<hr class="light" />
+<ul>
+<li>t2t渲染:: 2010-10-09 02:21:37
+</li>
+<li>动力源自::<b><a href="http://txt2tags.sf.net">txt2tags</a></b>
+</li>
+</ul>
+
+</div>
+
+<!-- xhtml code generated by txt2tags 2.4 (http://txt2tags.sf.net) -->
+<!-- cmdline: txt2tags ./utility/py4str/StructuredText/t2tdemo-2005-04-01-23-23.t2t -->
+</body></html>

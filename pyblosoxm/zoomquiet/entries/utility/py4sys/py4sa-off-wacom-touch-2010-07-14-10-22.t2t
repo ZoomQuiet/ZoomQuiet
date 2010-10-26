@@ -1,0 +1,127 @@
+[Py4SA]智能关闭触摸板
+--WACOM BAMBOO事务
+t2t渲染:: %%date(%Y-%m-%d %H:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+= 问题 =
+嗯嗯嗯,俺一直使用 WACOM 的数字绘图板替代鼠标的 ；－）
+- 去年生日，老婆升级了俺的 [FAVO CTE-430 http://www.wacom.com.cn/products_before_detail.php?productsid=30]
+到 [BAMBOO CTH-461 http://www.wacom.com.cn/bamboo/case4-1.php]
+- 随着 Ubuntu 10.04系统，一同升级了驱动，非常好用:
+    + 小横板 248.2 x 176.1，和屏幕 1:1 对应，不用拖动，有空间感觉了直接就可以移动到对应区域!
+    + 无线压感笔，直接点击就是左击鼠标
+    + 笔有侧键，配置默认就是原先最舒服的:
+     - 上键是右击
+     - 下键是中击
+- **触摸板的手指点击就不必要了**
+ - 如何令系统不启动触摸板的 ``Touch`` 响应?
+
+
+
+
+
+
+= 尝试 =
+- [Command Line Configuration Interface (xsetwacom) http://linuxwacom.sourceforge.net/index.php/howto/xsetwacom]
+    - 官方是有命令行级别的配置工具的
+    - 但是！真TMD难以看明白哈
+    - 广泛的搜索后，大致明白,xsetwacom 提供两种配置输出:
+        + 命令行用的执行字串
+        + 配置文件中使用的配置文本
+    - 整个使用流程是:
+        + 使用其它系统监察命令，确认 WACOM 设备USB接入后的设备号
+        + 使用 xsetwacom 进行模拟配置，选择输出合适的配置命令
+        + 然后将输出的配置内容,部署到合适的系统启动脚本或是配置文件中
+
+- 俺习惯使用命令行配置,这样可以直接测试是否靠谱,但是发现:
+```
+#! shell
+~> xinput --list 
+⎡ Virtual core pointer                    	id=2	[master pointer  (3)]
+⎜   ↳ Virtual core XTEST pointer              	id=4	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Pen eraser           	id=11	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Pen                  	id=12	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Finger pad           	id=13	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Finger               	id=14	[slave  pointer  (2)]
+⎜   ↳ TPPS/2 IBM TrackPoint                   	id=16	[slave  pointer  (2)]
+⎜   ↳ Macintosh mouse button emulation        	id=18	[slave  pointer  (2)]
+⎣ Virtual core keyboard                   	id=3	[master keyboard (2)]
+    ↳ Virtual core XTEST keyboard             	id=5	[slave  keyboard (3)]
+...
+```
+    - 使用 xinput 探察出来的 **Wacom Bamboo Craft Finger** 触摸板设备号,每次重启系统时不一定一样!
+    - FT! 那就得编程让系统重启时,自个儿探察一下设备号,然后使用固定的配置命令关闭 BAMBOO 对应设备
+
+
+: 如何在Shell 中获取另外系统命令的输出并截获对应数码组合成新的命令?:
+    嗯嗯嗯,,,
+    嗯嗯嗯,,,,直接囧掉!
+    俺没有这种功力!
+
+
+= Py之 =
+
+- 直接使用模板记录要执行的命令,预留可能变动的设备号:
+```
+#! shell
+#!/bin/sh
+### xinput4bamboo.tpl
+sleep 3 && xsetwacom set %s Touch "off"
+
+```
+
+- 配合xinput4bamboo.py 
+```
+#! py
+import sys,os
+if __name__ == '__main__':      # this way the module can be
+    """usage:
+    $ xinput --list | grep "Wacom Bamboo Craft Finger" | python ./xinput4bamboo.py
+    """
+    if sys.stdin:
+        for l in sys.stdin.readlines():
+            if "pad" not in l:
+                bambooid= l.split()[6].split("=")[1]
+                open("xinput4bamboo.sh","w").write(open("xinput4bamboo.tpl").read()%bambooid)
+                os.chmod("xinput4bamboo.sh",0755)
+
+```
+
+- 组合成启动脚本
+```
+#! shell
+#!/bin/sh
+VER="main-rcloc.sh v10.7.14"
+DATE=`date "+%y%m%d"`
+MYRC="/home/zoomq/.zoomq/rc.local"
+#=========================================================== path defines
+LOGF="/var/log/0day/$DATE-myrcloc.log"
+#=========================================================== action defines
+cd $MYRC
+xinput --list | grep "Wacom Bamboo Craft Finger" | python ./xinput4bamboo.py  >> $LOGF 2>&1 
+./xinput4bamboo.sh  >> $LOGF 2>&1 
+```
+
+- 部属成启动应用:
+ - [/pybimage/2010/zoomq-2010-07-14-123737_530x267_scrot.png]
+
+**齐活！** 没有疑惑，随手写成！ 5分钟！
+
+
+
+: Python在Unix和Linux系统管理中的应用(影印版):
+[[/pybimage/2010/s3876423-py4unix-linux-sa.jpg] http://book.douban.com/subject/3767034/]
+- 绝对好书! 值得慢慢看,E文非常简洁,Py清明的代码,直接看/尝试就可以体会到本意了...
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+

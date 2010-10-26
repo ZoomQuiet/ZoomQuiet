@@ -1,0 +1,149 @@
+Subversion
+为了颠覆CVS的版本管理系统！
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+
+= SVN vs CVS =
+
+在本地使用自个儿习惯的格式来写，通过SVN 自动版本同步到PyBlsxom发布！
+
+: 好处：
+    + 使用DB4有事务支持
+    + 二进制文件可版本管理
+    + 速度快！
+    + 离线操作丰富
+    + ...
+    +
+: 坏处:
+    - 使用DB 数据可能//变脏//
+    - DB4 管理复杂
+     - 不过，到了1.2.1以后也支持CVS样儿的文件型数据管理了
+    -
+
+
+
+
+
+
+
+= 啄木鸟的体验 =
+
+很早就使用SVN 进行代码管理了，统一的体验就是快！
+
+[trac of 啄木鸟 http://cvs.woodpecker.org.cn/trac/]
+
+[啄木鸟SVN使用说明 http://wiki.woodpecker.org.cn/moin/AllAboutSubversion]
+
+
+
+= v1.3.0体验 =
+
+: FreeBSD6.0 为准:
+    + 升级ports:
+        - ``portsnap upgrade``
+        - 比以前的什么
+        ``cvsup -sgL2 /usr/share/examples/cvsup/ports-supfile -h cvsup{,2-6}.cn.freebsd.org`` 
+        要直接的多
+    + 安装SVN:
+```
+# cd /usr/ports/devel/subversion
+# make install clean
+```
+    + 创建SVN仓库:
+        - ``svnadmin create --fs-type fsfs /path/to/ur/svnrepo``
+        - 建立使用 [FSFS 存储的仓库 http://www.subversion.org.cn/svnbook/1.1/svn-ch-5.html#svn-ch-5-sect-1.3]
+    + 启动服务:
+        - 选择**svnserve**:
+        - [根据对比 http://www.subversion.org.cn/svnbook/1.1/svn-ch-6.html#svn-ch-6-sect-1]
+        - **svnserve** 模式依赖最小,管理也方便，速度还快！
+        + inetd 方法启动:
+            - 确认:
+```
+    /etc/services 有
+svn           3690/tcp   # Subversion
+svn           3690/udp   # Subversion
+    /etc/inetd.conf 有
+svn stream tcp nowait svnowner /usr/bin/svnserve svnserve -i
+
+```
+            - ``svnserve -i`` 命令启动
+            - 每有请求，就会创建一个svnserve进程，处理完后自杀
+        + 作为独立“守护”进程:
+            - 直接``svnserve -d --listen-port=和--listen-host=``
+            选项来自定义“绑定”的端口和主机名启动
+            - 创建一个驻留内存的进程来影响SVN事务
+            - 也可限制发布:
+```
+svnserve -d -r /path/to/ur/svnrepos/
+```
+            仅仅发布指定的SVN仓库，这样一来访问时就不用知道服务端系统路径了
+            -
+    + 权限管理:
+        - 1.3.0 的SVN提供了足够好用的默许权限控制！
+        不用什么 Apache 的额外支持就足够进行管理了!
+        - //svnserve.conf//中指定:
+```
+password-db = passwd
+authz-db = authz
+...
+```
+        - 就可以在 **passwd** 文件中定义口令
+```
+[users]
+harry = harryssecret
+sally = sallyssecret
+...
+```
+        - **authz** 中进行用户组，代码目录访问权限的分配了
+```
+[groups]
+harry_and_sally = harry,sally
+[/foo/bar]
+harry = rw
+* = 
+[repository:/baz/fuz]
+@harry_and_sally = rw
+* = r
+```
+        - 比以前的只能口令，要丰富，足够的很多了！
+    + 备份管理:
+        - **hotcopy** 真实可用的热备！
+```
+svnadmin hotcopy /path/to/ur/repos /path/to/backup/ &
+```
+    + 事务管理:
+        - 高级，但是实用有趣的 
+        **[HOOKs http://wiki.woodpecker.org.cn/moin/SubversionHooks]** 技术了！
+        - 最基础的 ，将``post-commit.tmpl`` cp 为 post-commit,
+        加入你自个儿的事务脚本
+```
+HOOKS="/path/to/ur/repos/hooks/script"
+$HOOKS/post-commit.py "$REPOS" "$REV"
+```
+        - 啄木鸟现在使用的 [post-commit.py /pyblosxom/OpenSource/Subversion/hooks/post-commit.phtm]自动将检入活动记录在案
+        - 
+    +
+
+
+== 继续 ==
+
+以上是快记，具体使用中的体会，妙处要长期发现记录在案 的…………
+
+
+------------------------------
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+
+% Leo 4.7.1 final: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[hacking http://www.technorati.com/tags/Subversion]
+

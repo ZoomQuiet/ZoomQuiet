@@ -1,0 +1,87 @@
+[hack5]样式！
+颜色系统...FT!
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+= 设计 =
+
+VI系统现在已经算是门手艺了！在下不行！
+
+但是可以偷哪！
+
+以往各种喜欢的网站，都不太吻合心目中的Blogging space ..
+
+原先想直接 clone Vim 的 desert 颜色系统的…………
+
+但是突然记起了:**[deviantart http://services.deviantart.com/]**
+
+[/pybimage/snap060126-deviantart-top.png]
+
+[/pybimage/snap060126-deviantart-abt.png]
+
+
+所以....
+
+
+= 进行 =
+
+: 抓取颜色！
+    [I Like Your Colors! http://www.redalt.com/Tools/ilyc.php] 
+    塞上CSS的URL;
+    自动获取[/pybimage/snap060126-ilikeurcolor.png] 颜色列表,
+    然后就挥舞CSS就好！
+: Flavours的配合
+    这个比较自然，就是在**适当的**地方，加上**适当的**
+    **class 或是 id**
+: 适当的……
+    怎么样是适当的呢？
+    **[Plone http://plone.org/]** 模板的DIV 层叠设计就非常的合理，
+    以前设计过 [CZUG.org http://www.czug.org/about/art/zoomq] 的样式
+    ，所以有些体会…………
+
+
+//但是………………//
+
+= 教训 =
+
+: [MainlyGreen http://pyblosxom.sourceforge.net/blog/registry/flavours/MainlyGreen]
+    此样式，的排版非常古怪，折腾了半天，越调越乱；
+    最后还是调出[自个儿donews http://www.donews.net/ZoomQuiet] 的样式
+    , 使用 69%-25% 的百分比来组织版块。
+: 教训:
+    + CSS 和代码开发一样，没有理解就不能尝试
+    + CSS 的增长比代码还要快,所以最后应该进行精简
+    + CSS2 对IE的兼容性，就不要折腾了，先调试FireFox 再 Opera,最后看IE 再不成，就直接禁止IE访问吧…………
+
+
+= TODO =
+
+: [Dive Into Accessibility http://diveintoaccessibility.org/]
+    中文版本:[网站亲和力 http://dia.z6i.org/cn/];
+    - 网站可访问性的官方网站
+    - 还要继续优化VI
+    - 现在的问题主要在于:
+        + 颜色太个性，没有考虑到 弱视力访问者
+        + 导航太个性，没有考虑到 特殊访问者
+        + 功能没有完全，不能整体来调优 VI
+        +
+    -
+
+
+**VI 是艺术性科学,是挑战，要学习……**
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]

@@ -1,0 +1,99 @@
+[hack7]Plugins
+插件扩展之旅……
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+= 总体上 =
+
+: [贡献规范 http://pyblosxom.sourceforge.net/blog/static/development]
+    约定了开发插件的代码规范！
+    另外有丰富，标准的API信息:
+        + [1.3 API http://pyblosxom.sourceforge.net/1.3/api/index.html]
+        + [1.3 plugin API http://pyblosxom.sourceforge.net/1.3/plugins/index.html]
+        + [1.3 callbacks http://pyblosxom.sourceforge.net/1.3/plugins/public/docs.ReadMeForPlugins-module.html]
+: 故！
+    可以标准化的安装，hacking 和分享！赞！
+: 别传:
+```
+Response Headers - http://pyblosxom.sourceforge.net/1.3/API/index.html
+
+Date: Fri, 27 Jan 2006 03:31:00 GMT
+Server: Apache/1.3.33 (Unix) PHP/4.3.10
+X-Powered-By: PHP/4.3.10
+Connection: keep-alive
+Content-Type: text/html
+Transfer-Encoding: chunked
+
+404 Not Found
+```
+    嘿嘿嘿，无意中发现 PyBlosxom 的服务端使用的是 PHP 发布？！
+
+
+
+= 已安装 =
+
+: 直接使用的
+    + "pycalendar" 日历
+    + "pycategories" 简要分类
+    + "pyarchives" 月度归档
+    + "py" Python 语法颜色渲染
+    + "comments" 评注
+: 少量修改的:
+    + "latest_comments" 最新评注
+: 自个儿开发的:
+    + "xhtml" 简单XHTML 文本格式
+
+
+
+
+= 垂涎的 =
+
+: 安装未果的
+    + "moinmoin" 格式文本处理器(不支持高版本MoinMoin)
+    + "trackback" 安装文档看不明(好象也没有人使用TB 哪!)
+: **一定要安装的**
+    + "commentAPI" 嗯嗯!可以结合Greasemonkey 开发插件式的评注工具哪!
+    + "folksonomy" 呜乎哀哉!垂涎哪!象美味书签哪样儿的标签化分类
+        - "keywords" 同上,类似
+    + [pyguest http://www.codeape.org/blog/static/download] 
+    简单留言板
+
+    + [Will's 系列插件 http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki]
+        + [plugininfo http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/plugininfo] 自动汇报使用插件情况
+        + [pystaticfile http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/pystaticfile]发布静态说明性文章;类似 aboutme 之类的...
+        + [wbgarchives http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/wbgarchives] 年度文章[汇总页面 http://bluesock.org/~willg/blog/2005/]
+            - 应该说,可以类比的写出分类汇兑插件
+        + [wbggrep http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/wbggrep] grep搜索引擎,嗬嗬!**Uinx 系统专用**的便利,不用求助于Google/lucene 什么了!
+        + [wbgpager http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/wbgpager]多页指引
+        + [wbgrecent http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/wbgrecent]综合"最新"[效果: http://bluesock.org/~willg/blog/recent]
+
+
+
+
+
+= 发布邪？ =
+
+已经有人问及中文版本的 theme 什么时候发布了!
+
+: contribute 分发!
+    也是技术活,怎么样组织和说明才可以令其它人安然的安装各种插件成功?
+    不如象 [TiddlyWiki http://www.tiddlywiki.com/] 那样儿,
+    整个完整的,立等可取用的系统合包?
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]
+    ,[SNS http://www.technorati.com/tags/SNS]

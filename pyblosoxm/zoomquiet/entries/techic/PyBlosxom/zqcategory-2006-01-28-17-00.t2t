@@ -1,0 +1,48 @@
+[ZqPyb+]插件开发
+快速完成分类索引增强
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+= 需求 =
+
+: 原先的分类索引
+    指向的页面是将所有文章的正文输出
+    - 例如
+    - 如果
+
+
+
+= 过程 =
+
+: logging
+    + 30分钟，学习[wbgrecent.py plugins/wbgrecent]
+    + 5分钟，使用原版脚本创建
+    [zqcategory.py plugins/zqcategory]
+    ;[zqcrecent.py plugins/zqcrecent]
+    + 30分钟，调试功能
+    + 20分钟增强CSS
+    + 85分钟完成心中所想！
+    +
+: 分析最重要！
+    原先想象的和实现的，完全不同！
+
+
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]
+    ,[css http://www.technorati.com/tags/css]

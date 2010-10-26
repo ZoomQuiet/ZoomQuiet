@@ -1,0 +1,18 @@
+
+<div class="blosxomGuestbookForm">
+
+<input type="hidden" name="atime" value="$posted_date" />
+
+
+     Generated key (for antispam):
+     <img src="$gens_path" alt="Key is missing" />  
+     <br />
+     Rewrite Generated key:
+     <input style="width: 93px; font-size: 16px"
+     type="text" name="agens" value="" /> 
+     <input type="hidden" name="aimg" value="$gens_img" />
+
+
+$pyguest_form
+
+</div><!-- end "blosxomGuestbookForm"-->

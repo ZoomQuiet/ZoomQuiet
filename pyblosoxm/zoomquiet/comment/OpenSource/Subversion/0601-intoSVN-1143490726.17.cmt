@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<title>Subversion
+</title>
+<ipaddress>219.239.221.66</ipaddress>
+<author>will</author>
+<link>xp 下authz不能正常使用</link>
+<email>ddxxkk@21cn.com</email>
+<source></source>
+<pubDate>1143490726.17</pubDate>
+<description>authz内容&lt;br /&gt;
+[/]&lt;br /&gt;
+p1=rw&lt;br /&gt;
+[/user1/u1]&lt;br /&gt;
+u1=rw&lt;br /&gt;
+[/user2/u2]&lt;br /&gt;
+u2=rw&lt;br /&gt;
+&lt;br /&gt;
+结果是P1用户可读写,U1和U2对于只能读.多次尝试未果.</description>
+</item>

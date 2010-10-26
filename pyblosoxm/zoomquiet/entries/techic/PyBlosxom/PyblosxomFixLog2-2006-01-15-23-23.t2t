@@ -1,0 +1,56 @@
+[hack2]允许评注
+comments.py的安装
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+: http://pyblosxom.sourceforge.net/1.3/manual/c857.html
+  怎么着？一个最普通的评注要这么复杂才能够成功？！
+  呜乎哀哉…………
+  - 最后发现还是老实的按照说明步骤一步接一步的来才不会有"惊奇"
+  - 可以参考以前
+  [limodou的体验 http://wiki.woodpecker.org.cn/moin/PyBlosxomIniComments]
+
+: 速度
+    为什么 PyBlxosom 的 comment 时的响应速度如此慢？！
+    - 果然不是 XML 的事儿！
+    - 是 smtp 发送提醒邮件时失败而长期等候,只能 不使用提醒先睹  
+    -
+
+
+草看了一下子 [comments.py plugins/latest_comments.phtm] 真是牛哪！
+ - ``from xml.sax import make_parser, SAXException``
+ - 使用 sax 事务性XML解析器进行的处理，
+ - 作者[Ted Leung http://www.sauria.com/blog]是[/pybimage/pyb-TedLeung.jpg] [《Professional XML Development with Apache Tools》 http://www.amazon.com/gp/product/0764543555/103-4617059-9959043?n=283155]的作者！怪不得使用这么专业的处理手法
+
+ - 情急乱投医时有邮件往来:
+```
+发件人: Ted Leung <twl@sauria.com>	邮送域: sauria.com
+收件人: Zoom Quiet <zoom.quiet@gmail.com>
+日期: 2006-1-24 下午2:54
+主题: Re: [bug]comments recoder double info. ?
+...
+I am no longer maintaining the comments plugin.  The appropriate
+place to get the answer to your question is pyblosxom-devel.   I get
+several hundred e-mails per day, and you are doubling your share of
+the traffic by copying me personally.  I see the messages that go to
+pyblosxom-devel.  There is no need to send me an extra copy.
+```
+ - 嗬嗬 不是第一次向他批发询问邮件了，还如此好脾气的指导，大师的风范！学习之！
+ - 其实通过将毎条评注依照对应的目录，分布记录在文件系统中，
+ 然后使用XML集中进行处理，实在是最明快的处理方式了，只是没有提供管理的入口？
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]

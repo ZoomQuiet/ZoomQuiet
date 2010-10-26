@@ -1,0 +1,125 @@
+[hack3]定制entry文本格式
+preformatters 的扩展
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+= 分析 =
+
+: http://pyblosxom.sourceforge.net/1.3/manual/c651.html
+  默许提供:: txt(html),genericwiki,moin,py,txtl,rst文本格式来Blogging！
+  - 标记签文本:
+      + .txt(html) 不用说，麻烦！不用！
+  - 自然文本:
+      + .py 咳咳咳，只能代码引用时哪！而且没有行号也要修改
+  - 结构化文本:
+      + .rst 丰富！强大！但是复杂！难用，内存也占的大
+      + .txtl 很好，但是依赖很多系统工具
+      + .moin 赞！但是不支持MoinMoin 1.3.x 以后的不会hack ,问了，也没人回复，呜乎哀哉
+      + .genericwiki 用过MoinMoin 的人，绝对不想这种原始 wiki 格式的！
+  怎么办，什么都不顺手！
+  那未就自个儿DIY!
+
+
+= 尝试 =
+
+
+安装 **[txt2tags http://txt2tags.sourceforge.net]** 先:
+ + 在FreeBSD 中有内含的!
+```
+#cd /usr/ports/textproc/txt2tags
+#make install clean
+```
+ + 需要按照说明,将 **txt2tags** 执行文件复制到 ``/usr/bin`` 中
+ +
+== t2t all! ==
+保持[/pybimage/kiss.jpg]是我的本意
+
+: 发布流程
+    我设想的Blogging flow: 
+        + 本地撰写
+        + 上传系统
+        + 自动生成多格式文件
+        + PyBlosxom 发布 .xhtml 的
+        + 同时提供 .t2t 原件和 .moin 格式的下载
+: 对应支持
+    已经可以进行的:        
+        + 本地撰写 -- [Leo http://wiki.woodpecker.org.cn/moin/LeoEnvironment]
+[/pybimage/snap060124-leo-pyblosom.png]
+        + 上传系统 -- 透过 [SVNhookscript http://wiki.woodpecker.org.cn/moin/SubversionHooks]自动从服务端检出到对应目录
+        + 自动生成多格式文件 -- ?是SVN hooks 还是创建 t2t.py 预格式化处理?
+        + PyBlosxom 发布 .xhtml 的 -- 设置默许格式就好!
+        + 同时提供 .t2t 原件和 .moin 格式的下载 -- 模板的处理
+        +
+
+
+=== 八股化写作 ===
+
+    嗯哪……[/pybimage/snap060125-leo-pybt2t.png] 这样一来，格式漂亮的文章，
+    根本就**"八股化"** 了！ 在 Leo 中，仅仅保持固定的几个预定义节点，
+    其它的就不用理会，随便写，怎么样都会自动组织成非常规范的文章，
+    比在各种Blog 系统中，所谓**WYSIWYG**编辑环境中，反复调整不得，
+    结构化文本的**WYTIWYG**是绝对快感的！
+    - [王垠很早有介绍 http://learn.tsinghua.edu.cn:8080/2001315450/tex/tex_start.html]
+    **所见即所得vs所想即所得**
+    - [有诗证曰: http://blog.cathayan.org/item/920]
+```
+文本文件好
+工具遍地跑
+程序两三行
+全部改好了
+```
+哈哈哈！
+
+= TODO =
+
+Blog 不同于静态文章,需要有一些SNS配合的输出,t2t 没有进行专门的支持,要进行深入hack:
+
+: [technorati http://www.technorati.com]支持
+    链接要类似
+```
+<a href="http://technorati.com/tag/nomeans" rel="tag">nomeans</a>
+```
+
+    有``rel="tag"`` 声明! t2t 输出的链接没有!
+    hacking!
+
+: xhtml 的输出:
+    每篇Blog的原文通过 Leo 的节点共用统一的格式声明:
+```
+%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+```
+
+    要求 t2t 输出为 xhtml格式，以utf-8 编码，
+    要整理出章节索引，并以CSS样式友好的形式组织,并数字式列表之!
+    - 要fixed的问题:
+        + 完整的 xhtml 输出含有 head标签内容，
+        这样一来PyBlosxom输出时一页会含有多个head,不利于搜索，也浪费数据！
+        但是``--no-headers``参数的输出 却没有了主副标题的组织，两难哪！
+        + 索引链接的 anchor 输出，太简单！如果一页内含了多个t2t 输出页面的话一定有冲突！
+        需要学习MoinMoin 的索引锚点，加入hash的混淆区分！
+        +
+    -
+
+
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]
+

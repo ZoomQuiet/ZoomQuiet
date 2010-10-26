@@ -1,0 +1,96 @@
+[snap]豆瓣出错
+Python Traceback
+t2t渲染:: %%date(%Y-%m-%d %H:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+: 查询报怨:
+```
+Traceback (most recent call last):
+  File "/usr/lib/python2.4/site-packages/quixote/publish.py", line 522, in process_request
+    output = self.try_publish(request, env.get('PATH_INFO', ''))
+  File "/usr/lib/python2.4/site-packages/quixote/publish.py", line 457, in try_publish
+    output = object(request)
+  File "/var/www/douban/luz/__init__.py", line 69, in subject_search
+    return subject_search_ui(request)
+  File "/var/www/douban/luz/subject_search_ui.ptl", line 29, in subject_search_ui
+    main_layout(request, local_content, right_content,right_width=250)
+  File "/var/www/douban/luz/site_ui.ptl", line 65, in main_layout
+    <table class="mt"><tr><td valign="top" %s>
+  File "/var/www/douban/luz/subject_search_ui.ptl", line 114, in local_content
+    ns, ss = subject_search(text,_items_per_line,start,cat_id=cat_id)
+  File "/Users/bo/Sites/luzong/search.py", line 409, in subject_search
+  File "/Users/bo/Sites/luzong/search.py", line 321, in _subject_search
+  File "/var/www/douban/luzong/sqlstore.py", line 338, in subject_search
+    self.farm.execute("select id from subject_index where cat_id=%s and match (searchable) against (%s in boolean mode) order by collection_count desc",(cat_id, make_search_string(text)))
+  File "/usr/lib/python2.4/site-packages/MySQLdb/cursors.py", line 137, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.4/site-packages/MySQLdb/connections.py", line 33, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+
+Form:
+cat             1001
+search_text     村上纪香
+
+Cookies:
+__utma          164037162.1846512001.1132065229.1138539594.1138604874.113
+__utmb          164037162
+__utmc          164037162
+__utmz          164037162.1138361940.110.3.utmccn=(referral)|utmcsr=koudai8.com|utmcct=/willow/blog/|utmcmd=referral
+dbcl            1000030:14e975e18c9cf87a
+luz_login       1000030:79376a8b2b63d6fa
+
+Environment:
+CONTENT_LENGTH  0
+DOCUMENT_ROOT   /var/www/douban/
+GATEWAY_INTERFACE CGI/1.1
+HTTP_ACCEPT     text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_ACCEPT_CHARSET gb2312,utf-8;q=0.7,*;q=0.7
+HTTP_ACCEPT_ENCODING gzip,deflate
+HTTP_ACCEPT_LANGUAGE zh-cn,zh;q=0.5
+HTTP_COOKIE     __utmz=164037162.1138361940.110.3.utmccn=(referral)|utmcsr=koudai8.com|utmcct=/willow/blog/|utmcmd=referral; __utma=164037162.1846512001.1132065229.1138539594.1138604874.113; luz_login="1000030:79376a8b2b63d6fa"; dbcl="1000030:14e975e18c9cf87a"; __utmb=164037162; __utmc=164037162
+HTTP_HOST       www.douban.com
+HTTP_REFERER    http://www.douban.com/subject_search?start=15&search_text=%E6%9D%91%E4%B8%8A&cat=1001
+HTTP_USER_AGENT Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.8) Gecko/20051111 Firefox/1.5
+PATH_INFO       /subject_search
+QUERY_STRING    search_text=%E6%9D%91%E4%B8%8A%E7%BA%AA%E9%A6%99&cat=1001
+REDIRECT_STATUS 200
+REMOTE_ADDR     61.135.152.194
+REMOTE_PORT     3944
+REQUEST_METHOD  GET
+REQUEST_URI     /subject_search?search_text=%E6%9D%91%E4%B8%8A%E7%BA%AA%E9%A6%99&cat=1001
+SCGI            1
+SCRIPT_FILENAME /var/www/douban/subject_search
+SCRIPT_NAME     
+SERVER_ADDR     61.129.113.231
+SERVER_NAME     www.douban.com
+SERVER_PORT     80
+SERVER_PROTOCOL HTTP/1.1
+SERVER_SOFTWARE lighttpd/1.4.8
+```
+
+
+
+= TODO =
+
+呜乎哀哉！[赶紧报告 http://www.douban.com/forum/2/102016]！
+
+不过看豆瓣的服务架构是挻前卫的哪…………Lighttpd....
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[error http://www.technorati.com/tags/error]
+    ,[Quixote http://www.technorati.com/tags/Quixote]
+

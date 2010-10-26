@@ -1,0 +1,13 @@
+<div class="blosxomEntry">
+<!-- Zoomq::060128 add for new Categories 
+$debug
+-->
+    <span class="blosxomTitle">$(title)</span>
+    <div class="blosxomBody">
+        <table  id="wbgarchives" border="0">
+        $(body)
+        </table>
+    </div>
+</div>
+
+

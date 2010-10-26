@@ -1,0 +1,13 @@
+<div class="blosxomEntry">
+<!-- Zoomq::060128 add for new Categories 
+$debug
+-->
+    <span class="blosxomTitle">$(title)</span>
+    <div class="blosxomBody">
+        <span  id="category_template">
+        $(body)
+        </span>
+    </div>
+</div>
+
+

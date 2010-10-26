@@ -1,0 +1,38 @@
+Hardy Heron
+-- 8.04 强鹭还有9天
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+
+= 期待，但不等待 =
+升级!需要理由嘛?
+ - 不需要嘛?
+  - 需要嘛?! ...
+
+: 其实只是心理原因;-)
+    - 7.10 使用非常舒服
+    - 8.04 也没有ZFS哪
+    - 考虑FreeBSD ing..
+    - 不过，不跳票的 Ubuntu HH 还是非常想的，如果:
+     - 字体更加好了
+     - FF3支持所有主要插件了
+     - 输入法默认是 bridge-scim 了
+     - ...
+
+. [/pybimage/2008/804UbuntuCountdown_09days.jpg];  
+
+
+
+
+
+------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<title>LDAP的内存泄露</title>
+<ipaddress>10.217.12.64</ipaddress>
+<author>Zoom.Quiet</author>
+<link></link>
+<email></email>
+<source></source>
+<pubDate>1143692370.63</pubDate>
+<description>中国本来就是个不善于公开表达的民族，&lt;br /&gt;
+&lt;br /&gt;
+测试的当然是最新版本的LDAP,FreeBSD 中,通过Python 查询Server&lt;br /&gt;
+&lt;br /&gt;
+我作的东西，现在都尽力不支持IE这种恐龙了…………嗬嗬</description>
+</item>

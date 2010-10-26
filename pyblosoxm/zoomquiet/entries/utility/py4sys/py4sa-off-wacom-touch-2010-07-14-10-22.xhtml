@@ -1,0 +1,202 @@
+<?xml version="1.0"
+      encoding="UTF-8"
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>[Py4SA]智能关闭触摸板</title>
+<meta name="generator" content="http://txt2tags.sf.net" />
+</head>
+<body>
+
+<div class="header" id="header">
+<a name='toptopTE5JSFNOQ' id='toptopTE5JSFNOQ'></a><h1>[Py4SA]智能关闭触摸板</h1>
+<h2>--WACOM BAMBOO事务</h2>
+<h3>t2t渲染:: 2010-10-09 14:21:37</h3>
+</div>
+
+<div class="toc" id="toc">
+  <ol>
+  <li><a href="#toc1R0VYQ0IyT">问题</a>
+  </li>
+  <li><a href="#toc2R0lYQ0JaT">尝试</a>
+  </li>
+  <li><a href="#toc3R01YQ0FVR">Py之</a>
+  </li>
+  </ol>
+
+</div>
+<div class="body" id="body">
+<a id="toc1R0VYQ0IyT" name="toc1R0VYQ0IyT"></a>
+<h1><A href='#toptopTE5JSFNOQ'> 1. 问题 </A></h1>
+<p>
+嗯嗯嗯,俺一直使用 WACOM 的数字绘图板替代鼠标的 ；－）
+</p>
+<ul>
+<li>去年生日，老婆升级了俺的 <a href="http://www.wacom.com.cn/products_before_detail.php?productsid=30">FAVO CTE-430</a>
+到 <a href="http://www.wacom.com.cn/bamboo/case4-1.php">BAMBOO CTH-461</a>
+</li>
+<li>随着 Ubuntu 10.04系统，一同升级了驱动，非常好用:
+    <ol>
+    <li>小横板 248.2 x 176.1，和屏幕 1:1 对应，不用拖动，有空间感觉了直接就可以移动到对应区域!
+    </li>
+    <li>无线压感笔，直接点击就是左击鼠标
+    </li>
+    <li>笔有侧键，配置默认就是原先最舒服的:
+     <ul>
+     <li>上键是右击
+     </li>
+     <li>下键是中击
+     </li>
+     </ul>
+    </li>
+    </ol>
+</li>
+<li><b>触摸板的手指点击就不必要了</b>
+ <ul>
+ <li>如何令系统不启动触摸板的 <code>Touch</code> 响应?
+ </li>
+ </ul>
+</li>
+</ul>
+
+<a id="toc2R0lYQ0JaT" name="toc2R0lYQ0JaT"></a>
+<h1><A href='#toptopTE5JSFNOQ'> 2. 尝试 </A></h1>
+<ul>
+<li><a href="http://linuxwacom.sourceforge.net/index.php/howto/xsetwacom">Command Line Configuration Interface (xsetwacom)</a>
+    <ul>
+    <li>官方是有命令行级别的配置工具的
+    </li>
+    <li>但是！真TMD难以看明白哈
+    </li>
+    <li>广泛的搜索后，大致明白,xsetwacom 提供两种配置输出:
+        <ol>
+        <li>命令行用的执行字串
+        </li>
+        <li>配置文件中使用的配置文本
+        </li>
+        </ol>
+    </li>
+    <li>整个使用流程是:
+        <ol>
+        <li>使用其它系统监察命令，确认 WACOM 设备USB接入后的设备号
+        </li>
+        <li>使用 xsetwacom 进行模拟配置，选择输出合适的配置命令
+        </li>
+        <li>然后将输出的配置内容,部署到合适的系统启动脚本或是配置文件中
+        <p></p>
+        </li>
+        </ol>
+    </li>
+    </ul>
+</li>
+<li>俺习惯使用命令行配置,这样可以直接测试是否靠谱,但是发现:
+<pre class="brush:  shell">
+
+~&gt; xinput --list 
+⎡ Virtual core pointer                    	id=2	[master pointer  (3)]
+⎜   ↳ Virtual core XTEST pointer              	id=4	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Pen eraser           	id=11	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Pen                  	id=12	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Finger pad           	id=13	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Finger               	id=14	[slave  pointer  (2)]
+⎜   ↳ TPPS/2 IBM TrackPoint                   	id=16	[slave  pointer  (2)]
+⎜   ↳ Macintosh mouse button emulation        	id=18	[slave  pointer  (2)]
+⎣ Virtual core keyboard                   	id=3	[master keyboard (2)]
+    ↳ Virtual core XTEST keyboard             	id=5	[slave  keyboard (3)]
+...
+</pre>
+    <ul>
+    <li>使用 xinput 探察出来的 <b>Wacom Bamboo Craft Finger</b> 触摸板设备号,每次重启系统时不一定一样!
+    </li>
+    <li>FT! 那就得编程让系统重启时,自个儿探察一下设备号,然后使用固定的配置命令关闭 BAMBOO 对应设备
+    </li>
+    </ul>
+</li>
+</ul>
+
+<dl>
+<dt>如何在Shell 中获取另外系统命令的输出并截获对应数码组合成新的命令?:</dt><dd>
+    嗯嗯嗯,,,
+    嗯嗯嗯,,,,直接囧掉!
+    俺没有这种功力!
+</dd>
+</dl>
+
+<a id="toc3R01YQ0FVR" name="toc3R01YQ0FVR"></a>
+<h1><A href='#toptopTE5JSFNOQ'> 3. Py之 </A></h1>
+<ul>
+<li>直接使用模板记录要执行的命令,预留可能变动的设备号:
+<pre class="brush:  shell">
+
+#!/bin/sh
+### xinput4bamboo.tpl
+sleep 3 &amp;&amp; xsetwacom set %s Touch "off"
+
+</pre>
+<p></p>
+</li>
+<li>配合xinput4bamboo.py 
+<pre class="brush:  py">
+
+import sys,os
+if __name__ == '__main__':      # this way the module can be
+    """usage:
+    $ xinput --list | grep "Wacom Bamboo Craft Finger" | python ./xinput4bamboo.py
+    """
+    if sys.stdin:
+        for l in sys.stdin.readlines():
+            if "pad" not in l:
+                bambooid= l.split()[6].split("=")[1]
+                open("xinput4bamboo.sh","w").write(open("xinput4bamboo.tpl").read()%bambooid)
+                os.chmod("xinput4bamboo.sh",0755)
+
+</pre>
+<p></p>
+</li>
+<li>组合成启动脚本
+<pre class="brush:  shell">
+
+#!/bin/sh
+VER="main-rcloc.sh v10.7.14"
+DATE=`date "+%y%m%d"`
+MYRC="/home/zoomq/.zoomq/rc.local"
+#=========================================================== path defines
+LOGF="/var/log/0day/$DATE-myrcloc.log"
+#=========================================================== action defines
+cd $MYRC
+xinput --list | grep "Wacom Bamboo Craft Finger" | python ./xinput4bamboo.py  &gt;&gt; $LOGF 2&gt;&amp;1 
+./xinput4bamboo.sh  &gt;&gt; $LOGF 2&gt;&amp;1 
+</pre>
+<p></p>
+</li>
+<li>部属成启动应用:
+ <ul>
+ <li><img align="middle" src="/pybimage/2010/zoomq-2010-07-14-123737_530x267_scrot.png" border="0" alt=""/>
+ <p></p>
+<b>齐活！</b> 没有疑惑，随手写成！ 5分钟！
+ </li>
+ </ul>
+</li>
+</ul>
+
+<dl>
+<dt>Python在Unix和Linux系统管理中的应用(影印版):</dt><dd>
+<a href="http://book.douban.com/subject/3767034/"><img align="middle" src="/pybimage/2010/s3876423-py4unix-linux-sa.jpg" border="0" alt=""/></a>
+</dd>
+</dl>
+
+<ul>
+<li>绝对好书! 值得慢慢看,E文非常简洁,Py清明的代码,直接看/尝试就可以体会到本意了...
+</li>
+</ul>
+
+<hr class="light" />
+<p>
+动力源自::<b><a href="http://txt2tags.sf.net">txt2tags</a></b>
+</p>
+</div>
+
+<!-- xhtml code generated by txt2tags 2.4 (http://txt2tags.sf.net) -->
+<!-- cmdline: txt2tags ./utility/py4sys/py4sa-off-wacom-touch-2010-07-14-10-22.t2t -->
+</body></html>

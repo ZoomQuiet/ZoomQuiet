@@ -1,0 +1,92 @@
+[樣文]FreeBSD unionfsの改善提案
+开源项目文档范例
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+
+: 发现:
+    中国FreeBSD commiter 之一的 delphij 发现吿之的
+    - 范文哪！
+    - **[FreeBSD unionfsの改善提案 http://people.freebsd.org/~daichi/unionfs/index-ja.html]**
+    - 真应了//世上无难事，只怕有心人//
+    -
+
+
+
+
+**简单列一下子文档结构**
+
+
+= 标题 =
+
+```
+作者
+修改log
+
+其它版本链接[English]
+```
+
+== 概要 ==
+
+文档本身的简单述
+
+== unionfs介绍 ==
+
+简介讨论主体本身
+
+== 以往问题 ==
+
+简述已知问题
+
+== 增进提案 ==
+
+描述如何改善
+
+== 实施 ==
+
+说明如何升级
+
+== 使用方法 ==
+
+说明新环境如何使用
+
+== 补丁 ==
+
+说明对以往系统的补丁发布情况
+
+=== unionfs-p5.diff变更说明 ===
+
+=== unionfs-p4.diff变更说明 ===
+
+...
+具体说明每次更新的变化
+
+== 现在问题 ==
+
+还有什么不足?
+
+= 附录 =
+
+== FAQ ==
+== 联系方法 ==
+
+
+= TODO =
+
+呜乎哀哉！标准的一次软件升级，就应该为用户负责道明白前因后果；
+
+我们呢…………?
+
+
+------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+
+

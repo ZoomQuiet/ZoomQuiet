@@ -1,0 +1,305 @@
+<?xml version="1.0"
+      encoding="UTF-8"
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>[hack4]SVN集成</title>
+<meta name="generator" content="http://txt2tags.sf.net" />
+</head>
+<body>
+
+<div class="header" id="header">
+<a name='toptopTE5VR0NZM' id='toptopTE5VR0NZM'></a><h1>[hack4]SVN集成</h1>
+<h2>通过SVN来发布Blog</h2>
+<h3>t2t渲染:2010-10-09 02:21:39</h3>
+</div>
+
+<div class="toc" id="toc">
+  <ol>
+  <li><a href="#toc1R0VYQ0JaT">好坏</a>
+  </li>
+  <li><a href="#toc2R0lYQ0JaT">实施</a>
+    <ul>
+    <li><a href="#toc3R0lYRENMU">2.1. 配合</a>
+    </li>
+    </ul>
+  </li>
+  <li><a href="#toc4R01YQ0FWQ">TODO</a>
+    <ul>
+    <li><a href="#toc5R01YRENMU">3.1. 技术文档</a>
+    </li>
+    </ul>
+  </li>
+  </ol>
+
+</div>
+<div class="body" id="body">
+<a id="toc1R0VYQ0JaT" name="toc1R0VYQ0JaT"></a>
+<h1><A href='#toptopTE5VR0NZM'> 1. 好坏 </A></h1>
+<p>
+在本地使用自个儿习惯的格式来写，通过SVN 自动版本同步到PyBlsxom发布！
+</p>
+<dl>
+<dt>好处：</dt><dd>
+    <ol>
+    <li>天然的备份！
+    </li>
+    <li>离线写作！
+    </li>
+    <li>本地搜索！
+    </li>
+    <li>自然备份！
+    </li>
+    <li>强力版本管理！
+    </li>
+    <li>灾难恢复简单
+    </li>
+    <li>Blog系统定制权限容易管理
+    </li>
+    <li>...
+    </li>
+    </ol>
+</dd>
+<dt>坏处:</dt><dd>
+    <ul>
+    <li>要学习TortoiseSVN 的使用
+    </li>
+    <li>要修正Blogging 习惯..
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<a id="toc2R0lYQ0JaT" name="toc2R0lYQ0JaT"></a>
+<h1><A href='#toptopTE5VR0NZM'> 2. 实施 </A></h1>
+<dl>
+<dt>幸好有积累:</dt><dd>
+    <ul>
+    <li>曾经<a href="http://wiki.woodpecker.org.cn/moin/CvsRootHook">透过CVS进行内容维护</a>
+    </li>
+    <li>后来同理推导出:<a href="http://wiki.woodpecker.org.cn/moin/SubversionHooks">透过SVN进行内容维护</a>
+    <p></p>
+    </li>
+    </ul>
+</dd>
+<dt>HOOKs 脚本:</dt><dd>
+    <ul>
+    <li>关键代码:
+<pre>
+在post-commit 事务中插入:
+    ...
+        upsvn = "%s update %s"%(self.SVN,(aim+mod) )
+        fup = os.popen(upsvn)
+        up = fup.read().strip()
+        self.chkpybt2t(up
+                        ,"pyblosxom/zoomquiet/data/")
+</pre>
+    </li>
+    <li>专用t2t 处理函式:
+<pre>
+def chkpybt2t(self,dirs,mark):
+    """auto check PyBlosxom .t2t blog
+    """
+    for l in dirs.split():
+        if mark in l:
+            self.autot2t(l)
+def autot2t(self,upath):
+    """自动处理t2t 到对应PyBlosxom 目录
+        - upath svnlook 出来的对应更新记录
+        - t2t 文件本身输出 xhtml ，cp为txt 由PyBlosxom 显示
+        - 另外输出为.moin 的wiki 文件
+        --target moin
+    """    
+    t2txhtml = "%s %s"%(self.T2T,upath)
+    t2tmoin = "%s %s %s"%(self.T2T," --target moin ",upath)
+    try:
+        r, w, e = popen2.popen3(t2txhtml)
+        r, w, e = popen2.popen3(t2tmoin)
+        r.close()
+        e.close()
+        w.close()        
+    except:
+        # 日志处理
+        print &gt;&gt; self.f,"~"*7+"t2t::popen2.popen3() ::crash"    
+</pre>
+    </li>
+    <li>通过标准的t2t 命令行来输出两种格式的文件 .xhtml和.moin 的
+    </li>
+    <li><b>特别的</b> 为了定制方便，将 txt2tags 的执行文件专用化:
+    </li>
+    <li><code>self.T2T = "/path/to/my/PyBlosxom/plugins/preformatters/txt2tags"</code>
+    以便进行定制修改
+        <ul>
+        <li><b>完全是因为t2t 太精巧了，就一个文件哪！</b>
+        </li>
+        </ul>
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<a id="toc3R0lYRENMU" name="toc3R0lYRENMU"></a>
+<h2><A href='#toptopTE5VR0NZM'> 2.1. 配合 </A></h2>
+<dl>
+<dt>已经完成的:</dt><dd>
+    <ol>
+    <li>由 SVN hooks 在每次检入时，自动检测是否为指定模块中的 .t2t 文件?
+    </li>
+    <li>如果是:
+        <ul>
+        <li>自动更新指定目录
+        </li>
+        <li><code>svn up</code>
+        </li>
+        </ul>
+    </li>
+    <li>再调用t2t 输出两种格式的文件
+        <ul>
+        <li><code>txt2tags /path/to/the/.t2t</code>
+        </li>
+        <li><code>txt2tags  --target moin  /path/to/the/.t2t</code>
+        </li>
+        </ul>
+    </li>
+    </ol>
+</dd>
+<dt>现在要最终处理的:</dt><dd>
+    <ul>
+    <li>如何令PyBlosxom 解析 .xhtml 到页面中?
+    </li>
+    <li>默许的是仅仅识别 html/纯文本格式的 .txt 文件的
+    </li>
+    <li>参照已有的<a href="plugins/py.phtm">py.py</a> 预格式脚本:
+        <ul>
+        <li>hack 出 <a href="plugins/xhtml.phtm">xhtml.py</a>
+        </li>
+        <li>配置文件中打开此插件
+<pre>
+config.py 中
+...
+py['load_plugins'] = ["pycalendar"
+                      , "py"
+                      ,"xhtml"
+                      ...
+</pre>
+        </li>
+        <li>搞掂！
+        </li>
+        </ul>
+    </li>
+    </ul>
+</dd>
+<dt>特别的:</dt><dd>
+    <ul>
+    <li>文章标题的抓取:
+<pre>
+
+    for line in open(filename,"r").readlines():
+        if "&lt;title&gt;" in line:
+            title=line[7:].replace("&lt;/title&gt;","")
+            break
+</pre>
+    </li>
+    <li>一般性的，PyBlosxom 是从原文头行取，但是 xhtml 中有HTML 的格式标识字串，所以，要从<code>&lt;title&gt;</code> 标签中抓，
+    </li>
+    <li>这里不使用 正则表达式，是为了加速，简单的行读取，
+    比在内存中分析整个文件要Pythonic 哪!
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<a id="toc4R01YQ0FWQ" name="toc4R01YQ0FWQ"></a>
+<h1><A href='#toptopTE5VR0NZM'> 3. TODO </A></h1>
+<p>
+<b>没有最好，只有更好！</b>
+</p>
+<dl>
+<dt>现在:</dt><dd>
+    <ol>
+    <li>通过 SVN 在本地使用t2t 格式来写作
+    </li>
+    <li>通过 SVN hooks 自动处理服务端的文章输出
+    </li>
+    <li>PyBlosxom 中的专用格式处理脚本，识别并辅助处理了 xhtml 输出!
+    </li>
+    </ol>
+</dd>
+<dt>但是:</dt><dd>
+    不能聪明的识别不同的原始文件来提供下载哪！
+    如果是 .py 的，在 <i>永久链接 .t2t .moin</i> 处的其它链接就有问题！
+    <ul>
+    <li>询问列表，却没有人回答:
+<pre>
+发件人: will guaraldi &lt;willg@bluesock.org&gt;	邮送域: lists.sourceforge.net
+收件人: pyblosxom-devel@lists.sourceforge.net
+日期: 2006-1-25 上午12:15
+主题: [Pyblosxom-devel] will's status
+
+Just as an fyi, my email client is still having problems with Zoom's
+emails so I haven't read any of them yet.
+
+I also started classes a week and a half ago and I'm working part time
+this semester.  As such, I'm going to be laying low on PyBlosxom stuff
+including fielding user requests and help for a while.  I'll try to get to
+bugs and user isues at least once a month.
+
+I am also still sitting on a contributed plugins release--that's first
+priority.  I need to go through and fix the logging issues on plugins I
+don't use.
+
+/will
+
+</pre>
+    </li>
+    <li>呜乎哀哉！看来 Gmail 并不是完美的哪！俺的询问邮件没有中文字符的哪！
+    连标点也不敢使用中文的...
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<a id="toc5R01YRENMU" name="toc5R01YRENMU"></a>
+<h2><A href='#toptopTE5VR0NZM'> 3.1. 技术文档 </A></h2>
+<dl>
+<dt><a href="http://pyblosxom.sourceforge.net/1.3/manual/x307.html#AEN356">PyBlosoxm模板中有效变量</a></dt><dd>
+    但是！
+    <ul>
+    <li><b>file_path</b> just the filename and extensions of the entry
+     <ul>
+     <li>就是仅仅输出了文件名儿，没有后缀的说
+     </li>
+     <li>开源项目的文档是极其重要的组成部分，有多少项目是因为文档不全而自然消亡的哪…………
+     </li>
+     </ul>
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<dl>
+<dt>技术文档樣文:</dt><dd>
+    日本人作的就是要好些:
+        <ul>
+        <li><b><a href="../060117-OSSdocDemoJPS.phtm">FreeBSD unionfsの改善提案</a></b>
+        </li>
+        </ul>
+</dd>
+</dl>
+
+<hr class="light" />
+<p>
+动力源自::<b><a href="http://txt2tags.sf.net">txt2tags</a></b>
+</p>
+<p>
+<img align="middle" src="/pybimage/technorati-over.gif" border="0" alt=""/>
+    <a href="http://www.technorati.com/tags/OpenSource">OpenSource</a>
+    ,<a href="http://www.technorati.com/tags/PyBlosxom">PyBlosxom</a>
+    ,<a href="http://www.technorati.com/tags/hacking">hacking</a>
+</p>
+</div>
+
+<!-- xhtml code generated by txt2tags 2.4 (http://txt2tags.sf.net) -->
+<!-- cmdline: txt2tags ./techic/PyBlosxom/PyblosxomFixLog4-2006-01-21-23-23.t2t -->
+</body></html>

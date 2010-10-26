@@ -1,0 +1,6 @@
+  <h4>$title</h4>
+  $body
+  <p>Posted at: $ti
+   | category: <a href="$base_url/$absolute_path" title="path">/$absolute_path</a> 
+   | <a href="$base_url/$file_path.$flavour">Comments ($num_comments)</a>
+  </p>

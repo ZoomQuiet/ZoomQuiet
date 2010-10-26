@@ -1,0 +1,14 @@
+<rdf:li>
+<rdf:Description rdf:about="#$cmt_time">
+  <dc:source> $base_url/$file_path_url </dc:source>
+  <dc:title> $cmt_title </dc:title>
+  <dc:creator> $cmt_author </dc:creator>
+  <dc:date> cmt_pubDate </dc:date>
+  <dc:format> text/html </dc:format>
+
+  <content>
+    $cmt_description
+  </content>
+</rdf:Description>
+</rdf:li>
+

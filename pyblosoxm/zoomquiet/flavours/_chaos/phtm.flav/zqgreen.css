@@ -1,0 +1,477 @@
+body {
+  background-color : #D6DBD6;
+  font-family: Tahoma,SimSun,arial, helvetica, sans-serif; 
+  font-size: 92%;
+  /* line-height: 120%; */
+  margin: 0px;
+  padding: 0px;
+  color:#494D4A;
+}
+SUP,SUB{
+    font-size:11px;}
+a { color: #3B4A4A;
+    text-decoration:underline; 
+    }
+a:hover {color: #930;
+  text-decoration: none; 
+    }
+a:visited {color: #45544A;
+    }
+img {border: none;}
+/*"
+    "font-family: courier, monospace;
+*/
+pre{
+	border-left: 2px solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 1em;
+	font-family: "Courier New",Georgia,helvetica, sans-serif;  
+    white-space: pre;
+/*" begin css 3 or browser specific rules - do not remove!
+	see: http://forums.techguy.org/archive/index.php/t-249849.html */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    /* end css 3 or browser specific rules */
+}
+UL,OL{
+    margin: 0em 0 0 .5em;
+	padding: 0 .25em 0em 1em;	
+    }
+/*定义声明组*/
+DL,DT{
+    margin: .25em 0 0 .25em;
+	padding: 0em 0em 0em .25em;	
+    }
+DT{font-weight:bold;
+   font-size:105%;}
+DD{
+    margin: .25em 0 0 .5em;
+	padding: 0 .25em .25em 1em;	
+    }
+ul.plain { list-style-type: none;
+           margin-left: 5px;
+           padding-left: 5px;
+         }
+H1,H2,H3,H4,H5,H6{
+ font-family: Verdana, arial, helvetica, sans-serif; 
+ text-align: left;
+ color:#5A695F;
+ margin-left : .5em;  
+ padding : 4px;
+ line-height: 1.2em;
+}
+H1 { 
+ background-color :transparent;
+ border-left : 5px solid #404E4E ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.5em;
+}
+h2 { 
+ border-left : 10px solid #526157 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.4em;
+}
+h3 {	
+ border-left : 15px solid #738278 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.3em;
+}
+
+h4 {
+ border-left : 20px solid #88938D ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.2em;
+}
+h5{	
+ border-left : 25px solid #B2B8B2 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.1em;
+}
+h6{	
+ border-left : 30px solid #C4C8C4 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1em;
+}
+/*.zoomclouds  {
+   text-align: left;
+   border:2px solid #006699;
+   padding:2px;
+   position:relative;
+   background-color:#333333;
+   width:200px;
+ }
+*/
+.zoomclouds span a, .zoomclouds a {
+   margin: 0 2px;
+   text-decoration:none;
+   font-family: Helvetica, arial, sans-serif;
+ }
+.zoomclouds span.tag1 a {color:#6588c7}
+.zoomclouds span.tag2 a {color:#254887}
+.zoomclouds span.tag3 a {color:#355897}
+.zoomclouds span.tag4 a {color:#4568a7}
+.zoomclouds span a:hover, .zoomclouds a:hover {
+   color:#FFFFFF;
+   background-color:#8ca5b5;
+   text-decoration:none;
+}
+.zoomcloudswg {
+   font-size:10px;
+   color: #bbb;
+}
+.zoomcloudssp {
+   font-size:10px;
+   color: #444;
+}
+/*padding:5px 15px 10px 15px;          */
+#banner {
+    font-family: "Courier New",Georgia,Verdana, arial, helvetica, sans-serif;
+    color:#CED8CE;
+    background:#25342A;
+	padding-left: 10px;
+    letter-spacing: .1em;
+    font-size:26px;
+    font-weight:bold ;
+    border-top:4px solid #738278;
+	border-bottom: 0px solid  #4A584A;
+    }
+#banner A{
+    color:#E0FFB8;
+    text-decoration:none; }
+#banner A:hover{
+    color:#DAF4DA;
+    text-decoration:overline ; }
+#banner SUP,SUB{
+    font-size:12px;
+    color:#DAE4DA;}
+#banner P#main{
+    margin: 5px;
+    padding: 5px; }
+#banner P#sub{
+    font-size:14px;letter-spacing: 8px;
+    margin: 5px;
+    padding: 4px 2px 10px 5px;}
+#banner DIV#recent {
+    border : 0px dotted #930;
+    color:#DAE4DA;
+    font-family: Georgia,arial, helvetica,sans-serif;
+    position : absolute ;
+    top: 3em;
+	left: 39%;
+    font-size:16px;
+    letter-spacing: 2px;
+    }
+/*text-transform:uppercase;*/
+#content { 
+	width: 69%;
+	position: absolute;	
+	background-color: transparence;
+	border-right: 0px dotted #4A584A;
+	margin: 0px;
+	padding: 10px 5px 10px 10px;
+    }    
+/*<h2>Mon, 23 Jan 2006</h2>*/
+h2.blosxomDate{
+    font-family: Georgia,Verdana, arial, helvetica, sans-serif;
+    text-align: right;
+    border:0px solid #2B3A3A;
+    margin: 0px 5px 5px 0px;
+    padding: 0px 15px 0px 0px;
+    border-bottom: 1px solid #2B3A3A;    }
+H3#blosxomTitle {
+    font-size: 90%;
+    border-left:4px solid #88938D;
+    border-bottom : 0px dashed  #A9B3A9 ;
+    background-color: #546359;
+    color:#A7AFA7;
+    padding: 4px;
+    margin: 5px 0px 0px 0px;
+    font-weight:normal;}
+    
+H3#blosxomTitle a { 
+    color: #DDDDD0;
+    }
+
+.blosxomStory{
+    padding: 4px; 
+    font-size: 92%;   
+    border-left:2px solid #88938D;    
+    background-color: #ECEEEC;}
+    
+.blosxomStory a { 
+    color:#835959;
+    }
+
+    /*    
+"font-family: "Courier New",Georgia,helvetica, sans-serif; 
+    */
+.blosxomStoryLinks{
+    font-size:90%;
+    padding: 2px;
+    margin: 0px;
+    border:0px dotted #2B3A3A;
+    background-color: #546359;
+    color:#A7AFA7;
+    }
+.blosxomStoryLinks a { color: #DDDDD0;
+    text-decoration:none; 
+    }
+.blosxomStoryLinks a:hover { color: #DDDDD0;
+  text-decoration: underline; 
+    }
+.blosxomStoryLinks a:visited { color: #BAC4BB;
+    }
+.blosxomComments{
+    padding: 4px;       
+    border-left:2px solid #88938D;    
+    background-color: #A9B3A9;
+    }
+.blosxomComment{
+    margin: 0px;
+    padding: 4px;       
+    border-left:2px solid #88938D;    
+    background-color: #8C968C;
+    }
+div#cmt_description{
+    margin: 0px;
+    padding: 4px;       
+    border-left:2px solid #88938D;    
+    background-color: #D6DBD6;
+    }
+
+.blosxomCommentForm{
+    padding: 4px;       
+    border-left:2px solid #88938D;    
+    background-color: #CAD4CA;
+    }
+/*position: absolute;
+    left: 70%;top:0px;
+    width: 26%;
+    margin: 4px 0px 0px 0px;
+    padding: 4px; 
+    background-color: #76857B;
+    border-left:4px solid #5A695F;
+    */
+#Blogroll {
+    font-size:92%;
+    }
+#links { 	float: right;
+    font-size:96%;	
+	position: absolute; top:0px;
+	width: 270px;
+	margin-left: 70%;
+	margin-top: 4px;
+	padding: 5px;
+	background-color: #738278;
+	border-left:    4px solid #25342A;
+	border-bottom:  4px solid #25342A;
+	border-right:   4px solid #25342A;
+    }
+
+#links a { color: #DDDDD0;
+    text-decoration:none; 
+    }
+#links a:hover { color: #DDDDD0;
+  text-decoration: underline; 
+    }
+#links a:visited { color: #BAC4BB;
+    }
+#links h4 {
+    background-color: #494D4A;
+    color:#AFB7AF;
+    font-size:9px;
+    font-weight:bold;
+    line-height:14px;
+    padding:2px;
+    margin-top:10px;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing: .2em;
+    }
+
+#links ul { 
+    list-style-type: none; 
+    margin-left: 0px;
+    padding-left: 5px;
+    }
+    
+#links li {
+    text-align: left;
+    }
+UL.categorygroup{
+    margin: 0em 0em 0em .5em;
+	padding: 0em 0em .25em .5em;	
+    }
+UL.categorygroup LI{
+	padding: 0em 0em 0em .5em;	
+    }div#blosxomCalendar{
+    margin: -1em 0em 0em 0em;
+    padding: 0em 0em 0em 4em;
+    font-size:90%;
+    font-family: Georgia,Verdana, arial, helvetica, sans-serif;
+    border:0px dotted #C1CBC1;
+    }
+    /*for the calendar table
+    width:260px;*/
+TABLE.blosxomCalendar{ 
+    width:170px;   
+    border:1px dotted #C1CBC1;    
+    }
+    /*for the month year header (January 2003)*/
+
+.blosxomCalendarHead{
+    background-color: #58635D;
+    font-size:12px;font-weight :bold;
+    color:#D6DBD6;
+    }
+    /*for the week header (Su, Mo, Tu, ...)*/    
+TD.blosxomCalendarWeekHeader{
+    text-align: center;
+    }
+
+.blosxomCalendarWeekHeader{
+    background-color: #A7AFA7;
+    font-size:11px;
+    color:#D6DBD6;
+    }
+    /*for filler days*/
+.blosxomCalendarEmpty{
+    }
+    /*for calendar days that aren't today*/
+.blosxomCalendarCell{
+    font-size:12px;
+    }
+    /*for calendar days that aren't today that have entries*/
+.blosxomCalendarBlogged{
+    }
+/*for the specific day we're looking at
+      (if we're looking at a specific day)*/
+.blosxomCalendarSpecificDay{
+    font-size:12px;
+    }
+/*for today's calendar day*/
+.blosxomCalendarToday A{
+    border: 2px dotted #835959;
+    }
+
+.blosxomCalendarToday{
+    font-weight :bold;
+    }div#google{
+    padding: 0px; 
+    margin: -2em 0em 0em 0em;
+    }
+.SiteSearch_Google{
+    width:250px;
+    border:2px dotted #738278; 
+    background-color: #58635D;
+    }/*width: 210px;*/
+DIV#cloud{
+    margin: .25em 0em .25em 0em;
+	padding: 0em 1em 0em 0em;	
+    text-align: right;
+    color:#DAE4DA; 
+    
+    border-right : 1em solid #96A096 ;
+    border-bottom : 1px dashed  #BAC4BA ;    
+    }#wbgarchives {
+    font-size:90%;
+    }.slotarea{
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+    border:0px dotted #C1CBC1;
+    font-size:90%;
+    }
+
+.slotbar{
+    margin: .5em;
+    padding: 2px;
+    border:0px dotted #C1CBC1;
+    text-align: center;
+    font-family: "Courier New",Georgia,Verdana, arial, helvetica, sans-serif;
+    font-size:86%;
+    }
+#CreativeCommons{
+    border-top:2px dotted #C1CBC1;
+    }
+
+#AboutMe{
+    text-align: center;
+    }
+/*"margin: 1px 0px 2px 0px  */
+div#header {
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	border-bottom: 0px dotted black;
+	margin: 0px;
+	padding: 0px;
+    background-color :#76857B;
+}
+/*文章大标*/
+div#header H1{
+	float: left;
+	margin: 5px;
+	padding: 4px;
+	font-size: 150%;
+    font-weight : normal;
+    color:#DAE4DA;
+    border:0px;
+}
+/*文章副标*/
+div#header H2 {
+	text-align: right;
+	margin: 0em;
+	padding: .5em .5em 0em 0em;
+	font-size: 14px;
+    font-weight : normal;
+    border:0px;
+    color:#DAE4DA;
+    border-right : 2px solid #A7AFA7;
+}
+/*文章说明*/
+div#header H3{
+	text-align: right;
+	margin: 0em;
+	padding: 0em .5em 0em 0em;
+	font-size: 12px;
+    font-weight : normal;
+    border:0px;
+    color:#D2D8D2;
+    border-bottom : 2px solid #A7AFA7;
+    border-right :   2px solid #A7AFA7;
+}
+div.toc {
+	float: right;	
+	background-color :#76857B;
+    color:#BAC4BA;
+	border-bottom : 2px solid #A7AFA7;
+	border-left :   2px solid #A7AFA7;
+	border-right :   2px solid #A7AFA7;
+	padding: .5em 0em .5em .5em;
+	margin: -2px 0px 0px 0px;
+}
+div.toc ul {
+	padding-left: .75em;
+}
+div.toc li {
+	font-size: 12px;
+}
+/*#DAE4DA*/
+div.toc li a {
+	text-decoration: none;
+    color:#D2D8D2;
+}
+div.toc a:hover {
+	text-decoration: underline;
+}
+
+/*引用文本的突现^^
+  font-size: 10pt;      
+  line-height: 110%;*/
+code { 
+	font-family: courier, monospace;
+    font-size:108%;
+    color:#7D3302;
+  margin: 0px 4px;
+}

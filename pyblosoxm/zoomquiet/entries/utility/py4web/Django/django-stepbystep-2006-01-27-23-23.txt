@@ -1,0 +1,48 @@
+《Django一步接一步》中文学习教程发表！
+
+<a href="http://www.djangoproject.com/">
+Djano
+</a>是<a href="http://python.org/">
+Python
+</a> 世界中，类似<a href="http://www.rubyonrails.org/">RoR</a> 
+的快速web 开发平台之一.它鼓励快速开发和干净的、ＭＶＣ设计。它包括一个模板系统，对象相关的映射和用于动态创建管理界面的框架。自从正式发布后在全世界受到追捧，发布的异常快速。
+
+<a href="http://wiki.woodpecker.org.cn/moin/DjanGo">
+(啄木鸟社区的中文介绍)
+</a>
+<br/>
+<a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPUG</a>
+活跃人物:
+<a href="http://wiki.woodpecker.org.cn/moin/limodou">
+limodou
+</a> 刚刚在个人
+<a href="http://blog.donews.com/limodou/archive/2006/01/26/709143.aspx">
+Blog 
+</a>中 发布消息，正式发表了<b>
+<a href="http://www.woodpecker.org.cn/obp/django/django-stepbystep/newtest/doc/">
+《Django Step by Step》
+</a></b>
+-- 《Django一步接一步》中文学习教程！
+
+<br/>
+教程整理自<a href="http://wiki.woodpecker.org.cn/moin/limodou">
+limodou
+</a>的个人学习体验，以前<a href="http://blog.donews.com/limodou/category/65397.aspx">是以连载的形式在blog中
+</a>发布的，此次，使用
+<a href="http://www.czug.org/plone/howto/howto-restructed-text/">
+<i>re</i>Structed
+</a>
+文本格式整理，组织成为正式教程，通过<a href="http://www.woodpecker.org.cn/">
+啄木鸟社区
+</a>空间发布以利于中国Python 爱好者学习。
+
+
+
+
+
+
+
+
+
+
+

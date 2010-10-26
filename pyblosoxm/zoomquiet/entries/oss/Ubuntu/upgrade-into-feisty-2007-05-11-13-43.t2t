@@ -1,0 +1,156 @@
+从Dapper到Feisty 的征程
+-- 直接升级?那是谣传!但是...
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+
+
+
+= 为什么要升级 =
+升级!需要理由嘛?
+ - 不需要嘛?
+  - 需要嘛?! ...
+
+: 其实俺是被廹的...
+    - 原本Dapper 使用的非常的好,而且进行了巨量的配置,根本不想升级的
+    - 但是,人在江湖身不由已哪...
+```
+E: Problem with MergeList /var/lib/apt/lists/ \
+    ubuntu.cn99.com_ubuntu-cn_dists_dapper_main_binary-i386_Packages
+E: 无法解析或打开软件包的列表或是状态文件。
+```
+    - 这种软件包重新时的错误已经烦了快一个月了
+    - 为了稳定高效的考虑,还是要升级
+: 而且!
+    - [把你的 Ubuntu 打造为 OSX http://www.osxcn.com/ubuntu/linux-desktop-imitating-osx.html]
+    - 呜乎矣哉! 有人能够抵製这种诱惑嘛?!
+    -
+
+
+= 升级?! =
+: 但是!
+    - 经过[48小时的尝试 http://wiki.woodpecker.org.cn/moin/ZoomQuiet/2007-05-08]
+    - 以及[友人的马后炮 http://nicholasdsj.blogspot.com/2007/04/ubuntu-704-feisty-fawn.html]
+    - 死了逐步升级的心..
+    -
+
+
+= 重装升级! =
+幸好相关DVD早就准备好,而且对于分区也有万全的策略,重装非常顺畅
+
+
+== 流水 ==
++ 重启,安装!值得注意的是将分区根据过往使用体验进一步合理化:
+ - [/pybimage/070511_myUbuntu_partition_scrot.png]
+ - 
++ 50分钟快速从DVD 就安装完成了Gnome 环境,因为保存了``/home``以及``/opt``目录,90%的定制就继承了下来,笑;-)
++ 重新进入桌面后进行后期定制,1小时以内恢复工作状态:
+    + 更新源
+```
+# beryl release
+### wget http://ubuntu.beryl-project.org/root@lupine.me.uk.gpg -O- | sudo apt-key add -
+deb http://ubuntu.beryl-project.org feisty main
+deb-src http://ubuntu.beryl-project.org feisty main
+
+### zoomq::070510 for ies4linux
+# wget -q http://wine.budgetdedicated.com/apt/387EE263.gpg -O- | sudo apt-key add -
+deb http://us.archive.ubuntu.com/ubuntu feisty universe
+deb http://wine.budgetdedicated.com/apt feisty main
+
+# 电信用户首选国内源--cn99!
+deb http://ubuntu.cn99.com/ubuntu/ feisty main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ feisty-security main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ feisty-updates main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ feisty-proposed main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ feisty-backports main restricted universe multiverse
+deb-src http://ubuntu.cn99.com/ubuntu/ feisty main restricted universe multiverse
+deb-src http://ubuntu.cn99.com/ubuntu/ feisty-security main restricted universe multiverse
+deb-src http://ubuntu.cn99.com/ubuntu/ feisty-updates main restricted universe multiverse
+deb-src http://ubuntu.cn99.com/ubuntu/ feisty-proposed main restricted universe multiverse
+deb-src http://ubuntu.cn99.com/ubuntu/ feisty-backports main restricted universe multiverse
+```
+    + sudo 化:
+```
+#修订/etc/sudoers 相关行为
+%admin ALL=(ALL) NOPASSWD:ALL
+```
+    + 显示及数字板支持:``WACOM,915resolution`` 都是源自有的,直接安装就好
+    + 字体美化!
+    + 
+
+. [/pybimage/070511_yuanti_cfg_scrot.png];
+    + SCIM 配置并加载最爱的[zqBXM2006 http://share.zoomquiet.org/tools/zqBXM2006.7z]
+    + 多媒体配置,安装最爱的 [mocp http://moc.daper.net/]^在命令行播放音乐^ + [mplayer http://www.mplayerhq.hu/design7/news.html]^全能媒体播放^ 立即就可以恢复音乐背景环境了!
+. [/pybimage/070511_mocp_zh_scrot.png];    
+
+
+**KO!其它的就可以随用随装了,已经可以投入到无限的为人民服务的日常生活中了,是也乎^__^**
+
+
+== 惊喜 ==
++ Gnome 2.18.1 果然强悍的多,不用什么 Xfce4 ,本身就非常快速了...
++ 默认是Python2.5了! 而且配合的Tk8.4 居然也可以支持中文输入了
+. [/pybimage/070511_ubuntu704_leoZhKO_scrot.png];
+ - 单为这,也值得重装了哪!
++ 另外 ``inkscape`` 也终于可以保存了 -- [crash in dapper when read file http://ubuntuforums.org/showthread.php?t=294093]
++ 最大的惊喜是桌面特效的稳定丰富爽直的获取!
++ 终于可以正常``挂起``了!
+    - 不过,默认配置,笔记本屏幕关上后过段时间就会关闭显示，而且无法重新激活！
+    - 基于前人的经验 [Thinkpad上安装Ubuntu笔记 http://www.linuxsky.net/html/200606/3560.html]配置后问题依然
+    - 最后使用``Ctrl+Alt+l`` 手工锁屏幕就好
+    - 另外电源配置时使用 ``挂起``
+    -
+
+
+=== 但是... ===
+
+: 键盘布局
+    - 根据[安装fesity 后的键盘问题 http://forum.ubuntu.org.cn/about51819.html&sid=eb5fea294a839836417ebf76d62ee221]
+    - 快速配置就好,而且针对Dell Laptop 居然有专门的预设
+    - 
+- [/pybimage/070511_dell_keylayout_scrot.png]
+    - 但是,没有左边的``Alt,Ctrl`` 支持...
+    - 
+
+: 多媒体支持:
+    - 著名的``w32codes`` 最终还是从源里清除了...
+    - 有人贡献了经验:[ubuntu 7.04 下播放rm http://blog.chinaunix.net/u1/34834/showart.php?id=291548]
+    - 快速解决之!
+    -
+
+: 字体惊魂
+    - 原先以上的字体设定是为了追求象OSX环境，结果发现有中文标点被显示为类似阿位伯文字的现象
+    - 又受到友人蛊惑尝试[黑体解决方案 http://www.osxcn.com/ubuntu/edgy-stheiti.html#comment-15473]
+    - 结果X 都启动不起来了
+    - 寒了半天恢复后,发现被Session 过的程序菜单都出不来了,折腾半天才发现,不能使用字体配置中的``LCD`` 专用配置!! 最好的配置如下
+    -
+
+- [/pybimage/070514_Beryl-ZHfonts_510X295_scrot.png]
+-
+
+
+
+
+= 结论 =
+**GNU/Linux 下面的重装和M$的重装云泥之差哪!**
+ - 没有注册表,都是配置文件,只要配置文件在,一切都在
+ - 没有分区,只有目录,只要系统是同一系列的,各种软件都在固定的地方,不用重新配置什么,重装后,原先的配置直接可用!
+ - 但是!毕竟每个发行版本以及自个儿的定制差别是极其大的,每周积累的升级也是非常多的,不破不立,该重装时就重装!
+ - 
+
+
+
+
+
+
+------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+

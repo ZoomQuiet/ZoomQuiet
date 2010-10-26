@@ -1,0 +1,243 @@
+<?xml version="1.0"
+      encoding="UTF-8"
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>FF3</title>
+<meta name="generator" content="http://txt2tags.sf.net" />
+</head>
+<body>
+
+<div class="header" id="header">
+<a name='toptopSVpEQT09P' id='toptopSVpEQT09P'></a><h1>FF3</h1>
+<h2>--Ubuntu7.10 中使用 3.0pre</h2>
+</div>
+
+<div class="toc" id="toc">
+  <ol>
+  <li><a href="#toc1R0VYQ0FSU">FF3</a>
+    <ul>
+    <li><a href="#toc2R0VYRENMU">1.1. SwiftFox 3.0pre</a>
+    </li>
+    <li><a href="#toc3R0VYREVMU">1.2. 探查</a>
+      <ul>
+      <li><a href="#toc4R0VYREVMU">1.2.1. 配置</a>
+      </li>
+      </ul>
+    </li>
+    <li><a href="#toc5R0VYREdMU">1.3. 成了！</a>
+    </li>
+    </ul>
+  </li>
+  </ol>
+
+</div>
+<div class="body" id="body">
+<a id="toc1R0VYQ0FSU" name="toc1R0VYQ0FSU"></a>
+<h1><A href='#toptopSVpEQT09P'> 1. FF3 </A></h1>
+<p>
+看周围M$ 用户都主动升迁到 FF2.0.0.14 超级稳定版本了，
+</p>
+<p>
+但是Ubuntu7.10 的源中依然是 2.0.0.13+,有点郁rz..
+</p>
+<a id="toc2R0VYRENMU" name="toc2R0VYRENMU"></a>
+<h2><A href='#toptopSVpEQT09P'> 1.1. SwiftFox 3.0pre </A></h2>
+<p>
+不过 SwiftFox 已到了 3.0pre!
+通过 apt 立即可以使用:
+</p>
+<a id="toc3R0VYREVMU" name="toc3R0VYREVMU"></a>
+<h2><A href='#toptopSVpEQT09P'> 1.2. 探查 </A></h2>
+<p>
+但是插件不能使用<code>Nightly Tester Tools</code> 轻易全开...
+ 使用 安全模式::
+</p>
+<pre>
+swiftfox -safe-mode
+</pre>
+ <ul>
+ <li>关闭所有 扩展和插件后，逐一尝试，确认最小可用组合::
+ </li>
+ </ul>
+
+<a id="toc4R0VYREVMU" name="toc4R0VYREVMU"></a>
+<h3><A href='#toptopSVpEQT09P'> 1.2.1. 配置 </A></h3>
+<p>
+启用扩展： [16]
+</p>
+<ul>
+<li>Adblock Plus 0.7.5.4: <a href="http://adblockplus.org/">http://adblockplus.org/</a>
+</li>
+<li>CHM Reader 0.2.1.1: <a href="http://sourceforge.net/projects/chmreader/">http://sourceforge.net/projects/chmreader/</a>
+</li>
+<li>Copy Link Name 1.2.5: <a href="http://www.captaincaveman.nl">http://www.captaincaveman.nl</a>
+</li>
+<li>DownThemAll! 1.0.1: <a href="http://downthemall.net/">http://downthemall.net/</a>
+</li>
+<li>FEBE 5.3.1: <a href="http://customsoftwareconsult.com/extensions">http://customsoftwareconsult.com/extensions</a>
+</li>
+<li>Firefox Universal Uploader (fireuploader) 0.3.2: <a href="http://www.fireuploader.com">http://www.fireuploader.com</a>
+</li>
+<li>MLdonkey Protocol Handler 2.0: <a href="http://www.informatik.uni-oldenburg.de/~dyna/mldonkey/">http://www.informatik.uni-oldenburg.de/~dyna/mldonkey/</a>
+</li>
+<li>Nightly Tester Tools 1.3: <a href="http://www.oxymoronical.com/web/firefox/nightly">http://www.oxymoronical.com/web/firefox/nightly</a>
+</li>
+<li>NoScript 1.6: <a href="http://noscript.net">http://noscript.net</a>
+</li>
+<li>PDF Download 1.0.1.1: <a href="http://www.pdfdownload.org">http://www.pdfdownload.org</a>
+</li>
+<li>Right Encoding 0.2.2: <a href="http://heygom.com/extensions/">http://heygom.com/extensions/</a>
+</li>
+<li>ScrapBook 1.3.3.2: <a href="http://amb.vis.ne.jp/mozilla/scrapbook/">http://amb.vis.ne.jp/mozilla/scrapbook/</a>
+</li>
+<li>SwiftTabs 0.3.3.1: <a href="http://heygom.com/extensions/">http://heygom.com/extensions/</a>
+</li>
+<li>Tab Mix Plus 0.3.6.1.080416: <a href="http://tmp.garyr.net">http://tmp.garyr.net</a>
+</li>
+<li>ubufox 0.4~beta1: <a href="http://www.google.com/search?q=Firefox%20ubufox">http://www.google.com/search?q=Firefox%20ubufox</a>
+<p></p>
+禁用扩展： [35]
+</li>
+<li>Access Flickr! 1.71: <a href="http://flickr.com/photos/hamed">http://flickr.com/photos/hamed</a>
+</li>
+<li>Add to Search Bar 1.7: <a href="http://maltekraus.de/Firefox/search-tools">http://maltekraus.de/Firefox/search-tools</a>
+</li>
+<li>Autohide 1.1.5: <a href="http://www.krickelkrackel.de/autohide/">http://www.krickelkrackel.de/autohide/</a>
+</li>
+<li>Brookstone 0.0.2: <a href="http://www.mobilebrook.com">http://www.mobilebrook.com</a>
+</li>
+<li>Chinese Simplified (zh-CN) Language Pack 2.0.0.7: <a href="http://www.google.com/search?q=Firefox%20Chinese%20Simplified%20%28zh-CN%29%20Language%20Pack">http://www.google.com/search?q=Firefox%20Chinese%20Simplified%20%28zh-CN%29%20Language%20Pack</a>
+</li>
+<li>Classic Compact 3.0.6: <a href="http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html">http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html</a>
+</li>
+<li>ColorZilla 1.9: <a href="http://www.colorzilla.com/">http://www.colorzilla.com/</a>
+</li>
+<li>Compact Menu 2 2.0.3: <a href="https://addons.mozilla.org/firefox/108029/author/">https://addons.mozilla.org/firefox/108029/author/</a>
+</li>
+<li>Copy Plain Text 0.3.3: <a href="http://mozmonkey.com/">http://mozmonkey.com/</a>
+</li>
+<li>CSSViewer 1.0.2: <a href="http://www.google.com/search?q=Firefox%20CSSViewer">http://www.google.com/search?q=Firefox%20CSSViewer</a>
+</li>
+<li>CustomizeGoogle 0.71: <a href="http://www.customizegoogle.com/">http://www.customizegoogle.com/</a>
+</li>
+<li>Fasterfox 2.0.0: <a href="http://fasterfox.mozdev.org/">http://fasterfox.mozdev.org/</a>
+</li>
+<li>Firebug 1.05: <a href="http://www.getfirebug.com/">http://www.getfirebug.com/</a>
+</li>
+<li>FlickrFox 1.3.0: <a href="http://philmccluskey.com/projects/flickrfox/">http://philmccluskey.com/projects/flickrfox/</a>
+</li>
+<li>FoxyTunes 2.9.5.31: <a href="http://www.foxytunes.com/">http://www.foxytunes.com/</a>
+</li>
+<li>Gmail Skins 0.9.8: <a href="http://gmailskins.mozdev.org">http://gmailskins.mozdev.org</a>
+</li>
+<li>Google Gears 0.3.14.0: <a href="http://gears.google.com/">http://gears.google.com/</a>
+</li>
+<li>Google Toolbar for Firefox 3.0.20070525L: <a href="http://www.google.com/">http://www.google.com/</a>
+</li>
+<li>Google Web Comments 1.4.20070529.0: <a href="http://toolbar.google.com/firefox/extensions/webcomments/">http://toolbar.google.com/firefox/extensions/webcomments/</a>
+</li>
+<li>Greasemonkey 0.7.20080121.0: <a href="http://www.greasespot.net/">http://www.greasespot.net/</a>
+</li>
+<li>Hide Menubar 1.0.20080310: <a href="http://forum.moztw.org/viewtopic.php?t=15303">http://forum.moztw.org/viewtopic.php?t=15303</a>
+</li>
+<li>It's All Text! 0.8.4: <a href="http://addons.mozilla.org/firefox/4125">http://addons.mozilla.org/firefox/4125</a>
+</li>
+<li>Locale Switcher 2.1: <a href="http://benjamin.smedbergs.us/switch-locales/">http://benjamin.smedbergs.us/switch-locales/</a>
+</li>
+<li>MeasureIt 0.3.6: <a href="http://www.kevinfreitas.net/pro/extensions/">http://www.kevinfreitas.net/pro/extensions/</a>
+</li>
+<li>Modify Headers 0.6.4: <a href="http://www.garethhunt.com/">http://www.garethhunt.com/</a>
+</li>
+<li>Mozilla XForms 0.8.5: <a href="http://www.mozilla.org/projects/xforms/">http://www.mozilla.org/projects/xforms/</a>
+</li>
+<li>MR Tech Local Install 5.3.2.3: <a href="http://www.mrtech.com/extensions/local_install/">http://www.mrtech.com/extensions/local_install/</a>
+</li>
+<li>Ook? Video Ook! 0.6.6: <a href="http://ook.dedos.net/">http://ook.dedos.net/</a>
+</li>
+<li>Pearl Crescent Page Saver Basic 1.7: <a href="http://pearlcrescent.com/products/pagesaver/">http://pearlcrescent.com/products/pagesaver/</a>
+</li>
+<li>Resizeable Textarea 0.1d: <a href="http://www.google.com/search?q=Firefox%20Resizeable%20Textarea">http://www.google.com/search?q=Firefox%20Resizeable%20Textarea</a>
+</li>
+<li>Screen grab! 0.93: <a href="http://andy.5263.org/screengrab/">http://andy.5263.org/screengrab/</a>
+</li>
+<li>ScribeFire 1.4.8: <a href="http://www.scribefire.com/">http://www.scribefire.com/</a>
+</li>
+<li>Split Browser 0.4.2007120601: <a href="http://piro.sakura.ne.jp/xul/_splitbrowser.html.en">http://piro.sakura.ne.jp/xul/_splitbrowser.html.en</a>
+</li>
+<li>TwittyTunes 0.5.3.1: <a href="http://www.foxytunes.com/twittytunes/">http://www.foxytunes.com/twittytunes/</a>
+</li>
+<li>Web Developer 1.1.5: <a href="http://chrispederick.com/work/web-developer/">http://chrispederick.com/work/web-developer/</a>
+</li>
+<li>wmlbrowser 0.7.17: <a href="http://wmlbrowser.mozdev.org">http://wmlbrowser.mozdev.org</a>
+<p></p>
+全部扩展： 51
+<p></p>
+已安装主题： [8]
+</li>
+<li>azureFox 0.96.1: <a href="http://www.radar.250x.com/">http://www.radar.250x.com/</a>
+</li>
+<li>Firefox (default): <a href="http://www.mozilla.org/">http://www.mozilla.org/</a>
+</li>
+<li>Human Theme 0.5: <a href="http://www.ffnn.nl/">http://www.ffnn.nl/</a>
+</li>
+<li>iFox 2.5.1: <a href="http://www.radar.250x.com">http://www.radar.250x.com</a>
+</li>
+<li>miniFox 0.8.2: <a href="http://membres.lycos.fr/sethnakht">http://membres.lycos.fr/sethnakht</a>
+</li>
+<li>Pinstripe 5.0: <a href="http://www.webether.com">http://www.webether.com</a>
+</li>
+<li>Tangerine Theme 0.5: <a href="http://www.ffnn.nl/">http://www.ffnn.nl/</a>
+</li>
+<li>Tango Theme 0.5: <a href="http://www.ffnn.nl/">http://www.ffnn.nl/</a>
+<p></p>
+已安装插件： (12)
+</li>
+<li>DivX Browser Plug-In
+</li>
+<li>DivX® Web Player
+</li>
+<li>Java(TM) Plug-in 1.6.0_03-b05
+</li>
+<li>MozPlugger 1.8.0 handles QuickTime and Windows Media Player Plugin
+</li>
+<li>mplayerplug-in 3.40
+</li>
+<li>QuickTime Plug-in 6.0 / 7
+</li>
+<li>QuickTime Plug-in 7.2.0
+</li>
+<li>RealPlayer 9
+</li>
+<li>Shockwave Flash
+</li>
+<li>Totem Web Browser Plugin 2.20.0
+</li>
+<li>Windows Media Player Plug-in 10 (compatible; Totem)
+</li>
+<li>Windows Media Player Plugin
+</li>
+</ul>
+
+<a id="toc5R0VYREdMU" name="toc5R0VYREdMU"></a>
+<h2><A href='#toptopSVpEQT09P'> 1.3. 成了！ </A></h2>
+<p>
+开始快乐的使用！
+</p>
+<p>
+. <img align="middle" src="/pybimage/2008/2008-04-21-144725_685x652_scrot.png" border="0" alt=""/>;  
+</p>
+<hr class="light" />
+<ul>
+<li>t2t渲染:: 2010-10-09 02:21:41
+</li>
+<li>动力源自::<b><a href="http://txt2tags.sf.net">txt2tags</a></b>
+</li>
+</ul>
+
+</div>
+
+<!-- xhtml code generated by txt2tags 2.4 (http://txt2tags.sf.net) -->
+<!-- cmdline: txt2tags ./oss/Mozilla/FireFox/ff3pre-upgrade-ko-2008-04-21-12-33.t2t -->
+</body></html>

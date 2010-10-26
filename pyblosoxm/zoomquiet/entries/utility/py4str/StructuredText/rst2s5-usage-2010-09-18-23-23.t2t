@@ -1,0 +1,359 @@
+rst2s5
+~ 好用的S5生成宏
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+= 缘起 =
+
+最近讲演频繁:
++ 100820: [IntroPy - Woodpecker Wiki for CPUG http://wiki.woodpecker.org.cn/moin/IntroPy]
++ 100826: [TDD4Py - Woodpecker Wiki for CPUG http://wiki.woodpecker.org.cn/moin/TDD4Py]
++ 100918: [Software Freedom Day 2010 - SZLUG file:///home/zoomq/zdata/zScrapBook/ZqFLOSS/data/20100817125828/index.html]
++ ...
+
+俺在 **[S5: A Simple Standards-Based Slide Show System http://meyerweb.com/eric/tools/s5/]** 中使用高桥流，幻灯页码轻易超过100! 即使有 Leo 帮助也感觉吃不住，
+主要原因是直接写 HTML 太多标签干扰思維了...
+
+其实早就知道有 rst->s5 的工具:
+- [結構文本(rst)轉網頁投影片(s5) http://inet6.blogspot.com/2007/03/rsts5.html]
+- [Easy Slide Shows With reST & S5 http://docutils.sourceforge.net/docs/user/slide-shows.html]
+
+但是因为自个儿的s5 样式进行了深入定制，不知道是否容易迁移;
+
+可是实在幻灯稿多了受不住，就迁移了...
+
+
+= 运用 =
+
+文档的确不多,中文的就找到上述 Inet6 兄的，但是和谐后，也无法方便的直接咨询
+
+仔细看了哈文档，发现的确不复杂;
+
+之于俺，只是要引用原先的样式，只要:
+```
+#! shell; highlight: [3,5]
+#   先随便生成个默认工程
+rst2s5.py --theme <base-theme> <doc>.txt <doc>.html
+#   再复制原先样式过来
+ui/<base-theme> to ui/<new-theme>.
+#   然后聲明使用新样式就好:
+rst2s5.py --theme-url ui/<new-theme> <doc>.txt <doc>.html
+
+#   俺在对应目录中的实际命令就是:
+python rst2s5-Pygments.py  --current-slide --theme-url=ui/freedom index.rst index.html
+```
+    - ``--current-slide`` 是要求生成页码的开关参数
+    - ``rst2s5 --help`` 居然看到有几十种参数,才发现
+    - [Docutils Front-End Tools http://docutils.sourceforge.net/docs/user/tools.html]  实在是个丰富的工具集!
+    - [rst2s5-Pygments.py http://matt-good.net/files/software-dev-with-trac/rst2s5] 是定制过的支持 Pygments 语法颜色的 rst2s5 转换脚本!
+
+
+最后发布时的 s5演示目录分布是:
+```
+#! text
+http://zoomquiet.org/res/s5/100918-MyTools/rst2s5/
++-- i                   资源目录(图片什么的...)
+|-- index.html          S5
+|-- index.rst           rst撰写原文稿
+|-- rst2s5-Pygments.py  定制支持 Pygments 语法颜色渲染的s5生成脚本
+|-- s5defs.txt          rst2s5引用的 s5 配置文件
+`-- ui                  样式入口
+    +-- default         默认样式
+    `-- freedom         定制样式 
+```
+
+
+
+== 初步 ==
+和S5 幻灯组织是完全对等的撰写:
+
+- HTML 首页:
+```
+#! html ; highlight: [1]
+<div class="slide" id="slide0">
+Blalala
+</div>
+```
+- rST首页:
+```
+#! text ; highlight: [2]
+==================================================================
+我的工具箱
+==================================================================
+```
+- HTML幻灯页:
+```
+#! html ; highlight: [1,2,4]
+<div class="slide">
+<h1>标题</h1>
+内容
+    <div class="handout">
+    隐藏提示
+    </div>
+</div>
+```
+- rST幻灯页:
+```
+#! html ; highlight: [2,4]
+标题
+=========
+
+.. container:: handout
+
+   隐藏提示
+
+内容
+```
+
+: 唯一注意:
+ - 是要在文件头部引入 [s5defs.txt http://docutils.sourceforge.net/docutils/parsers/rst/include/s5defs.txt] 专用配置文本:
+```
+#! text
+.. include:: <s5defs.txt>
+```
+ - 参考: [reStructuredText Standard Substitution Definition Sets http://docutils.sourceforge.net/docs/ref/rst/substitutions.html]
+
+
+== rst ==
+html->rst 的撰写只有更加 [WYTIWYG http://wiki.woodpecker.org.cn/moin/WyTiWyG] 很容易习惯;
+
+参考: [http://docutils.sourceforge.net/docs/user/rst/quickref.html Quick reStructuredText]
+
+主要得习惯的只有:
++ 标题和 MoinMoin 语法不同使用 ``==================``独立的标题引用行来聲明第几层的标题
+ - 建议顺序是:``= - ` : ' " ~ ^ _ * + # < >``
+ - 一般就用到前4个:
+```
+#! text
+
+大标题
+======
+小标题
+------
+次标题
+''''''
+小节标
+""""""
+```
++ 列表项更加简单可以使用 ``+`` 以及 ``-`` 相比``*`` 要少按个键 ;-)
++ 链接更加灵活了:
+ - 就地链接: ``是也乎,是也乎`显示文字 <http://foo.org>`__ 是也乎``
+ - 匿名链接: 
+```
+#! text
+是也乎,是也乎`显示文字`__ 是也乎
+
+__  http://foo.org
+```
+    - 和行内链接聲明最近的独立URL 定义进行自动匹配
+ - 全局链接:
+```
+#! text ; highlight: [1,5]
+.. _Zoom.Quiet:
+    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
+
+...
+是也乎,是也乎`Zoom.Quiet`_ 是也乎
+
+```
++ 就地图片:
+```
+#! text ; highlight: [2,3,5]
+.. image:: pix/Takahashi-method.jpg
+    :align: center
+    :scale: 150 %
+    :alt: 高橋流
+    :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
+```
+    - 这个 target 就是链接! 文档中没有例子,找了半天...
++ 全局图片:
+```
+#! text ; highlight: [2]
+.. |Takahashi| image:: pix/Takahashi-method.jpg
+    :align: top
+    :scale: 150 %
+    :alt: 高橋流
+    :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
+
+...
+
+任意文字中 |Takahashi| 嵌入图片...
+```
+    - ``align`` 这时,就是图片和文字流的行内相对位置,而不是图片在整个页面的排版,所以,只能有"top", "middle", "bottom"
+    - 其实不用专门记忆,每次渲染时, rst2s5 会进行检查,比如说:
+```
+#! shell ; highlight: [3,4]
+$ python rst2s5-Pygments.py  --current-slide --theme-url=ui/freedom index.rst index.html
+index.rst:34: (ERROR/3) Error in "image" directive: 
+"center" is not a valid value for the "align" option within a substitution definition.  
+Valid values for "align" are: "top", "middle", "bottom".
+index.rst:34: (WARNING/2) Substitution definition "S5icon" empty or invalid.
+
+.. |S5icon| image:: pix/S5icon.GIF
+    :align: center
+    :scale: 100 %
+    :target: http://www.meyerweb.com/eric/tools/s5/
+index.rst:1284: (ERROR/3) Undefined substitution referenced: "S5icon".
+```
+
+
+嗯嗯嗯, 使用 rst 进行 s5 撰写,完全是脚本组织的感觉了...连输出时的交互 error 通告都是 Python 味的..
+
+== 定制 ==
+比较囧是只有俺习惯并坚持的样式很搞:
+
+: 默认的样式排版:
+    : [/pybimage/2010/rst2st-theme-default.png]
+    - 和 s5 的默认样式100% 一致!
+
+: 定制的``Freedome``样式:
+    : [/pybimage/2010/ZQshutter_100920-151219_html.png]
+    主要的设计:
+     - A: 表格3栏格式的作者和版权聲明
+```
+#! html ; highlight: [6]
+<div id="footer">
+<table><tr><td>
+<a target="_blank"  href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet">
+Zoom.Quiet</a><br/>v10.8.17
+</td>
+<td rowspan="2">
+<a  target="_blank" style="background-color:;" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">
+<img src="icon/cc-byncnd-88x31.png"/>
+</a>Recommend <a  target="_blank"
+href="http://www.mozilla.org.cn">FireFox</a> for the best experience!
+</td></tr>
+</table>
+    <div id="controls"></div>
+</div>
+```
+     - B: 页码/页数 提示
+     - C: 当页内容提示
+```
+#! html ; highlight: [4]
+<div class="slide">
+<h1>
+标题
+<div id="sup">
+    mov->时间->效能工具
+</div>
+</h1>
+...
+```
+
+: 对应的rst2s5 效果:
+    : [/pybimage/2010/ZQshutter_100920-151709_rst2s4.png]
+
+    对应的设计:
+     - A: 表格的作者和版权聲明
+```
+#! text ; highlight: [1,2]
+.. footer:: 
+   .. class:: borderless
+
+   =============  ====================================
+   `Zoom.Quiet`_  |cc-byncsa15|
+   -------------  ------------------------------------
+   v10.09.16      推荐用 `FireFox`_ 获得最佳游览效果
+   =============  ====================================
+```
+     - B: 页码/页数 提示
+     - C: 当页内容提示
+```
+#! text ; highlight: [4]
+标题
+=========
+
+.. container:: handout
+
+   俺->工具->持续完善 |zqeye|
+
+...
+```
+        - 嗯嗯嗯,当然的得配合CSS:
+        - 注释掉默认样式``ui/<theme>/s5-core.css`` 中的
+```
+#! css
+.handout {display: none;}
+```
+        - 在专用CSS``ui/<theme>/takahashi.css``中定制
+```
+#! css
+div.handout{
+    float: right;
+    top:0;
+    margin-top: -85px;
+    margin-right: -30px;
+    font-size: 16px; font-style : italic ;
+    color: #385775;
+}
+div.handout a{
+    color: #385775;
+}
+
+div.handout a:hover{
+    color: orange;
+    font-style : bold ;
+}
+
+```
+        - 还得在默认的样式调配文件``ui/<theme>/slides.css``中引入自个儿定制的:
+```
+#! css ; highlight: [4,5]
+@import url(s5-core.css); /* required to make the slide show run at all */
+@import url(framing.css); /* sets basic placement and size of slide components */
+@import url(pretty.css);  /* stuff that makes the slides look better than blah */
+@import url(takahashi.css);  /* stuff that makes the takahashi style slides */
+@import url(rst2s5.css);  /* stuff that support slides gen. by rst2s5 */
+```
+     - D: 专用高桥流样式, 在s5专用子聲明文件:[s5defs.txt http://docutils.sourceforge.net/docutils/parsers/rst/include/s5defs.txt]  中追加俺习惯的CSS类名:
+```
+#! text ; highlight: [1,8,9]
+.. Text Sizes
+   ==========
+
+.. role:: huge
+.. role:: big
+.. role:: small
+.. role:: tiny
+.. role:: takahashi0
+.. role:: takahashi1
+.. role:: takahashi2
+...
+```
+
+
+: 成果对比:
+ - 手写HTML幻灯 
+  - 45Kb
+  - [index.html http://zoomquiet.org/res/s5/100918-MyTools/html-s5/index.html]
+ - 手写rST生成S5幻灯 
+  - 38Kb
+  - [index.rst http://zoomquiet.org/res/s5/100918-MyTools/rst2s5/index.rst]
+
+
+= 时间帐单 =
+``小结这次迁移的时间消耗``
++ 0.5h  试用 rst2s5
++ 0.5h  接入样式
++ 0.5h  重构Leo 模式
++ 2h    定制基于 rst2s5 的样式
++ 3h    逐一页面重写
++ 1h    修订发布
+
+共计 **7.5h**
+ - 嗯嗯嗯,主要是在重过过程中,反复调整了对应的 CSS 样式...
+ - 好在一切可以快速复用到其它幻灯中了...
+
+
+------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+

@@ -1,0 +1,240 @@
+<?xml version="1.0"
+      encoding="UTF-8"
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Subversion</title>
+<meta name="generator" content="http://txt2tags.sf.net" />
+</head>
+<body>
+
+<div class="header" id="header">
+<a name='toptopS04yV0U1V' id='toptopS04yV0U1V'></a><h1>Subversion</h1>
+<h2>为了颠覆CVS的版本管理系统！</h2>
+</div>
+
+<div class="toc" id="toc">
+  <ol>
+  <li><a href="#toc1R0VYQ0FVM">SVN vs CVS</a>
+  </li>
+  <li><a href="#toc2R0lYQ0JaT">啄木鸟的体验</a>
+  </li>
+  <li><a href="#toc3R01YQ0E1U">v1.3.0体验</a>
+    <ul>
+    <li><a href="#toc4R01YRENMU">3.1. 继续</a>
+    </li>
+    </ul>
+  </li>
+  </ol>
+
+</div>
+<div class="body" id="body">
+<a id="toc1R0VYQ0FVM" name="toc1R0VYQ0FVM"></a>
+<h1><A href='#toptopS04yV0U1V'> 1. SVN vs CVS </A></h1>
+<p>
+在本地使用自个儿习惯的格式来写，通过SVN 自动版本同步到PyBlsxom发布！
+</p>
+<dl>
+<dt>好处：</dt><dd>
+    <ol>
+    <li>使用DB4有事务支持
+    </li>
+    <li>二进制文件可版本管理
+    </li>
+    <li>速度快！
+    </li>
+    <li>离线操作丰富
+    </li>
+    <li>...
+    </li>
+    </ol>
+</dd>
+<dt>坏处:</dt><dd>
+    <ul>
+    <li>使用DB 数据可能<i>变脏</i>
+    </li>
+    <li>DB4 管理复杂
+     <ul>
+     <li>不过，到了1.2.1以后也支持CVS样儿的文件型数据管理了
+    -
+     </li>
+     </ul>
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<a id="toc2R0lYQ0JaT" name="toc2R0lYQ0JaT"></a>
+<h1><A href='#toptopS04yV0U1V'> 2. 啄木鸟的体验 </A></h1>
+<p>
+很早就使用SVN 进行代码管理了，统一的体验就是快！
+</p>
+<p>
+<a href="http://cvs.woodpecker.org.cn/trac/">trac of 啄木鸟</a>
+</p>
+<p>
+<a href="http://wiki.woodpecker.org.cn/moin/AllAboutSubversion">啄木鸟SVN使用说明</a>
+</p>
+<a id="toc3R01YQ0E1U" name="toc3R01YQ0E1U"></a>
+<h1><A href='#toptopS04yV0U1V'> 3. v1.3.0体验 </A></h1>
+<dl>
+<dt>FreeBSD6.0 为准:</dt><dd>
+    <ol>
+    <li>升级ports:
+        <ul>
+        <li><code>portsnap upgrade</code>
+        </li>
+        <li>比以前的什么
+        <code>cvsup -sgL2 /usr/share/examples/cvsup/ports-supfile -h cvsup{,2-6}.cn.freebsd.org</code> 
+        要直接的多
+        </li>
+        </ul>
+    </li>
+    <li>安装SVN:
+<pre>
+# cd /usr/ports/devel/subversion
+# make install clean
+</pre>
+    </li>
+    <li>创建SVN仓库:
+        <ul>
+        <li><code>svnadmin create --fs-type fsfs /path/to/ur/svnrepo</code>
+        </li>
+        <li>建立使用 <a href="http://www.subversion.org.cn/svnbook/1.1/svn-ch-5.html#svn-ch-5-sect-1.3">FSFS 存储的仓库</a>
+        </li>
+        </ul>
+    </li>
+    <li>启动服务:
+        <ul>
+        <li>选择<b>svnserve</b>:
+        </li>
+        <li><a href="http://www.subversion.org.cn/svnbook/1.1/svn-ch-6.html#svn-ch-6-sect-1">根据对比</a>
+        </li>
+        <li><b>svnserve</b> 模式依赖最小,管理也方便，速度还快！
+        </li>
+        </ul>
+        <ol>
+        <li>inetd 方法启动:
+            <ul>
+            <li>确认:
+<pre>
+    /etc/services 有
+svn           3690/tcp   # Subversion
+svn           3690/udp   # Subversion
+    /etc/inetd.conf 有
+svn stream tcp nowait svnowner /usr/bin/svnserve svnserve -i
+
+</pre>
+            </li>
+            <li><code>svnserve -i</code> 命令启动
+            </li>
+            <li>每有请求，就会创建一个svnserve进程，处理完后自杀
+            </li>
+            </ul>
+        </li>
+        <li>作为独立“守护”进程:
+            <ul>
+            <li>直接<code>svnserve -d --listen-port=和--listen-host=</code>
+            选项来自定义“绑定”的端口和主机名启动
+            </li>
+            <li>创建一个驻留内存的进程来影响SVN事务
+            </li>
+            <li>也可限制发布:
+<pre>
+svnserve -d -r /path/to/ur/svnrepos/
+</pre>
+            仅仅发布指定的SVN仓库，这样一来访问时就不用知道服务端系统路径了
+            </li>
+            </ul>
+        </li>
+        </ol>
+    </li>
+    <li>权限管理:
+        <ul>
+        <li>1.3.0 的SVN提供了足够好用的默许权限控制！
+        不用什么 Apache 的额外支持就足够进行管理了!
+        </li>
+        <li><i>svnserve.conf</i>中指定:
+<pre>
+password-db = passwd
+authz-db = authz
+...
+</pre>
+        </li>
+        <li>就可以在 <b>passwd</b> 文件中定义口令
+<pre>
+[users]
+harry = harryssecret
+sally = sallyssecret
+...
+</pre>
+        </li>
+        <li><b>authz</b> 中进行用户组，代码目录访问权限的分配了
+<pre>
+[groups]
+harry_and_sally = harry,sally
+[/foo/bar]
+harry = rw
+* = 
+[repository:/baz/fuz]
+@harry_and_sally = rw
+* = r
+</pre>
+        </li>
+        <li>比以前的只能口令，要丰富，足够的很多了！
+        </li>
+        </ul>
+    </li>
+    <li>备份管理:
+        <ul>
+        <li><b>hotcopy</b> 真实可用的热备！
+<pre>
+svnadmin hotcopy /path/to/ur/repos /path/to/backup/ &amp;
+</pre>
+        </li>
+        </ul>
+    </li>
+    <li>事务管理:
+        <ul>
+        <li>高级，但是实用有趣的 
+        <b><a href="http://wiki.woodpecker.org.cn/moin/SubversionHooks">HOOKs</a></b> 技术了！
+        </li>
+        <li>最基础的 ，将<code>post-commit.tmpl</code> cp 为 post-commit,
+        加入你自个儿的事务脚本
+<pre>
+HOOKS="/path/to/ur/repos/hooks/script"
+$HOOKS/post-commit.py "$REPOS" "$REV"
+</pre>
+        </li>
+        <li>啄木鸟现在使用的 <a href="/pyblosxom/OpenSource/Subversion/hooks/post-commit.phtm">post-commit.py</a>自动将检入活动记录在案
+        </li>
+        </ul>
+    </li>
+    </ol>
+</dd>
+</dl>
+
+<a id="toc4R01YRENMU" name="toc4R01YRENMU"></a>
+<h2><A href='#toptopS04yV0U1V'> 3.1. 继续 </A></h2>
+<p>
+以上是快记，具体使用中的体会，妙处要长期发现记录在案 的…………
+</p>
+<hr class="light" />
+<ul>
+<li>动力源自::<b><a href="http://txt2tags.sf.net">txt2tags</a></b>
+</li>
+<li>t2t渲染:: 2010-10-09 02:21:36
+</li>
+</ul>
+
+<p>
+<img align="middle" src="/pybimage/technorati-over.gif" border="0" alt=""/>
+    <a href="http://www.technorati.com/tags/OpenSource">OpenSource</a>
+    ,<a href="http://www.technorati.com/tags/Subversion">hacking</a>
+</p>
+</div>
+
+<!-- xhtml code generated by txt2tags 2.4 (http://txt2tags.sf.net) -->
+<!-- cmdline: txt2tags ./utility/Subversion/intoSVN-2006-01-01-23-23.t2t -->
+</body></html>

@@ -1,0 +1,31 @@
+升级！
+from Pyblosoxm1.3.0b to Pyblosoxm1.3.2
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+: 升级操作！
+    - 3分钟完成！
+     + 下载 ```fetch ,,, pyblosxom-1.3.2.tar.gz```
+     + 解开 ```tar xzvf pyblosxom-1.3.2.tar.gz```
+     + 安装 ```sudo python setup.py install```
+     + DONE!
+    - 居然不用任何修改，**兼容以前版本的一切用户定制！**
+    - 爽哪！！哈哈哈！！
+
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]

@@ -1,0 +1,503 @@
+[FW]学习笔记
+参考O'reilly的< <学习 GNU Emacs> >
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+: FW:
+    同事LiLu:
+```
+最近学习了一下Emacs，把重点的概念和操作简单做了笔记如下，有兴趣的同学一
+起学习探讨啊
+```
+
+= Chapter 1 基本文件操作 =
+
+
+```
+概念：
+文件
+编辑缓冲区(buffer)
+窗口
+模式（主模式，辅模式)
+
+C-x C-f 查找文件并打开
+C-x C-v 读入另外一个文件替换
+C-x i 插入文件到光标处
+C-x C-s 保存文件
+C-x C-w 把缓冲区内容写入文件
+C-x C-c 推出
+```
+
+
+= Chapter 2 文件编辑 =
+
+== 一，移动光标 ==
+
+```
+C-f,C-b,C-p,C-n 上下左右
+M-f,M-b 左右移动(单词)
+C-a,C-e 行首和行尾
+M-a,M-e 左右移动(句子）
+M-{,M-} 上下移动（段落)
+C-v,M-v 上下翻动(翻屏)
+C-x [,C-x ] 上下翻页(有分页符)
+M-<,M-> 缓冲区开头和结尾
+M-g g
+M-x goto-line n
+去到第n行
+M-x goto-char n
+去到第n个字符
+C-l 重绘屏显
+
+重复执行命令：
+C-u n C-u默认4次，C-u,C-u16次，。。。。4的幂次方
+M-100 100次执行
+
+Mode:
+自动换行辅模式 auto-fill-mode
+```
+
+
+== 二，文本的删除 ==
+
+```
+C-x u undo操作
+M - 加在这些命令前边，都是行首到光标，不然都是光标到行尾
+
+删除
+C-d 删除当前字符
+M-d 删除当前单词
+C-k 删除行
+M-k 删除句子
+
+恢复
+C-y 除了C-d和del删除的都能召回,（kill类指令)，召回最新
+M-y 把删除环中以前的一次次召回
+
+文本块处理
+
+C-@ Mark文本标记
+M-@ Mark文本，当前到词尾
+C-w 文本块删除(剪切)
+M-w 文本块复制
+C-x,C-x 检查文本标记位置
+M-h 标记整段
+C-x h 标记整buffer
+
+Mode:
+临时标记模式 transient-mode
+```
+
+
+== 三，编辑技巧 ==
+
+```
+M-q 段落重排
+
+交换
+
+C-t 交换两个字符的位置
+M-t 交换两个单词的位置
+C-x,C-t 交换两行
+
+大小写
+
+M-c 单词首字母大写
+M-u 单词全字母大写
+M-l 单词全字母小写
+```
+
+== 四，修改的撤销 ==
+
+```
+C-x,u undo
+M-x revert-buffer 回复缓冲区
+可以返回文件的备份版本 filename~
+可以从自动保存的文件恢复
+```
+
+= Chapter 3 查找和替换 =
+```
+C-x ESC ESC 寻找以前执行过的命令
+M-p/M-n 命令区条目查看
+```
+
+== 一，查找 ==
+
+```
+C-s 递增查找
+C-r 反向递增查找
+C-s,C-w 复制单词
+C-s,C-y 复制句子
+C-s,M-y 删除环文本复制
+C-s
+非递增查找
+C-s
+C-w 单词查找
+都有对应C-r
+```
+
+== 二, 查找和替换 ==
+
+```
+M-x replace-string 替换
+M-% 查询-替换
+space or y 替换
+del or n 不替换
+, 替换了看看情况
+! 替换之后所有
+
+递归编辑
+在查询-替换操作中C-r
+推出递归编辑
+M-C-c
+随时递归编辑
+M-x recursive-edit
+
+大小写字母的问题
+默认不区分大小写，且按照原来大小写情况匹配
+编程时可能需要调整
+M-x set-variable
+设case-fold-search变量的值 查找时是否大小写敏感 t变为nil
+设case-replace的值 是否按照原大小写匹配
+
+正则表达式查找替换
+各命令和M一同使用
+替换
+C-M-%
+query-replace-regexp
+在目标串中的表示
+\& 整字串
+\N 部分字串，N为第N个()
+\# replace多少次
+```
+
+== 三，拼写检查 ==
+
+```
+Ispell
+M-x ispell-buffer 检查整个buffer
+强大的拼写检查器，可替换
+M-$ 检查当前单词
+M-Tab 自动补全单词
+```
+
+== 四，单词简写模式 ==
+
+简写词作用范围是模式
+
+
+= Chapter 4 编辑缓冲区和窗口 =
+
+== 一，Buffer ==
+
+```
+C-x b 切换Buffer
+C-x C-b 调出buffer列表
+C-x s 保存多个Buffer
+y,n,!,q,C-r(查看当前buffer),C-c(退出C-r的查看)
+C-x k 删除当前Buffer
+C-x C-v 找到另一个文件代替当前的文件
+C-x C-q 切换当前buffer是否只读
+
+Buffer List:
+状态：
+. 已显示
+* 已修改
+D 待删除
+> > 待显示
+S 待存盘
+% 只读
+操作：
+x 执行操作
+d 删除
+del 去除上一步操作
+s 存盘
+% 只读
+1 满凭显示buffer
+f 当前buffer替代buffer list
+o 另外一个窗口打开buffer
+m 待显示
+v 显示
+```
+
+
+== 二，窗口 ==
+
+```
+C-x 2 水平分割窗口
+C-x 3 垂直分割窗口
+C-x N .....多窗口
+C-x o 窗口间的移动
+C-x 0 关闭当前窗口
+C-x 1 只保留当前窗口
+C-x ^ 加高当前窗口
+C-x } 加宽当前窗口
+C-x - 窗口变为buffer大小
+C-x + 多窗口同样大小
+M-C-v/Shift-M-C-v 卷动其他窗口内容
+
+C-x 4 f 自动在新窗口里打开文件
+类似的还有C-x 4 b等等。。。
+C-x 4 r 只读方式打开
+
+对比两文件的不同
+compare-window命令
+```
+
+== 三，书签 ==
+
+```
+C-x r m 在当前光标位置设置书签
+C-x r b 打开书签
+为书签改名：
+bookmark-rename
+删除书签
+bookmark-delete
+
+C-x r l 打开书签清单
+书签清单操作 同buffer
+特殊
+r 重命名
+```
+
+== 四，窗格 ==
+
+
+- 操作大多同窗口
+- 4换成5
+
+
+
+= Chapter 5 Emacs工作环境 =
+
+- M-p/M-n 历史记录查询，适用于大多数需要输入的地方
+
+
+
+== 一, 执行UNIX命令 ==
+
+```
+M-! 执行UNIX命令
+默认结果进Shell Command Output缓冲区
+C-u M-! 结果进当前编辑缓冲区
+M-| 将标记文本块作为shell command的输入
+
+可以修改变量shell-file-name指定使用shell的名字
+
+M-x shell 执行unix命令交互式功能
+C-c 加在unix快捷键前，如C-z
+C-c C-o 不显示上条命令的输入结果
+C-c C-r 输出放到窗口顶
+C-c C-e 输出放到窗口底
+C-c C-p 查看上一输出组
+C-c C-n 查看下一输出组
+
+cd时会改变查找文件的默认目录
+(setq-default shell-popd-regexp nil)这样就不变了
+
+可以让输入的口令不可见
+```
+
+
+
+== 二，文件和目录操作 ==
+
+
+```
+Dired模式
+
+C-x C-f/C-x d/启动emacs dir 都可以进入此模式
+s 切换文件排序方法
+buffer中的操作方法依然适用
+在命令前加数字可以同时对N个文件作操作
+v 进入view mode，只能看
+q 回到目录
+f 可以改
+d 待删除
+# 删除所有自动保存文件
+~ 删除所有备份文件
+D 真正删除
+C 复制文件
+R 重命名/移动文件
+Z 压缩/解压缩（只有gz)
+= 比较两文件
+M-= 比较备份文件
+! 执行任何unix命令
+* 标记待操作文件
+u 去掉标记
+g 刷新屏显的目录情况
+% 后面跟的命令对文件进行正则选取
++ 创建目录
+Q 可以进行对多文件内容的查询和替换
+```
+
+
+- 还有很多命令，请参考手册
+
+
+== 三，查阅unix在线手册 ==
+
+M-x man
+
+
+== 四，日历与日记 ==
+
+M-x calendar
+
+
+= Chapter 6 宏 =
+
+```
+C-x ( 录制宏
+C-x ) 退出宏
+C-x e 执行宏，前边可以加C-u
+C-u C-x( 为以前的宏添加动作
+M-x name-last-kbd-macro 保存最后一个宏
+之后用M-x macroname使用即可,前边加M-n执行n次
+M-x insert-kbd-macro
+macroname
+
+打开一个文件后执行，即可把宏的lisp代码保存入文件
+M-x load-file filename
+加载宏定义文件，也可以加载任何lisp定制文件
+C-u C-x q 录制宏时进行递归编辑
+M-C-c 退出递归编辑
+C-x q 让宏停下来进行询问
+同查找替换
+```
+
+
+= Chapter 7 Emacs进行编程 =
+
+
+== 一，各语言通用 ==
+
+```
+(autoload 'function "filename")
+为某个mod增加关联程序包
+变量：
+auto-mode-alist
+自动将模式与特定后缀文件做关联
+
+M-C-\ 对文本块缩进
+M-m 光标移到当前行第一个非空白字符
+M-^ 当前行合并到上一行
+M-; 增加注释
+M-j 为注释增加新行
+变量comment-multi-line控制
+
+命令：
+comment-region 把文本块标为注释
+```
+
+== 二，C/C++ ==
+
+```
+模式：
+c-mode
+c++mode
+perl和c大同小异
+
+M-a 移动到语句开头
+M-e 移动到语句结尾
+M-q 注释文本段落重排
+M-C-a 移动到函数开头
+M-C-e 移动到函数末尾
+M-C-h 把函数选为文本块
+C-c C-q 函数整体缩进
+C-c C-u 预处理条件开始
+C-c C-p 上一个预处理条件
+C-c C-n 下一个预处理条件
+
+命令：
+c-set-style 选一种缩进样式
+
+C-c C-a 自动新行功能
+C-c C-d 饥饿的删除键
+
+设定：
+(add-hook 'c-mode-hook
+'(lambda ()
+(c-set-style " stylename ")
+(c-toggle-auto-state)
+(c-toggle-auto-hungry-state)))
+C-c C-e 将预处理块送入实际预处理器执行
+
+etags：
+强大的函数search工具
+调用:
+etags *.[ch] 这样为所有.c,.h建立函数标签
+emacs调用：
+命令
+visit-tags-table
+函数标签命令：
+M-. 查找匹配某字符串的函数,默认是光标当前字符串
+C-x 4 . 使用一个新窗口打开M-.
+M-, 查找下一个函数
+命令
+tags-search 正则搜TAGS包括文件的一切内容
+tags-query-replace
+查找和替换，加C-u完全匹配单词
+tags-apropos
+打开匹配的tag list
+list-tags 把给定文件的标签都列出来
+```
+
+== 三，编译 ==
+
+```
+模式：
+编译模式
+命令：
+compile
+变量：
+compile-command
+C-x ` 来到出错信息所在位置
+加C-u 到第一条出错信息所在
+M-n/M-p 向上/下找错误信息
+C-c C-c 访问对应于当前错误信息的源代码
+
+调用grep工具：
+命令grep
+可以用编译模式的命令
+```
+
+
+
+= Chapter 7 帮助 =
+
+
+== 一，自动完成 ==
+
+
+```
+变量:
+completion-ignored-extension
+把一些后缀的文件或命令加入不自动补完列表
+```
+
+== 二，帮助 ==
+
+
+```
+C-h ? 帮助的帮助
+C-h a 这个概念涉及哪些命令
+apropos 这个概念涉及哪些函数和变量
+super-apropos 哪些文档提到此概念
+都可用正则
+```
+
+
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+

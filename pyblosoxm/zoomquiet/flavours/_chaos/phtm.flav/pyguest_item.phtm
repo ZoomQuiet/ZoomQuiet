@@ -1,0 +1,14 @@
+<div class="blosxomGuestbook">
+
+<h3 id="blosxomTitle">::
+<a name="$fn" href="$base_url/$file_path_urlencoded.$flavour">
+$title</a>
+</h3>
+$posted_url
+<br/>
+$posted_email
+<div class="blosxomStory">
+$body
+</div><!--class="blosxomStory"-->
+
+</div><!--class="blosxomGuestbook"-->

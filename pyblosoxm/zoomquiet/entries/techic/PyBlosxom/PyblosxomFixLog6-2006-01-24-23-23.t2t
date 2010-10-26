@@ -1,0 +1,43 @@
+[hack6]SNS化
+社会化软件增强
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+: 火热的 Web2.0beta
+    有定义图[/pybimage/web2.0defining.png];来自[kosmar http://www.flickr.com/photos/kosmar/88198896/]
+    - 嗬嗬！还有[标记版本的Web2.0  http://www.flickr.com/photos/kosmar/62381076/in/set-1371686/]
+    - 新版本的::[Netz2.0 http://www.flickr.com/photos/kosmar/88198896/in/set-1371686/]
+
+: [Folksonomy http://blog.timetide.net/archives/2005/01/15/20050115015808.php]
+  分众分类！
+  - PyBlosxom 如何支持呢？
+  - Google it!::[Folksonomy 1.2 http://www.timfanelli.com/item/42]
+   - 很中意哪！类似del.icio.us 的TAGs 分重效果哪！
+  - 唉呀呀？！作者的Blog 怎么是[[/pybimage/pb_blosxonomy.gif] http://blosxonomy.com/] ,还以为是PyBlosxom的,
+  又一个Ruby 的[blosxom http://blosxom.com/] clone!
+  - 看来 [blosxom http://blosxom.com/]**“简单即是美”**
+  的设计感化了不少程序员哪！
+   - **[Simply put: It's a Zen thing... http://blosxonomy.com/]**
+  - 可惜，安装失败！ N多的报错！想来此次PyBlosxom 的升级造成的修改还要有段时间的磨合
+  - 再Google!::从[Keywords on Copia http://copia.ogbuji.net/blog/Keywords_on_Copia]知道了[Keywords Plugin http://llimllib.f2o.org/blog/serve/entry/keyword_update.html]
+  - 依然安装不能！呜乎哀哉…………
+
+
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]
+    ,[SNS http://www.technorati.com/tags/SNS]

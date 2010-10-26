@@ -1,0 +1,84 @@
+M$ DLL Hell
+~ KUSO Windows编程革命简史 之歌
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+- Windows编程革命简史 | 酷壳 - CoolShell.cn
+ - http://coolshell.cn/articles/3008.html
+- 忒给力了！ 想起: 新同事 | zonble’s promptbook
+ - http://zonble.net/archives/2007_05/937.php
+
+忍不住给个歌词吧,谁人有给力的曲,我们配首 **微软革命之歌** :
+
+```
+#! text
+M$ DLL Hell
+
+起初,我说起初
+那儿只有 Windows API 和 DLL Hell
+为了消灭 DLL Hell
+然后,DDE 出现了
+
+但是,他们说DDE 有重大缺陷：
+丫不是俺写的！
+于是 OLE 出现了
+除了名字和 DDE 不同
+其它其实真的一样的哈！
+
+后来,他们信了 C++
+为嘛?!你懂的,你真得懂的!
+于是 OLE 通过 MFC 进化成 COM
+为嘛?!你懂的,你真得懂的!
+
+但是,他们说 MFC 有重大缺陷：
+丫不是俺写的！
+于是 ATL 出现了
+除了名字和 MFC 不同
+其它其实真的一样的哈！
+
+然后 COM 变身成 ActiveX
+为嘛?!你懂的,你真得懂的!
+于是 DLL Hell 再次被消灭鸟
+为嘛?!你懂的,你真得懂的!
+
+同时,他们说 JAVA 有重大缺陷：
+丫不是俺写的！
+于是 ActiveJ 出现了
+除了名字和 JAVA 不同
+其它其实真的一样的哈！
+
+然后 COM 变身成 MTS
+为嘛?!你懂的,你真得懂的!
+于是 DLL Hell 再次被消灭鸟
+为嘛?!你懂的,你真得懂的!
+
+现在,他们说 Internet 有重大缺陷：
+你懂的,你真得懂的!
+于是 .NET 出现了
+除了名字和 Internet 不同
+其它其实真的一样的哈！
+
+然后 C++ 变身成 C#
+为嘛?!你懂的,你真得懂的!
+于是 DLL Hell 再次被消灭鸟
+为嘛?!你懂的,你真得懂的!
+
+你懂的!
+你真得要懂的!
+为嘛?! DLL Hell 总在被消灭?!
+为嘛?!
+因为 M$ 在革命!
+```
+
+------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+
+

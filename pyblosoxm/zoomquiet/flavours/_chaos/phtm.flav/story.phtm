@@ -1,0 +1,58 @@
+<h3 id="blosxomTitle">::
+<a name="$fn" href="$base_url/$file_path_urlencoded.$flavour">
+$title</a>
+</h3>
+
+<div class="blosxomStory">
+$body
+</div><!--class="blosxomStory"-->
+<div class="blosxomStoryLinks">
+<!--
+$filebasename  ; 
+$entryext
+-->
+[$ti]
+<a href="$base_url/$file_path.$flavour#blosxomComments">
+评注($num_comments)</a>
+| <a href="$base_url/$file_path_urlencoded.$flavour" 
+    title="permalink">#
+    永久链接</a><!--permanent link to this entry-->
+    <sup>    
+    <a href="/entry/$file_path_urlencoded$entryext">
+    $entryext</a>
+    <a href="/entry/$file_path_urlencoded.t2t">
+    .t2t</a>
+    <a href="/entry/$file_path_urlencoded.moin">
+    .moin</a>
+    </sup>
+| <a href="http://del.icio.us/post?url=$base_url/$file_path_urlencoded.$flavour" rel="nofollow" title="Bookmark 2 del.icio.us">
+<img src="/styles/del.icio.us.gif" border="0" 
+style="padding:8px 2px 0px 0px; width: 8px;" 
+alt="add into del.icio.us" />del.icio.us</a> 
+| 分类<a href="$base_url/$absolute_path_urlencoded" title="path">
+    /$absolute_path</a> 
+
+<!--
+| $tags
+
+| <a href="$base_url/trackback/$file_path" title="Trackback">
+  TB</a>
+-->  
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"     xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+    <rdf:Description
+    about="$base_url/$file_path"
+    dc:title="$title"
+    dc:identifier="$base_url/$file_path"
+    trackback:ping="$base_url/trackback.cgi/$file_path"
+    />
+</rdf:RDF>
+--></div><!-- class="blosxomStoryLinks"-->
+
+<div class="Folksonomy">
+<!--Folksonomy ...-->
+$relatedstories
+</div>
+

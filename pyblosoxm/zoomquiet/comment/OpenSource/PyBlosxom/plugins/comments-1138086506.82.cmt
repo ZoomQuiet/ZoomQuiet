@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<title>/OpenSource/PyBlosxom/plugins/comments.py</title>
+<ipaddress>10.217.12.21</ipaddress>
+<author>Zoom.Quiet</author>
+<link></link>
+<email>Zoom.Quiet@gmail.com</email>
+<source></source>
+<pubDate>1138086506.82</pubDate>
+<description>发现会重复记录 URL信息到评注XML文件中！&lt;br /&gt;
+好象是此内函式的问题？！&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp; def makeXMLField(name, field):&lt;br /&gt;
+&amp;nbsp; return "&amp;lt;"+name+"&amp;gt;" + cgi.escape(field.get(name, "")) + "&amp;lt;/"+name+"&amp;gt;\n";</description>
+</item>

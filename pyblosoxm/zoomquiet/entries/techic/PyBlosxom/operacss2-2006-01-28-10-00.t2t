@@ -1,0 +1,67 @@
+[fix PyBlosxom]CSS for Opera
+都是CSS惹的祸?
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+= 怎么了？ =
+
+: [/pybimage/snap060126-opera-css-error.png]
+    晚上回家使用Opera 8.51 才发现这问题…………
+
+= fixed =
+
+: CSS2的兼容性哪…………
+    - ??? 怎么看也不象！
+: 原来如比
+```
+<a name="1137513213.36"></a>
+[Tue Jan 17 23:53:33 2006] 
+<!-->
+<a href="mailto:">123</a>
+<sup><a href="">URL</a></sup>
+曰::
+    ...
+```
+    输出中有意外的HTML代码？！
+    原来是Opera 坚守标准HTML 的结果！！
+: 修正
+    将原先``comment.phtm``模板中的:
+```
+...
+<!-- $cmt_title -->
+<a name="$cmt_time"></a>
+[$cmt_pubDate] 
+<!--$cmt_link-->
+```
+    修改为
+```
+<!-- 
+$cmt_title 
+-->
+<a name="$cmt_time"></a>
+[$cmt_pubDate] 
+<!--
+$cmt_link
+-->
+```
+    一切就正常了！
+
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]
+    ,[css http://www.technorati.com/tags/css]

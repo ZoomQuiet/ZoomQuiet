@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<title>/OpenSource/PyBlosxom/plugins/zqcategory.py</title>
+<ipaddress>222.93.74.29</ipaddress>
+<author>hoxide</author>
+<link>a href=http://blog.sina.com.cn/u/1142604745http://blog.sina.com.cn/u/1142604745/a</link>
+<email></email>
+<source></source>
+<pubDate>1139145847.93</pubDate>
+<description>finish_t = config.get("category_start", DEFAULT_FINISH)&lt;br /&gt;
+&lt;br /&gt;
+错了吧</description>
+</item>

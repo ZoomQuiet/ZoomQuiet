@@ -1,0 +1,47 @@
+MD5使用快记
+ZoomQuiet
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+: [MD5 http://a-010.cyut.edu.tw/~vote/md5.php]
+  ( Message-Digest algorithm 5) 
+  MD5作为一个单向混淆算法，即不易以逆向运算得到原始资料
+:
+
+**Pythonic 的使用:**
+```
+::brush: shell
+Python 2.4.1 (#65, Mar 30 2005, 09:13:57) [MSC v.1310 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import md5
+>>> dir(md5)
+['MD5Type', '__doc__', '__name__', 'digest_size', 'md5', 'new']
+>>> md5.md5(文件)
+<md5.md5 object at 0x00B83800>
+>>> md=md5.md5(文件)
+>>> dir(md)
+['copy', 'digest', 'hexdigest', 'update']
+>>> md.hexdigest()
+'50235d71d6aa33a2be8d8bfbb1e87b91'
+```
+
+
+嗯哪……
+
+------------------------------
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+
+% Leo 4.7.1 final: 编辑
+
+
+
+[/pybimage/technorati-over.gif]
+    [chinese http://www.technorati.com/tags/chinese]
+    ,[OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[pythonic http://www.technorati.com/tags/pythonic]
+    ,[md5 http://www.technorati.com/tags/md5]

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE content [ <!ENTITY nbsp " "> ]>
+<rdf:RDF xml:base="$base_url/rdf"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="$base_url">
+  <dc:title> $blog_title </dc:title>
+  <dc:description> $blog_description </dc:description>
+  <dc:creator> $blog_author &lt;$blog_email&gt; </dc:creator>
+  <dc:language> $blog_language </dc:language>
+  <dc:format> text/html </dc:format>
+  <dc:rights> $blog_rights </dc:rights>
+</rdf:Description>
+

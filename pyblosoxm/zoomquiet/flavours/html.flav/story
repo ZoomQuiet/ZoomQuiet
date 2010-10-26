@@ -1,0 +1,45 @@
+<div class="post"> 
+<div id="page-content">
+
+    <div class="pt">
+        <h1>&para; $(title)</h1>
+        <h2 class="permanentURL">
+        <a href="$(base_url)/$(urlencode(file_path)).$(flavour)">$(yr)-$(mo_num)-$(da) $(ti)</a>
+        </h2>
+        <!--$(date)-->
+    </div>
+    
+    <div class="text">
+        <div class="blosxomStory">
+        $(body)
+        </div>
+
+<br/>
+        <div class="meta"> &sect; 
+写于: $(date) | <a href="$(base_url)/$(urlencode(file_path)).$(flavour)">永久链接</a>;源文:
+<a href="$(base_url)/$(urlencode(file_path)).rdf">rdf</a>
+,<a href="$(base_url)/$(urlencode(file_path)).atom">rss</a>
+,<a href="/pybnodes/$(urlencode(file_path)).t2t">raw</a>
+| 分类: <a href="$(base_url)/$(urlencode(absolute_path))" title="path">/$(absolute_path)</a>
+&sect;
+<br/>
+<a href="mailto:zoomquiet+blog@gmail.com?subject={PyBlosxom}$(title)&body=abt. $(urlencode(file_path))">[Comment]</a>
+<a href="javascript:window.print()">[Print]</a>
+ <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/">
+<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/cn/80x15.png" /></a>
+<br/>
+<span class="cclicence">
+    &#26412;<span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">&#20316;&#21697;</span>&#30001;<span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Zoom.Quiet</span>&#21019;&#20316;&#65292;&#37319;&#29992;<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/">&#30693;&#35782;&#20849;&#20139;&#32626;&#21517;-&#30456;&#21516;&#26041;&#24335;&#20849;&#20139; 2.5 &#20013;&#22269;&#22823;&#38470;&#35768;&#21487;&#21327;&#35758;</a>&#36827;&#34892;&#35768;&#21487;&#12290;
+&#22522;&#20110;<a xmlns:dc="http://purl.org/dc/elements/1.1/" href="$(base_url)/$(urlencode(file_path)).$(flavour)" rel="dc:source">zoomquiet.org</a>&#19978;&#30340;&#20316;&#21697;&#21019;&#20316;&#12290;
+</span>
+    </div> <!--class="meta"-->
+
+    </div> <!-- class="text"-->
+<center id="pyentrynavi">
+    $(entry_navi) <!-- for pyentrynavi-->
+</center>
+
+</div> <!-- id="page-content"-->
+</div> <!-- class="post"-->
+<hr/> 
+

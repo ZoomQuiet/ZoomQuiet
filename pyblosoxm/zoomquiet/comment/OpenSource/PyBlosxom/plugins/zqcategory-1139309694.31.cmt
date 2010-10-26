@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<title>/OpenSource/PyBlosxom/plugins/zqcategory.py</title>
+<ipaddress>218.4.43.67</ipaddress>
+<author>hoxide</author>
+<link></link>
+<email></email>
+<source></source>
+<pubDate>1139309694.31</pubDate>
+<description>哦~~~ 可能这部分代码我改过了~~&lt;br /&gt;
+&lt;br /&gt;
+应该是:&lt;br /&gt;
+finish_t = config.get("category_finish", DEFAULT_FINISH)</description>
+</item>

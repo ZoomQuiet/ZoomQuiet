@@ -1,0 +1,118 @@
+文件系统选择
+-- 译文 Solaris Filesystem Choices
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+
+= Solaris 的FS决择 =
+节译:[Solaris Filesystem Choices http://www.osnews.com/story/19665/Solaris_Filesystem_Choices] 50%
+
+OpenSolaris 10 已经给用户提供了一大堆存储相关的支持，而且秉承UNIX的一贯习俗，
+都是经过严格测试了的,这里就四种通用文件系统进行分析，希望可以就部署方面给读者提供足够的信息以便最终选择:
+
+== UFS ==
+UFS 忒有历史凫，从80年代开始就是BSD等UNIX系統的默认FS；
+类似于 ext3 在 GNU/Linux 体系中的地位;
+Solaris 中的UFS来自 SunOS,而SunOS 中的UFS来自 BSD;
+
+不久前，UFS还是Solaris 中唯一的FS，不同于HP, IBM, SGI, 以及 DEC；
+SUN直到90年代也没有自主发展下一代的FS；
+原因有两:
+ + 多数情况下开发者需要第三方代码来支持新FS，而这需要许可
+ + 多数可以交易来的FS都是 Veritas 许可的(嘛意思?)
+
+
+Solaris10 只能从UFS启动,未来将允许从ZFS启动;在OpenSolaris 已经可以了;
+但是当前,所有Solaris 还是得至少有一个UFS分区;
+
+UFS虽然是个技术,但是贵在稳定和足够快;
+而且Sun 在其最后基础上进行了多方的优化；
+从Solaris 7 开始支持日志，进入本世纪，从Solaris 9 开始成为了默认特性；
+原先卷級日志是种效率不好的模型,但是有趣的是FreeBSD又重新加入了这种特性.
+
+UFS已经加入了对RAID支持良好的Solaris卷管理.
+
+2008UFSd准备进行什么修订?
+除作启动之外,UFS足够好用了,将来可由ZFS替代,
+当然看,UFS 对于数据库是个好选择(有普遍的基于文件系统权限控制的DB);
+同时对于保守的有固定工作且不想花时间太多时间配置的SA也是个好选择;
+
+
+== ZFS ==
+对ZFS 已经有N多报道了,同时也收到了从Linux 阵营习惯性的嘲笑.
+
+ZFS 不是魔法,但是足够COOL 了.
+我喜欢将 UFS/ext3 视作首代UNIX文件系统,
+而 VxFS和XFS 视作二代FS,
+那未 ZFS 就是第一个三代UNIX FS!
+
+ZFS已不仅仅是个文件系统了.
+实际算是混合文件系统+卷管理器.
+以上功能的集成赋予了ZFS极大的灵活性.
+同时也是著名的"rampant layering violation"来源.
+不过千万记住,这只是开发特性.我从来没有在打开文件时见过"layering violation"
+
+ZFS的混合意味着你可以管理不同传统方案中的存储.
+你能将文件系统映射到分区,同时可以将另一个映射成逻辑巻,每个逻辑巻又涉及一个或是多个硬盘.
+在ZFS 中所有硬盘分配在一个存储池中.
+每个ZFS文件系统从池中使用所有硬盘,且文件系统不分卷,可以使用全部空间.
+这样没有重定分区大小的烦恼，一切是自动调整的，
+不断增长/收缩的文件系统不是靠谱的管理方式。
+
+ZFS同时在文件系统级别提供了可靠性检验.
+所有数据读/写都可以使用认证(提供了最严厉的SHA256),
+失败时双备份是支持的(元数据是在单一硬盘,而数据是经典的RAID结构),
+
+ZFS provides the most robust error checking of any filesystem available. All data and metadata is checksummed (SHA256 is available for the paranoid), and the checksum is validated on every read and write. If it fails and a second copy is available (metadata blocks are replicated even on single disk pools, and data is typically replicated by RAID), the second block is fetched and the corrupted block is replaced. This protects against not just bad disks, but bad controllers and fibre paths. On-disk changes are committed transactionally, so although traditional journaling is not used, on-disk state is always valid. There is no ZFS fsck program. ZFS pools may be scrubbed for errors (logical and checksum) without unmounting them.
+
+The copy-on-write nature of ZFS provides for nearly free snapshot and clone functionality. Snapshotting a filesystem creates a point in time image of that filesystem, mounted on a dot directory in the filesystem's root. Any number of different snapshots may be mounted, and no separate logical volume is needed, as would be for LVM style snapshots. Unless disk space becomes tight, there is no reason not to keep your snapshots forever. A clone is essentially a writable snapshot and may be mounted anywhere. Thus, multiple filesystems may be created based on the same dataset and may then diverge from the base. This is useful for creating a dozen virtual machines in a second or two from an image. Each new VM will take up no space at all until it is changed.
+
+These are just a few interesting features of ZFS. ZFS is not a perfect replacement for traditional filesystems yet - it lacks per-user quota support and performs differently than the usual UFS profile. But for typical applications, I think it is now the best option. Its administrative features and self-healing capability (especially when its built in RAID is used) are hard to beat. 
+
+== SAM and QFS ==
+SAM and QFS are different things but are closely coupled. QFS is Sun's cluster filesystem, meaning that the same filesystem may be simultaneously mounted by multiple systems. SAM is a hierarchical storage manager; it allows a set of disks to be used as a cache for a tape library. SAM and QFS are designed to work together, but each may be used separately.
+
+QFS has some interesting features. A QFS filesystem may span multiple disks with no extra LVM needed to do striping or concatenation. When multiple disks are used, data may be striped or round-robined. Round-robin allocation means that each file is written to one or two disks in the set. This is useful since, unlike striping, participation by all disks is not needed to fetch a file - each disk may seek totally independently. QFS also allows metadata to be separated from data. In this way, a few disks may serve the random metadata workload while the rest serve a sequential data workload. Finally, as mentioned before, QFS is an asymmetric cluster filesystem.
+
+QFS cannot manage its own RAID, besides striping. For this, you need a hardware controller, a traditional volume manager, or a raw ZFS volume.
+
+SAM makes a much larger backing store (typically a tape library) look like a regular UNIX filesystem. This is accomplished by storing metadata and often-referenced data on disk, and migrating infrequently used data in and out of the disk cache as needed. SAM can be configured so that all data is staged out to tape, so that if the disk cache fails, the tapes may be used like a backup. Files staged off of the disk cache are stored in tar-like archives, so that potentially random access of small files can become sequential. This can make further backups much faster.
+
+QFS may be used as a local or cluster filesystem for large-file intensive workloads like Oracle. SAM and QFS are often used for huge data sets such as those encountered in supercomputing. SAM and QFS are optional products and are not cheap, but they have recently been released into OpenSolaris. 
+
+
+== VxFS ==
+The Veritas filesystem and volume manager have their roots in a fault-tolerant proprietary minicomputer built by Veritas in the 1980s. They have been available for Solaris since at least 1993 and have been ported to AIX and Linux. They are integrated into HP-UX and SCO UNIX, and Veritas Volume Manager code has been used (and extensively modified) in Tru64 UNIX and even in Windows. Over the years, Veritas has made a lot of money licensing their tech, and not because it is cheap, but because it works.
+
+VxFS has never been part of Solaris but, when UFS was the only option, it was a popular addition. VxVM and VxFS are tightly integrated. Through vxassist, one may shrink and grow filesystems and their underlying volumes with minimal trouble. VxVM provides online RAID relayout. If you have a RAID5 and want to turn it into a RAID10, no problem, no downtime. If you need more space, just convert it back to a RAID5. VxVM has a reputation for being cryptic, and to some extent it is, but it's not so bad and the flexibility is impressive.
+
+VxFS is a fast, extent based, journaled, clusterable filesystem. In fact, it essentially introduced these features to the world, along with direct IO. Newer versions of VxFS and VxVM have the ability to do cross-platform disk sharing. If you ever wanted to unmount a volume from your AIX box and mount it on Linux or Solaris, now you can.
+
+VxFS and VxVM are still closed source. A version is available from Symantec that is free on small servers, with limitations, but I imagine that most users still pay. Pricing starts around $2500 and can be shocking for larger machines. VxFS and VxVM are solid choices for critical infrastructure workloads, including databases.
+
+= 结论 =
+Conclusion
+
+These are the four major choices in the Solaris on-disk filesystem world. Other filesystems, such as ext2, have some degree of support in OpenSolaris, and FUSE is also being worked on. But if you are deploying a Solaris server, you are going to be using one or more of these four. I hope that you enjoyed this overview, and if you have any corrections or tales of UNIX filesystem history, please let me know.
+
+
+About the Author
+
+John Finigan is a Computer Science graduate student and IT professional specializing in backup and recovery technology. He is especially interested in the history of enterprise computing and in Cold War technology. 
+
+
+= TODO =
+
+
+
+------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+

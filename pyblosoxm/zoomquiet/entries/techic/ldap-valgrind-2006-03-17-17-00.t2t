@@ -1,0 +1,50 @@
+LDAP的内存泄露
+-- Python说:不是俺的错！
+
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+: 故事:
+    友人在折腾[LDAP http://www.openldap.org/] ,使用Python 的 [Twisted http://twistedmatrix.com/] 组件来开发时应用常常死亡，
+    怀疑Python的内存泄露，但是找不到证据……
+: 结局:
+    找到高人[delphj http://blog.delphij.net/] 运用内存分析工具:
+```
+/usr/ports/devel/valgrind> cat pkg-descr
+Valgrind is a system for debugging and profiling un*x programs. With the tools
+that come with Valgrind, you can automatically detect many memory management
+and threading bugs, avoiding hours of frustrating bug-hunting, making your
+programs more stable. You can also perform detailed profiling, to speed up and
+reduce memory use of your programs.
+
+The Valgrind distribution includes five tools: two memory error detectors, a
+thread error detector, a cache profiler and a heap profiler. Several other
+tools have been built with Valgrind.
+
+Valgrind was ported to FreeBSD by Doug Rabson (http://www.rabson.org/).
+
+WWW: http://valgrind.kde.org/
+
+```
+    才发现是[LDAP http://www.openldap.org/]本身的问题：
+    每次RPC 的远程连接结束后，会泄露 32字节的内存！
+    晕哪！怪不得叫 LDAP, 因为很轻的连接情况下的确很不容易发觉，在当前内存动不动就上Gb的情况下…………
+
+    **Python的虚拟机是非常坚固的！不要轻易怀疑吧……**
+
+
+[/pybimage/technorati-over.gif]
+    [Zen http://www.technorati.com/tags/Zen]
+    ,[Python http://www.technorati.com/tags/python]
+    ,[ldap http://www.technorati.com/tags/ldap]
+    ,[computer http://www.technorati.com/tags/computer]
+------------------------------
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+
+% Leo 4.7.1 final: 编辑
+
+

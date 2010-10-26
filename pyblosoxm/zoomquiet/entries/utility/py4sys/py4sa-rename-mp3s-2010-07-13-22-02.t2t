@@ -1,0 +1,75 @@
+[Py4SA]批量文件重命名
+--远离Shell 的试探
+t2t渲染:: %%date(%Y-%m-%d %H:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+= 问题 =
+嗯嗯嗯,最近从 六哥的 DUKU 重新激发了评书的记忆,下载了全本 袁阔成(40回)红岩魂的mp3 ;-)
+
+可是解开都是乱码文件名:
+- :[/pybimage/2010/zoomq-2010-07-14-105626_446x300_scrot.png];
+- 可恶的中文编码! 一定是在XP 中使用CP936 压出来的
+- 怎么整呢?
+
+
+
+
+
+
+
+: Python在Unix和Linux系统管理中的应用(影印版):
+[[/pybimage/2010/s3876423-py4unix-linux-sa.jpg] http://book.douban.com/subject/3767034/]
+- 绝对好书! 值得慢慢看,E文的也非常简洁,Py 清明的代码,直接看,尝试就可以体会到本意了...
+
+
+= 尝试 =
+``已知有很多途径...``参考:[linux下批量修改文件名_乌哥的家常菜_百度空间 http://hi.baidu.com/sdusoul/blog/item/16f81a9508a1d640d0135ede.html]
+
++ 使用find、awk/grep/sed、mv等命令组合来实现
+    - 俺都不熟练,而且要串很多步操作，忒不直爽了..
+
++ 编写Shell脚本运行~ 不就是命令组合嘛,,.,
++ rename ... NGU/Linux 中的标准化重命名工具,但是,怎么可以将批量文件中指定前几个字符替换成指定字符?
+```
+#! shell
+~/media/4talking/袁阔诚/try> rename -n 's/^.{6}/红岩魂/' *.mp3
+...
+���һ�38.mp3 renamed as 红岩魂38.mp3
+���һ�39.mp3 renamed as 红岩魂39.mp3
+���һ�40.mp3 renamed as 红岩魂40.mp3
+```
+    - 反复尝试半小时才获得满意的...
+
+
+
+= Py之 =
+想嘗試Py 的思路...
+```
+#! py
+import sys,shutil
+if __name__ == '__main__':      # this way the module can be
+    '''usage:
+        $ ls *.mp3 | python rename-zh.py
+    '''
+    if sys.stdin:
+        for l in sys.stdin.readlines():
+            shutil.copyfile(l[:-1], "redStoneSoul-%s"%l[6:-1])
+```
+- 好的,没有尝试,随手写来,3分钟搞掂
+
+: Python在Unix和Linux系统管理中的应用(影印版):
+[[/pybimage/2010/s3876423-py4unix-linux-sa.jpg] http://book.douban.com/subject/3767034/]
+- 绝对好书! 值得慢慢看,E文非常简洁,Py清明的代码,直接看/尝试就可以体会到本意了...
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+

@@ -1,0 +1,16 @@
+<!-- Zoomq's GreenTheme -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/styles/zgreen.flav/halfcooked.css" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="$url/?flav=rss" />
+
+  <title>$blog_title_with_path $pi_da $pi_mo $pi_yr - Theme::Zoomq's Green</title>
+
+
+</head>
+<body>
+<h1>$blog_title</h1>
+
+<p>$pi_da $pi_mo $pi_yr</p>
+
