@@ -44,7 +44,6 @@
 <v t="ZoomQuiet.20060113151620"><vh>Hoxide</vh></v>
 <v t="ZoomQuiet.20060117234315"><vh>列表问</vh></v>
 </v>
-<v t="ZoomQuiet.20060113123414"><vh>@nosent index.html</vh></v>
 <v t="ZoomQuiet.20060113092539" a="E"><vh>PyBlosxom</vh>
 <v t="ZoomQuiet.20060121172947"><vh>通用项</vh>
 <v t="ZoomQuiet.20060128095939"><vh>&lt;&lt;CopyLeft&gt;&gt;</vh></v>
@@ -66,7 +65,7 @@
 </v>
 <v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
 </v>
-<v t="ZoomQuiet.20060113092644" a="E"><vh>entries</vh>
+<v t="ZoomQuiet.20060113092644"><vh>entries</vh>
 <v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
 <v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
 <v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
@@ -669,9 +668,36 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060113151604"><vh>hacking</vh>
-<v t="ZoomQuiet.20060117230430" a="E"><vh>flavours</vh>
-<v t="zoomq.20110503084352.4319"><vh>html.flav</vh></v>
+<v t="ZoomQuiet.20060113151604" a="E"><vh>hacking</vh>
+<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
+<v t="zoomq.20110503084352.4319"><vh>html.flav</vh>
+<v t="zoomq.20110503084352.4320"><vh>@nosent category_list</vh></v>
+<v t="zoomq.20110503084352.4321"><vh>@nosent content_type</vh></v>
+<v t="zoomq.20110503084352.4322"><vh>@nosent date_head</vh></v>
+<v t="zoomq.20110503084352.4324"><vh>@nosent head</vh></v>
+<v t="zoomq.20110503084352.4326"><vh>@nosent story</vh></v>
+<v t="zoomq.20110503084352.4323"><vh>@nosent foot</vh>
+<v t="zoomq.20110503084352.4329" a="E"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
+<v t="zoomq.20110503084352.4336"><vh>search text box</vh></v>
+<v t="zoomq.20110503084352.4337" a="E"><vh>abt.</vh>
+<v t="zoomq.20110503084352.4341"><vh>reading.</vh></v>
+<v t="zoomq.20110503084352.4338"><vh>sys.</vh></v>
+<v t="zoomq.20110503084352.4339"><vh>livin.</vh></v>
+<v t="zoomq.20110503084352.4340"><vh>powered</vh></v>
+</v>
+</v>
+<v t="zoomq.20110503084352.4330"><vh>&lt;&lt;MID function barnners&gt;&gt;</vh></v>
+<v t="zoomq.20110503084352.4331"><vh>&lt;&lt;RIGHT function barnners&gt;&gt;</vh></v>
+<v t="zoomq.20110503084352.4335"><vh>&lt;&lt;footer barnners&gt;&gt;</vh>
+<v t="zoomq.20110503084352.4332"><vh>文尾</vh></v>
+<v t="zoomq.20110503084352.4333"><vh>CC</vh></v>
+</v>
+<v t="zoomq.20110503084352.4334"><vh>&lt;&lt;JS loader&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20110503084352.4325"><vh>@nosent print.css</vh></v>
+<v t="zoomq.20110503084352.4327"><vh>@nosent style.css</vh></v>
+<v t="zoomq.20110503084352.4328"><vh>@nosent yearsummarystory</vh></v>
+</v>
 <v t="ZoomQuiet.20060117230447"><vh>phtm.flav</vh>
 <v t="ZoomQuiet.20060118001056"><vh>@nosent zqgreen.css</vh>
 <v t="ZoomQuiet.20060306102523"><vh>&lt;&lt;TagClouds&gt;&gt;</vh></v>
@@ -737,6 +763,11 @@
 <v t="ZoomQuiet.20060121185526.1"><vh>@nosent story.rss20</vh></v>
 <v t="ZoomQuiet.20060121185526"><vh>@nosent foot.rss20</vh></v>
 </v>
+</v>
+<v t="ZoomQuiet.20060127153926"><vh>core</vh>
+<v t="zoomq.20100419111908.4968"><vh>@shadow commandline.py</vh></v>
+<v t="zoomq.20100419194136.6232"><vh>@shadow pyblosxom.py</vh></v>
+<v t="zoomq.20100419194136.6284"><vh>@shadow tools.py</vh></v>
 </v>
 <v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
 <v t="zoomq.20100414115206.4559"><vh>@nosent cleant2t.py</vh>
@@ -841,7 +872,7 @@
 <v t="zoomq.20100419111908.3746"><vh>cb_end</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060127143628"><vh>willplugins</vh>
+<v t="ZoomQuiet.20060127143628" a="E"><vh>willplugins</vh>
 <v t="zoomq.20100420100426.3921"><vh>@nosent wbglast10summary.py</vh>
 <v t="zoomq.20100420100426.3922"><vh>wbglast10summary declarations</vh></v>
 <v t="zoomq.20100420100426.3923"><vh>cb_prepare</vh></v>
@@ -936,7 +967,7 @@
 </v>
 <v t="zoomq.20100420100426.5128"><vh>cb_story</vh></v>
 </v>
-<v t="zoomq.20100414115206.4717" a="E"><vh>@nosent zqcategories.py</vh>
+<v t="zoomq.20100414115206.4717"><vh>@nosent zqcategories.py</vh>
 <v t="zoomq.20100414115206.4718"><vh>&lt;&lt;pycategories declarations&gt;&gt;</vh></v>
 <v t="zoomq.20100414115206.4719"><vh>verify_installation</vh></v>
 <v t="zoomq.20100414115206.4720" a="E"><vh>class PyblCategories</vh>
@@ -979,7 +1010,7 @@
 <v t="ZoomQuiet.20060128161946.3"><vh>new_entry</vh></v>
 <v t="ZoomQuiet.20060128161946.4"><vh>cb_date_head</vh></v>
 <v t="ZoomQuiet.20060128161946.5"><vh>get_comment_text</vh></v>
-<v t="ZoomQuiet.20060128161946.6" a="E"><vh>cb_filelist</vh>
+<v t="ZoomQuiet.20060128161946.6"><vh>cb_filelist</vh>
 <v t="ZoomQuiet.20060128161946.7"><vh>获取entries</vh></v>
 <v t="ZoomQuiet.20060128161946.8"><vh>输出</vh></v>
 </v>
@@ -1296,11 +1327,6 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060127153926"><vh>core</vh>
-<v t="zoomq.20100419111908.4968"><vh>@shadow commandline.py</vh></v>
-<v t="zoomq.20100419194136.6232"><vh>@shadow pyblosxom.py</vh></v>
-<v t="zoomq.20100419194136.6284"><vh>@shadow tools.py</vh></v>
-</v>
 </v>
 <v t="ZoomQuiet.20060113092617"><vh>web配置</vh>
 <v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
@@ -1314,6 +1340,7 @@
 <v t="zoomq.20110503084352.4318"><vh>Static rendering</vh></v>
 <v t="zoomq.20110503084352.4317"><vh>Caching configuration</vh></v>
 </v>
+<v t="ZoomQuiet.20060113123414"><vh>@nosent index.html</vh></v>
 <v t="ZoomQuiet.20060113093014"><vh>@nosent pyblosxom.cgi</vh></v>
 </v>
 </v>
@@ -1324,6 +1351,7 @@
 </vnodes>
 <tnodes>
 <t tx="ZoomQuiet.20060113092539">@path zoomquiet
+
 PyBlosxom 定制项目
 
 	原吾境 fly in Pythoic	
@@ -1416,13 +1444,6 @@ blogdir = '/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet'
 #"/home/zoomq/workspace/py-virtualenv/home/blog/"
 
 @others
-
-
-
-
-
-
-
 
 
 </t>
@@ -26609,6 +26630,1446 @@ py["static_monthnumbers"] = 1
 
 </t>
 <t tx="zoomq.20110503084352.4319">@path html.flav
+</t>
+<t tx="zoomq.20110503084352.4320">@language html
+&lt;div class="blosxomEntry"&gt;
+&lt;!-- Zoomq::060128 add for new Categories 
+$debug
+--&gt;
+    &lt;span class="blosxomTitle"&gt;$(title)&lt;/span&gt;
+    &lt;div class="blosxomBody"&gt;
+        &lt;span  id="category_template"&gt;
+        $(body)
+        &lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+</t>
+<t tx="zoomq.20110503084352.4321">text/html; charset=utf-8
+</t>
+<t tx="zoomq.20110503084352.4322">@language html
+&lt;!--&lt;h2&gt;$(date)&lt;/h2&gt;--&gt;
+&lt;!--for firstdaydiv.py 
+    &lt;span class="blosxomDate"&gt;$(date)&lt;/span&gt;
+--&gt;
+</t>
+<t tx="zoomq.20110503084352.4323">@language html
+&lt;/div&gt;&lt;!-- id="content" class="g33"--&gt;
+&lt;/div&gt;&lt;!-- id="main" class="g25"--&gt;
+&lt;/td&gt;&lt;!-- id="main" --&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;!-- id="footer" --&gt;
+
+&lt;div id="funcbarnner"&gt;
+&lt;!-- foot function barnners --&gt;
+    &lt;table class="funcbarnner" align="CENTER" border="0"&gt;
+    &lt;tr&gt;&lt;td&gt;
+        &lt;&lt;LEFT function barnners&gt;&gt;
+    &lt;/td&gt;&lt;td&gt;
+        &lt;&lt;MID function barnners&gt;&gt;
+    &lt;/td&gt;&lt;td&gt;
+        &lt;&lt;RIGHT function barnners&gt;&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+&lt;!--&lt;div id="cloudtags" class="sidebar"&gt;
+&lt;h3&gt;tags Cloud&lt;/h3&gt;
+$(tagcloud)
+--&gt;
+    &lt;/table&gt; &lt;!-- class="funcbarnner" --&gt;
+&lt;!-- END foot function barnners --&gt;
+&lt;/div&gt;&lt;!-- id="funcbarnner"--&gt;
+
+&lt;&lt;footer barnners&gt;&gt;
+
+    &lt;div class="clear"&gt;&lt;/div&gt; 
+
+&lt;/td&gt;&lt;!-- id="footer" --&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;!-- main page structure--&gt;
+
+&lt;/div&gt; &lt;!--end for class="container"--&gt;
+&lt;&lt;JS loader&gt;&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+</t>
+<t tx="zoomq.20110503084352.4324">@language html&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;$(blog_description)&lt;/title&gt;
+&lt;!--
+  &lt;title&gt;$(blog_description) $(pi_da) $(pi_mo) $(pi_yr) by $(pyblosxom_name)$(pyblosxom_version)&lt;/title&gt;
+--&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;link rel="shortcut icon" href="/pybstyle/pyblosxom.ico" type="image/x-icon" /&gt;
+&lt;link rel="icon" href="/pybstyle/pyblosxom.ico" type="image/x-icon" /&gt;
+
+&lt;link rel="stylesheet" type="text/css"  href="/pybstyle/html.flav/style.css" /&gt;
+&lt;link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/html.flav/print.css" /&gt;
+&lt;!-- Include *at least* the core style and default theme --&gt;
+&lt;link href="/pybshare/syntaxhighlighter_2.1.364_zh/styles/shCore.css" rel="stylesheet" type="text/css" /&gt;
+&lt;link type="text/css" rel="Stylesheet" href="/pybshare/syntaxhighlighter_2.1.364_zh/styles/shThemeFadeToGrey.css"/&gt;
+&lt;!-- Include the jQuery usage css 
+&lt;link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/jQrssPopupBubble.css" /&gt;
+--&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="container"&gt; 
+&lt;table&gt;&lt;!-- main page structure--&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;!-- id="head" --&gt;
+
+    &lt;div id="top" class="g33"&gt; 
+        &lt;div id="description" class="g16 alpha"&gt; 
+        &lt;h3&gt;$(blog_description)
+        &lt;/h3&gt;
+        &lt;/div&gt;
+
+        &lt;div id="feeds" class="g16 omega" style="text-align:right;"&gt; 
+        &lt;!-- rss-popup usage div... 
+&lt;div class="rss-popup"&gt;
+        &lt;a href="$(base_url)/index.atom" id="rss-icon"&gt;RSS Feed&lt;/a&gt;
+        &lt;em&gt;Subscribe the RSS Feed&lt;/em&gt;
+&lt;/div&gt;        
+        --&gt;
+        &lt;span class="feeds"&gt;
+            &lt;a href="$(base_url)/index.atom" alt="atom"&gt;&lt;img src="/pybstyle/rss-16x16.png"/&gt;&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;sup&gt;
+        &lt;a href="/pyblosxom/category-index.html"&gt;树&lt;/a&gt;
+        &lt;/sup&gt;&lt;sub&gt;
+        &lt;a style="text-decoration=none" href="$(base_url)/site-index.html"&gt;引&lt;/a&gt;
+        &lt;/sub&gt;
+
+        &lt;/div&gt; 
+    &lt;/div&gt; 
+
+    &lt;div id="header" class="g33"&gt; 
+        &lt;h2&gt;&lt;a href="$(base_url)"&gt;
+        &lt;img src="/pybstyle/zoomquiet-means-100414_h90.png" alt="$(blog_title)"&gt;
+        &lt;/a&gt;
+        &lt;/h2&gt; 
+    &lt;/div&gt; 
+    &lt;div class="clear"&gt;&lt;/div&gt; 
+
+&lt;!--
+&lt;p&gt;$(yr)-$(mo_num)-$(da) $(ti)&lt;/p&gt;
+--&gt;    
+&lt;/td&gt;&lt;!-- id="head" --&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;!-- id="main" --&gt;
+
+&lt;div id="content" class="g33"&gt;
+&lt;div id="main" class="g29"&gt;
+
+</t>
+<t tx="zoomq.20110503084352.4325">@language css
+@media print  {
+    body {
+    background : #fff;
+    color : #000;
+    width : 100%;
+    margin : 0;
+    padding : 0;
+    font-family : 'Times New Roman';
+    font-size : 11pt;
+    line-height : 1.5;
+    word-spacing : 1pt;
+    letter-spacing : 0.2pt;
+    }
+    #top, #sidebar, #footer, .meta, .social, .navigation, #com, hr {
+    display : none;
+    }
+    #funcbarnner{
+        display : none;
+    }
+    #header {
+    text-align : center;
+    }
+    #header h2 {
+    font-size : 22pt;
+    }
+    .pt {
+    text-align : center;
+    }
+    .pt h2, .pt h1 {
+    font-size : 14pt;
+    }
+    h2 a, h1 a {
+    border : 0;
+    text-decoration : none;
+    letter-spacing : 0.3pt;
+    }
+    p + p {
+    text-indent : 20pt;
+    margin-top : -10pt;
+    }
+    table p + p {
+    text-indent : 0;
+    }
+    a {
+    color : #666;
+    border-bottom : 0.1pt solid #666;
+    }
+    img {
+    float : left;
+    display : inline;
+    margin : 5pt 10pt 0 0;
+    }
+    a img {
+    border : none;
+    }
+    code {
+    font-family : Courier, monospace;
+    }
+    blockquote {
+    font-style : italic;
+    }
+}
+</t>
+<t tx="zoomq.20110503084352.4326">@language html
+&lt;div class="post"&gt; 
+&lt;div id="page-content"&gt;
+
+    &lt;div class="pt"&gt;
+        &lt;h1&gt;&amp;para; $(title)&lt;/h1&gt;
+        &lt;h2 class="permanentURL"&gt;
+        &lt;a href="$(base_url)/$(urlencode(file_path)).$(flavour)"&gt;$(yr)-$(mo_num)-$(da) $(ti)&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;!--$(date)--&gt;
+    &lt;/div&gt;
+
+    &lt;div class="text"&gt;
+        &lt;div class="blosxomStory"&gt;
+        $(body)
+        &lt;/div&gt;
+
+&lt;br/&gt;
+        &lt;div class="meta"&gt; &amp;sect; 
+写于: $(date) | &lt;a href="$(base_url)/$(urlencode(file_path)).$(flavour)"&gt;永久链接&lt;/a&gt;;源文:
+&lt;a href="$(base_url)/$(urlencode(file_path)).rdf"&gt;rdf&lt;/a&gt;
+,&lt;a href="$(base_url)/$(urlencode(file_path)).atom"&gt;rss&lt;/a&gt;
+,&lt;a href="/pybnodes/$(urlencode(file_path)).t2t"&gt;raw&lt;/a&gt;
+| 分类: &lt;a href="$(base_url)/$(urlencode(absolute_path))" title="path"&gt;/$(absolute_path)&lt;/a&gt;
+&amp;sect;
+&lt;br/&gt;
+&lt;a href="mailto:zoomquiet+blog@gmail.com?subject={PyBlosxom}$(title)&amp;body=abt. $(urlencode(file_path))"&gt;[Comment]&lt;/a&gt;
+&lt;a href="javascript:window.print()"&gt;[Print]&lt;/a&gt;
+ &lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/"&gt;
+&lt;img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/cn/80x15.png" /&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;span class="cclicence"&gt;
+    &amp;#26412;&lt;span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type"&gt;&amp;#20316;&amp;#21697;&lt;/span&gt;&amp;#30001;&lt;span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"&gt;Zoom.Quiet&lt;/span&gt;&amp;#21019;&amp;#20316;&amp;#65292;&amp;#37319;&amp;#29992;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/"&gt;&amp;#30693;&amp;#35782;&amp;#20849;&amp;#20139;&amp;#32626;&amp;#21517;-&amp;#30456;&amp;#21516;&amp;#26041;&amp;#24335;&amp;#20849;&amp;#20139; 2.5 &amp;#20013;&amp;#22269;&amp;#22823;&amp;#38470;&amp;#35768;&amp;#21487;&amp;#21327;&amp;#35758;&lt;/a&gt;&amp;#36827;&amp;#34892;&amp;#35768;&amp;#21487;&amp;#12290;
+&amp;#22522;&amp;#20110;&lt;a xmlns:dc="http://purl.org/dc/elements/1.1/" href="$(base_url)/$(urlencode(file_path)).$(flavour)" rel="dc:source"&gt;zoomquiet.org&lt;/a&gt;&amp;#19978;&amp;#30340;&amp;#20316;&amp;#21697;&amp;#21019;&amp;#20316;&amp;#12290;
+&lt;/span&gt;
+    &lt;/div&gt; &lt;!--class="meta"--&gt;
+
+    &lt;/div&gt; &lt;!-- class="text"--&gt;
+&lt;center id="pyentrynavi"&gt;
+    $(entry_navi) &lt;!-- for pyentrynavi--&gt;
+&lt;/center&gt;
+
+&lt;/div&gt; &lt;!-- id="page-content"--&gt;
+&lt;/div&gt; &lt;!-- class="post"--&gt;
+&lt;hr/&gt; 
+
+</t>
+<t tx="zoomq.20110503084352.4327">@language css
+/*
+
+Theme Name: Doc
+Theme URI: http://wp-content-themes.com/doc-a-free-minimal-wordpress-27-theme/257
+Description: Doc is a minimal one-column free WordPress theme, with 3 widgetized areas at the bottom of the page, fixed width, and a strong focus on the content for your reading pleasure.
+Tags: white, one-column, fixed-width, threaded-comments, sticky-post
+Version: 0.1
+Author: Delicia
+Author URI: http://www.wp-content-themes.com/
+Credits:960 Grid System by NathanSmith &amp; Blueprint Css by Joshua Clayton for inspiration, 
+Eric Meyer's css reset
+
+*/ 
+
+/* ========== Reset ========== */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin : 0;
+padding : 0;
+border : 0;
+outline : 0;
+font-size : 100%;
+vertical-align : baseline;
+background : transparent;
+}
+ol, ul {
+list-style : none;
+}
+blockquote, q {
+quotes : none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+content : '';
+content : none;
+}
+:focus {
+outline : 0;
+}
+ins {
+text-decoration : none;
+}
+del {
+text-decoration : line-through;
+}
+table {
+border-collapse : collapse;
+border-spacing : 0;
+}
+
+/* ========== Structure =========== */
+/*
+font-family : Times, 'Times New Roman', serif;
+*/
+body {
+background : #c5c3ae;
+color : #333;
+line-height : 2;
+}
+.container {
+margin-left : auto;
+margin-right : auto;
+width : 980px;
+background : #fff;
+margin-top : 10px;
+margin-bottom : 10px;
+border : 2px outset #eee;
+}
+.g33, .g25, .g16, .g10 {
+float : left;
+display : inline;
+margin : 0 10px;
+padding : 0;
+width : auto;
+}
+.g33 {
+width : 960px;
+}
+.g29 {
+width : 820px;
+}
+.g25 {
+width : 730px;
+}
+.g16 {
+width : 460px;
+}
+.g10 {
+width : 300px;
+}
+.alpha {
+margin-left : 0;
+}
+.omega {
+margin-right : 0;
+}
+
+
+/* ========== HTML elements ========== */
+
+html body div.clear, html body span.clear {
+background : none;
+border : 0;
+clear : both;
+display : block;
+float : none;
+font-size : 0;
+margin : 0;
+padding : 0;
+overflow : hidden;
+visibility : hidden;
+width : 0;
+height : 0;
+}
+.clearfix:after {
+clear : both;
+content : '.';
+display : block;
+visibility : hidden;
+height : 0;
+}
+.clearfix {
+display : inline-block;
+}
+* html .clearfix {
+height : 1%;
+}
+.clearfix {
+display : block;
+}
+/*    border-bottom : 1px solid #000;
+border-bottom : 1px solid #666;
+*/
+a {
+    color : #000;
+    font-weight : 500;
+    text-decoration : none;
+}
+a:hover {
+    color : #666;
+    text-decoration : underline;
+}
+
+blockquote {
+font-style : italic;
+padding : 10px 30px;
+font-family : Georgia;
+font-size : 12px;
+}
+p + p {
+text-indent : 20px;
+margin-top : -8px;
+}
+form p + p {
+text-indent : 0;
+}
+img, object {
+max-width : 90%;
+margin : 0;
+padding : 0;
+border : 0;
+}
+a img {
+border : 0;
+}
+h1, h2, h3, h4, h5, h6 {
+margin : 5px 20px 0 10px;
+}
+p {
+margin : 0 0 10px 0;
+}
+h1 {
+font-size : 20px;
+font-weight : 700;
+}
+h2 {
+font-size : 18px;
+font-weight : 600;
+}
+h3 {
+font-size : 17px;
+font-weight : 500;
+}
+h4 {
+font-size : 16px;
+font-weight : 400;
+}
+h5 {
+font-size : 15px;
+font-weight : 300;
+}
+h6 {
+font-size : 14px;
+font-weight : 200;
+}
+em {
+font-style : italic;
+}
+strong {
+font-weight : 600;
+}
+
+dt {
+    overflow : auto;
+    color: #334433;
+    border-left : 5px solid #ddd;
+    border-bottom : 1px solid #ddd;
+
+}
+
+/*     code;pre elements ========== */
+
+code {
+    font-family : Courier, 'Courier New';
+    font-size : 105%;
+    overflow : auto;
+    color: #333333;
+    font-weight : bold ;
+}
+pre {
+    font-family : Courier, 'Courier New';
+    font-size : 11px;
+    overflow : auto;
+}
+/*	background-color: #ffffcc;
+	border: 1px solid #aaaa79;
+background : #ffe;
+pre.comment {
+    background-color: #CCCCCC;
+    color: red;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*/
+pre {
+	border: 1px solid #aaaa79;
+	background-color: #ffffee;
+	padding: 5pt;
+	white-space: pre;
+	/* begin css 3 or browser specific rules - do not remove!
+	see: http://forums.techguy.org/archive/index.php/t-249849.html */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    /* end css 3 or browser specific rules */
+    border-radius: 0.33em;
+    -moz-border-radius: 0.33em;
+    font-family: "dejavu sans mono", "lucida console", "consolas", monospace;
+}
+
+
+ol {
+padding-left : 20px;
+margin : 5px 5px 20px 5px;
+}
+ul {
+margin : 5px 5px 20px 5px;
+}
+ul ul {
+margin : 5px;
+}
+ol ol {
+margin : 5px;
+}
+ol li, ul li {
+line-height : 20px;
+margin-bottom : 5px;
+font-size : 12px;
+}
+table {
+margin-bottom : 14px;
+}
+/*width : 99%;
+*/
+th {
+font-weight : 600;
+background : #eee;
+}
+th, td {
+padding : 4px 10px 4px 5px;
+text-align : left;
+}
+
+div.meta {
+padding : 0px;
+text-align :center;
+}
+
+tr.even td {
+background : #f8f8f8;
+}
+tfoot {
+font-style : italic;
+}
+
+
+/* ==================== Page elements =================== */
+.cclicence {
+    color:#dcdcdc;
+}
+.cclicence a{
+    color:#ababab;
+}
+.cclicence a:hover{
+    color:#993300;
+}
+#pyentrynavi{
+    margin: 1em 0 0 0;
+}
+/* TableOfContents macro */
+.toc { 
+    /*background: #ffffcc;
+    border: 1px solid #aaaa79;
+    border: 4px dotted #ffffff;
+    background: #c7e55f;
+    border: 1px solid #afc75e;
+    */
+    background: #f3f3f3;
+    border: 1px solid #f0f0f0;
+    border-radius: 0.33em;
+    -moz-border-radius: 0.33em;
+    font-size: small;
+    text-align: left;
+    margin: 0.5em; 
+    padding: 0.25em 0.5em;
+    float: right;
+    max-width: 50%;
+    clear: right;
+}
+
+
+.toc ol {
+    margin: 0 0 0 2em;
+    padding: 0;
+    list-style-type: decimal;
+}
+.toc li {
+    margin: 0;
+    padding: 0;
+}
+.toc ul { 
+    margin: 0;                    
+    list-style-type: none;
+}
+.toc-heading { 
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* ==================== Header =============== */
+#top {
+margin-top : 50px;
+border-bottom : 2px solid #999;
+line-height : 1;
+}
+#feeds {
+font-size : 14px;
+}
+.feeds {
+text-align : right;
+}
+#feeds a {
+border : 0;
+text-align : right;
+}
+#feeds sub a:hover {
+    text-decoration : overline;
+    color:#930;
+}
+#feeds sup a:hover {
+    text-decoration : overline;
+    color:#930;
+}
+
+#feeds sub {
+    color : #798;
+    font-size : 9px;
+    vertical-align : sub;
+    margin: 0px 2px 0px 0px;
+}
+
+#feeds sup {
+    color : #789;
+    font-size : 9px;
+    vertical-align : super;
+    margin: 0px 2px 0px 0px;
+}
+
+#header {
+    margin : 20px 0 10px 0;
+    padding : 10px 0;
+    text-align : center;
+}
+#header h2 {
+font-size : 40px;
+line-height : 1;
+}
+#header h2 a {
+border : 0;
+}
+#main {
+    margin-left : 80px;
+}
+#main hr {
+    width : 50%;
+    height : 1px;
+    background : #eee;
+    border : 1px solid #ddd;
+    clear : both;
+}
+
+#description  h3 a{
+    text-decoration :  none;
+}
+#description  h3 a:hover {
+    text-decoration : overline;
+    color:#930;
+}
+
+/* ======================= Post styles =================== */
+
+.post {
+margin : 0;
+padding : 10px 20px 60px 30px;
+font-size : 15px;
+line-height : 1.7;
+
+}
+.post ol {
+list-style : decimal;
+}
+.post ul {
+list-style : circle;
+padding-left : 10px;
+}
+.post ol li a, .post ul li a {
+font-weight : 400;
+}
+.post img {
+max-width : 90%;
+margin : 10px;
+padding : 5px;
+background : #f6f6f6;
+border : 1px solid #eee;
+}
+
+/*text-transform : lowercase;
+font-variant : small-caps;
+.pt h2, 
+*/
+.pt h1 {
+    margin-bottom : 20px;
+    padding : 0;
+    font-size : 35px;
+    line-height : 1;
+    letter-spacing : 0;
+    font-weight : 400;
+    letter-spacing : 1px;
+    font-family : 'Times New Roman';
+    text-align : center;
+}
+/*only usage entry created date and click into*/
+h2.permanentURL{
+    font-size : 98%;
+    font-weight : 400;
+    letter-spacing : 0;
+    letter-spacing : 1px;
+    text-align : center;
+    margin-bottom : 0px;
+    padding : 0;
+
+}
+h2.permanentURL a:hover{
+    text-decoration :  overline ;
+}
+
+/*.pt h2 a, */
+.pt h1 a {
+    color : #000;
+    border : 0;
+    font-weight : 400;
+}
+.pt h2 a:hover, .pt h1 a:hover {
+    color : #999;
+    border : 0;
+}
+.meta {
+font-size : 12px;
+line-height : 1.3;
+}
+.meta a {
+border : 0;
+}
+.meta img{
+    margin : 0px;
+    padding : 0px;
+}
+
+.text {
+    padding : 0;
+}
+#page-content a{
+    text-decoration : underline;
+}
+
+
+.social ul li {
+display : inline;
+margin : 0 10px;
+}
+.navigation {
+font-size : 14px;
+margin : 10px 10px;
+padding : 0 10px;
+font-family : Georgia;
+font-style : italic;
+}
+.navigation a {
+font-weight : 500;
+}
+.sticky .text {
+font-style : italic;
+}
+.category-x{}
+.tag-y{}
+/* Replace 'x' and 'y' with a category/tag slug; 
+this classes will apply different styles to posts filled in the specified cat/tag. 
+You can use this pattern to set different styles to all cats/tags. 
+.blosxomStory{
+    border: 1px dotted #930;
+}
+*/
+
+.blosxomStory .header h1{
+    display:none;
+}
+
+.blosxomStory #header{
+    padding-top:0px;
+    margin-top.0px;
+}
+
+.blosxomStory #header h2{
+    font-size : 20px;
+    color:#676767;
+}
+.blosxomStory #header h3{
+    font-size : 16px;
+    font-style : italic;
+    color:#898989;
+}
+
+
+/* ============= WordPress image classes =============== */
+
+caption {
+background : #eee;
+color : #000;
+}
+.alignleft {
+float : left;
+display : inline;
+margin-right : 15px;
+margin-bottom : 5px;
+width : auto;
+}
+.alignright {
+float : right;
+display : inline;
+margin-left : 15px;
+margin-bottom : 5px;
+width : auto;
+}
+.aligncenter {
+display : inline;
+text-align : center;
+}
+p.wp-caption-text {
+padding : 5px;
+font-size : 10px;
+background : #eee;
+color : #000;
+}
+.wp-smiley {
+display : inline;
+vertical-align : middle;
+background : none;
+border : 0;
+}
+
+
+/* ===================== Sidebar ==================== */
+
+.sidebar {
+font-family : Georgia;
+margin-top : 40px;
+}
+.sidebar hr {
+width : 33%;
+color : #333;
+float : left;
+clear : both;
+}
+.sidebar a {
+font-weight : 400;
+border : 0;
+}
+.sidebar ul, .sidebar ul li ul, .sidebar ul li ul li, .sidebar ul li ul li ul, .sidebar ul li ul li ul li {
+list-style : none;
+padding-left : 0;
+}
+.sidebar ul li ul li {
+    width : 90%;
+    padding-left : 10px;
+    border-left : 5px solid #eee;
+    font-size : 11px;
+    line-height : 1;
+}
+.sidebar ul li ul li:hover {
+border-left : 5px solid #999;
+}
+.sidebar ul li ul li:hover a {
+color : #666;
+}
+.sidebar a {
+border : 0;
+text-decoration : none;
+}
+.sidebar h3, .sidebar h2 .widgettitle {
+color : #999;
+padding : 0 10px;
+font-family : 'Times New Roman';
+line-height : 1.7;
+letter-spacing : 0;
+font-weight : 600;
+}
+.sidebar select {
+width : 100%;
+border : 1px solid #999;
+color : #666;
+font-size : 12px;
+font-weight : 200;
+}
+.sidebar option {
+background : #fff;
+padding : 5px;
+}
+
+/* ====================== Category =================== */
+
+a.rootcategory {
+    margin-left : -8px;
+    padding-right: 2px;
+    border-right : 5px solid #eee;
+    font-size : 14px;
+    line-height : 1.5;
+}
+a.rootcategory:hover {
+    border-right : 5px solid #999;
+}
+
+/* ====================== Category Entrise list =================== */
+#categoriselist .indents{
+    color:#f9f9f9;
+}
+#categoriselist h3,h4,h5,h6{
+    border-bottom : 1px dotted #eee;
+    line-height : 1.5;
+    font-weight : bold;
+    padding-left: 10px;
+}
+#categoriselist h3{
+    font-size : 150%;
+    border-left : 20px solid #eee;
+}
+#categoriselist h4{
+    font-size : 120%;
+    margin-left : 20px;
+    border-left : 15px solid #eee;
+}
+#categoriselist h5{
+    font-size : 110%;
+    margin-left : 40px;
+    border-left : 10px solid #eee;
+}
+
+#categoriselist h6{
+    font-size : 105%;
+    margin-left : 60px;
+    border-left : 5px solid #eee;
+}
+/* ====================== Archives =================== */
+
+.montharchives li {
+    width : 90%;
+    padding-left : 20px;
+    border-left : 5px solid #eee;
+    font-size : 11px;
+    line-height : 1;
+}
+.montharchives li.yearchives {
+    width : 90%;
+    padding-left : 10px;
+    border-left : 10px solid #eee;
+    font-size : 14px;
+    line-height : 1.5;
+}
+
+.montharchives li.yearchives:hover {
+    border-left : 10px solid #999;
+}
+
+.montharchives li:hover {
+    border-left : 5px solid #999;
+}
+
+.montharchives sup {
+    color : #789;
+    font-size : 9px;
+    vertical-align : super;
+    margin: 0px 2px 0px 0px;
+}
+
+/* ====================== Footer =================== */
+div#funcbarnner {
+    margin:0 auto;
+    width : 600px;
+}
+
+#funcbarnner table{
+    width : auto;
+    margin: auto;
+    background : #fff;
+}
+#funcbarnner table td{
+    text-align :  left;
+}
+
+#montharchives,#zqcategories,#footeractions{
+    width : 160px;
+    /*background: #ffffcc;
+    border: 1px solid #aaaa79;
+    border: 4px dotted #ffffff;
+    background: #c7e55f;
+    border: 1px solid #afc75e;
+    float: right;
+    max-width: 50%;
+    */
+    background: #fdfdfe;
+    border: 1px solid #f9f9f9;
+    border-radius: 0.33em;
+    -moz-border-radius: 0.33em;
+    font-size: small;
+    text-align: left;
+    margin: 0; 
+    padding: 0.25em 0.5em;
+    clear: right;
+}
+
+#footer {
+margin-bottom : 50px;
+border-top : 2px solid #999;
+line-height : 1;
+font-size : 12px;
+padding-top : 10px;
+text-align :  center;
+}
+#footer a {
+color : #999;
+border : 0;
+}
+.categorygroup sup {
+    color : #789;
+    font-size : 9px;
+    vertical-align : super;
+    margin: 0px 2px 0px 0px;
+}
+/*    letter-spacing: 1px;
+    margin: 1px;
+    margin: -4px 2px 2px 2px;
+    padding: 4px 0px 0px 0px;*/
+#footer sub {
+    color : #798;
+    font-size : 9px;
+    vertical-align : sub;
+    margin: 0px 2px 0px 0px;
+}
+
+#footer sup {
+    color : #789;
+    font-size : 9px;
+    vertical-align : super;
+    margin: 0px 2px 0px 0px;
+}
+/* ================== google search styles =============== */
+
+div.gsc-back            { float: right; }
+div.gs-result           { margin-top: 1em; }
+div.gs-title            { text-decoration: underline; }
+div.gs-visibleUrl       { color: green; }
+div.gs-visibleUrl-short { display: none; }
+div.gs-visibleUrl-long  { display: none; }
+div.gs-watermark        { display: none; }
+
+div.gs-snippet {
+  font-size: .8em;
+  letter-spacing: -.05em;
+}
+
+div.gs-snippet br { display: none; }
+
+table.gsc-branding   { border: none; }
+td.gsc-branding-text { color: gray; }
+
+td.gsc-branding-img-noclear {
+  padding-left: 2px;
+  padding-top: 5px;
+}
+img.gsc-branding-img-noclear { margin-bottom: -3px; }
+
+/* ================== Comment styles =============== */
+
+#com {
+padding-left : 10px;
+font-size : 14px;
+}
+#comments {
+clear : both;
+padding-left : 20px;
+}
+#respond {
+clear : both;
+padding-top : 20px;
+padding-left : 20px;
+}
+.comment-info-split {
+clear : both;
+}
+.commentmetadata {
+color : #333;
+}
+.commentmetadata a {
+color : #666;
+font-weight : 400;
+}
+.commentlist div.alt {
+color : #333;
+padding : 10px;
+}
+ol.commentlist {
+list-style : none;
+margin-left : 20px;
+}
+ol.commentlist ul.children {
+list-style : none;
+}
+.comment-div {
+display : block;
+}
+.commentlist ul li {
+border-bottom : none;
+}
+.commentlist li {
+margin : 10px 0 0 0;
+}
+ol.commentlist {
+list-style : none;
+margin : 0 0 10px;
+padding : 0;
+text-indent : 0;
+}
+ol.commentlist li.comment, .pingback {
+border-top : 1px solid #eee;
+padding : 10px 0 0 10px;
+}
+ol.commentlist li.comment div.vcard {
+font-weight : 600;
+font-size : 13px;
+}
+ol.commentlist li.comment div.vcard cite.fn {
+font-style : normal;
+}
+ol.commentlist li.comment div.vcard cite.fn a {
+font-weight : 400;
+}
+ol.commentlist li.pingback div.vcard cite.fn a {
+font-weight : 400;
+}
+ol.commentlist li.comment div.vcard img.avatar {
+border : 1px solid #eee;
+float : left;
+margin : 0 10px 0 0;
+padding : 5px;
+}
+ol.commentlist li.comment div.comment-meta {
+font-size : 11px;
+}
+ol.commentlist li.comment div.comment-meta a {
+color : #666;
+}
+ol.commentlist li.comment p {
+font-size : 13px;
+margin : 0 0 10px;
+}
+ol.commentlist li.comment ul {
+font-size : 11px;
+list-style : circle;
+margin : 0 0 10px 20px;
+}
+ol.commentlist li.comment div.reply {
+font-size : 12px;
+text-align : right;
+padding : 2px 10px;
+}
+ol.commentlist li.comment div.reply a {
+font-weight : 500;
+}
+ol.commentlist li.pingback div.reply {
+font-size : 12px;
+text-align : right;
+padding : 2px 10px;
+}
+ol.commentlist li.pingback div.reply a {
+font-weight : 500;
+}
+ol.commentlist li.comment ul.children {
+list-style : none;
+margin : 10px 0 0;
+text-indent : 0;
+}
+ol.commentlist li.comment ul.children li.comment-author-admin {
+background : #f6f6f6;
+}
+ol.commentlist li.comment ul.children li.depth-2 {
+margin : 10px;
+}
+ol.commentlist li.comment ul.children li.depth-3 {
+margin : 10px;
+}
+ol.commentlist li.comment ul.children li.depth-4 {
+margin : 10px;
+}
+ol.commentlist li.comment ul.children li.depth-5 {
+margin : 10px;
+}
+.says {
+color : #999;
+}
+#commentform p {
+font-size : 12px;
+padding-left : 10px;
+}
+#com label {
+padding-left : 10px;
+}
+
+
+/* ================== PyBlosxom styles =============== */
+/* ================== jQuert styles =============== 
+border : 2px dotted #930;display:none;*/
+.jQhide {
+    color:#fff;
+    border : 0px dotted #930;
+}
+.jQalert {
+    border : 2px dotted #930;
+}
+
+</t>
+<t tx="zoomq.20110503084352.4328">@language html
+&lt;div class="blosxomEntry"&gt;
+&lt;!-- Zoomq::060128 add for new Categories 
+$debug
+--&gt;
+    &lt;span class="blosxomTitle"&gt;$(title)&lt;/span&gt;
+    &lt;div class="blosxomBody"&gt;
+        &lt;table  id="wbgarchives" border="0"&gt;
+        $(body)
+        &lt;/table&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+</t>
+<t tx="zoomq.20110503084352.4329">&lt;!-- LEFT function barnners --&gt;
+&lt;div id="footeractions" class="sidebar"&gt;
+
+@others
+
+
+    &lt;/div&gt;&lt;!-- id="footeractions" class="sidebar"--&gt;
+</t>
+<t tx="zoomq.20110503084352.4330">&lt;!-- MID function barnners --&gt;
+&lt;div id="zqcategories" class="sidebar"&gt;
+    &lt;h3&gt;Category&lt;/h3&gt;
+    &lt;!--
+    &lt;a href="/pyblosxom/category-index.html"&gt;.:总索引:.&lt;/a&gt;
+    --&gt;
+    $(categorylinks)
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110503084352.4331">&lt;!-- RIGHT function barnners --&gt;
+&lt;div id="montharchives" class="sidebar"&gt;
+&lt;h3&gt;Archives&lt;/h3&gt;
+&lt;ul class="montharchives"&gt;
+    $(archivelinks)
+&lt;/ul&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110503084352.4332">&amp;sect;
+&lt;a href="#"&gt;$(blog_title)&lt;/a&gt; is prowdly powered by   &lt;a href="http://pyblosxom.sourceforge.net/"&gt;&lt;img src="http://pyblosxom.sourceforge.net/images/pb_pyblosxom.gif" alt="Made with PyBlosxom" border="0" /&gt;&lt;/a&gt;
+v1.5-rc1 20100129
+|
+theme base on &lt;a href="http://www.bestwpthemes.com/doc/"&gt;"Doc"&lt;/a&gt;
+&amp;sect;
+&lt;br/&gt;
+</t>
+<t tx="zoomq.20110503084352.4333">&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/"&gt;&lt;img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/cn/88x31.png" /&gt;&lt;/a&gt;
+&lt;br /&gt;&amp;#26412;&lt;span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type"&gt;&amp;#20316;&amp;#21697;&lt;/span&gt;&amp;#30001;&lt;span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"&gt;Zoom.Quiet&lt;/span&gt;&amp;#21019;&amp;#20316;&amp;#65292;&amp;#37319;&amp;#29992;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/"&gt;&amp;#30693;&amp;#35782;&amp;#20849;&amp;#20139;&amp;#32626;&amp;#21517;-&amp;#30456;&amp;#21516;&amp;#26041;&amp;#24335;&amp;#20849;&amp;#20139; 2.5 &amp;#20013;&amp;#22269;&amp;#22823;&amp;#38470;&amp;#35768;&amp;#21487;&amp;#21327;&amp;#35758;&lt;/a&gt;&amp;#36827;&amp;#34892;&amp;#35768;&amp;#21487;&amp;#12290;
+&lt;!--&lt;br /&gt;--&gt;&amp;#22522;&amp;#20110;&lt;a xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://blog.zoomquiet.org" rel="dc:source"&gt;blog.zoomquiet.org&lt;/a&gt;&amp;#19978;&amp;#30340;&amp;#20316;&amp;#21697;&amp;#21019;&amp;#20316;&amp;#12290;
+</t>
+<t tx="zoomq.20110503084352.4334">&lt;!-- Finally, to loading jQuery Ajax Lib. 
+&lt;script type="text/javascript" src="/pybshare/jquery-1.4.2.min.js"&gt;&lt;/script&gt;
+--&gt;
+&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="/pybshare/jquery-pybactions.js" type="text/javascript"&gt;&lt;/script&gt;
+
+&lt;!-- for syntaxhighlighter_2.1.364_zh Include required JS files --&gt;
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shCore.js"&gt;&lt;/script&gt;
+&lt;!-- At least one brush, here we choose JS. You need to include a brush for every language you want to highlight --&gt;
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPlain.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushJScript.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushCss.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPhp.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPython.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushErlang.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushXml.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPlain.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushSql.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushBash.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushDiff.js"&gt;&lt;/script&gt;
+
+&lt;!-- Finally, to actually run the highlighter, you need to include this JS on your page --&gt;
+&lt;script type="text/javascript"&gt;
+     SyntaxHighlighter.all()
+&lt;/script&gt;
+
+</t>
+<t tx="zoomq.20110503084352.4335">&lt;div id="footer" class="g33"&gt;
+@others
+
+&lt;/div&gt; &lt;!-- id="footer" --&gt;
+</t>
+<t tx="zoomq.20110503084352.4336">  &lt;!-- used in the search text box --&gt;
+  &lt;script type="text/javascript"&gt;
+  function set_if(id, if_value, set_value) {
+    field = document.getElementById(id);
+    if (field.value == if_value)
+      field.value = set_value;
+  }
+  &lt;/script&gt;
+&lt;h3&gt;Search&lt;/h3&gt;
+&lt;form class="form" method="get" action="http://www.google.com/search"
+  onsubmit="new site_search('zoomquiet.org', q.value); return false;"&gt;
+  &lt;input type="hidden" name="sitesearch" value="zoomquiet.org" /&gt;
+  &lt;input type="text" size="18" name="q" id="query" value="Search" 
+        onfocus="set_if('query', 'Search', '')"
+        onblur="set_if('query', '', 'Search') " /&gt;
+&lt;/form&gt;
+
+&lt;script type="text/javascript"
+   src="http://www.google.com.hk/uds/api?file=uds.js&amp;v=1.0&amp;key=ABQIAAAAlv7iO6iSrWdXLWy2P0ESwxQsUXuTv2eYBKPcreHKOEV8Fxl8CRT7Gxa-7r7kr05t4FDbQimxwYwf_w"&gt;
+&lt;/script&gt;
+&lt;script type="text/javascript" src="/pybshare/ajax_search.js"&gt;&lt;/script&gt;
+
+</t>
+<t tx="zoomq.20110503084352.4337">&lt;h3&gt;abt.&lt;/h3&gt;
+&lt;ul id="Blogroll"&gt;
+
+@others
+
+&lt;/ul&gt;&lt;!-- id="Blogroll" --&gt;
+</t>
+<t tx="zoomq.20110503084352.4338">&lt;li&gt;sys.
+    &lt;ul id="BlogrollSubTopic"&gt;
+        &lt;li&gt;&lt;a href="/pyblosxom/plugin_info/"&gt;plugins&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/pyblosxom/recent.html"&gt;recents&lt;/a&gt;&lt;/li&gt;
+
+    &lt;/ul&gt;&lt;!--id="BlogrollSubTopic"--&gt;
+    &lt;/li&gt;
+
+</t>
+<t tx="zoomq.20110503084352.4339">    &lt;li&gt;livin
+        &lt;ul id="BlogrollSubTopic"&gt;    
+        &lt;li&gt;
+&lt;a href="/pyblosxom/Zen/Chinese/918-2006-09-18-10-30.html"&gt;&lt;img alt="i Chinese!" src="/pybimage/icon/china.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://www.google.com/talk/"&gt;&lt;img alt="i in GTalking!" src="/pybimage/icon/gtalk.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="https://mail.google.com"&gt;&lt;img alt="i livin GMail!" src="/pybimage/icon/gmail.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://zoomq.livejournal.com/"&gt;&lt;img alt="i in livejournal.com" src="/pybimage/icon/lj.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+&lt;a href="http://www.catb.org/hacker-emblem/"&gt;&lt;img alt="happy hacking"  src="/pybimage/icon/hacker.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://webpages.charter.net/edreamleo/front.html"&gt;&lt;img alt="Get LEO -- z Great Literate Programming Env."  src="/pybimage/icon/button-leo.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=0&amp;t=85"&gt;&lt;img alt="Get z Great FireFox!" src="/pybimage/icon/getfirefox.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://browsehappy.com/why/"&gt;&lt;img alt="i hate IE!" src="/pybimage/icon/no_ie_80x15_2.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+&lt;a href="http://www.7-zip.org/"&gt;&lt;img alt="i enjoy 7-zip" src="/pybimage/icon/7zip.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://www.gimp.org/"&gt;&lt;img alt="Get z Great GIMP!"  src="/pybimage/icon/getgimp.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://www.inkscape.org/"&gt;&lt;img alt="Get z Great Inkscape!"  src="/pybimage/icon/getinkscape.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://www.openoffice.org/"&gt;&lt;img alt="Get z Great OOo!"  src="/pybimage/icon/ooo.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+&lt;a href="http://www.onlineghibli.com/"&gt;&lt;img alt="i watch GHIBLI mov." src="/pybimage/icon/ghibli.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;   
+&lt;a href="http://www.thematrix101.com/"&gt;&lt;img alt="i watch The Matrix" src="/pybimage/icon/martix.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;   
+&lt;a href="http://www.fifthelement.com/"&gt;&lt;img alt="i watch 第五元素" src="/pybimage/icon/fifthelemen.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;   
+&lt;a href="http://www.xfiles.com/"&gt;&lt;img alt="i watch X-FILES" src="/pybimage/icon/xfiles.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;   
+&lt;a href="http://www.startrek.com/startrek/view/series/ENT/"&gt;&lt;img alt="i watch StarTrek" src="/pybimage/icon/tng.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;   
+&lt;a href="http://www.syfy.com/battlestar/"&gt;&lt;img alt="i watch Battlestar Galactica" src="/pybimage/icon/galactica.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;   
+        &lt;/li&gt;
+        &lt;li&gt;
+&lt;a href="http://www.douban.com/group/rock/"&gt;&lt;img alt="i listen ROCK!" src="/pybimage/icon/rock.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+        &lt;/li&gt;
+        &lt;/ul&gt;&lt;!--id="BlogrollSubTopic"--&gt;  
+    &lt;/li&gt;&lt;!-- livin --&gt;
+</t>
+<t tx="zoomq.20110503084352.4340">    &lt;li&gt;powered
+        &lt;ul id="BlogrollSubTopic"&gt;
+        &lt;li&gt;
+&lt;a href="http://txt2tags.sourceforge.net"&gt;&lt;img  alt="Get z Great t2t!" src="/pybimage/icon/t2tpowered-white.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://wacom.com.cn"&gt;&lt;img alt="i usage WACOM replace mouse" src="/pybimage/icon/wacom.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://www.w3.org/TR/xhtml1/"&gt;&lt;img alt="i export XHTML" src="/pybimage/icon/xhtml.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://www.w3.org/Style/CSS/"&gt;&lt;img alt="i usage CSS2" src="/pybimage/icon/css2.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+        &lt;/li&gt;
+        &lt;/ul&gt;&lt;!--id="BlogrollSubTopic"--&gt;
+    &lt;/li&gt;&lt;!-- powered --&gt;
+
+</t>
+<t tx="zoomq.20110503084352.4341">&lt;li&gt;reading.
+    &lt;ul id="BlogrollSubTopic"&gt;
+        &lt;li&gt;&lt;a href="http://techparty.org/"&gt;珠三角技术沙龙&lt;/a&gt;
+        &lt;br/&gt;&lt;a href="http://timyang.net/"&gt;Tim&lt;/a&gt;
+        &lt;br/&gt;&lt;a href="http://www.czug.org/blog/panjy/"&gt;潘俊勇&lt;/a&gt;
+        &lt;br/&gt;&lt;a href="http://blog.laiyonghao.com/"&gt;赖勇浩&lt;/a&gt;
+        &lt;br/&gt;&lt;a href="http://march-liu.blogspot.com/"&gt;刘鑫&lt;/a&gt;
+        &lt;br/&gt;&lt;a href="http://www.jeffkit.info/"&gt;Jeff&lt;/a&gt;
+        &lt;br/&gt;&lt;a href="http://blog.linluxiang.info/"&gt;林路翔&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://blog.gasolin.idv.tw/"&gt;INET6&lt;/a&gt;
+        &lt;br/&gt;&lt;a href="http://www.feime.net/"&gt;Albertlee&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://anzhu.net/feed/"&gt;安猪&lt;/a&gt;
+        &lt;br/&gt;&lt;a href="http://tonyyet.com/"&gt;Tony yet&lt;/a&gt;
+        &lt;/li&gt;
+
+    &lt;/ul&gt;&lt;!--id="BlogrollSubTopic"--&gt;
+    &lt;/li&gt;
 </t>
 </tnodes>
 </leo_file>

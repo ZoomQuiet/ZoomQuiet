@@ -8,7 +8,7 @@
         </h2>
         <!--$(date)-->
     </div>
-    
+
     <div class="text">
         <div class="blosxomStory">
         $(body)

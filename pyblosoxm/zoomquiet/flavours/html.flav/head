@@ -1,4 +1,3 @@
-<html>
 <head>
   <title>$(blog_description)</title>
 <!--
@@ -49,7 +48,7 @@
 
         </div> 
     </div> 
-    
+
     <div id="header" class="g33"> 
         <h2><a href="$(base_url)">
         <img src="/pybstyle/zoomquiet-means-100414_h90.png" alt="$(blog_title)">
