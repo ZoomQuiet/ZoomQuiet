@@ -1,0 +1,15697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet ekr_test?>
+<leo_file>
+<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
+<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
+	<global_window_position top="50" left="50" height="500" width="700"/>
+	<global_log_window_position top="0" left="0" height="0" width="0"/>
+</globals>
+<preferences/>
+<find_panel_settings/>
+<vnodes>
+<v t="zoomq.20100310084837.5905"><vh>@chapters</vh></v>
+<v t="ZoomQuiet.20060116172141"><vh>运维记要</vh>
+<v t="zoomq.20100319214837.4218"><vh>2010@py.k</vh>
+<v t="zoomq.20100413102905.5772"><vh>静态化发布</vh>
+<v t="zoomq.20100413102905.5776"><vh>批量重整</vh>
+<v t="zoomq.20100413102905.5773"><vh>ask@ZSP</vh></v>
+</v>
+<v t="zoomq.20100413102905.5775"><vh>样式升级</vh></v>
+<v t="zoomq.20100413102905.5774"><vh>插件逐一启动</vh>
+<v t="zoomq.20100420100426.5115"><vh>语法高亮</vh></v>
+<v t="zoomq.20100420100426.3917"><vh>tags</vh></v>
+</v>
+</v>
+<v t="zoomq.20100420100426.5117"><vh>100420askPyB</vh></v>
+<v t="zoomq.20100420100426.5118"><vh>100420feedback t2t</vh></v>
+</v>
+<v t="zoomq.20100319214837.4217"><vh>2006@啄木鸟</vh>
+<v t="ZoomQuiet.20060512190248"><vh>060512-升级</vh></v>
+<v t="ZoomQuiet.20060308104413"><vh>0603-问题</vh></v>
+<v t="ZoomQuiet.20060303094418"><vh>060303-lastcomm</vh></v>
+<v t="ZoomQuiet.20060125112200"><vh>060125-定制组</vh></v>
+<v t="ZoomQuiet.20060124135214"><vh>060124-lastedCmt</vh></v>
+<v t="ZoomQuiet.20060124102800"><vh>060124-CC</vh></v>
+<v t="ZoomQuiet.20060123155419"><vh>060123-AdSense</vh></v>
+<v t="ZoomQuiet.20060123103917"><vh>060123-Folksonomy </vh></v>
+<v t="ZoomQuiet.20060122180430"><vh>060122-TAGS</vh></v>
+<v t="ZoomQuiet.20060121183108"><vh>060121-comment</vh>
+<v t="ZoomQuiet.20060122135250"><vh>fixed:</vh></v>
+</v>
+<v t="ZoomQuiet.20060121183034"><vh>060121-t2t</vh></v>
+<v t="ZoomQuiet.20060116172141.1"><vh>060115-commit</vh></v>
+</v>
+<v t="ZoomQuiet.20060113151620"><vh>Hoxide</vh></v>
+<v t="ZoomQuiet.20060117234315"><vh>列表问</vh></v>
+</v>
+<v t="ZoomQuiet.20060113092539" a="E"><vh>PyBlosxom</vh>
+<v t="ZoomQuiet.20060121172947"><vh>通用项</vh>
+<v t="ZoomQuiet.20060128095939"><vh>&lt;&lt;CopyLeft&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060122170916"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060125122854"><vh>&lt;&lt;t2t nohead&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060122153701.1"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121172947.1"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060113092644"><vh>Blogging</vh>
+<v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
+<v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
+<v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
+<v t="zoomq.20100728103610.7583"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
+<v t="zoomq.20060916180156.12"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
+<v t="zoomq.20060916180156.1"><vh>记要</vh></v>
+<v t="zoomq.20060916180156.2"><vh>流水</vh>
+<v t="zoomq.20060916180156.3"><vh>人物</vh></v>
+<v t="zoomq.20060916180156.4"><vh>录音</vh></v>
+</v>
+<v t="zoomq.20060916180156.5"><vh>subs</vh>
+<v t="zoomq.20060916180156.6"><vh>sub2</vh></v>
+<v t="zoomq.20060916180156.7"><vh>sub2.5</vh></v>
+<v t="zoomq.20060916180156.8"><vh>sub3</vh></v>
+</v>
+<v t="zoomq.20060916180156.9"><vh>结论</vh></v>
+<v t="zoomq.20060916180156.10"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060515104812"><vh>@nosent winbx-IMEstory-2006-05-15-12-00.t2t</vh>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+<v t="ZoomQuiet.20060512113519"><vh>表形码</vh></v>
+<v t="ZoomQuiet.20060515112012"><vh>历史</vh></v>
+<v t="ZoomQuiet.20060515182456"><vh>文化</vh></v>
+<v t="ZoomQuiet.20060515115145"><vh>现在</vh></v>
+<v t="ZoomQuiet.20060515104812.3"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060515120631"><vh>万用型</vh></v>
+<v t="zoomq.20100414115206.4543"><vh>@nosent OFSFD06-2006-09-16-13-30.t2t</vh>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+<v t="zoomq.20100414115206.4727"><vh>正文</vh></v>
+<v t="zoomq.20100414115206.4726"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100414115206.4544"><vh>@nosent 918-2006-09-18-10-30.t2t</vh>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+<v t="zoomq.20100414115206.4728"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060125172237"><vh>Google</vh>
+<v t="zoomq.20100414115206.4546"><vh>@nosent joke-gmailhdisk-2006-05-24-12-00.t2t</vh>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+<v t="zoomq.20100414115206.4547"><vh>@nosent ssbsGAE-zqlib-web2py-2008-05-08-19-00.t2t</vh>
+<v t="zoomq.20100728103610.7584"><vh>正文</vh></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170108.1"><vh>pythonic</vh>
+<v t="zoomq.20100630152750.4000"><vh>@nosent leo-py25-bad-chinese-2007-04-27-18-00.t2t</vh>
+<v t="zoomq.20100728103610.7585"><vh>main</vh></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+<v t="ZoomQuiet.20060125103000"><vh>示例</vh>
+<v t="ZoomQuiet.20060113160325"><vh>@nosent py-code-rule-2005-06-01-23-23.t2t</vh>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060113160524.1"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113160325.1"><vh>&lt;&lt;介绍&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113160325.2"><vh>&lt;&lt;Foolish&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113160325.3"><vh>&lt;&lt;布局&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113160325.4"><vh>&lt;&lt;导入&gt;&gt;	</vh></v>
+<v t="ZoomQuiet.20060113160325.5"><vh>&lt;&lt;空格&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113160325.6"><vh>&lt;&lt;注释&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113160325.7"><vh>&lt;&lt;文档化&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113160325.8"><vh>&lt;&lt;版本注记&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113160325.9"><vh>&lt;&lt;命名约定&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113160325.10"><vh>&lt;&lt;设计建议&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060113173817"><vh>@nosent tryt2t.py</vh>
+<v t="ZoomQuiet.20060113173817.1"><vh>&lt;&lt; t2t declarations &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113173817.2"><vh>cb_entryparser</vh></v>
+<v t="ZoomQuiet.20060113173817.3"><vh>parse</vh></v>
+<v t="ZoomQuiet.20060113174117"><vh>try</vh></v>
+</v>
+<v t="ZoomQuiet.20060113182325"><vh>@nosent py-code-style.wiki</vh>
+<v t="ZoomQuiet.20060113182325.1"><vh>&lt;&lt;介绍&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113182325.2"><vh>&lt;&lt;Foolish&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113182325.3"><vh>&lt;&lt;布局&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113182325.4"><vh>&lt;&lt;导入&gt;&gt;	</vh></v>
+<v t="ZoomQuiet.20060113182325.5"><vh>&lt;&lt;空格&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113182325.6"><vh>&lt;&lt;注释&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113182325.7"><vh>&lt;&lt;文档化&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113182325.8"><vh>&lt;&lt;版本注记&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113182325.9"><vh>&lt;&lt;命名约定&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113182325.10"><vh>&lt;&lt;设计建议&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060113183350.6"><vh>@nosent rest-intro.rst</vh>
+<v t="ZoomQuiet.20060113183350.7"><vh>&lt;&lt;介绍&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113183350.8"><vh>&lt;&lt;结构&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113183350.9"><vh>&lt;&lt;段落&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113183350.10"><vh>&lt;&lt;列表&gt;&gt;	</vh></v>
+<v t="ZoomQuiet.20060113183350.11"><vh>&lt;&lt;引用&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113183350.12"><vh>&lt;&lt;表格&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113183350.13"><vh>&lt;&lt;脚注&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113183350.14"><vh>&lt;&lt;标签&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113183350.15"><vh>&lt;&lt;文档&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113183350.16"><vh>&lt;&lt;其它&gt;&gt;</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20100517221505.4512"><vh>IOP</vh>
+<v t="zoomq.20100517221505.4526"><vh>@nosent iop-how2-tenfold-speed-py-script-2010-05-13-19-19.t2t</vh>
+<v t="zoomq.20100517221505.4539"><vh>背景</vh></v>
+<v t="zoomq.20100517221505.4540"><vh>redis-&gt;pickel</vh>
+<v t="zoomq.20100519154638.4594"><vh>代码</vh></v>
+<v t="zoomq.20100519154638.4595"><vh>速度</vh></v>
+<v t="zoomq.20100519154638.4596"><vh>加速0</vh></v>
+</v>
+<v t="zoomq.20100517221505.4545"><vh>redis-&gt;log</vh>
+<v t="zoomq.20100520090310.4599"><vh>分析</vh></v>
+<v t="zoomq.20100520090310.4600"><vh>代码</vh></v>
+<v t="zoomq.20100520090310.4601"><vh>加速</vh></v>
+</v>
+<v t="zoomq.20100517221505.4542"><vh>MySQL-&gt;log</vh>
+<v t="zoomq.20100520090310.4602"><vh>分析</vh></v>
+<v t="zoomq.20100520090310.4603"><vh>代码</vh></v>
+<v t="zoomq.20100520090310.4604"><vh>没加速</vh></v>
+<v t="zoomq.20100520090310.4605"><vh>加速</vh></v>
+</v>
+<v t="zoomq.20100517221505.4543"><vh>MySQL-&gt;Limit-&gt;log</vh>
+<v t="zoomq.20100520090310.4607"><vh>分析</vh></v>
+<v t="zoomq.20100520090310.4608"><vh>代码</vh></v>
+<v t="zoomq.20100520090310.4609"><vh>加速</vh></v>
+</v>
+<v t="zoomq.20100520090310.4598"><vh>提高100倍</vh></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170040.2"><vh>oss</vh>
+<v t="ZoomQuiet.20060125173931"><vh>@nosent OSSdocDemoJPS-2006-01-17-23-23.t2t</vh>
+<v t="zoomq.20060916180156.12"></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="ZoomQuiet.20060125173931.1"><vh>由来</vh></v>
+<v t="ZoomQuiet.20060125173931.2"><vh>结构</vh></v>
+<v t="ZoomQuiet.20060125173931.3"><vh>TODO</vh></v>
+</v>
+<v t="zoomq.20100414115206.4549"><vh>@nosent solaris-fs-choice-2008-04-23-21-43.t2t</vh>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+<v t="zoomq.20100728103610.7586"><vh>main</vh></v>
+</v>
+<v t="ZoomQuiet.20060116170150"><vh>CPyUG</vh></v>
+<v t="ZoomQuiet.20060410130427"><vh>FreeBSD</vh>
+<v t="ZoomQuiet.20060410185041"><vh>@nosent gnn-beijing-2006-04-09-15-00.t2t</vh>
+<v t="ZoomQuiet.20060410185041.1"><vh>report</vh></v>
+<v t="ZoomQuiet.20060410185041.2"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="zoomq.20060916180156.12"></v>
+<v t="zoomq.20100728103610.7583"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060125172335"><vh>Mozilla</vh>
+<v t="ZoomQuiet.20060125172623"><vh>FireFox</vh>
+<v t="ZoomQuiet.20060125175729"><vh>@nosent FFoxSearchplugins-2006-01-04-23-23.t2t</vh>
+<v t="ZoomQuiet.20060125175729.1"><vh>定制tips</vh></v>
+<v t="ZoomQuiet.20060125175729.6"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+<v t="zoomq.20100414115206.4548"><vh>@nosent ff3pre-upgrade-ko-2008-04-21-12-33.t2t</vh>
+<v t="zoomq.20100728103610.7587"><vh>main</vh></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060125172634"><vh>Thunderbird</vh></v>
+</v>
+<v t="zoomq.20100414115206.4541"><vh>Ubuntu</vh>
+<v t="zoomq.20100414115206.4550"><vh>@nosent ff-to-gg-2007-10-22-23-43.t2t</vh>
+<v t="zoomq.20100728103610.7588"><vh>main</vh></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+<v t="zoomq.20100414115206.4551"><vh>@nosent hardy-heron-9day-2008-04-15-10-15.t2t</vh>
+<v t="zoomq.20100728103610.7589"><vh>main</vh></v>
+<v t="zoomq.20060916180156.12"></v>
+<v t="zoomq.20100728103610.7583"></v>
+</v>
+<v t="zoomq.20100414115206.4552"><vh>@nosent terror-fs-luckly-reiserfs-2007-06-15-23-43.t2t</vh>
+<v t="zoomq.20100414115206.4730"><vh>正文</vh></v>
+<v t="zoomq.20100414115206.4729"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="zoomq.20060916180156.12"></v>
+<v t="zoomq.20100728103610.7583"></v>
+</v>
+<v t="zoomq.20100414115206.4553"><vh>@nosent ubuntu-release-party-bj-2006-11-02-17-30.t2t</vh>
+<v t="zoomq.20100728103610.7590"><vh>main</vh></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+<v t="zoomq.20100414115206.4554"><vh>@nosent upgrade-into-feisty-2007-05-11-13-43.t2t</vh>
+<v t="zoomq.20100728103610.7591"><vh>main</vh></v>
+<v t="zoomq.20060916180156.12"></v>
+<v t="zoomq.20100728103610.7583"></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20100414115206.4537"><vh>opening</vh>
+<v t="ZoomQuiet.20060116170227.1"><vh>OpenBookProj</vh>
+<v t="zoomq.20100714100009.3999"><vh>@nosent open-book-project-2010-01-01-23-23.t2t</vh>
+<v t="zoomq.20100714100009.4000"><vh>intro</vh></v>
+<v t="zoomq.20060916180156.12"></v>
+<v t="zoomq.20100728103610.7583"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170227.2"><vh>openpeople</vh></v>
+<v t="ZoomQuiet.20060116170256.1"><vh>WeKnow</vh></v>
+</v>
+<v t="zoomq.20100414115206.4540"><vh>mind</vh>
+<v t="ZoomQuiet.20060531114330"><vh>@nosent why-noread-paid-books-2010-08-06-11-01.t2t</vh>
+<v t="ZoomQuiet.20060531114330.1"><vh>main</vh></v>
+<v t="zoomq.20060916180156.12"></v>
+<v t="zoomq.20100728103610.7583"></v>
+</v>
+<v t="zoomq.20100806085041.4077"><vh>@nosent not-doc-2006-05-31-12-00.t2t</vh>
+<v t="zoomq.20100806085041.4078"><vh>noDOC</vh></v>
+<v t="zoomq.20100806085041.4079"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170040.4"><vh>Quiet</vh>
+<v t="ZoomQuiet.20060118005001"><vh>foto</vh></v>
+<v t="ZoomQuiet.20060116170330"><vh>living</vh>
+<v t="ZoomQuiet.20060308100814"><vh>@nosent dahua-dialect-2006-05-10-17-00.t2t</vh>
+<v t="ZoomQuiet.20060308100814.1"><vh>log</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060308100814.2"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060510172623"><vh>@nosent womanday-2006-03-08-10-00.t2t</vh>
+<v t="ZoomQuiet.20060510172623.1"><vh>log</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060510172623.3"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060510172623.4"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060122153701"><vh>@nosent report2me-2006-01-22-23-23.t2t</vh>
+<v t="ZoomQuiet.20060122170940"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
+<v t="zoomq.20100414115206.4555"><vh>@nosent lone-vs-love-2008-04-07-24-21.t2t</vh>
+<v t="ZoomQuiet.20060122153701.1"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170330.1"><vh>nomeans</vh>
+<v t="ZoomQuiet.20060604164954"><vh>@nosent liling-father-2006-06-04-16-00.t2t</vh>
+<v t="ZoomQuiet.20060604165254"><vh>父亲</vh></v>
+<v t="ZoomQuiet.20060604175647"><vh>流水帐</vh></v>
+<v t="ZoomQuiet.20060604170959"><vh>教育</vh></v>
+<v t="ZoomQuiet.20060604165254.1"><vh>义务宣传</vh></v>
+<v t="ZoomQuiet.20060604164954.1"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+</v>
+<v t="ZoomQuiet.20060531135448"><vh>@nosent child-day-2006-05-31-14-00.t2t</vh>
+<v t="ZoomQuiet.20060531135448.1"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+</v>
+<v t="ZoomQuiet.20060602095242"><vh>@nosent die-in-HW-2006-06-01-13-00.t2t</vh>
+<v t="ZoomQuiet.20060602095242.1"><vh>viamail</vh></v>
+<v t="ZoomQuiet.20060602095242.2"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+</v>
+<v t="ZoomQuiet.20060228174037"><vh>@nosent sear-poem-2006-02-28-18-00.t2t</vh>
+<v t="ZoomQuiet.20060228174037.1"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+</v>
+<v t="ZoomQuiet.20060214171628"><vh>@nosent valentine-day-2006-02-14-12-00.t2t</vh>
+<v t="ZoomQuiet.20060214171628.1"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170435"><vh>SiFi</vh></v>
+</v>
+<v t="zoomq.20100414115206.4538"><vh>utility</vh>
+<v t="ZoomQuiet.20060116170508"><vh>py4gui</vh></v>
+<v t="ZoomQuiet.20060116170643"><vh>py4str</vh>
+<v t="zoomq.20100414115206.4235"><vh>StructuredText</vh>
+<v t="zoomq.20100414115206.4236"><vh>@nosent rst2s5-usage-2010-09-18-23-23.t2t</vh>
+<v t="zoomq.20100920084035.5440"><vh>起</vh></v>
+<v t="zoomq.20100920084035.5441"><vh>用</vh></v>
+<v t="zoomq.20100920084035.9975"><vh>初步</vh></v>
+<v t="zoomq.20100920084035.9976"><vh>rst</vh></v>
+<v t="zoomq.20100920084035.5443"><vh>定制</vh></v>
+<v t="zoomq.20100920084035.9977"><vh>TiLog</vh></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+<v t="zoomq.20100920084035.5437"><vh>@nosent t2tdemo-2005-04-01-23-23.t2t</vh>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170643.4"><vh>py4sys</vh>
+<v t="zoomq.20100714100833.4007"><vh>@nosent py4sa-rename-mp3s-2010-07-13-22-02.t2t</vh>
+<v t="zoomq.20100714100833.4008"><vh>问题</vh></v>
+<v t="zoomq.20100714140857.4015"><vh>嘗試</vh></v>
+<v t="zoomq.20100714140857.4016"><vh>Py之</vh></v>
+<v t="zoomq.20100714140857.4014"><vh>Py4SA</vh></v>
+<v t="zoomq.20100414115206.4268"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4269"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100714100833.4015"><vh>@nosent py4sa-off-wacom-touch-2010-07-14-10-22.t2t</vh>
+<v t="zoomq.20100714100833.4016"><vh>问题</vh></v>
+<v t="zoomq.20100714140857.4012"><vh>尝试</vh></v>
+<v t="zoomq.20100714140857.4013"><vh>Py之</vh></v>
+<v t="zoomq.20100714140857.4014"></v>
+<v t="zoomq.20100414115206.4268"></v>
+<v t="zoomq.20100414115206.4269"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170643.1"><vh>py4web</vh>
+<v t="zoomq.20100414115206.4271"><vh>Django</vh>
+<v t="zoomq.20100414115206.4272"><vh>@nosent django-stepbystep-2006-01-27-23-23.txt</vh></v>
+</v>
+<v t="zoomq.20100414115206.4256"><vh>Karrigell</vh></v>
+<v t="zoomq.20100414115206.4257"><vh>MoinMoin</vh>
+<v t="zoomq.20100414115206.4258"><vh>@nosent moinerror-2006-01-31-16-00.t2t</vh>
+<v t="zoomq.20100414115206.4259"><vh>report</vh></v>
+<v t="zoomq.20100414115206.4260"><vh>fixed</vh></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+<v t="zoomq.20100728103610.8345"><vh>GraphvizMap</vh>
+<v t="zoomq.20100729092538.7643"><vh>IO error</vh></v>
+<v t="zoomq.20100730100904.4047"><vh>jQuery</vh></v>
+<v t="zoomq.20100730100904.4046"><vh>MoinGraphViz/main.py</vh></v>
+<v t="zoomq.20100729092538.7644"><vh>text_html.py</vh></v>
+</v>
+<v t="zoomq.20100730103931.6531"><vh>@nosent moin-graphviz-hack-2010-07-30-15-00.t2t</vh>
+<v t="zoomq.20100730103931.6532"><vh>aim</vh></v>
+<v t="zoomq.20100730104744.4052"><vh>core</vh>
+<v t="zoomq.20100730150200.4062"><vh>&lt;&lt;fixed text_html.py&gt;&gt;</vh></v>
+<v t="zoomq.20100730104744.4055"><vh>&lt;&lt;diff main.py&gt;&gt;</vh></v>
+<v t="zoomq.20100730104744.4056"><vh>&lt;&lt;html map&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100730104744.4053"><vh>jQuery</vh>
+<v t="zoomq.20100730150200.4064"><vh>&lt;&lt;diff atta&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100730150200.4063"><vh>error</vh>
+<v t="zoomq.20100730150200.4066"><vh>&lt;&lt;html map&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100730150200.4067"><vh>summary</vh>
+<v t="zoomq.20100730104744.4054"><vh>tlog</vh></v>
+</v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+</v>
+<v t="zoomq.20100414115206.4264"><vh>Quixote</vh>
+<v t="zoomq.20100414115206.4265"><vh>@nosent doubanerror-2006-01-30-14-00.t2t</vh>
+<v t="zoomq.20100414115206.4266"><vh>report</vh></v>
+<v t="zoomq.20100414115206.4267"><vh>TODO</vh></v>
+<v t="zoomq.20100414115206.4268"></v>
+<v t="zoomq.20100414115206.4269"></v>
+<v t="zoomq.20100414115206.4270"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170643.2"><vh>py4xml</vh></v>
+<v t="ZoomQuiet.20060116170643.3"><vh>py4zh</vh>
+<v t="ZoomQuiet.20060118011633"><vh>@nosent zh2utf8.py</vh></v>
+<v t="ZoomQuiet.20060118013917"><vh>@nosent autoDetectXMLEncoding.py</vh></v>
+</v>
+<v t="ZoomQuiet.20060125144556"><vh>Subversion</vh>
+<v t="ZoomQuiet.20060125153339"><vh>hooks</vh>
+<v t="ZoomQuiet.20060125153540"><vh>@nosent post-commit.py</vh>
+<v t="ZoomQuiet.20060125153540.1"><vh>&lt;&lt; post-commit declarations &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060125153540.2"><vh>&lt;&lt;init&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060125153540.3"><vh>autoco</vh></v>
+<v t="ZoomQuiet.20060125153540.4"><vh>changedirs</vh></v>
+<v t="ZoomQuiet.20060125153540.5"><vh>chkdirmod</vh></v>
+<v t="ZoomQuiet.20060125153540.6"><vh>logcommit</vh></v>
+<v t="ZoomQuiet.20060125153540.7"><vh>usage</vh></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060528121615"><vh>@nosent update-svn-2006-05-28-12-00.t2t</vh>
+<v t="ZoomQuiet.20060528121615.1"><vh>原因</vh></v>
+<v t="ZoomQuiet.20060528121615.2"><vh>过程</vh></v>
+<v t="ZoomQuiet.20060528121629"><vh>总结</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060528121615.3"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060125145500"><vh>@nosent intoSVN-2006-01-01-23-23.t2t</vh>
+<v t="ZoomQuiet.20060125145500.1"><vh>好坏</vh></v>
+<v t="ZoomQuiet.20060125145500.2"><vh>啄木鸟</vh></v>
+<v t="ZoomQuiet.20060125145853"><vh>1.3.0</vh></v>
+<v t="ZoomQuiet.20060125153203"><vh>继续</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060125145500.4"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100414115206.4556"><vh>@nosent ra_dev-svn-2007-10-15-11-33.t2t</vh>
+<v t="ZoomQuiet.20060122153701.1"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170256.2"><vh>ZqLib</vh>
+<v t="zoomq.20100910090235.9589"><vh>@nosent MD5-2006-01-24-23-23.t2t</vh>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="zoomq.20100910090235.9590"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170108.2"><vh>internet</vh>
+<v t="ZoomQuiet.20060123140848"><vh>Folksonomy </vh>
+<v t="ZoomQuiet.20060123141042"><vh>@nosent TechnoratiLink-2006-01-23-23-23.t2t</vh>
+<v t="ZoomQuiet.20060123141042.1"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060124012234"><vh>@nosent solidot-error-2006-01-23-23-23.t2t</vh>
+<v t="ZoomQuiet.20060124012234.1"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
+<v t="ZoomQuiet.20060220153825"><vh>@nosent sinablog-samename-2006-02-20-13-00.t2t</vh>
+<v t="ZoomQuiet.20060220153825.1"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
+<v t="ZoomQuiet.20060312125520"><vh>@nosent donews-sprint-2006-03-10-20-00.t2t</vh>
+<v t="ZoomQuiet.20060312125520.1"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
+<v t="ZoomQuiet.20060312132701"><vh>@nosent douban-discuss-2006-03-11-14-00.t2t</vh>
+<v t="ZoomQuiet.20060312132701.1"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+</v>
+<v t="ZoomQuiet.20060312150519"><vh>@nosent donews-5g-2006-03-12-14-00.t2t</vh>
+<v t="ZoomQuiet.20060312150519.1"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+</v>
+<v t="ZoomQuiet.20060531192742"><vh>@nosent psychology-google-2006-05-31-19-00.t2t</vh>
+<v t="ZoomQuiet.20060531192742.2"><vh>引述</vh></v>
+<v t="ZoomQuiet.20060531192742.1"><vh>自说</vh></v>
+<v t="ZoomQuiet.20060531192742.3"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060116170040.3"><vh>easy</vh>
+<v t="ZoomQuiet.20060118005234"><vh>anime</vh></v>
+<v t="ZoomQuiet.20060118005121"><vh>douban</vh></v>
+<v t="ZoomQuiet.20060118005058"><vh>lomo</vh></v>
+<v t="ZoomQuiet.20060118005222"><vh>manga</vh></v>
+<v t="ZoomQuiet.20060118005058.1"><vh>movie</vh>
+<v t="ZoomQuiet.20060117100151"><vh>@nosent zenpoem-2006-01-16-23-23.t2t</vh>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060118005022"><vh>music</vh>
+<v t="zoomq.20100414115206.4557"><vh>@nosent ZARD-leaved-2007-05-28-16-00.t2t</vh>
+<v t="ZoomQuiet.20060122153701.1"></v>
+</v>
+<v t="zoomq.20101009110805.4211"><vh>@nosent ms-dll-hell-2010-10-09-01-00.t2t</vh>
+<v t="zoomq.20101009110805.4213"><vh>lyric</vh></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20060916180156.12"></v>
+</v>
+</v>
+</v>
+<v t="ZoomQuiet.20060306165940"><vh>~~~stuff</vh>
+<v t="zoomq.20100817094645.4076"><vh>Nginx配置</vh></v>
+<v t="zoomq.20060916180156.12"></v>
+<v t="zoomq.20100728103610.7583"></v>
+<v t="zoomq.20100714100009.4008"><vh>@nosent not-doc-2006-05-31-12-00.t2t</vh>
+<v t="zoomq.20100714100009.4009"><vh>noDOC</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
+<v t="zoomq.20100714100833.4002"><vh>我的”怪癖” (作业)</vh></v>
+</v>
+<v t="ZoomQuiet.20060116170040.5"><vh>techic</vh>
+<v t="zoomq.20100414115206.4542"><vh>Emacs</vh>
+<v t="zoomq.20100414115206.4558"><vh>@nosent fw_learning_emacs_notes-2007-03-08-18-00.t2t</vh>
+<v t="zoomq.20100414115206.4534"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
+</v>
+</v>
+<v t="zoomq.20100414115206.4391"><vh>PyBlosxom</vh>
+<v t="zoomq.20100414115206.4530"><vh>运维日志</vh>
+<v t="zoomq.20100414115206.4531"><vh>@nosent operacss2-2006-01-28-10-00.t2t</vh>
+<v t="zoomq.20100414115206.4532"><vh>what?</vh></v>
+<v t="zoomq.20100414115206.4533"><vh>fixed</vh></v>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4535"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4536"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100420100426.5527"><vh>@nosent relivin-pyblosxom-2010-04-18-23-23.t2t</vh>
+<v t="zoomq.20100420100426.5528"><vh>what?</vh></v>
+<v t="zoomq.20100420100426.5529"><vh>plan</vh></v>
+<v t="zoomq.20100910090235.9600"><vh>SyntaxHighlighter</vh></v>
+<v t="zoomq.20100714140857.5218"><vh>TODO</vh></v>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4535"></v>
+</v>
+</v>
+<v t="zoomq.20100414115206.4472"><vh>ZqPb+</vh>
+<v t="zoomq.20100414115206.4473"><vh>@nosent zqcategory-2006-01-28-17-00.t2t</vh>
+<v t="zoomq.20100414115206.4474"><vh>why?</vh></v>
+<v t="zoomq.20100414115206.4475"><vh>log</vh></v>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4535"></v>
+<v t="zoomq.20100414115206.4478"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+</v>
+<v t="zoomq.20100414115206.4479"><vh>定制体验</vh>
+<v t="zoomq.20100414115206.4480"><vh>@nosent pyblosxom-up132-2006-05-12-19-00.t2t</vh>
+<v t="zoomq.20100414115206.4481"><vh>log</vh></v>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4535"></v>
+<v t="zoomq.20100414115206.4484"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100414115206.4485"><vh>@nosent PyblosxomInstallog-2006-01-01-23-23.t2t</vh>
+<v t="zoomq.20100414115206.4516"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4535"></v>
+</v>
+<v t="zoomq.20100414115206.4489"><vh>@nosent PyblosxomFixLog-2006-01-10-23-23.t2t</vh>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4516"></v>
+<v t="zoomq.20100414115206.4535"></v>
+</v>
+<v t="zoomq.20100414115206.4493"><vh>@nosent PyblosxomFixLog2-2006-01-15-23-23.t2t</vh>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4516"></v>
+<v t="zoomq.20100414115206.4535"></v>
+</v>
+<v t="zoomq.20100414115206.4497"><vh>@nosent PyblosxomFixLog3-2006-01-20-23-23.t2t</vh>
+<v t="zoomq.20100414115206.4498"><vh>分析</vh></v>
+<v t="zoomq.20100414115206.4499"><vh>尝试</vh></v>
+<v t="zoomq.20100414115206.4500"><vh>t2tAll</vh></v>
+<v t="zoomq.20100414115206.4501"><vh>TODO</vh></v>
+<v t="zoomq.20100414115206.4502"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4535"></v>
+</v>
+<v t="zoomq.20100414115206.4505"><vh>@nosent PyblosxomFixLog4-2006-01-21-23-23.t2t</vh>
+<v t="zoomq.20100414115206.4506"><vh>好坏</vh></v>
+<v t="zoomq.20100414115206.4507"><vh>实施</vh></v>
+<v t="zoomq.20100414115206.4508"><vh>配合</vh></v>
+<v t="zoomq.20100414115206.4509"><vh>TODO</vh>
+<v t="zoomq.20100414115206.4510"><vh>Tdoc</vh></v>
+</v>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4516"></v>
+<v t="zoomq.20100414115206.4535"></v>
+</v>
+<v t="zoomq.20100414115206.4514"><vh>@nosent PyblosxomFixLog5-2006-01-24-23-23.t2t</vh>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4516"></v>
+<v t="zoomq.20100414115206.4535"></v>
+</v>
+<v t="zoomq.20100414115206.4518"><vh>@nosent PyblosxomFixLog6-2006-01-24-23-23.t2t</vh>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4535"></v>
+<v t="zoomq.20100414115206.4521"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100414115206.4522"><vh>@nosent PyblosxomFixLog7-2006-01-27-23-23.t2t</vh>
+<v t="zoomq.20100414115206.4523"><vh>总</vh></v>
+<v t="zoomq.20100414115206.4524"><vh>实现的</vh></v>
+<v t="zoomq.20100414115206.4525"><vh>计划的</vh></v>
+<v t="zoomq.20100414115206.4526"><vh>发布</vh></v>
+<v t="zoomq.20100414115206.4535"></v>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4529"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+</v>
+<v t="zoomq.20100414115206.4392"><vh>blosxom</vh>
+<v t="zoomq.20100414115206.4393"><vh>@nosent croe-hack-file-entry-2006-01-27-23-23.t2t</vh>
+<v t="zoomq.20100414115206.4394"><vh>how</vh></v>
+<v t="zoomq.20100414115206.4395"><vh>TODO</vh></v>
+<v t="zoomq.20100414115206.4534"></v>
+<v t="zoomq.20100414115206.4535"></v>
+<v t="zoomq.20100414115206.4398"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+</v>
+<v t="zoomq.20100414115206.4399"><vh>plugins</vh></v>
+</v>
+<v t="ZoomQuiet.20060317180619"><vh>@nosent ldap-valgrind-2006-03-17-17-00.t2t</vh>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="ZoomQuiet.20060317180750"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20101230094009.5511" a="E"><vh>logging</vh>
+<v t="ZoomQuiet.20060124152735"><vh>gen4dot2htm-py.t2t</vh>
+<v t="zoomq.20100910090235.9593"><vh>5W1H</vh></v>
+<v t="zoomq.20100910090235.9594"><vh>zqlog</vh></v>
+<v t="zoomq.20100910090235.9595"><vh>智能参数？</vh></v>
+<v t="zoomq.20100910090235.9596"><vh>TDD</vh></v>
+<v t="zoomq.20100910090235.9599"><vh>todo</vh></v>
+<v t="zoomq.20100910090235.9597"><vh>TiLog</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
+<v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
+</v>
+<v t="ZoomQuiet.20060113151604"><vh>hacking</vh>
+<v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
+<v t="zoomq.20100414115206.4559"><vh>@shadow cleant2t.py</vh></v>
+<v t="zoomq.20100414115206.4579"><vh>archives</vh>
+<v t="zoomq.20100414115206.4622"><vh>@shadow pycategories.py</vh></v>
+<v t="zoomq.20100414115206.4692"><vh>@shadow index.py</vh></v>
+<v t="zoomq.20100414115206.4702"><vh>@shadow index_static.py</vh></v>
+<v t="zoomq.20100419111908.3747"><vh>@shadow photogallery.py</vh></v>
+<v t="zoomq.20100419111908.3754"><vh>@shadow filekicker.py</vh></v>
+<v t="zoomq.20100419111908.3758"><vh>@shadow yeararchives.py</vh></v>
+<v t="zoomq.20100419111908.3769"><vh>@shadow pyarchives.py</vh></v>
+</v>
+<v t="zoomq.20100419111908.3737"><vh>navigate</vh>
+<v t="zoomq.20100419111908.3738"><vh>@shadow pyentrynavi.py</vh></v>
+</v>
+<v t="zoomq.20100414115206.4589"><vh>date</vh>
+<v t="zoomq.20100414115206.4606"><vh>@shadow pyfilenamemtime.py</vh></v>
+<v t="zoomq.20100414115206.4609"><vh>@shadow firstdaydiv.py</vh></v>
+<v t="zoomq.20100414115206.4615"><vh>@shadow w3cdate.py</vh></v>
+<v t="zoomq.20100419111908.3742"><vh>@shadow hardcodedates.py</vh></v>
+</v>
+<v t="ZoomQuiet.20060127143628"><vh>willplugins</vh>
+<v t="zoomq.20100420100426.3921"><vh>@shadow wbglast10summary.py</vh></v>
+<v t="zoomq.20100414115206.4645"><vh>@shadow readmore.py</vh></v>
+<v t="zoomq.20100414115206.4637"><vh>@shadow plugininfo.py</vh></v>
+<v t="zoomq.20100414115206.4685"><vh>@shadow wbgrecent.py</vh></v>
+<v t="zoomq.20100414115206.4630"><vh>@shadow pystaticfile.py</vh></v>
+<v t="zoomq.20100414115206.4648"><vh>@shadow wbgarchives.py</vh></v>
+<v t="zoomq.20100414115206.4659"><vh>@shadow wbggrep.py</vh></v>
+<v t="zoomq.20100414115206.4665"><vh>@shadow wbgpager.py</vh></v>
+<v t="zoomq.20100414115206.4673"><vh>@shadow wbgtags.py</vh></v>
+</v>
+<v t="ZoomQuiet.20060128153018"><vh>zqpyb+</vh>
+<v t="ZoomQuiet.20060128161220"><vh>__stuff</vh>
+<v t="zoomq.20100420100426.5502"><vh>_pushsubdir()</vh></v>
+<v t="zoomq.20100420100426.5500"><vh>try文章结构列表</vh></v>
+</v>
+<v t="zoomq.20100420100426.5124"><vh>@shadow category_static.py</vh></v>
+<v t="zoomq.20100414115206.4717"><vh>@shadow zqcategories.py</vh></v>
+<v t="zoomq.20100420100426.3908"><vh>@shadow zqarchives.py</vh></v>
+<v t="ZoomQuiet.20060128153405"><vh>@shadow zqcategory.py</vh></v>
+<v t="ZoomQuiet.20060128161946" a="M"><vh>@shadow zqcrecent.py</vh></v>
+</v>
+<v t="ZoomQuiet.20060113155741"><vh>preformatters</vh>
+<v t="ZoomQuiet.20060122144657"><vh>为t2t</vh>
+<v t="ZoomQuiet.20060121163046"><vh>@shadow xhtml.py</vh></v>
+<v t="ZoomQuiet.20060113175338"><vh>@nosent t2t.py</vh>
+<v t="ZoomQuiet.20060113175338.1"><vh>&lt;&lt; t2t declarations &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113175338.2"><vh>cb_entryparser</vh></v>
+<v t="ZoomQuiet.20060113175338.3"><vh>parse</vh></v>
+</v>
+<v t="ZoomQuiet.20060122145631"><vh>@nosent try.t2t</vh>
+<v t="ZoomQuiet.20060122173831"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060122145631.1"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060122145631.2"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100414115206.4732"><vh>@shadow txt2tags.py</vh></v>
+</v>
+<v t="ZoomQuiet.20060113182537"><vh>@nosent moinmoin.py</vh>
+<v t="ZoomQuiet.20060113182537.1"><vh>&lt;&lt; moinmoin declarations &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113182537.2"><vh>cb_preformat</vh></v>
+<v t="ZoomQuiet.20060113182537.3"><vh>cb_entryparser</vh></v>
+<v t="ZoomQuiet.20060113182537.4"><vh>readfile</vh></v>
+<v t="ZoomQuiet.20060113182537.5"><vh>parse</vh></v>
+</v>
+<v t="ZoomQuiet.20060122150604"><vh>@shadow py.py</vh></v>
+</v>
+<v t="ZoomQuiet.20060127143250"><vh>folksonomy</vh>
+<v t="zoomq.20100420100426.3881"><vh>@shadow tags.py</vh></v>
+<v t="ZoomQuiet.20060123122117"><vh>@nosent folksonomy.py</vh>
+<v t="ZoomQuiet.20060123122117.1"><vh>&lt;&lt; folksonomy declarations &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123122117.2"><vh>cb_start</vh></v>
+<v t="ZoomQuiet.20060123122117.3"><vh>cb_story</vh></v>
+<v t="ZoomQuiet.20060123122117.4"><vh>getEntryTitle</vh></v>
+<v t="ZoomQuiet.20060123122117.5"><vh>getRelatedStories</vh></v>
+<v t="ZoomQuiet.20060123122117.6"><vh>_getrelatedstories</vh></v>
+<v t="ZoomQuiet.20060123122117.7"><vh>getRelatedTags</vh></v>
+<v t="ZoomQuiet.20060123122117.8"><vh>_getrelatedtags</vh></v>
+<v t="ZoomQuiet.20060123122117.9"><vh>createFolksonomy</vh></v>
+<v t="ZoomQuiet.20060123122117.10"><vh>createPopularTagCloud</vh></v>
+<v t="ZoomQuiet.20060123122117.11"><vh>createTagCloud</vh></v>
+<v t="ZoomQuiet.20060123122117.12"><vh>cb_filelist</vh></v>
+<v t="ZoomQuiet.20060123122117.13"><vh>getEntriesForTag</vh></v>
+</v>
+<v t="ZoomQuiet.20060127143423"><vh>@nosent pyguest.py</vh>
+<v t="ZoomQuiet.20060127143423.1"><vh>&lt;&lt; pyguest declarations &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060127143423.2"><vh>verify_installation</vh></v>
+<v t="ZoomQuiet.20060127143423.3"><vh>fix_local_path</vh></v>
+<v t="ZoomQuiet.20060127143423.4"><vh>cb_prepare</vh></v>
+<v t="ZoomQuiet.20060127143423.5"><vh>unique_filename</vh></v>
+<v t="ZoomQuiet.20060127143423.6"><vh>already_posted</vh></v>
+<v t="ZoomQuiet.20060127143423.7"><vh>HTMLStrip</vh></v>
+<v t="ZoomQuiet.20060127143423.8"><vh>save_post</vh></v>
+<v t="ZoomQuiet.20060127143423.9"><vh>cmp_datefloat_cmp</vh></v>
+<v t="ZoomQuiet.20060127143423.10"><vh>cb_filelist</vh></v>
+<v t="ZoomQuiet.20060127143423.11"><vh>parse</vh></v>
+<v t="ZoomQuiet.20060127143423.12"><vh>cb_entryparser</vh></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060121181858"><vh>comments</vh>
+<v t="ZoomQuiet.20060121181858.1"><vh>@nosent nospam.py</vh>
+<v t="ZoomQuiet.20060121181858.2"><vh>&lt;&lt; nospam declarations &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121181858.3"><vh>verify_installation</vh></v>
+<v t="ZoomQuiet.20060121181858.4"><vh>_generateImage</vh></v>
+<v t="ZoomQuiet.20060121181858.5"><vh>_writeImage</vh></v>
+<v t="ZoomQuiet.20060121181858.6"><vh>_remember_comment</vh></v>
+<v t="ZoomQuiet.20060121181858.7"><vh>_forget_comment</vh></v>
+<v t="ZoomQuiet.20060121181858.8"><vh>cb_start</vh></v>
+<v t="ZoomQuiet.20060121181858.9"><vh>cb_handle</vh></v>
+<v t="ZoomQuiet.20060121181858.10"><vh>cb_comment_reject</vh></v>
+</v>
+<v t="ZoomQuiet.20060121183523"><vh>@nosent trackback.py</vh>
+<v t="ZoomQuiet.20060121183523.1"><vh>&lt;&lt; trackback declarations &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121183523.2"><vh>cb_start</vh></v>
+<v t="ZoomQuiet.20060121183523.3"><vh>verify_installation</vh></v>
+<v t="ZoomQuiet.20060121183523.4"><vh>cb_handle</vh></v>
+</v>
+<v t="ZoomQuiet.20060124143934"><vh>@nosent comments.py</vh>
+<v t="ZoomQuiet.20060124143934.1"><vh>&lt;&lt; comments declarations &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124143934.2"><vh>cb_start</vh></v>
+<v t="ZoomQuiet.20060124143934.3"><vh>verify_installation</vh></v>
+<v t="ZoomQuiet.20060124143934.4"><vh>createhtmlmail</vh></v>
+<v t="ZoomQuiet.20060124143934.5"><vh>readComments</vh></v>
+<v t="ZoomQuiet.20060124143934.6"><vh>getCommentCount</vh></v>
+<v t="ZoomQuiet.20060124143934.7"><vh>cmtExpr</vh></v>
+<v t="ZoomQuiet.20060124143934.8"><vh>readComment</vh></v>
+<v t="ZoomQuiet.20060124143934.9"><vh>writeComment</vh></v>
+<v t="ZoomQuiet.20060124143934.10"><vh>send_email</vh></v>
+<v t="ZoomQuiet.20060124143934.11"><vh>clean_author</vh></v>
+<v t="ZoomQuiet.20060124143934.12"><vh>escape_SMTP_commands</vh></v>
+<v t="ZoomQuiet.20060124143934.13"><vh>sanitize</vh></v>
+<v t="ZoomQuiet.20060124143934.14"><vh>dont_follow</vh></v>
+<v t="ZoomQuiet.20060124143934.15"><vh>add_dont_follow</vh></v>
+<v t="ZoomQuiet.20060124143934.16"><vh>cb_prepare</vh></v>
+<v t="ZoomQuiet.20060124143934.17"><vh>escape_link</vh></v>
+<v t="ZoomQuiet.20060124143934.18"><vh>decode_form</vh></v>
+<v t="ZoomQuiet.20060124143934.19"><vh>cb_head</vh></v>
+<v t="ZoomQuiet.20060124143934.20"><vh>cb_story</vh></v>
+<v t="ZoomQuiet.20060124143934.21"><vh>build_preview_comment</vh></v>
+<v t="ZoomQuiet.20060124143934.22"><vh>cb_story_end</vh></v>
+</v>
+</v>
+</v>
+<v t="ZoomQuiet.20060127153926"><vh>core</vh>
+<v t="zoomq.20100419111908.4968"><vh>@shadow commandline.py</vh></v>
+<v t="zoomq.20100419194136.6232"><vh>@shadow pyblosxom.py</vh></v>
+<v t="zoomq.20100419194136.6284"><vh>@shadow tools.py</vh></v>
+</v>
+<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
+<v t="ZoomQuiet.20060127164449"><vh>guestbook</vh></v>
+<v t="ZoomQuiet.20060117230447"><vh>phtm.flav</vh>
+<v t="ZoomQuiet.20060118001056"><vh>@nosent zqgreen.css</vh>
+<v t="ZoomQuiet.20060306102523"><vh>&lt;&lt;TagClouds&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060118001230"><vh>&lt;&lt;通用&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121170005"><vh>&lt;&lt; banner &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123163025"><vh>&lt;&lt;content&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123184441"><vh>&lt;&lt;评注&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123163025.1"><vh>&lt;&lt;links&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123161842"><vh>&lt;&lt;plugins&gt;&gt;</vh>
+<v t="ZoomQuiet.20060127182610"><vh>&lt;&lt;willplugins&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124165636"><vh>&lt;&lt;Blogroll&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124095643"><vh>&lt;&lt;pycategories&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123172454"><vh>&lt;&lt;blosxomCalendar&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123181812"><vh>&lt;&lt;google&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060123232910"><vh>&lt;&lt;t2t&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060118001321"><vh>&lt;&lt;特用&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060127173032"><vh>Guestbook</vh>
+<v t="ZoomQuiet.20060127173402"><vh>@nosent pyguest_item.phtm</vh></v>
+<v t="ZoomQuiet.20060127173032.3"><vh>@nosent pyguest_form.phtm</vh></v>
+</v>
+<v t="ZoomQuiet.20060127182127"><vh>@nosent yearsummarystory.phtm</vh></v>
+<v t="ZoomQuiet.20060117230523"><vh>@nosent head.phtm</vh></v>
+<v t="ZoomQuiet.20060117230550.1"><vh>@nosent foot.phtm</vh>
+<v t="zoomq.20060816163913"><vh>&lt;&lt;51pipi&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060313092024"><vh>&lt;&lt;zoomclouds&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124174942"><vh>&lt;&lt;aboutme&gt;&gt;   </vh></v>
+<v t="ZoomQuiet.20060222134553"><vh>&lt;&lt;CoComment&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060127180654"><vh>&lt;&lt;Menu&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124102944"><vh>&lt;&lt;Blogroll&gt;&gt;</vh>
+<v t="ZoomQuiet.20060125164843"><vh>&lt;&lt;OpenPeople&gt;&gt;   </vh></v>
+<v t="ZoomQuiet.20060124160948"><vh>&lt;&lt;PyBlosxom&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124160948.1"><vh>&lt;&lt;CPUG&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124160948.2"><vh>&lt;&lt;Blogger&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060124104215"><vh>&lt;&lt;blosxomCalendar&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124104215.1"><vh>&lt;&lt;Archive&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123181155"><vh>&lt;&lt;SiteSearch&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123175757"><vh>&lt;&lt;AdSense&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123123552"><vh>&lt;&lt;PoweredBy&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124161106"><vh>&lt;&lt;CreativeCommons&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060120163448"><vh>&lt;&lt;Extra&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060301090101"><vh>&lt;&lt;PyCon&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060120163510"><vh>&lt;&lt;聚合&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060120163550"><vh>&lt;&lt;License&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060117230550.2"><vh>@nosent date_head.phtm</vh></v>
+<v t="ZoomQuiet.20060117230550"><vh>@nosent story.phtm</vh>
+<v t="ZoomQuiet.20060123150758"><vh>&lt;&lt;SNS&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060117230550.3"><vh>@nosent date_foot.phtm</vh></v>
+<v t="ZoomQuiet.20060117231056"><vh>Comment</vh>
+<v t="ZoomQuiet.20060117231056.1"><vh>@nosent comment-story.phtm</vh></v>
+<v t="ZoomQuiet.20060117231056.4"><vh>@nosent comment.phtm</vh></v>
+<v t="ZoomQuiet.20060117231056.3"><vh>@nosent comment-form.phtm</vh></v>
+<v t="ZoomQuiet.20060117231056.2"><vh>@nosent comment-preview.phtm</vh></v>
+</v>
+<v t="ZoomQuiet.20060117230550.4"><vh>@nosent content_type.phtm</vh></v>
+</v>
+<v t="ZoomQuiet.20060121185443"><vh>rss20.flav</vh>
+<v t="ZoomQuiet.20060121185443.1"><vh>@nosent head.rss20</vh></v>
+<v t="ZoomQuiet.20060121185526.1"><vh>@nosent story.rss20</vh></v>
+<v t="ZoomQuiet.20060121185526"><vh>@nosent foot.rss20</vh></v>
+</v>
+</v>
+</v>
+<v t="ZoomQuiet.20060113092617"><vh>web配置</vh>
+<v t="ZoomQuiet.20060113123414"><vh>@nosent index.html</vh></v>
+<v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
+<v t="ZoomQuiet.20060123105542"><vh>&lt;&lt;Plugins&gt;&gt;</vh>
+<v t="ZoomQuiet.20060127162954"><vh>loader</vh></v>
+<v t="ZoomQuiet.20060127163053"><vh>vars</vh></v>
+<v t="ZoomQuiet.20060531194835"><vh>4antiSpam</vh></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060113093014"><vh>@nosent  pyblosxom.cgi</vh></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060113095905"><vh>系统配置</vh>
+<v t="ZoomQuiet.20060126122942" a="M"><vh>Account</vh>
+<v t="ZoomQuiet.20060126122942.1"><vh>系统</vh></v>
+</v>
+<v t="ZoomQuiet.20060125100636" a="M"><vh>SVN部属</vh>
+<v t="ZoomQuiet.20060404103542"><vh>060404-Dj0faq</vh></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060126165250"><vh>stuff</vh>
+<v t="ZoomQuiet.20060628141623"><vh>SMTP Gmail</vh></v>
+<v t="ZoomQuiet.20060126165836"><vh>Django一步接一步</vh></v>
+</v>
+</vnodes>
+<tnodes>
+<t tx="ZoomQuiet.20060113092539">@path zoomquiet
+PyBlosxom 定制项目
+
+	原吾境 fly in Pythoic	
+	http://blog.sina.com.cn/m/zoomq　﹥复制　﹥收藏本页	
+
+智慧海:
+    Zen/
+    {FLOSS!自由的思想:
+        computer
+        internet
+        china
+        pythonic
+柢树林:
+    OpenSorece/
+    {他山之玉可攻吾石
+        openpeople
+        CPUG
+        woodpecker
+        Karrigell
+        TurboGears
+        PyBlosxom
+        tinyproj
+        ZqLib
+        WeKnow
+        OpenBookProj
+
+众香界:
+    Quiet/
+    {十丈红尘冷眼看
+     无无明亦无无无明尽
+        living
+        foto
+        nomeans        
+吉详云:
+    Techic/
+    {妙招偶得
+        py4xml
+        py4str
+        py4zh
+        py4gui
+        py4web
+    </t>
+<t tx="ZoomQuiet.20060113092617">@path web/
+
+Zen
+of
+openSource
+mind
+. 
+Quick
+utility
+internet
+extensible
+techic
+
+</t>
+<t tx="ZoomQuiet.20060113092644">@path entries
+
+</t>
+<t tx="ZoomQuiet.20060113092909">#coding=utf-8
+py = {}
+# Zoomq::060128 add for develop PyBlosxom
+py['blog_debug'] = "DEBUG::"
+###############
+# Start Below #
+###############
+# If your PyBlosxom installation is in a funky place, uncomment
+# this next line and point it to your PyBlosxom installation
+# directory.
+#py["codebase"] = "/path/to/pyblosxom/installation"
+#py["codebase"] = "/usr/local/lib/python2.4/site-packages/Pyblosxom"
+# Zoomq::060111 usage lasted Version
+#py["codebase"] = "/data1/www/blog.woodpecker/pyblosxom/core"
+
+# What's this blog's title?
+#py['page_title'] = "Zoomq's PyBlosxom blogging"
+py['blog_title'] = "Z&lt;sub&gt;en&lt;/sub&gt;o&lt;sub&gt;f&lt;/sub&gt;o&lt;sub&gt;penSource&lt;/sub&gt;M&lt;sup&gt;ind&lt;/sup&gt;. Q&lt;sub&gt;uick&lt;/sub&gt;u&lt;sub&gt;tility&lt;/sub&gt;i&lt;sub&gt;nternet&lt;/sub&gt;e&lt;sub&gt;xtensible&lt;/sub&gt;t&lt;sup&gt;echic&lt;/sup&gt;"
+
+# What's this blog's description (for outgoing RSS feed)?
+py['blog_description'] = "Zoom.Quiet's PyBlosxom blogging"
+
+# What's this blog's author name?
+py['blog_author'] = "Zoom.Quiet"
+
+# What's the blog author's email address?
+py["blog_email"] = "Zoom.Quiet at gmail.com"
+
+# What's this blog's primary language (for outgoing RSS feed)?
+py['blog_language'] = "zh"
+
+# Encoding for output. Default is iso-8859-1.
+#py['blog_encoding'] = "iso-8859-1"
+py['blog_encoding'] = "utf-8"
+#py['blog_encoding'] = "gbk"
+
+# These are the rights you give to others in regards to the content
+# on your blog.  Generally, this is the copyright information.
+# This is used in the Atom feeds.  Leaving this blank or not filling
+# it in correctly could result in a feed that doesn't validate.
+py["blog_rights"] = "Copyright 2005 Joe Bobb"
+
+# Where are this blog's entries kept?
+#py['datadir'] = "/path/to/blog"
+py['datadir'] = "/data1/www/blog.woodpecker/pyblosxom/zoomquiet/data"
+
+# Where should the application log to?
+# If set to "NONE" log messages are silently ignored.
+# Falls back to sys.stderr if the file can't be opened for writing.
+# py['log_file'] = "/path/to/pyblosxom.log"
+py['log_file'] = "/data1/www/blog.woodpecker/pyblosxom/zoomquiet/log/pyblosxom.log"
+
+# At what level should we log to log_file?
+# One of: critical, error, warning, info, debug
+# For production 'warning' or 'error' is recommended.
+py['log_level'] = "warning"
+#py['log_level'] = "debug"
+
+# Let's you specify which channels should be logged.
+# If specified, only messages from the listed channels are logged.
+# Each plugin logs to it's own channel, therefor channelname == pluginname.
+# Application level messages are logged to a channel named 'root'.
+# If you use log_filter and ommit the 'root' channel here, app level messages 
+# are not logged! log_filter is mainly interesting to debug a specific plugin.
+# py['log_filter'] = ['root', 'plugin1', 'plugin2']
+
+# List of strings with directories that should be ignored (e.g. "CVS")
+# ex: py['ignore_directories'] = ["CVS", "temp"]
+#py['ignore_directories'] = []
+py['ignore_directories'] = ["CVS", ".svn", "temp", "pic"]
+
+# Should I stick only to the datadir for items or travel down the directory
+# hierarchy looking for items?  If so, to what depth?
+# 0 = infinite depth (aka grab everything), 1 = datadir only, n = n levels down
+#py['depth'] = 0
+py['depth'] = 4
+
+# How many entries should I show on the home page?
+#py['num_entries'] = 40
+py['num_entries'] = 10
+
+# What should the default flavour you want used be?
+#py['default_flavour'] = "html"
+py["flavourdir"] = "/data1/www/blog.woodpecker/pyblosxom/flavours/"
+py["default_flavour"] = "phtm"
+
+###########################
+# Optional Configurations #
+###########################
+#py["renderer"] = "debug"
+py["renderer"] = "blosxom"
+# What should this blog use as its base url?
+# py['base_url'] = "http://www.some.host/weblog"
+py['base_url'] = "http://blog.zoomquiet.org/pyblosxom/"
+
+# Default parser/preformatter. Defaults to plain (does nothing)
+#py['parser'] = 'plain'
+#py['parser'] = 'html'
+
+# Using Caching? Caching speeds up rendering the page that is going to be
+# shown. Even if you are not using pyblosxom special features, caching can
+# improve rendering speed of certain flavours that can show a large number of
+# files at one time. Choose a cache mechanism you'd like, see the
+# Pyblosxom/cache/ directory, and read the source on how to enable caching with
+# the particular cache driver, you need to set two variables:
+#py['cacheDriver'] = 'xxxx'
+#py['cacheConfig'] = ''
+
+# Plugin directories:
+# You can now specify where you plugins all lives, there are two types
+# of plugindirectories, the standard pyblosxom plugins, and the xmlrpc
+# plugins.  You can list out as many directories you want, but they
+# should only contain the related plugins.
+# Example: py['plugin_dirs'] = ['/opt', '/usr/bin']
+#py['plugin_dirs'] = ['/path/to/my/plugins']
+
+&lt;&lt;Plugins&gt;&gt;
+
+
+# 模板处理
+# Doing static rendering?  Static rendering essentially "compiles" your
+# blog into a series of static html pages.  For more details, read:
+# http://wiki.subtlehints.net/moin/PyBlosxom_2fStaticRendering
+# 
+# What directory do you want your static html pages to go into?
+#py["static_dir"] = "/path/to/static/dir"
+py['static_dir'] = ['/data1/www/blog.woodpecker/pyblosxom/zoomquiet/static']
+
+# What flavours shouldt get generated?
+#py["static_flavours"] = ["html"]
+
+# What other paths should we statically render?
+# This is for additional urls handled by other plugins like the booklist
+# and plugin_info plugins.  If there are multiple flavours you want
+# to capture, specify each:
+# ex: py["static_urls"] = ["/booklist.rss", "/booklist.html"]
+#py["static_urls"] = ["/path/to/url1", "/path/to/url2"]
+
+# Whether (1) or not (0) you want to create date indexes using month
+# names?  (ex. /2004/Apr/01)  Defaults to 1 (yes).
+#py["static_monthnames"] = 1
+py["static_monthnames"] = 0
+# Whether (1) or not (0) you want to create date indexes using month
+# numbers?  (ex. /2004/04/01)  Defaults to 0 (no).
+#py["static_monthnumbers"] = 0
+py["static_monthnumbers"] = 1
+
+</t>
+<t tx="ZoomQuiet.20060113093014">#!/usr/local/bin/python
+#coding=utf-8
+
+##!/path/to/python -u
+# -u turns off character translation to allow transmission
+# of gzip compressed content on Windows and OS/2
+
+# Uncomment this if something goes wrong (for debugging)
+#import cgitb; cgitb.enable()
+
+import os, sys
+
+# this allows for a config.py override
+script = os.environ.get('SCRIPT_FILENAME', None)
+if script is not None:
+    sys.path.insert(0, os.path.dirname(script))
+
+# Settings are now in config.py, you should disable access to it by htaccess
+# (make it executable or deny access)
+from config import py as cfg
+
+# If the user defined a "codebase" property in their config file,
+# then we insert that into our sys.path because that's where the
+# PyBlosxom installation is.
+if cfg.has_key("codebase"):
+    sys.path.insert(0, cfg["codebase"])
+
+from Pyblosxom.pyblosxom import PyBlosxom
+
+if __name__ == '__main__':
+    
+    env = {}
+    # names taken from wsgi instead of inventing something new
+    env['wsgi.input'] = sys.stdin
+    env['wsgi.errors'] = sys.stderr
+
+    # setup url_scheme for static rendering
+    if 'base_url' in cfg.keys():
+        env['wsgi.url_scheme'] = cfg['base_url'][:cfg['base_url'].find("://")]
+    else:
+        env['wsgi.url_scheme'] = "http"
+    
+
+    # if they executed pyblosxom.cgi from the command line, then
+    # there is no REQUEST_METHOD.
+    if not os.environ.get("REQUEST_METHOD", ""):
+        # install verification and static rendering
+
+        p = PyBlosxom(cfg, env)
+
+        if len(sys.argv) &gt; 1 and sys.argv[1] == "--static":
+            if "--incremental" in sys.argv:
+                incremental = 1
+            else:
+                incremental = 0
+            p.runStaticRenderer(incremental)
+        else:
+            p.testInstallation()
+
+    else:
+        try:
+            # try running as a WSGI-CGI
+            from wsgiref.handlers import CGIHandler
+            from wsgi_app import application
+            CGIHandler().run(application)
+
+        except ImportError:
+            # run as a regular CGI
+
+            if os.environ.get("HTTPS") in ("yes", "on", "1"):
+                env['wsgi.url_scheme'] = "https"
+
+            for mem in ["HTTP_HOST", "HTTP_USER_AGENT", "HTTP_REFERER",
+                        "PATH_INFO", "QUERY_STRING", "REMOTE_ADDR",
+                        "REQUEST_METHOD", "REQUEST_URI", "SCRIPT_NAME",
+                        "HTTP_IF_NONE_MATCH", "HTTP_IF_MODIFIED_SINCE",
+                        "HTTP_COOKIE", "CONTENT_LENGTH", "HTTP_ACCEPT",
+                        "HTTP_ACCEPT_ENCODING"]:
+                env[mem] = os.environ.get(mem, "")
+
+            p = PyBlosxom(cfg, env)
+
+            p.run()
+            response = p.getResponse()
+            response.sendHeaders(sys.stdout)
+            response.sendBody(sys.stdout)
+
+# vim: shiftwidth=4 tabstop=4 expandtab
+</t>
+<t tx="ZoomQuiet.20060113095905">系统配置
+</t>
+<t tx="ZoomQuiet.20060113123414">&lt;html&gt;
+  &lt;head&gt;
+  &lt;meta http-equiv="refresh" content="0;URL=pyblosxom/"&gt;
+  &lt;/head&gt;
+  &lt;body bgcolor="#FFFFFF" text="#000000"&gt;
+    Click &lt;a href="pyblosxom"&gt;here&lt;/a&gt; to jump my Blog..
+  &lt;/body&gt;
+&lt;/html&gt;
+
+
+</t>
+<t tx="ZoomQuiet.20060113151604">格式:
+    t2t
+    cp txt2tags /usr/local/bin)
+    由SV hooks 配合自动记录底稿到.t2t 目录,
+        将生成的html 作为正文?!需要指定为.txt 后缀
+        同时提供.moin 版本文件
+#提醒:
+    邮件提醒评注！
+样式:
+    Atom  ... 80px icon    
+"Apache 配合:
+    /entry  为了多格式发布  t2t
+    /styles 为了css引用
+SNS:
+    folksonomy TAGs del.icio.us 收藏
+    Google Ad..    
+插件:
+    摘要
+    #TrackBack    
+    评注:
+        spam
+        pkg_add -r py24-imaging
+"http://pyblosxom.sourceforge.net/blog/registry/input/nospam
+http://www.c-area.ch/code/pyblosxom/plugins/
+
+</t>
+<t tx="ZoomQuiet.20060113151620">在本地使用自个儿习惯的格式来写，通过SVN 自动版本同步到PyBlsxom发布！
+好处：
+1. 天然的备份！
+2. 离线写作！
+3. 本地搜索！
+4. 自然备份！
+5. 版本强力管理！
+6. 灾难恢复简单
+7. Blog系统定制权限容易管理
+...
+坏处
+0. 要学习TortoiseSVN 的使用
+
+
+
+</t>
+<t tx="ZoomQuiet.20060113155741">@path preformatters</t>
+<t tx="ZoomQuiet.20060113160325">@language Moin
+Python开发编码规范
+&lt;&lt;t2t head&gt;&gt;
+
+
+= Python开发编码规范 =
+
+{{{
+  --- hoxide 初译 dreamingk 校对发布 040724
+  --- xyb 重新排版 040915
+  --- ZoomQuiet MoinMoin 美化 050610
+}}}
+'''用Python进行开发时的编码风格约定'''
+原文:'''[wiki:epes/pep-0008.html 	PEP 008]'''《Style Guide for Python Code》
+
+&lt;&lt;介绍&gt;&gt;
+&lt;&lt;Foolish&gt;&gt;
+&lt;&lt;布局&gt;&gt;
+&lt;&lt;导入&gt;&gt;
+&lt;&lt;空格&gt;&gt;
+&lt;&lt;注释&gt;&gt;
+&lt;&lt;文档化&gt;&gt;
+&lt;&lt;版本注记&gt;&gt;
+&lt;&lt;命名约定&gt;&gt;
+&lt;&lt;设计建议&gt;&gt;
+
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="ZoomQuiet.20060113160325.1">@c
+== 介绍 ==
+
+    这篇文档所给出的编码约定适用于在主要的Python发布版本中组成标准库的Python
+    代码.请查阅相关的关于在Python的C实现中C代码风格指南的描述.
+
+    这篇文档改编自Guido最初的《Python风格指南》一文.
+    并从《Barry's style guide》中添加了部分内容.
+    在有冲突的地方，Guide的风格规则应该是符合本PEP的意图
+    (译注：就是当有冲突时，应以Guido风格为准)
+    这篇PEP也许仍然尚未完成(实际上，它可能永远不会结束).
+</t>
+<t tx="ZoomQuiet.20060113160325.10">@c
+
+== 设计建议 ==
+(Programming Recommendations)
+
+
+    * 同象None之类的单值进行比较,应该永远用:'is'或'is not'来做.
+    当你本意是"if x is not None"时,对写成"if x"要小心 --
+    例如当你测试一个默认为None的变量或参数是否被设置为其它值时.
+    这个其它值可能是一个在布尔上下文中为假的值!
+
+
+
+    * 基于类的异常总是好过基于字符串的异常.
+    模块和包应该定义它们自己的域内特定的基异常类(base exception class),
+    基类应该是内建的Exception类的子类.
+    还始终包含一个类的文档字符串.例如:
+{{{
+#!python
+        class MessageError(Exception):
+            """Base class for errors in the email package."""
+}}}
+
+
+
+    * 使用字符串方法(methods)代替字符串模块,除非必须向后兼容Python 2.0以前的版本.
+    字符串方法总是非常快,而且和unicode字符串共用同样的API(应用程序接口)
+
+
+
+    * 在检查前缀或后缀时避免对字符串进行切片.
+
+    用startswith()和endswith()代替, 因为它们是明确的并且错误更少.
+    例如:
+{{{
+        No:  if foo[:3] == 'bar':
+        Yes: if foo.startswith('bar'):
+}}}
+
+
+      例外是如果你的代码必须工作在Python 1.5.2 (但是我们希望它不会发生!).
+    * 对象类型的比较应该始终用isinstance()代替直接比较类型.例如:
+{{{
+        No:  if type(obj) is type(1):
+        Yes: if isinstance(obj, int):
+}}}
+
+      检查一个对象是否是字符串时,紧记它也可能是unicode字符串!
+      在Python 2.3, str和unicode有公共的基类,basestring,所以你可以这样做:
+{{{
+#!python
+        if isinstance(obj, basestring):
+}}}
+
+      在Python 2.2 类型模块为此定义了StringTypes类型, 例如:
+{{{
+#!python
+        from types import StringTypes
+        if isinstance(obj, StringTypes):
+}}}
+
+
+      在Python 2.0和2.1,你应该这样做:
+{{{
+#!python
+        from types import StringType, UnicodeType
+        if isinstance(obj, StringType) or \
+           isinstance(obj, UnicodeType) :
+}}}
+
+
+    * 对序列,(字符串(strings),列表(lists),元组(tuples)),
+    使用空列表是false这个事实,因此"if not seq"或"if seq"比
+    "if len(seq)"或"if not len(seq)"好.
+
+
+
+    * 书写字符串文字时不要依赖于有意义的后置空格.
+    这种后置空格在视觉上是不可辨别的,并且有些编辑器(特别是近来,reindent.py)
+    会将它们修整掉.
+
+
+    * 不要用 == 来比较布尔型的值以确定是True或False(布尔型是Pythn 2.3中新增的)
+{{{
+        No:  if greeting == True:
+        Yes: if greeting:
+
+        No:  if greeting == True:
+        Yes: if greeting:
+}}}
+</t>
+<t tx="ZoomQuiet.20060113160325.2">@c
+== 一致性的建议 ==
+'''愚蠢得使用一致性是无知的妖怪(A Foolish Consistency is the Hobgoblin of Little Minds)'''
+{{{呆板的坚持一致性是傻的没边了!
+-- Zoomq}}}
+
+
+    在这篇风格指导中的一致性是重要的.
+    在一个项目内的一致性更重要.
+    在一个模块或函数内的一致性最重要.
+
+
+    但最重要的是:知道何时会不一致 -- 有时只是没有实施风格指导.当出现疑惑时,
+     运用你的最佳判断.看看别的例子,然后决定怎样看起来更好.并且要不耻下问!
+
+ * 打破一条既定规则的两个好理由:
+
+  1. 当应用这个规则是将导致代码可读性下降,即便对某人来说,他已经习惯于按这条规则来阅读代码了.
+  1. 为了和周围的代码保持一致而打破规则(也许是历史原因)
+     * -- 虽然这也是个清除其它混乱的好机会(真正的XP风格).
+
+
+</t>
+<t tx="ZoomQuiet.20060113160325.3">@c
+== 代码的布局 ==
+(Code lay-out)
+=== 缩进 ===
+(Indentation)
+
+
+    使用Emacs的Python-mode的默认值:4个空格一个缩进层次.
+    对于确实古老的代码,你不希望产生混乱,可以继续使用8空格的制表符(8-space tabs).
+    Emacs Python-mode自动发现文件中主要的缩进层次,依此设定缩进参数.
+
+=== 制表符还是空格? ===
+(Tabs or Spaces)
+
+
+    永远不要混用制表符和空格. 最流行的Python缩进方式是仅使用空格,
+    其次是仅使用制表符.混合着制表符和空格缩进的代码将被转换成仅使用空格.
+    (在Emacs中,选中整个缓冲区,按ESC-x去除制表符(untabify).)
+    调用python命令行解释器时使用-t选项,可对代码中不合法得混合制表符和空格发出警告(warnings).
+    使用-tt时警告(warnings)将变成错误(errors).这些选项是被高度推荐的.
+
+
+
+    对于新的项目,强烈推荐仅使用空格(spaces-only)而不是制表符.
+    许多编辑器拥有使之易于实现的功能.(在Emacs中,确认indent-tabs-mode是nil).
+
+=== 行的最大长度 ===
+(Maximum Line Length)
+
+
+    周围仍然有许多设备被限制在每行80字符;而且,窗口限制在80个字符
+    使将多个窗口并排放置成为可能.在这些设备上使用默认的折叠(wrapping)方式看起来有点丑陋.
+    因此,请将所有行限制在最大79字符(Emacs准确得将行限制为长80字符),
+    对顺序排放的大块文本(文档字符串或注释),推荐将长度限制在72字符.
+
+
+
+    折叠长行的首选方法是使用Pyhon支持的圆括号,方括号(brackets)和花括号(braces)内的行延续.
+    如果需要,你可以在表达式周围增加一对额外的圆括号,
+    但是有时使用反斜杠看起来更好.确认恰当得缩进了延续的行.
+    Emacs的Python-mode正确得完成了这些.一些例子:
+{{{
+#!python
+    class Rectangle(Blob):
+
+        def __init__(self, width, height,
+                     color='black', emphasis=None, highlight=0):
+            if width == 0 and height == 0 and \
+               color == 'red' and emphasis == 'strong' or \
+               highlight &gt; 100:
+                raise ValueError, "sorry, you lose"
+            if width == 0 and height == 0 and (color == 'red' or
+                                               emphasis is None):
+                raise ValueError, "I don't think so"
+            Blob.__init__(self, width, height,
+                          color, emphasis, highlight)
+}}}
+=== 空行 ===
+(Blank Lines) 
+
+
+    用两行空行分割顶层函数和类的定义,类内方法的定义用单个空行分割.
+    额外的空行可被用于(保守的(sparingly))分割相关函数组成的群(groups of related functions).
+    在一组相关的单句中间可以省略空行.(例如.一组哑元(a set of dummy
+    implementations)).
+
+
+
+    当空行用于分割方法(method)的定义时,在'class'行和第一个方法定义之间也要有一个空行.
+
+
+    在函数中使用空行时,请谨慎的用于表示一个逻辑段落(indicate logical sections).
+
+
+    Python接受contol-L(即^L)换页符作为空格;Emacs(和一些打印工具)
+    视这个字符为页面分割符,因此在你的文件中,可以用他们来为相关片段(sections)分页.
+
+=== 编码 ===
+(Encodings)[wiki:epes/pep-0263.html (PEP 263)]
+
+
+    Python核心发布中的代码必须始终使用ASCII或Latin-1编码(又名 ISO-8859-1).
+    使用ASCII的文件不必有译码cookie(coding cookie).
+    Latin-1仅当注释或文档字符串涉及作者名字需要Latin-1时才被使用;
+    另外使用\x转义字符是在字符串中包含非ASCII(non-ASCII)数据的首选方法.
+    作为PEP 263实现代码的测试套件的部分文件是个例外.
+
+{{{Python 2.4 以后内核支持 Unicode 了！
+不论什么情况使用 UTF-8 吧！这是王道！
+}}}--ZoomQuiet
+
+
+</t>
+<t tx="ZoomQuiet.20060113160325.4">@c
+
+== 导入 ==
+(Imports)
+
+ * 通常应该在单独的行中导入(Imports),例如:
+{{{
+        No:  import sys, os
+        Yes: import sys
+             import os
+}}}
+      但是这样也是可以的:
+{{{
+        from types import StringType, ListType
+}}}
+
+ * Imports 通常被放置在文件的顶部,仅在模块注释和文档字符串之后,在模块的全局变量和常量之前.Imports应该有顺序地成组安放.
+
+  1. 标准库的导入(Imports )
+  1. 相关的主包(major package)的导入(即,所有的email包在随后导入)
+  1. 特定应用的导入(imports)
+
+ * 你应该在每组导入之间放置一个空行.
+ * 对于内部包的导入是不推荐使用相对导入的.对所有导入都要使用包的绝对路径.
+ * 从一个包含类的模块中导入类时,通常可以写成这样:
+{{{
+        from MyClass import MyClass
+        from foo.bar.YourClass import YourClass
+}}}
+      如果这样写导致了本地名字冲突,那么就这样写
+{{{
+        import MyClass
+       import foo.bar.YourClass
+}}}
+ * 即使用{{{"MyClass.MyClass"}}}和{{{"foo.bar.YourClass.YourClass"}}}</t>
+<t tx="ZoomQuiet.20060113160325.5">@c
+== 空格 ==
+(Whitespace in Expressions and Statements)
+
+    Guido不喜欢在以下地方出现空格:
+
+  {{{"spam( ham[ 1 ], { eggs: 2 } )".  Always write this as}}}
+  {{{"spam(ham[1], {eggs: 2})".}}}
+
+    * 紧挨着圆括号,方括号和花括号的,如:{{{"spam( ham[ 1 ], { eggs: 2 } )".}}}
+  要始终将它写成{{{"spam(ham[1], {eggs: 2})".}}}
+
+  {{{"if x == 4 : print x , y ; x , y = y , x".}}}  Always write this as
+  {{{"if x == 4: print x, y; x, y = y, x".}}}
+
+    * 紧贴在逗号,分号或冒号前的,如:
+  {{{"if x == 4 : print x , y ; x , y = y , x".}}}  要始终将它写成
+  {{{"if x == 4: print x, y; x, y = y, x".}}}
+
+    * 紧贴着函数调用的参数列表前开式括号(open parenthesis )的,如{{{"spam (1)"}}}.要始终将它写成{{{"spam(1)"}}}.
+
+  {{{slicing, as in: "dict ['key'] = list [index]".}}}  Always
+  write this as {{{"dict['key'] = list[index]".}}}
+
+    *紧贴在索引或切片(slicing?下标?)开始的开式括号前的,如:
+  {{{"dict ['key'] = list [index]".要始终将它写成"dict['key'] = list[index]".}}}
+
+    * 在赋值(或其它)运算符周围的用于和其它并排的一个以上的空格,如:
+{{{
+#!python
+          x             = 1
+          y             = 2
+          long_variable = 3
+}}}
+      要始终将它写成
+{{{
+#!python
+         x = 1
+         y = 2
+         long_variable = 3
+}}}
+
+    (不要对以上任意一条和他争论 --- Guido 养成这样的风格超过20年了.)
+
+=== 其它建议 ===
+(Other Recommendations)
+
+ * 始终在这些二元运算符两边放置一个空格:赋值(=), 比较(==, &lt;, &gt;, !=, &lt;&gt;, &lt;=,&gt;=, in, not in, is, is not), 布尔运算 (and, or, not).
+
+
+* 按你的看法在算术运算符周围插入空格. 始终保持二元运算符两边空格的一致.
+ * 一些例子:
+{{{
+#!python
+          i = i+1
+          submitted = submitted + 1
+          x = x*2 - 1
+          hypot2 = x*x + y*y
+          c = (a+b) * (a-b)
+          c = (a + b) * (a - b)
+}}}
+    * 不要在用于指定关键字参数或默认参数值的'='号周围使用空格,例如:
+{{{
+#!python
+          def complex(real, imag=0.0):
+              return magic(r=real, i=imag)
+}}}
+    * 不要将多条语句写在同一行上.
+{{{
+          No:  if foo == 'blah': do_blah_thing()
+          Yes: if foo == 'blah':
+                   do_blah_thing()
+
+          No:  do_one(); do_two(); do_three()
+          Yes: do_one()
+               do_two()
+               do_three()
+}}}</t>
+<t tx="ZoomQuiet.20060113160325.6">@c
+
+== 注释 ==
+(Comments)
+
+
+    同代码不一致的注释比没注释更差.当代码修改时,始终优先更新注释!
+
+
+
+    注释应该是完整的句子. 如果注释是一个短语或句子,首字母应该大写,
+    除非他是一个以小写字母开头的标识符(永远不要修改标识符的大小写).
+
+
+
+    如果注释很短,最好省略末尾的句号(period?结尾句末的停顿?也可以是逗号吧,)
+    注释块通常由一个或多个由完整句子构成的段落组成,每个句子应该以句号结尾.
+
+
+
+    你应该在句末,句号后使用两个空格,以便使Emacs的断行和填充工作协调一致
+    (译按:应该说是使这两种功能正常工作,".  "给出了文档结构的提示).
+
+
+    用英语书写时,断词和空格是可用的.
+
+
+    非英语国家的Python程序员:请用英语书写你的注释,除非你120%的确信
+    这些代码不会被不懂你的语言的人阅读.
+
+{{{我就是坚持全部使用中文来注释，真正要发布脚本工具时，再想E文的；
+开发时每一瞬间都要用在思量中，坚决不用在E文语法，单词的回忆中！
+}}}-- ZoomQUiet
+=== 注释块 ===
+(Block Comments)
+
+    注释块通常应用于跟随着一些(或者全部)代码并和这些代码有着相同的缩进层次.
+    注释块中每行以'#'和一个空格开始(除非他是注释内的缩进文本).
+    注释块内的段落以仅含单个'#'的行分割.
+    注释块上下方最好有一空行包围(或上方两行下方一行,对一个新函数定义段的注释).
+
+=== 行内注释 ===
+(Inline Comments)
+ * (inline?内联?翻成"行内"比较好吧)
+
+
+    一个行内注释是和语句在同一行的注释.行内注释应该谨慎适用.
+    行内注释应该至少用两个空格和语句分开.
+    它们应该以'#'和单个空格开始.
+
+{{{
+        x = x+1                 # Increment x
+}}}
+    如果语意是很明了的,那么行内注释是不必要的,事实上是应该被去掉的.
+    不要这样写:
+{{{
+        x = x+1                 # Increment x
+}}}
+{{{
+        x = x+1                 # Compensate for border
+}}}
+    但是有时,这样是有益的:
+{{{
+        x = x+1                 # Compensate for border
+}}}
+
+</t>
+<t tx="ZoomQuiet.20060113160325.7">@c
+== 文档化 ==
+(Documentation Strings)
+
+    Conventions for writing good documentation strings
+    (a.k.a. "docstrings") are immortalized in 
+	[wiki:epes/pep-0257.htm PEP 257].
+
+    应该一直遵守编写好的文档字符串(又名"docstrings")的约定(?实在不知道怎么译)
+{{{Documentation Strings-- 文档化字符 ;
+为配合 pydoc;epydoc,Doxygen等等文档化工具的使用,类似于MoinMoin 语法,约定一些字符,
+以便自动提取转化为有意义的文档章节等等文章元素!
+-- Zoomq}}}
+
+
+    * 为所有公共模块,函数,类和方法编写文档字符串.文档字符串对非公开的方法不是必要的,但你应该有一个描述这个方法做什么的注释.这个注释应该在"def"这行后.
+
+
+    * [wiki:epes/pep-0257.htm PEP 257] 描述了好的文档字符串的约定.一定注意,多行文档字符串结尾的"""
+    应该单独成行,例如:
+{{{
+      """Return a foobang
+
+      Optional plotz says to frobnicate the bizbaz first.
+      """
+}}}
+
+    * 对单行的文档字符串,结尾的"""在同一行也可以.
+
+{{{实际上Python 自个儿就使用文档化编码维护着所有内置对象的使用说明\
+不信的话常试:
+	#python
+&gt;&gt;&gt; import time
+&gt;&gt;&gt; dir(time)
+['__doc__', '__file__', '__name__', 'accept2dyear', 'altzone', 'asctime', 'clock', 'ctime', 'daylight', 'gmtime', 'localtime', 'mktime', 'sleep', 'strftime', 'strptime', 'struct_time', 'time', 'timezone', 'tzname', 'tzset']
+&gt;&gt;&gt; help(time.time)
+Help on built-in function time in module time:
+
+time(...)
+    time() -&gt; floating point number
+
+    Return the current time in seconds since the Epoch.
+    Fractions of a second may be present if the system clock provides them.
+
+}}}</t>
+<t tx="ZoomQuiet.20060113160325.8">@c
+== 版本注记 ==
+(Version Bookkeeping)
+(我觉得叫"注记"更好)
+
+
+    如果你要将RCS或CVS的杂项(crud)包含在你的源文件中,按如下做.
+{{{
+#!python
+        __version__ = "$Revision: 1.4 $"
+        # $Source: E:/cvsroot/python_doc/pep8.txt,v $
+}}}
+
+
+    这个行应该包含在模块的文档字符串之后,所有代码之前,上下用一个空行分割.
+
+{{{对于CVS的服务器工作标记更应该在代码段中明确出它的使用
+如：在文档的最开始的版权声明后应加入如下版本标记：
+# 文件：$id$
+# 版本： $Revision$
+这样的标记在提交给配置管理服务器后，会自动适配成为相应的字符串，如：
+# 文件：$Id: ZqsPyBlosxom.leo 2102 2007-06-16 05:17:26Z zoomq $
+# 版本： $Revision: 1.4 $
+----HD
+}}}
+
+</t>
+<t tx="ZoomQuiet.20060113160325.9">@c
+== 命名约定 ==
+(Naming Conventions)
+
+
+    Python库的命名约定有点混乱,所以我们将永远不能使之变得完全一致---
+    不过还是有公认的命名规范的.
+    新的模块和包(包括第三方的框架)必须符合这些标准,但对已有的库存在不同风格的,
+    保持内部的一致性是首选的.
+
+=== 描述:命名风格 ===
+(Descriptive: Naming Styles)
+
+
+    有许多不同的命名风格.以下的有助于辨认正在使用的命名风格,独立于它们的作用.
+
+    以下的命名风格是众所周知的:
+
+    * b (单个小写字母)
+    * B (单个大写字母)
+    * 小写串 如:getname
+    * 带下划的小写串 如:_getname
+    * 大写串 如:GETNAME
+    * 带下划的大写串 如:_GETNAME
+    * CapitalizedWords(首字母大写单词串) (或 CapWords, CamelCase --
+    这样命名是由于它的字母错落有致的样子而来的.
+     这有时也被当作StudlyCaps. 如:GetName
+    * mixedCase (混合大小写串)(与首字母大写串不同之处在于第一个字符是小写如:getName)
+    * Capitalized_Words_With_Underscores(带下划线的首字母大写串) (丑陋!)
+
+
+
+    还有一种使用特别前缀的风格，用于将相关的名字分成组.这在Python中不常用,
+    但是出于完整性要提一下.例如,os.stat()函数返回一个tuple,
+    他的元素传统上有象st_mode, st_size, st_mtime等等这样的名字.
+    X11库的所有公开函数以X开头.(在Python中,这个风格通常认为是不必要的,
+    因为属性和方法名以对象作前缀,而函数名以模块名作前缀.)
+
+
+
+    另外,以下用下划线作前导或结尾的特殊形式是被公认的(这些通常可以和任何习惯组合(使用?)):
+
+
+
+    * _single_leading_underscore(以一个下划线作前导): 弱的"内部使用(internal use)"标志.
+	 * (例如,"from M import *"不会导入以下划线开头的对象).
+    * single_trailing_underscore_(以一个下划线结尾): 用于避免与Python关键词的冲突,例如.
+	 * "Tkinter.Toplevel(master, class_='ClassName')".
+    * {{{__double_leading_underscore}}}(双下划线): 从Python 1.4起为类私有名.
+
+
+    * {{{__double_leading_and_trailing_underscore__}}}: 特殊的(magic)
+    对象或属性,存在于用户控制的(user-controlled)名字空间,
+    例如:{{{__init__}}}, {{{__import__}}} 或 {{{__file__}}}. 有时它们被用户定义,
+    用于触发某个特殊行为(magic behavior)(例如:运算符重载);
+    有时被构造器(infrastructure)插入,以便自己使用或为了调试.
+    因此,在未来的版本中,构造器(松散得定义为Python解释器和标准库)
+    可能打算建立自己的魔法属性列表,用户代码通常应该限制将这种约定作为己用.
+    欲成为构造器的一部分的用户代码可以在下滑线中结合使用短前缀,例如.
+    {{{__bobo_magic_attr__}}}.
+
+=== 说明:命名约定 ===
+(Prescriptive: Naming Conventions)
+==== 应避免的名字 ====
+(Names to Avoid)
+
+      永远不要用字符`l'(小写字母el(就是读音,下同)),
+      `O'(大写字母oh),或`I'(大写字母eye)作为单字符的变量名.
+      在某些字体中,这些字符不能与数字1和0分开.当想要使用'l'时，用'L'代替它.
+
+==== 模块名 ====
+(Module Names)
+
+      模块应该是不含下划线的,简短的,小写的名字.
+
+
+      因为模块名被映射到文件名, 有些文件系统大小写不敏感并且截短长名字,
+      模块名被选为相当短是重要的---这在Unix上不是问题, 但当代码传到Mac
+      或Windows上就可能是个问题了.
+
+
+      当一个用C或C++写的扩展模块有一个伴随的Python模块,这个Python模块提供了
+       一个更高层(例如，更面向对象)的接口时,C/C++模块有一个前导下划线(如：_socket)
+
+
+      Python包应该是不含下划线的,简短的,全小写的名字.
+
+==== 类名 ====
+(Class Names)
+
+      几乎没有例外，类名总是使用首字母大写单词串(CapWords)的约定.
+
+==== 异常名 ====
+(Exception Names)
+
+      如果模块对所有情况定义了单个异常,它通常被叫做"error"或"Error".
+      似乎内建(扩展)的模块使用"error"(例如:os.error),
+      而Python模块通常用"Error" (例如: xdrlib.Error).
+      趋势似乎是倾向使用CapWords异常名.
+
+==== 全局变量名 ====
+(Global Variable Names)
+
+      (让我们希望这些变量打算只被用于模块内部)
+      这些约定与那些用于函数的约定差不多.被设计可以通过"from M import *"来使用的
+       那些模块,应该在那些不想被导入的全局变量(还有内部函数和类)前加一个下划线).
+
+==== 函数名 ====
+(Function Names)
+
+      函数名应该为小写,可能用下划线风格单词以增加可读性.
+      mixedCase仅被允许用于这种风格已经占优势的上下文(如: threading.py)
+      以便保持向后兼容.
+
+==== 方法名和实例变量 ====
+(Method Names and Instance Variables)
+
+
+      这段大体上和函数相同:通常使用小写单词,必要时用下划线分隔增加可读性.
+
+
+
+      使用一个前导下划线仅用于不打算作为类的公共接口的内部方法和实例变量.
+      Python不强制要求这样; 它取决于程序员是否遵守这个约定.
+
+
+
+      使用两个前导下划线以表示类私有的名字. Python将这些名字和类名连接在一起:
+      如果类Foo有一个属性名为 {{{__a}}}, 它不能以{{{Foo.__a}}}访问.
+      (执著的用户(An insistent user)还是可以通过{{{Foo._Foo__a}}}得到访问权.)
+      通常,双前导下划线应该只用来避免与类(为可以子类化所设计)中的属性发生名字冲突.
+
+==== 继承的设计 ====
+(Designing for inheritance)
+
+      始终要确定一个类中的方法和实例变量是否要被公开.
+      通常,永远不要将数据变量公开,除非你实现的本质上只是记录.
+      人们总是更喜欢给类提供一个函数的接口作为替换
+      (Python 2.2 的一些开发者在这点上做得非常漂亮).
+
+
+
+      同样,确定你的属性是否应为私有的.私有与非公有的区别在于:
+      前者永远不会被用在一个派生类中,而后者可能会.
+      是的,你应该在大脑中就用继承设计好了你的类.
+
+
+      私有属性必须有两个前导下划线,无后置下划线.
+
+
+      非公有属性必须有一个前导下划线,无后置下划线.
+
+
+
+      公共属性没有前导和后置下划线,除非它们与保留字冲突,
+      在此情况下,单个后置下划线比前置或混乱的拼写要好,
+      例如:class_优于klass.
+      最后一点有些争议; 如果相比class_你更喜欢klass,那么这只是一致性问题.
+
+</t>
+<t tx="ZoomQuiet.20060113160524.1">------------------------------
+CPUG·Zoom.Quiet 
+(动力源自:**[txt2tags http://txt2tags.sf.net]**)
+ - 文档源文本 [index.t2t http://10.88.15.200/index.t2t]
+
+% leo: 编辑
+% t2t 输出命令
+% t2t index.t2t
+% t2t -t html --toc --style=css/moin.css --css-inside --encoding=utf-8 PMsamba.t2t
+% t2t -t moin --toc  --encoding=utf-8 PMsamba.t2t
+
+
+</t>
+<t tx="ZoomQuiet.20060113173817">&lt;&lt; t2t declarations &gt;&gt;
+
+@others
+</t>
+<t tx="ZoomQuiet.20060113173817.1">PREFORMATTER_ID = 'txt2tags'
+FILE_EXT = 't2t'
+__version__ = '$Id: ZqsPyBlosxom.leo 2102 2007-06-16 05:17:26Z zoomq $'
+__author__ = 'Zoom.Quiet &lt;Zoom dot Quiet  at gmail.com&gt;'
+#T2T = "/usr/local/bin/txt2tags"
+T2T = "t2t"
+
+</t>
+<t tx="ZoomQuiet.20060113173817.2">def cb_entryparser(args):
+    args['t2t'] = parse
+    #args[FILE_EXT] = readfile
+    return args
+
+
+</t>
+<t tx="ZoomQuiet.20060113173817.3">"""
+def parse(filename):
+    #html = publish_string(story, writer_name='html')
+    import os
+    act = T2T+" -t html -H --toc %s"%filename
+    html = act
+    html += os.popen(act).read().strip()
+    #return html[html.find('&lt;body&gt;') + 6:html.find('&lt;/body&gt;')]
+    return html
+"""
+#def parse(filename, request):
+def parse(filename):
+    import os, sys
+    from StringIO import StringIO
+    # open own source
+    #config = request.getConfiguration()
+    act = T2T+" -t html -H --toc -o - %s"%filename
+    #source = open(filename).read()
+    #out = StringIO()
+    
+    #html = os.popen(act).read().strip()
+    print act
+    #print os.popen(act).read().strip()
+    # write colorized version to "python.html"
+    #Parser(source, out).format(None, None)
+    
+    #print out.getvalue()
+    """
+    entryData = {'body' : out.getvalue(),
+                 'title' : filename.replace(config['datadir'], '')}
+    return entryData
+    """
+
+</t>
+<t tx="ZoomQuiet.20060113174117">
+parse("py-code-rule.t2t")
+</t>
+<t tx="ZoomQuiet.20060113175338"># -*- coding: utf-8 -*-
+&lt;&lt; t2t declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+PREFORMATTER_ID = 'txt2tags'
+FILE_EXT = 't2t'
+__version__ = '$Id: ZqsPyBlosxom.leo 2102 2007-06-16 05:17:26Z zoomq $'
+__author__ = 'Zoom.Quiet &lt;Zoom dot Quiet  at gmail.com&gt;'
+T2T = "/usr/local/bin/txt2tags"
+
+from Pyblosxom import tools
+@others
+</t>
+<t tx="ZoomQuiet.20060113175338.1">"""
+A reStructuredText entry formatter for pyblosxom.  reStructuredText is 
+part of the docutils project (http://docutils.sourceforge.net/).  To 
+use, you need a *recent* version of docutils.  A development snapshot 
+(http://docutils.sourceforge.net/#development-snapshots) will work fine.  
+
+Install docutils, copy this file to your pyblosxom Pyblosxom/plugins
+directory, and you're ready to go.  Files with a .rst extension will be
+marked up as reStructuredText. 
+
+You can configure this as your default preformatter for .t2t files by
+configuring it in your config file as follows::
+
+    py['parser'] = 'txt2tags'
+
+or in your blosxom .txt file entries, place a '#parser txt2tags' line after the
+title of your blog::
+
+    My Little Blog Entry
+    #parser txt2tags
+    My main story...
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2003, 2004, 2005 Sean Bowman
+"""
+
+
+
+</t>
+<t tx="ZoomQuiet.20060113175338.2">def cb_entryparser(args):
+    args['t2t'] = parse
+    #args[FILE_EXT] = readfile
+    return args
+
+
+</t>
+<t tx="ZoomQuiet.20060113175338.3">def parse(filename, request):
+    import os, sys    
+    config = request.getConfiguration()
+
+    act = T2T+" -t html --toc -o - %s"%filename
+
+    html = os.popen(act).read().strip()
+    #html += act
+    print act
+
+    entryData = {'body' : html,
+                 'title' : filename.replace(config['datadir'], '')}
+    return entryData
+
+
+
+</t>
+<t tx="ZoomQuiet.20060113182325">Python开发编码规范
+
+= Python开发编码规范 =
+
+{{{
+  --- hoxide 初译 dreamingk 校对发布 040724
+  --- xyb 重新排版 040915
+  --- ZoomQuiet MoinMoin 美化 050610
+}}}
+'''用Python进行开发时的编码风格约定'''
+原文:'''[wiki:epes/pep-0008.html 	PEP 008]'''
+《Style Guide for Python Code》
+
+&lt;&lt;介绍&gt;&gt;
+&lt;&lt;Foolish&gt;&gt;
+&lt;&lt;布局&gt;&gt;
+&lt;&lt;导入&gt;&gt;
+&lt;&lt;空格&gt;&gt;
+&lt;&lt;注释&gt;&gt;
+&lt;&lt;文档化&gt;&gt;
+&lt;&lt;版本注记&gt;&gt;
+&lt;&lt;命名约定&gt;&gt;
+&lt;&lt;设计建议&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060113182325.1">
+== 介绍 ==
+
+    这篇文档所给出的编码约定适用于在主要的Python发布版本中组成标准库的Python
+    代码.请查阅相关的关于在Python的C实现中C代码风格指南的描述.
+
+    这篇文档改编自Guido最初的《Python风格指南》一文.
+    并从《Barry's style guide》中添加了部分内容.
+    在有冲突的地方，Guide的风格规则应该是符合本PEP的意图
+    (译注：就是当有冲突时，应以Guido风格为准)
+    这篇PEP也许仍然尚未完成(实际上，它可能永远不会结束).
+</t>
+<t tx="ZoomQuiet.20060113182325.10">
+== 设计建议 ==
+(Programming Recommendations)
+
+
+    * 同象None之类的单值进行比较,应该永远用:'is'或'is not'来做.
+    当你本意是"if x is not None"时,对写成"if x"要小心 --
+    例如当你测试一个默认为None的变量或参数是否被设置为其它值时.
+    这个其它值可能是一个在布尔上下文中为假的值!
+
+
+
+    * 基于类的异常总是好过基于字符串的异常.
+    模块和包应该定义它们自己的域内特定的基异常类(base exception class),
+    基类应该是内建的Exception类的子类.
+    还始终包含一个类的文档字符串.例如:
+{{{
+#!python
+        class MessageError(Exception):
+            """Base class for errors in the email package."""
+}}}
+
+
+
+    * 使用字符串方法(methods)代替字符串模块,除非必须向后兼容Python 2.0以前的版本.
+    字符串方法总是非常快,而且和unicode字符串共用同样的API(应用程序接口)
+
+
+
+    * 在检查前缀或后缀时避免对字符串进行切片.
+
+    用startswith()和endswith()代替, 因为它们是明确的并且错误更少.
+    例如:
+{{{
+        No:  if foo[:3] == 'bar':
+        Yes: if foo.startswith('bar'):
+}}}
+
+
+      例外是如果你的代码必须工作在Python 1.5.2 (但是我们希望它不会发生!).
+    * 对象类型的比较应该始终用isinstance()代替直接比较类型.例如:
+{{{
+        No:  if type(obj) is type(1):
+        Yes: if isinstance(obj, int):
+}}}
+
+      检查一个对象是否是字符串时,紧记它也可能是unicode字符串!
+      在Python 2.3, str和unicode有公共的基类,basestring,所以你可以这样做:
+{{{
+#!python
+        if isinstance(obj, basestring):
+}}}
+
+      在Python 2.2 类型模块为此定义了StringTypes类型, 例如:
+{{{
+#!python
+        from types import StringTypes
+        if isinstance(obj, StringTypes):
+}}}
+
+
+      在Python 2.0和2.1,你应该这样做:
+{{{
+#!python
+        from types import StringType, UnicodeType
+        if isinstance(obj, StringType) or \
+           isinstance(obj, UnicodeType) :
+}}}
+
+
+    * 对序列,(字符串(strings),列表(lists),元组(tuples)),
+    使用空列表是false这个事实,因此"if not seq"或"if seq"比
+    "if len(seq)"或"if not len(seq)"好.
+
+
+
+    * 书写字符串文字时不要依赖于有意义的后置空格.
+    这种后置空格在视觉上是不可辨别的,并且有些编辑器(特别是近来,reindent.py)
+    会将它们修整掉.
+
+
+    * 不要用 == 来比较布尔型的值以确定是True或False(布尔型是Pythn 2.3中新增的)
+{{{
+        No:  if greeting == True:
+        Yes: if greeting:
+
+        No:  if greeting == True:
+        Yes: if greeting:
+}}}
+</t>
+<t tx="ZoomQuiet.20060113182325.2">
+== 一致性的建议 ==
+'''愚蠢得使用一致性是无知的妖怪(A Foolish Consistency is the Hobgoblin of Little Minds)'''
+{{{呆板的坚持一致性是傻的没边了!
+-- Zoomq}}}
+
+
+    在这篇风格指导中的一致性是重要的.
+    在一个项目内的一致性更重要.
+    在一个模块或函数内的一致性最重要.
+
+
+    但最重要的是:知道何时会不一致 -- 有时只是没有实施风格指导.当出现疑惑时,
+     运用你的最佳判断.看看别的例子,然后决定怎样看起来更好.并且要不耻下问!
+
+ * 打破一条既定规则的两个好理由:
+
+  1. 当应用这个规则是将导致代码可读性下降,即便对某人来说,他已经习惯于按这条规则来阅读代码了.
+  1. 为了和周围的代码保持一致而打破规则(也许是历史原因)
+     * -- 虽然这也是个清除其它混乱的好机会(真正的XP风格).
+
+
+</t>
+<t tx="ZoomQuiet.20060113182325.3">
+== 代码的布局 ==
+(Code lay-out)
+=== 缩进 ===
+(Indentation)
+
+
+    使用Emacs的Python-mode的默认值:4个空格一个缩进层次.
+    对于确实古老的代码,你不希望产生混乱,可以继续使用8空格的制表符(8-space tabs).
+    Emacs Python-mode自动发现文件中主要的缩进层次,依此设定缩进参数.
+
+=== 制表符还是空格? ===
+(Tabs or Spaces)
+
+
+    永远不要混用制表符和空格. 最流行的Python缩进方式是仅使用空格,
+    其次是仅使用制表符.混合着制表符和空格缩进的代码将被转换成仅使用空格.
+    (在Emacs中,选中整个缓冲区,按ESC-x去除制表符(untabify).)
+    调用python命令行解释器时使用-t选项,可对代码中不合法得混合制表符和空格发出警告(warnings).
+    使用-tt时警告(warnings)将变成错误(errors).这些选项是被高度推荐的.
+
+
+
+    对于新的项目,强烈推荐仅使用空格(spaces-only)而不是制表符.
+    许多编辑器拥有使之易于实现的功能.(在Emacs中,确认indent-tabs-mode是nil).
+
+=== 行的最大长度 ===
+(Maximum Line Length)
+
+
+    周围仍然有许多设备被限制在每行80字符;而且,窗口限制在80个字符
+    使将多个窗口并排放置成为可能.在这些设备上使用默认的折叠(wrapping)方式看起来有点丑陋.
+    因此,请将所有行限制在最大79字符(Emacs准确得将行限制为长80字符),
+    对顺序排放的大块文本(文档字符串或注释),推荐将长度限制在72字符.
+
+
+
+    折叠长行的首选方法是使用Pyhon支持的圆括号,方括号(brackets)和花括号(braces)内的行延续.
+    如果需要,你可以在表达式周围增加一对额外的圆括号,
+    但是有时使用反斜杠看起来更好.确认恰当得缩进了延续的行.
+    Emacs的Python-mode正确得完成了这些.一些例子:
+{{{
+#!python
+    class Rectangle(Blob):
+
+        def __init__(self, width, height,
+                     color='black', emphasis=None, highlight=0):
+            if width == 0 and height == 0 and \
+               color == 'red' and emphasis == 'strong' or \
+               highlight &gt; 100:
+                raise ValueError, "sorry, you lose"
+            if width == 0 and height == 0 and (color == 'red' or
+                                               emphasis is None):
+                raise ValueError, "I don't think so"
+            Blob.__init__(self, width, height,
+                          color, emphasis, highlight)
+}}}
+=== 空行 ===
+(Blank Lines) 
+
+
+    用两行空行分割顶层函数和类的定义,类内方法的定义用单个空行分割.
+    额外的空行可被用于(保守的(sparingly))分割相关函数组成的群(groups of related functions).
+    在一组相关的单句中间可以省略空行.(例如.一组哑元(a set of dummy
+    implementations)).
+
+
+
+    当空行用于分割方法(method)的定义时,在'class'行和第一个方法定义之间也要有一个空行.
+
+
+    在函数中使用空行时,请谨慎的用于表示一个逻辑段落(indicate logical sections).
+
+
+    Python接受contol-L(即^L)换页符作为空格;Emacs(和一些打印工具)
+    视这个字符为页面分割符,因此在你的文件中,可以用他们来为相关片段(sections)分页.
+
+=== 编码 ===
+(Encodings)[wiki:epes/pep-0263.html (PEP 263)]
+
+
+    Python核心发布中的代码必须始终使用ASCII或Latin-1编码(又名 ISO-8859-1).
+    使用ASCII的文件不必有译码cookie(coding cookie).
+    Latin-1仅当注释或文档字符串涉及作者名字需要Latin-1时才被使用;
+    另外使用\x转义字符是在字符串中包含非ASCII(non-ASCII)数据的首选方法.
+    作为PEP 263实现代码的测试套件的部分文件是个例外.
+
+{{{Python 2.4 以后内核支持 Unicode 了！
+不论什么情况使用 UTF-8 吧！这是王道！
+}}}--ZoomQuiet
+
+
+</t>
+<t tx="ZoomQuiet.20060113182325.4">
+
+== 导入 ==
+(Imports)
+
+ * 通常应该在单独的行中导入(Imports),例如:
+{{{
+        No:  import sys, os
+        Yes: import sys
+             import os
+}}}
+      但是这样也是可以的:
+{{{
+        from types import StringType, ListType
+}}}
+
+ * Imports 通常被放置在文件的顶部,仅在模块注释和文档字符串之后,在模块的全局变量和常量之前.Imports应该有顺序地成组安放.
+
+  1. 标准库的导入(Imports )
+  1. 相关的主包(major package)的导入(即,所有的email包在随后导入)
+  1. 特定应用的导入(imports)
+
+ * 你应该在每组导入之间放置一个空行.
+ * 对于内部包的导入是不推荐使用相对导入的.对所有导入都要使用包的绝对路径.
+ * 从一个包含类的模块中导入类时,通常可以写成这样:
+{{{
+        from MyClass import MyClass
+        from foo.bar.YourClass import YourClass
+}}}
+      如果这样写导致了本地名字冲突,那么就这样写
+{{{
+        import MyClass
+       import foo.bar.YourClass
+}}}
+ * 即使用{{{"MyClass.MyClass"}}}和{{{"foo.bar.YourClass.YourClass"}}}</t>
+<t tx="ZoomQuiet.20060113182325.5">
+== 空格 ==
+(Whitespace in Expressions and Statements)
+
+    Guido不喜欢在以下地方出现空格:
+
+  {{{"spam( ham[ 1 ], { eggs: 2 } )".  Always write this as}}}
+  {{{"spam(ham[1], {eggs: 2})".}}}
+
+    * 紧挨着圆括号,方括号和花括号的,如:{{{"spam( ham[ 1 ], { eggs: 2 } )".}}}
+  要始终将它写成{{{"spam(ham[1], {eggs: 2})".}}}
+
+  {{{"if x == 4 : print x , y ; x , y = y , x".}}}  Always write this as
+  {{{"if x == 4: print x, y; x, y = y, x".}}}
+
+    * 紧贴在逗号,分号或冒号前的,如:
+  {{{"if x == 4 : print x , y ; x , y = y , x".}}}  要始终将它写成
+  {{{"if x == 4: print x, y; x, y = y, x".}}}
+
+    * 紧贴着函数调用的参数列表前开式括号(open parenthesis )的,如{{{"spam (1)"}}}.要始终将它写成{{{"spam(1)"}}}.
+
+  {{{slicing, as in: "dict ['key'] = list [index]".}}}  Always
+  write this as {{{"dict['key'] = list[index]".}}}
+
+    *紧贴在索引或切片(slicing?下标?)开始的开式括号前的,如:
+  {{{"dict ['key'] = list [index]".要始终将它写成"dict['key'] = list[index]".}}}
+
+    * 在赋值(或其它)运算符周围的用于和其它并排的一个以上的空格,如:
+{{{
+#!python
+          x             = 1
+          y             = 2
+          long_variable = 3
+}}}
+      要始终将它写成
+{{{
+#!python
+         x = 1
+         y = 2
+         long_variable = 3
+}}}
+
+    (不要对以上任意一条和他争论 --- Guido 养成这样的风格超过20年了.)
+
+=== 其它建议 ===
+(Other Recommendations)
+
+ * 始终在这些二元运算符两边放置一个空格:赋值(=), 比较(==, &lt;, &gt;, !=, &lt;&gt;, &lt;=,&gt;=, in, not in, is, is not), 布尔运算 (and, or, not).
+
+
+* 按你的看法在算术运算符周围插入空格. 始终保持二元运算符两边空格的一致.
+ * 一些例子:
+{{{
+#!python
+          i = i+1
+          submitted = submitted + 1
+          x = x*2 - 1
+          hypot2 = x*x + y*y
+          c = (a+b) * (a-b)
+          c = (a + b) * (a - b)
+}}}
+    * 不要在用于指定关键字参数或默认参数值的'='号周围使用空格,例如:
+{{{
+#!python
+          def complex(real, imag=0.0):
+              return magic(r=real, i=imag)
+}}}
+    * 不要将多条语句写在同一行上.
+{{{
+          No:  if foo == 'blah': do_blah_thing()
+          Yes: if foo == 'blah':
+                   do_blah_thing()
+
+          No:  do_one(); do_two(); do_three()
+          Yes: do_one()
+               do_two()
+               do_three()
+}}}</t>
+<t tx="ZoomQuiet.20060113182325.6">
+
+== 注释 ==
+(Comments)
+
+
+    同代码不一致的注释比没注释更差.当代码修改时,始终优先更新注释!
+
+
+
+    注释应该是完整的句子. 如果注释是一个短语或句子,首字母应该大写,
+    除非他是一个以小写字母开头的标识符(永远不要修改标识符的大小写).
+
+
+
+    如果注释很短,最好省略末尾的句号(period?结尾句末的停顿?也可以是逗号吧,)
+    注释块通常由一个或多个由完整句子构成的段落组成,每个句子应该以句号结尾.
+
+
+
+    你应该在句末,句号后使用两个空格,以便使Emacs的断行和填充工作协调一致
+    (译按:应该说是使这两种功能正常工作,".  "给出了文档结构的提示).
+
+
+    用英语书写时,断词和空格是可用的.
+
+
+    非英语国家的Python程序员:请用英语书写你的注释,除非你120%的确信
+    这些代码不会被不懂你的语言的人阅读.
+	
+{{{我就是坚持全部使用中文来注释，真正要发布脚本工具时，再想E文的；
+开发时每一瞬间都要用在思量中，坚决不用在E文语法，单词的回忆中！
+}}}-- ZoomQUiet
+=== 注释块 ===
+(Block Comments)
+
+    注释块通常应用于跟随着一些(或者全部)代码并和这些代码有着相同的缩进层次.
+    注释块中每行以'#'和一个空格开始(除非他是注释内的缩进文本).
+    注释块内的段落以仅含单个'#'的行分割.
+    注释块上下方最好有一空行包围(或上方两行下方一行,对一个新函数定义段的注释).
+
+=== 行内注释 ===
+(Inline Comments)
+ * (inline?内联?翻成"行内"比较好吧)
+
+
+    一个行内注释是和语句在同一行的注释.行内注释应该谨慎适用.
+    行内注释应该至少用两个空格和语句分开.
+    它们应该以'#'和单个空格开始.
+
+{{{
+        x = x+1                 # Increment x
+}}}
+    如果语意是很明了的,那么行内注释是不必要的,事实上是应该被去掉的.
+    不要这样写:
+{{{
+        x = x+1                 # Increment x
+}}}
+{{{
+        x = x+1                 # Compensate for border
+}}}
+    但是有时,这样是有益的:
+{{{
+        x = x+1                 # Compensate for border
+}}}
+
+</t>
+<t tx="ZoomQuiet.20060113182325.7">
+== 文档化 ==
+(Documentation Strings)
+
+    Conventions for writing good documentation strings
+    (a.k.a. "docstrings") are immortalized in 
+	[wiki:epes/pep-0257.htm PEP 257].
+
+    应该一直遵守编写好的文档字符串(又名"docstrings")的约定(?实在不知道怎么译)
+{{{Documentation Strings-- 文档化字符 ;
+为配合 pydoc;epydoc,Doxygen等等文档化工具的使用,类似于MoinMoin 语法,约定一些字符,
+以便自动提取转化为有意义的文档章节等等文章元素!
+-- Zoomq}}}
+
+
+    * 为所有公共模块,函数,类和方法编写文档字符串.文档字符串对非公开的方法不是必要的,但你应该有一个描述这个方法做什么的注释.这个注释应该在"def"这行后.
+
+
+    * [wiki:epes/pep-0257.htm PEP 257] 描述了好的文档字符串的约定.一定注意,多行文档字符串结尾的"""
+    应该单独成行,例如:
+{{{
+      """Return a foobang
+
+      Optional plotz says to frobnicate the bizbaz first.
+      """
+}}}
+
+    * 对单行的文档字符串,结尾的"""在同一行也可以.
+
+{{{实际上Python 自个儿就使用文档化编码维护着所有内置对象的使用说明\
+不信的话常试:
+	#python
+&gt;&gt;&gt; import time
+&gt;&gt;&gt; dir(time)
+['__doc__', '__file__', '__name__', 'accept2dyear', 'altzone', 'asctime', 'clock', 'ctime', 'daylight', 'gmtime', 'localtime', 'mktime', 'sleep', 'strftime', 'strptime', 'struct_time', 'time', 'timezone', 'tzname', 'tzset']
+&gt;&gt;&gt; help(time.time)
+Help on built-in function time in module time:
+
+time(...)
+    time() -&gt; floating point number
+
+    Return the current time in seconds since the Epoch.
+    Fractions of a second may be present if the system clock provides them.
+
+}}}</t>
+<t tx="ZoomQuiet.20060113182325.8">
+== 版本注记 ==
+(Version Bookkeeping)
+(我觉得叫"注记"更好)
+
+
+    如果你要将RCS或CVS的杂项(crud)包含在你的源文件中,按如下做.
+{{{
+#!python
+        __version__ = "$Revision: 1.4 $"
+        # $Source: E:/cvsroot/python_doc/pep8.txt,v $
+}}}
+
+
+    这个行应该包含在模块的文档字符串之后,所有代码之前,上下用一个空行分割.
+
+{{{对于CVS的服务器工作标记更应该在代码段中明确出它的使用
+如：在文档的最开始的版权声明后应加入如下版本标记：
+# 文件：$id$
+# 版本： $Revision$
+这样的标记在提交给配置管理服务器后，会自动适配成为相应的字符串，如：
+# 文件：$Id: ZqsPyBlosxom.leo 2102 2007-06-16 05:17:26Z zoomq $
+# 版本： $Revision: 1.4 $
+----HD
+}}}
+
+</t>
+<t tx="ZoomQuiet.20060113182325.9">
+== 命名约定 ==
+(Naming Conventions)
+
+
+    Python库的命名约定有点混乱,所以我们将永远不能使之变得完全一致---
+    不过还是有公认的命名规范的.
+    新的模块和包(包括第三方的框架)必须符合这些标准,但对已有的库存在不同风格的,
+    保持内部的一致性是首选的.
+
+=== 描述:命名风格 ===
+(Descriptive: Naming Styles)
+
+
+    有许多不同的命名风格.以下的有助于辨认正在使用的命名风格,独立于它们的作用.
+
+    以下的命名风格是众所周知的:
+
+    * b (单个小写字母)
+    * B (单个大写字母)
+    * 小写串 如:getname
+    * 带下划的小写串 如:_getname
+    * 大写串 如:GETNAME
+    * 带下划的大写串 如:_GETNAME
+    * CapitalizedWords(首字母大写单词串) (或 CapWords, CamelCase --
+    这样命名是由于它的字母错落有致的样子而来的.
+     这有时也被当作StudlyCaps. 如:GetName
+    * mixedCase (混合大小写串)(与首字母大写串不同之处在于第一个字符是小写如:getName)
+    * Capitalized_Words_With_Underscores(带下划线的首字母大写串) (丑陋!)
+
+
+
+    还有一种使用特别前缀的风格，用于将相关的名字分成组.这在Python中不常用,
+    但是出于完整性要提一下.例如,os.stat()函数返回一个tuple,
+    他的元素传统上有象st_mode, st_size, st_mtime等等这样的名字.
+    X11库的所有公开函数以X开头.(在Python中,这个风格通常认为是不必要的,
+    因为属性和方法名以对象作前缀,而函数名以模块名作前缀.)
+
+
+
+    另外,以下用下划线作前导或结尾的特殊形式是被公认的(这些通常可以和任何习惯组合(使用?)):
+
+
+
+    * _single_leading_underscore(以一个下划线作前导): 弱的"内部使用(internal use)"标志.
+	 * (例如,"from M import *"不会导入以下划线开头的对象).
+    * single_trailing_underscore_(以一个下划线结尾): 用于避免与Python关键词的冲突,例如.
+	 * "Tkinter.Toplevel(master, class_='ClassName')".
+    * {{{__double_leading_underscore}}}(双下划线): 从Python 1.4起为类私有名.
+
+
+    * {{{__double_leading_and_trailing_underscore__}}}: 特殊的(magic)
+    对象或属性,存在于用户控制的(user-controlled)名字空间,
+    例如:{{{__init__}}}, {{{__import__}}} 或 {{{__file__}}}. 有时它们被用户定义,
+    用于触发某个特殊行为(magic behavior)(例如:运算符重载);
+    有时被构造器(infrastructure)插入,以便自己使用或为了调试.
+    因此,在未来的版本中,构造器(松散得定义为Python解释器和标准库)
+    可能打算建立自己的魔法属性列表,用户代码通常应该限制将这种约定作为己用.
+    欲成为构造器的一部分的用户代码可以在下滑线中结合使用短前缀,例如.
+    {{{__bobo_magic_attr__}}}.
+
+=== 说明:命名约定 ===
+(Prescriptive: Naming Conventions)
+==== 应避免的名字 ====
+(Names to Avoid)
+
+      永远不要用字符`l'(小写字母el(就是读音,下同)),
+      `O'(大写字母oh),或`I'(大写字母eye)作为单字符的变量名.
+      在某些字体中,这些字符不能与数字1和0分开.当想要使用'l'时，用'L'代替它.
+
+==== 模块名 ====
+(Module Names)
+
+      模块应该是不含下划线的,简短的,小写的名字.
+
+
+      因为模块名被映射到文件名, 有些文件系统大小写不敏感并且截短长名字,
+      模块名被选为相当短是重要的---这在Unix上不是问题, 但当代码传到Mac
+      或Windows上就可能是个问题了.
+
+
+      当一个用C或C++写的扩展模块有一个伴随的Python模块,这个Python模块提供了
+       一个更高层(例如，更面向对象)的接口时,C/C++模块有一个前导下划线(如：_socket)
+
+
+      Python包应该是不含下划线的,简短的,全小写的名字.
+
+==== 类名 ====
+(Class Names)
+
+      几乎没有例外，类名总是使用首字母大写单词串(CapWords)的约定.
+
+==== 异常名 ====
+(Exception Names)
+
+      如果模块对所有情况定义了单个异常,它通常被叫做"error"或"Error".
+      似乎内建(扩展)的模块使用"error"(例如:os.error),
+      而Python模块通常用"Error" (例如: xdrlib.Error).
+      趋势似乎是倾向使用CapWords异常名.
+
+==== 全局变量名 ====
+(Global Variable Names)
+
+      (让我们希望这些变量打算只被用于模块内部)
+      这些约定与那些用于函数的约定差不多.被设计可以通过"from M import *"来使用的
+       那些模块,应该在那些不想被导入的全局变量(还有内部函数和类)前加一个下划线).
+
+==== 函数名 ====
+(Function Names)
+
+      函数名应该为小写,可能用下划线风格单词以增加可读性.
+      mixedCase仅被允许用于这种风格已经占优势的上下文(如: threading.py)
+      以便保持向后兼容.
+
+==== 方法名和实例变量 ====
+(Method Names and Instance Variables)
+
+
+      这段大体上和函数相同:通常使用小写单词,必要时用下划线分隔增加可读性.
+
+
+
+      使用一个前导下划线仅用于不打算作为类的公共接口的内部方法和实例变量.
+      Python不强制要求这样; 它取决于程序员是否遵守这个约定.
+
+
+
+      使用两个前导下划线以表示类私有的名字. Python将这些名字和类名连接在一起:
+      如果类Foo有一个属性名为 {{{__a}}}, 它不能以{{{Foo.__a}}}访问.
+      (执著的用户(An insistent user)还是可以通过{{{Foo._Foo__a}}}得到访问权.)
+      通常,双前导下划线应该只用来避免与类(为可以子类化所设计)中的属性发生名字冲突.
+
+==== 继承的设计 ====
+(Designing for inheritance)
+
+      始终要确定一个类中的方法和实例变量是否要被公开.
+      通常,永远不要将数据变量公开,除非你实现的本质上只是记录.
+      人们总是更喜欢给类提供一个函数的接口作为替换
+      (Python 2.2 的一些开发者在这点上做得非常漂亮).
+
+
+
+      同样,确定你的属性是否应为私有的.私有与非公有的区别在于:
+      前者永远不会被用在一个派生类中,而后者可能会.
+      是的,你应该在大脑中就用继承设计好了你的类.
+
+
+      私有属性必须有两个前导下划线,无后置下划线.
+
+
+      非公有属性必须有一个前导下划线,无后置下划线.
+
+
+
+      公共属性没有前导和后置下划线,除非它们与保留字冲突,
+      在此情况下,单个后置下划线比前置或混乱的拼写要好,
+      例如:class_优于klass.
+      最后一点有些争议; 如果相比class_你更喜欢klass,那么这只是一致性问题.
+
+</t>
+<t tx="ZoomQuiet.20060113182537"># -*- coding: utf-8 -*-
+&lt;&lt; moinmoin declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+@others
+</t>
+<t tx="ZoomQuiet.20060113182537.1"># vim: tabstop=4 shiftwidth=4 expandtab
+"""
+Preformatter and entryparser for the MoinMoin wiki software
+
+This preformatter/entryparser uses the services of MoinMoin
+http://moin.sourceforge.net/ which is an excellent open source WikiWiki system.
+
+Requirements:
+
+    - A working MoinMoin installation
+    - C{moin_config.py} at your sys path (not necessary though)
+
+You can configure this as your default preformatter by configuring it in your
+L{config} file as follows::
+
+    py['parser'] = 'wiki'
+
+or in your blosxom entries, place a C{#parser wiki} line after the title of
+your blog::
+
+    My Little Blog Entry
+    #parser wiki
+    This is a text in '''wiki''' format
+
+To use this as an entryparser, all you need to do is to name your files with a
+.wiki extension. For example a helloworld.wiki file could contain::
+
+    Hello World &lt;- The title
+    This is the ''wiki'' text :)
+
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004, 2005 Wari Wahab
+"""
+__author__ = 'Wari Wahab &lt;wari at wari dot per dot sg&gt;'
+__version__ = "$Id: ZqsPyBlosxom.leo 2102 2007-06-16 05:17:26Z zoomq $"
+PREFORMATTER_ID = 'wiki'
+
+from MoinMoin.parser.wiki import Parser
+from MoinMoin.formatter.text_html import Formatter
+from MoinMoin.request import Request
+from MoinMoin.Page import Page
+from MoinMoin.user import User
+from cStringIO import StringIO
+from Pyblosxom import tools
+import sys
+
+
+</t>
+<t tx="ZoomQuiet.20060113182537.2">def cb_preformat(args):
+    """
+    Preformat callback chain looks for this.
+
+    @param args: a dict with 'parser' string and a list 'story'
+    @type args: dict
+    """
+    if args['parser'] == PREFORMATTER_ID:
+        return parse(''.join(args['story']))
+</t>
+<t tx="ZoomQuiet.20060113182537.3">def cb_entryparser(args):
+    """
+    Entryparser chain callback - This plugins takes in a *.wiki file and treats
+    it like a normal blosxom entry file. Postformat callbacks are also called
+    from this entryparser.
+
+    @param args: dict containing function references for each extensions
+    @type args: dict
+    @returns: updated dict containing the reference for .wiki entryparser
+    @rtype: dict
+    """
+    args['wiki'] = readfile
+    return args
+</t>
+<t tx="ZoomQuiet.20060113182537.4">def readfile(filename, request):
+    """
+    Reads a file and passes it to L{parse} to format in moinmoin wiki
+
+    @param filename: the file in question
+    @param request: The request object
+    @type filename: string
+    @type request: L{Pyblosxom.pyblosxom.Request} object
+    @returns: Data of the entry
+    @rtype: dict
+    """
+    entryData = {}
+    d = open(filename).read()
+    entryData['title'] = d.split('\n')[0]
+    d = d[len(entryData['title']):] 
+    entryData['body'] = parse(d)
+    # Call the postformat callbacks
+    tools.run_callback('postformat',
+            {'request': request,
+             'entry_data': entryData})
+    return entryData
+</t>
+<t tx="ZoomQuiet.20060113182537.5">def parse(story):
+    """
+    The main workhorse that does nothing but call MoinMoin to do its dirty
+    laundry
+
+    @param story: A text for conversion
+    @type story: string
+    @returns: formatted string
+    @rtype: string
+    """
+    s = StringIO()
+    oldstdout = sys.stdout
+    form = None
+    page = Page(None)
+    page.hilite_re = None
+    request = Request()
+    request.user = User()
+    formatter = Formatter(request)
+    formatter.setPage(page)
+    sys.stdout = s
+    Parser(story, request).format(formatter, form)
+    sys.stdout = oldstdout
+    result = s.getvalue()
+    s.close()
+    return result
+</t>
+<t tx="ZoomQuiet.20060113183350.10">标点列表 Bullet Lists
+------------------------
+
+- 标点列表 A bullet list
+
+  + 嵌套标点列表 Nested bullet list.
+  + 嵌套标点列表项 2 Nested item 2.
+
+- 列表项 2 Item 2.
+
+  列表项 2 的内容段落 Paragraph 2 of item 2.
+
+  * 嵌套标点列表 Nested bullet list.
+  * 嵌套标点列表项 2 Nested item 2.
+
+    - 第三级 Third level.
+    - 列表项 2 Item 2.
+
+  * 嵌套标点列表项 3 Nested item 3.
+
+列举列表 Enumerated Lists
+--------------------------------
+
+1. 阿拉伯数字式 Arabic numerals.
+
+   a) 小写字母lower alpha)
+
+      (i) (小写罗马lower roman)
+
+          A. 大写字母upper alpha.
+
+             I) 大写罗马upper roman)
+
+2. 列表不从 1 开始 Lists that don't start at 1:
+
+   3. Three
+
+   4. Four
+
+   C. C
+
+   D. D
+
+   iii. iii
+
+   iv. iv
+
+定义式列表 Definition Lists
+--------------------------------
+
+Term
+    Definition
+Term : classifier
+    Definition paragraph 1.
+
+    Definition paragraph 2.
+Term
+    Definition
+
+字段列表 Field Lists
+----------------------
+
+:怎样what: 字段列表是一组字段名对应字段体,就象数据库的记录,
+       常常作为扩展语法的一部分,精确的叙述在: :RFC:`2822`
+       Field lists map field names to field bodies, like database
+       records.  They are often part of an extension syntax.  They are
+       an unambiguous variant of :RFC: 2822 fields.
+
+:多个参数how arg1 arg2:
+
+    字段标记是 冒号 字段名 冒号
+    The field marker is a colon, the field name, and a colon.
+
+    字段体可以包含其它文档元素
+    The field body may contain one or more Body Elements, indented
+    relative to the field marker.
+
+选项列表 Option Lists
+------------------------
+
+用以说明命令行选项 For listing command-line options:
+
+-a            命令行选项 "a"
+-b file       选项可以带参数 
+              和长的说明
+--long        选项也可以完整型
+--input=file  完整型选项也可带参数
+
+--very-long-option
+              说明也可以另起一行
+
+              说明也可以包含其它文档元素 
+              不用理会从何处开始
+              
+-x, -y, -z    多个选项成为一 "选项组".
+-v, --verbose  比照: 缩简式 &amp; 完整式.
+-1 file, --one=file, --two file
+              多个选项加参数.
+/V            DOS/VMS 形式的选项也可以
+
+在选项与描述中至少有两个空格
+</t>
+<t tx="ZoomQuiet.20060113183350.11">原文块 Literal Blocks
+----------------------------
+
+原文块 Literal blocks 由两个冒号指出 ("::") 另一空白行结束.  
+原文块一般用以忠实的复述有严格缩进的程序代码::
+
+    if literal_block:
+        text = 'is left as-is'
+        spaces_and_linebreaks = 'are preserved'
+        markup_processing = None
+
+也可能引用没有缩排的::
+
+&gt;&gt; Great idea!
+&gt;
+&gt; Why didn't I think of that?
+
+引述块 Block Quotes
+------------------------
+
+由缩进的文档元素组成:
+
+    My theory by A. Elk.  Brackets Miss, brackets.  This theory goes
+    as follows and begins now.  All brontosauruses are thin at one
+    end, much much thicker in the middle and then thin again at the
+    far end.  That is my theory, it is mine, and belongs to me and I
+    own it, and what it is too.
+
+    -- Anne Elk (Miss)
+
+测试块 Doctest Blocks
+----------------------------
+
+&gt;&gt;&gt; print 'Python格式使用实例由 "&gt;&gt;&gt;" 开始'
+Python-specific usage examples; begun with "&gt;&gt;&gt;"
+&gt;&gt;&gt; print '(cut and pasted from interactive Python sessions)'
+(cut and pasted from interactive Python sessions)
+
+引用 Citations
+------------------
+
+.. [CIT2002] 引用，是文字标签的脚注. 比一般脚注表现的不同.
+
+就是对上面的引用, [CIT2002]_, 
+以及一个 [不存在nonexistent]_ 的引用.(故意引发一个错误报告)
+</t>
+<t tx="ZoomQuiet.20060113183350.12">表格 Tables
+------------
+
+下面是栅格式表格接着是简单式表格:
+
++------------------------+------------+----------+----------+
+| Header row, column 1   | Header 2   | Header 3 | Header 4 |
+| (header rows optional) |            |          |          |
++========================+============+==========+==========+
+| body row 1, column 1   | column 2   | column 3 | column 4 |
++------------------------+------------+----------+----------+
+| body row 2             | Cells may span columns.          |
++------------------------+------------+---------------------+
+| body row 3             | Cells may  | - Table cells       |
++------------------------+ span rows. | - contain           |
+| body row 4             |            | - body Elements.    |
++------------------------+------------+----------+----------+
+| body row 5             | Cells may also be     |          |
+|                        | empty: ``--&gt;``        |          |
++------------------------+-----------------------+----------+
+
+=====  =====  ======
+   Inputs     Output
+------------  ------
+  A      B    A or B
+=====  =====  ======
+False  False  False
+True   False  True
+False  True   True
+True   True   True
+=====  =====  ======
+</t>
+<t tx="ZoomQuiet.20060113183350.13">脚注 Footnotes
+------------------
+
+.. [1] 每一脚注都可以包含其它文档元素, 不过注意要统一有至少三空格以上的缩进
+
+    此为脚注的第二段 This is the footnote's second paragraph.
+
+.. [#label] 脚注可能是数字式的, 手工指定(如 [1]_) 或是自动分配
+    使用标签前加 "#".  
+    此条脚注有一标签使它可以在其它多处被引用, 以脚注参考的形式 ([#label]_) 
+    或是超链接引用 (label_).
+
+.. [#] 此为自动分配数字式引用的脚注，拥有匿名的标签引用标签 仅使用 "#" .
+
+.. [*] 脚注也可使用符号, 特别的使用 "*" 标签.
+   引用下一脚注: [*]_.
+
+.. [*] 这是符号式脚注序列中的另一条目
+
+.. [4] 这是未引用过的脚注，连同一个不存在的脚注的引用: [4]_.
+</t>
+<t tx="ZoomQuiet.20060113183350.14">标签Targets
+--------------
+
+.. _example:
+
+此段落由显示声明的" `example`_ "标签所指(由注释中的标签声明构成) 
+
+以下还可以看到
+前面的 `行内标记Inline Markup`_ 引用, `行内超链接标签`_ 也支持
+
+章节的标头是隐含的 标签,由名称来引用，
+
+比如说: 标签Targets_ , 这是另一节的标题引用 `文档元素 Body Elements`_.
+
+外部扩展 标签 的插入引用类似以"Python_".
+
+.. _Python: http://www.python.org/
+
+标签也可以以匿名或是间接命名方式来引用！
+
+从而 `随便一个短语`__ 也可以指向本节 标签Targets_ 
+
+__ 标签Targets_
+
+这则是 `没有定义标签的超链接 hyperlink reference without a target`_, 
+这将引发一个错误
+
+直接外部链接声明： `《计算机行业 术语对照表(英日中)》`__
+
+__  http://192.168.2.29:7080/moin/KatakanaTEtab
+
+:注意: 对于外部链接，可以通过"__ " 前导，直接声明到对应字串上;
+        但是使用".. _标签:URL"的方式，更加灵活，因为可以通过使用 "标签_" 的形式，在多处进行引用！
+        (此处的引用因为没有进行过定义，所以会产生报错)
+
+重复的标签名
+``````````````````````
+
+在章节标题或是其它隐含标签处的重复名称将生成"有效系统信息"(一级 level-1)
+
+在扩展标签中的重复名称将生成"警告系统信息"(二级 level-2)
+
+重复的标签名
+`````````````````````` 
+
+现在有两个  "重复的标签名" 小节, 系统不能通过名称来正确引用他们,
+若尝试如此引用:( `重复的标签名`_), 将产生一个报错.
+</t>
+<t tx="ZoomQuiet.20060113183350.15">文档部分 Document Parts
+````````````````````````````
+
+上面为本章节的"内容"指引示例
+(一个本地的无标题的内容指引表 Contents_)
+
+在文档开始(一个全文档范围的 `内容索引 Table of Contents`_).
+
+图片 Images
+````````````
+
+以下是图像指引 (可点击，含一超链接引用 -- ):
+
+.. image:: images/title.png
+   :target: directives_
+
+以下是 指向引用:
+
+.. figure:: images/title.png
+   :alt: 新结构化文本 reStructuredText, 标记语法
+
+   指向(figure)是可以拥有标题和解说的图片:
+
+   +------------+-----------------------------------------------+
+   | re         | Revised, revisited, based on 're' module.     |
+   +------------+-----------------------------------------------+
+   | Structured | Structure-enhanced text, structuredtext.      |
+   +------------+-----------------------------------------------+
+   | Text       | Well it is, isn't it?                         |
+   +------------+-----------------------------------------------+
+
+   本段落依然属于图片的解说,
+   This paragraph is also part of the legend.
+
+警告 Admonitions
+``````````````````````
+
+.. Attention::  注意！
+        
+        Directives at large.(也可以含有其它结构文档元素)        
+
+.. Caution::    警告！
+
+    Don't take any wooden nickels.
+
+.. DANGER:: 危险！
+
+    Mad scientist at work!
+
+.. Error:: 错误……
+
+    Does not compute.
+
+.. Hint:: 暗示……It's bigger than a bread box.
+
+.. Important::  重要！
+   - Wash behind your ears.
+   - Clean up your room.
+   - Call your mother.
+   - Back up your data.
+
+.. Note:: 解说……
+    
+    This is a note.
+
+.. Tip:: 小贴士……
+    
+    15% if the service is good.
+
+.. WARNING::    警报……
+    
+    Strong prose may provoke extreme mental exertion.
+    Reader discretion is strongly advised.
+    
+
+.. admonition::     注意!
+    
+    And, by the way...    
+
+    You can make up your own admonition too.
+</t>
+<t tx="ZoomQuiet.20060113183350.16">主题，边注和加红 Topics, Sidebars, and Rubrics
+``````````````````````````````````````````````````````````
+
+.. sidebar:: 边注标题 Sidebar Title
+   :subtitle: 副标可选 Optional Subtitle
+
+   这是一个边注，它是活动在主文本之外的一块文本
+
+   .. rubric:: 这是边注里的加红效果
+
+   边注经常使用边线和底色出现在主文档的旁边，用以进行某些专用词的详细描述
+   
+
+.. topic:: 主题标题 Topic Title
+
+   这是一个主题 This is a topic.
+
+.. rubric:: 这是加红效果 This is a rubric
+
+脚注标签 Target Footnotes
+````````````````````````````````
+
+.. target-notes::
+
+使用"target-notes: :" 标签，会自动在脚注位置整理输出所有外部链接信息
+
+行文本块 Line Blocks
+``````````````````````
+
+Take it away, Eric the Orchestra Leader!
+
+.. line-block::
+
+   A one, two, a one two three four
+
+   Half a bee, philosophically,
+       must, *ipso facto*, half not be.
+   But half the bee has got to be,
+       *vis a vis* its entity.  D'you see?
+
+   But can a bee be said to be
+       or not to be an entire bee,
+           when half the bee is not a bee,
+               due to some ancient injury?
+
+   Singing...
+
+文本置换 Replacement Text
+````````````````````````````````
+
+我建议你尝试 |Python|_.
+
+.. |Python| replace:: Python, *最好的* 语言之一
+
+替换定义 Substitution Definitions
+------------------------------------------------
+
+行内图片示例  (|example|) :
+
+.. |EXAMPLE| image:: images/ball1.gif
+
+(替换定义在HTML原代码中不会有体现.)
+</t>
+<t tx="ZoomQuiet.20060113183350.6">.. 结构化文本(reStructuredText)介绍文档
+
+.. 此处是注释，可以注意到一些注释被解析到，文档的标题，副标等处
+   This is a comment. Note how any initial comments are moved by
+   transforms to after the document title, subtitle, and docinfo.
+
+================================================================
+ 结构化文本(reStructuredText)介绍文档
+================================================================
+
+&lt;&lt;介绍&gt;&gt;
+
+结构元素 Structural Elements
+======================================
+
+&lt;&lt;结构&gt;&gt;
+
+文档元素 Body Elements
+==========================
+
+&lt;&lt;段落&gt;&gt;
+
+&lt;&lt;列表&gt;&gt;
+
+&lt;&lt;引用&gt;&gt;
+
+&lt;&lt;表格&gt;&gt;
+
+&lt;&lt;脚注&gt;&gt;
+
+&lt;&lt;标签&gt;&gt;
+
+
+指引Directives
+--------------------
+
+.. _directives:
+
+.. contents:: :local:
+
+一个简单的一些 结构文本 结构指引的例子
+
+其它的情况请参考 http://docutils.sf.net/spec/rst/directives.html.
+
+
+
+&lt;&lt;文档&gt;&gt;
+
+&lt;&lt;其它&gt;&gt;
+
+
+注释 Comments
+----------------
+
+这有一段例子:
+
+.. 注释由两个冒号和空格开始 
+   其它各种 结构化文本语法都支持,除了脚注，超链接，指引，替换定义
+    Comments begin with two dots and a space. Anything may
+   follow, except for the syntax of footnotes, hyperlink
+   标签Targets, directives, or substitution definitions.
+
+   Double-dashes -- "--" -- must be escaped somehow in HTML output.
+
+(查看HTML原代码来看注释效果 View the HTML source to see the comment.)
+
+错误处理 Error Handling
+============================
+
+任何处理时捕获的错误都会生成系统信息.
+Any errors caught during processing will generate system messages.
+
+测试文本将生成5条报错信息，并自动生成
+"Docutils System Messages"章节:
+
+.. section should be added by Docutils automatically
+
+</t>
+<t tx="ZoomQuiet.20060113183350.7">.. 在文档标题与副标之间的注释在章节标题后解析
+    Above is the document title, and below is the subtitle.
+   They are transformed from section titles after parsing.
+
+----------------------------------------------------------------
+ 语法结构示例 Examples of Syntax Constructs
+----------------------------------------------------------------
+
+.. 文档信息栏 bibliographic fields (which also require a transform):
+
+:作者: David Goodger
+:地址: 123 Example Street
+          Example, EX  Canada
+          A1B 2C3
+:联系: goodger@users.sourceforge.net
+:译者: Me; 
+:组织: infopro.cn
+:日期: $Date: 2004/01/04 17:44:46 $
+:状态: 完善ing;This is a "work in progress"
+:当前版本: $Revision: 1.29 $
+:版本: 1
+:copyright: 此文档遵从开放原则，你可以自由的复制，修改，发布,发售，购买,
+            租借，销毁，改进；或是引用，摘录，合并，比较，分类等等
+            总之你可以自由使用此文档；
+            This document has been placed in the public domain. You
+            may do with it as you wish. You may copy, modify,
+            redistribute, reattribute, sell, buy, rent, lease,
+            destroy, or improve it, quote it at length, excerpt,
+            incorporate, collate, fold, staple, or mutilate it, or do
+            anything else to it that your or anyone else's heart
+            desires.
+:条目名称 field name: 普通文档信息栏 This is a generic bibliographic field.
+:条目名称2 field name 2:
+    普通文档信息栏可以包含其它元素
+    Generic bibliographic fields may contain multiple 文档元素 Body Elements.
+    (但是条目名称不能使用中文，否则脚本不能生成正常排版格式)
+    
+    比如说 Like this.
+
+:Dedication:
+
+    罗列捐献和开发者名录;For Docutils users &amp; co-developers.
+
+:abstract:
+
+    这是一个测试文档，包含了 新结构化文本 的所有元素的例子
+    This is a test document, containing at least one example of each
+    reStructuredText construct.
+
+.. meta::
+   :keywords: reStructuredText, test, parser
+   :description lang=zh: 一个测试文档，包含了 新结构化文本 的所有元素的例子 A test document, containing at least one
+       example of each reStructuredText construct.
+
+.. contents:: 内容索引 Table of Contents
+.. section-numbering::
+</t>
+<t tx="ZoomQuiet.20060113183350.8">
+章节层次,是通过使用不同的行装饰字串实现的，实际上你可以使用任何字串，
+在章节标题行下，使用 行装饰字串 再另起一行就好（注意，行装饰字串至少要与标题一样长）
+
+推荐使用如下 行装饰字串::
+
+  第一级
+  ==============
+  第二级
+  --------------
+  第三级
+  ``````````````
+  第四级
+  ''''''''''''''
+  第五级
+  """"""""""""""
+  
+即，按照键盘的左右顺序 选的几个不常用字符，实际上 结构文本支持更深层次的结构，
+但是HTML标签只支持到 H6,且，不建议创立过多层次的文档...
+
+
+实际效果--第一级别
+======================================
+文章序言
+
+第二级别
+-------------------------------------
+章正文
+
+第三级别
+`````````````````````````````
+小节正文
+
+第四级别.1
+'''''''''''''''''''''''''''''
+分论题正文
+
+第五级别.a
+""""""""""""""""""""""""""""
+细论正文
+
+第五级别.b
+""""""""""""""""""""""""""""
+细论正文
+
+第四级别.2
+''''''''''''''''''''''''''''
+分论题正文
+
+章节标题 Section Title
+--------------------------
+
+就是在 行装饰字串 上面一行的文字 That's it, the text just above this line.
+
+过渡 Transitions
+-----------------
+
+这是个表示过渡的横线 Here's a transition:
+
+---------
+
+用以区分 章节 It divides the section.
+</t>
+<t tx="ZoomQuiet.20060113183350.9">
+段落 Paragraphs
+--------------------
+
+一个自然段 A paragraph.
+
+行内标记Inline Markup
+````````````````````````````
+
+段落文字可以包含一些行内标记:
+*强调*, **加重强调** , ``斜体``,
+
+标准超链接(http://www.python.org), 扩展超链接 (Python_),
+
+内联交叉参考(example_), 扩展超链接内嵌URIs
+(`Python网站 &lt;http://www.python.org&gt;`__),
+
+脚注参考引用
+(使用数字 [1]_, 末名自动数字 [#]_, 使用标签 [#label]_, 或是符号 [*]_), 
+
+参考引用([CIT2002]_), 
+
+置换引用 (|example|)&lt;-- 图片,
+
+以及 _`行内超链接标签` (参看后文的 标签Targets_ 部分).
+
+字符级 行内标记Inline Markup 也支持(即使非常的丑!) 
+在 *新*\ ``结构化``\ *文本* 
+*re*\ ``Structured``\ *Text* 都是可能的.  
+(注意 修饰符前要有空格)
+
+解析时的问题将使用 |problematic| 指出
+(此处故意产生一个错误 generated by processing errors; this one is intentional).
+
+
+默认的解析规则字符是 `标题参考`.
+这儿有几种显式的规则字符:
+
+PEP参考 (:PEP:`287`); 
+
+RFC参考 (:RFC:`2822`); 
+
+下标 :sub:`subscript`; 
+
+上标 :sup:`superscript`;
+
+以及扩展规则 :emphasis:`标准强调` :strong:`行内加重`
+:literal:`标记强调`.
+
+即通过::
+
+ :特殊规则字符:`正常字串`
+
+以上形式的 规则字符 前导，改变解析输出！
+
+.. 以下段落不要重新回行分段！DO NOT RE-WRAP THE FOLLOWING PARAGRAPH!
+
+让我们来进行一次行内空白与包绕试验:(对中文支持应该不严密)
+Let's test wrapping and whitespace significance in inline literals:
+``This is an example of --inline-literal --text, --including some--
+strangely--hyphenated-words.  Adjust-the-width-of-your-browser-window
+to see how the text is wrapped.  -- ---- --------  Now note    the
+spacing    between the    words of    this sentence    (words
+should    be grouped    in pairs).``
+
+如果 ``--pep-references`` 选项已经支持，则此链接应该已经存在 :PEP:`258` 
+
+</t>
+<t tx="ZoomQuiet.20060116170040">@path Zen
+
+成体系的思考所得</t>
+<t tx="ZoomQuiet.20060116170040.1">@path Chinese
+</t>
+<t tx="ZoomQuiet.20060116170040.2">@path oss
+
+FLOSS 新闻
+</t>
+<t tx="ZoomQuiet.20060116170040.3">@path easy
+
+品味</t>
+<t tx="ZoomQuiet.20060116170040.4">@path Quiet
+
+个人生活
+</t>
+<t tx="ZoomQuiet.20060116170040.5">@path techic
+
+技术细核</t>
+<t tx="ZoomQuiet.20060116170108.1">@path pythonic</t>
+<t tx="ZoomQuiet.20060116170108.2">@path internet
+
+SNS 化活动</t>
+<t tx="ZoomQuiet.20060116170150">@path CPyUG</t>
+<t tx="ZoomQuiet.20060116170227.1">@path OpenBookProj</t>
+<t tx="ZoomQuiet.20060116170227.2">@path openpeople</t>
+<t tx="ZoomQuiet.20060116170256.1">@path WeKnow</t>
+<t tx="ZoomQuiet.20060116170256.2">@path zqlib
+</t>
+<t tx="ZoomQuiet.20060116170330">@path living</t>
+<t tx="ZoomQuiet.20060116170330.1">@path nomeans
+
+"060628
+[梦]无解
+依稀间要上一三层小楼,
+在梯台上西望,猛然发现不远处,一小片白杨林边的小湖上空,
+漂浮着巨大的扁平圆盘,不高,就100多米的空中,
+白色,印有爱因斯坦吐舌头的照片……非常怪异；
+正想着，刚要进门，迎面是三位身着发白灰兰色中山装的人，
+各罩着老毛，总理和小邓卡通大头面具，聊着天儿，
+说“今天又要蹓足三小时”什么的……
+这才反应过来，都是行为艺术，果然，
+看到楼道入口的招帖有说什么三个浮空氢碟，什么艺术节的，
+立即就想拍下来，
+转回身正在掏DC，却发现东边，田野远方，CBD建筑群象岛一股，
+突兀的耸立在周围低矮灰绿的环境上，
+而且在朝霞的映照下，是金红色半透明的！
+上面天空也是非常精彩的云彩掩映，丰富多样的云墙，
+刚好在城市岛处开有狭缝将光线布下来，
+非常非常的工业感+油画感……
+
+感叹间，低头好容易将一个口袋DC拿出来，开机，调模式，
+抬头——光线已经完全变了，而且起了雾气，就象上了灰度镜一般，变的平淡无奇，“靠！”无奈间，想起头像浮碟，
+走到另一方向，也已经飘远，没有角度，拍不出乍看时的那种突兀感觉了…………
+================================
+懊丧间就醒了过来…………
+
+非常纳闷，昨夜也就看了场巴西对加纳的世界杯，和这梦完全风马牛不相及哪？！
+
+真的无解，只是想到所有的梦境都是彩色的，说明我的颜色感觉终于成熟了？！？！？！
+
+
+</t>
+<t tx="ZoomQuiet.20060116170435">@path SiFi
+</t>
+<t tx="ZoomQuiet.20060116170508">@path py4gui</t>
+<t tx="ZoomQuiet.20060116170643">@path py4str</t>
+<t tx="ZoomQuiet.20060116170643.1">@path py4web</t>
+<t tx="ZoomQuiet.20060116170643.2">@path py4xml</t>
+<t tx="ZoomQuiet.20060116170643.3">@path py4zh</t>
+<t tx="ZoomQuiet.20060116170643.4">@path py4sys</t>
+<t tx="ZoomQuiet.20060116172141">记录:
+#100313 原始数据
+    pyk:/data1/kuppmatrix/pyk/www/blogs/pyblosxom/zoomquiet
+    是从WP 同步的原始数据    
+#060612 发现问题:
+    rss1 输出乱码
+    command url 输出有误
+    
+
+</t>
+<t tx="ZoomQuiet.20060116172141.1">http://pyxml.sourceforge.net/
+安装需要的
+ fetch http://surfnet.dl.sourceforge.net/sourceforge/pyxml/PyXML-0.8.4.tar.gz
+
+ tar xzvf PyXML-0.8.4.tar.gz                                   
+
+/usr/ports/textproc/py-xml
+
+从CVS中小心使用！
+</t>
+<t tx="ZoomQuiet.20060117100151">@language Moin
+世间安得双全法,不负如来不负卿!
+[FW:]从这里，到那里 流转的不仅仅是 生命迁徙的轨迹
+&lt;&lt;t2t head&gt;&gt;
+
+% #tags Mode,movie
+
+看过情颠大圣，被其中的两句话打动，于是就觉得还是不枉我一早努力和睡懒觉做搏斗的辛苦。
+
+世间安得双全法,不负如来不负卿!，这话读来不像佛教教义，但是也不像凡人写的，于是上网查询，发现原来真的是出自高人之手。
+
+
+```
+
+“那一月我摇动所有的经桶，
+不为超度，只为触摸你的指尖；
+那一年磕长头在山路，
+不为觐见，只为贴着你的温暖；
+那一世转山，不为修来世，只为途中与你相见.”
+----仓央嘉措
+
+```
+
+
+仓央嘉措有一个称号：六世达赖喇嘛。也许听到这里，大家都会肃然起敬。但如果仅仅如此，也许我并不会动心。先来看看关于他的一段官方历史：
+
+生于康熙二十二年，十四岁时剃度入布达拉宫为黄教领袖，十年后为西藏政教斗争殃及，被清廷废黜，解送北上，道经青海今纳木措湖时中夜循去，不知所终。
+
+
+```
+守门的狗儿呀
+你比人还机灵
+别说我黄昏出去
+别说我清晨才归
+```
+
+
+这是仓央嘉措在和玛吉阿米约会时候写的文章。玛吉阿米是活佛在一次酒馆中偶遇的女子，如月亮一般美丽。这所小酒馆现在还在拉萨的帕廓街，是一座黄色的楼房，房主人以此为荣耀，黄房子三百年金色不改。现在那里已被改造成一处咖啡馆，招牌上用藏、汉、英文赫然书写着店名——“未嫁娘”。
+
+门达旺是门隅地区的首府。在门巴人的传说中，太阳名叫“达登旺波”，意谓七匹马拉的车，达旺就是达登旺波的简称。七匹马的太阳车辚辚过处，还生长着门巴人起源的爱情故事，说的是明镜般的湖水中走出一位美男子，怎样以月亮为弓，以流星为箭，将定情的靴带射向美丽的姑娘；这里还生长着卓瓦桑姆的美丽传说，说的是天女化身的贫家姑娘卓瓦桑姆怎样与嘎拉王一见倾心，后来又怎样遭致反面人物王后的迫害，最终善战胜了恶，美战胜了丑。仓央嘉措就是在这样的故事环境中长大的。他的父亲是藏族，母亲则是门巴族人。在这藏族和门巴族聚居地，两个民族的文化相异而又交融。这是仓央嘉措的幸运，也是仓央嘉措的不幸。因为生在红教区，他向往着爱情。而黄教则是唯一一个限制结婚和情欲的藏传佛教。
+
+　　与其他转世灵童不同，由于历史的阴差阳错，仓央嘉措并非自小被迎请入宫，因此他是在天籁中长大的。当年五世喇嘛圆寂。第悉·桑结嘉措作为摄政王正当其政，那个人上对朝廷下对人民隐瞒了真相，长达15年之久秘不发丧，只在私下里秘密查访转世灵童。这一事件改变了仓央嘉措人生的轨迹，揭开了他悲剧命运的序幕。如果仓央嘉措一辈子只生活在东山顶上，也许他会幸福；如果他一生下来就成为活佛，也许同样的他会幸福；可是没有。两样对他来说都是惘然。虽然藏史声称两三岁时就将他隐秘地转移并教授佛法，但民间的说法则让他一直在家乡成长到15岁。我宁肯相信后者，不然何以解释那个自由的性灵和人间情怀缘何而来。
+
+　　其时西藏上层统治阶级内部关系错综复杂，明争暗斗：位高权重的摄政第悉·桑结嘉措与朝廷册封的蒙族汗王的藏蒙之间，以及蒙族人内部矛盾冲突日益白热化，局势动荡不安，正值一次政治大地震前夕。无心于政治也无心于佛身的仓央嘉措被迫参与其中，满心的厌倦与失望。他看不到未来，一切都无从逆料。心灰意冷，彷徨无倚。任凭第悉好言规劝或严厉申饬，年轻的活佛只是不思学经。
+
+```
+用墨写下的字迹
+一经雨水就洇湿了
+没能写出的心迹
+想擦也擦它不掉
+```
+
+
+　　仓央嘉措的眼睛和心不属于布达拉宫。深夜的雪地上开始踏出一行脚印，从布达拉宫一直伸向帕廓街；一个名叫宕桑旺波的高贵儒雅青年出现在街头的酒肆中。虚幻的物质世界多么诱人，假如真有来世，我愿生生世世为人，只做芸芸众生中的一个，哪怕一生贫困清苦，浪迹天涯，只要能爱恨歌哭，只要能心遂所愿。
+
+```
+想她想的放不下
+如果这样去修法
+在今生此世
+就会成佛了吧
+
+```
+
+
+　　戒律森严的环境和多情的内心世界、角色和天性的冲突，终于在20岁那年不可遏止地爆发了。曾为少年仓央嘉措落发授戒的五世班禅大师，五年后又该再次为之授比丘戒了。仓央嘉措依约去往日喀则扎什伦布寺，满脸的乌云密布。我们无从得知一路上他想了些什么，我们所看到的只是他的决心已定。经由五世班禅自传我们得知了结果：班禅大师祈求劝导良久，仓央嘉措沉默以对良久，然后毅然站起身来，夺门而去。他双膝下跪在日光大殿外，给大师磕了三个头，反反复复只说一句话：“违背上师之命，实在感愧”，念念叨叨黯然而去。在后来的许多天里，不仅没有转机，甚至变本加厉：不仅拒受比丘戒，反而要求大师收回此前所受的出家戒和沙弥戒。说这番话的时候，仓央嘉措痛彻肺腑：“若是不能交回以前所受出家戒及沙弥戒，我将面向扎什伦布寺而自杀。二者当中，请择其一！”
+
+　　这就是仓央嘉措，惟一不再的仓央嘉措，无可奈何的仓央嘉措。他从来就身不由己，他的命运全由别人来安排。他甚至不如一个农奴还有逃亡的自由，甚至不如一个小僧也有还俗的自由。他是藏传佛教第一人，他拥有的是最多的不自由。说那番话的时候，他的心在流血吧。
+
+　　从那以后，我们看到的仓央嘉措，就是一个放浪的活佛。他没有办法选择，但是他决定背叛，即使这种背叛极为危险，并且，终于成为了悲剧。回到那首诗的结局。狗遵从了活佛的意愿，然而天没有。在破晓时分，人们读着男人在雪野里清晰地印下的夜奔的足迹，那足迹急促而有力，人们疑惑，沉思，继而惊愕。这些蜿蜒连接着布达拉宫和小巷深处的脚印，在坦然以爱情的名义歌唱的同时，也写下了对宗教的背叛。
+
+　　神圣庄严的宗教律例不可能容忍出轨的离经叛道。仓央嘉措就这样因“耽于酒色，不守清规”而被康熙帝予以废立。年仅２４岁。
+
+　　没有人知道他是怎样在监视的目光下仓惶走在逃亡的路上，也没有人知道他的卒年及准确的圆寂之地。此去无痕，有人说是在烟波浩渺的青海湖畔被水肿夺去了年轻的生命，有人说是被清朝皇帝软禁于山西五台山并圆寂于当地，有人说是在藏南一山洞坐化，又说是决意遁去，周游印度、尼泊尔等地。有一个非常戏剧性的细节，当人们迎接六世达赖的灵童的时候，大家发现灵童居然就在玛吉阿米的故乡……
+
+　　庄严肃穆的布达拉宫，这历代喇嘛的驻锡地。它以尊荣显赫的姿态永远地拒绝了仓央嘉措。在西藏的历史上，曾经一共产生过十四辈达赖喇嘛，除却第一代达赖的灵塔在扎什伦布寺外，其它历代达赖喇嘛总有灵塔、塑像、绘画等纪念物供奉在布达拉宫，即使人们不怎样提及的只活了十一岁的九世达赖、只活了十八岁的十一世达赖都有他们的灵塔在，然而，声名远扬的六世达赖仓央嘉措呢？塑像是不会再铸的了，壁画中也看不见他的影子，至于灵塔的安置，布达拉宫说，他？不配。
+
+　　然而，他的诗却传遍了前藏、后藏，传遍了藏北、藏南，传遍了古老的山南。传遍了大江南北。
+
+```
+　　喇嘛仓央嘉措
+　　别怪他风流浪荡
+　　他所追寻的
+　　和我们没有两样
+```
+
+
+　　这就是仓央嘉措最后的结局，三百年来我们一直传唱这首歌，只为了仓央嘉措，一个不成功的活佛，然而却是一个伟大的诗人。
+
+读完这段回头再看他流畅轻盈的情诗，感受蕴涵其中的偷偷的喜悦，对世俗不畏惧不张扬的态度，想起三个字“不容易”。原来情诗中也有禅，不管外界多么纷繁嘈杂，心内始终平静如砥，爱情始终明澈快意，这就是爱他的理由。
+
+让我们再看仓央嘉措最传世的一首诗：
+
+```
+那一月我摇动所有的经桶，
+不为超度，只为触摸你的指尖；
+那一年磕长头在山路，
+不为觐见，只为贴着你的温暖；
+那一世转山，
+不为修来世，只为途中与你相见
+```
+
+
+而**“不负如来不负卿”**的原诗是：
+```
+    曾虑多情损梵行,
+    入山又恐别倾城.
+    世间安得双全法,
+    不负如来不负卿!
+```
+
+
+**我佛慈悲！**
+
+
+
+```
+从这里，到那里 流转的不仅仅是 生命迁徙的轨迹
+```
+
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="ZoomQuiet.20060117230430">@path flavours
+</t>
+<t tx="ZoomQuiet.20060117230447">@path phtm.flav</t>
+<t tx="ZoomQuiet.20060117230523">&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;$blog_author $pi_da $pi_mo $pi_yr&lt;/title&gt;
+  
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;link rel="stylesheet" type="text/css" 
+ href="/styles/phtm.flav/zqgreen.css" /&gt;
+&lt;link rel="alternate" type="application/rss+xml" 
+ title="RSS" href="$url/?flav=rss" /&gt;
+&lt;link rel="shortcut icon" href="/styles/pyblosxom.ico"
+ type="image/x-icon" /&gt;
+&lt;link rel="icon" href="/styles/pyblosxom.ico"
+ type="image/x-icon" /&gt;
+
+&lt;!--#Zoomq::060122 add. technorati support --&gt; 
+&lt;script type="text/javascript" 
+ src="http://embed.technorati.com/embed/m8ttdgxrhx.js"&gt;&lt;/script&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!--
+  $blog_title_with_path $pi_da $pi_mo $pi_yr
+  --&gt;
+&lt;!--
+&lt;h1&gt;$blog_title&lt;/h1&gt;
+&lt;p&gt;$pi_da $pi_mo $pi_yr&lt;/p&gt;
+--&gt;
+
+&lt;div id="banner"&gt;
+  &lt;p id="main"&gt;&lt;a href="$base_url"&gt;$blog_title&lt;/a&gt; &lt;/p&gt;
+  &lt;p id="sub"&gt;$blog_description $pi_yr $pi_mo $pi_da &lt;/p&gt;
+  
+&lt;/div&gt; &lt;!-- End of banner div --&gt;
+&lt;div id="content"&gt;
+
+
+</t>
+<t tx="ZoomQuiet.20060117230550">&lt;h3 id="blosxomTitle"&gt;::
+&lt;a name="$fn" href="$base_url/$file_path_urlencoded.$flavour"&gt;
+$title&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;div class="blosxomStory"&gt;
+$body
+&lt;/div&gt;&lt;!--class="blosxomStory"--&gt;
+&lt;div class="blosxomStoryLinks"&gt;
+&lt;!--
+$filebasename  ; 
+$entryext
+--&gt;
+[$ti]
+&lt;a href="$base_url/$file_path.$flavour#blosxomComments"&gt;
+评注($num_comments)&lt;/a&gt;
+| &lt;a href="$base_url/$file_path_urlencoded.$flavour" 
+    title="permalink"&gt;#
+    永久链接&lt;/a&gt;&lt;!--permanent link to this entry--&gt;
+    &lt;sup&gt;    
+    &lt;a href="/entry/$file_path_urlencoded$entryext"&gt;
+    $entryext&lt;/a&gt;
+    &lt;a href="/entry/$file_path_urlencoded.t2t"&gt;
+    .t2t&lt;/a&gt;
+    &lt;a href="/entry/$file_path_urlencoded.moin"&gt;
+    .moin&lt;/a&gt;
+    &lt;/sup&gt;
+| &lt;a href="http://del.icio.us/post?url=$base_url/$file_path_urlencoded.$flavour" rel="nofollow" title="Bookmark 2 del.icio.us"&gt;
+&lt;img src="/styles/del.icio.us.gif" border="0" 
+style="padding:8px 2px 0px 0px; width: 8px;" 
+alt="add into del.icio.us" /&gt;del.icio.us&lt;/a&gt; 
+| 分类&lt;a href="$base_url/$absolute_path_urlencoded" title="path"&gt;
+    /$absolute_path&lt;/a&gt; 
+
+&lt;!--
+| $tags
+
+| &lt;a href="$base_url/trackback/$file_path" title="Trackback"&gt;
+  TB&lt;/a&gt;
+--&gt;  
+
+&lt;&lt;SNS&gt;&gt;
+&lt;/div&gt;&lt;!-- class="blosxomStoryLinks"--&gt;
+
+&lt;div class="Folksonomy"&gt;
+&lt;!--Folksonomy ...--&gt;
+$relatedstories
+&lt;/div&gt;
+
+</t>
+<t tx="ZoomQuiet.20060117230550.1">&lt;&lt;PoweredBy&gt;&gt;
+&lt;&lt;CreativeCommons&gt;&gt;
+
+&lt;/div&gt; &lt;!-- End of content div --&gt;
+
+
+&lt;div id="links"&gt;
+&lt;!--
+    &lt;h4&gt;popular TAGs&lt;/h4&gt;
+    $tagcloud
+--&gt;
+&lt;&lt;SiteSearch&gt;&gt;
+
+    &lt;&lt;blosxomCalendar&gt;&gt; 
+    &lt;&lt;aboutme&gt;&gt;
+    &lt;h4&gt;Categories&lt;/h4&gt;
+&lt;div id="Categories" class="slotarea"&gt;
+$categorylinks
+
+&lt;!--zoomclouds--&gt;
+&lt;/div&gt;
+
+
+    &lt;&lt;Menu&gt;&gt;   
+    &lt;&lt;Blogroll&gt;&gt;
+    &lt;&lt;聚合&gt;&gt;
+    &lt;&lt;Extra&gt;&gt;
+    &lt;&lt;PyCon&gt;&gt;
+    
+    &lt;&lt;Archive&gt;&gt;
+    
+    &lt;&lt;License&gt;&gt;
+
+&lt;!--out door srv.--&gt;
+
+&lt;&lt;AdSense&gt;&gt;
+
+&lt;/div&gt; &lt;!-- End of links div --&gt;
+  
+  &lt;!--
+  &lt;img src="http://pyblosxom.sourceforge.net/images/pb_pyblosxom.gif" alt="Made with PyBlosxom" border="0" /&gt;
+  --&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</t>
+<t tx="ZoomQuiet.20060117230550.2">&lt;h2 class="blosxomDate"&gt;$date&lt;/h2&gt;
+&lt;!--Will's wbgpager--&gt;
+$page_navigation
+</t>
+<t tx="ZoomQuiet.20060117230550.3">&lt;!--Will's wbgpager--&gt;
+$page_navigation
+
+&lt;br/&gt;
+::$latest_rfc822date</t>
+<t tx="ZoomQuiet.20060117230550.4">text/html
+</t>
+<t tx="ZoomQuiet.20060117231056">Comment 支持</t>
+<t tx="ZoomQuiet.20060117231056.1">&lt;!-- start Comments area --&gt;
+&lt;a id="blosxomComments" name="blosxomComments"&gt;&lt;/a&gt;
+&lt;div class="blosxomComments"&gt;
+</t>
+<t tx="ZoomQuiet.20060117231056.2">&lt;div class="blosxomComment"&gt;
+&lt;!-- $cmt_title --&gt;
+&lt;p&gt;&lt;b&gt;THIS IS YOUR COMMENT PREVIEW--IT HAS NOT BEEN SUBMITTED YET.&lt;/b&gt;&lt;/p&gt;
+&lt;a name="$cmt_time"&gt;&lt;/a&gt;
+Posted by &lt;a href="$cmt_link"&gt;$cmt_author&lt;/a&gt; at $cmt_pubDate&lt;br /&gt;
+$cmt_description&lt;br /&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+</t>
+<t tx="ZoomQuiet.20060117231056.3">&lt;a name="comment_anchor"&gt;
+&lt;p&gt;
+  &lt;b&gt;$comment_message&lt;/b&gt;
+&lt;/p&gt;
+&lt;/a&gt;
+
+&lt;div class="blosxomCommentForm"&gt;
+&lt;form method="post" action="$base_url/$file_path#comment_anchor" name="comments_form"&gt;
+
+&lt;input type="hidden" name="secretToken" value="pleaseDontSpam" /&gt;
+&lt;input name="parent" type="hidden" value="$file_path" /&gt;
+&lt;input name="title" type="hidden" value="$title" /&gt;
+
+
+&lt;input maxlength="50" name="author" size="50" type="text" value="" /&gt;
+::名:Name&lt;br /&gt;
+
+
+&lt;input maxlength="75" name="email" size="50" type="text" value="" /&gt;
+::邮:Mail&lt;br /&gt;
+
+
+&lt;input maxlength="100" name="url" size="50" type="text" value="" /&gt;
+::址:URL.&lt;br /&gt;
+
+注:Comment::&lt;br /&gt;
+&lt;textarea cols="50" name="body" rows="9"&gt;&lt;/textarea&gt;&lt;br /&gt;
+
+&lt;br /&gt;
+    &lt;input name="Submit" type="submit" value="就酱::submit" /&gt;
+    &lt;input name="reset" type="reset" value="重来::reset" /&gt;
+&lt;/form&gt;
+
+&lt;/div&gt; &lt;!-- ends blosxomCommentForm div --&gt;
+
+&lt;/div&gt; &lt;!-- ends blosxomComments div --&gt;
+&lt;!-- end Comments area --&gt;</t>
+<t tx="ZoomQuiet.20060117231056.4">&lt;div class="blosxomComment"&gt;
+&lt;!-- 
+$cmt_title 
+--&gt;
+
+&lt;a name="$cmt_time"&gt;&lt;/a&gt;
+[$cmt_pubDate] 
+&lt;!--
+$cmt_link
+--&gt;
+&lt;a href="mailto:$cmt_email"&gt;$cmt_author&lt;/a&gt;
+&lt;sup&gt;&lt;a href="$cmt_link"&gt;URL&lt;/a&gt;&lt;/sup&gt;
+曰::
+
+&lt;div id="cmt_description"&gt;
+
+$cmt_description
+
+&lt;/div&gt;&lt;!--id="cmt_description"--&gt;
+
+&lt;/div&gt;&lt;!--class="blosxomComment"--&gt;
+</t>
+<t tx="ZoomQuiet.20060117234315">i'm Chinese Pythoner, like PyBlosxom and txt2tags, so so want add parserbase t2t!
+so so try creat t2t.py:"""
+
+PREFORMATTER_ID = 'txt2tags'
+FILE_EXT = 't2t'
+__version__ = '$Id: ZqsPyBlosxom.leo 2102 2007-06-16 05:17:26Z zoomq $'
+__author__ = 'Zoom.Quiet &lt;Zoom dot Quiet  at gmail.com&gt;'
+T2T = "/usr/local/bin/txt2tags"
+
+from Pyblosxom import tools
+def cb_entryparser(args):
+    args['t2t'] = parse
+    return args
+
+def parse(filename, request):
+    import os, sys    
+    config = request.getConfiguration()
+    act = T2T+" -t html --toc -o - %s"%filename
+    html = os.popen(act).read().strip()
+    entryData = {'body' : html,
+                 'title' : filename.replace(config['datadir'], '')}
+    return entryData
+"""
+in windows test can t2t export html 
+but in my Blog: http://blog.zoomquiet.org/pyblosxom/
+500 Internal error httpd-error report:"""
+
+[Fri Jan 13 18:15:30 2006] [error] [client 10.217.12.21] malformed header from script. Bad header=/usr/local/bin/txt2tags -t htm: pyblosxom.cgi
+"""
+
+the preformatters script how to debug?
+
+and thanx for suggest for my mind.... 
+
+
+-- 
+"""Time is unimportant, only life important!
+my blog:  http://blog.zoomquiet.org/
+my wiki:   http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+my book:  http://www.douban.com/group/zoomquiet/
+"""
+
+
+
+</t>
+<t tx="ZoomQuiet.20060118001056">&lt;&lt;通用&gt;&gt;
+&lt;&lt;TagClouds&gt;&gt;
+&lt;&lt; banner &gt;&gt;
+
+&lt;&lt;content&gt;&gt;
+
+&lt;&lt;评注&gt;&gt;
+
+&lt;&lt;links&gt;&gt;
+
+&lt;&lt;plugins&gt;&gt;
+
+&lt;&lt;t2t&gt;&gt;
+
+/*引用文本的突现^^
+  font-size: 10pt;      
+  line-height: 110%;*/
+code { 
+	font-family: courier, monospace;
+    font-size:108%;
+    color:#7D3302;
+  margin: 0px 4px;
+}
+</t>
+<t tx="ZoomQuiet.20060118001230">body {
+  background-color : #D6DBD6;
+  font-family: Tahoma,SimSun,arial, helvetica, sans-serif; 
+  font-size: 92%;
+  /* line-height: 120%; */
+  margin: 0px;
+  padding: 0px;
+  color:#494D4A;
+}
+SUP,SUB{
+    font-size:11px;}
+a { color: #3B4A4A;
+    text-decoration:underline; 
+    }
+a:hover {color: #930;
+  text-decoration: none; 
+    }
+a:visited {color: #45544A;
+    }
+img {border: none;}
+/*"
+    "font-family: courier, monospace;
+*/
+pre{
+	border-left: 2px solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 1em;
+	font-family: "Courier New",Georgia,helvetica, sans-serif;  
+    white-space: pre;
+/*" begin css 3 or browser specific rules - do not remove!
+	see: http://forums.techguy.org/archive/index.php/t-249849.html */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    /* end css 3 or browser specific rules */
+}
+UL,OL{
+    margin: 0em 0 0 .5em;
+	padding: 0 .25em 0em 1em;	
+    }
+/*定义声明组*/
+DL,DT{
+    margin: .25em 0 0 .25em;
+	padding: 0em 0em 0em .25em;	
+    }
+DT{font-weight:bold;
+   font-size:105%;}
+DD{
+    margin: .25em 0 0 .5em;
+	padding: 0 .25em .25em 1em;	
+    }
+ul.plain { list-style-type: none;
+           margin-left: 5px;
+           padding-left: 5px;
+         }
+H1,H2,H3,H4,H5,H6{
+ font-family: Verdana, arial, helvetica, sans-serif; 
+ text-align: left;
+ color:#5A695F;
+ margin-left : .5em;  
+ padding : 4px;
+ line-height: 1.2em;
+}
+H1 { 
+ background-color :transparent;
+ border-left : 5px solid #404E4E ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.5em;
+}
+h2 { 
+ border-left : 10px solid #526157 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.4em;
+}
+h3 {	
+ border-left : 15px solid #738278 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.3em;
+}
+
+h4 {
+ border-left : 20px solid #88938D ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.2em;
+}
+h5{	
+ border-left : 25px solid #B2B8B2 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.1em;
+}
+h6{	
+ border-left : 30px solid #C4C8C4 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1em;
+}
+</t>
+<t tx="ZoomQuiet.20060118001321">cite { 
+  font-style: normal;
+}
+
+acronym[title], abbr[title], cite[title] { 
+  border-bottom: 1px dotted black;
+  cursor: help;
+}
+
+#title { 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+#entries { 
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 76%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+         
+#footer { 
+  background: #C9C994;
+  padding-top: 5px;
+  text-align: right;
+}
+
+
+.centre {
+    text-align: center;
+}
+
+.inlinecode {
+  font-family: courier, monospace;
+  font-size: 10pt;
+  line-height: 110%;
+}
+
+.blogfooter { 
+  font-size: x-small;
+}
+
+/* Some classes for my CV, produced using XMLResume */
+.skillSetTitle, .jobTitle {
+    font-weight: bold;
+}
+
+.employer {
+    font-style: italic;
+}
+</t>
+<t tx="ZoomQuiet.20060118005001">@path foto</t>
+<t tx="ZoomQuiet.20060118005022">@path music</t>
+<t tx="ZoomQuiet.20060118005058">@path lomo</t>
+<t tx="ZoomQuiet.20060118005058.1">@path movie</t>
+<t tx="ZoomQuiet.20060118005121">@path douban</t>
+<t tx="ZoomQuiet.20060118005222">@path manga</t>
+<t tx="ZoomQuiet.20060118005234">@path anime</t>
+<t tx="ZoomQuiet.20060118011633">"""Auto converter encodings to utf8
+It will test utf8,gbk,big5,jp,kr to converter
+
+发件人: HuangJiahua &lt;jhuangjiahua@gmail.com&gt;	
+邮送域: googlegroups.com
+回复: python-cn@googlegroups.com
+收件人: "python.cn" &lt;python-cn@googlegroups.com&gt;
+日期: 2006-1-16 上午12:11
+主题: Re: 请问怎样得到一个文件的编码？
+http://groups.google.com/group/python-cn/browse_frm/thread/3544d5a05783dc96
+
+"""
+
+#!/usr/bin/python
+# coding:UTF-8
+# Author: Huang Jiahua &lt;jhuangjiahua@gmail.com&gt;
+#测试的编码类型
+encc=''
+def zh2utf8(stri):
+       """Auto converter encodings to utf8
+
+       It will test utf8,gbk,big5,jp,kr to converter"""
+       global encc
+       for c in ('utf-8', 'gbk', 'big5', 'jp',
+'euc_kr','utf16','utf32'):
+               encc = c
+               try:
+                       return stri.decode(c).encode('utf8')
+               except:
+                       pass
+       encc = 'unk'
+       return stri
+
+if __name__=="__main__":
+       # 命令行测试
+       import sys
+##      sys.setappdefaultencoding('unicode')
+       if len(sys.argv) &gt; 1:
+               stri = sys.argv[1]
+       else:
+               stri = sys.stdin.read()
+       print zh2utf8(stri)
+       print 'encc:',encc</t>
+<t tx="ZoomQuiet.20060118013917">"""http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/52257
+Title: Auto-detect XML encoding
+Submitter: Paul Prescod (other recipes)
+Last Updated: 2001/03/14
+Version no: 1.0
+Category: XML
+推荐:: 发件人: 清风 &lt;paradise.qingfeng@gmail.com&gt;	
+回复: python-chinese@lists.python.cn
+收件人: python-chinese@lists.python.cn
+日期: 2006-1-18 上午1:27
+主题: Re: [python-chinese] 如何取得一个文本的编码格式？
+"""
+import codecs, encodings
+
+"""Caller will hand this library a buffer and ask it to either convert
+it or auto-detect the type."""
+
+# None represents a potentially variable byte. "##" in the XML spec... 
+autodetect_dict={ # bytepattern     : ("name",              
+                (0x00, 0x00, 0xFE, 0xFF) : ("ucs4_be"),        
+                (0xFF, 0xFE, 0x00, 0x00) : ("ucs4_le"),
+                (0xFE, 0xFF, None, None) : ("utf_16_be"), 
+                (0xFF, 0xFE, None, None) : ("utf_16_le"), 
+                (0x00, 0x3C, 0x00, 0x3F) : ("utf_16_be"),
+                (0x3C, 0x00, 0x3F, 0x00) : ("utf_16_le"),
+                (0x3C, 0x3F, 0x78, 0x6D): ("utf_8"),
+                (0x4C, 0x6F, 0xA7, 0x94): ("EBCDIC")
+                 }
+
+def autoDetectXMLEncoding(buffer):
+    """ buffer -&gt; encoding_name
+    The buffer should be at least 4 bytes long.
+        Returns None if encoding cannot be detected.
+        Note that encoding_name might not have an installed
+        decoder (e.g. EBCDIC)
+    """
+    # a more efficient implementation would not decode the whole
+    # buffer at once but otherwise we'd have to decode a character at
+    # a time looking for the quote character...that's a pain
+
+    encoding = "utf_8" # according to the XML spec, this is the default
+                          # this code successively tries to refine the default
+                          # whenever it fails to refine, it falls back to 
+                          # the last place encoding was set.
+    bytes = (byte1, byte2, byte3, byte4) = tuple(map(ord, buffer[0:4]))
+    enc_info = autodetect_dict.get(bytes, None)
+
+    if not enc_info: # try autodetection again removing potentially 
+                     # variable bytes
+        bytes = (byte1, byte2, None, None)
+        enc_info = autodetect_dict.get(bytes)
+
+        
+    if enc_info:
+        encoding = enc_info # we've got a guess... these are
+                            #the new defaults
+
+        # try to find a more precise encoding using xml declaration
+        secret_decoder_ring = codecs.lookup(encoding)[1]
+        (decoded,length) = secret_decoder_ring(buffer) 
+        first_line = decoded.split("\n")[0]
+        if first_line and first_line.startswith(u"&lt;?xml"):
+            encoding_pos = first_line.find(u"encoding")
+            if encoding_pos!=-1:
+                # look for double quote
+                quote_pos=first_line.find('"', encoding_pos) 
+
+                if quote_pos==-1:                 # look for single quote
+                    quote_pos=first_line.find("'", encoding_pos) 
+
+                if quote_pos&gt;-1:
+                    quote_char,rest=(first_line[quote_pos],
+                                                first_line[quote_pos+1:])
+                    encoding=rest[:rest.find(quote_char)]
+
+    return encoding
+
+</t>
+<t tx="ZoomQuiet.20060120163448">
+&lt;h4&gt;Extra&lt;/h4&gt;
+&lt;div id="extra" class="slotarea"&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.python.org/"&gt;[Python]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://planetpyblosxom.org/"&gt;[PyBlosxom Planet]&lt;/a&gt;&lt;/li&gt;       
+&lt;li&gt;&lt;a href="http://validator.w3.org/check/referer"&gt;
+    [Xhtml]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://jigsaw.w3.org/css-validator"&gt;
+    [CSS2]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;br/&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.ubuntu.org.cn/"&gt;
+&lt;img alt="Get z Great Ubuntu!"  src="/entry/pic/icon/getubuntu.png"/&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=0&amp;t=85"&gt;
+&lt;img alt="Get z Great FireFox!"  src="/entry/pic/icon/getfirefox.png"/&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.gnome.org/"&gt;
+&lt;img alt="Get z Great Gnome!"  src="/entry/pic/icon/getgnome.png"/&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://webpages.charter.net/edreamleo/front.html"&gt;
+&lt;img alt="Get LEO -- z Great Literate Programming Env."  src="http://leo.zwiki.org/button-leo.png"/&gt;
+&lt;/a&gt;&lt;/li&gt;
+
+
+&lt;li&gt;&lt;a href="http://www.gimp.org/"&gt;
+&lt;img alt="Get z Great GIMP!"  src="/entry/pic/icon/getgimp.png"/&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.inkscape.org/"&gt;
+&lt;img alt="Get z Great Inkscape!"  src="/entry/pic/icon/getinkscape.png"/&gt;
+&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;
+&lt;a href="http://songbirdnest.com"&gt;&lt;img src="http://songbirdnest.com/files/images/button_jetpack.png" border="0" alt="Get Songbird"/&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.fsf.org/"&gt;
+&lt;img alt="Free software is a matter of liberty not price."  src="/entry/pic/icon/member-button-fsf.png"/&gt;
+&lt;/a&gt;&lt;/li&gt;
+
+
+&lt;/ul&gt;
+
+&lt;/div&gt;</t>
+<t tx="ZoomQuiet.20060120163510">
+&lt;h4&gt;Syndication&lt;/h4&gt;
+&lt;div id="Syndication" class="slotarea"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="$base_url/index.atom"&gt;
+    [Atom]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="$base_url/index.rss"&gt;
+    [RSS1]&lt;/a&gt;&lt;/li&gt;
+&lt;!--
+Zoomq::060613 乱码! 先不用
+&lt;li&gt;&lt;a href="$base_url/index.rss20"&gt;
+    [RSS2]&lt;/a&gt;&lt;/li&gt; 
+
+--&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</t>
+<t tx="ZoomQuiet.20060120163550">&lt;h4&gt;License&lt;/h4&gt;
+&lt;div id="extra" class="slotarea"&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License" 
+ style="border-width:0" 
+ src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /&gt;
+&lt;/a&gt;&lt;/li&gt;
+
+&lt;li/&gt;
+
+&lt;li&gt;&lt;a href="http://yk.zoomquiet.org/"&gt;乐库&lt;sup&gt;(新浪正版音乐仓库)&lt;/sup&gt;&lt;/a&gt;
+    &lt;sub&gt;更新索引&lt;/sub&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="ZoomQuiet.20060121170005">/*padding:5px 15px 10px 15px;          */
+#banner {
+    font-family: "Courier New",Georgia,Verdana, arial, helvetica, sans-serif;
+    color:#CED8CE;
+    background:#25342A;
+	padding-left: 10px;
+    letter-spacing: .1em;
+    font-size:26px;
+    font-weight:bold ;
+    border-top:4px solid #738278;
+	border-bottom: 0px solid  #4A584A;
+    }
+#banner A{
+    color:#E0FFB8;
+    text-decoration:none; }
+#banner A:hover{
+    color:#DAF4DA;
+    text-decoration:overline ; }
+#banner SUP,SUB{
+    font-size:12px;
+    color:#DAE4DA;}
+#banner P#main{
+    margin: 5px;
+    padding: 5px; }
+#banner P#sub{
+    font-size:14px;letter-spacing: 8px;
+    margin: 5px;
+    padding: 4px 2px 10px 5px;}
+#banner DIV#recent {
+    border : 0px dotted #930;
+    color:#DAE4DA;
+    font-family: Georgia,arial, helvetica,sans-serif;
+    position : absolute ;
+    top: 3em;
+	left: 39%;
+    font-size:16px;
+    letter-spacing: 2px;
+    }</t>
+<t tx="ZoomQuiet.20060121172947">收集常用文章元素
+&lt;a href="http://technorati.com/tag/nomeans" rel="tag"&gt;nomeans&lt;/a&gt;
+
+%&lt;span class="technoratitag"&gt;&lt;/span&gt;
+
+/entry/.... 真实文件读取！
+
+[/pybimage/pyb-TedLeung.jpg]
+
+snap060220-sinablogjoke.png</t>
+<t tx="ZoomQuiet.20060121172947.1">------------------------------
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+
+% Leo 4.7.1 final: 编辑
+
+
+</t>
+<t tx="ZoomQuiet.20060121181858">@path comments/plugins</t>
+<t tx="ZoomQuiet.20060121181858.1">&lt;&lt; nospam declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+__author__ = "Steven Armstrong &lt;sa at c-area dot ch&gt;"
+__version__ = "$Revision: 1.4 $ $Date: 2005/09/10 23:57:08 $"
+__url__ = "http://www.c-area.ch/code/"
+__description__ = "Human verification system for the comments plugin"
+__license__ = "GPL 2+"
+
+
+# Python imports
+import sys
+import os
+import random
+
+# PIL imports http://www.pythonware.com/products/pil/
+try: # use try/except so verify_installation can guide the user how to setup PIL
+    import Image
+    import ImageDraw
+    import ImageOps
+    try:
+        import ImageFont
+    except ImportError:
+        import PIL.ImageFont as ImageFont
+except ImportError:
+    pass
+
+# Pyblosxom imports
+from Pyblosxom import tools
+
+# parameters
+_xstep = 5 
+_ystep = 5 
+_imageSize = (61,21)
+_bgColor = (255,255,255) # White
+_gridInk = (200,200,200)
+_fontInk = (130,130,130)
+_fontSize = 14
+# set in cb_start callback
+_fontPath = None
+
+# the names of the fields used in the comment form
+_form_fields = ["title", "author", "email", "url", "body"]
+
+
+@others
+</t>
+<t tx="ZoomQuiet.20060121181858.10">def cb_comment_reject(args):
+    """
+    Checks if the the nospam number of the incomming request 
+    matches the one stored in the session.
+    Creates a template variable $cmt_nospam_error with a 
+    error message if it didn't.
+    
+    Also creates the following template variables:
+    $cmt_title, $cmt_author, $cmt_email, $cmt_url, $cmt_body
+    which can be used to populate the form with the values
+    provided by the user.
+
+    @param args: a dict containing: pyblosxom request, comment dict 
+    @type config: C{dict}
+    @return: True if the comment should be rejected, False otherwise
+    @rtype: C{bool}
+    """
+    request = args['request']
+    session = request.getSession()
+    form = request.getForm()
+    data = request.getData()
+
+    try:
+        nospam = int(form["nospam"].value)
+        sess_nospam = int(session["nospam"])
+    except:
+        nospam = 0
+        sess_nospam = 1
+
+    if nospam != sess_nospam:
+        _remember_comment(request)
+        data["cmt_nospam_error"] = "Secret number did not match."
+        return True
+    else:
+        _forget_comment(request)
+        if "cmt_nospam_error" in data:
+            del data["cmt_nospam_error"]
+        return False
+</t>
+<t tx="ZoomQuiet.20060121181858.2">"""
+Human verification system for the comments plugin.
+Based on a idea and ref impl of Jesus Roncero Franco &lt;jesus at roncero.org&gt;.
+Implemented as a pyblosxom plugin by Steven Armstrong &lt;sa at c-area.ch&gt;.
+
+Creates a random number, generates an image of it, and stores the number
+in the session. Then compares the number the user entered in the comment
+form with the one stored in the session. Rejects the comment if they 
+don't match.
+
+If you make any changes to this plugin, please send a patch to 
+&lt;sa+pyblosxom at c-area dot ch&gt; so I can incorporate them.
+Thanks!
+
+
+To install:
+1) Put nospam.py in your plugin directory.
+2) In config.py add nospam to py['load_plugins']
+3) Add the following variables to config.py:
+    py['nospam_font'] = '/path/to/truetype/font.ttf' # required, no default
+    py['nospam_extension'] = '/nospam.png' # optional, this is the default
+
+Note:
+If you an error about problems with TrueType fonts, it's likely that
+you are using an older PIL version that can't handle them.
+In this you'll have to use a pil font from [1] instead and configure config.py as:
+    py['nospam_font'] = '/path/to/pilfonts/lubB10.pil'
+
+[1] http://effbot.org/pil/pilfonts.zip
+
+
+Add something like this to your comment-form.html template:
+&lt;label for="nospam"&gt;Secret Number:&lt;/label&gt;
+&lt;img src="$base_url/nospam.png" alt="Secret Number Image" title="Type this number into the field on the right" /&gt;
+&lt;input name="nospam" id="nospam" type="text" value="" maxlength="5" style="width:5em" /&gt;
+
+
+Dependecies:
+    - My compatibility plugin if you're not using pyblosxom 1.2+.
+    - My session plugin.
+    - Python imaging library from http://www.pythonware.com/products/pil/
+
+
+Thanks to Ludger Humbert for pointing out issues with different PIL versions.
+
+$Id: ZqsPyBlosxom.leo 2102 2007-06-16 05:17:26Z zoomq $
+"""
+
+</t>
+<t tx="ZoomQuiet.20060121181858.3">def verify_installation(request):
+    config = request.getConfiguration()
+    retval = 1
+
+    from Pyblosxom import pyblosxom
+    version = float(pyblosxom.VERSION)
+    if version &lt; 1.2:
+        try:
+            import compatibility
+        except ImportError:
+            print "You're running Pyblosxom %.1f and will need " % version
+            print "the 'compatibility.py' plugin to use this plugin."
+            retval = 0
+
+    try:
+        import session
+    except ImportError:
+        print "Missing required plugin 'session.py'."
+        retval = 0
+
+    old_pil = False
+    no_pil = False
+    try:
+        import ImageFont
+    except ImportError:
+        old_pil = True
+        try:
+            import PIL.ImageFont
+        except ImportError:
+            no_pil = True
+
+    if not config.has_key('nospam_font'):
+        print "Missing required property: 'nospam_font'"
+        print "This must be the absolute path to a truetype font."
+        retval = 0
+
+    if no_pil:
+        print "Python imaging library not found."
+        print "Get and install it from http://www.pythonware.com/products/pil/"
+        retval = 0
+
+    if old_pil:
+        print "You seem to be using an old PIL (Python imaging library) version."
+        print "You must get a pil font from http://effbot.org/pil/pilfonts.zip"
+        print "and point the 'nospam_font' config property to one of them."
+
+    if not config.has_key('nospam_extension'):
+        print "Missing optional property: 'nospam_extension'"
+        print "Using the default of '/nospam.png'"
+    
+    return retval
+</t>
+<t tx="ZoomQuiet.20060121181858.4"># This function is (c) Jesus Roncero Franco &lt;jesus at roncero.org&gt;.
+# Modified to support old and new PIL versions by Steven Armstrong.
+def _generateImage(number):
+    try:
+        # recent PIL version with support for truetype fonts
+        font = ImageFont.truetype(_fontPath, _fontSize)
+    except AttributeError:
+        # old PIL version, fallback to pil fonts
+        font = ImageFont.load(_fontPath)
+
+    img = Image.new("RGB", _imageSize, _bgColor)
+    draw = ImageDraw.Draw(img)
+    
+    xsize, ysize = img.size
+
+    # Do we want the grid start at 0,0 or want some offset?
+    x, y = 0,0
+    
+    while x &lt;= xsize:
+        try:
+            # recent PIL version
+            draw.line(((x, 0), (x, ysize)), fill=_gridInk)
+        except TypeError:
+            # old PIL version
+            draw.setink(_gridInk)
+            draw.line(((x, 0), (x, ysize)))
+        x = x + _xstep 
+    while y &lt;= ysize:
+        try:
+            draw.line(((0, y), (xsize, y)), fill=_gridInk)
+        except TypeError:
+            draw.setink(_gridInk)
+            draw.line(((0, y), (xsize, y)))
+        y = y + _ystep 
+    
+    try:
+        draw.text((10, 2), number, font=font, fill=_fontInk)
+    except TypeError:
+        draw.setink(_fontInk)
+        draw.text((10, 2), number, font=font)
+
+    return img
+</t>
+<t tx="ZoomQuiet.20060121181858.5">def _writeImage(request):
+    number = str(random.randrange(1,99999,1))
+
+    session = request.getSession()
+    session["nospam"] = number
+    session.save()
+
+    image = _generateImage(number)
+
+    response = request.getResponse()
+    response.addHeader('Content-Type', 'image/png')
+    image.save(response, "PNG")
+</t>
+<t tx="ZoomQuiet.20060121181858.6">def _remember_comment(request):
+    """
+    Stores form fields in the data dict so they can be used to 
+    refill the form in the template.
+    
+    @param request: pyblosxom request object
+    @type request: L{Pyblosxom.pyblosxom.Request}
+    """
+    data = request.getData()
+    form = request.getForm()
+    for key in _form_fields:
+        data["cmt_%s" % key] = (form.has_key(key) and [form[key].value] or [''])[0]
+</t>
+<t tx="ZoomQuiet.20060121181858.7">def _forget_comment(request):
+    """
+    Resets/forgets any stored form field values.
+    
+    @param request: pyblosxom request object
+    @type request: L{Pyblosxom.pyblosxom.Request}
+    """
+    data = request.getData()
+    for key in _form_fields:
+        key = "cmt_%s" % key
+        if key in data:
+            del data[key]
+</t>
+<t tx="ZoomQuiet.20060121181858.8">#******************************
+# Callbacks
+#******************************
+
+def cb_start(args):
+    request = args['request']
+    config = request.getConfiguration()
+    global _fontPath
+    _fontPath = config.get('nospam_font')
+</t>
+<t tx="ZoomQuiet.20060121181858.9">def cb_handle(args):
+    request = args['request']
+    http = request.getHttp()
+    config = request.getConfiguration()
+    ext = config.get("nospam_extension", "/nospam.png")
+    if http['PATH_INFO'].endswith( ext ):
+        # write the image to the output stream
+        _writeImage(request)
+        # return True to tell pyblosxom that the request has been taken care of
+        return 1
+</t>
+<t tx="ZoomQuiet.20060121183034">整理了SVN+xhtml.py 组合，
+开始 t2t 的丰满blogging!
+TODO:
+    不能很好的del 失误提交的t2t集成文件！
+    
+    
+</t>
+<t tx="ZoomQuiet.20060121183108">集成no spam 的 comment
+
+trackbak:
+    tools.make_logger(logfile)
+[Sat Jan 21 18:49:10 2006] [error] [client 10.217.12.21] AttributeError
+[Sat Jan 21 18:49:10 2006] [error] [client 10.217.12.21] :
+[Sat Jan 21 18:49:10 2006] [error] [client 10.217.12.21] 'module' object has no attribute 'make_logger'
+
+Pingback:
+    
+Mark Pilgrim's rssfinder and rssparser modules to be installed 
+ File "/data1/www/blog.woodpecker/pyblosxom/plugins/comments/plugins/commentAPI.py", line 53, in cb_start
+[Sat Jan 21 19:13:08 2006] [error] [client 10.217.12.21]
+[Sat Jan 21 19:13:08 2006] [error] [client 10.217.12.21] tools.make_logger(logfile)
+[Sat Jan 21 19:13:08 2006] [error] [client 10.217.12.21] AttributeError
+[Sat Jan 21 19:13:08 2006] [error] [client 10.217.12.21] :
+[Sat Jan 21 19:13:08 2006] [error] [client 10.217.12.21] 'module' object has no attribute 'make_logger'
+[Sat Jan 21 19:13:08 2006] [error] [client 10.217.12.21]
+[Sat Jan 21 19:13:08 2006] [error] [client 10.217.12.21] Premature end of script headers: pyblosxom.cgi
+</t>
+<t tx="ZoomQuiet.20060121183523">&lt;&lt; trackback declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+import cgi, os, os.path
+from Pyblosxom import tools
+
+tb_good_response = """&lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;response&gt;
+&lt;error&gt;0&lt;/error&gt;
+&lt;/response&gt;"""
+
+tb_bad_response = """&lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;response&gt;
+&lt;error&gt;1&lt;/error&gt;
+&lt;message&gt;%s&lt;/message&gt;
+&lt;/response&gt;"""
+
+@others
+</t>
+<t tx="ZoomQuiet.20060121183523.1">"""
+Copyright (c) 2003-2005 Ted Leung
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+This plugin allows pyblosxom to process trackback
+&lt;http://www.sixapart.com/pronet/docs/trackback_spec&gt; pings.  You must have the 
+comments plugin installed as well, although you don't need to enable comments 
+on your blog in order for trackbacks to work
+
+%&lt;---------------------------------------------------------
+py['trackback_urltrigger'] = "/trackback"
+%&lt;---------------------------------------------------------
+
+"""
+
+
+</t>
+<t tx="ZoomQuiet.20060121183523.2">def cb_start(args):
+    request = args["request"]
+    config = request.getConfiguration()
+    logdir = config.get("logdir", "/tmp")
+    logfile = os.path.normpath(logdir + os.sep + "trackback.log")
+
+    #tools.make_logger(logfile)
+    ## Zoomq::060122 fixed from cheers.Steven suggest
+    log = tools.getLogger()
+    
+</t>
+<t tx="ZoomQuiet.20060121183523.3">def verify_installation(request):
+    config = request.getConfiguration()
+    retval = 1
+
+    # all config properties are optional
+    if not config.has_key('trackback_urltrigger'):
+        print("missing optional property: 'trackback_urltrigger'")
+
+    return retval
+</t>
+<t tx="ZoomQuiet.20060121183523.4">def cb_handle(args):
+    """
+    @param args: a dict of plugin arguments
+    @type args: dict
+        log = tools.getLogger()
+        log.info('some info message')
+        log.debug('some debug message')
+        log.error('ops I did it again')        
+    """
+    request = args['request']
+    pyhttp = request.getHttp()
+    config = request.getConfiguration()
+
+    urltrigger = config.get('trackback_urltrigger','/trackback')
+
+    path_info = pyhttp['PATH_INFO']
+    if path_info.startswith(urltrigger):
+        response = request.getResponse()
+        response.addHeader("Content-type", "text/xml")
+
+        form = request.getForm()
+
+        message = "A trackback must have at least a URL field (see http://www.sixapart.com/pronet/docs/trackback_spec )"
+
+        if form.has_key("url"):
+            import time
+            cdict = { 'title': form.getvalue('title', ''), \
+                      'author': 'Trackback from %s' % form.getvalue('blog_name', ''), \
+                      'pubDate' : str(time.time()), \
+                      'link' : form['url'].value, \
+                      'source' : form.getvalue('blog_name', ''), \
+                      'description' : form.getvalue('excerpt', '') }
+            from Pyblosxom.entries.fileentry import FileEntry
+            from Pyblosxom.pyblosxom import Request
+            from Pyblosxom.pyblosxom import PyBlosxom
+
+            datadir = config['datadir']
+
+            from comments import writeComment    
+            try:
+                import os
+                pi = path_info.replace(urltrigger,'')
+                path = os.path.join(datadir, pi[1:])
+                data = request.getData()
+                ext = tools.what_ext(data['extensions'].keys(), path)
+                entry = FileEntry(request, '%s.%s' % (path, ext), datadir )
+                data = {}
+                data['entry_list'] = [ entry ]
+                writeComment(request, config, data, cdict, config['blog_encoding'])
+                print &gt;&gt; response, tb_good_response
+            except OSError:
+                message = 'URI '+path_info+" doesn't exist"
+                #tools.log(message)
+                log.error(message)
+                print &gt;&gt; response, tb_bad_response % message
+
+        else:
+            #tools.log(message)
+            log.error(message)
+            print &gt;&gt; response, tb_bad_response % message
+
+        # no further handling is needed
+        return 1
+    else:
+        return 0</t>
+<t tx="ZoomQuiet.20060121185443">@path rss20.flav</t>
+<t tx="ZoomQuiet.20060121185443.1">&lt;?xml version="1.0" encoding="iso-8859-1" ?&gt;
+&lt;rss version="2.0" 
+   xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" 
+   xmlns:html="http://www.w3.org/1999/html" 
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+   xmlns:wfw="http://wellformedweb.org/CommentAPI"
+   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"&gt;
+&lt;channel&gt;
+   &lt;title&gt;$blog_title&lt;/title&gt;
+   &lt;link&gt;$base_url&lt;/link&gt;
+   &lt;description&gt;$blog_description&lt;/description&gt;
+   &lt;language&gt;$blog_language&lt;/language&gt;
+   &lt;copyright&gt;$blog_rights&lt;/copyright&gt;
+   &lt;ttl&gt;60&lt;/ttl&gt;
+   &lt;pubDate&gt;$latest_rfc822date&lt;/pubDate&gt;
+   &lt;managingEditor&gt;$blog_email&lt;/managingEditor&gt;
+   &lt;generator&gt;PyBlosxom http://pyblosxom.sourceforge.net/ $pyblosxom_version&lt;/generator&gt;
+</t>
+<t tx="ZoomQuiet.20060121185526">&lt;/channel&gt;
+&lt;/rss&gt;
+</t>
+<t tx="ZoomQuiet.20060121185526.1">&lt;item&gt;
+&lt;wfw:comment&gt;###commentAPI###/$file_path&lt;/wfw:comment&gt;
+   &lt;title&gt;$title&lt;/title&gt;
+   &lt;guid isPermaLink="false"&gt;$file_path&lt;/guid&gt;
+   &lt;link&gt;$base_url/$file_path.$default_flavour&lt;/link&gt;
+   &lt;description&gt;&lt;![CDATA[
+$body
+]]&gt;&lt;/description&gt;
+   &lt;category domain="$base_url"&gt;$path&lt;/category&gt;
+   &lt;pubDate&gt;$rfc822date&lt;/pubDate&gt;
+&lt;/item&gt;
+</t>
+<t tx="ZoomQuiet.20060122135250">I deliberately dropped tools.make_logger when I rewrote the logging
+system [1].
+
+You'll have to make the following changes anywhere you bump into the
+"object has no attribute 'make_logger'" exception.
+
+old:
+tools.make_logger('/path/to/file')
+tools.log('some messages')
+
+new:
+log = tools.getLogger()
+log.info('some info message')
+log.debug('some debug message')
+log.error('ops I did it again')
+
+
+[1]
+http://sourceforge.net/mailarchive/forum.php?thread_id=6946268&amp;forum_id=24361
+
+cheers
+Steven</t>
+<t tx="ZoomQuiet.20060122144657"></t>
+<t tx="ZoomQuiet.20060122145631">[定制3]定制entry格式
+..
+&lt;&lt;t2t head&gt;&gt;
+
+&lt;&lt;SNSlink&gt;&gt;
+```
+def parse(story):
+    """
+    The main workhorse that does nothing but call MoinMoin to do its dirty
+    laundry
+
+    @param story: A text for conversion
+    @type story: string
+    @returns: formatted string
+    @rtype: string
+    """
+    s = StringIO()
+    oldstdout = sys.stdout
+    form = None
+    page = Page(None)
+    page.hilite_re = None
+    request = Request()
+    request.user = User()
+    formatter = Formatter(request)
+    formatter.setPage(page)
+    sys.stdout = s
+    Parser(story, request).format(formatter, form)
+    sys.stdout = oldstdout
+    result = s.getvalue()
+    s.close()
+    return result
+
+```
+
+  那未就自个儿DIY!
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060122145631.1">
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+</t>
+<t tx="ZoomQuiet.20060122145631.2">------------------------------
+更新::%%date(%Y-%m-%d %I:%M:%S)
+
+动力源自:**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+</t>
+<t tx="ZoomQuiet.20060122153701">@language Moin
+[RE:]一个程序员的博客 开源机会还要等10年？
+自评
+&lt;&lt;t2t head&gt;&gt;
+
+http://my.donews.com/qianlaohu/2006/01/22/
+
+不知道哪位兄弟，快速引用了还没有发表的报纸文章…………
+
+嗬嗬;-) 不知道怎么讲…………
+
+**[奋起 http://wiki.woodpecker.org.cn/moin/RouseChina]**
+```
+    每日至少抽一刻钟解答列表中初学者的问题，
+    每周至少抽两小时整理新学知识，发表体验 Blog/Wiki/mail 分享出去,
+    每周至少抽四个小时来翻译自个儿喜欢的自由软件的文档，
+    每月至少抽八小时编程，推进自个儿的项目，
+    每年至少参加一次自由软件的活动，传播自由软件思想，发展一名自由人……
+
+    只要我们每个人都坚持下去……
+    10年！就足以改变中国软件的整体风貌！
+```
+
+    宣言是啄木鸟社区的大家共同约定的不是俺一个人的哪……
+
+&lt;&lt;SNSlink&gt;&gt;  
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060122153701.1">
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+</t>
+<t tx="ZoomQuiet.20060122170916">
+[/pybimage/technorati-over.gif]
+    [chinese http://www.technorati.com/tags/chinese]
+    ,[OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[nomeans http://www.technorati.com/tags/nomeans]</t>
+<t tx="ZoomQuiet.20060122170940">
+[/pybimage/technorati-over.gif]
+    [Quiet http://www.technorati.com/tags/Quiet]
+    ,[news http://www.technorati.com/tags/news]
+    ,[nomeans http://www.technorati.com/tags/nomeans]
+
+%&lt;span class="technoratitag"&gt;&lt;/span&gt;</t>
+<t tx="ZoomQuiet.20060122173831">
+[/pybimage/technorati.gif]:
+    [news http://www.technorati.com/tags/news]
+    ,[nomeans http://www.technorati.com/tags/nomeans]
+%&lt;span class="technoratitag"&gt;&lt;/span&gt;</t>
+<t tx="ZoomQuiet.20060122180430">通过 SVN hooks 的修正，使用定制的 txt2tags
+为 link 增加  rel="tag"
+为 technorati.com
+
+</t>
+<t tx="ZoomQuiet.20060123103917">http://www.timfanelli.com/item/42
+
+py['pretext'] = "&lt;div class="tags"&gt;Tags:""
+py['posttext'] = "&lt;/div&gt;"
+py['tagsep'] = ", "
+#py['tag_url'] = "http://mysite/tags"  # defaults to $base_url/tags
+#py['tag_url_display'] = "http://mysite/tags" # defaults to tag_url
+#py['ignore_tags'] = []
+
+pretext, posttext and tagsep 将用以 渲染  $tags 到模板中;
+
+tag_url 是基础URL用以搜索标签文章. 
+模板中使用: $tag_url/ 来链接文章
+tag_url_display 允许你使用mod_rewrite (or an equivellant) 来屏蔽真实的URL
+实际上, 我的tag_url 是 http://www.timfanelli.com/blog/tags/, 
+而我通过 mod_rewrite 让它看起来是 http://www.timfanelli.com/tags/ .
+tag_url_display 在生成链接时的优先级高于tag_url
+(tag_url 总是需要的，用以进行搜索, 所以不要改变它！). 
+
+最后, ignore_tags 令Folksonomy 忽略一些特殊的tags, 
+不过你依然可以通过它们的tag来搜索到
+
+hollo!
+i'm Chinese Pythoner, very like PyBlosxom ,
+but can not fixed the version 1.3.0 to usage ur
+folksonomy plugins, can u detailed explain how to install it?
+http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/060115-PyblosxomFixLog2.phtm
+i'm fixed PyBlosxom with SVN, so i can Blogging usagw txt2tags, but ur folksonomy can not understand my tags?
+re.compile( '\n#tags\s*(.*)\n' ).search(contents)
+means in new line include the "#tags tag2,tag2.." is OK!
+but why in my blog not working?
+thanx for all!
+</t>
+<t tx="ZoomQuiet.20060123104045">@path plugins</t>
+<t tx="ZoomQuiet.20060123105542">py['plugin_dirs'] = ['/data1/www/blog.woodpecker/pyblosxom/plugins'
+                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/preformatters'
+                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/comments/plugins'
+                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/xmlrpc_plugins'
+                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/meta_plugins'
+                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/snsplugins'
+                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/willplugins'
+                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/zqpyb+'
+                     ]
+
+
+# There are two ways for PyBlosxom to load plugins.  The first is the
+# default way which involves loading all the plugins in the lib/plugins
+# directory in alphanumeric order.  The second is by specifying a
+# "load_plugins" key here.  Doing so will cause us to load only the
+# plugins you name and we will load them in the order you name them.
+# The "load_plugins" key is a list of strings where each string is
+# the name of a plugin module (i.e. the filename without the .py at
+# the end).
+# ex: py['load_plugins'] = ["pycalendar", "pyfortune", "pyarchives"]
+#py['load_plugins'] = []
+    
+@others
+
+
+
+</t>
+<t tx="ZoomQuiet.20060123122117">&lt;&lt; folksonomy declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+__author__ = 'Timothy C. Fanelli &lt;tim.fanelli@gmail.com&gt;'
+__version__ = '1.4'
+__url__ = 'http://www.timfanelli.com'
+
+# Variables
+
+import os, re, sys, string
+from Pyblosxom import entries
+
+@others
+
+</t>
+<t tx="ZoomQuiet.20060123122117.1">"""
+folksonomy.py
+
+Reference: http://en.wikipedia.org/wiki/Folksonomy
+Quick Guide to Installing Folksonomy: http://www.timfanelli.com/item/folksonomy_update
+
+Folksonomy infers relationships between your tags and entries by locating entries with 
+the same tags, providing navigation links through your site based on how your entries are 
+tagged.
+
+Tagging your entries is simple, you just have to add a "tags" element to your entry's 
+metadata section. A typical entry will then looks like this:
+  
+    My Entry Title
+    #tags apples,oranges,orangatangues
+    This is my post about apples oranges and orangatangues.
+
+Your entry is then tagged with those three things, apples, oranges, and orangatangues.
+
+Folksonomy populates three template variables, $tags, $relatedtags and $relatedstores, for
+use in your story template. 
+
+Adding $tags to your story template will create links to your tags. The links are somewhat 
+customizable, using the following config entries:
+
+	py['tag_url']
+	py['pretext']
+	py['posttext']
+	py['tagsep']
+
+The default tag_url should be set to http://yoursite/tags/, but you can also set 
+it to something like http://technorati.com/tags/.  Please make sure to have the trailing slash.
+
+The pretext and posttext will appear on your webpage surrounding your tags and tagsep will 
+note what to seperate the tags by.
+
+So, for example, if I have 
+	py['pretext'] = '&lt;span class="tags"&gt;Tags: '
+	py['posttext'] = '&lt;/span&gt;'
+	py['tagsep'] = ', '
+
+Then it would appear like:
+
+	&lt;span class="tags"&gt;Tags: biking, pennsylvania&lt;/span&gt;
+
+$relatedtags and $relatedstories will only be populated when there's a single entry in the 
+page contents (e.g., you're viewing a story through it's permalink). 
+
+$relatedtags and $relatedstories contain links to search that tag or view that story respectively.
+
+Tags are considered to be related if there is a story that is shared between those tags. 
+Relationships are weighted based on how many stories are shared between them. The related 
+tags is a set of the top two related tags to each tag in your story.
+
+Related stories are the two most recent stories from each related tag.
+
+Folksonomy also creates tag clouds, stored in $tagcloud and $populartagcloud, which 
+provide visual representations of your blog's subject matter, and navigational links into 
+the tags. $populartagcloud is a rebalanced subset of $tagcloud, containing only those tags
+which are ranked at least a "medium" in the full tagcloud.
+
+To use related stories or tags, simply add $relatedstories or $relatedtags to your
+flavour's story template. You can customize it's appearance by defining
+
+	#relatedstores { }
+
+in your CSS.
+
+To use the tagcloud, simply add either $tagcloud or $popular tagcloud to your flavour in a 
+location of your choice, and then define the following in your CSS:
+
+        .smallestTag { font-size=10px; }
+        .smallTag    { font-size=11px; }
+        .mediumTag   { font-size=12px; }
+        .bigTag      { font-size=13px; }
+        .biggestTag  { font-size=14px; }
+        .hugeTag     { font-size=15px; }
+        .hugestTag   { font-size=16px; }
+        .mostHugeTag { font-size=17px; }
+
+        #tagcloud    { }
+
+Customized for your site, of course. 
+
+NOTE: As of 1.1.0, Folksonomy swallowed up my tag cloud plugin. Tag cloud will be 
+maintained independantly, however it is no longer necessary to install it if you are 
+using Folksonomy. Folksonomy and TagCloud will be kept in sync, and interchangeable 
+as far as TagCloud functionality is concerned.
+
+Folksonomy 1.1.0 contains all the functionality of Tag Cloud 1.3.1
+
+NOTE: As of 1.2.0, Folksonomy no longer depends on Joe Topjian's Tags plugin. Folksonomy 
+is now interchangable with Tags as far as basic tagging functionality is concerned. If you 
+install this version of Folksonomy, you may safely remove Joe's Tags plugin. This was 
+done because I was making frequent changes to Joe's plugin to support Folksonomy, and I 
+didn't want to have to keep bombarding him with change requests for Folksonomy to work.
+
+Folksonomy 1.2.0 contains all the functionality of Tags version "200510242045 TCF"
+
+Folksonomy 1.3.0 fixes has a complete rewrite of the algorithm to choose related stories. 
+                 Related stories are now ordered by how many tags they share with the story
+				 being viewed.
+
+Folksonomy 1.4 Introduces forced relationships for entries. This is extremely useful is you're 
+               writing a series of a posts that share tags with other not-as-strongly-related 
+               entries, of if you always want a story to show certain relationships that do not 
+               change over time. To force a relationship to another entry, add a related tag to 
+               your story's metadata section with a comma-separated list of entries, like so:
+
+			#related category/filename
+
+	       So if I have a post that I want to be related to "myotherpost.txt" in the 
+               "general" category, I would add:
+
+			#related general/myotherpost.txt
+"""
+
+
+</t>
+<t tx="ZoomQuiet.20060123122117.10">def createPopularTagCloud( config, tagcount, mincount, maxcount ):
+	distribution = ( maxcount - mincount ) / 6
+	popcount = {}
+	popmin = maxcount
+
+	for tag in tagcount.keys():
+		count = len( tagcount[tag] )
+		if ( count &gt; ( mincount + distribution ) ):
+			popcount[tag] = tagcount[tag]
+			popmin = min( popmin, count )
+	
+	return createTagCloud( config, popcount, popmin, maxcount )			
+</t>
+<t tx="ZoomQuiet.20060123122117.11">def createTagCloud( config, tagcount, mincount, maxcount ):
+	if tagcount:
+		tagurl = config['tag_url']
+		if config.has_key('tag_url_display'):
+			tagurl = config['tag_url_display']
+
+		tagcloud = []
+		tagcloud.append("&lt;div id='tagcloud'&gt;")
+		distribution = ( maxcount - mincount ) / 6
+
+		for tag in tagcount.keys():
+			size = "mediumTag"
+
+			if tag != "untagged":
+				if ( len(tagcount[tag]) == maxcount ):
+					size = "mostHugeTag"
+				elif ( len(tagcount[tag]) &gt; ( mincount + ( distribution * 5 ) ) ):
+					size = "hugestTag"
+				elif ( len(tagcount[tag]) &gt; ( mincount + ( distribution * 4 ) ) ):
+					size = "hugeTag"
+				elif ( len(tagcount[tag]) &gt; ( mincount + ( distribution * 3 ) ) ):
+					size = "biggestTag"
+				elif ( len(tagcount[tag]) &gt; ( mincount + ( distribution * 2 ) ) ):
+					size = "bigTag"
+				elif ( len(tagcount[tag]) &gt; ( mincount + distribution ) ):
+					size = "mediumTag"
+				elif ( len(tagcount[tag]) &gt; mincount ):
+					size = "smallTag"
+				elif ( len(tagcount[tag]) == mincount ):
+					size = "smallestTag"
+
+			tagcloud.append( "&lt;a href='%s' class='%s' alt='There are %s entries tagged %s'&gt;%s&lt;/a&gt;\n" % ( '%s%s' % ( tagurl,tag ), size, str(len(tagcount[tag])), tag, tag  ) )
+					
+		tagcloud.append("&lt;/div&gt;")
+		result = "".join(tagcloud)
+		return result
+</t>
+<t tx="ZoomQuiet.20060123122117.12">def cb_filelist(args):
+        request = args['request']
+	config = request.getConfiguration()
+        data = request.getData()
+	new_files = [ ]
+
+	m = re.compile(r'^%s' % config['tag_url']).match(data['url'])
+	if m:
+		tag = re.sub("%s" % config['tag_url'],'',data['url'])
+		return getEntriesForTag( tag, args )
+</t>
+<t tx="ZoomQuiet.20060123122117.13">def getEntriesForTag(tag,args):
+        request = args['request']
+	config = request.getConfiguration()
+        data = request.getData()
+
+	new_files = []
+	entrymap = data['entrytagmap']
+
+	for entry_location in entrymap[tag]: 
+		tmpentry = entries.fileentry.FileEntry(request, entry_location, data['root_datadir'])
+		new_files.append(( tmpentry._mtime, tmpentry ))
+
+	if new_files:
+		new_files.sort()
+		new_files.reverse()
+
+		myentries = []
+		for myentry in new_files:
+			myentries.append( myentry[1] )
+
+		return myentries
+</t>
+<t tx="ZoomQuiet.20060123122117.2">def cb_start(args):
+	"""
+	Initializes the entrymap and folksonomy tables.
+	"""
+
+	request = args['request']
+	config  = request.getConfiguration()
+	data    = request.getData()
+
+	entrymap = {}
+	maxcount = 0;
+
+	ignoretags = []
+	if config.has_key('ignore_tags'):
+		ignoretags = config['ignore_tags']
+
+	if not config.has_key('tag_url'):
+		config['tag_url'] = "%s%s" % (config['base_url'],'tags')
+
+	if not config.has_key('tag_url_display'):
+		config['tag_url_display'] = config['tag_url']
+
+	ignoredirectories = config[ 'ignore_directories' ]
+
+        tagfileswithext = [ "txt" ]
+        if config.has_key( 'taggable_files' ):
+                tagfileswithext = config[ 'taggable_files' ]
+
+	for root,dirs,files in os.walk( config['datadir'] ):
+		for file in files:
+                        m = re.compile('.*\.([^.]+)$').search(file)
+                        if ( not m ) or ( not m.group(1) in tagfileswithext ):
+				continue
+			
+			entry_location = root + "/" + file
+
+			directory = os.path.dirname(entry_location)
+			if ( os.path.split( directory )[1] in ignoredirectories ):
+				continue
+
+			contents = open(entry_location,'r').read()
+
+			m = re.compile( '\n#::tags\s*(.*)\n' ).search(contents)
+			if m:
+				tagstring = m.group(1)
+				tags = tagstring.split(',')
+
+				first = True
+				for tag in tags:
+					if ( tag in ignoretags ):
+						continue
+
+					if not tag in entrymap.keys():
+						entrymap[tag] = []
+
+					entrymap[tag].append( entry_location )
+					maxcount = max( maxcount, len(entrymap[tag]) )
+			else:
+				if not "untagged" in entrymap.keys():
+					entrymap["untagged"] = []
+
+				entrymap["untagged"].append( entry_location )
+
+	data['entrytagmap'] = entrymap
+
+	mincount = maxcount	
+	for tag in entrymap.keys():
+		mincount = min( mincount, min( mincount, len( entrymap[tag] ) ) )
+
+	sortedtags = entrymap.keys()
+	sortedtags.sort()
+
+	data['sortedtags']  = sortedtags
+	data['folksonomy']  = createFolksonomy( entrymap )
+	data["tagcloud"] = createTagCloud( config, entrymap, mincount, maxcount )
+	data["populartagcloud"] = createPopularTagCloud( config, entrymap, mincount, maxcount )
+</t>
+<t tx="ZoomQuiet.20060123122117.3">def cb_story(args):
+	entry   = args['entry']
+	request = args['request']
+	data    = request.getData()
+	config  = request.getConfiguration()
+
+	if not entry.has_key('tags'):
+		return
+
+	# If we're showing more than one story, the do not populate relatedtags and relatedstories.
+	renderer = args['renderer']
+	if ( len(renderer.getContent()) == 1 ):
+		relatedtags = getRelatedTags( entry, data, config )
+		if relatedtags:
+			entry['relatedtags']  = relatedtags
+
+		relatedstories =  getRelatedStories( entry, request, data, config )
+		if relatedstories:
+			entry['relatedstories'] = relatedstories
+
+	# Set the story tags and rss categories
+	entry.setMetadata('rawtags', entry.getMetadata('tags'))
+	storytags = "%s%s%s" % ( config['pretext'], config['tagsep'].join( [ "&lt;a href='%s%s' rel='tag'&gt;%s&lt;/a&gt;" % ( config['tag_url'],tag,tag ) for tag in entry.getMetadata('tags').split(',')  ] ), config['posttext'] )	
+	entry.setMetadata('rsscategories', "".join( ['&lt;category&gt;%s&lt;/category&gt;' % tag for tag in entry.getMetadata('tags').split(',')]))
+	entry.setMetadata('tags', storytags)
+
+	return args['template']
+</t>
+<t tx="ZoomQuiet.20060123122117.4">def getEntryTitle( entry ):
+	entry.getData()
+	return entry['title']
+</t>
+<t tx="ZoomQuiet.20060123122117.5">def getRelatedStories( entry, request, data, config ):
+	"""
+	returns the set of stories that share tags with one or more tags in entry, sorted by decreasing order of number 
+	of shared tags.
+	"""
+	ignoretags = config['ignore_tags']
+	
+	related = {}
+	tags = entry.getMetadata('tags').split(',')
+	for tag in tags:
+		if tag in ignoretags:
+			continue
+		
+		tmp = _getrelatedstories( tag,data )
+		if tmp:
+			for relationship in tmp:
+				tag = relationship[0]
+				stories = relationship[1]
+				
+				for story in stories:
+					if related.has_key( story ):
+						related[story] = (related[story][0] + 1, story)
+					else:
+						related[story] = (1,story)
+						
+
+	# Read force-related from meta.
+	myentries = []
+	if entry.has_key('related'):
+		forcerelated = entry.getMetadata('related').split(',')
+		myentries = [ os.path.join( config['datadir'], location ) for location in forcerelated ]
+							
+	if related:
+		related = related.values()
+		related.sort()
+		related.reverse()
+		
+		myentries.extend( [ r[1] for r in related ] )
+		myentries = myentries[ : min( len(myentries), 6 ) ]
+		if myentries:	
+			relatedstories = ""
+			for entry_location in myentries:
+				tmpentry = entries.fileentry.FileEntry(request, entry_location, data['root_datadir'])
+				tmpentry.getData()
+				
+				if tmpentry._filename == entry._filename:
+					continue
+
+				relatedstories = "%s\n%s&lt;br/&gt;" % (relatedstories, "&lt;a href='%s/%s/%s'&gt;%s&lt;/a&gt;" % (config['base_url'],tmpentry['absolute_path'],tmpentry['fn'], getEntryTitle(tmpentry)))
+		
+			if relatedstories:
+				return "&lt;div id='relatedstories'&gt;%s&lt;p&gt;%s&lt;/p&gt;&lt;/div&gt;" % ( config['relatedstories_header'], relatedstories )
+</t>
+<t tx="ZoomQuiet.20060123122117.6">def _getrelatedstories( tag, data ):
+	""" 
+	Returns the set of tuples (tag,sharedstories) that share stories with the specified tag sorted in 
+	decreasing order of number of shared stories.
+	"""
+	sortedtags = data['sortedtags']
+	folksonomy = data['folksonomy']
+
+	if ( not tag in sortedtags ):
+		return []
+
+	tagindex = sortedtags.index(tag)
+
+	relationship = []
+	for t in sortedtags:
+		entries = []
+		position = sortedtags.index(t)
+
+		if ( tagindex &lt;= position ):
+			entries = folksonomy[position][tagindex] 
+		elif ( tagindex &gt; position ):
+			entries = folksonomy[tagindex][position] 
+
+		if entries:
+			relationship.append( (len(entries), entries, t ) )
+
+	relationship.sort()
+	relationship.reverse()
+	
+	return [ (r[2],r[1]) for r in relationship ]
+</t>
+<t tx="ZoomQuiet.20060123122117.7">def getRelatedTags( entry, data, config ):
+	"""
+	returns the set of tags that share at least 2 stories with one or more tags in entry.
+	"""
+	ignoretags = config['ignore_tags']
+
+ 	related = []
+	tags = entry.getMetadata('tags').split(',')
+	for tag in tags:
+		if tag in ignoretags:
+			continue
+
+		tmp = _getrelatedtags( tag, data )
+		if ( tmp ):
+			related.extend(tmp)
+
+	related.sort()
+	related.reverse()
+
+	related = [ x[1] for x in related if x[0] &gt; 1 ]
+	taglinks = "&lt;div id='relatedtags'&gt;%s%s&lt;/div&gt;" % ( "related tags: ", ", ".join( ['&lt;a href="%s%s" rel="tag"&gt;%s&lt;/a&gt;' % (config['tag_url'],tag,tag) for tag in related] ) )
+	return related
+</t>
+<t tx="ZoomQuiet.20060123122117.8">def _getrelatedtags( tag, data ):
+	"""
+	Returns the set of tuples (sharedentries,tag) that share stories with the specified tag, 
+	sorted in decreasing order of number of entries shared.
+	"""
+	sortedtags = data['sortedtags']
+	folksonomy = data['folksonomy']
+
+	if ( not tag in sortedtags ):
+		print &gt;&gt;sys.stderr, 'ERROR: ' + tag + ' not in sortedtags.'
+		return []
+
+	tagindex = sortedtags.index(tag)
+
+	relationship = []
+	for t in sortedtags:
+		entries = []
+		position = sortedtags.index(t)
+
+		if ( tagindex &lt;= position ):
+			entries = folksonomy[position][tagindex] 
+		elif ( tagindex &gt; position ):
+			entries = folksonomy[tagindex][position] 
+
+		if entries:
+			relationship.append( ( len(entries), t ) )
+
+	relationship.sort()
+	relationship.reverse()
+	
+	return relationship
+</t>
+<t tx="ZoomQuiet.20060123122117.9">"""
+Given tags [ A, B, C, D, E ] with entries T(A), T(B), T(C), T(D), and T(E) 
+respectively, build table folksonomy:
+
+  |	A		B		C		D		E
+--+------------------------------------------
+A |	T(A)	T(AB)	T(AC)	T(AD)	T(AE)
+  |
+B |	-		T(B)	T(BC)	T(BD)	T(BE)
+  |
+C |	-		-		T(C)	T(CD)	T(CE)
+  |
+D |	-		-		-		T(D)	T(DE)
+  |
+E |	-		-		-		-		T(E)
+
+Such that for any tag x and any tag y, folksonomy[x,y] = set of entries in x and in y.
+"""
+def createFolksonomy( entrymap ):
+	folksonomytable = []
+	taglist = entrymap.keys()
+	taglist.sort()
+
+	for y in range( 0, len(taglist)  ):
+		for x in range( y, len(taglist) ):
+			for i in range(0,y):
+				folksonomytable[i].append([])
+
+			if x == y:
+				folksonomytable.append( [ entrymap[ taglist[x] ][:] ] )
+			else:
+				xentries = entrymap[taglist[x]]
+				yentries = entrymap[taglist[y]]
+			
+				xyentries = []
+				for entry in xentries:
+					if entry in yentries:
+						xyentries.append( entry )
+
+				if y == 0:
+					folksonomytable.append([xyentries])
+				else:
+					folksonomytable[x].append(xyentries)
+								
+	return folksonomytable
+</t>
+<t tx="ZoomQuiet.20060123123552">&lt;div id="Poweredby" class="slotbar" style="display:;"&gt;
+&lt;a href="http://pyblosxom.sourceforge.net/"&gt;
+[PyBlosxom]$pyblosxom_version&lt;/a&gt;
+
+| &lt;a href="http://python.org/"&gt;[Python]&lt;/a&gt;
+| &lt;a href="http://freebsd.org/"&gt;[FreeBSD]&lt;/a&gt;
+| &lt;a href="http://apache.org/"&gt;[Apache]&lt;/a&gt;
+&lt;/div&gt;</t>
+<t tx="ZoomQuiet.20060123140848">@path Folksonomy</t>
+<t tx="ZoomQuiet.20060123141042">@language Moin
+Technorati Link！
+...怎么着？
+&lt;&lt;t2t head&gt;&gt;
+
+: [Technorati Profile http://technorati.com/claim/m8ttdgxrhx]
+  **Technorati Link**
+  支持  Technorati 的//分众分类// 首先要如此:
+      + Step 1: 创建一新文章
+      + Step 2: 复制此链接(Technorati 自动生成的)到文章中:
+      + Step 3: 发布到你Blog 中
+
+  全部作好？开始让 Claiming 你的Blog
+
+
+
+&lt;&lt;SNSlink&gt;&gt;
+% #::tags OpenSource,PyBlosxom
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="ZoomQuiet.20060123141042.1">
+[/pybimage/technorati-over.gif]
+    [chinese http://www.technorati.com/tags/chinese]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[internet http://www.technorati.com/tags/internet]
+    ,[Folksonomy http://www.technorati.com/tags/Folksonomy]</t>
+<t tx="ZoomQuiet.20060123150758">&lt;!--
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"     xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"&gt;
+    &lt;rdf:Description
+    about="$base_url/$file_path"
+    dc:title="$title"
+    dc:identifier="$base_url/$file_path"
+    trackback:ping="$base_url/trackback.cgi/$file_path"
+    /&gt;
+&lt;/rdf:RDF&gt;
+--&gt;</t>
+<t tx="ZoomQuiet.20060123155419">google.com/adsense
+
+&lt;script type="text/javascript"&gt;&lt;!--
+google_ad_client = "pub-4733138268341333";
+google_ad_width = 250;
+google_ad_height = 250;
+google_ad_format = "250x250_as";
+google_ad_type = "text";
+google_ad_channel ="1462357042";
+google_color_border = "333333";
+google_color_bg = "000000";
+google_color_link = "FFFFFF";
+google_color_url = "999999";
+google_color_text = "CCCCCC";
+//--&gt;&lt;/script&gt;
+&lt;script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- SiteSearch Google --&gt;
+&lt;form method="get" action="http://www.google.com/custom" target="google_window"&gt;
+&lt;table border="0" bgcolor="#58635D"&gt;
+&lt;tr&gt;&lt;td nowrap="nowrap" valign="top" align="left" height="32"&gt;
+
+&lt;br/&gt;
+&lt;input type="hidden" name="domains" value="blog.zoomquiet.org"&gt;&lt;/input&gt;
+&lt;input type="text" name="q" size="21" maxlength="255" value=""&gt;&lt;/input&gt;
+&lt;input type="submit" name="sa" value="Google 搜索"&gt;&lt;/input&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;input type="radio" name="sitesearch" value="" checked="checked"&gt;&lt;/input&gt;
+&lt;font size="-1" color="#ffffff"&gt;Web&lt;/font&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;input type="radio" name="sitesearch" value="blog.zoomquiet.org"&gt;&lt;/input&gt;
+&lt;font size="-1" color="#ffffff"&gt;blog.zoomquiet.org&lt;/font&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;input type="hidden" name="client" value="pub-4733138268341333"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="forid" value="1"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="channel" value="7476703136"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="ie" value="UTF-8"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="oe" value="UTF-8"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="hl" value="zh-CN"&gt;&lt;/input&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/form&gt;
+&lt;!-- SiteSearch Google --&gt;</t>
+<t tx="ZoomQuiet.20060123161842">&lt;&lt;pycategories&gt;&gt;
+&lt;&lt;blosxomCalendar&gt;&gt;
+&lt;&lt;google&gt;&gt;
+&lt;&lt;Blogroll&gt;&gt;
+&lt;&lt;willplugins&gt;&gt;
+.slotarea{
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+    border:0px dotted #C1CBC1;
+    font-size:90%;
+    }
+
+.slotbar{
+    margin: .5em;
+    padding: 2px;
+    border:0px dotted #C1CBC1;
+    text-align: center;
+    font-family: "Courier New",Georgia,Verdana, arial, helvetica, sans-serif;
+    font-size:86%;
+    }
+#CreativeCommons{
+    border-top:2px dotted #C1CBC1;
+    }
+
+#AboutMe{
+    text-align: center;
+    }</t>
+<t tx="ZoomQuiet.20060123163025">/*text-transform:uppercase;*/
+#content { 
+	width: 69%;
+	position: absolute;	
+	background-color: transparence;
+	border-right: 0px dotted #4A584A;
+	margin: 0px;
+	padding: 10px 5px 10px 10px;
+    }    
+/*&lt;h2&gt;Mon, 23 Jan 2006&lt;/h2&gt;*/
+h2.blosxomDate{
+    font-family: Georgia,Verdana, arial, helvetica, sans-serif;
+    text-align: right;
+    border:0px solid #2B3A3A;
+    margin: 0px 5px 5px 0px;
+    padding: 0px 15px 0px 0px;
+    border-bottom: 1px solid #2B3A3A;    }
+H3#blosxomTitle {
+    font-size: 90%;
+    border-left:4px solid #88938D;
+    border-bottom : 0px dashed  #A9B3A9 ;
+    background-color: #546359;
+    color:#A7AFA7;
+    padding: 4px;
+    margin: 5px 0px 0px 0px;
+    font-weight:normal;}
+    
+H3#blosxomTitle a { 
+    color: #DDDDD0;
+    }
+
+.blosxomStory{
+    padding: 4px; 
+    font-size: 92%;   
+    border-left:2px solid #88938D;    
+    background-color: #ECEEEC;}
+    
+.blosxomStory a { 
+    color:#835959;
+    }
+
+    /*    
+"font-family: "Courier New",Georgia,helvetica, sans-serif; 
+    */
+.blosxomStoryLinks{
+    font-size:90%;
+    padding: 2px;
+    margin: 0px;
+    border:0px dotted #2B3A3A;
+    background-color: #546359;
+    color:#A7AFA7;
+    }
+.blosxomStoryLinks a { color: #DDDDD0;
+    text-decoration:none; 
+    }
+.blosxomStoryLinks a:hover { color: #DDDDD0;
+  text-decoration: underline; 
+    }
+.blosxomStoryLinks a:visited { color: #BAC4BB;
+    }</t>
+<t tx="ZoomQuiet.20060123163025.1">/*position: absolute;
+    left: 70%;top:0px;
+    width: 26%;
+    margin: 4px 0px 0px 0px;
+    padding: 4px; 
+    background-color: #76857B;
+    border-left:4px solid #5A695F;
+    */
+#Blogroll {
+    font-size:92%;
+    }
+#links { 	float: right;
+    font-size:96%;	
+	position: absolute; top:0px;
+	width: 270px;
+	margin-left: 70%;
+	margin-top: 4px;
+	padding: 5px;
+	background-color: #738278;
+	border-left:    4px solid #25342A;
+	border-bottom:  4px solid #25342A;
+	border-right:   4px solid #25342A;
+    }
+
+#links a { color: #DDDDD0;
+    text-decoration:none; 
+    }
+#links a:hover { color: #DDDDD0;
+  text-decoration: underline; 
+    }
+#links a:visited { color: #BAC4BB;
+    }
+#links h4 {
+    background-color: #494D4A;
+    color:#AFB7AF;
+    font-size:9px;
+    font-weight:bold;
+    line-height:14px;
+    padding:2px;
+    margin-top:10px;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing: .2em;
+    }
+
+#links ul { 
+    list-style-type: none; 
+    margin-left: 0px;
+    padding-left: 5px;
+    }
+    
+#links li {
+    text-align: left;
+    }</t>
+<t tx="ZoomQuiet.20060123172454">div#blosxomCalendar{
+    margin: -1em 0em 0em 0em;
+    padding: 0em 0em 0em 4em;
+    font-size:90%;
+    font-family: Georgia,Verdana, arial, helvetica, sans-serif;
+    border:0px dotted #C1CBC1;
+    }
+    /*for the calendar table
+    width:260px;*/
+TABLE.blosxomCalendar{ 
+    width:170px;   
+    border:1px dotted #C1CBC1;    
+    }
+    /*for the month year header (January 2003)*/
+
+.blosxomCalendarHead{
+    background-color: #58635D;
+    font-size:12px;font-weight :bold;
+    color:#D6DBD6;
+    }
+    /*for the week header (Su, Mo, Tu, ...)*/    
+TD.blosxomCalendarWeekHeader{
+    text-align: center;
+    }
+
+.blosxomCalendarWeekHeader{
+    background-color: #A7AFA7;
+    font-size:11px;
+    color:#D6DBD6;
+    }
+    /*for filler days*/
+.blosxomCalendarEmpty{
+    }
+    /*for calendar days that aren't today*/
+.blosxomCalendarCell{
+    font-size:12px;
+    }
+    /*for calendar days that aren't today that have entries*/
+.blosxomCalendarBlogged{
+    }
+/*for the specific day we're looking at
+      (if we're looking at a specific day)*/
+.blosxomCalendarSpecificDay{
+    font-size:12px;
+    }
+/*for today's calendar day*/
+.blosxomCalendarToday A{
+    border: 2px dotted #835959;
+    }
+
+.blosxomCalendarToday{
+    font-weight :bold;
+    }</t>
+<t tx="ZoomQuiet.20060123175757">&lt;h4&gt;AdSense&lt;/h4&gt;
+&lt;div id="AdSense" class="slotarea"&gt;
+&lt;script type="text/javascript"&gt;&lt;!--
+google_ad_client = "pub-4733138268341333";
+google_ad_width = 250;
+google_ad_height = 250;
+google_ad_format = "250x250_as";
+google_ad_type = "text";
+google_ad_channel ="1462357042";
+google_color_border = "333333";
+google_color_bg = "000000";
+google_color_link = "FFFFFF";
+google_color_url = "999999";
+google_color_text = "CCCCCC";
+//--&gt;&lt;/script&gt;
+&lt;script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
+&lt;/script&gt;
+
+&lt;div&gt;</t>
+<t tx="ZoomQuiet.20060123181155">&lt;div id="google"&gt;
+&lt;!-- SiteSearch Google --&gt;
+&lt;form method="get" action="http://asia.google.com/custom" target="google_window"&gt;
+&lt;table border="0" class="SiteSearch_Google"&gt;
+&lt;tr&gt;&lt;td nowrap="nowrap" valign="top" align="left" height="32"&gt;
+
+&lt;br/&gt;
+&lt;input type="hidden" name="domains" value="blog.zoomquiet.org"&gt;&lt;/input&gt;
+&lt;input type="text" name="q" size="17" maxlength="255" value=""&gt;&lt;/input&gt;
+&lt;input type="submit" name="sa" value="Google 搜索"&gt;&lt;/input&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td nowrap="nowrap"&gt;
+&lt;table&gt;
+&lt;tr style="display:none"&gt;
+&lt;td&gt;
+&lt;input type="radio" name="sitesearch" value="blog.zoomquiet.org" checked="checked"&gt;&lt;/input&gt;
+&lt;font size="-1" color="#ffffff"&gt;blog.zoomquiet.org&lt;/font&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;input type="hidden" name="client" value="pub-4733138268341333"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="forid" value="1"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="channel" value="7476703136"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="ie" value="UTF-8"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="oe" value="UTF-8"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"&gt;&lt;/input&gt;
+&lt;input type="hidden" name="hl" value="zh-CN"&gt;&lt;/input&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/form&gt;
+&lt;!-- SiteSearch Google --&gt;
+
+
+&lt;/div&gt;&lt;!-- id="google"--&gt;</t>
+<t tx="ZoomQuiet.20060123181812">div#google{
+    padding: 0px; 
+    margin: -2em 0em 0em 0em;
+    }
+.SiteSearch_Google{
+    width:250px;
+    border:2px dotted #738278; 
+    background-color: #58635D;
+    }</t>
+<t tx="ZoomQuiet.20060123184441">.blosxomComments{
+    padding: 4px;       
+    border-left:2px solid #88938D;    
+    background-color: #A9B3A9;
+    }
+.blosxomComment{
+    margin: 0px;
+    padding: 4px;       
+    border-left:2px solid #88938D;    
+    background-color: #8C968C;
+    }
+div#cmt_description{
+    margin: 0px;
+    padding: 4px;       
+    border-left:2px solid #88938D;    
+    background-color: #D6DBD6;
+    }
+
+.blosxomCommentForm{
+    padding: 4px;       
+    border-left:2px solid #88938D;    
+    background-color: #CAD4CA;
+    }</t>
+<t tx="ZoomQuiet.20060123232910">/*"margin: 1px 0px 2px 0px  */
+div#header {
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	border-bottom: 0px dotted black;
+	margin: 0px;
+	padding: 0px;
+    background-color :#76857B;
+}
+/*文章大标*/
+div#header H1{
+	float: left;
+	margin: 5px;
+	padding: 4px;
+	font-size: 150%;
+    font-weight : normal;
+    color:#DAE4DA;
+    border:0px;
+}
+/*文章副标*/
+div#header H2 {
+	text-align: right;
+	margin: 0em;
+	padding: .5em .5em 0em 0em;
+	font-size: 14px;
+    font-weight : normal;
+    border:0px;
+    color:#DAE4DA;
+    border-right : 2px solid #A7AFA7;
+}
+/*文章说明*/
+div#header H3{
+	text-align: right;
+	margin: 0em;
+	padding: 0em .5em 0em 0em;
+	font-size: 12px;
+    font-weight : normal;
+    border:0px;
+    color:#D2D8D2;
+    border-bottom : 2px solid #A7AFA7;
+    border-right :   2px solid #A7AFA7;
+}
+div.toc {
+	float: right;	
+	background-color :#76857B;
+    color:#BAC4BA;
+	border-bottom : 2px solid #A7AFA7;
+	border-left :   2px solid #A7AFA7;
+	border-right :   2px solid #A7AFA7;
+	padding: .5em 0em .5em .5em;
+	margin: -2px 0px 0px 0px;
+}
+div.toc ul {
+	padding-left: .75em;
+}
+div.toc li {
+	font-size: 12px;
+}
+/*#DAE4DA*/
+div.toc li a {
+	text-decoration: none;
+    color:#D2D8D2;
+}
+div.toc a:hover {
+	text-decoration: underline;
+}
+</t>
+<t tx="ZoomQuiet.20060124012234">@language Moin
+ solidot.org
+呜乎哀哉，开始问题了……
+&lt;&lt;t2t head&gt;&gt;
+
+: **[solidot.org http://solidot.org/]**
+    Geek新闻中心 中文版本
+    今天看突然变成这样子：      
+    呜乎哀哉！技术新闻站点哪！
+    看的也是非常古老的发布配置…………
+:
+[/pybimage/snap-solidot-error.png]
+
+&lt;&lt;SNSlink&gt;&gt;
+% #::tags OpenSource,PyBlosxom
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="ZoomQuiet.20060124012234.1">
+[/pybimage/technorati-over.gif]
+    [chinese http://www.technorati.com/tags/chinese]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[internet http://www.technorati.com/tags/internet]</t>
+<t tx="ZoomQuiet.20060124095643">UL.categorygroup{
+    margin: 0em 0em 0em .5em;
+	padding: 0em 0em .25em .5em;	
+    }
+UL.categorygroup LI{
+	padding: 0em 0em 0em .5em;	
+    }</t>
+<t tx="ZoomQuiet.20060124102800">&lt;!-- Creative Commons License --&gt;
+
+
+&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/"&gt;&lt;img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights20.gif" /&gt;&lt;/a&gt;&lt;br /&gt;
+This work is licensed under a &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/"&gt;Creative Commons License&lt;/a&gt;.
+&lt;!-- /Creative Commons License --&gt;
+
+&lt;!--
+
+&lt;rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+&lt;Work rdf:about=""&gt;
+   &lt;dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" /&gt;
+   &lt;license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" /&gt;
+&lt;/Work&gt;
+
+&lt;License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/"&gt;
+   &lt;permits rdf:resource="http://web.resource.org/cc/Reproduction" /&gt;
+   &lt;permits rdf:resource="http://web.resource.org/cc/Distribution" /&gt;
+   &lt;requires rdf:resource="http://web.resource.org/cc/Notice" /&gt;
+   &lt;requires rdf:resource="http://web.resource.org/cc/Attribution" /&gt;
+   &lt;prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" /&gt;
+   &lt;permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" /&gt;
+   &lt;requires rdf:resource="http://web.resource.org/cc/ShareAlike" /&gt;
+&lt;/License&gt;
+
+&lt;/rdf:RDF&gt;
+
+--&gt;</t>
+<t tx="ZoomQuiet.20060124102944">
+&lt;h4&gt;Blogroll&lt;/h4&gt;
+&lt;div id="Blogroll" class="slotarea"&gt;
+
+&lt;ul id="Blogroll"&gt;
+&lt;li&gt;&lt;&lt;PyBlosxom&gt;&gt;    
+&lt;li&gt;&lt;&lt;CPUG&gt;&gt;    
+&lt;li&gt;&lt;&lt;OpenPeople&gt;&gt;   
+&lt;li&gt;&lt;&lt;Blogger&gt;&gt;    
+&lt;/ul&gt;
+
+&lt;/div&gt;</t>
+<t tx="ZoomQuiet.20060124104215">&lt;div id="blosxomCalendar"  class="slotarea"&gt;
+$calendar
+&lt;/div&gt;
+</t>
+<t tx="ZoomQuiet.20060124104215.1">&lt;h4&gt;Archive&lt;/h4&gt;
+&lt;div id="Archive" class="slotarea"&gt;
+$archivelinks
+&lt;/div&gt;
+</t>
+<t tx="ZoomQuiet.20060124135214">&lt;a id="toc1" name="toc1"&gt;&lt;/a&gt;
+锚点 comment form</t>
+<t tx="ZoomQuiet.20060124143934"># -*- coding: utf-8 -*-
+&lt;&lt; comments declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+__author__ = "Ted Leung"
+__version__ = "$Id: ZqsPyBlosxom.leo 2102 2007-06-16 05:17:26Z zoomq $"
+__url__ = "http://pyblosxom.sourceforge.net/"
+__description__ = "Allows for comments on each blog entry."
+
+import cgi, glob, os.path, re, time, cPickle, os, codecs
+from xml.sax.saxutils import escape
+from Pyblosxom import tools
+from Pyblosxom.entries.base import EntryBase
+
+@others
+</t>
+<t tx="ZoomQuiet.20060124143934.1">"""060112::ZoomQuiet.org usage comments.py
+This module contains an extension to Blosxom file entries to support
+comments.
+
+Contributors:
+  Ted Leung
+  Will Guaraldi
+  Wari Wahab
+  Robert Wall
+  Bill Mill
+  Roberto De Almeida
+  David Geller
+
+If you make any changes to this plugin, please a send a patch with your
+changes to twl+pyblosxom@sauria.com so that we can incorporate your changes.
+Thanks!
+
+Note: This plugin requires the PyXML module.
+
+This module supports the following config parameters (they are not
+required):
+
+    comment_dir - the directory we're going to store all our comments in.
+                  this defaults to datadir + "comments".
+    comment_ext - the file extension used to denote a comment file.
+                  this defaults to "cmt".
+    comment_draft_ext - the file extension used for new comments that have
+                        not been manually approved by you.  this defaults
+                        to comment_ext (i.e. there is no draft stage)
+
+    comment_smtp_server - the smtp server to send comments notifications
+                          through.
+    comment_smtp_from - the person comment notifications will be from.
+                        If you omit this, the from address will be the
+                        e-mail address as input in the comment form
+    comment_smtp_to - the person to send comment notifications to.
+    comment_nofollow - set this to 1 to add rel="nofollow" attributes to
+                  links in the description -- these attributes are embedded
+                  in the stored representation.
+
+Comments are stored 1 per file in a parallel hierarchy to the datadir
+hierarchy.  The filename of the comment is the filename of the blog
+entry, plus the creation time of the comment as a float, plus the 
+comment extension.  The contents of the comment file is an RSS 2.0
+formatted item.
+
+Comments now follow the blog_encoding variable specified in config.py .
+If you don't include a blog_encoding variable, this will default to
+iso-8859-1.
+
+Comments will be shown for a given page if one of the following is
+true:
+
+ 1. the page has only one blog entry on it and the request is for a
+    specific blog entry as opposed to a category with only one entry
+    in it
+
+ 2. if "showcomments=yes" is in the querystring then comments will
+    be shown
+
+
+IMPLEMENTING COMMENT PREVIEW
+============================
+
+If you would like comment previews, you need to do 2 things.
+
+ 1) Add a preview button to comment-form.html like this:
+    &lt;input name="preview" type="submit" value="Preview" /&gt;
+
+    You may change the contents of the value attribute, but the name of
+    the input must be "preview".
+
+ 2) Still in your comment-form.html template, you need to use the comment
+    values to fill in the values of your input fields like so:
+    &lt;input name="author" type="text" value="$cmt_author"&gt;
+    &lt;input name="email" type="text" value="$cmt_email"&gt;
+    &lt;input name="url" type="text" value="$cmt_link"&gt;
+    &lt;textarea name="body"&gt;$cmt_description&lt;/textarea&gt;
+
+    If there is no preview available, these variables will be stripped
+    from the text and cause no problem.
+
+ 3) Copy comment.html to a template called comment-preview.html. All of
+    the available variables from the comment template are available for
+    this template.
+
+
+NOFOLLOW SUPPORT
+================
+
+This plugin implements Google's nofollow support for links in the body of the 
+comment. If you display the link of the comment poster in your HTML template 
+then you must add the rel="nofollow" attribute to your template as well
+
+
+NOTE TO DEVELOPERS WHO ARE WRITING PLUGINS THAT CREATE COMMENTS
+===============================================================
+
+Each entry has to have the following properties in order to work with
+comments:
+
+ 1. absolute_path - the category of the entry.  
+    ex. "dev/pyblosxom"
+ 2. fn - the filename of the entry without the file extension and without
+    the directory.  
+    ex. "staticrendering"
+ 3. file_path - the absolute_path plus the fn.  
+    ex. "dev/pyblosxom/staticrendering"
+
+Also, if you don't want comments for an entry, add "nocomments" = 1
+to the properties for the entry.
+
+
+Copyright (c) 2003-2005 Ted Leung
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+"""
+
+</t>
+<t tx="ZoomQuiet.20060124143934.10">def send_email(config, entry, comment, comment_dir, comment_filename):
+    """Send an email to the blog owner on a new comment
+
+    @param config: configuration as parsed by Pyblosxom
+    @type config: dictionary
+
+    @param entry: a file entry
+    @type config: dictionary
+
+    @param comment: comment as generated by readComment
+    @type comment: dictionary
+
+    @param comment_dir: the comment directory
+    @type comment_dir: string
+
+    @param comment_filename: file name of current comment
+    @type comment_filename: string
+    """
+    import smtplib
+    # import the formatdate function which is in a different
+    # place in Python 2.3 and up.
+    try:
+        from email.Utils import formatdate
+    except ImportError:
+        from rfc822 import formatdate
+
+    author = escape_SMTP_commands(clean_author(comment['author']))
+    description = escape_SMTP_commands(comment['description'])
+    ipaddress = escape_SMTP_commands(comment.get('ipaddress', '?'))
+
+    if comment.has_key('email'):
+        email = comment['email']
+    else:
+        email = config['comment_smtp_from']
+
+    try:
+        server = smtplib.SMTP(config['comment_smtp_server'])
+        curl = config['base_url']+'/'+entry['file_path']
+        comment_dir = os.path.join(config['comment_dir'], entry['absolute_path'])
+
+        message = []
+        message.append("From: %s" % email)
+        message.append("To: %s" % config["comment_smtp_to"])
+        message.append("Date: %s" % formatdate(float(comment['pubDate'])))
+        message.append("Subject: write back by %s" % author)
+        message.append("")
+        message.append("%s\n%s\n%s\n%s\n" % (description, ipaddress, comment_filename, curl))
+        server.sendmail(from_addr=email,
+                        to_addrs=config['comment_smtp_to'], 
+                        msg="\n".join(message))
+        server.quit()
+    except Exception, e:
+        logger = tools.getLogger()
+        logger.error("error sending email: %s" % e)
+</t>
+<t tx="ZoomQuiet.20060124143934.11">def clean_author(s):
+    """
+    Guard against blasterattacko style attacks that embedd SMTP commands in
+    author field.
+
+    If author field is more than one line, reduce to one line
+
+    @param the string to be checked
+    @type string
+
+    @returns the sanitized string
+    """
+    return s.splitlines()[0]
+</t>
+<t tx="ZoomQuiet.20060124143934.12">def escape_SMTP_commands(s):
+    """
+    Guard against blasterattacko style attacks that embed SMTP commands by
+    using an HTML span to make the command syntactically invalid to SMTP but
+    renderable by HTML
+
+    @param the string to be checked
+    @type string
+
+    @returns the sanitized string
+    """
+    def repl_fn(mo):
+        return '&lt;span&gt;'+mo.group(0)+'&lt;/span&gt;'
+    s = re.sub('([Tt]o:.*)',repl_fn,s)
+    s = re.sub('([Ff]rom:.*)',repl_fn,s)
+    s = re.sub('([Ss]ubject:.*)',repl_fn,s)
+    return s
+</t>
+<t tx="ZoomQuiet.20060124143934.13">def sanitize(body):
+    """
+    This code shamelessly lifted from Sam Ruby's mombo/post.py
+    """
+    body=re.sub(r'\s+$','',body)
+    body=re.sub('\r\n?','\n', body)
+
+    # naked urls become hypertext links
+    body=re.sub('(^|[\\s.:;?\\-\\]&lt;])' + 
+                '(http://[-\\w;/?:@&amp;=+$.!~*\'()%,#]+[\\w/])' +
+                '(?=$|[\\s.:;?\\-\\[\\]&gt;])',
+                '\\1&lt;a href="\\2"&gt;\\2&lt;/a&gt;',body)
+
+    # html characters used in text become escaped
+    body=escape(body)
+
+    # passthru &lt;a href&gt;, &lt;em&gt;, &lt;i&gt;, &lt;b&gt;, &lt;blockquote&gt;, &lt;br/&gt;, &lt;p&gt;, 
+    # &lt;abbr&gt;, &lt;acronym&gt;, &lt;big&gt;, &lt;cite&gt;, &lt;code&gt;, &lt;dfn&gt;, &lt;kbd&gt;, &lt;pre&gt;, &lt;small&gt;
+    # &lt;strong&gt;, &lt;sub&gt;, &lt;sup&gt;, &lt;tt&gt;, &lt;var&gt;
+    body=re.sub('&amp;lt;a href="([^"]*)"&amp;gt;([^&amp;]*)&amp;lt;/a&amp;gt;',
+                '&lt;a href="\\1"&gt;\\2&lt;/a&gt;', body)
+    body=re.sub('&amp;lt;a href=\'([^\']*)\'&amp;gt;([^&amp;]*)&amp;lt;/a&amp;gt;',
+                '&lt;a href="\\1"&gt;\\2&lt;/a&gt;', body)
+    body=re.sub('&amp;lt;em&amp;gt;([^&amp;]*)&amp;lt;/em&amp;gt;', '&lt;em&gt;\\1&lt;/em&gt;', body)
+    body=re.sub('&amp;lt;i&amp;gt;([^&amp;]*)&amp;lt;/i&amp;gt;', '&lt;i&gt;\\1&lt;/i&gt;', body)
+    body=re.sub('&amp;lt;b&amp;gt;([^&amp;]*)&amp;lt;/b&amp;gt;', '&lt;b&gt;\\1&lt;/b&gt;', body)
+    body=re.sub('&amp;lt;blockquote&amp;gt;([^&amp;]*)&amp;lt;/blockquote&amp;gt;', 
+                '&lt;blockquote&gt;\\1&lt;/blockquote&gt;', body)
+    body=re.sub('&amp;lt;br\s*/?&amp;gt;\n?','\n',body)
+
+    body=re.sub('&amp;lt;abbr&amp;gt;([^&amp;]*)&amp;lt;/abbr&amp;gt;', '&lt;abbr&gt;\\1&lt;/abbr&gt;', body)
+    body=re.sub('&amp;lt;acronym&amp;gt;([^&amp;]*)&amp;lt;/acronym&amp;gt;', '&lt;acronym&gt;\\1&lt;/acronym&gt;', body)
+    body=re.sub('&amp;lt;big&amp;gt;([^&amp;]*)&amp;lt;/big&amp;gt;', '&lt;big&gt;\\1&lt;/big&gt;', body)
+    body=re.sub('&amp;lt;cite&amp;gt;([^&amp;]*)&amp;lt;/cite&amp;gt;', '&lt;cite&gt;\\1&lt;/cite&gt;', body)
+    body=re.sub('&amp;lt;code&amp;gt;([^&amp;]*)&amp;lt;/code&amp;gt;', '&lt;code&gt;\\1&lt;/code&gt;', body)
+    body=re.sub('&amp;lt;dfn&amp;gt;([^&amp;]*)&amp;lt;/dfn&amp;gt;', '&lt;dfn&gt;\\1&lt;/dfn&gt;', body)
+    body=re.sub('&amp;lt;kbd&amp;gt;([^&amp;]*)&amp;lt;/kbd&amp;gt;', '&lt;kbd&gt;\\1&lt;/kbd&gt;', body)
+    body=re.sub('&amp;lt;pre&amp;gt;([^&amp;]*)&amp;lt;/pre&amp;gt;', '&lt;pre&gt;\\1&lt;/pre&gt;', body)
+    body=re.sub('&amp;lt;small&amp;gt;([^&amp;]*)&amp;lt;/small&amp;gt;', '&lt;small&gt;\\1&lt;/small&gt;', body)
+    body=re.sub('&amp;lt;strong&amp;gt;([^&amp;]*)&amp;lt;/strong&amp;gt;', '&lt;strong&gt;\\1&lt;/strong&gt;', body)
+    body=re.sub('&amp;lt;sub&amp;gt;([^&amp;]*)&amp;lt;/sub&amp;gt;', '&lt;sub&gt;\\1&lt;/sub&gt;', body)
+    body=re.sub('&amp;lt;sup&amp;gt;([^&amp;]*)&amp;lt;/sup&amp;gt;', '&lt;sup&gt;\\1&lt;/sup&gt;', body)
+    body=re.sub('&amp;lt;tt&amp;gt;([^&amp;]*)&amp;lt;/tt&amp;gt;', '&lt;tt&gt;\\1&lt;/tt&gt;', body)
+    body=re.sub('&amp;lt;var&amp;gt;([^&amp;]*)&amp;lt;/var&amp;gt;', '&lt;var&gt;\\1&lt;/var&gt;', body)
+
+    body=re.sub('&amp;lt;/?p&amp;gt;','\n\n',body).strip()
+
+    # wiki like support: _em_, *b*, [url title]
+    body=re.sub(r'\b_(\w.*?)_\b', r'&lt;em&gt;\1&lt;/em&gt;', body)
+    body=re.sub(r'\*(\w.*?)\*', r'&lt;b&gt;\1&lt;/b&gt;', body)
+    body=re.sub(r'\[(\w+:\S+\.gif) (.*?)\]', r'&lt;img src="\1" alt="\2" /&gt;', body)
+    body=re.sub(r'\[(\w+:\S+\.jpg) (.*?)\]', r'&lt;img src="\1" alt="\2" /&gt;', body)
+    body=re.sub(r'\[(\w+:\S+\.png) (.*?)\]', r'&lt;img src="\1" alt="\2" /&gt;', body)
+    body=re.sub(r'\[(\w+:\S+) (.*?)\]', r'&lt;a href="\1"&gt;\2&lt;/a&gt;', body).strip()
+
+    # unordered lists: consecutive lines starting with spaces and an asterisk
+    chunk=re.compile(r'^( *\*.*(?:\n *\*.*)+)',re.M).split(body)
+    for i in range(1, len(chunk), 2):
+        (html,stack)=('', [''])
+        for indent,line in re.findall(r'( +)\* +(.*)', chunk[i]) + [('','')]:
+            if indent&gt;stack[-1]: (stack,html)=(stack+[indent],html+'&lt;ul&gt;\r')
+            while indent&lt;stack[-1]: (stack,html)=(stack[:-1],html+'&lt;/ul&gt;\r')
+            if line: html += '&lt;li&gt;'+line+'&lt;/li&gt;\r'
+            chunk[i]=html
+
+    # white space
+    chunk=re.split('\n\n+', ''.join(chunk))
+#    if len(chunk)&gt;1: body='&lt;p&gt;' + '&lt;/p&gt;\r&lt;p&gt;'.join(chunk) + '&lt;/p&gt;\r'
+    body=re.sub('\n','&lt;br /&gt;\n', body)
+    body=re.compile('&lt;p&gt;(&lt;ul&gt;.*?&lt;/ul&gt;)\r&lt;/p&gt;?',re.M).sub(r'\1',body)
+    body=re.compile('&lt;p&gt;(&lt;blockquote&gt;.*?&lt;/blockquote&gt;)&lt;/p&gt;?',re.M).sub(r'\1',body)
+    body=re.sub('\r', '\n', body)
+    body=re.sub('  +', '&amp;nbsp; ', body)
+
+    return body        
+</t>
+<t tx="ZoomQuiet.20060124143934.14">def dont_follow(mo):
+    return '&lt;a rel="nofollow" '+mo.group(1)+'&gt;'
+</t>
+<t tx="ZoomQuiet.20060124143934.15">def add_dont_follow(s, config):
+    url_pat_str = '&lt;a ([^&gt;]+)&gt;'
+    url_pat = re.compile(url_pat_str)
+    if config['comment_nofollow'] == 1:
+        return url_pat.sub(dont_follow, s)
+    else:
+        return s
+</t>
+<t tx="ZoomQuiet.20060124143934.16">def cb_prepare(args):
+    """
+    Handle comment related HTTP POST's.
+
+    @param request: pyblosxom request object
+    @type request: a Pyblosxom request object
+    """
+    request = args["request"]
+    form = request.getHttp()['form']
+    config = request.getConfiguration()
+    data = request.getData()
+    pyhttp = request.getHttp()
+
+    # first we check to see if we're going to print out comments
+
+    # the default is not to show comments
+    data['display_comment_default'] = 0        
+
+    # check to see if they have "showcomments=yes" in the querystring
+    qstr = pyhttp.get('QUERY_STRING', None)
+    if qstr != None:
+        parsed_qs = cgi.parse_qs(qstr)
+        if parsed_qs.has_key('showcomments'):
+            if parsed_qs['showcomments'][0] == 'yes':
+                data['display_comment_default'] = 1
+
+    # check to see if the bl_type is "file"
+    if data.has_key("bl_type") and data["bl_type"] == "file":
+        data["bl_type_file"] = "yes"
+        data['display_comment_default'] = 1
+
+    # second, we check to see if they're posting a comment and we
+    # need to write the comment to disk.
+    if form.has_key("title") and form.has_key("author") and \
+        form.has_key("body") and not form.has_key("preview"):
+
+        encoding = config.get('blog_encoding', 'iso-8859-1')
+        decode_form(form, encoding)
+
+        body = form['body'].value
+        author = form['author'].value
+        url = (form.has_key('url') and [form['url'].value] or [''])[0]
+
+        # sanitize incoming data
+        body = sanitize(body)
+        author = sanitize(author)
+        url = sanitize(url)
+
+        # it doesn't make sense to add nofollow to link here, but we should
+        # escape it. If you don't like the link escaping, I'm not attached 
+        # to it.
+        cdict = {'title': form['title'].value, \
+                 'author' : author, \
+                 'pubDate' : str(time.time()), \
+                 'link' : escape_link(url), \
+                 'source' : '', \
+                 'description' : add_dont_follow(body, config) }
+
+        if form.has_key('email'):
+            cdict['email'] = form['email'].value
+
+        cdict['ipaddress'] = pyhttp.get('REMOTE_ADDR', '')
+        data["comment_message"] = writeComment(request, config, data, \
+                                                cdict, encoding)
+</t>
+<t tx="ZoomQuiet.20060124143934.17">def escape_link(linkstring):
+    """Don't allow html in the link string"""
+    for c in "&lt;&gt;'\"":
+        linkstring = linkstring.replace(c, '')
+    return linkstring
+</t>
+<t tx="ZoomQuiet.20060124143934.18">def decode_form(d, encoding):
+    for key in d.keys():
+        d[key].value = d[key].value.decode(encoding)
+</t>
+<t tx="ZoomQuiet.20060124143934.19">def cb_head(args):
+    renderer = args['renderer']
+    template = args['template']
+
+    newtemplate = renderer.flavour.get('comment-head','')
+    if not newtemplate == '' and len(renderer.getContent()) == 1:
+        args['template'] = newtemplate
+
+        # expand all of entry vars for expansion
+        entry = args['entry']
+        single_entry = entry['entry_list'][0]
+        single_entry['title'] # force lazy evaluation
+        entry.update(single_entry)
+        args['entry'] = entry
+    return template
+</t>
+<t tx="ZoomQuiet.20060124143934.2">def cb_start(args):
+    request = args["request"]
+    config = request.getConfiguration()
+
+    if not config.has_key('comment_dir'):
+        config['comment_dir'] = os.path.join(config['datadir'],'comments')
+    if not config.has_key('comment_ext'):
+        config['comment_ext'] = 'cmt'
+    if not config.has_key('comment_draft_ext'):
+        config['comment_draft_ext'] = config['comment_ext']
+    if not config.has_key('comment_nofollow'):
+        config['comment_nofollow'] = 0
+</t>
+<t tx="ZoomQuiet.20060124143934.20">def cb_story(args):
+    renderer = args['renderer']
+    entry = args['entry']
+    template = args['template']
+    request = args["request"]
+    data = request.getData()
+    config = request.getConfiguration()
+    if len(renderer.getContent()) == 1 \
+            and renderer.flavour.has_key('comment-story') \
+            and not entry.has_key("nocomments") \
+            and data['display_comment_default'] == 1:
+        template = renderer.flavour.get('comment-story','')
+        args['template'] = args['template'] + template
+
+    entry['num_comments'] = getCommentCount(entry, config)
+    return template
+</t>
+<t tx="ZoomQuiet.20060124143934.21">def build_preview_comment(form, entry):
+    """Build a prevew comment by brute force
+
+    @param form: cgi form object (or compatible)
+    @type form: Dictionary of objects with a .value propery
+
+    @param entry: pyblosxom entry object
+    @type entry: pyblosxom entry object
+    """
+    c = {}
+    #required fields
+    try:
+        c['cmt_time'] = str(time.time())
+        c['cmt_author'] = form['author'].value
+        c['cmt_title'] = form['title'].value
+        c['cmt_item'] = sanitize(form['body'].value)
+        c['cmt_pubDate'] = time.ctime(time.time())
+        c['cmt_description'] = sanitize(form['body'].value)
+    except KeyError, e:
+        c['cmt_error'] = 'Missing value: %s' % e
+
+    # optional fields
+    if form.has_key("url"):
+        c['cmt_link'] = form['url'].value
+    if form.has_key("email"):
+        c['cmt_email'] = form['email'].value
+    for key in c: entry[key] = c[key]
+
+    return c
+</t>
+<t tx="ZoomQuiet.20060124143934.22">def cb_story_end(args):
+    renderer = args['renderer']
+    entry = args['entry']
+    template = args['template']
+    request = args["request"]
+    data = request.getData()
+    form = request.getHttp()['form']
+    config = request.getConfiguration()
+    if len(renderer.getContent()) == 1 \
+            and renderer.flavour.has_key('comment-story') \
+            and not entry.has_key("nocomments") \
+            and data['display_comment_default'] == 1:
+        output = []
+        entry['comments'] = readComments(entry, config)
+        if entry.has_key('comments'):        
+            for comment in entry['comments']:
+               renderer.outputTemplate(output, comment, 'comment')
+            if form.has_key('preview')\
+                and renderer.flavour.has_key('comment-preview'):
+                com = build_preview_comment(form, entry)
+                renderer.outputTemplate(output, com, 'comment-preview')
+            renderer.outputTemplate(output, entry, 'comment-form')
+        args['template'] = template +u"".join(output)
+
+    entry['num_comments'] = getCommentCount(entry, config)
+    return template
+</t>
+<t tx="ZoomQuiet.20060124143934.3">def verify_installation(request):
+    config = request.getConfiguration()
+
+    retval = 1
+
+    if config.has_key('comment_dir') and not os.path.isdir(config['comment_dir']):
+        print 'The "comment_dir" property in the config file must refer to a directory'
+        retval = 0
+
+    smtp_keys_defined = []
+    smtp_keys=['comment_smtp_server', 'comment_smtp_from', 'comment_smtp_to']
+    for k in smtp_keys:
+        if config.has_key(k):
+            smtp_keys_defined.append(k)
+
+    if smtp_keys_defined:
+        for i in smtp_keys:
+            if i not in smtp_keys_defined:
+                print("Missing comment SMTP property: '%s'" % i)
+                retval = 0
+
+    optional_keys = ['comment_dir', 'comment_ext', 'comment_draft_ext']
+    for i in optional_keys:
+        if not config.has_key(i):
+            print("missing optional property: '%s'" % i)
+
+    return retval
+</t>
+<t tx="ZoomQuiet.20060124143934.4">def createhtmlmail (html, headers):
+    """Create a mime-message that will render HTML in popular
+    MUAs, text in better ones
+
+    Based on: http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/67083"""
+    import MimeWriter
+    import mimetools
+    import cStringIO
+
+    out = cStringIO.StringIO() # output buffer for our message 
+    htmlin = cStringIO.StringIO(html)
+
+    text = re.sub('&lt;.*?&gt;', '', html)
+    txtin = cStringIO.StringIO(text)
+
+    writer = MimeWriter.MimeWriter(out)
+    for header,value in headers:
+        writer.addheader(header, value)
+    writer.addheader("MIME-Version", "1.0")
+    writer.startmultipartbody("alternative")
+    writer.flushheaders()
+
+    subpart = writer.nextpart()
+    subpart.addheader("Content-Transfer-Encoding", "quoted-printable")
+    pout = subpart.startbody("text/plain", [("charset", 'us-ascii')])
+    mimetools.encode(txtin, pout, 'quoted-printable')
+    txtin.close()
+
+    subpart = writer.nextpart()
+    subpart.addheader("Content-Transfer-Encoding", "quoted-printable")
+    pout = subpart.startbody("text/html", [("charset", 'us-ascii')])
+    mimetools.encode(htmlin, pout, 'quoted-printable')
+    htmlin.close()
+
+    writer.lastpart()
+    msg = out.getvalue()
+    out.close()
+
+    return msg
+</t>
+<t tx="ZoomQuiet.20060124143934.5">def readComments(entry, config):
+    """
+    @param: a file entry
+    @type: dict
+
+    @returns: a list of comment dicts
+    """
+    encoding = config['blog_encoding']
+    filelist = glob.glob(cmtExpr(entry, config))
+    if not entry.has_key('num_comments'):
+        entry['num_comments'] = len(filelist)
+    comments = [readComment(f, encoding) for f in filelist]
+    comments = [(cmt['cmt_time'], cmt) for cmt in comments]
+    comments.sort()
+    return [c[1] for c in comments]
+</t>
+<t tx="ZoomQuiet.20060124143934.6">def getCommentCount(entry, config):
+    """
+    @param: a file entry
+    @type: dict
+
+    @returns: the number of comments for the entry
+    """
+    if entry['absolute_path'] == None: return 0
+    filelist = glob.glob(cmtExpr(entry,config))
+    if filelist is not None:
+        return len(filelist)
+    return 0
+</t>
+<t tx="ZoomQuiet.20060124143934.7">def cmtExpr(entry, config):
+    """
+    Return a string containing the regular expression for comment entries
+
+    @param: a file entry
+    @type: dict
+    @returns: a string with the directory path for the comment
+
+    @param: configuratioin dictionary
+    @type: dict
+
+    @returns: a string containing the regular expression for comment entries
+    """
+    cmtDir = os.path.join(config['comment_dir'], entry['absolute_path'])
+    cmtExpr = os.path.join(cmtDir,entry['fn']+'-*.'+config['comment_ext'])
+    return cmtExpr
+</t>
+<t tx="ZoomQuiet.20060124143934.8">def readComment(filename, encoding):
+    """
+    Read a comment from filename
+
+    @param filename: filename containing a comment
+    @type filename: string
+
+    @param encoding: encoding of comment files
+    @type encoding: string
+
+    @returns: a comment dict
+    """
+    from xml.sax import make_parser, SAXException
+    from xml.sax.handler import feature_namespaces, ContentHandler
+    class cmtHandler(ContentHandler):
+        def __init__(self, cmt):
+            self._data = ""
+            self.cmt = cmt
+        def startElement(self, name, atts):
+            self._data = ""
+        def endElement(self, name):
+            self.cmt['cmt_'+name] = self._data
+        def characters(self, content):
+            self._data += content
+
+    cmt = {}
+
+    try:
+        parser = make_parser()
+        parser.setFeature(feature_namespaces, 0)
+        handler = cmtHandler(cmt)
+        parser.setContentHandler(handler)
+        parser.parse(filename)
+        cmt['cmt_time'] = float(cmt['cmt_pubDate'])                #time.time()
+        cmt['cmt_pubDate'] = time.ctime(float(cmt['cmt_pubDate'])) #pretty time
+        return cmt
+    except: #don't error out on a bad comment
+        logger = tools.getLogger()
+        logger.error("bad comment file: %s" % filename)
+</t>
+<t tx="ZoomQuiet.20060124143934.9">def writeComment(request, config, data, comment, encoding):
+    """
+    Write a comment
+
+    @param config: dict containing pyblosxom config info
+    @type  config: dict
+
+    @param data: dict containing entry info
+    @type  data: dict
+
+    @param comment: dict containing comment info
+    @type  comment: dict
+
+    @return: The success or failure of creating the comment.
+    @rtype: string
+    """
+    entry_list = data.get("entry_list", [])
+    if not entry_list:
+        return "No such entry exists."
+
+    entry = data['entry_list'][0]
+    cdir = os.path.join(config['comment_dir'],entry['absolute_path'])
+    cdir = os.path.normpath(cdir)
+    if not os.path.isdir(cdir):
+        os.makedirs(cdir)
+
+    cfn = os.path.join(cdir,entry['fn']+"-"+comment['pubDate']+"."+config['comment_draft_ext'])
+
+    argdict = { "request": request, "comment": comment }
+    reject = tools.run_callback("comment_reject",
+                                argdict,
+                                donefunc=lambda x:x)
+    if reject == 1:
+        return "Comment rejected."
+
+    def makeXMLField(name, field):
+        return "&lt;"+name+"&gt;" + cgi.escape(field.get(name, "")) + "&lt;/"+name+"&gt;\n";
+
+    filedata = '&lt;?xml version="1.0" encoding="%s"?&gt;\n' % encoding
+    filedata += "&lt;item&gt;\n"
+    filedata += makeXMLField('title', comment)
+    filedata += makeXMLField('ipaddress', comment)
+    filedata += makeXMLField('author', comment)
+    filedata += makeXMLField('link', comment)
+    filedata += makeXMLField('email', comment)
+    filedata += makeXMLField('source', comment)
+    filedata += makeXMLField('pubDate', comment)
+    filedata += makeXMLField('description', comment)
+    filedata += "&lt;/item&gt;\n"
+
+    try :
+        cfile = codecs.open(cfn, "w", encoding)
+    except IOError:
+        logger = tools.getLogger()
+        logger.error("couldn't open comment file '%s' for writing" % cfn)
+        return "Internal error: Your comment could not be saved."
+
+    cfile.write(filedata)
+    cfile.close()
+
+    #write latest pickle
+    latest = None
+    latestFilename = os.path.join(config['comment_dir'],'LATEST.cmt')
+    try:
+        latest = open(latestFilename,"w")
+    except IOError:
+        logger = tools.getLogger()
+        logger.error("couldn't open latest comment pickle for writing")
+        return "Couldn't open latest comment pickle for writing."
+    else:
+        modTime = float(comment['pubDate'])
+
+    try:
+        cPickle.dump(modTime, latest)
+        latest.close()
+    except IOError:
+        if latest:
+            latest.close()
+
+        logger = tools.getLogger()
+        logger.error("comment may not have been saved to pickle file.")
+        return "Internal error: Your comment may not have been saved."
+
+    if config.has_key('comment_smtp_server') and \
+       config.has_key('comment_smtp_to'):
+        # FIXME - removed grabbing send_email's return error message
+        # so there's no way to know if email is getting sent or not.
+        send_email(config, entry, comment, cdir, cfn)
+
+    # figure out if the comment was submitted as a draft
+    if config["comment_ext"] != config["comment_draft_ext"]:
+       return "Comment was submitted for approval.  Thanks!"
+
+    return "Comment submitted.  Thanks!"
+</t>
+<t tx="ZoomQuiet.20060124152735">@language Moin
+[CI]dot 生成可点击网页
+~gen4dot2htm.py 进化记要
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060124160948">&lt;div id="cloud"&gt;[PyBlosxom]
+&lt;/div&gt;
+&lt;ul&gt; 
+    &lt;li&gt;&lt;a href="http://bluesock.org/~willg/blog"&gt;
+        Will Guaraldi&lt;/a&gt;
+        &lt;sup&gt;
+        &lt;a href="http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki"&gt;
+        's Plugins&lt;/a&gt;
+        &lt;/sup&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.sauria.com/blog"&gt;
+        Ted Leung&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://llimllib.f2o.org/blog/serve/keyword/pyblosxom"&gt;
+        Bill Mill&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://copia.ogbuji.net/blog"&gt;
+        copia.ogbuji&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://zork.net/motd/"&gt;
+        Nick Moffitt&lt;/a&gt;&lt;/li&gt;
+        
+&lt;/ul&gt;
+
+</t>
+<t tx="ZoomQuiet.20060124160948.1">&lt;div id="cloud"&gt;[CPUG]
+&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.donews.net/limodou/"&gt;
+        Limodou&lt;/a&gt;
+        &lt;sup&gt;
+        &lt;a href="http://my.donews.com/limodou/"&gt;
+        @my.donews&lt;/a&gt;
+        &lt;/sup&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://qingfeng.ushared.com/blog/"&gt;
+        清风&lt;/a&gt;
+        &lt;sup&gt;
+        &lt;a href="http://blog.donews.com/changzheng/"&gt;
+        @donews&lt;/a&gt;
+        &lt;/sup&gt;&lt;/li&gt;
+
+&lt;/ul&gt;</t>
+<t tx="ZoomQuiet.20060124160948.2">&lt;div id="cloud"&gt;[Blogger]
+&lt;/div&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://spaces.msn.com/members/EWEN-1985/PersonalSpace.aspx?_c01_blogpart=blogmgmt&amp;_c=blogpart"&gt;
+        维罗烈嘉&lt;/a&gt;
+        &lt;sup&gt;
+        &lt;a href="http://www.douban.com/group/swe/"&gt;
+        @豆瓣&lt;/a&gt;
+        &lt;/sup&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www4.uuzone.com/blog/yezi"&gt;
+        YeZi&lt;/a&gt;&lt;/li&gt;
+        
+&lt;/ul&gt;</t>
+<t tx="ZoomQuiet.20060124161106">
+&lt;div id="CreativeCommons" class="slotbar"&gt;
+&lt;!--Creative Commons License--&gt;
+一切内容使用
+&lt;br/&gt;
+&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /&gt;
+&lt;/a&gt;
+&lt;br /&gt;
+&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"&gt;
+Creative Commons Attribution-Noncommercial-Share Alike 3.0 License
+&lt;/a&gt;.
+
+&lt;!--
+&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/"&gt;
+&lt;img alt="Creative Commons License" border="0" src="http://creativecommons.cn/images/public/somerights.gif"/&gt;&lt;/a&gt;
+&lt;br/&gt;
+&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/"&gt;Creative Commons License
+&lt;br/&gt;&lt;b&gt;by-nc-sa&lt;/b&gt;&lt;/a&gt;
+&lt;br/&gt;许可证
+--&gt;
+
+&lt;!--/Creative Commons License--&gt;
+
+&lt;/div&gt;&lt;!-- id="CreativeCommons"--&gt;
+
+</t>
+<t tx="ZoomQuiet.20060124165636">/*width: 210px;*/
+DIV#cloud{
+    margin: .25em 0em .25em 0em;
+	padding: 0em 1em 0em 0em;	
+    text-align: right;
+    color:#DAE4DA; 
+    
+    border-right : 1em solid #96A096 ;
+    border-bottom : 1px dashed  #BAC4BA ;    
+    }</t>
+<t tx="ZoomQuiet.20060124174942">
+&lt;h4&gt;AboutMe&lt;/h4&gt;
+&lt;div id="AboutMe" class="slotarea"&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"&gt;
+&lt;img alt="My Wiki Page"  src="/styles/Zoomq_1-1_flickr.jpg"/&gt;&lt;/a&gt;
+
+&lt;br/&gt;
+&lt;b&gt;&lt;a href="mailto:Zoom.Quiet@gmail.com"&gt;Zoom.Quiet
+&lt;/a&gt;
+&lt;/b&gt;
+&lt;SUP&gt;
+&lt;a href="http://www.douban.com/group/zoomquiet/"&gt;
+::&lt;img alt="My DOUBAN Group"  src="/entry/pic/douban-ico.png"/&gt;
+&lt;/a&gt;
+&lt;/SUP&gt;
+
+&lt;a href="http://wiki.woodpecker.org.cn/moin/CPUG"&gt;
+&lt;img src="http://blog.zoomquiet.org/entry/pic/BPUGlabelT.png"/&gt;
+&lt;/a&gt;
+
+&lt;/div&gt;</t>
+<t tx="ZoomQuiet.20060125100636">逐一初始化目标复本:
+    简单测试
+$ env - ./post-commit /var/lib/svn-repos 1234
+    svn checkout ...
+"conf::
+    /usr/local/etc
+    使用:
+file:///data1/www/svn.woodpecker/repos/matter/conf/usrloc/etc/
+"svn::
+    ln -s /var/log/svn/ log
+    使用:
+file:///data1/www/svn.woodpecker/repos/matter/data/svn/matter/    
+"通过 matter 维护 woodpecker 的hooks, 由woodpecker 自个儿调用触发
+file:///data1/www/svn.woodpecker/repos/matter/data/svn/woodpecker/
+"blog:: 
+    /data1/www/blog.woodpecker/PyBlosxom   
+    使用:
+file:///data1/www/svn.woodpecker/repos/matter/data/blog/pyblosxom 
+    /data1/www/blog.woodpecker/planet   
+    使用:
+file:///data1/www/svn.woodpecker/repos/matter/data/blog/planet
+
+"wiki::
+    /data1/www/wiki.woodpecker/moin/
+    配置维护:
+file:///data1/www/svn.woodpecker/repos/matter/data/wiki/moin
+"www::
+    www.woodpecker/data/idx/
+file:///data1/www/svn.woodpecker/repos/matter/data/www/idx
+"demo::
+    体验专区！
+    /data1/www/demo.woodpecker/
+file:///data1/www/svn.woodpecker/repos/matter/data/www/demo
+"site-packages::
+    python 产品！
+    /usr/local/lib/python2.4/site-packages/
+file:///data1/www/svn.woodpecker/repos/matter/python/site-packages
+
+</t>
+<t tx="ZoomQuiet.20060125103000"></t>
+<t tx="ZoomQuiet.20060125112200">&lt;dl&gt;
+&lt;dt&gt;http://pyblosxom.sourceforge.net/1.3/manual/c857.html
+&lt;/dt&gt;
+    &lt;dd&gt;
+      怎么着？一个最普通的评注要这么复杂才能够成功？！
+    &lt;/dd&gt;
+    
+&lt;dt&gt;速度&lt;/dt&gt;
+    &lt;dd&gt;
+        为什么 PyBlxosom 的 comment 时的响应速度如此慢？！
+    &lt;/dd&gt;
+&lt;/dl&gt;
+</t>
+<t tx="ZoomQuiet.20060125122854">%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title --no-headers</t>
+<t tx="ZoomQuiet.20060125144556">@path Subversion
+</t>
+<t tx="ZoomQuiet.20060125145500">@language Moin
+Subversion
+为了颠覆CVS的版本管理系统！
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+
+</t>
+<t tx="ZoomQuiet.20060125145500.1">
+= SVN vs CVS =
+
+在本地使用自个儿习惯的格式来写，通过SVN 自动版本同步到PyBlsxom发布！
+
+: 好处：
+    + 使用DB4有事务支持
+    + 二进制文件可版本管理
+    + 速度快！
+    + 离线操作丰富
+    + ...
+    +
+: 坏处:
+    - 使用DB 数据可能//变脏//
+    - DB4 管理复杂
+     - 不过，到了1.2.1以后也支持CVS样儿的文件型数据管理了
+    -
+
+
+
+
+
+
+</t>
+<t tx="ZoomQuiet.20060125145500.2">
+= 啄木鸟的体验 =
+
+很早就使用SVN 进行代码管理了，统一的体验就是快！
+
+[trac of 啄木鸟 http://cvs.woodpecker.org.cn/trac/]
+
+[啄木鸟SVN使用说明 http://wiki.woodpecker.org.cn/moin/AllAboutSubversion]
+
+
+</t>
+<t tx="ZoomQuiet.20060125145500.4">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[hacking http://www.technorati.com/tags/Subversion]</t>
+<t tx="ZoomQuiet.20060125145853">
+= v1.3.0体验 =
+
+: FreeBSD6.0 为准:
+    + 升级ports:
+        - ``portsnap upgrade``
+        - 比以前的什么
+        ``cvsup -sgL2 /usr/share/examples/cvsup/ports-supfile -h cvsup{,2-6}.cn.freebsd.org`` 
+        要直接的多
+    + 安装SVN:
+```
+# cd /usr/ports/devel/subversion
+# make install clean
+```
+    + 创建SVN仓库:
+        - ``svnadmin create --fs-type fsfs /path/to/ur/svnrepo``
+        - 建立使用 [FSFS 存储的仓库 http://www.subversion.org.cn/svnbook/1.1/svn-ch-5.html#svn-ch-5-sect-1.3]
+    + 启动服务:
+        - 选择**svnserve**:
+        - [根据对比 http://www.subversion.org.cn/svnbook/1.1/svn-ch-6.html#svn-ch-6-sect-1]
+        - **svnserve** 模式依赖最小,管理也方便，速度还快！
+        + inetd 方法启动:
+            - 确认:
+```
+    /etc/services 有
+svn           3690/tcp   # Subversion
+svn           3690/udp   # Subversion
+    /etc/inetd.conf 有
+svn stream tcp nowait svnowner /usr/bin/svnserve svnserve -i
+
+```
+            - ``svnserve -i`` 命令启动
+            - 每有请求，就会创建一个svnserve进程，处理完后自杀
+        + 作为独立“守护”进程:
+            - 直接``svnserve -d --listen-port=和--listen-host=``
+            选项来自定义“绑定”的端口和主机名启动
+            - 创建一个驻留内存的进程来影响SVN事务
+            - 也可限制发布:
+```
+svnserve -d -r /path/to/ur/svnrepos/
+```
+            仅仅发布指定的SVN仓库，这样一来访问时就不用知道服务端系统路径了
+            -
+    + 权限管理:
+        - 1.3.0 的SVN提供了足够好用的默许权限控制！
+        不用什么 Apache 的额外支持就足够进行管理了!
+        - //svnserve.conf//中指定:
+```
+password-db = passwd
+authz-db = authz
+...
+```
+        - 就可以在 **passwd** 文件中定义口令
+```
+[users]
+harry = harryssecret
+sally = sallyssecret
+...
+```
+        - **authz** 中进行用户组，代码目录访问权限的分配了
+```
+[groups]
+harry_and_sally = harry,sally
+[/foo/bar]
+harry = rw
+* = 
+[repository:/baz/fuz]
+@harry_and_sally = rw
+* = r
+```
+        - 比以前的只能口令，要丰富，足够的很多了！
+    + 备份管理:
+        - **hotcopy** 真实可用的热备！
+```
+svnadmin hotcopy /path/to/ur/repos /path/to/backup/ &amp;
+```
+    + 事务管理:
+        - 高级，但是实用有趣的 
+        **[HOOKs http://wiki.woodpecker.org.cn/moin/SubversionHooks]** 技术了！
+        - 最基础的 ，将``post-commit.tmpl`` cp 为 post-commit,
+        加入你自个儿的事务脚本
+```
+HOOKS="/path/to/ur/repos/hooks/script"
+$HOOKS/post-commit.py "$REPOS" "$REV"
+```
+        - 啄木鸟现在使用的 [post-commit.py /pyblosxom/OpenSource/Subversion/hooks/post-commit.phtm]自动将检入活动记录在案
+        - 
+    +
+
+</t>
+<t tx="ZoomQuiet.20060125153203">
+== 继续 ==
+
+以上是快记，具体使用中的体会，妙处要长期发现记录在案 的…………
+
+</t>
+<t tx="ZoomQuiet.20060125153339">@path hooks
+
+</t>
+<t tx="ZoomQuiet.20060125153540">&lt;&lt; post-commit declarations &gt;&gt;
+import sys,os,time
+
+&lt;&lt;init&gt;&gt;
+
+@others
+
+if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        usage()
+    # start hook matter...
+    repos = sys.argv[1]
+    rev = sys.argv[2]        
+    print &gt;&gt; f,TSTAMP+" &gt;&gt;&gt;&gt;&gt;&gt; woodpecker up rev::"+rev
+    print &gt;&gt; f,changedirs(LOOK,rev,repos)
+    logcommit(LOOK,rev,repos)
+    
+    print &gt;&gt; f,TSTAMP+" &lt;&lt;&lt;&lt;&lt;&lt; woodpecker repo commit DONE! "
+    </t>
+<t tx="ZoomQuiet.20060125153540.1">#!/usr/local/bin/python
+#coding=utf-8
+"""
+SVN 事务日志处理
+    - 使用固定的参数来自动响应检入后续操作:
+        - 记录检入活动信息到每日log文件
+"""
+##  Zoomq::060110 fixed log exp. esp. for woodpecker repo.
+## only record commit-log of woodpecker
+
+
+</t>
+<t tx="ZoomQuiet.20060125153540.2">CHMOD = "/bin/chmod"
+CHOWN = "/usr/sbin/chown"
+LOOK = "/usr/local/bin/svnlook"
+SVN = "/usr/local/bin/svn"
+log="/var/log/svn/woodpecker-ci.log"
+daylog = "%s-%s.log"%(log[:-4]
+                    ,time.strftime("%y%m%d",
+                                    time.localtime()))
+LOGFILE = daylog
+f = open( LOGFILE, "a+" )
+TSTAMP = "%s"%time.strftime("%y-%m-%d %H:%M:%S", time.localtime())
+
+### hook matter
+MARK = "woodpecker"
+MOD = "woodpecker"
+AIM = "/path/to/woodpecker/repos/"</t>
+<t tx="ZoomQuiet.20060125153540.3">def autoco(dirs,svn,mark,aim,mod):
+    """auto co all matter files:
+        - svn SVNLOOK where
+        - mark the mark of matter
+        - aim where want to co
+        - mod 指定的模块
+    """
+    print &gt;&gt; f,dirs
+    if mark in dirs:
+        print &gt;&gt; f,TSTAMP+" marked::OK! up::"+aim+mod
+        upsvn = svn+" update %s"%(aim+mod)
+        print &gt;&gt; f,TSTAMP+upsvn
+        up = os.popen(upsvn).read().strip()
+        print &gt;&gt; f,up
+    else:
+        print &gt;&gt; f,TSTAMP+" marked::NO! up::nothing"
+</t>
+<t tx="ZoomQuiet.20060125153540.4">def changedirs(look,rev,repos):
+    """list all changed dir
+    """
+    dirs = os.popen( look+" changed -r "+ rev + " " + repos).read().strip()
+    return dirs
+</t>
+<t tx="ZoomQuiet.20060125153540.5">def chkdirmod(cmod,cown,path,umark):
+    """chmod and chown the aim path
+    """
+    exp = os.popen(cmod+" -R "+umark+" "+path).read().strip()
+    exp += os.popen(cown+" -R www:www "+path).read().strip()    
+    return exp
+</t>
+<t tx="ZoomQuiet.20060125153540.6">def logcommit(look,rev,repos):
+    """log commit info...
+    """
+    log = os.popen( look+" author -r "+ rev + " "+ repos).read().strip()
+    print &gt;&gt; f," "*4+"%s commited;%s"%(str(log),repos)
+</t>
+<t tx="ZoomQuiet.20060125153540.7">    #return log..
+    
+def usage():
+    print "Usage: " + sys.argv[0] + " REPOS REV\n"
+    print &gt;&gt; f,TSTAMP+"Usage: " + sys.argv[0] + " REPOS REV"
+    sys.exit(0)
+</t>
+<t tx="ZoomQuiet.20060125164843">&lt;div id="cloud"&gt;[OpenPeople]
+&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.cathayan.org/"&gt;
+        cathayan&lt;/a&gt;
+        &lt;sup&gt;
+        &lt;a href="http://blog.cathayan.org/"&gt;
+        Blog on 27th Floor&lt;/a&gt;
+        &lt;/sup&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.delphij.net/"&gt;
+        delphij&lt;/a&gt;
+        &lt;sup&gt;
+        &lt;a href="http://blog.delphij.net/"&gt;
+        delphij's Chaos&lt;/a&gt;
+        &lt;/sup&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://billxu.com/"&gt;
+        Bill Xu&lt;/a&gt;
+
+    &lt;/li&gt;
+        
+&lt;/ul&gt;
+
+
+</t>
+<t tx="ZoomQuiet.20060125172237">@path Google
+</t>
+<t tx="ZoomQuiet.20060125172335">@path Mozilla
+</t>
+<t tx="ZoomQuiet.20060125172623">@path FireFox
+
+</t>
+<t tx="ZoomQuiet.20060125172634">@path Thunderbird
+
+</t>
+<t tx="ZoomQuiet.20060125173931">@language Moin
+[樣文]FreeBSD unionfsの改善提案
+开源项目文档范例
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+
+</t>
+<t tx="ZoomQuiet.20060125173931.1">
+: 发现:
+    中国FreeBSD commiter 之一的 delphij 发现吿之的
+    - 范文哪！
+    - **[FreeBSD unionfsの改善提案 http://people.freebsd.org/~daichi/unionfs/index-ja.html]**
+    - 真应了//世上无难事，只怕有心人//
+    -
+
+
+</t>
+<t tx="ZoomQuiet.20060125173931.2">
+
+**简单列一下子文档结构**
+
+
+= 标题 =
+
+```
+作者
+修改log
+
+其它版本链接[English]
+```
+
+== 概要 ==
+
+文档本身的简单述
+
+== unionfs介绍 ==
+
+简介讨论主体本身
+
+== 以往问题 ==
+
+简述已知问题
+
+== 增进提案 ==
+
+描述如何改善
+
+== 实施 ==
+
+说明如何升级
+
+== 使用方法 ==
+
+说明新环境如何使用
+
+== 补丁 ==
+
+说明对以往系统的补丁发布情况
+
+=== unionfs-p5.diff变更说明 ===
+
+=== unionfs-p4.diff变更说明 ===
+
+...
+具体说明每次更新的变化
+
+== 现在问题 ==
+
+还有什么不足?
+
+= 附录 =
+
+== FAQ ==
+== 联系方法 ==
+
+</t>
+<t tx="ZoomQuiet.20060125173931.3">
+= TODO =
+
+呜乎哀哉！标准的一次软件升级，就应该为用户负责道明白前因后果；
+
+我们呢…………?
+
+</t>
+<t tx="ZoomQuiet.20060125175729">@language Moin
+[FFox]searchplugins
+手工定制搜索引擎使用
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+
+</t>
+<t tx="ZoomQuiet.20060125175729.1">
+: 定制tips:
+    如何快速定制地址栏旁边的搜索引擎？
+    - [清风 http://qingfeng.ushared.com/blog/] 指点
+    + 手工修改:
+        - ``Mozilla.org\FireFox\searchplugins\``
+        - 其中的图片和对应的 .src
+    + 重启 FireFox!
+
+: 注意:
+    .src 中的:
+```
+&lt;browser
+    update="https://addons.mozilla.org/searchplugins/updates/google.src"
+    updateIcon="https://addons.mozilla.org/searchplugins/updates/google.gif"
+    updateCheckDays="1"
+&gt;
+```
+    可清 以免自动更新掉！
+
+: [/pybimage/snap060125-ffox-searcheng.png]
+    我为了使用 google 定义了 [asia.google http://asia.google.com]
+    ; [google.cn http://www.google.cn]
+    两个引擎
+    - 一般讲早上可用 [asia.google http://asia.google.com]的，
+    - 全天可用[google.cn http://www.google.cn]的
+    - [www.google http://www.google.com] 就看运气了…………
+    -</t>
+<t tx="ZoomQuiet.20060125175729.6">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[Mozilla http://www.technorati.com/tags/Mozilla]
+    ,[FireFox http://www.technorati.com/tags/FireFox]</t>
+<t tx="ZoomQuiet.20060126122942">woodpecker.org.cn
+202.108.44.62
+================
+zhouqi
+
+huangdong:
+5JAg0X6X+kfZnbniQEmiqlFrmjMcGaDCACLadikjoNhW
+
+root:
+D3axxZFECNTwAK997UjcUZXe7eDId/jxxZFECNTwAK9n7y3P
+
+不要乱搞！
+
+----HD  
+
+对于 nfcserver...
+su-2.05# kill -HUP 37448
+
+
+</t>
+<t tx="ZoomQuiet.20060126122942.1">cat /var/run/dmesg.boot
+:
+    FreeBSD 4.10-STABLE
+    CPU: Intel(R) Xeon(TM) CPU 3.06GHz (3050.94-MHz 686-class CPU)
+    real memory  = 1073573888 (1048412K bytes)
+    FreeBSD/SMP: Multiprocessor motherboard: 2 CPUs
+    cpu0 (BSP): apic id:  0, version: 0x00050014, at 0xfee00000
+    cpu1 (AP):  apic id:  1, version: 0x00050014, at 0xfee00000
+     
+     &lt;ATI Mach64-GR graphics accelerator&gt; at 14.0
+     em0: &lt;Intel(R) PRO/1000 Network Connection, Version - 1.7.25&gt;
+     em1: &lt;Intel(R) PRO/1000 Network Connection, Version - 1.7.25&gt;
+     
+    da0: &lt;IBM IC35L146UCDY10-0 S27T&gt; Fixed Direct Access SCSI-3 device
+    da0: 140014MB (286749480 512 byte sectors: 255H 63S/T 17849C)
+    da2: &lt;SEAGATE ST373453LC DX10&gt; Fixed Direct Access SCSI-3 device
+    da2: 70007MB (143374650 512 byte sectors: 255H 63S/T 8924C)
+    da1: &lt;SEAGATE ST373453LC DX10&gt; Fixed Direct Access SCSI-3 device
+    da1: 70007MB (143374650 512 byte sectors: 255H 63S/T 8924C)
+
+    
+    
+
+host# df
+Filesystem  1K-blocks    Used     Avail Capacity  Mounted on
+/dev/da0s1a    516062   59682    415096    13%    /
+/dev/da0s1h 124102392       2 114174200     0%    /backup
+/dev/da1s1e  70571492  219084  64706690     0%    /data1
+/dev/da2s1e  70571492 1037812  63887962     2%    /data2
+/dev/da0s1g   1032142      32    949540     0%    /tmp
+/dev/da0s1e   9289902 2177846   6368864    25%    /usr
+/dev/da0s1f   2064302  286658   1612500    15%    /var
+procfs              4       4         0   100%    /proc
+</t>
+<t tx="ZoomQuiet.20060126165250"></t>
+<t tx="ZoomQuiet.20060126165836">&lt;a href="http://www.djangoproject.com/"&gt;
+Djano
+&lt;/a&gt;是&lt;a href="http://python.org/"&gt;
+Python
+&lt;/a&gt; 世界中，类似&lt;a href="http://www.rubyonrails.org/"&gt;RoR&lt;/a&gt; 
+的快速web 开发平台之一.它鼓励快速开发和干净的、ＭＶＣ设计。它包括一个模板系统，对象相关的映射和用于动态创建管理界面的框架。自从正式发布后在全世界受到追捧，发布的异常快速。
+
+&lt;a href="http://wiki.woodpecker.org.cn/moin/DjanGo"&gt;
+(啄木鸟社区的中文介绍)
+&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/CPUG"&gt;CPUG&lt;/a&gt;
+活跃人物:
+&lt;a href="http://wiki.woodpecker.org.cn/moin/limodou"&gt;
+limodou
+&lt;/a&gt; 刚刚在个人
+&lt;a href="http://blog.donews.com/limodou/archive/2006/01/26/709143.aspx"&gt;
+Blog 
+&lt;/a&gt;中 发布消息，正式发表了&lt;b&gt;
+&lt;a href="http://www.woodpecker.org.cn/obp/django/django-stepbystep/newtest/doc/"&gt;
+《Django Step by Step》
+&lt;/a&gt;&lt;/b&gt;
+-- 《Django一步接一步》中文学习教程！
+
+&lt;br/&gt;
+教程整理自&lt;a href="http://wiki.woodpecker.org.cn/moin/limodou"&gt;
+limodou
+&lt;/a&gt;的个人学习体验，以前&lt;a href="http://blog.donews.com/limodou/category/65397.aspx"&gt;是以连载的形式在blog中
+&lt;/a&gt;发布的，此次，使用
+&lt;a href="http://www.czug.org/plone/howto/howto-restructed-text/"&gt;
+&lt;i&gt;re&lt;/i&gt;Structed
+&lt;/a&gt;
+文本格式整理，组织成为正式教程，通过&lt;a href="http://www.woodpecker.org.cn/"&gt;
+啄木鸟社区
+&lt;/a&gt;空间发布以利于中国Python 爱好者学习。
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="ZoomQuiet.20060127143250">@path folksonomy
+
+</t>
+<t tx="ZoomQuiet.20060127143423">&lt;&lt; pyguest declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+__author__ = "Oscar Norander - oscar-no at codeape dot org"
+__version__ = "1.2 (22 December, 20004)"
+__url__ = "http://www.codeape.org/blog/static/download"
+__description__ = "A simple guestbook"
+
+import os, os.path, string, md5
+from Pyblosxom.tools import Stripper
+import Pyblosxom.tools
+from Pyblosxom.entries.fileentry import FileEntry
+from datetime import datetime
+
+__PROP_DIR__ = "guestbookdir"
+__TRIGGER__ = "guestbook"
+__FORM_TEMPLATE__ = "pyguest_form"
+__BUILTIN_FORM__ = \
+"""
+&lt;br /&gt;
+&lt;b&gt;The fields name and message are mandatory.&lt;/b&gt;
+&lt;br /&gt;&amp;nbsp;                        
+&lt;form action="http://www.codeape.org/blog/guestbook/index" method="post"&gt;
+   Name: &lt;br /&gt;&lt;input type="text" name="aname" value="" /&gt;&lt;br /&gt;
+   Email:&lt;br /&gt;&lt;input type="text" name="aemail" value="" /&gt;&lt;br /&gt;
+   URL:&lt;br /&gt;&lt;input type="text" name="aurl" value="http://" /&gt;&lt;br /&gt;
+   Message:&lt;br /&gt;
+   &lt;textarea name="amsg" rows="4" cols="20"&gt;&lt;/textarea&gt;&lt;br /&gt;
+   &lt;input type="hidden" name="atime" value="$posted_date" /&gt;
+   &lt;input type="submit" value="Submit" /&gt;
+&lt;/form&gt; \n
+"""
+
+@others
+
+</t>
+<t tx="ZoomQuiet.20060127143423.1">"""
+This is a simple guestbook (and my first pyblosxom hack). These
+are the features:
+  - To post to the guestbook, the user must enter a name and a
+    message or else the guestbook entry will not be saved. The
+    other fields are not mandatory and don't need to be entered.
+
+  - The guestbook have protection against double posts due to
+    reloading of browsers etc.(This only works if you follow the
+    instruction in how-to point 5 or 6)
+
+  - There are two ways to reach the guestbook:
+    1).../guestbook/index 2).../guestbook/all (for example
+    http://www.codeape.org/cgi-bin/pyblosxom.cgi/guestbook/index
+    or http://www.codeape.org/blog/guestbook/index). The index
+    link shows the number of entires that is given in the
+    config.py (ex. py['num_entries'] = 5) for the blog. The all
+    link shows all entries.
+
+Quick and dirty how-to:
+1. Putt pyguest.py in your plug-in directory
+
+2. Add pyguest to your py['load_plug-ins'] property
+
+3. Add a new property called py["guestbookdir"] to your config.py.
+   This property must point on a directory where you want to keep
+   you guestbook entries. Remember to chmod and chgrp this directory
+   so that the script has read, write and execute permissions to it.
+   Example: Apache runs as www-data user and group. To make pyguest
+   work on an Apache server, you need to set the group of the
+   directory you keep your guestbook entries in to www-data (chgrp
+   www-data mydir). You must also give the www-data group read write
+   and execute permissions on that directory (chmod 775 mydir). 
+   
+4. Add a file in your datadir (where you have all your templates)
+   that is called pyguest_item.flav (exchange flav with the name of
+   a real flavor). Now edit that file and make a nice layout for you
+   guestbook items. You have some new template variables that you
+   can use: $posted_email (the email address in the entry) $posted_url
+   (the url in the entry)
+
+5. In your header or footer template add the variable $pyguest_form
+   where you want the submit form to show up. The submit form will
+   only be shown when the index or all links are executed. The
+   pyguest.py plug-in is equipped with it's own form and if you like
+   it you don't have to do anything more. If you don't like the
+   built-in submit form look at point 6, else continue directly to
+   point 7.
+   
+6. If you want to fix your own submit form just add a file in your
+   datadir that is called pyguest_form.flav (exchange flav with the
+   name of a real flavor). Make a nice form that contains at least
+   the input fields aname and amsg (the other two are aurl and aemail).
+   To get the double posts protection to work you must add this hidden
+   field to your form:
+   
+   &lt;input type="hidden" name="atime" value="$posted_date" /&gt;.
+
+   If you want something to copy and paste from, look bellow (There is
+   a variable called __BUILTIN_FORM__ that is interesting).  
+
+7. Now you are ready to test your guestbook! With the ../guestbook/index
+   or/and  ../guestbook/all links. For example:
+   http://www.someurlorip.org/cgi-bin/pyblosxom.cgi/guestbook/index and
+   http://www.someurlorip.org/cgi-bin/pyblosxom.cgi/guestbook/all
+   (replace www.someurlorip.com with your site =) ).
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004 Oscar Norlander
+
+Revisions:
+1.0 - (23 Oktober, 2004) Created.
+1.1 - (27 Oktober, 2004) Added better template variables support
+      for the pyguest_form template. Also, now striping HTML from
+      all posted data.
+1.2 - (22 December, 2004) Documentation updates.
+1.3 - (10 August, 2005) Added base_url template variable to
+      pyguest_form. Documentation updates.
+"""
+
+</t>
+<t tx="ZoomQuiet.20060127143423.10">def cb_filelist(args):
+    req = args["request"]
+
+    pyhttp = req.getHttp()
+    data = req.getData()
+    config = req.getConfiguration()
+
+    if (pyhttp["PATH_INFO"].startswith("/" + __TRIGGER__ + "/index")) : 
+        ShowAll = False
+    elif (pyhttp["PATH_INFO"].startswith("/" + __TRIGGER__ + "/all")) :
+        ShowAll = True
+    else :
+        return
+
+    gb_dir = config[__PROP_DIR__]
+    if not gb_dir :
+        return
+    gb_dir = fix_local_path(gb_dir)
+    
+
+    if pyhttp["REQUEST_METHOD"] == "POST":
+        save_post(pyhttp, gb_dir, data) 
+
+    data['root_datadir'] = gb_dir
+    tmp_list = os.listdir(gb_dir)
+
+    files_list = []
+    for itm in tmp_list :
+        tmp_tupple = os.stat(gb_dir+itm).st_mtime, itm
+        files_list.append(tmp_tupple)
+    files_list.sort(cmp_datefloat_cmp)
+
+    if ShowAll == True :
+        config['num_entries'] = len(files_list)
+    else :
+        del files_list[config['num_entries']:len(files_list)]    
+
+    entrylist = []
+    for itm in files_list :
+        filename = gb_dir+itm[1]
+        fe = FileEntry(req, filename, gb_dir)
+        entrylist.append(fe)
+
+    if len(entrylist) == 0 :
+        entry = Pyblosxom.entries.base.generate_entry(
+            req,
+            {"title" : "It works!" },
+            "This message will disappear after first entry in guestbook",
+            None)
+        entrylist.append(entry)
+    
+    return entrylist
+</t>
+<t tx="ZoomQuiet.20060127143423.11">#Parser for the .pg file format
+def parse(filename, request):
+    entryData = {}
+    lfile = open(filename, "r").read().split("\n")
+    entryData["title"] = lfile[0]
+    entryData["posted_email"] = lfile[1]
+    entryData["posted_url"] = lfile[2]
+    entryData['body'] = lfile[3]
+    entryData["template_name"] = "pyguest_item"
+    return entryData
+</t>
+<t tx="ZoomQuiet.20060127143423.12">def cb_entryparser(entryparsingdict):
+    entryparsingdict['pg'] = parse
+    return entryparsingdict
+</t>
+<t tx="ZoomQuiet.20060127143423.2">def verify_installation(req):
+    config = req.getConfiguration()
+
+    retval = 1
+
+    #Checks if config.py has a property "guestbookdir". "guestbookdir"
+    #describes the path where the guestbook entries are stored. A check
+    #to see if the path is valid is also executed.
+    if not config.has_key(__PROP_DIR__) :
+        print "'guestbookdir' property is not set in the config file."
+        retval = 0
+    elif not os.path.isdir(config[__PROP_DIR__]):
+        print "Path '" + config[__PROP_DIR__] + "' do not exist."
+        retval = 0
+
+    return retval
+</t>
+<t tx="ZoomQuiet.20060127143423.3">#I simply want that slash in the end of the path.
+def fix_local_path(path):
+    if not path.endswith("/"):
+        path = path + "/"
+    return path.replace("/", os.sep)
+</t>
+<t tx="ZoomQuiet.20060127143423.4">#Load the template for the form used to commit data and stores it in
+#variable $pyguest_form
+def cb_prepare(args):
+    req = args["request"]
+    
+    pyhttp = req.getHttp()
+    data = req.getData()
+    config = req.getConfiguration()
+
+    #Checks if this is a valid path for this action.
+    if (not pyhttp["PATH_INFO"].startswith("/" + __TRIGGER__ + "/index")) \
+           and (not pyhttp["PATH_INFO"].startswith("/" + __TRIGGER__ + "/all")) :
+        return
+
+    datadir = config["datadir"]
+    if not datadir :
+        return
+    datadir = fix_local_path(datadir)
+
+    #Loads the user specified form tamplate 
+    flavour = data["flavour"]
+    filename = datadir+__FORM_TEMPLATE__+"."+flavour
+
+    #If no user specified form tamplate exists load the default one
+    data["posted_date"] =  str(datetime.today()).replace(" ","_")
+    if  config["base_url"] :
+        data["base_url"] = config["base_url"]
+    if not os.path.isfile(filename) :
+        formdata = __BUILTIN_FORM__
+    else :
+        formdata = open(filename).read()
+
+    #if $posted_date exists it is set in the template
+    formdata = Pyblosxom.tools.parse(req, "iso-8859-1", data, formdata)
+
+    #adds the from as a variable
+    data["pyguest_form"] = formdata 
+</t>
+<t tx="ZoomQuiet.20060127143423.5">#Creates a unique string by using the current date and time together
+#with a md5 checksum on the data that will be stored
+#It can operate with a given time string
+def unique_filename(astr, adate = None):
+    if not adate :
+        return string.replace(str(datetime.today()), " ","_")+"_"+str(md5.new(astr).hexdigest())+".pg"
+    else :
+        return adate+"_"+str(md5.new(astr).hexdigest())+".pg"
+</t>
+<t tx="ZoomQuiet.20060127143423.6">def already_posted(astr, adate, apath):
+    return os.path.isfile(apath+adate+"_"+str(md5.new(astr).hexdigest())+".pg")
+</t>
+<t tx="ZoomQuiet.20060127143423.7">def HTMLStrip(str):
+    LStrpr = Stripper()
+    LStrpr.feed(str)
+    return LStrpr.gettext()
+</t>
+<t tx="ZoomQuiet.20060127143423.8">def save_post(ahttp, path, data):
+    form = ahttp["form"]
+
+    #Check so that we have minimal data
+    if not form.getvalue("aname") :
+        return
+    elif not form.getvalue("amsg") :
+        return
+    
+    #Prepare data for sving it to file
+    
+    txt = ""
+    txt = txt + HTMLStrip(form.getvalue("aname")) + "\n"
+    if  form.getvalue("aemail") :
+        txt = txt + HTMLStrip(form.getvalue("aemail")) + "\n"
+    else :
+        txt = txt + "\n"
+    if form.getvalue("aurl") :
+        if (form.getvalue("aurl") == "http://") or (form.getvalue("aurl") == "") :
+            txt = txt + "\n"
+        else :
+            txt = txt + HTMLStrip(form.getvalue("aurl")) + "\n"
+    else :
+        txt = txt + "\n"
+    txt = txt + HTMLStrip(form.getvalue("amsg").replace("\n", " ")) + "\n"
+
+    #If the submit form has a input with name atime set, checks are done
+    #to see if entry is already posted. If post exists entry will not get
+    #posted
+    strdate = form.getvalue("atime")
+    if strdate :
+        if already_posted(txt, strdate, path):
+            return
+        else :
+            lfile = open(path+unique_filename(txt, strdate), "w+")
+            lfile.write(txt)
+            lfile.close         
+    else :
+        lfile = open(path+unique_filename(txt), "w+")
+        lfile.write(txt)
+        lfile.close
+</t>
+<t tx="ZoomQuiet.20060127143423.9">def cmp_datefloat_cmp(item1, item2):
+    return item2[0] - item1[0]
+</t>
+<t tx="ZoomQuiet.20060127143628">@path willplugins
+
+</t>
+<t tx="ZoomQuiet.20060127153926">@path /usr/local/lib/python2.6/dist-packages/pyblosxom-1.5_rc1-py2.6.egg/Pyblosxom/
+PyBlosxom 本身！
+</t>
+<t tx="ZoomQuiet.20060127162954">py['load_plugins'] = ["wbgpager"
+                      , "pycalendar"
+                      , "zqcategory"#"pycategories"
+                      , "zqcrecent"
+                      , "pyfilenamemtime"
+                      #, "pyarchives"
+                      # 格式处理
+                      , "py"
+                      #,"t2t"
+                      #,"rst"
+                      ,"xhtml"
+                      #,"moinmoin" 有问题！
+                      # SNS 处理
+                      #,"trackback"
+                      ,"comments"
+                      #,"commentAPI"
+                      #,"folksonomy"
+                      #,"keywords"
+                      #,"latest_comments"
+                      ,"pyguest"
+                      # Will's plugins
+                      ,"plugininfo"
+                      ,"wbgarchives"
+                      ,"wbgrecent"
+                      ,"wbggrep"  
+                      # Zoomq::060516 nospam 
+                      ## usage Steven Armstrong's http://www.c-area.ch/code/pyblosxom/plugins/
+                      #,"contact"
+                      #,"session"
+                      #,"test_session"
+                      ,"magicword"                     
+                      ]
+
+</t>
+<t tx="ZoomQuiet.20060127163053">## for Will's plugins
+py["wbgpager_count_from"] = 1
+py["wbgpager_linkstyle"] = 0
+
+py["plugininfo_hide"] = ["pyguest"]
+
+# for guestbook
+py["guestbookdir"] = '/data1/www/blog.woodpecker/pyblosxom/zoomquiet/guestbook'
+
+py['latest_comment_count'] = 7
+#py['archive_template'] = '&lt;li&gt;&lt;a href="%(base_url)s/%(Y)s/%(b)s"&gt;%(m)s/%(y)s&lt;/a&gt;&lt;/li&gt;'
+
+# 4 Folksonomy 
+py['pretext'] = "&lt;div class='tags'&gt;TAGs:"
+py['posttext'] = "&lt;/div&gt;"
+py['tagsep'] = ", "
+#py['tag_url'] = "http://mysite/tags"  # defaults to $base_url/tags
+#py['tag_url_display'] = "http://mysite/tags" # defaults to tag_url
+#py['ignore_tags'] = []
+
+# 4 trackback
+#py['trackback_urltrigger'] = "/trackback"
+#py['commentAPI_urltrigger'] = "/commentAPI"
+</t>
+<t tx="ZoomQuiet.20060127164449">@path guestbook</t>
+<t tx="ZoomQuiet.20060127173032">Comment 支持</t>
+<t tx="ZoomQuiet.20060127173032.3">&lt;div class="blosxomGuestbookForm"&gt;
+
+&lt;input type="hidden" name="atime" value="$posted_date" /&gt;
+
+$pyguest_form
+
+&lt;/div&gt;&lt;!-- end "blosxomGuestbookForm"--&gt;</t>
+<t tx="ZoomQuiet.20060127173402">&lt;div class="blosxomGuestbook"&gt;
+
+&lt;h3 id="blosxomTitle"&gt;::
+&lt;a name="$fn" href="$base_url/$file_path_urlencoded.$flavour"&gt;
+$title&lt;/a&gt;
+&lt;/h3&gt;
+$posted_url
+&lt;br/&gt;
+$posted_email
+&lt;div class="blosxomStory"&gt;
+$body
+&lt;/div&gt;&lt;!--class="blosxomStory"--&gt;
+
+&lt;/div&gt;&lt;!--class="blosxomGuestbook"--&gt;
+</t>
+<t tx="ZoomQuiet.20060127180654">
+    &lt;h4&gt;Menu&lt;/h4&gt;
+&lt;div id="Menu" class="slotarea"&gt;
+&lt;ul&gt;
+&lt;!--
+&lt;li&gt;&lt;a href="$base_url/guestbook/index"&gt;
+    访客留言::guestbook&lt;/a&gt;&lt;/li&gt;
+--&gt;
+&lt;li&gt;&lt;a href="$base_url/plugin_info"&gt;
+    插件信息::Plugins running($plugincount)&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="$base_url/recent"&gt;
+    最新更动::Recent activity&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;!--
+
+--&gt;
+&lt;h4&gt;Recent Comments&lt;/h4&gt;
+&lt;div id="RecentComments" class="slotarea"&gt;
+$latest_comments
+
+&lt;/div&gt;
+
+</t>
+<t tx="ZoomQuiet.20060127182127">&lt;div class="blosxomEntry"&gt;
+&lt;!-- Zoomq::060128 add for new Categories 
+$debug
+&lt;br/&gt;
+--&gt;
+
+
+&lt;span class="blosxomTitle"&gt;$title&lt;/span&gt;
+    &lt;div class="blosxomBody"&gt;
+    &lt;table id="wbgarchives" border="1"&gt;
+    $body
+    &lt;/table&gt;
+    
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="ZoomQuiet.20060127182610">#wbgarchives {
+    font-size:90%;
+    }</t>
+<t tx="ZoomQuiet.20060128095939">Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyleft 2005, 2006 Zoom.Quiet
+</t>
+<t tx="ZoomQuiet.20060128153018">@path zqpyb+
+</t>
+<t tx="ZoomQuiet.20060128161220">request.getHttp()
+可以获取::
+    
+{'CONTENT_LENGTH': ''
+ , 'HTTP_ACCEPT': 'text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5'
+ , 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.8) Gecko/20051111 Firefox/1.5'
+ , 'HTTP_COOKIE': ''
+ , 'HTTP_REFERER': ''
+ , 'REMOTE_ADDR': '10.217.12.21'
+ , 'wsgi.errors': ', mode 'w' at 0x81560b0&gt;, 'SCRIPT_NAME': '/pyblosxom', 'HTTP_IF_NONE_MATCH': '', 'wsgi.url_scheme': 'http', 'HTTP_IF_MODIFIED_SINCE': '', 'wsgi.input': ', mode 'r' at 0x8156020&gt;
+ , 'REQUEST_METHOD': 'GET'
+ , 'HTTP_HOST': 'blog.zoomquiet.org'
+ , 'PATH_INFO': '/recent'
+ , 'QUERY_STRING': '/OpenSource/PyBlosxom/plugins'
+ , 'HTTP_ACCEPT_ENCODING': 'gzip,deflate'
+ , 'REQUEST_URI': '/pyblosxom/recent?c=123131'}</t>
+<t tx="ZoomQuiet.20060214171628">@language Moin
+情人节？
+翻译的很烂的节日
+&lt;&lt;t2t head&gt;&gt;
+
+**世上多是负心人，不论由已还是她**
+
+: 情人节？ 
+    情人的？有情人的？第三者的？
+    嗬嗬，很麻烦的解释哪…………
+: 不过！
+    俺是不过的，远不如**光棍节**来的光棍哪！
+: MM是辛苦的！
+    - 到这天，圈笼样的办公区里，要是没有几束草本植物及时报到，很没面子的……
+    - 幸好，俺是男的，幸好，中国不怎么讲究“白色情人节” 俺们没有这种比赛哪！
+
+
+&lt;&lt;SNSlink&gt;&gt;  
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060214171628.1">
+[/pybimage/technorati-over.gif]
+    [Quiet http://www.technorati.com/tags/Quiet]
+    ,[news http://www.technorati.com/tags/news]
+    ,[nomeans http://www.technorati.com/tags/nomeans]
+
+%&lt;span class="technoratitag"&gt;&lt;/span&gt;</t>
+<t tx="ZoomQuiet.20060220153825">@language Moin
+重名？！
+呜乎哀哉……
+&lt;&lt;t2t head&gt;&gt;
+
+[/pybimage/snap060220-sinablogjoke.png]
+
+接到友人线报才发现的！
+
+呜乎哀哉！一定要沟通进行处理的，可是SinaBlog 是也乎…………
+
+等等吧……
+
+
+
+&lt;&lt;SNSlink&gt;&gt;
+% #::tags OpenSource,PyBlosxom
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="ZoomQuiet.20060220153825.1">
+[/pybimage/technorati-over.gif]
+    [chinese http://www.technorati.com/tags/chinese]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[internet http://www.technorati.com/tags/internet]</t>
+<t tx="ZoomQuiet.20060222134553">&lt;!-- START COCOMMENT.COM BOX --&gt;
+&lt;script type="text/javascript" src="http://www.cocomment.com/mybox-js/Zoomq/1"&gt;&lt;/script&gt;
+&lt;style type="text/css"&gt;
+  DIV.cocomment-box{ border:0px solid #A8B0A8; 
+                    padding:2px; margin:1px;
+                    background-color:#5C1CBC1;}
+  DIV.cocomment-box .boxhead{ background-color:#5A695F; text-align:center;}
+  DIV.cocomment-box .boxhead A{ color:#835959;}
+  DIV.cocomment-box .title{ padding:5px; margin-bottom:3px;
+                            background-color:#738278;}
+  DIV.cocomment-box .entry{ padding:5px; font-size:x-small;
+                            background-color:#526157;
+                            border-bottom: 1px dotted #DAE4DA;}
+  DIV.cocomment-box .author{ color:#DAF4DA;}
+  DIV.cocomment-box .author-alias { display:none;}
+  DIV.cocomment-box .service{ color:#DAE4DA;}
+  DIV.cocomment-box .comment{ color:#ECEEEC;}
+  DIV.cocomment-box A{ text-decoration:none; color:#835959;}
+  DIV.cocomment-box A:hover{ text-decoration:underline;}
+  DIV.boxfooter A{color:#835959;}
+  
+&lt;/style&gt;
+&lt;!-- END COCOMMENT.COM BOX --&gt;</t>
+<t tx="ZoomQuiet.20060228174037">@language Moin
+我有顶帐篷，面朝中关村...
+无奈版::面朝大海，春暖花开
+&lt;&lt;t2t head&gt;&gt;
+```
+    我有顶帐篷，面朝中关村，风雨交加，
+    从明天起，注意环保，自个儿种青菜……
+    那浪费的自来水告诉我的
+    我将告诉每一个件人
+    给每一个模块每一个类取一个恰当的名字吧
+
+    陌生人，我永远祝福你
+    愿你有一个灿烂的前程
+    愿你不会坠入软件行业，还有IT
+    愿你在电脑面前很轻松，不会担心D版问题
+
+    我只愿面朝开源，自由吾心
+```
+
+原版[http://www.yanruyu.com/jhy/author/18858.shtml 面朝大海，春暖花开]
+
+
+&lt;&lt;SNSlink&gt;&gt;  
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060228174037.1">
+[/pybimage/technorati-over.gif]
+    [Quiet http://www.technorati.com/tags/Quiet]
+    ,[news http://www.technorati.com/tags/news]
+    ,[nomeans http://www.technorati.com/tags/nomeans]
+
+%&lt;span class="technoratitag"&gt;&lt;/span&gt;</t>
+<t tx="ZoomQuiet.20060301090101">&lt;table align="center"&gt;
+    &lt;tr&gt;
+    &lt;td&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+    &lt;b&gt;&lt;a href="http://www.google.com/events/developerday/zh_CN/details.html"&gt;
+    我去ed&lt;/a&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    
+    &lt;a href="http://www.google.com/events/developerday/zh_CN/details.html"&gt;
+    &lt;img alt="GDD 2007!"  src="/entry/pic/icon/GDD_2007.gif"/&gt;
+    &lt;/a&gt;
+&lt;img alt="GDD with Guido"  src="/entry/pic/070531withGuido.png"/&gt;
+
+    &lt;/td&gt;
+    &lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;a href="http://us.pycon.org/TX2006/HomePage"&gt;
+&lt;img src="http://blog.zoomquiet.org/entry/pic/0602-pycon-logo.gif"/&gt;
+&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;a href="http://us.pycon.org/TX2006/HomePage"&gt;
+sprint 
+&lt;br/&gt;and more!
+&lt;/a&gt;
+&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;/table&gt;
+</t>
+<t tx="ZoomQuiet.20060303094418">[Fri Mar 03 10:05:21 2006] [error] [client 202.108.22.78]   File "/data1/www/blog.woodpecker/pyblosxom/plugins/meta_plugins/latest_comments.py", line 169, in comment_summary
+[Fri Mar 03 10:05:21 2006] [error] [client 202.108.22.78]
+[Fri Mar 03 10:05:21 2006] [error] [client 202.108.22.78]
+[Fri Mar 03 10:05:21 2006] [error] [client 202.108.22.78]
+[Fri Mar 03 10:05:21 2006] [error] [client 202.108.22.78] summary = u'&lt;div class="comment-link"&gt;&lt;a href="mailto:%s" class="comment-link-author"&gt;%s&lt;/a&gt; :: &lt;a href="%s#blosxomComments" class="comment-link-entry"&gt;%s &lt;sup&gt;(%s)c&lt;/sup&gt;&lt;/a&gt;&lt;/div&gt;'%(
+[Fri Mar 03 10:05:21 2006] [error] [client 202.108.22.78] summary = u'&lt;div class="comment-link"&gt;&lt;a href="mailto:%s" class="comment-link-author"&gt;%s&lt;/a&gt; :: &lt;a href="%s#blosxomComments" class="comment-link-entry"&gt;%s &lt;sup&gt;(%s)c&lt;/sup&gt;&lt;/a&gt;&lt;/div&gt;'%(
+[Fri Mar 03 10:05:21 2006] [error] [client 202.108.22.78] summary = u'&lt;div class="comment-link"&gt;&lt;a href="mailto:%s" class="comment-link-author"&gt;%s&lt;/a&gt; :: &lt;a href="%s#blosxomComments" class="comment-link-entry"&gt;%s &lt;sup&gt;(%s)c&lt;/sup&gt;&lt;/a&gt;&lt;/div&gt;'%(
+[Fri Mar 03 10:05:21 2006] [error] [client 202.108.22.78]   File "/usr/local/lib/python2.4/encodings/utf_8.py", line 16, in decode
+[Fri Mar 03 10:05:21 2006] [error] [client 202.108.22.78]   File "/usr/local/lib/python2.4/encodings/utf_8.py", line 16, in decode
+[Fri Mar 03 10:05:21 2006] [error] [client 202.108.22.78]   File "/usr/local/lib/python2.4/encodings/utf_8.py", line 16, in decode
+</t>
+<t tx="ZoomQuiet.20060306102523">/*.zoomclouds  {
+   text-align: left;
+   border:2px solid #006699;
+   padding:2px;
+   position:relative;
+   background-color:#333333;
+   width:200px;
+ }
+*/
+.zoomclouds span a, .zoomclouds a {
+   margin: 0 2px;
+   text-decoration:none;
+   font-family: Helvetica, arial, sans-serif;
+ }
+.zoomclouds span.tag1 a {color:#6588c7}
+.zoomclouds span.tag2 a {color:#254887}
+.zoomclouds span.tag3 a {color:#355897}
+.zoomclouds span.tag4 a {color:#4568a7}
+.zoomclouds span a:hover, .zoomclouds a:hover {
+   color:#FFFFFF;
+   background-color:#8ca5b5;
+   text-decoration:none;
+}
+.zoomcloudswg {
+   font-size:10px;
+   color: #bbb;
+}
+.zoomcloudssp {
+   font-size:10px;
+   color: #444;
+}
+</t>
+<t tx="ZoomQuiet.20060306165940">gconf-editor
+    /apps/panel/applets/applet_7/prefs/custom_format
+    &lt;b&gt;%y.%m.%d&lt;/b&gt; %A
+</t>
+<t tx="ZoomQuiet.20060308100814">@language Moin
+方言版大話西游！
+从这里，到那里 流转的不仅仅 是生命迁徙的轨迹
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060308100814.1">[转发的邮件]
+
+: 普通话版
+
+曾经有一份真诚的爱情放在我面前，我没有珍惜，等我失去的时候我才后悔莫及, 人世间最痛苦的事莫过于此.你的剑在我的咽喉上割下去吧！ 不用再犹豫了！如果上天 能够给我一个再来一次的机会, 我会对那个女孩子说三个字：我爱你，如果要给这个爱加一个期限的话，我希望是，一万年！ 
+
+: 北京版
+
+我知道我特该死，你丫宰了我都没的说，以前有份还不赖的爱情楞在我的跟前儿，我没搭理她，等过后就傻眼了，这鬼地方对我最好的哪个人就是你丫的了，你丫用刀废了我吧，别琢磨了，如果老天爷能再让我回头，我保准儿会对你丫不停唠叨三个字：我爱你YA！如果非要我在这份爱上加上个日期，一万年成不成？KAO！ 
+
+: 上海版 
+
+老历八早，有一段老刮三的感情摆勒吾的眼门前，碰到赤佬了，吾没去睬伊，等到格段感情窝死空勒以后，吾再晓得。奈么这记僵特了，假使讲老天爷令的清让吾再来一趟，吾勿会神之呜之了，呆卜落笃看伊跑特，吾会帮伊讲吾老欢喜侬额，假使来讲一定要拨伊敲定一段日节，格么吾想随便哪能总归要一万年。 
+
+: 东北版 
+
+曾经有一份贼拉子纯的爱情，搁在俺跟前，俺没咋当回事，直到整没了，俺才发现，世界上最憋屈的事也就这样了。如果老天爷再给俺一个机会，俺愿意对那个汉子说：“俺稀罕你！”如果非要给这件事整个年头的话，俺希望这个年头是———一万年！ 
+
+: 四川版 
+
+妈哟！！爱仙侣简直是求莫明堂！！内年（那年）内个女娃子把她非寄巴纯的爱情摆多爱仙侣更前，爱仙侣装瓜，摁是连理（QIO）都没有（QIO）求一眼，现在安逸了三，瓜起了！要是再来一次的话，爱仙侣赌咒发誓“那个仙人板板”不再切理内个“村姑”了。那个要是不理，就是龟儿子。 
+
+: 南京话版 
+
+老早老早以前，有一段正儿八经的感情摆在我这边，我脑子里头有屎哎，心想多 大事啊。结果歇得来，现在后悔的一米多高，不能跟我自己急唠。要是老天关照我个呆西，再把我一趟机会，我肯定兴的一头霍子，这把我要跟我胖西讲，哎，我对你满有意思的哎，我们叙叙还行啊？要是说非要定个日子的话喃，那就一万年嘛算赖，烦不了了 
+
+: 广东话版 
+
+曾经有啊份亘情摆系哦面琴，魁对哦吼吼架，但系哦某辉怎熄，以家魁*左哦，雷海哦啦，哦先发国魁云雷系亘厚架。于跟，哦机错啦，嘿芒累合以比个给为哦，哦为吼吼对累，怎熄累，于果哦合以寻杂，哦为口份亘情合以起组丫曼林。 
+
+: 山东话版 
+
+俺记地没儿设课和个妮子到成蕞儿冷好地，反正是都些真诚，咱也不知道是脑子里进水啊还是为了么，后来斗散唠呢，内不知道俺那个后悔奥。坦会儿叫俺再碰见那个妮子地话，俺得和她说仨字儿：俺乃内，内要问俺乃内多世姐，也斗是一万年呗，忒长唠也穆意思（鲁中方言，见笑见笑） 
+
+: 长沙话版 
+
+那匝时候有匝不晓得几好的漏放得我扪口，我冒此起它，结果现在冒得达，爱仙侣后悔最了，该一世冒的比国匝漏更烦躁的达。要是天王爱仙侣可怜一哈子我列，我会哦此哦此奔起克跟那个妹子讲，我喜欢你列！（长沙话没有我爱你） 
+
+: 英文版 
+
+I once let the trustest love sliped away from below my eyes。 Only to know that regreting myself when it was too late。 It is no paint in the world can come near to this 。 If only God wouldgive me another chance。 I will said to the gril。 I love you。 If it had to be a limit of time。I pray it’s ……ten thousands years。 
+
+: 日文版 
+
+かつて、??な?が俺の前に置いていたが、大切にしていなかった。あの?を失っ た、どんなに後悔したか、分かってきた！世の中に一番つらいことは、これしかない と思う。お前の?が、俺の喉から切ってくれよ！もう?予しないぞ！もし、神? から、 もう一度やらせる?会がくれれば、俺は、あの男の子にそう言うの が? まって いる???してる！もし、この?に期限を付けなければならなかったら、俺の希望 
+は ： 一万年！！！！ 
+
+: 法语版 
+
+Il y avait un true amour pour moi,mais je l`ai pas choisi.Je suis si repenti quand je l`ai perdu.
+C`est le plus grand mal dans ma vie. Si il y aura une encore chance pour moi,je vais lui dire trois mots: Je t`aime. Si je dois l`ajouter une date contrainte, je souhaite que c`est dix milles ans. 
+
+: 德语版 
+
+Frｕher gab es eine echte Liebe vor mir, die ich aber leider nicht hochgesch&amp;tzt habe.Als ich die verloren habe, habe ich ihren wertvollen Schatz eben erkannt.Die traurigste Dinge nenne ich sie.Wenn God mir noch eine Gelegenheit anbieten k&amp;nnte, wｕrde ich dem M&amp;dchen drei W&amp;rte sagen, "ich liebe Dich!".Wenn die Liebe zeitlich begrentzt werden mｕsste,hoffe ich 10000 Jahre. 
+
+: 盲文版 
+```
+..　...　...　.... ..　...　.　...　.　..　.. .　..　..　.. 
+..　.. 
+　. 
+...　..　..　. .　..... .　...　..　.　...　.. 
+....　. .　.　..　.　. 
+..　..　...........　.　.　..　.　...　.　..　.　..　.　.. 
+　.　 ..　.　...　.　.　.....　.　... ...　.　.. 
+　..　.　.. ...　....　..　.　..　 .　.　..　..　.　.　.....　..　. 
+```
+
+
+
+</t>
+<t tx="ZoomQuiet.20060308100814.2">
+[/pybimage/technorati-over.gif]
+    ,[living http://www.technorati.com/tags/living]
+    ,[Quiet http://www.technorati.com/tags/Quiet]
+</t>
+<t tx="ZoomQuiet.20060308104413">comments 插件问题
+spam comment 问题！加入comment 管理？！
+
+http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/zqcategory</t>
+<t tx="ZoomQuiet.20060312125520">@language Moin
+2006第一场春雨
+——记Donews常务讨论会
+&lt;&lt;t2t head&gt;&gt;
+
+原来每周五在刘韧的一处宅地，定期举行 Donews 的常务Sprint
+
+接到叶子线报才发现的！………… 嗬嗬，与[叶子 http://www4.uuzone.com/blog/yezi]神交久已，这次来京才有机会得见。
+
+说是20:00 开始，准点赶到才发现只有“小猫”两三名，也没仔细盘查俺，就让我进入随便拍照了……
+
+一会儿，人挤满了一大桌，另一面摄像机也架起来了，一说话才发现，都是牛人！
+
+keso 最后领着叶子等进入，立即开始：
+
+一般是keso 起头说明议题，老白、丙叔、刘韧、霍炬等等donews精英以及其它特邀人士自由发言，最后keso 总结阵辞，再进入下一主题，
+
+基本上40到50分钟一个主题，各式各样，各方各面，都可以讨论，交流，不一定要结果，只是让大家有个机会可以对最新趋势、技术、信息等等尽情的交换看法…………
+
+一时间自个儿难以完全把握如此开放的 donews 讨论的目标，只是个人感觉到:
+    + 笔记本基本都是 IBM 的
+    + 女士发言基本是电台式三段论的
+    + 基本不发言的都是高手……
+
+哈哈哈！乱写了，会中，和叶子进行了快速交流，体会到被人从WEALink中发现挖角走的叶子，
+已经是个预备级的女强人了，话题引导，记录，提问，无一不自信、强势，而不逼人…………嗬嗬;-)
+
+22:30 结束后出来，嗬，雨！虽然还夹着雪，也算是春雨了，只是贵如油的体验与我们无缘是也，
+对了，讨论会地点是：海淀区**现代城远大园6区8号5g**
+
+照片要一周才能洗出来，等等吧……不知道记录下来的情景是什么感觉……嗯嗯，胶卷拍摄的乐趣也在于等待哪……
+
+
+
+&lt;&lt;SNSlink&gt;&gt;
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="ZoomQuiet.20060312125520.1">
+[/pybimage/technorati-over.gif]
+    [chinese http://www.technorati.com/tags/chinese]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[internet http://www.technorati.com/tags/internet]</t>
+<t tx="ZoomQuiet.20060312132701">@language Moin
+豆瓣的阿北
+春雨后的春雪中之见面
+&lt;&lt;t2t head&gt;&gt;
+
+豆瓣迁到北京了，以前阿北来参加[CPUG会课 http://wiki.woodpecker.org.cn/moin/BPUG/2005-08-28]时见过，可惜没有时间交流。
+
+这次专门约了讨论怎么样让豆瓣也参与到推进中国Python 应用的大潮中来……
+咔咔咔！其实就是想见一下子Python名人。
+
+在五道口的“雕刻时光”集合，一开聊就差点没有打住，好象一下子两小时就过去了…… 
+
+对阿北只有一个感觉：**“平实”**:
+    - 没有豪言壮语，只有平静的实话
+    - 不回避问题，只有实话实讲
+
+想来阿北物理出身，可是C编程7年，接着带JAVA项目4年，经过一次创业，现在豆瓣是独立的二次创业，就已经作到了反璞归真，只使用最简单的方法，思路，形式来实现展示自个儿的想法，
+却暗合2.0 的原则，迅速得到认可而稳定发展起来，只有敬佩了……
+
+感悟很多，但是无法写出，看照片洗出来后可以总结出什么了，当然的阿北还是非常仗义的乐于参加者啄木鸟会课来分享Pythonic开发体验！
+
+期待ing...
+
+&lt;&lt;SNSlink&gt;&gt;
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="ZoomQuiet.20060312132701.1">
+[/pybimage/technorati-over.gif]
+    [chinese http://www.technorati.com/tags/chinese]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[internet http://www.technorati.com/tags/internet]</t>
+<t tx="ZoomQuiet.20060312150519">@language Moin
+5g
+~品牌是如何自创的
+&lt;&lt;t2t head&gt;&gt;
+
+周五为见叶子才掺合的donews 讨论会，原来已经成名久已？！
+
+ - [Donews专页 http://blog.donews.com/donews5g/]
+ - [录音下载专页 http://home.donews.com/donews/author/2/2/8977.html]
+ - [写给所有好奇“5G”评论的朋友 - 思维空间，任我行走 http://blog.donews.com/ringna/archive/2006/02/18/730971.aspx]
+ - [也说5G评论 - 老白说真话|LaoBai's Blog http://blog.donews.com/laobai/archive/2006/02/17/730409.aspx]
+ - [专栏集: 说说5G评论 http://spaces.msn.com/jxhill/blog/cns!3BE8552D107C99A6!198.entry]
+ - [小小的八卦一下 - 老白说真话|LaoBai's Blog http://blog.donews.com/laobai/archive/2005/12/03/646437.aspx]
+ - [混什么别混5G - 炳叔一腔吠话 http://blog.donews.com/bingshu/archive/2006/01/16/696602.aspx]
+ - [吕欣欣-思想的未来 » 一天两会 http://www.lvxinxin.com/archives/41]
+ - …………
+
+唉呀呀！原来如比！是古典的沙龙是也，在公开的场合清谈各种大事儿，也许有所得，也许无所得，但是一定要是真知灼见！
+
+Donews 如此坦率，也透出强大的自信，建立IT界的评论主导地位的行为也如此开放，
+不怯仿制，不怕曲解……还是炳叔一语道破：**“混什么别混5G”**
+
+想知道自个儿在IT行业中的思考段位如何？
+    去 5g吧！
+想知道中国IT行业在思考什么？
+    去 5g吧！
+想知道最新的IT行业焦虑是什么？
+    去 5g吧！
+
+5g虽然仅仅是刘韧家的门牌，可是已经在众多IT评论牛人的帮助下成为中国IT民间的一个品牌了，怎么制造的？——无它，坚持而已。
+
+
+&lt;&lt;SNSlink&gt;&gt;
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060312150519.1">
+[/pybimage/technorati-over.gif]
+    [chinese http://www.technorati.com/tags/chinese]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[internet http://www.technorati.com/tags/internet]</t>
+<t tx="ZoomQuiet.20060313092024">&lt;script type="text/javascript"
+ src="http://www.zoomclouds.com/tc/ZqPyBlosxom/30/8.28/s"&gt;
+&lt;/script&gt;</t>
+<t tx="ZoomQuiet.20060317180619">@language Moin
+LDAP的内存泄露
+-- Python说:不是俺的错！
+&lt;&lt;t2t head&gt;&gt;
+
+: 故事:
+    友人在折腾[LDAP http://www.openldap.org/] ,使用Python 的 [Twisted http://twistedmatrix.com/] 组件来开发时应用常常死亡，
+    怀疑Python的内存泄露，但是找不到证据……
+: 结局:
+    找到高人[delphj http://blog.delphij.net/] 运用内存分析工具:
+```
+/usr/ports/devel/valgrind&gt; cat pkg-descr
+Valgrind is a system for debugging and profiling un*x programs. With the tools
+that come with Valgrind, you can automatically detect many memory management
+and threading bugs, avoiding hours of frustrating bug-hunting, making your
+programs more stable. You can also perform detailed profiling, to speed up and
+reduce memory use of your programs.
+
+The Valgrind distribution includes five tools: two memory error detectors, a
+thread error detector, a cache profiler and a heap profiler. Several other
+tools have been built with Valgrind.
+
+Valgrind was ported to FreeBSD by Doug Rabson (http://www.rabson.org/).
+
+WWW: http://valgrind.kde.org/
+
+```
+    才发现是[LDAP http://www.openldap.org/]本身的问题：
+    每次RPC 的远程连接结束后，会泄露 32字节的内存！
+    晕哪！怪不得叫 LDAP, 因为很轻的连接情况下的确很不容易发觉，在当前内存动不动就上Gb的情况下…………
+
+    **Python的虚拟机是非常坚固的！不要轻易怀疑吧……**
+
+&lt;&lt;SNSlink&gt;&gt;
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060317180750">
+[/pybimage/technorati-over.gif]
+    [Zen http://www.technorati.com/tags/Zen]
+    ,[Python http://www.technorati.com/tags/python]
+    ,[ldap http://www.technorati.com/tags/ldap]
+    ,[computer http://www.technorati.com/tags/computer]</t>
+<t tx="ZoomQuiet.20060404103542">"Django -faq::
+    /woodpecker/www.woodpecker/data/share/projects/django/django-faq/
+file:///data1/www/svn.woodpecker/repos/woodpecker/zqlib/tangle/weizhong/django-faq/
+
+</t>
+<t tx="ZoomQuiet.20060410130427">@path FreeBSD</t>
+<t tx="ZoomQuiet.20060410185041">@language Moin
+GNN北京之行
+与巨牛们共处
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060410185041.1">
+= GNN北京交流 =
+
+: 预谋:
+    [偶像George V. Neville-Neil要来北京了 http://blog.delphij.net/archives/001442.html]
+    嗬嗬，作为FreeBSD中国的[著名人士 http://www.freebsdchina.org/about/design.php]，
+    delphij 也是大陆唯一的几个 FreeBSD commiter 之一，
+    但是活动的组织比不了专业人士，要不是我乃其同事，还无法提前
+    8小时获知，有GNN 的现场交流之事儿！
+: 教唆:
+    [与George Neville Neil畅谈FreeBSD http://www.billxu.com/friend/gnn/gnn.beijing.china.html]
+    嗬嗬，自由软件活动专家 Bill Xu 的联系和鼓动下才有的正式活动
+
+
+
+== 现场 ==
+
+: 流水:
+    - 14:30 ~ 15:45 delphij 的有关FreeBSD组织和发布工程的科普介绍
+    - 15:45 ~ 15:50 休息
+    - 15:50 ~ 16:20 GNN 介绍FreeBSD的最近新闻
+    - 17:00 ~~ FB 招待 (俺没有掺合)
+
+
+
+== 照片 ==
+
+- [/pybimage/060409-freebsd-gnn-01.png]
+ - 足够强壮才可能坚持长期的伏案编程哪！
+
+- [/pybimage/060409-freebsd-gnn-02.png]
+ - 呜乎哀哉果然是Mac 的爱好者，毕竟是FreeBSD的底子，看来从小使用好的OS也是成为伟大程序员的捷径之一哪
+
+- [/pybimage/060409-freebsd-gnn-03.png]
+ - 嗯嗯，牛人也会装样儿的，GNN面对满屏的汉字也只能装模作样的看一看，从间杂的单词猜主题了，不过Apple 电脑里居然有汉字码表，是黒体的，GNN还找到了“浪”字，确认了一下子意义，不过，搜索的速度太慢，整整一刻钟才发现一字
+
+- [/pybimage/060409-freebsd-gnn-04.png]
+ - 大家临时抱佛买来的书，GNN写的，一是中译版本（很是令GNN惊喜了一下子），一为原版（delphij 的典藏）
+
+- [/pybimage/060409-freebsd-gnn-05.png]
+ - 认真的签名……不过字很烂了…… =) 
+
+- [/pybimage/060409-freebsd-gnn-06.png]
+ - 从左到右， delphij、GNN、Bill Xu
+
+- [/pybimage/060409-freebsd-gnn-eat.png]
+ - 这表情很专业哪，看来没有少来中国，知道逃不了 China food 的巡礼
+
+
+== 感想 ==
+
+: FreeBSD:
+    + 现在已经有&gt; 6千万行代码了! core team 也转变为授权团队，来管理N多的开发团队；
+    + SCTP,IBM 刚刚整出来的全新协议，FreeBSD 就进行了良好的支持！呜乎哀哉！能不信心倍增邪？！
+    + Xen，跨平台的虚拟机服务！以后可以在任何系统中安装任何系统了……
+: E文:
+    - **“Slient！……”** GNN 在提问阶段的感慨……
+    - 咳咳咳，面对现在大多数计算机技术掌握在欧美国家手中的现实，
+    E文不熟，实在会浪费很多向大师讨教的机会哪……
+     - 什么时候才可以出现面对热情的小老外，我们感慨一下子“好安静……”的情景？！
+
+    - Bill Xu 不愧是自由软件专家，从年龄切入，迅速将话题调动到教授经验上来
+    - **“Read best code!”** 是GNN 的感慨和经验之一，也是我所理解的Pythonic一面！
+    咔咔咔！真理到哪里都是相通的哪…………
+
+
+== 分享 ==
+
+: delphij:
+    + [freebsd-01relEngineer.mp3 http://www.woodpecker.org.cn/share/classes/Classes2006/060409-GNN/060409-freebsd-01relEngineer.mp3] 42.0M 55' FreeBSD 发布工程概要
+    + [PPT 展示 http://www.woodpecker.org.cn/share/classes/Classes2006/060409-GNN/freebsd-re/] 
+: GNN:
+    + [freebsd-02GNN.mp3 http://www.woodpecker.org.cn/share/classes/Classes2006/060409-GNN/060409-freebsd-02GNN.mp3]
+    + [FreeBSDProjects.pdf http://www.woodpecker.org.cn/share/classes/Classes2006/060409-GNN/FreeBSDProjects.pdf] PPT展示文件
+
+
+
+
+
+
+
+
+</t>
+<t tx="ZoomQuiet.20060410185041.2">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[news http://www.technorati.com/tags/news]
+    ,[FreeBSD http://www.technorati.com/tags/FreeBSD]</t>
+<t tx="ZoomQuiet.20060510172623">@language Moin
+[节日]向所有女蟒们致敬！
+…………未来的
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060510172623.1">...[我对女性做工程师的一点看法 http://googlechinablog.com/2006/03/blog-post_08.html]
+
+咳咳咳！官方的宣传哪！不过，在中国，学习/使用Python 的的确太少太少，希望在Goolge 的带动下更多的人知道Python,
+
+祝未来的女蟒们使用 Python 快乐！
+
+今天也快乐！
+</t>
+<t tx="ZoomQuiet.20060510172623.3">------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+</t>
+<t tx="ZoomQuiet.20060510172623.4">
+[/pybimage/technorati-over.gif]
+    ,[living http://www.technorati.com/tags/living]
+    ,[Quiet http://www.technorati.com/tags/Quiet]
+</t>
+<t tx="ZoomQuiet.20060512113519">
+
+**汉字编码的使用，就是文字的使用，搞得好功利千秋，搞不好遗害万代。**
+
+= 我使用表形码 =
+很早在[我的”怪癖” http://blog.sina.com.cn/u/538099650100000a] 中提及过“表形码”;是96年大学里，50多岁的工程制图老师推荐的，当时还是win95内置的输入法，当时感觉理念很先进：[/pybimage/060515-snap-winbx-intro.png];
+
+而且也确定有一定的社会认同::
+```
+为提高我国计算机的应用水平，促进中文信息技术向更高层次
+发展，加速国内汉字信息技术的标准化、规范化，维护用户利益，
+去年，受电子工业部和国家技术监督局的委托，按照有一定的市场
+占有量、编码方法符合现代汉语使用规范、易学难忘、适当考虑输
+入速度、形码应能输入国家标准GB13000(国际标准ISO/IEC 10646)
+规定的20902个中、日、韩汉字等条件，全国信息技术标准化委员会
+对国内有影响的输入方法进行了评选，择优选出6种向国内外计算机
+软件公司和用户推荐使用(其中形码二种，音码四种)，表形码就是
+其中之一，这也是美国微软公司选择表形码预装入中文版Windows 95
+的一个重要原因。表形码全面符合上述这些条件……
+```
+
+因为``害怕``总使用拼音等等音码来输入会忘记怎么写汉字儿！所以坚持使用下来了，
+
+虽然中间，Win98SE 之后取消了 ``表形码`` (当时只模糊知道是因为公司倒闭)，不过，通过尝试，通过修改注册表的方式，将双拼之类自个儿绝对不会使用的输入法替换的方式，一直使用了下来，win2k, win2k3,winXP……
+
+上周，友人**[GuiXing http://wiki.woodpecker.org.cn/moin/GuiXing]**，
+整了台[iBook http://www.apple.com/ibook/]受我教唆久已，
+所以[表形码转为cin档 http://wiki.woodpecker.org.cn/moin/GuiXing/BiaoXinInputMod] 来在Mac 中通过[香草输入法 http://openvanilla.org/]使用表形码！
+
+ - 期间受到诸如 [刘前辈 http://lukhnos.org/blog/zh/] 等等大牛的支持/指点
+
+成功后，想在Ubuntu 社区推广，才想到版权问题，**不搜不知道，一搜吓一跳**::
+    引出这尘封久矣的公案
+
+</t>
+<t tx="ZoomQuiet.20060512190248">快速升级到 1.3.2::
+    使用SVN 的方式来管理实际运行支持
+    完全平滑的升级！！！
+    不用任何修改！就升级成功了！！！哈哈哈！！</t>
+<t tx="ZoomQuiet.20060515104812">@language Moin
+表形码的消亡背景！
+商业竞争的本质就是"让我赢!甭管是否最优!"
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060515104812.3">
+[/pybimage/technorati-over.gif]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[Chinese http://www.technorati.com/tags/Chinese]
+</t>
+<t tx="ZoomQuiet.20060515112012">== 表形码的公案 == 
+//张家港爱文电脑有限公司        张家港市沙州东路35号//
+
+- [这两种输入法还有多少人在用呢？, 陈爱文、周静梓的表形码和周志侬自然码 http://forum.maxthon.com/index.php?showtopic=17161]
+- [表形码侵权案宣判 一审7年拖垮一公司 http://pingce.zhongsou.com/20010117/155099.shtml]
+
+- [一案生六案 裁判各不同 http://www.lanjian.net/club/show.asp?id=7359&amp;curpage=41&amp;area_id=76]
+
+- ["表形码侵权案"的启示 http://bbs.am1098.com/40/huojiang/37.asp]
+
+
+
+
+
+</t>
+<t tx="ZoomQuiet.20060515115145">== 现在的表形码 ==
+
+除了90%相同的[天然码 http://www.trm.cn/];
+
+居然还有表形码的fans 根据互联网资料自制的:
+    - [“表形码万能版V6.6”汉字输入法 6.52 http://www.11nong.com/soft/18963/]
+    - [“表形码万能版V6.6”汉字输入法 6.6 http://www.shareware.cn/pub/7159.html]
+
+```
+制作：洪景毅  QQ:13826187
+邮件：314hjy@163.com
+主页：http://314hjy.yeah.net
+　　　http://61.131.53.226:99/314hjy
+
+红金鱼多媒体工作室
+10/22/2004
+```
+
+看来随着法律纠纷的定论，表形码还是要重出江湖的…………支持！
+
+
+= 结语 =
+```
+文字，国之大事，死生之地，存亡之道，不可不察也。
+汉字集经之以三事，校之以计，而索其情：一曰音，二曰形，三曰义。
+音者，令民即观可读，可用之歌，可用之诵，而不罔也；
+形者，笔划，部首，偏旁，可依之教化万民而不舍远近；
+义者，假借，转议，指代，使之载道传业而不怯岁月；
+世上之文唯汉字三者融会！
+输入之法，盖因电算界面之陋无以笔划之识，简记音形以记之；
+然汉字之文，每字如画如诗，单从音者记，中华之大方言之多，病之！
+唯依形而记，音者辅之，记之用之不违汉文之字美者也！
+表形之码，幻拉丁字母之形为吾汉字之部首，妙之恰当，学之自然，
+唯因商战不为人显，知者爱甚，不知者漠然，
+悲乎！怜我世人，自丧实多，怜我世人，自丧实多…………
+```
+
+</t>
+<t tx="ZoomQuiet.20060515120631">【表形码万能版】汉字输入法安装程序
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+版本 6.6 for Windows 98/Me/2k/XP
+　　本版本“表形码万能版”汉字输入法集成了所有表形码的版本，分别有“表形码31键数字版”、“表形码31键符号版”、“表形码26键版”，并提供了两种词库供用户选择，普通词库带 30675 条词组，大词库版带 53656 条词组。
+    版本号在 V6.8 以前的所有版本均是免费共享版本，自由使用、自由传播，如果您觉得这个输入法对您有所帮助，请注册。此后所有注册版本将不再免费上传到各大软件站供免费下载，而是将用注册用户的 EMAIL 或 QQ 传送到注册用户的手中。
+版权申明:
+~~~~~~~~~
+　　(1)“表形码”原专利人为陈爱文、周静梓，其专利权、著作权均属爱文电脑公司；
+　　(2)“表形码万能版”中所有的单字编码来源于国际互联网，如旭日GBK表形码、旭日GB表形码、Windows 98第一版的26键表形码等等；
+　　(3)我所做的工作主要是，基于网络上下载的单汉字编码使用“输入法生成器”产生各级词库编码，将各类单字编码与词库结合生成各个版本的多个编码表，制作安装程序，让“表形码万能版”能运行于各个不同的操作系统中，并使三种表形码统一在安装程序中，并加入我自行编制的【表形码教学演示文档】、【表形码高手速成】、表形码字根表等。
+　　(4)收取的注册费是大家关于在教学软件、练习软件、字根表等相关方面对我的支持与肯定。
+注册说明：
+~~~~~~~~~
+　　“表形码万能版 V6.52”是在上传到各大软件站免费下载的最后的一个版本，如果您觉得好用，或您觉得我在表形码改进方面的工作值得肯定，请注册，注册费 10-30 元均可，请您以“表形码万能版”对您在工作中所做出的帮助的大小自行决定注册费，注册时，请向以下账号汇款，汇款时请最好不要以 10 元汇款，请增加一个零头，以示区别，然后请及时告知：
+　　▲ 您的通信地址； ▲ 姓名； 　　　　▲ E-Mail(必填)或QQ；
+　　▲ 汇款时间； 　　▲ 汇款金颔；
+　　我将以此信息建立“表形码万能版”服务数据库，并生成您的安装序列号，凡今后有最新版本，将在第一时间将与您的注册信息对应的注册码和相关软件发往您的邮箱。
+　　您可以将使用中遇到的问题及时反馈给我，注册用户反馈回来的意见将是下一版本的重点改进意见，并按注册费用由高到底分层次采纳，您的注册费越高,您的意见将越得到重视。
+　　中国工商银行
+　　姓名：洪景毅
+　　账号：9558801408101507139
+安装说明：
+~~~~~~~~~~~
+  ▲ 安装过程中,安装程序仅做如下复制操作,然后在“控制面板”的“输入法”中,增加“表形码万能版”,如果想删除本输入法，请进行相关的删除操作。
+  △ 在 Windows 2000/XP/2003 系统中，把以下文件复制到相关位置
+     bxm66.mb(编码表文件)                   C:\Windows\System32
+     bxm66.ime(输入法控制文件)              C:\Windows\System32
+     bxm66.hlp(26键版专用)                  C:\Windows\System32
+     bxm66.emb(31键符号版专用)
+                     C:\Documents and Settings\用户名\Application Data\Microsoft\IME\BXM66
+  △ 在 Windows 98/Me 系统中
+     仅把这几个相关文件复制到 C:\Windows\System32 文件夹。
+编码说明：
+~~~~~~~~~~~
+　　“表形码万能版 V6.6”包含三种表形码，关于兼容及词条编码说明如下：
+　　一、31键数字版兼容于原 DOS 时代的“表形码普及版”、“表形码万能版”。其中普通词库版总词条数 40939 条，大词库版总词条数 63920 条；
+　　二、31键符号版兼容于 Windows 3.2 时代“中文之星”附带的表形码。其中普通词库版总词条数 40936 条，大词库版总词条数 63917 条；
+　　三、26键版兼容于 Windows 98 第一版自带的表形码(含GBK所有汉字编码)，此版本附带有帮助文件。其中普通词库版总词条数 51640 条，大词库版总词条数 74621 条；
+版本更新记录：
+~~~~~~~~~~~~~~~
+    1、V6.0共享版形成了自动安装方式，脱离了输入法生成器，但还要区分98或NT内核进行安装。
+    2、V6.2共享版可以自动判别Windows版本进行智能安装。
+    3、V6.3共享版改进了并解决了符号的输入问题。
+    4、V6.5共享版把3种版本的表形码安装合而为一，并提供了两级词库供用户自由选择，另外还改进了部分词组的编码错误问题，如6.0版中“定义(ntxd)”是错的，应该为ntdx等。
+    5、V6.52共享版更新了26键版的两级词库，其它版未做任何改变；另外，在安装时更新了注册说明文档。
+    6、V6.6共享版更新了26键版本中【状】的编码 qrd 错误，并更新了相关的词组；将符号编码扩充到与注册版本一至79条；增加了输入法图标；修正了到主页的直接链接。
+
+制作：洪景毅  QQ:13826187
+邮件：314hjy@163.com
+主页：http://314hjy.yeah.net
+　　　http://61.131.53.226:99/314hjy
+
+红金鱼多媒体工作室
+10/22/2004
+</t>
+<t tx="ZoomQuiet.20060515182456">== 表形码的文化内质 ==
+**[我的表哥陈爱文——表形码与我国的语言学(潘德孚) http://www.yywzw.com/pan/pan-03d-004.htm]**
+
+才真正全面的记述了表形码的历史悲哀……
+
+: 万码奔腾:
+    是国人对**文字学**莫视的胡整
+: 语言学家完全政治化:
+    我国的语言学家醉心于汉字拼音化，不顾社会现实的需要了!
+: 文字的世界分布对比图表
+    :[/pybimage/060515-pan-03d-004a.jpg];
+    作为当年汉字要拉丁化的重要依据事实，其实根本无法推敲::
+```
+其一，拉丁字母不是文字，根本不能与汉字进行比较；
+其二，土地不能使用文字，这个比较图不能成立
+```    
+: 汉字:
+    **一字之要，坚如磐石；一义之出，灿若星辰**
+    但是!```"我们要的是市场，不是科学！"```
+    在市场大潮中无数智者的劳动被自动漠然置之了…………
+
+
+没有人关注汉字编码,都是商业和法律的事儿好象!赢
+
+</t>
+<t tx="ZoomQuiet.20060528121615">@language Moin
+升级SVN
+--体验如何管理多SVN仓库
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060528121615.1">= 原因 =
+
+: SVN新版本:
+    1.3.1 VS 1.2.0 有了各种功能的提升!
+
+</t>
+<t tx="ZoomQuiet.20060528121615.2">
+= 过程 =
+
+: 规划:
+    + 怎么
+
+: 变化:
+    + 怎么
+</t>
+<t tx="ZoomQuiet.20060528121615.3">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[Subversion http://www.technorati.com/tags/Subversion]</t>
+<t tx="ZoomQuiet.20060528121629">
+= 总结 =
+
+: 规划:
+    + 怎么
+
+: 变化:
+    + 怎么
+</t>
+<t tx="ZoomQuiet.20060531114330">@language Moin
+然何买书不读?
+~~自我心理分析
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+
+</t>
+<t tx="ZoomQuiet.20060531114330.1">= 问 =
+- 发觉近来自个儿买的书被读的越来越少
+- 好容易得空也是积极看网络中可以免费获得的
+
+何也?
+
+
+= 答 =
+- 买了就是自个儿的了,什么时候读就不重要了
+- 网络中免费得的也都是有网络费用的,但是相对低很多,很占便宜的!在没有和谐前,多看哪...
+
+然也?
+
+
+= 解 =
+- as [网民的狂欢：关于互联网弊端的反思 (豆瓣) http://book.douban.com/subject/4275054/] 网络中流传的多不靠谱
+- 图书里倒是严密的比较多(得有过滤无良书商和译者的能力)
+- 只有读进心里的才是自个儿的,否则只是一堆纸而已!
+
+
+时间的投入产出,是自个儿的控制和选择...
+- 但是,读书的体验和氛围是有技巧营造的,就看自个儿是否愿意了...
+
+</t>
+<t tx="ZoomQuiet.20060531135448">@language Moin
+六一了！
+--应该祝贺，如果没有忘记
+&lt;&lt;t2t head&gt;&gt;
+
+: 同贺哪！:
+    所有已经有自个儿孩子或是决定不要孩子的曾经是孩子的人们…………
+
+```
+-------- 原始信息 --------
+主题: 六一快乐
+日期: Wed, 31 May 2006 13:41:10 +0800
+
+= = = = = = 下面是转发的邮件 = = = = = = =
+```
+
+三只小蝌蚪到饭店去
+
+当服务员为隔壁桌端上一盘“红烧牛蛙”时
+
+三只小蝌蚪报在一起
+
+伤心的唱着：我不想，我不想，不想长大。。。
+
+预祝大家“六一儿童节”快乐！
+
+
+```
+从这里，到那里
+流转的不仅仅是
+生命迁徙的轨迹    
+```
+
+&lt;&lt;SNSlink&gt;&gt;  
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060531135448.1">
+[/pybimage/technorati-over.gif]
+    [Quiet http://www.technorati.com/tags/Quiet]
+    ,[nomeans http://www.technorati.com/tags/nomeans]</t>
+<t tx="ZoomQuiet.20060531192742">@language Moin
+从心理学角度理解Goolge模式
+--WEB2.0到底是什么本质？
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;SNSlink&gt;&gt;
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060531192742.1">
+
+= 自说 =
+
+: 我们的2.0生活:
+    http://youmeng.bokee.com/5098596.html
+    得到有一个提示，
+    文化不同，但是社会活动的本质是有规律可循的，
+    就是“马斯洛的需求层次理论”
+    从安全需求以上，就是我们互联网的潜在用户的基本述求了！
+
+
+: web2.0都是个死胡同，web3.0呢？:
+    http://ittalks.blogbus.com/logs/2006/05/2556158.html
+    - 点出了要点：
+     - “互联网精神的本质就是：自由，平等”
+     -
+    -
+
+IT产业的发展基础是建立在逐步划分和限制这种本质的基础上的，
+奈何技术的进化比产业的进化要快的多，
+各种分享/发布/组织信息/资料/社会关系的工具/ 服务/技巧层出不穷,
+
+google 仅仅是认了个死理： ```不作自个儿控制不了的事儿！```
+所以成功了！
+
+: 中国IT企业:
+    思想还在 Web1.0;
+    还在拼命的诱使/迫使/说服用户交出权力并付费，可以说 是很没前途的！
+
+
+
+== 一个人... ==
+
+: 一个人，在互联网中的天生权力/义务有什么？:
+    + 有权力发布自个儿想发布的信息!
+    + 有义务为自个儿发布的信息负责!
+    +
+
+
+```that all!```
+
+以上两方面是完全相互对应不可脱离的，任何一种缺失就会产生各种恶果:
+
+ + 不能发布自个儿想发布的信息，也就不可能为自个儿发布的信息负责：
+  - 所以，有各种各样不负责任的言语在互联网中此起彼伏
+  -
+ + 要求为自个儿发布的信息负责，却不允许发布自个儿想发布的:
+  - 所以，实名制不论哪个国家搞都会臭！
+  -
+ + 可以自由发布自个儿想发布的信息时，却没有良好的监督机制：
+  - 所以，有各种哗众取宠的组织/个人将互联网娱乐化
+  -
+ + ………………
+ +
+
+
+维基百科之所以成功，就是将这种基本权力按照一种合理的模式进行了限制…… 
+
+
+
+= 问 =
+
+我们的IT企业应该怎么开始想了？
+
+象我这样的用户应该怎么样设计新的网络生活？
+
+引用好友的邮件缀语以纪:
+```
+从这里，到那里
+流转的不仅仅是
+生命迁徙的轨迹
+```
+
+</t>
+<t tx="ZoomQuiet.20060531192742.2">= 引述 =
+
+: 正看骡子:
+    莫非写的亚洲史，嘿嘿...
+
+
+他说亚洲尤其是东亚季风气候的人整体文化是尊重集体力量的
+所以包括中国，日本跟朝鲜人都是集体类人群
+整体文化讲究的是人与自然的和谐
+也讲究集体的凝聚力
+处于上层金字塔顶端的人并不只是领导者与控制者
+同时还是示范者。历代皇帝都是这样的（比如唐太宗）。
+所以一个朝代的风气与文化与示范者的风格都是同样的。
+
+
+而欧洲文化（主要是基督教）包括伊斯兰文化都是在贫瘠的土地上出生的
+依靠征服与传教来传播的（想想波斯的大流士与十字军东征）
+所以更强调英雄主义与个人努力（那边人少，一场战争可能也就几千人参加，那要是一个哥们勇点，KILL个10个8个的就是英雄了，不象中国，只能在“百万军中，还要取上将首级如探囊取物”才NB），可以想象中国人如何的难出英雄。而中国的英雄，比如董、黄，还有田横等。都是为了集体以及国家而死，几乎没有罗宾汉式的人物（梁山那帮不是，李自成之类是被党包装的）。
+
+
+</t>
+<t tx="ZoomQuiet.20060531192742.3">
+[/pybimage/technorati-over.gif]
+    [chinese http://www.technorati.com/tags/chinese]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[internet http://www.technorati.com/tags/internet]</t>
+<t tx="ZoomQuiet.20060531194835"># for comments
+py['comment_dir'] = '/data1/www/blog.woodpecker/pyblosxom/zoomquiet/comment'
+py['comment_nofollow'] = 1
+#py['comment_smtp_server'] = "localhost"
+#py['comment_smtp_from']   = "ZqPyBlosxom@woodpecker.org.cn"
+#py['comment_smtp_to']     = "Zoom.Quiet@gmail.com"
+
+
+py["comment_rejected_words"] = ["poker", "casino", "gambling"]
+# Zoomq::060516for nospam contact me
+py['contact_urltrigger'] = "/contact" # optional, this is the default
+py['contact_smtp_server'] = "localhost" # required
+py['contact_smtp_to'] = "Zoom.Quiet@gmail.com" # required
+
+# Zoomq::060516 add simple pluing fo antiSpamer
+py['mw_question'] = "Pythonic!What is the 1st word in this sentence?回答本句第一个单词是什么?"
+py['mw_answer'] = "pythonic"
+</t>
+<t tx="ZoomQuiet.20060602095242">@language Moin
+保重身体
+--死在HW因为"床垫文化"?!
+&lt;&lt;t2t head&gt;&gt;
+
+: 虽然:
+    不应该在六一发布这样的邮件，但是从我自身在上海的工作经历，可以推之认同，
+    我那时是浦东软件园，陆家嘴分院的讯博公司的，因为独身，家离的远，一向整个院区是我
+    走的最晚，自从HW有一个分部搬到隔壁楼后，咱就没这自信了…………
+
+: 其实:
+    再垃圾的技术/管理流程，照样可以干出伟大来的！
+    君不见金字塔是什么样在几十年的工期里按时完成的？
+
+: 中国向来:
+    有草菅人命的传统，因为我们有无限的人力，学什么西方先进的管理技术？
+    咱们就用人堆也能堆出创新IT企业来，反正工资有行业潜规则的，HW想给多员工也不敢要哪！
+    多请几个老外顾问来充门面就成了，
+    反正使用软件的企业也根本没指望通过什么ERP来增长效益，
+
+: 而且:
+    这样一来形成了有中国特色的软件行业壁垒，
+    中国企业只用差的管理系统不想不愿不敢不能使用外国的先进系统，
+    也是```保护民族产业```哪！
+
+
+
+
+
+@others
+
+
+&lt;&lt;SNSlink&gt;&gt;  
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060602095242.1">
+= 来自邮件 =
+
+== 『华为』 [心情驿站]从胡新宇到华为 ==
+
+```
+ 作者：同是_沦落人  
+ 提交日期：2006-5-28 0:27:38
+```
+
+　　不知道是公司真的学会信息安全管理了，还是我的信息太闭塞了，胡新宇倒在实验室的
+消息，直到今天我才知道。
+
+　　 说起胡君，大体上印象很模糊，好像只是在哪次有同事开会时，偶尔听人提起过，因
+为工作中没有直接接触的机会，所以也跟具体的人对不上号。
+
+
+　　 但是胡君在做的项目，我是有所了解的，据说是公司保密的项目，并且时间非常的紧
+急，而且有些技术公司以前也从来没有做过。刚听说这个项目的时候，也没觉得有什么奇怪
+的。因为公司大体上没有什么东西是不紧急的，而技术上的东西，就算是以前做过了，也会
+因为是不同的产品，或许只是外观尺寸不一样，而重新再做一遍。
+
+
+　　 常听说那个项目的兄弟加班到很晚很晚，但最终还是没有引起我的注意。刚到公司的
+那几个月，我也几乎没有哪天不加班的，到十点也是常事，并且周六从来也是不休息的。至
+于胡君，也从来没有听说过他的消息，直到我听说他倒在实验室之前，他对于我来说，只是
+公司众多疯狂加班的人中的一个而已。
+
+
+　　 但今天，听到胡君倒下的消息，并且已经严重到脑炎而昏迷的时候，我还是颇为惊讶
+的。之前我一直以为，我们从事的工作，虽不敢说得上科研性质的，但大体上来说，还算是
+脑力工作。虽说这种想法在来了华为后不时遭到有人否定，但总的来说，我还是比较坚定
+的。还是认为有时会辛苦点，但总不至于和某发达省份的血汗工厂一样，让员工连续几天加
+班而倒在生产线上。然而，事情最终还是发生了，就在我所工作的研发楼里，就在一个每天
+同一个食堂吃饭的人身上。
+
+
+　　 胡君倒下了，到底是因为他身体太差，还是积劳成疾，已经没有意义了。我只知道，
+他可能失去的是年轻的生命，或者是一生的健康。
+
+
+　　 胡君倒下了，这无休止的加班，到底是他自愿的，还是有人在逼他，已经没有意义
+了。当加班也有排名，并且成了晋升、加薪的重要指标后，谁还能分清楚自愿不自愿呢。
+
+
+　　 很久没有想写点什么了，因为就算写得再多，也很难去改变点什么。之所以倒下的胡
+君让我想写点什么，是想让一些人了解一点真像，让和我一样一直沉默的人不再沉默。
+
+
+　　 在很多人的心里，华为是一个令人向往的公司，是民族企业的骄傲。包括我自己，来
+华为也是为了学习和提高而来的，并且希望找到做成一点事情的机会。而当我来了华为半年
+多之后，那种失望可以用什么词来形容呢？或许用彻头彻尾还算接近吧。
+
+
+　　 早在上大学的时候，就听说华为牛人很多，直到当初打算跳槽来华为的时候，这种传
+说对我的影响仍然不小。而现在，我切身的体会了这个“牛人”的内涵。单从华为研发来看，
+大体上有这么几种“牛人”。
+
+
+　　 一种是“牛B哄哄”的人，这种大多是工号较小的“老”员工，小于20000，或者在20000左
+右，你要是公号比他大了几千号甚至上万号，那对不起，你的建议一般肯定是不对的，跟你
+说话的态度也不会好到哪里去，时不时还跟你来一句“这帮新员工”。
+
+
+　　 一种是“加班如牛”的人，这种人工号大多居中，一般在30000左右，这种人算得上是公
+司的中产阶级，收入还算不差，在公司一般也干了4年左右，随着公司的招人狂潮，很多人
+也顺势升了PL，算是小有成绩，当然了，首先必须要认同公司的“加班文化”。
+
+
+　　 而传说中的技术牛人，到现在我还没有真正碰到过。说起确实令人失望，并且也很奇
+怪。进入公司的人虽说不敢说是国内最好的，但大多数应该至少是优秀的，怎么会这样呢？
+仔细想想，本来牛人就不常有，能认同公司的产品体系，投身需求无常的产品开发与维护，
+从而留下来的人，一般2年之后也就武功尽废了。而自已有想法，不能认同公司文化的，自
+然就另谋出路了。
+
+
+　　 或许华为泱泱几万人，技术牛人肯定是会有的，但他们生存的土壤却是很令人担扰的。
+
+　　 思科诉华为的事情前几年弄得沸沸扬扬，到现在也还有很多人不时提起。而每每提起
+此事，不少人会露出得意的神情，认为思科并没有对华为造成什么实质上的损失，反倒为华
+为在全球做了一个广告。倒我是高兴不起来的，思科诉华为侵权的主要原因是因为华为产品
+的命令行与思科的非常的像，大部像得几乎一个字母都不差，包括帮助和提示信息。我想，
+对于稍有点经验的程序员来说，设计出一套命令行的方案也并不算一件很难的事情。并且，
+在我看来思科虽然产品做得很成功，但命令行也不一定有多好，没有到需要一字不差的模仿
+的地步。而这却充分的说明了在华为，创新和想像力是没有多大市场的，有时，给你思考的
+时间都是有限。
+
+
+　　 华为的运作方式是完全围绕产品线展开的，就是所谓的产品线和资源线，几乎所有的
+研发人员都属于资源线，而资源线存在的唯一目的是直接为产品线服务。也就是说，产品线
+决定做什么、怎么做，然后找研发部分要人去实现。研发人员做的任何一件事情，都是为某
+一具体的产品服务。而对于基础理论的研究，几乎为零。像在前不久，开发流程都还停在留
+小作坊的水平。
+
+
+　　 产品线的决策者，大多也是技术出身。而正是这些技术出身的管理者，却严重影响了
+华为技术公司的技术发展。他们晋升之后，具体的技术就不再接触了，当然技术能力也几乎
+不会再有什么提高。所以每每在进行决策时，跳不出以前的圈子，以致于公司的研发水平滞
+后于业界平均水平。
+
+
+　　 滞后的产品设计水平，加上滞后的研发管理水平，必然就导致了对客户需求的响应能
+力的滞后，而公司为了抢占市场，对客户的需求又几乎来者不拒，并且往往承诺的周期比业
+界领先水平公司的还短，于是就有了研发员工无休止的加班。
+
+
+　　 如果加班能解决问题的话，那就加吧。
+
+　　 但毕竟我们不是服装厂，不是鞋厂。就算是，难道我们除了成为血汗工厂的工人，去
+用自已的健康甚至生命来养肥少数人，其他别无选择吗？
+
+
+　　 这些话是不能在公司讲的，就算在公司讲，也会被很多卫道者所不齿。华人社会有个
+怪圈，既得利益者的生活方式让人无法生存，而受害者一朝成了既得利益者后，又会采用同
+样的生活方式。所以我并不认为我能改变什么，仅仅只是为了表示对胡君境遇的不安以及对
+他的同情，另外，还希望能唤起与胡君相同境遇的人们的思考。
+
+
+
+== 《从天涯转来》 ==
+
+去年10月底，结束华为固网产品线实习生的日子（偶是HT的，工号1K多一点），回校做毕业
+论文。临走时和新宇兄弟在食堂聊天，当时，经过近一年华为坂田基地生活体验，偶感觉华
+为不是最终最佳选择，遂决定离职。走时在九点后的食堂，就着咸鸭蛋和薄薄的几片西瓜，
+和新宇兄有过一番长谈，主要是对华为客观分析。呵呵。。。不过大部分都不是正面的东
+西。。。
+
+
+　　新宇兄说到刚到固网硬件部那段极不爽服的打杂的日子：搞接待，到机加监视板子的加
+工，为各种各样的老大们不愿搞的自己也不了解的BUG一遍又一遍协调软件部这边的兄弟重
+现问题单的情景。如今仍然历历在目。记得当时去7楼测试部协调时，看到新宇兄正在拆卸
+机柜上的螺丝。呵呵，当时我还笑他怎么搞的象民工，新宇兄苦笑的情景。。。好像始终离
+他向往的设计硬件板子的目标很远。为此郁闷良久。记得我走时他正准备答辩，他踌躇满
+怀，力争拿A，让老大们欣赏，希望能有做一些真正有技术含量的工作的机会。
+
+
+　　新宇兄成都电子科大2005年硕士研究生毕业，在老师的推荐下直接来到华为做硬件工程
+师。之前在一家成都公司做的相当不错。。。是深圳和华为这两个单词吸引了他。
+
+
+　　新宇兄在关内的梅林附近租房，女友据他说在一家外企，感觉两人感情相当深厚。当我
+说到深圳的房价、上下班坐车的长时间、心理强制性的加班时，新宇兄并没有表现如我一般
+的敏感。是的，他想的最多的是华为企业文化培训中所倡导的，而不是现实世界中真实的东
+西。。。在这一点上，我能理解，毕竟，我有三年的工作经验。对单纯的奉献精神已不感
+冒。毕竟，华为半个月的新员工培训也令我一度膨胀很多，更况且，对他这样一个一直在学
+校和技术圈子中生活的相当纯净的人。现在想想，感觉自己当时真的很可爱的！
+
+
+　　新宇兄给我的印象非常的好，他个头不高，衣着干净整洁，我感觉如果他个子再高一
+点，就很象偶像剧中的男主角了。他容貌和气质都很帅，很让男人喜欢的那种帅，当然，女
+生会更加喜欢。更重要的是，他开朗乐观，对公司和同事的看法从来都是阳光的，这一点即
+使在公司基层员工群中，也很少见。坛子上有一位兄弟提到他的宽厚和兼容。这一点我深表
+赞同。。。
+
+
+　　我理解他为绩效的A所付出的，当时没有转正时，他时常告诉我双休日在家里不踏实，
+到公司来加班才感觉这天没有白过。不过我并没有感觉到异常，因为我也时常会这样。。。
+
+
+　　但我没有想到，他把这种感觉一直延续了半年，一直到现在。不知道看到这个消息我是
+什么感觉，除了麻木，还是麻木。然后是钻心的疼痛。我希望自己能坚强而不要落泪。。。
+
+
+　　固网的局端产品可以说已经相当成熟，框架可以说是非常稳定，所谓的研发可能就是代
+码COPY再加补丁，或者是优化，也或者说是捉BUG游戏，也可以说是扯皮，测试和文档。只
+不过硬件会具体是什么样子，我不很懂，希望有固网硬件部的兄弟能补充一下。。。
+
+
+　　当时在一起的时候，偶然听到新宇兄说到研发几年以后可能会去国外，至于原因，可能
+是海外的收入和宣传的所谓的上升空间。我笑笑，没有表态，因为这是大家普遍的心理，偶
+也是，只不过，综合权衡后，还是放弃了。毕竟，一个年龄段只能做好一个年龄段的事情。
+偶已经过了可以用身体拼命挣钱牺牲所有奔赴所谓第三世界的地方了。。。但我勉励新宇
+兄，说你还年轻，可以试一下。
+
+
+　　但我没有听到好消息，离开时我希望新宇有一天回到成都的时候，我们俩个会有时间在
+茶馆悠闲喝一个下午茶，共同回忆为了解决BUG艰苦奋斗的情形和常态的加班工作时光，共
+同说起这个让我们又爱又恨选择离开选择留下都有充分理由且永远在内心最深处的公司。。。
+
+
+　　这一切，我仍然希望会在某一天成为现实。
+
+　　华为公司固网产品线某驱动项目组2005年度某离职HT员工，在这一天，作为在这个月底
+准备离校毕业的已泛滥的研究生中的普通一员，在此刻心灵窒息时发出这个感言。。。在此
+时，我希望能够平静描述新宇兄，给更多的人一个真实的新宇的翦影。我相信，他是普通
+的，他的更多影子存在着那一群我曾经的同事们身上。愿上帝保佑新宇，愿上帝保佑和新宇
+一样的华为兄弟姐妹们。。。
+
+
+
+: ps：
+    ```5月29日晨7：50```，胡同学已经走了！从4月底倒下住近医院直到离去，中间他从没有没
+有清醒过。来公司不足一年连续两个季度考评得A，在HW或者HT呆过兄弟应该知道季度考评
+得A是很困难的，尤其对于新员工。给这个中国唯一充满故事的公司又留下了一段传奇，只
+不过这一次是悲剧。从2003年的“冬天”走出来刚刚两年，2004海外市场全线突破，2005年的
+疯狂招人破坏了留给外界的好名声，2006年就出现了如此的轰动性事件。
+
+这一个踏实做事的公司
+这一个老板只有不到5%股份的公司
+这一个中国最初20年最具有创新开拓精神的公司
+这一个给中国初期20年书写最具传奇的一页的公司
+这一个以一己之力使得2001年的大学毕业生“找工作容易”的公司
+
+难道这是一个拐点，HW将就此沦落？难道我华夏真的是一沟绝望的死水，只有令人窒息的土
+壤，只适合生长“中移动”、“中石化”之类畸变的花朵？
+
+
+
+== 身体是自己的，工作是单位的 ==
+
+
+
+
+
+为同学默哀
+
+
+
+ 昨天 7:00 下午
+
+
+
+
+
+
+今天早上，得知我的那位已经昏迷十几天的同学走了，虽然已经有了心理准备，但是还是觉
+得莫名的惊异和悲痛。
+
+本月15号的时候，从其他同学那里得知他已经昏迷住院，吃惊不小。问及原因，医生说是太
+累了，身体免疫力下降，感染了脑炎。
+
+据说，他在此之前，已经连续几个月加班，经常凌晨两三点才休息，而且就在公司里凑合一觉。
+
+华为他妈的太狠了。
+
+他在学校的时候，健健康康的，经常和我们一起踢球，每逢大赛，还和我们一起通宵看球，
+可是就去了华为一年...
+
+还记得和他一起玩星际，玩实况，多开心，多美好的回忆，可是，就去了华为一年...
+
+记得毕业的时候，一起喝酒，一起畅想未来，可是就去了华为一年...
+
+人怎么就没了？！
+
+记得，他说过，华为和以前相比，好很多了，可是...
+
+我该怎么说了？
+
+只能祝愿他一路走好，祝愿他在天堂里快乐
+
+
+
+</t>
+<t tx="ZoomQuiet.20060602095242.2">
+[/pybimage/technorati-over.gif]
+    [Quiet http://www.technorati.com/tags/Quiet]
+    ,[nomeans http://www.technorati.com/tags/nomeans]</t>
+<t tx="ZoomQuiet.20060604164954">@language Moin
+杨晋富
+--"连腿女孩"之父+病残儿童教育问题
+&lt;&lt;t2t head&gt;&gt;
+
+[仨儿无负责报道]
+
+- 是周五一份《新京报》的文章:
+    [人物][“女孩灵灵”拒绝儿童节礼物 http://news.thebeijingnews.com/0554/2006/06-02/012@184670.htm]
+    引发我的走访…………
+
+```2006-06-03 14:10~17:21```
+
+- 零散的速记，见面的感受::
+
+
+@others
+
+
+```
+从这里，到那里
+流转的不仅仅是
+生命迁徙的轨迹    
+```
+
+&lt;&lt;SNSlink&gt;&gt;  
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="ZoomQuiet.20060604164954.1">
+[/pybimage/technorati-over.gif]
+    [Quiet http://www.technorati.com/tags/Quiet]
+    ,[nomeans http://www.technorati.com/tags/nomeans]</t>
+<t tx="ZoomQuiet.20060604165254">
+= 有这样一位父亲 =
+
+: 其人:
+    - 名晋富,当年父辈期望山西富裕起来之寄望;
+    - 岁45,近8年不事生产,只作了一件事情:
+     - 四处奔波,求医,要保全女儿的一截残腿,只为:
+```
+要让女儿长大后，可以穿裙子，可以跳舞，
+可以在洗澡的时候，从正面往下看，身体是美好的。
+```
+
+
+: 其性:
+    - ```直拗``` ,这么多年,不论多少专家,朋友基于家人谩骂诅咒,依然不放弃求医!
+    - ```天真``` ,我在[广济医院 http://www.gk.net.cn/about/about_05.htm] 门卫等了一个多小时,和外出的父女见面的第一件事儿,是帮助老杨解救被塞在一个塑料瓶中的草蛇,用军刀割开才发现,草蛇早已死了,老杨表示自己从来不忍让小动物受苦
+    - ```健谈``` ,只要有热心来访者,老杨总是热情接待,并不懈的将话题转入到治疗方案的前因后果,叙述出来,求得认同
+
+: 其人:
+    - 根据出示的证明资料,老杨原先不过是名自学/可能经过短期培训的专业农民,或曰农业技术人员
+    - 现在作为[中国“捐脸第一人” http://www.law-star.com/cac/9203.htm]的老杨已经算是半个“中国医疗机构效能评估专家”了？！
+     - 经过八年，24个省市，40多家知名医院，的走访，老杨设法为女儿筹措了大小手术20多次，终于有了基本恢复右小腿外观和功能的希望
+     - 对各种专家/机构/科研组织面对真实的疑难病症的态度和品性，老杨绝对拥有权威评论权
+
+    - 这期间，老杨是如何自学成为高效的演讲者，募捐人，坚定的在各种权威的预言中坚持下来，逐步寻求到最初单纯的愿望的实现的医疗方案的？！
+    - 由于长期的颠沛流离，不得理解，以及巨大的债务压力，老杨已经患了一定的`抑郁症`,
+    失眠，记忆消退，注意力涣散，折磨着老杨，所以，陪伴女儿治疗的同时，
+    老杨自己也成为一些药品的志愿人员来治疗自个儿的神经衰弱
+
+: 其行:
+    - 有些害羞，因为暂时没有办法直接回报社会各界的帮助，虽然在记者/医疗等等人士的建议下，
+    签署了器官捐献等协议，但是面对来访者，老杨还是很有些不知所措的热情接待，
+    不敢轻易真视对方
+    - 非常注意聆听，为了有效将自已的想法传达给对方，老杨在对方讲话时，
+    会立即安静下来认真聆听对方的意思，真诚的表达回应
+    - 好脾气，不论女儿怎么样说话，总是反复的要求，并不呵斥，直到同意自己的要求，
+    当然有商有量，尊重女儿的想法
+
+
+</t>
+<t tx="ZoomQuiet.20060604165254.1">= 篇外-义务宣传 =
+```根据老杨的要求传达以下几点个人看法::```
+
+
+: 不要迷信三甲医院!
+    老杨以亲身经历向我表述一定要宣传的信念之一:
+        **所谓三甲医院不过是设备先进些,并不代表他们能包治百病!**
+    想来也有道理,因为三甲医院要想保住名气,政策倾斜就只能多采取稳妥的治疗方案,
+    根本不会考虑病患的真实需求的!
+: 积水潭医院是态度非常差的三甲医院!
+    - "直接截肢就好了,干什么拖那么长时间?!",    
+    - "你是医生?还是我是医生?!你是专家还是我是专家?!"
+    - 这是老杨记忆犹新的,花了十四元,等了几小时,得到的专家门诊服务
+: 上海市人情最冷淡:
+    - 老杨父女辗转全国24个省市,只有在上海被关押,遣送过;
+    - 也只有在上海父女俩获得的社会关注最小;
+    不过老杨感慨：“上海就是富，两小时乞讨就能有几百元……”
+    `也许正是因为相对富裕才使得上海宁出钱出手？！`
+
+
+```
+转述不代表同意
+```</t>
+<t tx="ZoomQuiet.20060604170959">
+= 灵灵 =
+
+- 不能不说小女孩反应很快，也敢于尝试:
+    我使用[mpalyer http://mplayer.sourceforge.net/] 在笔记本上播放DVDRIP 的，
+    灵灵，仅仅注意到我的几次操作，就立即会通过 Space 和箭头按钮来控制影片播放，回退等等了！
+- 但是，长期在全国奔波求医，20多次大小手术(为了恢复小腿外观和功能
+,几次将大面积的背部肌肉,皮肤移植到腿部),导致灵灵无法上学,
+到现在已经12岁,都应该准备中考了,却对中国的考试还没有任何体验
+
+
+== 建议 ==
+
+我特意打印了一份[“导向自由的律令” http://www.douban.com/group/topic/1050895/] --
+三毛的人生觉悟，交给老杨，告诉他，教育还有不同的选择。
+
+其实还有郑渊洁自编教材来教育儿子的实例，只是对灵灵父女不适用。
+
+灵灵父女面对的是如何合理规划康复，教育和资金的综合解决方案。
+
+我只能粗浅的建议:
+    + 自学小学课程
+    + 及时入读普通初中
+    + 及早确认行业，就读技专
+    + 坚持自学，将来有机会再谋求高等教育
+
+
+
+== 社会帮助 ==
+
+老杨的期望是能在北京呆下来，并安排灵灵入学；
+
+然则，象老杨这样，普通教育水平，只有农业技术的成年人，
+在北京市区除了体力劳动和报刊亭等小商品经营外别无机会……
+
+而且小女孩的入学也涉及到方方面面的事儿，期望社会各界，有资源掌控的人士，
+关注灵灵父女，提供力所能及的帮助…………
+
+
+
+
+</t>
+<t tx="ZoomQuiet.20060604175647">
+= 流水帐 =
+```回忆周六走访灵灵父女```
+
+: 计划:
+    060602,看了《新京报》的[人物][“女孩灵灵”拒绝儿童节礼物 http://news.thebeijingnews.com/0554/2006/06-02/012@184670.htm],
+    被记者传达的小姑娘```清洌```的坚持，
+    父亲单纯的```直拗```所打动，
+    决意要去看一看这对父女，表达一下子自已个人的支持,
+    先搜索了一下子，得知“广济医院”的地址和有关 灵灵-"连腿女孩" 的过往报道:
+        - [连腿女孩今圆走路梦 http://www.gk.net.cn/xinwen14.htm]
+        - [2004-8-31 烧伤后两腿共用一根血管 http://hlj.rednet.com.cn/Articles/2004/08/605836.HTM]
+        - [2004-08-31 连腿女孩想走路 http://health.china.com/zh_cn/news/med_news/764/20040831/11857115.html]
+        - [2005-11-10 两腿再次粘连 http://www.bj.xinhuanet.com/bjpd_sdzx/2005-11/10/content_5556116.htm]
+        - [2005-11-11 连腿女孩要跳舞 http://www.bjbusiness.com.cn/20051116/jk100646.htm]
+        - ……
+
+: 开赴:
+    但是周六，几个“广济医院”给出的咨询电话都不通，只好直接TAXI按照地图前往
+
+: 等待:
+    - “广济医院”的门面忒小，不过门卫老头儿很热情，得知俺是热心人土，
+    没有所得盘问，立即领路，
+    却发现灵灵父女外出了，只好在门卫等候，
+    - 也才知道“广济医院”是不入流的小小骨专科医院
+    - 住的病人，大多是慕[“夏氏增高术” http://www.gk.net.cn/tese/xia.htm] 来增高以求好婆家的MM们
+     - —— 不过，根据官方资料，的确是非常神奇的“增高术”，
+     ```十万+两月=十公分的增高```，
+    而且没有后遗症，没有反复
+
+: 见面:
+    ```15:36```，灵灵父女推着自行车回来了，
+    见面远远没有我想象的那么尴尬，老杨很热情，灵灵很随和；
+    - 进到病房,我刚刚表达对老杨的理解和支持,就换来更加热情的回应和滔滔不绝的医疗评述
+    - 赶紧打断,说明我的意愿:
+        + 表示个人支持
+        + 捐助一批不同内容的图书来支持灵灵的自学:
+            - 漫画[《小恐龙阿贡》田中政志 http://www.douban.com/subject/1428691/]
+            - 《科幻世界》过往数期
+            - 《中国国家地理》过往数期
+            - 《红发的安》儿童小说(打印版)
+            - [《镜子》圆性法师的诗画集 http://www.douban.com/subject/1035557/]
+            - [《卡通描红簿》郦欢 http://www.douban.com/subject/1454803/] (上海好友)
+            - (本来打算帯[《苏菲的世界》 http://www.douban.com/subject/1045818/] 想来怕太深)
+        + 要求和灵灵建立通信联系，以推荐一些全国各地的同龄笔友，来扩大知识面
+        + 放映影片[《侧耳倾听》 http://www.douban.com/subject/1297052/]
+
+: 插曲:
+    - 只是看着，老杨一副洗耳恭听的样子，我就没一骨脑的将计划说出来，
+    - 看阳光还好，就建议让灵灵给爸爸拍几张照片，
+    - 因为一直以来，都是记者来拍灵灵，或是拍患部的医疗记录照片，
+    灵灵父女两的日常生活照片从来没空来拍的；
+    - 结果，就趁老杨梳洗打扮的两分钟,描述了一下子机械照相机的原理，
+    灵灵就可以自如的操作俺的爱机: 
+        **[凤凰205E http://www.xitek.com/info/showarticle.php?id=719]**！
+        全机械旁轴照相机哪！一般人怎么都不会玩的！
+    - 接下来的半小时，灵灵指挥父亲，拍了十多张照片，我就趁机，讲述一些摄影技巧，
+    同时转换了三人的关系，成为朋友，灵灵也开始唧唧喳喳起来，
+    - 正好可以放映 Studio Ghibli 
+    少有的现代励志影片[《侧耳倾听》 http://www.douban.com/subject/1297052/]
+
+: 结束:
+    时间过的非常的快：
+    穿插了一顿饺子的影片观赏，老杨重新开始的求医历险记，才讲不一会儿，
+    就被外面已渐黒的天色打断了，
+    确认当前通信地址，约定下次来放映[《天空之城》 http://www.douban.com/subject/1291583/], 就匆匆坐 968回家了，
+    继续更多的思索：“普通人，如何帮助这样的弱势群体”
+
+
+== 通讯地址 ==
+```
+100071
+北京丰台区花乡纪家庙
+北京市广济医院
+
+晶晶(一病31床)
+```
+ - 保密原则,灵灵在广济医院叫 晶晶
+ - 以防万一的话,可以注明```父,杨晋富 代收```
+
+
+- 灵灵，说长这么大从来没有机会写信，虽然会写字…………
+
+- 期望有心人可以主动和灵灵通信，聊天，交流各种信息，让这聪明的小女孩，
+不要被病残影响，不能感受到大千世界……
+
+: 另:
+    因为灵灵父女经常要根据经济条件调换床位,热心人如果怕不能寄达,可以email ,
+    我打印后,当面递交 zoomquiet+blogging@gmail.com
+
+
+
+== 照片 ==
+
+- 灵灵父女:[/pybimage/060603-liling-together-150.jpg];
+虽然穿的都是热心人士捐助的衣物，同伤残抗争了这么久，父女在镜头前终也能绽放笑颜
+
+- 灵灵作品一:[/pybimage/060603-liling-papa-150.jpg];
+作品二:[/pybimage/060603-liling-papa2-150.jpg];
+
+- 作为康复运动，灵灵学会了自行车：[/pybimage/060603-liling-bike-150.jpg];
+
+: 大照片@Flickr:
+    [灵灵父女foto http://www.flickr.com/photos/zoomq/tags/liling/]</t>
+<t tx="ZoomQuiet.20060628141623">改成：
+s = smtplib.SMTP("smtp.gmail.com")
+s.set_debuglevel(1)
+＋s.ehlo()
+＋s.starttls()
+＋s.ehlo()
+＋s.login('user','passwd')
+s.sendmail(me, [you], msg.as_string())
+s.close()
+
+我在linux[python 2.3]上测试没问题， 不过在windows 2K[python 2.4]上测试失败，错误信息如下：
+
+send: 'ehlo pjia01.apac.bea.com\r\n'
+reply: '250-mx.gmail.com at your service, [203.222.183.3]\r\n'
+reply: '250-SIZE 20971520\r\n'
+reply: '250-8BITMIME\r\n'
+reply: '250-STARTTLS\r\n'
+reply: '250 ENHANCEDSTATUSCODES\r\n'
+reply: retcode (250); Msg: mx.gmail.com at your service, [203.222.183.3]
+SIZE 20971520
+8BITMIME
+STARTTLS
+ENHANCEDSTATUSCODES
+Traceback (most recent call last):
+ File "login.py", line 33, in ?
+   s.login('user','passwd')
+ File "c:\Python24\lib\smtplib.py", line 547, in login
+   raise SMTPException("SMTP AUTH extension not supported by server.")
+smtplib.SMTPException: SMTP AUTH extension not supported by server.
+
+
+
+
+On 6/23/06, tocer &lt;tocer.deng@gmail.com&gt; wrote:
+&gt; 因为通过gmail发邮件要身份验证,我不知道该如何写这个验证.希望知道的能帮个忙.谢谢了.
+&gt;
+&gt; 把我写好的部分写在下面:
+&gt;
+&gt; def sendmail(path,filename):
+&gt;     sender = 'tocer.deng@gmail.com'
+&gt;     receiver = 'tocer.deng@gmail.com'
+&gt;     textfile = os.path.join(path,filename)
+&gt;
+&gt;     f = open(textfile, 'r')
+&gt;     # Create a text/plain message
+&gt;     msg = MIMEText(f.read())
+&gt;     f.close()
+&gt;
+&gt;     msg['Subject'] = 'hello world'
+&gt;     msg['From'] = sender
+&gt;     msg['To'] = receiver
+&gt;     msg['Reply'] = 'python-cn@googlegroups.com'
+&gt;
+&gt;     # Send the message via our own SMTP server, but don't include the
+&gt;     # envelope header.
+&gt;     s = smtplib.SMTP()
+&gt;     s.connect('smtp.gmail.com:587')
+&gt;     s.sendmail(sender, [receiver], msg.as_string())
+&gt;     s.close()
+&gt;
+&gt; &gt;</t>
+<t tx="zoomq.20060816163913">&lt;!-- Zoomq::060626 for pipi 
+&lt;script language="javascript" src="http://hi.51pipi.com/container_1_2.js" &gt;&lt;/script&gt;
+--&gt;
+
+
+</t>
+<t tx="zoomq.20060916180156">@language Moin
+CC Salon BJ
+--无责任报道CC中国沙龙第一次
+&lt;&lt;t2t head&gt;&gt;
+
+
+060611 10:30~13:10 
+
+google group:[CC China 沙龙第一次 http://groups.google.com/group/ccchina/browse_thread/thread/cc7e9e89fa11865f/46d38fb15fd760c9#46d38fb15fd760c9] 通知
+
+因为长期关注CC,获知沙龙举行的消息,主动掺合,无责任报道如下:
+
+
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+
+
+
+</t>
+<t tx="zoomq.20060916180156.1">
+= 动机 =
+
+俺是怀着以下疑问来参加活动的:
+    + CC协议如何同现存的知识产权合同相协作?
+    + CC China 的推进情况和发展思路?
+    + 音乐作品使用CC 的完整利益链的解决?
+
+</t>
+<t tx="zoomq.20060916180156.10">
+[/pybimage/technorati-over.gif]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[Chinese http://www.technorati.com/tags/Chinese]
+</t>
+<t tx="zoomq.20060916180156.12">------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.7.1 final, build 3005: 编辑
+
+
+</t>
+<t tx="zoomq.20060916180156.2">
+= 流水账 =
+
+- 09:55出发,自行车
+- 10:15到达万圣书局,一层工作人员竟然不知道此次沙龙
+- 刚刚就坐万圣咖啡,10:20 人们突然涌来:
+    - CC China 的工作人员
+    - 特邀代表们
+    - 主动来旁听的
+- 11:17 正式开始,王老师主持:
+    - 原来叫```CC Salon BeiJing```,是 ```CC Salon``` 的中国第一家分支
+- 11:20 Jon Phillips 分享CC体验
+- 11:37 MIT 学者团到达
+- 12:00 国图CC思考报告
+- 12:20 奇迹网与CC
+- 12:55 MIT CC协议
+- 13:30 结束
+
+
+
+
+
+</t>
+<t tx="zoomq.20060916180156.3">== 人物 ==
+(记要各界人士印象,记录顺序不分先后)
+
+: Jon Phillips:
+    - http://rejon.org/bio/index.php 
+    - CC Salon 旧金山总部成员
+    - 光头,干练的黒T裇,爱笑,携翻译,习惯与非E文母语的人群交流
+
+: 徐佳扬:
+    - ilikesleep9@yahoo.com.cn
+     - 很明显,是位爱好睡觉的MM
+     - 北大数字艺术,研二生
+    - http://dorkbot.org/dorkbotbj/#cn
+    - http://we-need-money-not-art.com/
+
+: 辛省志:
+    - 知识共识中国大陆项目,助理
+    - xingzhi@cn.creativecommons.org
+    - 标准的Shuai哥,什么事儿都指挥MM们作;-)
+
+: 王兴:
+    - 校内网创始人
+    - xiaonei.com
+    - wangxing@xiaonei.com
+    - 标准的海龟,基本吻合一切海外回归创业者的外表想象;-)
+
+: 季燕江:
+    - http://www.qiji.cn/
+    - 北京科技大学物理系，理论凝聚态物理
+    - 奇迹创始人
+    - 基本吻合大家对理论研究者的外表想象;-)
+
+: 翟建雄:
+    - zhaijx@nlc.gov.cn
+    - 国家图书馆 法律参考员
+    - 参考咨询部社科咨询室
+    - 从外表到学识都严肃无比的大叔 ;-)
+
+: 王春燕:
+    - http://cn.creativecommons.org 
+    - 知识共识中国大陆项目,项目负责人
+    - 热情优雅的老师
+
+还有 cnblog.org 百度 人民网 等等热心人士到场
+
+: 笔者:
+    - http://www.zoomquiet.org/
+    - 新浪音乐事业部,过程改进主官
+    - [啄木鸟/CPUG 开源开发社区 http://www.woodpecker.org.cn/]系统管理员
+    - zoomquiet+sns@gmail.com
+
+
+</t>
+<t tx="zoomq.20060916180156.4">
+== 录音 ==
+
+: 下载:
+    - [啄木鸟提供 http://www.woodpecker.org.cn/share/classes/ccsalon/]:
+        + 060611-CCChina-salon-00.mp3 20.7M 0:30:13 开始前的热闹背景讨论
+        + 060611-CCChina-salon-01.mp3 59.2M 1:26:24 主题讨论
+        + 060611-CCChina-salon-02.mp3 8.5M 0:12:23 MIT协议设计简介
+    - Mic 好象有问题,噪音比较大,请忍耐,或是自行优化处理;
+    - 遵从 [CC1.0 by-nc-sa http://creativecommons.cn/licenses/by-nc-sa/1.0/]协议;
+
+
+</t>
+<t tx="zoomq.20060916180156.5">= 主题 =
+个人笔记有印象的主题讲话
+
+
+== Jon's CC ==
+
+: Jon Phillips:
+    - 展示现在CC Salon 的各种活动;
+    - Godzilla ...;
+    - CC 不应仅仅在 web;
+    - 还有各种文化/艺术作品领域也应该理解和应用;
+    - 知识产权与CC 的协同/共存的思考:
+    如何社会合作?
+        - 有很多其它城市的 CC Salon
+        - 推荐,各种商业人士在一起协同推进 CC 的应用
+    - [dorkbot中国的介绍 http://dorkbot.org/dorkbotbj] 关注艺术的CC 模式分享创作
+
+: 开源和CC:
+    - open cliper art lib.
+    - [Inkscape http://www.inkscape.org/]开源的强力矢量绘图软件！
+     - 有版权的选项,可以随作品传播
+    - [openclipart http://www.openclipart.org/]与 Inkscape 等自由软件相呼应的开放设计作品展示站点！
+
+: CC 关注的:
+    - 是没有巨收益的小创作集团
+    - 年轻人的通过CC 来分层次的支持不同的创作活动
+    - CC 与现有的知识产权不是互斥的,是作品不同阶段和范围的补充
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20060916180156.6">== 国图CC思考 ==
+
+: 国家图书馆的项目:
+    - **开放存取与图书馆的未来发展**
+    - 发现,研究者的CC 权益点:
+        - 作者并不以现实利益为目标
+        - 而且是快速扩大学术思想的影响力和认识
+
+: CC 对图书馆资料的支持:
+    - 版权制度下的另外突破点
+    - 多媒体作品/艺术作品等等,更加需要CC对版权的补充
+
+: CC 的国图理解:
+    - 解决网络作品传播的版权保护问题
+    - 数种CC协议条款:
+        就是完备的法律声明,
+        但是对于违反的,只能走民事诉讼,其举证要自行处理,有极高的成本
+
+: 图书馆管理的"源数据":
+    - 数字资料的 标引/索引 数据,是有工作时间含量的"源数据"! 
+        - 录入和整理技术,笔者建议参考:
+            [semantic web 的技术和思想  http://www-128.ibm.com/developerworks/cn/grid/gr-semgrid/index.html]        
+        - [TeX — Beauty and Fun http://www.woodpecker.org.cn/share/graspOnline/learn.tsinghua.edu.cn/homepage/2001315450/tex_frame.html] -- 啄木鸟备份
+        - [TeX — Beauty and Fun http://learn.tsinghua.edu.cn:8080/2001315450/tex_frame.html] -- 清华王珢 原文
+        - 以及 LaTeX 科学排版技术,来统一标准的解决各种学科符号和图表电子化的问题!
+
+    - 国图的法定义务:
+        + 数字化资料
+        + reCreat 的责任
+    - 通过 "罗密欧计划"的报告意识到:
+        ```CC 作为源数据的权力表述,比较合适```
+
+: CC作品发布平台:
+    - CC 作为国图资料数字化计划中,是一个现有的合理选择
+    - 国图计划提供CC 作品自发录入平台
+        - 平台服务入口?会是设立在全国所有国立图书馆?
+
+
+
+</t>
+<t tx="zoomq.20060916180156.7">== 奇迹的CC ==
+
+: 奇迹网的项目:
+    3年前 开始;
+    "奇迹文库"
+    项目的发起原因:
+        - 研究工作的资料来源实在太不方便
+        - 参考国外物理研究资料中心的作法,引发了奇迹的创立
+        - http://cn.arxiv.org
+        - 物理学家的集体行为,导致期刊的行为转变
+
+: 关注:
+    - 法律问题不关心
+    - 关心平台对研究人员有用否
+
+: 在中国:
+    - 商业互联网先成功,科研/公益的从未成功
+    - 奇迹的服务目标:
+        ```科研人员服务 --&gt; 科普服务```
+: 奇迹的CC:
+    开始时:
+    发现plos 期刊的版权声明 选择了CC 
+    所以,进一步的研究才发觉CC的恰当,也使奇迹应用了CC
+
+: 但是:
+    科研论文还是要发表的,
+    所以:```作者/奇迹/出版/读者``` 的四方权益标定,
+    还需要进一步清理,组织出好的协同方式
+
+: 任务:
+    - 国际科研期刊主动的允许作者进行CC发表
+    - 中国,没有开始关注,需要和出版社进行交涉
+
+: "民科"问题:
+    - **民间伪科学研究家**
+    - 国外,研究者平均素质决定了没有太多的"民科"现象
+    - 国外也有一定的研究门槛:
+        - e.g 发表需要指定的格式和流程控制
+        - 百度百科的发布比维基百科要容易太多
+        - 国外期刊投稿要求 LaTeX / PDF 指定格式
+    - 被建议施行 ```preview``` 的审核发布来保护
+
+: 引发:
+    - 国图发现的资料确认的"网络不信任危机"
+    - 如何在吸引注意力的同时,保证科研资料的权威性/正确性?
+    - 笔者建议:
+        + SNS化编辑团队的建立
+        + WEB2.0 化内容的编辑/评审
+        + 专业化服务站点
+
+
+
+</t>
+<t tx="zoomq.20060916180156.8">== MIT的CC协议 ==
+
+: "作者,著作权":
+    - 科学共用 Science Commons
+    - http://sciencecommons.org/
+    - 期待王老师补充资料下载
+```
+CC理事会成员、MIT教授Hal Abelson则向大家介绍了CC在科技领域的子项目
+Science Commons刚刚开始的学者版权项目
+（Scholar's Copyright Project）的情况。
+他说，这是SC为了在科研领域推动开放共享理念而推出的一个新项目。
+他还介绍说，MIT目前正在向其研究人员推荐一份《论文出版补充协议》，
+保留在文章出版前和出版后以数字形式在网络上发布和传播的权利。
+这将作为MIT的政策，希望能够推动科研论文的共享，
+使更多人能够接触到最新的研究成果，从而推动科技的发展。
+```
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20060916180156.9">= 小结 =
+
+: CC:
+    - 创作共用 是如何演化为 知识共享的?
+    - 我虽然不认同**知识共享** 的定义,
+    但是对 CC China 的推进还是非常理解和赞同的
+    - 人民大学恰如其分的承担了 ```CC China```的维护责任,是非常令人认同的
+: CC和开源:
+    - [漫谈自由与开源+啄木鸟开源社区介绍 http://www.woodpecker.org.cn/share/classes/0511-FreedomDiscuss/FreedomCPUG/] 中有详细讲述
+    - 自由软件和开源模式,就象知识产权和CC协议,相生相融,却又基于完全不同的哲学思想
+    - 正确的理解自由和开源,才可能正确的把握 CC 不同协议组合的含义
+    - 正确理解,开源的历史来源和现实情况,才可能正确推进CC在艺术作品领域的结合
+
+
+== 注意 ==
+
+[无责任报道 http://wiki.woodpecker.org.cn/moin/ZoomQuiet/NullDutyPublish] 的一应链接,使用 [FireFox http://www.mozilla.org/] 浏览为佳!
+
+
+== 照片 ==
+
+- [shizhao发布 http://www.flickr.com/photos/shizhao/tags/ccchina/]
+- [仨儿发布 http://www.flickr.com/photos/zoomq/tags/ccsalonbj/]
+ - 借的DC，暗光线中拍摄的实在都是鬼影哪…………
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20100310084837.5905"></t>
+<t tx="zoomq.20100319214837.4217"></t>
+<t tx="zoomq.20100319214837.4218">目标:
+    - 样式迁移为 WP:doc
+    - 格式 t2t-&gt;rST
+    - 版本 SVN-&gt;Hg
+        - 包含 评注的版本纳入
+        - 可能 要独立部署服务
+    - 评注 使用 PubSH 实时
+    - 编写统一使用  Leo 并可以脚本激活检入
+    - 发布 接收邮件！
+</t>
+<t tx="zoomq.20100413102905.5772">本地尝试:
+~/workspace/3hg/pyk.pyblosoxm/zoomquiet/entries&gt;
+find -name "*.t2t" -exec ../plugins/preformatters/txt2tags.py  {}  \;
+
+~/3hg/pyk.pyblosoxm/zoomquiet&gt; 
+pyblosxom-cmd staticrender --config /home/zoomq/3hg/pyk.pyblosoxm/zoomquiet/cgi/config.py
+批量生成 xhtml:
+    ~ /3hg/pyk.pyblosoxm/zoomquiet/entries&gt; 
+    find -name "*.t2t" -exec /opt/bin/txt2tags-2.4/txt2tags {}  \;
+再复制生成 txt:
+    ~ /3hg/pyk.pyblosoxm/zoomquiet/entries&gt; 
+    find -name "*.html" -exec mv {} {}.txt \;
+
+find -name "*.xhtml" -exec rm {} \;
+
+批量调整 原先 xhtml 的输出要求为 html
+因为 生成的 xhtml有意外的 
+&lt;?xml version="1.0"
+      encoding="UTF-8"
+?&gt;
+会被pyb 异常处理成
+&lt;?xml version="1.0"&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="blosxomStory"&gt;
+      encoding="UTF-8"
+?&gt;
+
+find -name "*.t2t" | xargs  awk '/Target/{gsub(/xhtml/, "html")}; 1'
+find -name "*.t2t" | xargs sed -i "s/: xhtml/: html/" 
+
+sed -i
+
+-i[SUFFIX], --in-place[=SUFFIX]
+
+edit files in place (makes backup if extension supplied)
+
+         </t>
+<t tx="zoomq.20100413102905.5773">`ack $1 -l $3` 
+
+grep ": xhtml" \;
+| xargs cat | sed 's/: xhtml/: html/' 
+#ra_dev-svn-2007-10-15-11-33.t2t | sed 's/: xhtml/: html/'
+
+zeus:work ~/yun:cat /maindata/work/local/bin/dirreplace
+#!/bin/sh
+sed -i "s/$1/$2/g" `ack $1 -l $3` 
+
+
+zuroc@aragorn ~/douban $ eix ack|ack grep -B4
+[U] sys-apps/ack
+     Available versions:  1.90 ~1.92 {bash-completion}
+     Installed versions:  1.86(04:59:48 PM 01/22/2009)
+     Homepage:            http://www.petdance.com/ack/
+     Description:         ack is a tool like grep, aimed at programmers with large trees of heterogeneous source code
+
+
+
+zeus:work ~/yun:ack 张沈鹏
+mytool/multi_pattern_search/multi_pattern_search/test.py
+6:search.add_keyword("张沈鹏")
+9:print search.exist("asdga sddqbq 珍珠饰张沈鹏品 ")
+10:for k, v in search.count("我是张沈鹏.我是张沈鹏.我是张沈鹏.我是张沈鹏.").iteritems():
+
+mytool/multi_pattern_search/setup.py
+47:search.add_keyword("张沈鹏")
+50:print search.exist("asdga sddqbq 珍珠饰张沈鹏品 ")
+52:for k, v in search.count("我是张沈鹏.我是张沈鹏.我是张沈鹏.我是张沈鹏.").iteritems():
+
+myfile/popwin/say_format.htm
+14:    张沈鹏(@10015063)
+27:Tinyfool(@tinytool) 张沈鹏(@zsp) @plan
+
+mysite/model/sendmail.py
+10:#rendermail("user/apply", "zsp007@gmail.com", "张沈鹏", ck="w")
+
+mysite/model/mailtask.py
+31:#rendermail("user/apply", "zsp007@gmail.com", "张沈鹏", ck="w")
+
+mysite/htm/j/box/atme.htm
+6:张沈鹏&amp;lt;@zsp&amp;gt; :
+
+mysite/util/twitter.py
+49:张沈鹏(@zsp) 我w(@ss):
+zeus:work ~/yun:dir
+dir         dircolors   dirname     dirreplace  dirs        
+zeus:work ~/yun:dirreplace 张沈鹏 鹏沈张
+zeus:work ~/yun:ack 鹏沈张
+mytool/multi_pattern_search/multi_pattern_search/test.py
+6:search.add_keyword("鹏沈张")
+9:print search.exist("asdga sddqbq 珍珠饰鹏沈张品 ")
+10:for k, v in search.count("我是鹏沈张.我是鹏沈张.我是鹏沈张.我是鹏沈张.").iteritems():
+
+mytool/multi_pattern_search/setup.py
+47:search.add_keyword("鹏沈张")
+50:print search.exist("asdga sddqbq 珍珠饰鹏沈张品 ")
+52:for k, v in search.count("我是鹏沈张.我是鹏沈张.我是鹏沈张.我是鹏沈张.").iteritems():
+
+myfile/popwin/say_format.htm
+14:    鹏沈张(@10015063)
+27:Tinyfool(@tinytool) 鹏沈张(@zsp) @plan
+
+mysite/model/sendmail.py
+10:#rendermail("user/apply", "zsp007@gmail.com", "鹏沈张", ck="w")
+
+mysite/model/mailtask.py
+31:#rendermail("user/apply", "zsp007@gmail.com", "鹏沈张", ck="w")
+
+mysite/htm/j/box/atme.htm
+6:鹏沈张&amp;lt;@zsp&amp;gt; :
+
+mysite/util/twitter.py
+49:鹏沈张(@zsp) 我w(@ss):
+</t>
+<t tx="zoomq.20100413102905.5774">归档:
+    - 使用 xhtml
+    - ,"pycategories" -&gt; zqcategories
+    - index -&gt; ,"index_static" 
+    - "wbgarchives"
+    - atom #rss2.0 not OK
+导览:
+    - 搜索 ajax_search.js KO 
+        &lt;div id="page-content"&gt; 是关键...
+        
+    - navigate/pyentrynavi.py
+SNS:
+    - rdf/rss
+    - 评注? =&gt; mail 先    
+系统:
+    - 插件
+</t>
+<t tx="zoomq.20100413102905.5775">WordPress › Doc « Free WordPress Themes
+http://wordpress.org/extend/themes/doc
+
+自定义样式必须根据目录名进行后缀定义！
+wpdoc.flav:
+    +-- content_type.wpdoc
+    +-- head.wpdoc
+    +-- story.wpdoc
+    +-- foot.wpdoc
+    +-- date_head.wpdoc
+    +-- date_foot.wpdoc
+但是由于要静化，输出就只能是 html
+
+da -&gt; 13
+date -&gt; Tue, 13 Apr 2010
+dw -&gt; Tuesday
+escape -&gt; &lt;function &lt;lambda&gt; at 0xb7498bfc&gt;
+file_path -&gt; Techic/Subversion/ra_dev-svn-2007-10-15-11-33.html
+filename -&gt; /home/zoomq/3hg/pyk.pyblosoxm/zoomquiet/cgi/entries/Techic/Subversion/ra_dev-svn-2007-10-15-11-33.html.txt
+fn -&gt; ra_dev-svn-2007-10-15-11-33.html
+fulltime -&gt; 20100413194633
+mo -&gt; Apr
+mo_num -&gt; 04
+mtime -&gt; 1271159193.0
+path -&gt; /Techic/Subversion
+rfc822date -&gt; Tue, 13 Apr 2010 11:46 GMT
+tb_id -&gt; Techic_Subversion_ra_dev_svn_2007_10_15_11_33_html
+ti -&gt; 19:46
+timetuple -&gt; time.struct_time(tm_year=2010, tm_mon=4, tm_mday=13, tm_hour=19, tm_min=46, tm_sec=33, tm_wday=1, tm_yday=103, tm_isdst=0)
+title -&gt; &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"&gt;
+urlencode -&gt; &lt;function &lt;lambda&gt; at 0xb7498c34&gt;
+w3cdate -&gt; 2010-04-13T11:46:33Z
+yr -&gt; 2010
+</t>
+<t tx="zoomq.20100413102905.5776">t2t 生成的网页有很多多余的元素
+要批量清除 从头到 &lt;/body&gt; 以及&lt;/BODY&gt;&lt;/HTML&gt;
+
+使用简单的行匹配方式，完成:
+    cleant2t.py v10.4.13
+    进行 t2t-&gt;html-&gt;片段 as txt -&gt;PyBlosxom 使用
+
+发布重构支持目录为:
+    alias.url += ("/pyblosxom" =&gt; "/pyk/www/zoomquiet.org/pyblosxom/_static")
+    alias.url += ("/entry/pic" =&gt; "/pyk/www/zoomquiet.org/pyblosxom/_images")
+    alias.url += ("/pybimage" =&gt; "/pyk/www/zoomquiet.org/pyblosxom/_images")
+    alias.url += ("/pybstyle" =&gt; "/pyk/www/zoomquiet.org/pyblosxom/flavours")
+    alias.url += ("/pybnodes" =&gt; "/pyk/www/zoomquiet.org/pyblosxom/entries")
+</t>
+<t tx="zoomq.20100414115206.4235">@path StructuredText
+</t>
+<t tx="zoomq.20100414115206.4236">@language Moin
+rst2s5
+~ 好用的S5生成宏
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4256">@path Karrigell</t>
+<t tx="zoomq.20100414115206.4257">@path MoinMoin
+</t>
+<t tx="zoomq.20100414115206.4258">@language Moin
+MoinMoin问题
+还是中文惹的祸！
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20100414115206.4259">[/pybimage/snap060130-moinerror.png]</t>
+<t tx="zoomq.20100414115206.4260">
+= fixed =
+
+接到举报，看一下子 trackback 是系统 进行字串解析时出错
+```
+## site-packages\MoinMoin\macro\RecentChanges.py line 29 左右
+    if line.action[:3] == 'ATT':
+        import urllib
+        try:
+            filename = urllib.unquote(line.extra)
+        except:
+            filename = "filename can not display...maybe UnicodeDecodeError"
+        if line.action == 'ATTNEW':
+            try:
+                comment = _("Upload of attachment '%(filename)s'.") % {'filename': filename}
+            except:
+                comment = _("Upload of attachment '%(filename)s'.") % "filename can not display..."
+```
+
+简单过滤就成，但是问题还在…………可怜的中文…………
+
+</t>
+<t tx="zoomq.20100414115206.4264">@path Quixote
+
+
+</t>
+<t tx="zoomq.20100414115206.4265">@language Moin
+[snap]豆瓣出错
+Python Traceback
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+
+</t>
+<t tx="zoomq.20100414115206.4266">
+: 查询报怨:
+```
+Traceback (most recent call last):
+  File "/usr/lib/python2.4/site-packages/quixote/publish.py", line 522, in process_request
+    output = self.try_publish(request, env.get('PATH_INFO', ''))
+  File "/usr/lib/python2.4/site-packages/quixote/publish.py", line 457, in try_publish
+    output = object(request)
+  File "/var/www/douban/luz/__init__.py", line 69, in subject_search
+    return subject_search_ui(request)
+  File "/var/www/douban/luz/subject_search_ui.ptl", line 29, in subject_search_ui
+    main_layout(request, local_content, right_content,right_width=250)
+  File "/var/www/douban/luz/site_ui.ptl", line 65, in main_layout
+    &lt;table class="mt"&gt;&lt;tr&gt;&lt;td valign="top" %s&gt;
+  File "/var/www/douban/luz/subject_search_ui.ptl", line 114, in local_content
+    ns, ss = subject_search(text,_items_per_line,start,cat_id=cat_id)
+  File "/Users/bo/Sites/luzong/search.py", line 409, in subject_search
+  File "/Users/bo/Sites/luzong/search.py", line 321, in _subject_search
+  File "/var/www/douban/luzong/sqlstore.py", line 338, in subject_search
+    self.farm.execute("select id from subject_index where cat_id=%s and match (searchable) against (%s in boolean mode) order by collection_count desc",(cat_id, make_search_string(text)))
+  File "/usr/lib/python2.4/site-packages/MySQLdb/cursors.py", line 137, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.4/site-packages/MySQLdb/connections.py", line 33, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+
+Form:
+cat             1001
+search_text     村上纪香
+
+Cookies:
+__utma          164037162.1846512001.1132065229.1138539594.1138604874.113
+__utmb          164037162
+__utmc          164037162
+__utmz          164037162.1138361940.110.3.utmccn=(referral)|utmcsr=koudai8.com|utmcct=/willow/blog/|utmcmd=referral
+dbcl            1000030:14e975e18c9cf87a
+luz_login       1000030:79376a8b2b63d6fa
+
+Environment:
+CONTENT_LENGTH  0
+DOCUMENT_ROOT   /var/www/douban/
+GATEWAY_INTERFACE CGI/1.1
+HTTP_ACCEPT     text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_ACCEPT_CHARSET gb2312,utf-8;q=0.7,*;q=0.7
+HTTP_ACCEPT_ENCODING gzip,deflate
+HTTP_ACCEPT_LANGUAGE zh-cn,zh;q=0.5
+HTTP_COOKIE     __utmz=164037162.1138361940.110.3.utmccn=(referral)|utmcsr=koudai8.com|utmcct=/willow/blog/|utmcmd=referral; __utma=164037162.1846512001.1132065229.1138539594.1138604874.113; luz_login="1000030:79376a8b2b63d6fa"; dbcl="1000030:14e975e18c9cf87a"; __utmb=164037162; __utmc=164037162
+HTTP_HOST       www.douban.com
+HTTP_REFERER    http://www.douban.com/subject_search?start=15&amp;search_text=%E6%9D%91%E4%B8%8A&amp;cat=1001
+HTTP_USER_AGENT Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.8) Gecko/20051111 Firefox/1.5
+PATH_INFO       /subject_search
+QUERY_STRING    search_text=%E6%9D%91%E4%B8%8A%E7%BA%AA%E9%A6%99&amp;cat=1001
+REDIRECT_STATUS 200
+REMOTE_ADDR     61.135.152.194
+REMOTE_PORT     3944
+REQUEST_METHOD  GET
+REQUEST_URI     /subject_search?search_text=%E6%9D%91%E4%B8%8A%E7%BA%AA%E9%A6%99&amp;cat=1001
+SCGI            1
+SCRIPT_FILENAME /var/www/douban/subject_search
+SCRIPT_NAME     
+SERVER_ADDR     61.129.113.231
+SERVER_NAME     www.douban.com
+SERVER_PORT     80
+SERVER_PROTOCOL HTTP/1.1
+SERVER_SOFTWARE lighttpd/1.4.8
+```
+
+
+</t>
+<t tx="zoomq.20100414115206.4267">
+= TODO =
+
+呜乎哀哉！[赶紧报告 http://www.douban.com/forum/2/102016]！
+
+不过看豆瓣的服务架构是挻前卫的哪…………Lighttpd....
+
+</t>
+<t tx="zoomq.20100414115206.4268">t2t渲染:: %%date(%Y-%m-%d %H:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+</t>
+<t tx="zoomq.20100414115206.4269">------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+</t>
+<t tx="zoomq.20100414115206.4270">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[error http://www.technorati.com/tags/error]
+    ,[Quixote http://www.technorati.com/tags/Quixote]</t>
+<t tx="zoomq.20100414115206.4271">@path Django</t>
+<t tx="zoomq.20100414115206.4272">《Django一步接一步》中文学习教程发表！
+
+&lt;a href="http://www.djangoproject.com/"&gt;
+Djano
+&lt;/a&gt;是&lt;a href="http://python.org/"&gt;
+Python
+&lt;/a&gt; 世界中，类似&lt;a href="http://www.rubyonrails.org/"&gt;RoR&lt;/a&gt; 
+的快速web 开发平台之一.它鼓励快速开发和干净的、ＭＶＣ设计。它包括一个模板系统，对象相关的映射和用于动态创建管理界面的框架。自从正式发布后在全世界受到追捧，发布的异常快速。
+
+&lt;a href="http://wiki.woodpecker.org.cn/moin/DjanGo"&gt;
+(啄木鸟社区的中文介绍)
+&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/CPUG"&gt;CPUG&lt;/a&gt;
+活跃人物:
+&lt;a href="http://wiki.woodpecker.org.cn/moin/limodou"&gt;
+limodou
+&lt;/a&gt; 刚刚在个人
+&lt;a href="http://blog.donews.com/limodou/archive/2006/01/26/709143.aspx"&gt;
+Blog 
+&lt;/a&gt;中 发布消息，正式发表了&lt;b&gt;
+&lt;a href="http://www.woodpecker.org.cn/obp/django/django-stepbystep/newtest/doc/"&gt;
+《Django Step by Step》
+&lt;/a&gt;&lt;/b&gt;
+-- 《Django一步接一步》中文学习教程！
+
+&lt;br/&gt;
+教程整理自&lt;a href="http://wiki.woodpecker.org.cn/moin/limodou"&gt;
+limodou
+&lt;/a&gt;的个人学习体验，以前&lt;a href="http://blog.donews.com/limodou/category/65397.aspx"&gt;是以连载的形式在blog中
+&lt;/a&gt;发布的，此次，使用
+&lt;a href="http://www.czug.org/plone/howto/howto-restructed-text/"&gt;
+&lt;i&gt;re&lt;/i&gt;Structed
+&lt;/a&gt;
+文本格式整理，组织成为正式教程，通过&lt;a href="http://www.woodpecker.org.cn/"&gt;
+啄木鸟社区
+&lt;/a&gt;空间发布以利于中国Python 爱好者学习。
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4391">@path PyBlosxom/
+
+快速升级到 1.3.2::
+    使用SVN 的方式来管理实际运行支持
+    完全平滑的升级！！！
+    不用任何修改！就升级成功了！！！哈哈哈！！</t>
+<t tx="zoomq.20100414115206.4392">@path blosxom
+
+
+</t>
+<t tx="zoomq.20100414115206.4393">@language Moin
+[core]fileentry.py
+增补模板元素
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="zoomq.20100414115206.4394">
+= fixed =
+
+: Why?
+    [t2t支持的遗留问题 ../060120-PyblosxomFixLog3.phtm#toc5]
+    - 现在我的Blog 基本就两种文件格式:
+        + .py 脚本文件
+        + .t2t 文章
+    - 但是模板中 t2t 额外给出的下载 .t2t和.moin 对 .py 的文件不适用！
+
+: problem
+    [模板有效输出值 http://pyblosxom.sourceforge.net/1.3/manual/x307.html#AEN356]
+    的说明中有问题！
+    - **file_path**	just the filename and extensions of the entry
+    - 实际上没有后缀！
+    - 所以！
+: hacked:
+    //path/to/site-packages/Pyblosxom/entries/fileentry.py//
+```
+::brush: py
+#147 line...
+        self['entryext'] = ext
+        self['filebasename'] = file_basename
+```
+    追加我需要的变量！
+: 模板处理:
+    这样一来**story.***的模板中就可以对应修正输出了！
+```
+::brush: html
+| &lt;a href="$base_url/$file_path_urlencoded.$flavour" 
+    title="permalink"&gt;#
+    永久链接&lt;/a&gt;&lt;!--permanent link to this entry--&gt;
+    &lt;sup&gt;    
+    &lt;a href="/entry/$file_path_urlencoded$entryext"&gt;
+    $entryext&lt;/a&gt;
+    &lt;a href="/entry/$file_path_urlencoded.t2t"&gt;
+    .t2t&lt;/a&gt;
+    &lt;a href="/entry/$file_path_urlencoded.moin"&gt;
+    .moin&lt;/a&gt;
+    &lt;/sup&gt;
+```
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4395">
+= TODO =
+
+: contribute 分发!
+    接踵而来的就是如何标准化的反馈社区，
+    贡献代码了…………
+: 进一步的:
+    Pyblosxom的模板属于简单模板，在模板中不能加入逻辑的，
+    所以现在虽然对.py 的文章有了直接下载链接，但是，没有自动生成的.moin 
+    和约定的.t2t 下载并不应该有…………
+    向社区建议吧…………
+
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4398">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]
+    ,[SNS http://www.technorati.com/tags/SNS]
+</t>
+<t tx="zoomq.20100414115206.4399">@path plugins
+
+</t>
+<t tx="zoomq.20100414115206.4472">个人开发
+</t>
+<t tx="zoomq.20100414115206.4473">@language Moin
+[ZqPyb+]插件开发
+快速完成分类索引增强
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="zoomq.20100414115206.4474">
+= 需求 =
+
+: 原先的分类索引
+    指向的页面是将所有文章的正文输出
+    - 例如
+    - 如果
+
+
+</t>
+<t tx="zoomq.20100414115206.4475">
+= 过程 =
+
+: logging
+    + 30分钟，学习[wbgrecent.py plugins/wbgrecent]
+    + 5分钟，使用原版脚本创建
+    [zqcategory.py plugins/zqcategory]
+    ;[zqcrecent.py plugins/zqcrecent]
+    + 30分钟，调试功能
+    + 20分钟增强CSS
+    + 85分钟完成心中所想！
+    +
+: 分析最重要！
+    原先想象的和实现的，完全不同！
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4478">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]
+    ,[css http://www.technorati.com/tags/css]
+</t>
+<t tx="zoomq.20100414115206.4479">汇集定制体验
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4480">@language Moin
+升级！
+from Pyblosoxm1.3.0b to Pyblosoxm1.3.2
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="zoomq.20100414115206.4481">
+: 升级操作！
+    - 3分钟完成！
+     + 下载 ```fetch ,,, pyblosxom-1.3.2.tar.gz```
+     + 解开 ```tar xzvf pyblosxom-1.3.2.tar.gz```
+     + 安装 ```sudo python setup.py install```
+     + DONE!
+    - 居然不用任何修改，**兼容以前版本的一切用户定制！**
+    - 爽哪！！哈哈哈！！
+
+
+</t>
+<t tx="zoomq.20100414115206.4484">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]</t>
+<t tx="zoomq.20100414115206.4485">@language Moin
+PyBlosxom 重启
+定制笔记
+&lt;&lt;t2t head&gt;&gt;
+
+= 初始安装 =
+: http://pyblosxom.sourceforge.net/1.3/manual/x74.html
+  任何一步都不能少！！！
+  折腾了几天才发现，默许的只识别 .txt 文件的！！
+  原先就是在 BSD 中只安放了 "firstpost" 文本文件， 
+  所以,一直报怨没有找到页面的输出…………呜乎哀哉！！
+
+
+= 规划 =
+
+一个实用的，简练的Blog 系统到底需要哪些功能？
+
+ + 按照用户喜欢的格式来写
+ + 样式可定制
+ + 备份方便
+ + 有SNS功能
+ +
+
+齐了！其它的各种功能不过是对应的加强了
+
+
+== PyBlosxom ==
+
+: [PyBlosxom http://wiki.woodpecker.org.cn/moin/PyBlosxom?]
+    是[blosxom http://blosxom.com/]的Python Clone 
+    - **优点**:
+        + 不用DB
+        + 插件化
+        + 简单
+    - //缺点//:
+        - 速度?
+        - 部属?
+
+
+
+反正,是轻型的个人Blog 系统,就当作Python 应用练习了!
+
+Pure Python 系统哪!嗯哪……就是求个Cool.
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+
+</t>
+<t tx="zoomq.20100414115206.4489">@language Moin
+[hack1]理解Flavours
+规划部属
+&lt;&lt;t2t head&gt;&gt;
+
+= 体验 =
+
+: http://pyblosxom.sourceforge.net/1.3/manual/c218.html
+  反复尝试不果！
+  终于发现是**版本问题**，要使用1.3 自带的Flavours才可能成功运行
+  …………呜乎哀哉！！
+
+本来仅仅是要先安装一个最基本的PyBlosxom ,结果一折腾牵出了各种问题,工具的理解,定制...
+
+模板,PyBlosxom 中叫 Flavours,其实就是和系统配合的简单Python 模板系统,
+
+和我们在CherryPy 或是 Python 默许的模板系统中一样 ``$var`` 安放在HTML 中,通过渲染输出最终页面
+
+只是 PyBlosxom 升级到 1.3.0 以后各种变量都有变化,于以前的模板完全不能兼容,而且 **contrib**--工具集也没有释放,可以下载的 contrib.1.2.2仅仅针对 v 1.2x版本的系统,
+
+反复了几次,还是老实的从 sf.net 的CVS 中检出最新版本的,这才成功.
+
+
+== 部属 ==
+
+特殊的,根据以往经验进行了web server 的配合发布
+```
++--flavours     各种模板
+|  +--atom.flav
+|  +--error.flav
+|  +--html.flav
+|  +--phtm.flav
+|  +--rss.flav
+|  \--rss20.flav
++--plugins      各种插件使用
+|  +--comments
+|  +--lucene
+|  +--meta_plugins
+|  +--preformatters
+|  \--xmlrpc_plugins
+\--zoomquiet    我的PyBlosxom 实例
+   +--cache     
+   +--comment   评注数据
+   +--data      Blog 内容
+   |  +--OpenSource
+   |  |  +--...
+   |  \--Zen
+   |     +--...
+   +--log       日志
+   +--stat      统计数据
+   +--static    静态页面存储
+   \--web       web 服务发布
+```
+
+在Apache 中:
+```
+    Alias /styles "/path/to/flavours/"
+    &lt;Directory "/path/to/flavours"&gt;
+    ...
+    Alias /entry "/path/to/zoomquiet/data/"
+    &lt;Directory "/path/to/zoomquiet/data"&gt;
+    ...
+```
+: **/styles** 
+    样式发布目录,来为将来的多用户分享模板作准备
+: **/entry** 
+    内容发布目录,为将来的日志正文下载作准备
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4493">@language Moin
+[hack2]允许评注
+comments.py的安装
+&lt;&lt;t2t head&gt;&gt;
+
+: http://pyblosxom.sourceforge.net/1.3/manual/c857.html
+  怎么着？一个最普通的评注要这么复杂才能够成功？！
+  呜乎哀哉…………
+  - 最后发现还是老实的按照说明步骤一步接一步的来才不会有"惊奇"
+  - 可以参考以前
+  [limodou的体验 http://wiki.woodpecker.org.cn/moin/PyBlosxomIniComments]
+
+: 速度
+    为什么 PyBlxosom 的 comment 时的响应速度如此慢？！
+    - 果然不是 XML 的事儿！
+    - 是 smtp 发送提醒邮件时失败而长期等候,只能 不使用提醒先睹  
+    -
+
+
+草看了一下子 [comments.py plugins/latest_comments.phtm] 真是牛哪！
+ - ``from xml.sax import make_parser, SAXException``
+ - 使用 sax 事务性XML解析器进行的处理，
+ - 作者[Ted Leung http://www.sauria.com/blog]是[/pybimage/pyb-TedLeung.jpg] [《Professional XML Development with Apache Tools》 http://www.amazon.com/gp/product/0764543555/103-4617059-9959043?n=283155]的作者！怪不得使用这么专业的处理手法
+
+ - 情急乱投医时有邮件往来:
+```
+发件人: Ted Leung &lt;twl@sauria.com&gt;	邮送域: sauria.com
+收件人: Zoom Quiet &lt;zoom.quiet@gmail.com&gt;
+日期: 2006-1-24 下午2:54
+主题: Re: [bug]comments recoder double info. ?
+...
+I am no longer maintaining the comments plugin.  The appropriate
+place to get the answer to your question is pyblosxom-devel.   I get
+several hundred e-mails per day, and you are doubling your share of
+the traffic by copying me personally.  I see the messages that go to
+pyblosxom-devel.  There is no need to send me an extra copy.
+```
+ - 嗬嗬 不是第一次向他批发询问邮件了，还如此好脾气的指导，大师的风范！学习之！
+ - 其实通过将毎条评注依照对应的目录，分布记录在文件系统中，
+ 然后使用XML集中进行处理，实在是最明快的处理方式了，只是没有提供管理的入口？
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4497">@language Moin
+[hack3]定制entry文本格式
+preformatters 的扩展
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+
+</t>
+<t tx="zoomq.20100414115206.4498">= 分析 =
+
+: http://pyblosxom.sourceforge.net/1.3/manual/c651.html
+  默许提供:: txt(html),genericwiki,moin,py,txtl,rst文本格式来Blogging！
+  - 标记签文本:
+      + .txt(html) 不用说，麻烦！不用！
+  - 自然文本:
+      + .py 咳咳咳，只能代码引用时哪！而且没有行号也要修改
+  - 结构化文本:
+      + .rst 丰富！强大！但是复杂！难用，内存也占的大
+      + .txtl 很好，但是依赖很多系统工具
+      + .moin 赞！但是不支持MoinMoin 1.3.x 以后的不会hack ,问了，也没人回复，呜乎哀哉
+      + .genericwiki 用过MoinMoin 的人，绝对不想这种原始 wiki 格式的！
+  怎么办，什么都不顺手！
+  那未就自个儿DIY!
+
+</t>
+<t tx="zoomq.20100414115206.4499">
+= 尝试 =
+
+
+安装 **[txt2tags http://txt2tags.sourceforge.net]** 先:
+ + 在FreeBSD 中有内含的!
+```
+#cd /usr/ports/textproc/txt2tags
+#make install clean
+```
+ + 需要按照说明,将 **txt2tags** 执行文件复制到 ``/usr/bin`` 中
+ +
+</t>
+<t tx="zoomq.20100414115206.4500">== t2t all! ==
+保持[/pybimage/kiss.jpg]是我的本意
+
+: 发布流程
+    我设想的Blogging flow: 
+        + 本地撰写
+        + 上传系统
+        + 自动生成多格式文件
+        + PyBlosxom 发布 .xhtml 的
+        + 同时提供 .t2t 原件和 .moin 格式的下载
+: 对应支持
+    已经可以进行的:        
+        + 本地撰写 -- [Leo http://wiki.woodpecker.org.cn/moin/LeoEnvironment]
+[/pybimage/snap060124-leo-pyblosom.png]
+        + 上传系统 -- 透过 [SVNhookscript http://wiki.woodpecker.org.cn/moin/SubversionHooks]自动从服务端检出到对应目录
+        + 自动生成多格式文件 -- ?是SVN hooks 还是创建 t2t.py 预格式化处理?
+        + PyBlosxom 发布 .xhtml 的 -- 设置默许格式就好!
+        + 同时提供 .t2t 原件和 .moin 格式的下载 -- 模板的处理
+        +
+
+
+=== 八股化写作 ===
+
+    嗯哪……[/pybimage/snap060125-leo-pybt2t.png] 这样一来，格式漂亮的文章，
+    根本就**"八股化"** 了！ 在 Leo 中，仅仅保持固定的几个预定义节点，
+    其它的就不用理会，随便写，怎么样都会自动组织成非常规范的文章，
+    比在各种Blog 系统中，所谓**WYSIWYG**编辑环境中，反复调整不得，
+    结构化文本的**WYTIWYG**是绝对快感的！
+    - [王垠很早有介绍 http://learn.tsinghua.edu.cn:8080/2001315450/tex/tex_start.html]
+    **所见即所得vs所想即所得**
+    - [有诗证曰: http://blog.cathayan.org/item/920]
+```
+文本文件好
+工具遍地跑
+程序两三行
+全部改好了
+```
+哈哈哈！</t>
+<t tx="zoomq.20100414115206.4501">
+= TODO =
+
+Blog 不同于静态文章,需要有一些SNS配合的输出,t2t 没有进行专门的支持,要进行深入hack:
+
+: [technorati http://www.technorati.com]支持
+    链接要类似
+```
+&lt;a href="http://technorati.com/tag/nomeans" rel="tag"&gt;nomeans&lt;/a&gt;
+```
+
+    有``rel="tag"`` 声明! t2t 输出的链接没有!
+    hacking!
+
+: xhtml 的输出:
+    每篇Blog的原文通过 Leo 的节点共用统一的格式声明:
+```
+%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+```
+
+    要求 t2t 输出为 xhtml格式，以utf-8 编码，
+    要整理出章节索引，并以CSS样式友好的形式组织,并数字式列表之!
+    - 要fixed的问题:
+        + 完整的 xhtml 输出含有 head标签内容，
+        这样一来PyBlosxom输出时一页会含有多个head,不利于搜索，也浪费数据！
+        但是``--no-headers``参数的输出 却没有了主副标题的组织，两难哪！
+        + 索引链接的 anchor 输出，太简单！如果一页内含了多个t2t 输出页面的话一定有冲突！
+        需要学习MoinMoin 的索引锚点，加入hash的混淆区分！
+        +
+    -
+
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4502">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]</t>
+<t tx="zoomq.20100414115206.4505">@language Moin
+[hack4]SVN集成
+通过SVN来发布Blog
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+
+</t>
+<t tx="zoomq.20100414115206.4506">
+= 好坏 =
+
+在本地使用自个儿习惯的格式来写，通过SVN 自动版本同步到PyBlsxom发布！
+
+: 好处：
+    + 天然的备份！
+    + 离线写作！
+    + 本地搜索！
+    + 自然备份！
+    + 强力版本管理！
+    + 灾难恢复简单
+    + Blog系统定制权限容易管理
+    + ...
+    +
+: 坏处:
+    - 要学习TortoiseSVN 的使用
+    - 要修正Blogging 习惯..
+
+
+</t>
+<t tx="zoomq.20100414115206.4507">
+= 实施 =
+
+: 幸好有积累:
+    - 曾经[透过CVS进行内容维护 http://wiki.woodpecker.org.cn/moin/CvsRootHook]
+    - 后来同理推导出:[透过SVN进行内容维护  http://wiki.woodpecker.org.cn/moin/SubversionHooks]
+
+: HOOKs 脚本:
+    - 关键代码:
+```
+在post-commit 事务中插入:
+    ...
+        upsvn = "%s update %s"%(self.SVN,(aim+mod) )
+        fup = os.popen(upsvn)
+        up = fup.read().strip()
+        self.chkpybt2t(up
+                        ,"pyblosxom/zoomquiet/data/")
+```
+    - 专用t2t 处理函式:
+```
+def chkpybt2t(self,dirs,mark):
+    """auto check PyBlosxom .t2t blog
+    """
+    for l in dirs.split():
+        if mark in l:
+            self.autot2t(l)
+def autot2t(self,upath):
+    """自动处理t2t 到对应PyBlosxom 目录
+        - upath svnlook 出来的对应更新记录
+        - t2t 文件本身输出 xhtml ，cp为txt 由PyBlosxom 显示
+        - 另外输出为.moin 的wiki 文件
+        --target moin
+    """    
+    t2txhtml = "%s %s"%(self.T2T,upath)
+    t2tmoin = "%s %s %s"%(self.T2T," --target moin ",upath)
+    try:
+        r, w, e = popen2.popen3(t2txhtml)
+        r, w, e = popen2.popen3(t2tmoin)
+        r.close()
+        e.close()
+        w.close()        
+    except:
+        # 日志处理
+        print &gt;&gt; self.f,"~"*7+"t2t::popen2.popen3() ::crash"    
+```
+    - 通过标准的t2t 命令行来输出两种格式的文件 .xhtml和.moin 的
+    - **特别的** 为了定制方便，将 txt2tags 的执行文件专用化:
+    - ``self.T2T = "/path/to/my/PyBlosxom/plugins/preformatters/txt2tags"``
+    以便进行定制修改
+        - **完全是因为t2t 太精巧了，就一个文件哪！**
+        -
+    -
+
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4508">
+== 配合 ==
+
+: 已经完成的:
+    + 由 SVN hooks 在每次检入时，自动检测是否为指定模块中的 .t2t 文件?
+    + 如果是:
+        - 自动更新指定目录
+        - ``svn up``
+    + 再调用t2t 输出两种格式的文件
+        - ``txt2tags /path/to/the/.t2t``
+        - ``txt2tags  --target moin  /path/to/the/.t2t``
+: 现在要最终处理的:
+    - 如何令PyBlosxom 解析 .xhtml 到页面中?
+    - 默许的是仅仅识别 html/纯文本格式的 .txt 文件的
+    - 参照已有的[py.py plugins/py.phtm] 预格式脚本:
+        - hack 出 [xhtml.py plugins/xhtml.phtm]
+        - 配置文件中打开此插件
+```
+config.py 中
+...
+py['load_plugins'] = ["pycalendar"
+                      , "py"
+                      ,"xhtml"
+                      ...
+```
+        - 搞掂！
+: 特别的:
+    - 文章标题的抓取:
+```
+
+    for line in open(filename,"r").readlines():
+        if "&lt;title&gt;" in line:
+            title=line[7:].replace("&lt;/title&gt;","")
+            break
+```
+    - 一般性的，PyBlosxom 是从原文头行取，但是 xhtml 中有HTML 的格式标识字串，所以，要从``&lt;title&gt;`` 标签中抓，
+    - 这里不使用 正则表达式，是为了加速，简单的行读取，
+    比在内存中分析整个文件要Pythonic 哪!
+    -
+
+
+</t>
+<t tx="zoomq.20100414115206.4509">
+= TODO =
+
+**没有最好，只有更好！**
+
+: 现在:
+    + 通过 SVN 在本地使用t2t 格式来写作
+    + 通过 SVN hooks 自动处理服务端的文章输出
+    + PyBlosxom 中的专用格式处理脚本，识别并辅助处理了 xhtml 输出!
+: 但是:
+    不能聪明的识别不同的原始文件来提供下载哪！
+    如果是 .py 的，在 //永久链接 .t2t .moin// 处的其它链接就有问题！
+    - 询问列表，却没有人回答:
+```
+发件人: will guaraldi &lt;willg@bluesock.org&gt;	邮送域: lists.sourceforge.net
+收件人: pyblosxom-devel@lists.sourceforge.net
+日期: 2006-1-25 上午12:15
+主题: [Pyblosxom-devel] will's status
+
+Just as an fyi, my email client is still having problems with Zoom's
+emails so I haven't read any of them yet.
+
+I also started classes a week and a half ago and I'm working part time
+this semester.  As such, I'm going to be laying low on PyBlosxom stuff
+including fielding user requests and help for a while.  I'll try to get to
+bugs and user isues at least once a month.
+
+I am also still sitting on a contributed plugins release--that's first
+priority.  I need to go through and fix the logging issues on plugins I
+don't use.
+
+/will
+
+```
+    - 呜乎哀哉！看来 Gmail 并不是完美的哪！俺的询问邮件没有中文字符的哪！
+    连标点也不敢使用中文的...
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4510">
+== 技术文档 ==
+
+: [PyBlosoxm模板中有效变量 http://pyblosxom.sourceforge.net/1.3/manual/x307.html#AEN356]
+    但是！
+    - **file_path** just the filename and extensions of the entry
+     - 就是仅仅输出了文件名儿，没有后缀的说
+     - 开源项目的文档是极其重要的组成部分，有多少项目是因为文档不全而自然消亡的哪…………
+
+
+: 技术文档樣文:
+    日本人作的就是要好些:
+        - **[FreeBSD unionfsの改善提案 ../060117-OSSdocDemoJPS.phtm]**
+
+
+</t>
+<t tx="zoomq.20100414115206.4514">@language Moin
+[hack5]样式！
+颜色系统...FT!
+&lt;&lt;t2t head&gt;&gt;
+
+= 设计 =
+
+VI系统现在已经算是门手艺了！在下不行！
+
+但是可以偷哪！
+
+以往各种喜欢的网站，都不太吻合心目中的Blogging space ..
+
+原先想直接 clone Vim 的 desert 颜色系统的…………
+
+但是突然记起了:**[deviantart http://services.deviantart.com/]**
+
+[/pybimage/snap060126-deviantart-top.png]
+
+[/pybimage/snap060126-deviantart-abt.png]
+
+
+所以....
+
+
+= 进行 =
+
+: 抓取颜色！
+    [I Like Your Colors! http://www.redalt.com/Tools/ilyc.php] 
+    塞上CSS的URL;
+    自动获取[/pybimage/snap060126-ilikeurcolor.png] 颜色列表,
+    然后就挥舞CSS就好！
+: Flavours的配合
+    这个比较自然，就是在**适当的**地方，加上**适当的**
+    **class 或是 id**
+: 适当的……
+    怎么样是适当的呢？
+    **[Plone http://plone.org/]** 模板的DIV 层叠设计就非常的合理，
+    以前设计过 [CZUG.org http://www.czug.org/about/art/zoomq] 的样式
+    ，所以有些体会…………
+
+
+//但是………………//
+
+= 教训 =
+
+: [MainlyGreen http://pyblosxom.sourceforge.net/blog/registry/flavours/MainlyGreen]
+    此样式，的排版非常古怪，折腾了半天，越调越乱；
+    最后还是调出[自个儿donews http://www.donews.net/ZoomQuiet] 的样式
+    , 使用 69%-25% 的百分比来组织版块。
+: 教训:
+    + CSS 和代码开发一样，没有理解就不能尝试
+    + CSS 的增长比代码还要快,所以最后应该进行精简
+    + CSS2 对IE的兼容性，就不要折腾了，先调试FireFox 再 Opera,最后看IE 再不成，就直接禁止IE访问吧…………
+
+
+= TODO =
+
+: [Dive Into Accessibility http://diveintoaccessibility.org/]
+    中文版本:[网站亲和力 http://dia.z6i.org/cn/];
+    - 网站可访问性的官方网站
+    - 还要继续优化VI
+    - 现在的问题主要在于:
+        + 颜色太个性，没有考虑到 弱视力访问者
+        + 导航太个性，没有考虑到 特殊访问者
+        + 功能没有完全，不能整体来调优 VI
+        +
+    -
+
+
+**VI 是艺术性科学,是挑战，要学习……**
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4516">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]</t>
+<t tx="zoomq.20100414115206.4518">@language Moin
+[hack6]SNS化
+社会化软件增强
+&lt;&lt;t2t head&gt;&gt;
+
+: 火热的 Web2.0beta
+    有定义图[/pybimage/web2.0defining.png];来自[kosmar http://www.flickr.com/photos/kosmar/88198896/]
+    - 嗬嗬！还有[标记版本的Web2.0  http://www.flickr.com/photos/kosmar/62381076/in/set-1371686/]
+    - 新版本的::[Netz2.0 http://www.flickr.com/photos/kosmar/88198896/in/set-1371686/]
+
+: [Folksonomy http://blog.timetide.net/archives/2005/01/15/20050115015808.php]
+  分众分类！
+  - PyBlosxom 如何支持呢？
+  - Google it!::[Folksonomy 1.2 http://www.timfanelli.com/item/42]
+   - 很中意哪！类似del.icio.us 的TAGs 分重效果哪！
+  - 唉呀呀？！作者的Blog 怎么是[[/pybimage/pb_blosxonomy.gif] http://blosxonomy.com/] ,还以为是PyBlosxom的,
+  又一个Ruby 的[blosxom http://blosxom.com/] clone!
+  - 看来 [blosxom http://blosxom.com/]**“简单即是美”**
+  的设计感化了不少程序员哪！
+   - **[Simply put: It's a Zen thing... http://blosxonomy.com/]**
+  - 可惜，安装失败！ N多的报错！想来此次PyBlosxom 的升级造成的修改还要有段时间的磨合
+  - 再Google!::从[Keywords on Copia http://copia.ogbuji.net/blog/Keywords_on_Copia]知道了[Keywords Plugin http://llimllib.f2o.org/blog/serve/entry/keyword_update.html]
+  - 依然安装不能！呜乎哀哉…………
+
+
+
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4521">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]
+    ,[SNS http://www.technorati.com/tags/SNS]
+</t>
+<t tx="zoomq.20100414115206.4522">@language Moin
+[hack7]Plugins
+插件扩展之旅……
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="zoomq.20100414115206.4523">
+= 总体上 =
+
+: [贡献规范 http://pyblosxom.sourceforge.net/blog/static/development]
+    约定了开发插件的代码规范！
+    另外有丰富，标准的API信息:
+        + [1.3 API http://pyblosxom.sourceforge.net/1.3/api/index.html]
+        + [1.3 plugin API http://pyblosxom.sourceforge.net/1.3/plugins/index.html]
+        + [1.3 callbacks http://pyblosxom.sourceforge.net/1.3/plugins/public/docs.ReadMeForPlugins-module.html]
+: 故！
+    可以标准化的安装，hacking 和分享！赞！
+: 别传:
+```
+Response Headers - http://pyblosxom.sourceforge.net/1.3/API/index.html
+
+Date: Fri, 27 Jan 2006 03:31:00 GMT
+Server: Apache/1.3.33 (Unix) PHP/4.3.10
+X-Powered-By: PHP/4.3.10
+Connection: keep-alive
+Content-Type: text/html
+Transfer-Encoding: chunked
+
+404 Not Found
+```
+    嘿嘿嘿，无意中发现 PyBlosxom 的服务端使用的是 PHP 发布？！
+
+
+</t>
+<t tx="zoomq.20100414115206.4524">
+= 已安装 =
+
+: 直接使用的
+    + "pycalendar" 日历
+    + "pycategories" 简要分类
+    + "pyarchives" 月度归档
+    + "py" Python 语法颜色渲染
+    + "comments" 评注
+: 少量修改的:
+    + "latest_comments" 最新评注
+: 自个儿开发的:
+    + "xhtml" 简单XHTML 文本格式
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4525">
+= 垂涎的 =
+
+: 安装未果的
+    + "moinmoin" 格式文本处理器(不支持高版本MoinMoin)
+    + "trackback" 安装文档看不明(好象也没有人使用TB 哪!)
+: **一定要安装的**
+    + "commentAPI" 嗯嗯!可以结合Greasemonkey 开发插件式的评注工具哪!
+    + "folksonomy" 呜乎哀哉!垂涎哪!象美味书签哪样儿的标签化分类
+        - "keywords" 同上,类似
+    + [pyguest http://www.codeape.org/blog/static/download] 
+    简单留言板
+
+    + [Will's 系列插件 http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki]
+        + [plugininfo http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/plugininfo] 自动汇报使用插件情况
+        + [pystaticfile http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/pystaticfile]发布静态说明性文章;类似 aboutme 之类的...
+        + [wbgarchives http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/wbgarchives] 年度文章[汇总页面 http://bluesock.org/~willg/blog/2005/]
+            - 应该说,可以类比的写出分类汇兑插件
+        + [wbggrep http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/wbggrep] grep搜索引擎,嗬嗬!**Uinx 系统专用**的便利,不用求助于Google/lucene 什么了!
+        + [wbgpager http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/wbgpager]多页指引
+        + [wbgrecent http://bluesock.org/~willg/cgi-bin/pybltrac.cgi/wiki/wbgrecent]综合"最新"[效果: http://bluesock.org/~willg/blog/recent]
+
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4526">
+= 发布邪？ =
+
+已经有人问及中文版本的 theme 什么时候发布了!
+
+: contribute 分发!
+    也是技术活,怎么样组织和说明才可以令其它人安然的安装各种插件成功?
+    不如象 [TiddlyWiki http://www.tiddlywiki.com/] 那样儿,
+    整个完整的,立等可取用的系统合包?
+
+</t>
+<t tx="zoomq.20100414115206.4529">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]
+    ,[SNS http://www.technorati.com/tags/SNS]
+</t>
+<t tx="zoomq.20100414115206.4530">snap060126-opera-css-error.png</t>
+<t tx="zoomq.20100414115206.4531">@language Moin
+[fix PyBlosxom]CSS for Opera
+都是CSS惹的祸?
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="zoomq.20100414115206.4532">
+= 怎么了？ =
+
+: [/pybimage/snap060126-opera-css-error.png]
+    晚上回家使用Opera 8.51 才发现这问题…………</t>
+<t tx="zoomq.20100414115206.4533">
+= fixed =
+
+: CSS2的兼容性哪…………
+    - ??? 怎么看也不象！
+: 原来如比
+```
+&lt;a name="1137513213.36"&gt;&lt;/a&gt;
+[Tue Jan 17 23:53:33 2006] 
+&lt;!--&gt;
+&lt;a href="mailto:"&gt;123&lt;/a&gt;
+&lt;sup&gt;&lt;a href=""&gt;URL&lt;/a&gt;&lt;/sup&gt;
+曰::
+    ...
+```
+    输出中有意外的HTML代码？！
+    原来是Opera 坚守标准HTML 的结果！！
+: 修正
+    将原先``comment.phtm``模板中的:
+```
+...
+&lt;!-- $cmt_title --&gt;
+&lt;a name="$cmt_time"&gt;&lt;/a&gt;
+[$cmt_pubDate] 
+&lt;!--$cmt_link--&gt;
+```
+    修改为
+```
+&lt;!-- 
+$cmt_title 
+--&gt;
+&lt;a name="$cmt_time"&gt;&lt;/a&gt;
+[$cmt_pubDate] 
+&lt;!--
+$cmt_link
+--&gt;
+```
+    一切就正常了！
+
+
+</t>
+<t tx="zoomq.20100414115206.4534">t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+</t>
+<t tx="zoomq.20100414115206.4535">------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+</t>
+<t tx="zoomq.20100414115206.4536">
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[PyBlosxom http://www.technorati.com/tags/PyBlosxom]
+    ,[hacking http://www.technorati.com/tags/hacking]
+    ,[css http://www.technorati.com/tags/css]
+</t>
+<t tx="zoomq.20100414115206.4537">@path opening
+
+开源工程</t>
+<t tx="zoomq.20100414115206.4538">@path utility
+
+开发工具/代码/模块</t>
+<t tx="zoomq.20100414115206.4540">@path mind
+
+乱想</t>
+<t tx="zoomq.20100414115206.4541">@path Ubuntu
+</t>
+<t tx="zoomq.20100414115206.4542">@path Emacs</t>
+<t tx="zoomq.20100414115206.4543">@language Moin
+“国际自由软件日”之头脑风暴
+--没有风暴起来的OFSFDay
+&lt;&lt;t2t head&gt;&gt;
+
+
+@others
+
+&lt;&lt;SNSlink&gt;&gt;
+
+&lt;&lt;t2t foot&gt;&gt;
+
+
+</t>
+<t tx="zoomq.20100414115206.4544">@language Moin
+9.18
+--勿忘国耻！
+&lt;&lt;t2t head&gt;&gt;
+
+
+
+:[/pybimage/06-9-18.jpg];
+
+
+&lt;&lt;SNSlink&gt;&gt;
+&lt;&lt;t2t foot&gt;&gt;
+
+
+</t>
+<t tx="zoomq.20100414115206.4546">@language Moin
+Gmail的硬盘
+--IT笑话
+&lt;&lt;t2t head&gt;&gt;
+
+:[/pybimage/wheregmailharddisk.jpg]!
+
+
+
+
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4547">@language Moin
+[ssbsGAE]running web2py
+~在GoogleAppEngine 中跑web2py
+&lt;&lt;t2t head&gt;&gt;
+
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4548">@language Moin
+FF3
+--Ubuntu7.10 中使用 3.0pre
+&lt;&lt;t2t head&gt;&gt;
+
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4549">@language Moin
+文件系统选择
+-- 译文 Solaris Filesystem Choices
+&lt;&lt;t2t head&gt;&gt;
+
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20100414115206.4550">@language Moin
+FF2GG
+-- 7.04 Feisty Fawn 到7.10 Gutsy Gibbon
+&lt;&lt;t2t head&gt;&gt;
+
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4551">@language Moin
+Hardy Heron
+-- 8.04 强鹭还有9天
+&lt;&lt;t2t head&gt;&gt;
+
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4552">@language Moin
+文件系统惊魂
+-- 幸运的Reiserfs选择！
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+
+</t>
+<t tx="zoomq.20100414115206.4553">@language Moin
+Release Party 北京，Ubuntu 的！
+--人山人海来瞧富豪
+&lt;&lt;t2t head&gt;&gt;
+
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4554">@language Moin
+从Dapper到Feisty 的征程
+-- 直接升级?那是谣传!但是...
+&lt;&lt;t2t head&gt;&gt;
+
+
+
+@others
+
+
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="zoomq.20100414115206.4555">@language Moin
+[LvL]对错录
+...via life
+&lt;&lt;t2t head&gt;&gt;
+
+= 冇好错 =
+真的哪,放开心灵去想和感受的话的确的哪...
+
+
+== 相识 ==
+- 妳冇错: 追求想要的快乐
+- 愿妳好: 妳应该享受快乐
+- 错在我: 没有及时明确我的态度,暧昧是至高技巧,不是我们可以消受的..
+- 呔！  都这会儿了,早过暧昧阶段了,一起快乐就好!
+
+- 妳冇错: 追求想要的关爱
+- 愿妳好: 妳应该得到关爱
+- 错在我: 除了技术/知识,没有受到过关怀人的训练,作不出来..
+- 呔！  都这会儿了,跟着我一起作关怀的事儿就好!
+
+- 妳冇错: 追求渴望的爱情
+- 愿妳好: 妳应该拥有爱情
+- 错在我: 理工的训练让我们不相信爱情,不相信爱情的人无法创造爱情的吧?
+- 呔！  都这会儿了,谁问这种小姑娘的问题,你只准和我在一起就好!
+
+
+== 相试 ==
+
+- 妳冇错: 追求想要的性爱
+- 愿妳好: 妳应该体验高潮
+- 错在我: 从来关注自个儿的感觉,真正要配合体验时,无从下手哪~怎么读懂妳?
+- 呔！  都这会儿了,这有手册,一起来尝试就好!
+
+- 妳冇错: 追求亲昵的厮守
+- 愿妳好: 妳应该有人陪伴
+- 错在我: 享受惯了孤独,无法想象有人分享独处时的自在..
+- 呔！  都这会儿了,还装,在一起时只要你讲,我不来打挠就好!
+
+- 妳冇错: 追求不再有寂寞
+- 愿妳好: 妳应该快乐平和
+- 错在我: 不相信寂寞的人,无法理解这种感受,就算是担心也不知道怎么作..
+- 呔！  都这会儿了,只要你陪我就好!
+
+
+== 相望 ==
+
+- 妳冇错: 追求相互的守望
+- 愿妳好: 妳应被认真守望
+- 错在我: 守望需要距离,这么接近,守望只是表演了吧
+- 呔！  都这会儿了,常常短信我就好!
+
+- 妳冇错: 追求全天的挂念
+- 愿妳好: 妳的确值得挂念
+- 错在我: 我有我生活,必须奋斗关注的事儿太多,何时挂念?
+- 呔！  都这会儿了,到处有网络你逃不了就好!
+
+- 妳冇错: 追求琐细的呵护
+- 愿妳好: 妳应被温柔呵护
+- 错在我: 对自个儿都执行放养政策的,如何学会呵护?
+- 呔！  都这会儿了,听众命令就好!
+
+
+== 相示 ==
+
+- 妳冇错: 追求平静的照顾
+- 愿妳好: 妳应该得到照顾
+- 错在我: 人在江湖身不由己!工作日之外就是加班日!只享受妳的照顾的话,又与心何忍?
+- 呔！  都这会儿了,我喜欢照顾你就好!
+
+- 妳冇错: 追求游玩的畅快
+- 愿妳好: 妳应该享受生活
+- 错在我: 在生存中挣扎习惯了,没有享受过生活的我,如何配合妳?
+- 呔！  都这会儿了,放开心情一起来体验就好!
+
+- 妳冇错: 追求公开的相守
+- 愿妳好: 妳应被正大相守
+- 错在我: 正大光明的被所有人监察,已经吓退过无数的人了,留白天地才宽..
+- 呔！  都这会儿了,只要你心里有我就好!
+
+
+== 相世 ==
+
+- 妳冇错: 追求永久的承诺
+- 愿妳好: 妳应该得到承诺
+- 错在我: 不相信永久的我,如何给出承诺?
+- 呔！  都这会儿了,作到以上几点就好!
+
+- 妳冇错: 追求永恒的认可
+- 愿妳好: 妳应该获得认可
+- 错在我: 不相信永恒的我,在被BS后,如何生存下去?
+- 呔！  都这会儿了,担心也是以后就好!
+
+- 妳冇错: 追求永远的想念
+- 愿妳好: 妳应该受到想念
+- 错在我: 没有想念过谁的我,怎么知道哪种感觉是想念?
+- 呔！  都这会儿了,管什么感觉,在一起就好!
+
+
+== 相逝 ==
+
+- 妳冇错: 追求甜蜜的关怀
+- 愿妳好: 妳的甜蜜必有回报
+- 错在我: 习惯苦熬的我如何回报甜蜜?
+- 呔！  都这会儿了,什么是你的甜蜜我来发现就好!
+
+- 妳冇错: 追求舒心的生活
+- 愿妳好: 妳的生活必能舒畅
+- 错在我: 一向被生活享受的我,从何舒畅你的生活?
+- 呔！  都这会儿了,笨!有你就好!
+
+- 妳冇错: 追求无悔的逝去
+- 愿妳好: 妳的一生必应无悔
+- 错在我: 但是怎么保证不在你之前逝去?
+- 呔！  都这会儿了,猪!那我自杀就好!
+
+
+.. .. ..
+
+
+**火星人和水星人的碰面,只会令地球更加危险**
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+[/pybimage/technorati-over.gif]
+    ,[living http://www.technorati.com/tags/living]
+    ,[Quiet http://www.technorati.com/tags/Quiet]
+</t>
+<t tx="zoomq.20100414115206.4556">@language Moin
+SVN 无法识别的url方案 
+-- 解决...记要
+&lt;&lt;t2t head&gt;&gt;
+
+= 现象 =
+
+: 突然之间访问不能:
+```
+svn: 无法识别的URL方案(一般需要svn://，http://，file://等开头)
+“http://svn.rdev.kingsoft.net/kdoc/tangle/KsPIG/Zoom.Quiet/S5”
+```
+
+
+
+== 原因 ==
+: 根据:
+ - http://blog.yesky.com/223/sxy519/1716723.shtml 建议的一看才知道...
+```
+$ svn --version
+svn，版本 1.4.3 (r23084)
+   编译于 Oct 12 2007，13:28:55
+
+版权所有 (C) 2000-2007 CollabNet。
+Subversion 是开放源代码软件，请参阅 http://subversion.tigris.org/
+此产品包含由 CollabNet (http://www.Collab.Net/)开发的软件。
+
+可使用以下的仓库存取 (RA) 模块:
+
+* ra_svn : 使用svn网络协议访问仓库的模块。
+  - 处理“svn”方案
+* ra_local : 访问本地磁盘的仓库模块。
+  - 处理“file”方案
+```
+ - FT! Ubuntu自动升级时，没有完整的升级SVN哪！
+
+
+
+== 解决 ==
+
+: 使用新立得:
+ - 重新安装SVN 相关所有 
+ - 问题依然...
+: 编译!
+ - GNU/Linux 下面一般就这板斧招了!
+```
+$ wget -c http://subversion.tigris.org/downloads/subversion-deps-1.4.5.tar.bz2 &amp;
+$ wget -c http://subversion.tigris.org/downloads/subversion-1.4.5.tar.bz2 &amp;
+$ tar xjvf subversion-1.4.5.tar.bz2 
+$ tar xjvf subversion-deps-1.4.5.tar.bz2 
+$ cd subversion-1.4.5
+$ ./configure
+$ make
+$ sudo make install clean
+...
+```
+ - FT!!怎么还是没有``ra_dav``模块?! 
+```
+$ whereis svn
+svn: /usr/bin/svn /usr/X11R6/bin/svn /usr/bin/X11/svn /usr/local/bin/svn /usr/share/man/man1/svn.1.gz
+$ /usr/local/bin/svn --version
+svn，版本 1.4.5 (r25188)
+   编译于 Oct 15 2007，11:03:39
+
+版权所有 (C) 2000-2007 CollabNet。
+Subversion 是开放源代码软件，请参阅 http://subversion.tigris.org/
+此产品包含由 CollabNet (http://www.Collab.Net/)开发的软件。
+
+可使用以下的仓库访问模块: 
+
+* ra_dav : 通过WebDAV(DeltaV)协议访问仓库的模块。
+  - 处理“http”方案
+* ra_svn : 使用svn网络协议访问仓库的模块。
+  - 处理“svn”方案
+* ra_local : 访问本地磁盘的仓库模块。
+  - 处理“file”方案
+```
+
+
+: 解决:
+ - 原来默认的``/usr/bin/svn`` 还是原先安装的 1.4.3 版本
+ - 手工处理一下
+```
+$ sudo mv /usr/bin/svn /usr/bin/svn143
+$ sudo ln -s /usr/local/bin/svn /usr/bin/svn
+```
+ - 哗,世界恢复正当!
+
+
+
+== 心得 ==
++ 确认现象
++ 搜索资料
++ 编译
++ 测试调整
+
+``嗯嗯嗯~自由世界中的不二法典哪!解决问题的...``
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+[/pybimage/technorati-over.gif]
+    [OpenSource http://www.technorati.com/tags/FLOSS]
+    ,[Subversion http://www.technorati.com/tags/Subversion]</t>
+<t tx="zoomq.20100414115206.4557">@language Moin
+ZARD消逝了
+-- 坂井泉水(Izumi Sakai)！世上又少了名认真歌唱的人...
+&lt;&lt;t2t head&gt;&gt;
+
+
+= ZARD! =
+- "[歌手坂井泉水病逝 曾为《灌篮高手》演唱片尾曲 http://ent.sina.com.cn/y/2007-05-28/13131573628.html]" 
+- [/pybimage/ZARD1999.jpg];
+- 
+
+== 心痛... ==
+
+- 国人一般只知道神秘乐团ZARD 给某动画片唱过片尾曲；
+- 我迷过一段时间的日本流行乐,听到最后,集中到少数创作型音乐人身上并坚持不在变了:
+ + 激越火热几十年不变的 大黑摩季(MAKI OHGURO)
+ + 音乐风格千变万化永远无止境的 菅野洋子(YokoKanno)
+ + 流行教主同时轻柔绵长的 今井.美樹(Miki Imai)
+ + 声线特殊摇滚流行融合极好的 松任谷由実(Matsutoya.Yumi)
+ + JAZZ到骨头里的 加藤登纪子(Kato.Tokiko) -- 红猪的片尾曲听10年不厌！
+ + 永远与时俱进佳品不断的 D.C.T--美梦成真
+ + 风骨卓然的 Garnet.Crow
+ +
+ ....
+
+
+- 但是最让我心牵神绕的还是 ``ZARD===坂井泉水``
+ - 作为松田圣子 的堂妹
+ - 拥有比一切偶像歌手都出色的外貌条件
+ - 却长久的低调的坚持创作
+ - 偶然出现在各种影视作品中的歌曲总是那样温柔而又淡定!
+ - 从来没有任何绯闻炒作
+ - 真正的音乐人!
+ - 在商业世界中,这般的人物可以存在实在是无数ZARD 乐迷的支持,以及ZARD 作品不断的实力成就的
+ - ZARD同 D.C.T Bz S.A.S 等怪兽级超长寿乐团一样成为日本乐坛不可动摇的中坚创作力量
+ - (中国对等的乐团几乎找不出来)
+ - 但是... 还是在风华正茂的年岁被病魔打倒了,
+ - 自此,可以期待的声音,又少了一种...
+ -
+-
+
+
+== 无言以叙,无从表达 ==
+
+ - 只能祝 ZARD 走好,象翁美玲 成为永远的蓉儿 一般,成为永远的传说永不被遗忘
+ - 愿ZARD 走好,音乐作品可以长久发行,更加有遗作发掘出来...
+ - 愿ZARD 走好,认真音乐的精神可以改变一些人对音乐的态度吧...
+ - 愿ZARD 在天之灵可以保祐中国也能出几个长气的认真音乐人
+ - 
+
+
+
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+[/pybimage/technorati-over.gif]
+    ,[OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[Ubuntu http://www.technorati.com/tags/Ubuntu]</t>
+<t tx="zoomq.20100414115206.4558">@language Moin
+[FW]学习笔记
+参考O'reilly的&lt; &lt;学习 GNU Emacs&gt; &gt;
+&lt;&lt;t2t head&gt;&gt;
+
+
+: FW:
+    同事LiLu:
+```
+最近学习了一下Emacs，把重点的概念和操作简单做了笔记如下，有兴趣的同学一
+起学习探讨啊
+```
+
+= Chapter 1 基本文件操作 =
+
+
+```
+概念：
+文件
+编辑缓冲区(buffer)
+窗口
+模式（主模式，辅模式)
+
+C-x C-f 查找文件并打开
+C-x C-v 读入另外一个文件替换
+C-x i 插入文件到光标处
+C-x C-s 保存文件
+C-x C-w 把缓冲区内容写入文件
+C-x C-c 推出
+```
+
+
+= Chapter 2 文件编辑 =
+
+== 一，移动光标 ==
+
+```
+C-f,C-b,C-p,C-n 上下左右
+M-f,M-b 左右移动(单词)
+C-a,C-e 行首和行尾
+M-a,M-e 左右移动(句子）
+M-{,M-} 上下移动（段落)
+C-v,M-v 上下翻动(翻屏)
+C-x [,C-x ] 上下翻页(有分页符)
+M-&lt;,M-&gt; 缓冲区开头和结尾
+M-g g
+M-x goto-line n
+去到第n行
+M-x goto-char n
+去到第n个字符
+C-l 重绘屏显
+
+重复执行命令：
+C-u n C-u默认4次，C-u,C-u16次，。。。。4的幂次方
+M-100 100次执行
+
+Mode:
+自动换行辅模式 auto-fill-mode
+```
+
+
+== 二，文本的删除 ==
+
+```
+C-x u undo操作
+M - 加在这些命令前边，都是行首到光标，不然都是光标到行尾
+
+删除
+C-d 删除当前字符
+M-d 删除当前单词
+C-k 删除行
+M-k 删除句子
+
+恢复
+C-y 除了C-d和del删除的都能召回,（kill类指令)，召回最新
+M-y 把删除环中以前的一次次召回
+
+文本块处理
+
+C-@ Mark文本标记
+M-@ Mark文本，当前到词尾
+C-w 文本块删除(剪切)
+M-w 文本块复制
+C-x,C-x 检查文本标记位置
+M-h 标记整段
+C-x h 标记整buffer
+
+Mode:
+临时标记模式 transient-mode
+```
+
+
+== 三，编辑技巧 ==
+
+```
+M-q 段落重排
+
+交换
+
+C-t 交换两个字符的位置
+M-t 交换两个单词的位置
+C-x,C-t 交换两行
+
+大小写
+
+M-c 单词首字母大写
+M-u 单词全字母大写
+M-l 单词全字母小写
+```
+
+== 四，修改的撤销 ==
+
+```
+C-x,u undo
+M-x revert-buffer 回复缓冲区
+可以返回文件的备份版本 filename~
+可以从自动保存的文件恢复
+```
+
+= Chapter 3 查找和替换 =
+```
+C-x ESC ESC 寻找以前执行过的命令
+M-p/M-n 命令区条目查看
+```
+
+== 一，查找 ==
+
+```
+C-s 递增查找
+C-r 反向递增查找
+C-s,C-w 复制单词
+C-s,C-y 复制句子
+C-s,M-y 删除环文本复制
+C-s
+非递增查找
+C-s
+C-w 单词查找
+都有对应C-r
+```
+
+== 二, 查找和替换 ==
+
+```
+M-x replace-string 替换
+M-% 查询-替换
+space or y 替换
+del or n 不替换
+, 替换了看看情况
+! 替换之后所有
+
+递归编辑
+在查询-替换操作中C-r
+推出递归编辑
+M-C-c
+随时递归编辑
+M-x recursive-edit
+
+大小写字母的问题
+默认不区分大小写，且按照原来大小写情况匹配
+编程时可能需要调整
+M-x set-variable
+设case-fold-search变量的值 查找时是否大小写敏感 t变为nil
+设case-replace的值 是否按照原大小写匹配
+
+正则表达式查找替换
+各命令和M一同使用
+替换
+C-M-%
+query-replace-regexp
+在目标串中的表示
+\&amp; 整字串
+\N 部分字串，N为第N个()
+\# replace多少次
+```
+
+== 三，拼写检查 ==
+
+```
+Ispell
+M-x ispell-buffer 检查整个buffer
+强大的拼写检查器，可替换
+M-$ 检查当前单词
+M-Tab 自动补全单词
+```
+
+== 四，单词简写模式 ==
+
+简写词作用范围是模式
+
+
+= Chapter 4 编辑缓冲区和窗口 =
+
+== 一，Buffer ==
+
+```
+C-x b 切换Buffer
+C-x C-b 调出buffer列表
+C-x s 保存多个Buffer
+y,n,!,q,C-r(查看当前buffer),C-c(退出C-r的查看)
+C-x k 删除当前Buffer
+C-x C-v 找到另一个文件代替当前的文件
+C-x C-q 切换当前buffer是否只读
+
+Buffer List:
+状态：
+. 已显示
+* 已修改
+D 待删除
+&gt; &gt; 待显示
+S 待存盘
+% 只读
+操作：
+x 执行操作
+d 删除
+del 去除上一步操作
+s 存盘
+% 只读
+1 满凭显示buffer
+f 当前buffer替代buffer list
+o 另外一个窗口打开buffer
+m 待显示
+v 显示
+```
+
+
+== 二，窗口 ==
+
+```
+C-x 2 水平分割窗口
+C-x 3 垂直分割窗口
+C-x N .....多窗口
+C-x o 窗口间的移动
+C-x 0 关闭当前窗口
+C-x 1 只保留当前窗口
+C-x ^ 加高当前窗口
+C-x } 加宽当前窗口
+C-x - 窗口变为buffer大小
+C-x + 多窗口同样大小
+M-C-v/Shift-M-C-v 卷动其他窗口内容
+
+C-x 4 f 自动在新窗口里打开文件
+类似的还有C-x 4 b等等。。。
+C-x 4 r 只读方式打开
+
+对比两文件的不同
+compare-window命令
+```
+
+== 三，书签 ==
+
+```
+C-x r m 在当前光标位置设置书签
+C-x r b 打开书签
+为书签改名：
+bookmark-rename
+删除书签
+bookmark-delete
+
+C-x r l 打开书签清单
+书签清单操作 同buffer
+特殊
+r 重命名
+```
+
+== 四，窗格 ==
+
+
+- 操作大多同窗口
+- 4换成5
+
+
+
+= Chapter 5 Emacs工作环境 =
+
+- M-p/M-n 历史记录查询，适用于大多数需要输入的地方
+
+
+
+== 一, 执行UNIX命令 ==
+
+```
+M-! 执行UNIX命令
+默认结果进Shell Command Output缓冲区
+C-u M-! 结果进当前编辑缓冲区
+M-| 将标记文本块作为shell command的输入
+
+可以修改变量shell-file-name指定使用shell的名字
+
+M-x shell 执行unix命令交互式功能
+C-c 加在unix快捷键前，如C-z
+C-c C-o 不显示上条命令的输入结果
+C-c C-r 输出放到窗口顶
+C-c C-e 输出放到窗口底
+C-c C-p 查看上一输出组
+C-c C-n 查看下一输出组
+
+cd时会改变查找文件的默认目录
+(setq-default shell-popd-regexp nil)这样就不变了
+
+可以让输入的口令不可见
+```
+
+
+
+== 二，文件和目录操作 ==
+
+
+```
+Dired模式
+
+C-x C-f/C-x d/启动emacs dir 都可以进入此模式
+s 切换文件排序方法
+buffer中的操作方法依然适用
+在命令前加数字可以同时对N个文件作操作
+v 进入view mode，只能看
+q 回到目录
+f 可以改
+d 待删除
+# 删除所有自动保存文件
+~ 删除所有备份文件
+D 真正删除
+C 复制文件
+R 重命名/移动文件
+Z 压缩/解压缩（只有gz)
+= 比较两文件
+M-= 比较备份文件
+! 执行任何unix命令
+* 标记待操作文件
+u 去掉标记
+g 刷新屏显的目录情况
+% 后面跟的命令对文件进行正则选取
++ 创建目录
+Q 可以进行对多文件内容的查询和替换
+```
+
+
+- 还有很多命令，请参考手册
+
+
+== 三，查阅unix在线手册 ==
+
+M-x man
+
+
+== 四，日历与日记 ==
+
+M-x calendar
+
+
+= Chapter 6 宏 =
+
+```
+C-x ( 录制宏
+C-x ) 退出宏
+C-x e 执行宏，前边可以加C-u
+C-u C-x( 为以前的宏添加动作
+M-x name-last-kbd-macro 保存最后一个宏
+之后用M-x macroname使用即可,前边加M-n执行n次
+M-x insert-kbd-macro
+macroname
+
+打开一个文件后执行，即可把宏的lisp代码保存入文件
+M-x load-file filename
+加载宏定义文件，也可以加载任何lisp定制文件
+C-u C-x q 录制宏时进行递归编辑
+M-C-c 退出递归编辑
+C-x q 让宏停下来进行询问
+同查找替换
+```
+
+
+= Chapter 7 Emacs进行编程 =
+
+
+== 一，各语言通用 ==
+
+```
+(autoload 'function "filename")
+为某个mod增加关联程序包
+变量：
+auto-mode-alist
+自动将模式与特定后缀文件做关联
+
+M-C-\ 对文本块缩进
+M-m 光标移到当前行第一个非空白字符
+M-^ 当前行合并到上一行
+M-; 增加注释
+M-j 为注释增加新行
+变量comment-multi-line控制
+
+命令：
+comment-region 把文本块标为注释
+```
+
+== 二，C/C++ ==
+
+```
+模式：
+c-mode
+c++mode
+perl和c大同小异
+
+M-a 移动到语句开头
+M-e 移动到语句结尾
+M-q 注释文本段落重排
+M-C-a 移动到函数开头
+M-C-e 移动到函数末尾
+M-C-h 把函数选为文本块
+C-c C-q 函数整体缩进
+C-c C-u 预处理条件开始
+C-c C-p 上一个预处理条件
+C-c C-n 下一个预处理条件
+
+命令：
+c-set-style 选一种缩进样式
+
+C-c C-a 自动新行功能
+C-c C-d 饥饿的删除键
+
+设定：
+(add-hook 'c-mode-hook
+'(lambda ()
+(c-set-style " stylename ")
+(c-toggle-auto-state)
+(c-toggle-auto-hungry-state)))
+C-c C-e 将预处理块送入实际预处理器执行
+
+etags：
+强大的函数search工具
+调用:
+etags *.[ch] 这样为所有.c,.h建立函数标签
+emacs调用：
+命令
+visit-tags-table
+函数标签命令：
+M-. 查找匹配某字符串的函数,默认是光标当前字符串
+C-x 4 . 使用一个新窗口打开M-.
+M-, 查找下一个函数
+命令
+tags-search 正则搜TAGS包括文件的一切内容
+tags-query-replace
+查找和替换，加C-u完全匹配单词
+tags-apropos
+打开匹配的tag list
+list-tags 把给定文件的标签都列出来
+```
+
+== 三，编译 ==
+
+```
+模式：
+编译模式
+命令：
+compile
+变量：
+compile-command
+C-x ` 来到出错信息所在位置
+加C-u 到第一条出错信息所在
+M-n/M-p 向上/下找错误信息
+C-c C-c 访问对应于当前错误信息的源代码
+
+调用grep工具：
+命令grep
+可以用编译模式的命令
+```
+
+
+
+= Chapter 7 帮助 =
+
+
+== 一，自动完成 ==
+
+
+```
+变量:
+completion-ignored-extension
+把一些后缀的文件或命令加入不自动补完列表
+```
+
+== 二，帮助 ==
+
+
+```
+C-h ? 帮助的帮助
+C-h a 这个概念涉及哪些命令
+apropos 这个概念涉及哪些函数和变量
+super-apropos 哪些文档提到此概念
+都可用正则
+```
+
+
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+</t>
+<t tx="zoomq.20100414115206.4579">@path archives
+
+归档相关插件</t>
+<t tx="zoomq.20100414115206.4589">@path date
+
+日期处理相关插件
+</t>
+<t tx="zoomq.20100414115206.4726">[/pybimage/technorati-over.gif]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[Chinese http://www.technorati.com/tags/Chinese]</t>
+<t tx="zoomq.20100414115206.4727">
+
+[9月16日，世界“软件自由日” http://it.solidot.org/article.pl?sid=06/09/11/0635236]
+ - 中国第一次由CSDN 组织:[CSDN F2F俱乐部活动 http://news.csdn.net/n/20060911/94604.html]
+
+
+无责任报道 060916 13:30~17:43 如下:
+
+= 动机 =
+
+俺是怀着以下疑问来参加活动的:
+    + "软件自由日"可观察到政府的态度？
+    + CSDN 对FLOSS 的态度？
+    + 北京大学这样的中国最高学府对FLOSS 的态度？
+
+
+= 流水账 =
+
+- 12:35出发,自行车
+- 12:55到理想国际，修整一下
+- 13:15 到达会场
+- 13:30～13:50　　陆首群主席主题演讲
+```
+  什么是OSS  严重的南方口音
+  "业余软件工程师的聚集成果..."
+  美国80%的公司使用OSS
+  欧洲70%的政府使用OSS
+  动员志愿者...
+```
+- 13:50~   北京大学软件与微电子学院 陈钟院长
+```
+  去德国和全球开源软件开发者交流大会
+  IBM 组织的,体会到各种新奇的思想和成果
+  Google 等等大公司使用开源软件结构,令竞争对手难以评估负荷能力...
+```
+- 14:00~  OSFD 发起人,CSDN总裁 将涛:
+```
+  CSDN 的目标,为中国程序员创立一个友好的信息交互平台
+  最好的学习方式,就是实践-&gt; OSDN
+```
+
+- 14:20~　　袁萌教授主题演讲
+```
+  OSS主席 语气激昂 近70岁!
+  "自由软件在中国不能搞!只能开源软件!" -- 2005年
+  自由软件日,10*10平方米就可以
+  开源软件有些商业味道
+  自由软件才是真正可以自由使用的软件
+  Ubuntu 的"三要":
+    要为他人着想
+	要有礼貌
+	有有协作精神
+  软件的价值在于使用,使用的人越多价值才大
+  软件作为商品是种发明,但是对社会是有损
+```
+
+- 14:50～　　宫敏博士主题演讲
+```
+  Turb0Linux 总裁
+  自由软件的精神....
+  如果一个公司可以对一个国家施加压力,这就是一种殖民行为!
+  关注软件的知识属性:
+    0: 软件是物化的知识
+	1: 知识有其发展的自我规律
+	2: ...
+  kernal 编译器 shell 等等的工作原理,在中国如果没有大量的人才积累,
+  就只能拉美化,印度化....
+  人民大学交流时的学生问题:
+    自由软件程序员的生存问题
+	...能力和影响力的成本问题
+	自由软件是民族国家独立发展的重要契机!
+```
+
+- 15:10～15:20　　休息　抽奖
+
+- 15:20~  CSIP 陈伟
+```
+  chenwei@csip.org.cn 13601136160
+  第三个国际软件自由日
+  软件独立供应商的开创,造就了现在80% 的垄断现象
+  FLOSS 统一名称 Free/Libre/OSS
+  自由与创新的精神:
+    专利通过独占利润,鼓励创新
+	自由通过交流促进创新
+  E-learnning : Moodel
+  知识产权问题:
+    专利,版权,商标,商业秘密,著作权
+  自由软件的国家之路:
+    国家态度! 国家级的策略
+	企业支持的环境
+	社区环境的促进:
+	  是开源软件的主要场所
+	  政府通过中立机制进行促进自由软件工程师的生存条件
+  自由/开源软件产业化思考:
+    产业链的构筑 社区;分发者;捐助者...
+```
+- 16:30～　　自由软件协会联盟ubuntu计划介绍
+ - linux.pku.edu.cn 以及海淀多个院校的FLOSS学生组织
+   - 有古老和经典的```Lilnux Install Party``` 活动!
+   - 但是从安装的系统看远没有进入 LFS/Gentoo 等等Linux 核心系统的体验境界...
+
+- 17:45 离开，没有等到传说中的 “国际软件自由日”头脑风暴——为中国自由软件献计献策！
+
+
+== 体验 ==
+
+: 活动组织实体:
+```
+主办单位:
+  北京大学软件与微电子学院
+  OSS 中国开源软件推进联盟
+  程序員 杂志
+  OSDN社区
+支持单位:
+  SCIP信息产业部软件与集成电路促进中心
+  共创软件联盟
+  北京软件行业协会
+  CSDN网站
+```
+  - 从背景的大幕布可以体味出，此次所谓 ```Software Freedom Day06``` --“国际软件自由日”
+    - 是政府背景的宣传活动
+	- 中国的民间自由/开源组织根本没有被邀请和通知
+  - 从活动的组织和进程看也和 ```SFDay``` 的原旨-- 向民众展示自由/开源软件,没有关系
+    - 标准的中国式会议日程
+	- 主持方式还是综艺节目式的
+	- 只讲Linux/Ubunt ,BSD 系列以及开发语言没有任何涉及...
+
+: 学者的风范:
+  - 先后8位人士的主题演讲,风格上有非常明显的差异:
+    - 语速和占用时间与演说者的身份地位呈严格的反比
+	- 凡是学识年龄越长的,语速越平和,内容也精小,偏向文化和精神探讨,旨才充分调动听众的思考
+	- 凡是年轻的,语速越快,内容也越丰富,有大量的资料辅助展示,偏向使用数据来吓唬住听众
+  - 自由和开源
+    - 先后演讲过程中,以开源软件的市场发展为中心来强调的有6人
+	  - 其中再有2人提及自由软件和开源软件
+    - 只有两位以自由软件的精神本质和国家核心竞争力来讲述自由/开源软件活动的重要性
+	  - 袁萌教授,一直不懈的向各界说明自由的重要性,但是无法调合开源的可操作性竞争
+	  - 宫敏博士,作为程序员出身,从自身深切的感触强调自由开发的重要性,
+	  但是无法改变中国程序员的生存环境
+
+: 政府的态度:
+  - CSIP -- ```信息产业部软件与集成电路促进中心```
+  - 从名称上看,国家是软硬都渴望独立研发的,但是没敢说硬件,操作系统也没敢说,
+  仅仅强调了整个生态的支持
+
+
+
+=== 个人观点 ===
+: 自由和开源:
+  - 尽管国人意识到在自由软件运动方面中国迟了20年,但是并不关心自由和开源的差异,
+  仅仅是想趁FLOSS的东风,建立自个儿的软件体系
+  - 这只能是无源之泉:
+    - 只能理解开源模式的组织
+	- 是永远无法获得自由软件的动力的...
+
+: 中国的软件生态环境:
+  - 不论国家的策略/政策/机构等等是否积极支持,想简单的得到改善,是基本不可能的!
+  - ```一切的根源在教育!```
+    - 没有合理的教育机制
+    - 无法得到一定数量的合格程序员
+    - 没有足够数量的有能力的程序员就没有中国的核心软件企业群
+    - 没有核心软件企业群就没有中国的核心软件研发环境
+    - 没有中国的核心软件研发环境中国就只能永远作简单的应用软件研发
+    - 永远作应用软件研发的中国软件行业环境就不可能需要软件基础研发人员
+    - 不需要软件基础研发的行业环境怎么可能产生软件基础构件程序员?!
+    - 没有软件基础构件程序员的中国如何支撺的了良好的国家软件生态环境?!!!
+
+  - 而且中国的民间自由软件社区从来没有进入国家的法眼怎么可能起到积极作用?!
+
+
+
+
+== 照片 ==
+
+- 凤凰205E拍摄，需要冲印扫描，才可以发布，耐心准备ing...
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4728">[/pybimage/technorati-over.gif]
+    ,[Zen http://www.technorati.com/tags/Zen]
+    ,[Chinese http://www.technorati.com/tags/Chinese]</t>
+<t tx="zoomq.20100414115206.4729">[/pybimage/technorati-over.gif]
+    ,[OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[Ubuntu http://www.technorati.com/tags/Ubuntu]
+</t>
+<t tx="zoomq.20100414115206.4730">
+
+= 事件 =
+``* Mounting local filesystem....``
+
+: 惊慌:
+ - 稳定运行一周的DELL D620 Laptop under Ubuntu7.04
+ - 一回到家开机就停在上述情况不再有反应
+
+
+== 处理 ==
+
+- 幸好有系统管理员的朋友依然在线
+- 幸好家里的 AMD 兼容机 under Ubuntu 6.04 依然工作
+- 询问,得知得``fsck`` 一下
+
+
+== fsck ==
+
+- 幸好随身带着Ubuntu 的DVD!
+- 启动进入后:
+```
+$sudo su -
+#ls /dev | grep sda
+sda 
+...
+sda11
+```
+- 幸好重装机器时详细的记录了分区信息:
+ - [升级Ubuntu http://wiki.woodpecker.org.cn/moin/ZoomQuiet/2007-05-08]
+ - [从Dapper到Feisty 的征程 http://blog.zoomquiet.org/pyblosxom/FLOSS/Ubuntu/upgrade-into-feisty-2007-05-11-13-43]
+  - [/pybimage/070511_myUbuntu_partition_scrot.png]
+- 所以优先檢查对启动有影响的 **/**; **/usr** ;**/home**
+
+
+== 幸运ReiserFS ==
+```
+#fsck -t reiserfs /dev/sda2
+#fsck -t reiserfs /dev/sda11
+```
+- 果然 ``/usr`` 檢查出问题提示进行``--rebuild-tree``
+```
+#fsck -t reiserfs --rebuild-tree /dev/sda11
+```
+- 结果不行?! Google 一下,晕的!原来有专用的
+```
+reiserfsck 
+Usage: reiserfsck [mode] [options]  device
+
+Modes:
+  --check                       consistency checking (default)
+  --fix-fixable                 fix corruptions which can be fixed without 
+                                --rebuild-tree
+  --rebuild-sb                  super block checking and rebuilding if needed
+                                (may require --rebuild-tree afterwards)
+  --rebuild-tree                force fsck to rebuild filesystem from scratch
+                                (takes a long time)
+  --clean-attributes            clean garbage in reserved fields in StatDatas 
+Options:
+  -j | --journal device         specify journal if relocated
+  -B | --badblocks file         file with list of all bad blocks on the fs
+  -l | --logfile file           make fsck to complain to specifed file
+  -n | --nolog                  make fsck to not complain
+  -z | --adjust-size            fix file sizes to real size
+  -q | --quiet                  no speed info
+  -y | --yes                    no confirmations
+  -V                            prints version and exits
+  -a and -p                     some light-weight auto checks for bootup
+  -f and -r                     ignored
+Expert options:
+  --no-journal-available        do not open nor replay journal
+  -S | --scan-whole-partition   build tree of all blocks of the device
+``` 
+- KO! 经过检测,恢复目录树,再小心检查其它目录,没有隐患...
+- reboot! 熟悉的界面回来了,没有任何不稳....
+
+
+
+= 经验.教训 =
++ 在GNU/Linux 中千万别慌!一切都有着的！
++ 不论作者如何``ReiserFS`` 绝对是个人用户的守护神哪！
++ 不论多没可能使用，系统的DVD 光盘一定要带在身边！特别是Ubuntu 系统安装DVD，紧急情况下可以作为LiveCD 直接进行工作的！
+
+
+</t>
+<t tx="zoomq.20100419111908.3737">@path navigate
+
+导航，索引相关</t>
+<t tx="zoomq.20100420100426.3917">pyblosxom-cmd  buildtags --config /home/zoomq/3hg/pyk.pyblosoxm/zoomquiet/config.py 
+pyblosxom-cmd version 1.5-rc1 20100129
+Adding /home/zoomq/3hg/pyk.pyblosoxm/zoomquiet/ to sys.path....
+Traceback (most recent call last):
+  File "/usr/local/bin/pyblosxom-cmd", line 5, in &lt;module&gt;
+    pkg_resources.run_script('pyblosxom==1.5-rc1', 'pyblosxom-cmd')
+  File "/usr/lib/python2.6/dist-packages/pkg_resources.py", line 448, in run_script
+  File "/usr/lib/python2.6/dist-packages/pkg_resources.py", line 1166, in run_script
+  File "/usr/local/lib/python2.6/dist-packages/pyblosxom-1.5_rc1-py2.6.egg/EGG-INFO/scripts/pyblosxom-cmd", line 25, in &lt;module&gt;
+    sys.exit(command_line_handler("pyblosxom-cmd", sys.argv))
+  File "/usr/local/lib/python2.6/dist-packages/pyblosxom-1.5_rc1-py2.6.egg/Pyblosxom/commandline.py", line 431, in command_line_handler
+    return f(command, argv)
+  File "/home/zoomq/3hg/pyk.pyblosoxm/zoomquiet/plugins/folksonomy/tags.py", line 260, in buildtags
+    tagsline = mem["tags"]
+  File "/usr/local/lib/python2.6/dist-packages/pyblosxom-1.5_rc1-py2.6.egg/Pyblosxom/entries/base.py", line 250, in __getitem__
+    return self.get_metadata(key, default)
+  File "/usr/local/lib/python2.6/dist-packages/pyblosxom-1.5_rc1-py2.6.egg/Pyblosxom/entries/fileentry.py", line 96, in get_metadata
+    self._populatedata()
+  File "/usr/local/lib/python2.6/dist-packages/pyblosxom-1.5_rc1-py2.6.egg/Pyblosxom/entries/fileentry.py", line 151, in _populatedata
+    entrydict = eparser(self._filename, self._request)
+  File "/usr/local/lib/python2.6/dist-packages/pyblosxom-1.5_rc1-py2.6.egg/Pyblosxom/pyblosxom.py", line 977, in blosxom_entry_parser
+    entry_data[meta[0].strip()] = meta[1].strip()
+IndexError: list index out of range
+
+</t>
+<t tx="zoomq.20100420100426.5115">http://alexgorbatchev.com/wiki/SyntaxHighlighter:Usage
+&lt;!-- Include required JS files --&gt;
+&lt;script type="text/javascript" src="js/shCore.js"&gt;&lt;/script&gt;
+
+&lt;!-- At least one brush, here we choose JS. You need to include a brush for every language you want to highlight --&gt;
+&lt;script type="text/javascript" src="css/shBrushJScript.js"&gt;&lt;/script&gt;
+
+&lt;!-- Include *at least* the core style and default theme --&gt;
+&lt;link href="css/shCore.css" rel="stylesheet" type="text/css" /&gt;
+&lt;link type="text/css" rel="Stylesheet" href="/styles/shThemeMidnight.css"/&gt;
+
+&lt;!-- You also need to add some content to highlight, but that is covered elsewhere. --&gt;
+&lt;pre class="brush: js"&gt;
+function foo()
+{some boys ...
+}
+&lt;/pre&gt;
+
+&lt;!-- Finally, to actually run the highlighter, you need to include this JS on your page --&gt;
+&lt;script type="text/javascript"&gt;
+     SyntaxHighlighter.all()
+&lt;/script&gt;
+</t>
+<t tx="zoomq.20100420100426.5117">&lt;pyblosxom-users@lists.sourceforge.net&gt;
+
+How to export Category index.html only title for Static Rendering
+i'm Chinese Pythoner, usage PyBlosxom from 2006;
+http://blog.zoomquiet.org/pyblosxom/
+now,i had to Static Rendering publish my blog;
+so will's great plugin:wbgpager.py can not working;
+so i notice:
+    - people can not easy jump to someone entry by Category
+    - if that Category include more then py["num_entries"] limited
+there is some plugin or patch can export Static Category index.hrml
+such like as:
+    http://snarfed.org/space/archive
+    i just want export entries list,such as:
+        http://blog.zoomquiet.org/pyblosxom/techic/
+        http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/
+        these Category index, unnecessary export all content;
+        just title with link is enough
+</t>
+<t tx="zoomq.20100420100426.5118">[FYI]t2t with PyBlosxom
+
+as Chinese Pythoner, love t2t;-)
+from 2004 usage t2t in everywhere
+when blogging,i usage PyBlosxom:
+    http://blog.zoomquiet.org/pyblosxom
+PyBlosxom is a lightweight weblog platform, based on Blosxom and written in Python.
+    http://pyblosxom.sourceforge.net/
+    http://blosxom.com/
+
+so my blogging flow is:
+    + write t2t in local, of course test export
+    + through svn/hg checkin some version repository
+    + in server crontab action,auto：
+        + check out t2t files
+        + usgae t2t export .xhtml
+        + usage pyblosxom-cmd  staticrender --config /path/2/my/config.py export all site static pages
+
+for blogging,i hacked txt2tags.py v2.4, so share at first, i will try to merge into v2.5:
+    + for make TOC can click,and make TOC anchor unique:
+        - http://blog.zoomquiet.org/pyblosxom/utility/Subversion/
+        - in this page include several t2t export xhtml body
+        - include several TOC guider list
+        - with my hacked,every TOC list can click jump to that chapter
+        - and every chapter can click back the right entry top 
+        hacking: appended one global ver as
+        XHTML_TOPTOP = ""
+        ...
+        # hacked for generate unique top anchor seed
+        def doHeader(headers, config):
+            #100419:zoomq for toc fixed in multipages
+            global XHTML_TOPTOP
+            ...
+            ret =  string.split(template, '\n')
+            #   zoomq:100419 for toc in multi pages
+            for i in range(len(ret)):
+                if "&lt;h1&gt;" in ret[i]:
+                    #print ret[i][4:-5]
+                    XHTML_TOPTOP = base64.b64encode(base64.b32encode(ret[i][4:-6]))[:9]
+                    ret[i] = "&lt;a name='toptop%s' id='toptop%s'&gt;&lt;/a&gt;%s"%(XHTML_TOPTOP
+                        ,XHTML_TOPTOP
+                        ,ret[i]
+                        )
+                    break
+            #return string.split(template, '\n')
+            return ret
+
+        ...
+        class TitleMaster:
+            import base64
+            ...
+            
+            # hacked for generate unique anchor seed for every TOC title 
+            def _get_tagged_anchor(self):
+            ...
+                if CONF['toc'] and self.level &lt;= CONF['toc-level']:
+                self.anchor_count = self.anchor_count + 1
+                # zoomq:100414 fixed link as unique str
+                unique = base64.b64encode(base64.b32encode(self._get_full_title_text()))
+                label = label or '%s%s%s'%(
+                        self.anchor_prefix
+                        , self.anchor_count
+                        , unique[:9]
+                        )
+            ...
+            # hacked for plugin jump back the top link usage XHTML_TOPTOP as unique anchor seed
+            def get(self):
+                ...
+                global XHTML_TOPTOP
+                full_title = "&lt;A href='#toptop%s'&gt; %s &lt;/A&gt;" %(XHTML_TOPTOP, self._get_full_title_text())
+            ...
+            # hacked for generate every TOC title jump into unique anchor 
+            def dump_marked_toc(self, max_level=99):
+                ...
+                    for level, count_id, txt, label in self.toc:
+                        # zoomq:100414 fixed link as unique str
+                        tocStr = "%s %s%s"%(count_id,txt, label)
+                        uniqueStr = base64.b64encode(base64.b32encode(tocStr))
+                        if level &gt; max_level: continue   # ignore
+                        indent = '  '*level
+                        id_txt = string.lstrip('%s %s'%(count_id, txt))
+                        label = label or self.anchor_prefix+`toc_count`
+                        label += uniqueStr[:9]
+
+    + for uage SyntaxHighLighter
+        - effect as:
+        - http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/blosxom/croe-hack-file-entry-2006-01-27-23-23.html
+        - t2t as http://blog.zoomquiet.org/pybnodes/techic/PyBlosxom/blosxom/croe-hack-file-entry-2006-01-27-23-23.t2t
+        - when i writing just add one line as:
+```
+::brush: py
+#147 line...
+        self['entryext'] = ext
+        self['filebasename'] = file_basename
+```
+        - so hacked class BlockMaster can auto generate include right Syntax support code area!
+        hacking:
+        BlockMaster-&gt;def verb(self):
+        ...
+            #100420:zoomq   appended for usage SyntaxHighlighter
+            if "::brush:" in result[1]:
+                #print result[1][2:]
+                result[0] = '&lt;PRE class="%s"&gt;'%result[1][2:]
+                result[1] = ""
+                #print result[0]
+            #TODO maybe use if not TAGS['blockVerbClose']
+
+that all!
+t2t and PyBlosxom is all K.I.S.S;
+so we can easy hacking them to working for u style ;-)
+thanx for all        </t>
+<t tx="zoomq.20100420100426.5500">elist = tools.Walk(self._request, root)
+
+data = self._request.getData()
+datadir = config.get("datadir", "")
+entrise = []
+entry_extensions = data['extensions'].keys()
+for file in elist:
+    assert file.startswith(datadir)
+    path, ext = os.path.splitext(file[len(datadir):])
+    if ext[1:] in entry_extensions:  # strip the leading period from ext
+        entry_name = os.path.basename(path)
+        entrise.append((len(path.split("/"))
+            ,path[:-len(entry_name)]
+            ,path
+            ,entry_name)
+            )
+entrise.sort()
+#print entrise
+etreelist={}
+'''结构
+"/":{
+    "__subitems__":[]
+    "/subdir/":{
+        "__subitems__":[]
+        "/subdir/":{...}
+        }
+    }
+'''
+for entry in entrise:
+    levels = entry[1].split("/")
+    print levels
+    if 2==len(levels):
+        if entry[1] in etreelist.keys():
+            etreelist["/"]["__subitems__"].append(entry)
+        else:
+            etreelist["/"]={"__subitems__":[]}
+            etreelist["/"]["__subitems__"].append(entry)
+    else:
+        paths = levels[1:-1]
+        etreelist = _pushsubdir(paths.reverse(),entry,etreelist["/"])
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20100420100426.5502">def _pushsubdir(paths,entry,parent):
+    print paths
+    if 0 == len(paths):
+        return parent
+    else:
+        paths.pop()
+        print paths
+        _pushsubdir(paths,entry,parent)</t>
+<t tx="zoomq.20100420100426.5527">@language Moin
+回到PyBlosxom
+~重启Blogging生活
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20100420100426.5528">
+= 怎么了？ =
+
+- 曾经的 PyBlosxom 1.3.1 发布的 [/pybimage/2010/preview-old-zoomquiet.org-pyb.jpg]
+- 从2005年开始用到2007年南下到金山,远离了服务器,发布不便就停了下来,但是总之还在存活...
+- 100401 啄木鸟新SA,小白同学升级 FreeBSD 时,发现 PyBlosxom 的cgi 有安全隐患,算是彻底关闭了当年定制了很多东西的hacker 级别Blog 实例;
+- 刚好 [PyBlosxom1.5-rc1 http://pyblosxom.sourceforge.net/releases/pyblosxom.1.5-rc1.html] 也发布了,就趁机整体搞一下
+- 
+
+</t>
+<t tx="zoomq.20100420100426.5529">
+= 规划 =
+
+习惯性的先计划,再作...
+
+
+== 系统 ==
+
+- 从PyBlosxom 1.3.1 升级到 1.5-rc1
+- 发布方式从 cgi 升级到 静态发布 //(类似 MT 的那种)//
+- 版本管理从 SVN 迁移到 Hg //(依然在 code.google 空间中)//
+
+
+== 样式 ==
+
+- 从自个儿模仿 [deviantART http://www.deviantart.com/] 设计的暗绿色,迁移到 Wordpress 中最轻的样式:
+[doc http://www.bestwpthemes.com/doc/]
+
+
+== 插件 ==
+``从用途来分类``
+
+: 归档:
+    - 使用 xhtml作为最终输出
+    - 按照年月归档并计数
+    - 按照分类归档并计数
+    - 对所有图片进行简单的图库管理
+    - 
+
+: 导览:
+    - 对静态页面网站提供搜索  
+    - 前后关联文章的快速链接
+    - __分页式的导航链接__ //杯具的插件,在静态发布状态中//    
+    - 按照文章首字母的总索引
+    - 支持多种语言的语法高亮
+    - 
+
+: SNS:
+    - rdf/rss 自动生成
+    - 评注?-( //(mail 先)//
+    - TAG云?-( //(和分类有重叠)//
+    - 
+
+
+</t>
+<t tx="zoomq.20100517221505.4512">@path IOP</t>
+<t tx="zoomq.20100517221505.4526">@language Moin
+IOP:实践之一
+~ 如何令Python脚本提速100倍?!
+&lt;&lt;t2t head&gt;&gt;
+
+
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="zoomq.20100517221505.4539">= 背景 =
+
+什么事儿呢?
+- 在一高压力服务环境中,需要加速系统的响应
+- 现行系统对于数据查询要尝试三种数据库源:
+ + memcache
+ + redis
+ + MySQL
+ +
+- 期望查询加速至少 300%
+
+
+
+: 运行环境
+```
+客户机:
+    - 俺的Laptop HP 520
+    - 双核CPU 2G内存
+    - Ubuntu 9.10
+DB主机:
+    - CentOS 5.0
+    - 单核CPU 4G 内存
+```
+
+
+
+== 预案 ==
+
+这事儿,一想,简单哪,都放内存就好的哪
+- 统计了一下需要用来查询的数据不到2千万条
+- 折算成文件不过1G
+- 加载到内存中,使用 Python 字典结构的话,也最多涨一倍,也完全可以接受
+- 速度?!
+ - [python-rbtree和内建dict的性能比较 http://yongsun.me/2007/11/python-rbtree%e5%92%8c%e5%86%85%e5%bb%badict%e7%9a%84%e6%80%a7%e8%83%bd%e6%af%94%e8%be%83/]
+ - 那绝对不是问题!
+ -
+
+
+
+= IOP的加速技巧 =
+
+``没有想到,加速,只要不断将代码住短里面写就好!``
+
+不知道什么是 IOP?
+- [PyIOP http://wiki.woodpecker.org.cn/moin/PyIOP]
+- 咔咔咔,沈游侠总结的编程态度&gt;...
+
+
+
+</t>
+<t tx="zoomq.20100517221505.4540">== 10万:170+4秒 ==
+
+: 最直接的实现
+- 从redis 读
+- 生成 dict 对象
+- 以pickle dump 出序列化文件
+- 用pickle load 加载成dict对象
+
+
+
+@others
+
+</t>
+<t tx="zoomq.20100517221505.4542">== 10万:100+200秒?! ==
+
+: 继续改进:
+- 放弃 redis 直接从MySQL 读
+- 生成 中间日志
+- 导入成 dict 文件
+
+
+
+@others
+
+
+
+</t>
+<t tx="zoomq.20100517221505.4543">== 1000万:1100秒+480秒 ==
+
+: 冷静后改进:
+- 从MySQL 读使用id 进行限制切分
+- 生成 中间日志,但是重新设计结构
+- 导入成 dict 文件
+
+
+@others
+
+
+== 小记 ==
+
+: 综上:
+- 应用 IOP 方面的主要招术:
+ + 表用 函式
+ + 表用 模块
+ + 尽量使用 OS 的标准 I/O 进行功能串接
+- **DOP**~``Data Oriented Programming``
+ - 面向数据编程
+ - 归根到底,程序都得操作数据解决问题
+ - 服务器端,大并发压力时,最有效的节省I/O 的方式,就是高效方式
+ - 压缩输入/出的数据量自然是最好的代码!
+
+
+
+</t>
+<t tx="zoomq.20100517221505.4545">== 10万:150+10秒 ==
+
+: 改进中间数据格式:
+- 从redis 读
+- 生成 中间log文件
+- 导入成 字典对象
+
+
+
+@others
+</t>
+<t tx="zoomq.20100519154638.4594">=== code ===
+
+: 代码:
+
+```
+#! python
+#!/usr/bin/python 
+# -*- coding: utf-8 -*-
+import struct,sys,time
+import cPickle as pickle
+import redis
+REVERSION = "r2d.py v10.5.7"
+def _push2dict(dictall,key,smembers):
+    dictall[struct.pack('I',int(key[1:]))]=[s.split("|") for s in rb.smembers(k)]    
+    return dictall
+if __name__ == '__main__':      # this way the module can be
+    if 3 != len(sys.argv):
+        print """ %s usage::
+$ python r2d.py redistIP limitnumber [like 10000]
+        """ % REVERSION
+    else:
+        hostIP = sys.argv[1]
+        limitn = sys.argv[2]
+        rb = redis.Redis(host=hostIP, port=6379, db=9)
+        rbkeys = rb.keys().split()
+        loop = int(limitn)
+        s4dict={}
+        for k in rbkeys:
+            if 0 == loop:
+                break
+            else:
+                loop -=1
+                _push2dict(s4dict,k,rb.smembers(k))
+        pickle.dump(s4dict, open('r4d.dump', 'wb'))
+```
+
+
+
+</t>
+<t tx="zoomq.20100519154638.4595">=== speed ===
+
+- 代码足够简单了,单函式,20行
+- 速度测试::
+ - 10W 值对导出 &gt;170秒,导入&gt;4秒;
+ - 100W 值对导出 &gt;500秒,导入&gt;25秒;
+ - 1000W 值对导出 **失败! 内存提前耗光!**
+
+
+
+
+</t>
+<t tx="zoomq.20100519154638.4596">=== improve ===
+
+这完全无法接受哪...
+
+: 加速尝试::
++ 根据 IOP 尽量不用函式,将那个一行函式清除,代码填回循环 ~ //立即获得几秒的加速//
++ 本来用的就是cPickle 了,模块效率没有办法了
++ 嗯嗯嗯,可以不用 cPickle卟?
+ - 直接输出自然 .py 哈?!
+
+
+```
+#! python
+
+# 使用 str() 将字典对象用文本的方式记入 .py 
+vdf = open("r2d.define.py","wa")
+vdf.write("s4dict=")
+vdf.write(str(s4dict))
+vdf.close()
+# 使用时直接 import 就好
+
+```
+
+- 改进后测试::
+ - 10W 值对导出 &gt;160秒,导入&gt;3秒;
+ - 100W 值对导出 &gt;400秒,导入&gt;19秒;
+ - 1000W 值对导出 **依然杯具**
+- 加速不明显:
+ - 导出时速度变化很小
+ - 载入时速度有提升
+- 进一步观察到,导出时内存飞速增长:
+ - 100W级别,要食掉1.6G左右的内存
+ - redis 本身也很占内存,千万级别时,也要占上G (当然这和条目数量/内容有关)
+ - 这对于服务器是个不可接受的方式
+
+
+
+</t>
+<t tx="zoomq.20100520090310.4598">= 提速100倍 =
+嗯嗯嗯？！怎么说到最后好象也没有加速到100倍哪？
+- 是也乎，是也乎，以上分享的是内存化字典数据的转换脚本加速过程
+- 但是最后要加速的是整个查询业务哈?
+- 因为涉及公司核心服务,代码就无法展示了
+- 不过,现实是:
+ + 使用了以上 IOP 中提及的基础技巧
+ + 每查询业务的处理时间从原先的 0.* 秒,加速到 0.00*秒,至少100倍
+ + 而对应的代码从 几千行,精简到几十行
+
+
+
+所以,基本上可以这么理解:
+- 将代码每**精简一倍体积**
+- 运行速度就有望**提高10倍**
+
+不相信? 尝试一哈噻...
+
+</t>
+<t tx="zoomq.20100520090310.4599">=== thinking ===
+
+因为有这些现实:
++ 想输出不论 pickle 或是 .py 的字典对象,都得先在内存中构造出这一对象
++ 随着字典对象的规模增加,必然导致这一构建过程的时间加长
+
+
+经沈游侠提醒,发现字典对象其实是可以线性输出的:
+- 比如说,字典结构如:
+```
+{key:[(v1,v2,v3),..]
+,...
+}
+```
+ - ``K:[list]`` 形式的两层结构
+- 那么,就可以通过中间数据文本:
+```
+('key', [(v1, 'v2', v3)])
+...
+```
+- 进行线性加载,e.g:
+```
+#! python
+for l in open("r2d.define.py.log","r").readlines():
+    dd = eval(l)
+    if dd[0] in s4d:
+        s4d[dd[0]].append((dd[1],dd[2],dd[3]))
+    else:
+        s4d[dd[0]]=[(dd[1],dd[2],dd[3])]
+
+```
+
+
+
+</t>
+<t tx="zoomq.20100520090310.4600">=== code ===
+快速修订对应行动代码:
+```
+#! python
+#!/usr/bin/python 
+# -*- coding: utf-8 -*-
+import struct,sys,time
+import redis
+REVERSION = "r2d.py v10.5.8"
+if __name__ == '__main__':      # this way the module can be
+    if 3 != len(sys.argv):
+        print """ %s usage::
+$ python r2d.py redistIP limitnumber [like 10000] &gt; mid-data.log
+        """ % REVERSION
+    else:
+        hostIP = sys.argv[1]
+        limitn = sys.argv[2]
+        rb = redis.Redis(host=hostIP, port=6379, db=9)
+        rbkeys = rb.keys().split()
+        loop = int(limitn)
+        for k in rbkeys:
+            if 0 == loop:
+                break
+            else:
+                loop -=1
+                dictkey = struct.pack('I',int(k[1:]))
+                sli = []
+                for s in rb.smembers(k):
+                    rli = s.split("|")[:3]
+                    if rli:
+                        rli[0] = int(rli[0])
+                        rli[1] = struct.pack('I',int(rli[1]))
+                        rli[2] = int(rli[2])
+                        sli.append(tuple(rli))
+                print &gt;&gt; d2f,`dictkey,sli`
+                #注意: `obj` 等同 repr(obj)  
+```
+
+
+
+</t>
+<t tx="zoomq.20100520090310.4601">=== improve ===
+
+代码依然简单了,无函式,30行
+- 速度测试::
+ - 10W 值对导出 &gt;150秒,导入&gt;10秒;
+ - 100W 值对导出 &gt;500秒,导入&gt;20秒;
+ - 1000W 值对导出 &gt;1300秒,导入&gt;90秒;
+- 速度看起来没有什么明显的提高
+- **不过!**
+ + 千万级别的数据可以在低配置环境中跑完了!
+ + 内存占用很稳定永远90M左右,不会随字典对象的增长而增长!
+
+
+嗯嗯嗯,这算是可用了...
+
+
+
+</t>
+<t tx="zoomq.20100520090310.4602">=== thinking ===
+
+虽然redis 是号称最快的 K/V 数据库产品，但是，明显就是它将整个业务响应速度拖慢了..
+
+: 为什么呢？
+- 服务器程序和本地程序面对的环境是不同的
+- 高压力服务器程序和小压力服务器程序也是不同的
+- 简单来说:
+ + 小型服务~=每秒&lt;C60
+ + 中型服务~=每秒&lt;C600
+ + 大型服务~=每秒&gt;C1000
+- 面对的矛盾是完全不同的:
+ + 小型服务-&gt;语言执行效率
+ + 中型服务-&gt;框架执行效率
+ + 大型服务-&gt;I/O 响应速度
+- 所以，对于面向Web 的查询服务，不论 Redis/MySQL 对于业务系统，都是进程间通讯!
+- 每次跨进程通讯，都意味着至少四次I/O操作！
+- 所以，当前 Redis-&gt;log-&gt;内存字典的转换流程，其实包含了 MySQL-&gt;Redis 的进程操作
+- 另外:
+ - 遍查 Redis 文档，居然没有 ``iterkeys()`` 类似的操作！
+ - 每次不论转换多少 Redis 的值对，都得使用``keys()`` 将键先取出来然后再逐一匹配处理
+ - 怪不得使用 Redis 测试用小仓库(包含20万值对)时，脚本运行速度和使用全数据Redis(千万值对)时速度要相差5倍以上！内存也占用多几倍!
+
+
+
+**所以!要直接从 MySQL 相关表中读取**
+
+
+
+</t>
+<t tx="zoomq.20100520090310.4603">=== code ===
+配合一SQL 模板:
+```
+#! sql
+-- _tpl/all_black.tpl
+SELECT v1,v2,v3,v4,id FROM t_black LIMIT %(limitMAX)s;
+```
+
+核心代码:
+```
+#! python
+#!/usr/bin/python 
+# -*- coding: utf-8 -*-
+REVERSION = "m2d.py v10.5.9"
+import struct,sys,time
+
+if __name__ == '__main__':      # this way the module can be
+    """usage:
+$ python m2d.py limit [such as 100] |\
+  mysql -h xx.xx.xx.xx -u User -D --password=***  |\
+  python m2d.py &gt; m2d.log
+    """
+    if sys.stdin:
+        if 1 &lt; len(sys.argv):
+            limit = sys.argv[1]
+            limitMAX = int(limit)
+            print &gt;&gt; sys.stderr, info
+            print open("_tpl/all_black.tpl","r").read()%locals()
+        else:
+            s4dict={}
+            virusname={}
+            totalN = 0
+            for l in sys.stdin.readlines():
+                if "id" in l:
+                    pass
+                else:
+                    totalN += 1
+                    lkv=l.split()
+                    dictkey = struct.pack('I',int(lkv[0]))
+                    lkv[1] = int(lkv[1])
+                    lkv[2] = struct.pack('I',int(lkv[2]))
+                    lkv[3] = int(lkv[3])
+                    print &gt;&gt; d2f,`dictkey,tuple(lkv[1:])`
+```
+ - 用是否有额外参数来判定是否生成SQL,还是进行MySQL 的输出数据处理
+ - 为了不影响标准输出,调试信息,输出到标准错误IO
+ - 调试也应该根据管道串的层级,一级级运行尝试
+ - 调用的shell:
+```
+#! shell
+#!/bin/sh
+#   m2d.sh v10.5.9
+python m2d.py go |\
+    mysql -h xx.xx.xx.xx -u User --password=***|\
+    python mysql4dict.py $1 |\
+    mysql -h xx.xx.xx.xx -u User --password=***|\
+    python m2d.py &gt; m2d.log
+```
+
+**加载时代码没有怎么变**
+
+
+
+</t>
+<t tx="zoomq.20100520090310.4604">=== speed ===
+
+- 速度测试::
+ - 0.1W 值对导出 &lt;5秒,导入&lt;1秒;
+ - 10W 值对导出 &gt;300秒,导入&gt;10秒;
+ - 100W 值对导出 杯具鸟
+ - 1000W 值对导出 杯具鸟
+- 速度怎么和查询的条目多少有关? 而且一大MySQL 就拒绝服务?
+
+
+
+
+</t>
+<t tx="zoomq.20100520090310.4605">=== improve ===
+嗯嗯嗯,FT! 当然了,MySQL 请求响应时间是有限制的,大数据传输肯定是有问题的,
+利用 ``LIMIT`` 的切片!
+- 改造前述``m2d.py v10.5.9`` SQL生成部分的代码:
+```
+#! python
+step = 5000.0
+limitMAX = int(limit)
+sqltpl = open("_tpl/all_black.tpl","r").read()
+if 1 &gt;= limitMAXb/step:
+    print sqltpl%locals()
+else:
+    for i in range(int(limitMAX/step)):
+        limitMAX = "%d,%d"%(step*i,int(step))
+        print sqltpl%locals()
+```
+- 以 5000 为界限,生成类似 ``LIMIT 15000,5000`` 的限制
+
+
+- 速度测试::
+ - 100W 值对导出 &gt;290秒,导入&gt;190秒;
+ - 1000W 值对导出 杯具鸟
+
+
+**FT!怎么回事儿?速度意外的慢!**
+
+
+
+
+</t>
+<t tx="zoomq.20100520090310.4607">=== thinking ===
+
+: MySQL 为什么这么慢?!
+- 嗯嗯嗯,N久没有使用过DB,这次重温了为什么远离DB的恶体验
+- MySQL 本身就不是千万级别的产品,虽然有很多招可以应对
+ - [mysql limit查询优化（数据量大的时候很优） http://www.cnblogs.com/fjytzh/archive/2010/04/02/1702886.html]
+ - [Mysql limit 优化，百万至千万级快速分页 http://grb12508.blog.163.com/blog/static/273784582009102448061/]
+- 不过,以上招都不好使,咨询了一下同事,直接使用ID范畴来限定就好!
+
+
+
+
+
+</t>
+<t tx="zoomq.20100520090310.4608">=== code ===
+SQL 模板配合改进:
+```
+#! sql
+-- _tpl/all_black.tpl
+SELECT v1,v2,v3,v4,id FROM t_black WHERE id&gt;%(LIMbwID)s AND id&lt;=%(MAXbwID)s;
+```
+
+
+SQL 生成代码:
+```
+#! python
+step = 3000.0
+offset = int(step)
+# &lt; &lt;gen_sql_with_max&gt; &gt; 使用Leo 时可以定义子节点将成堆代码变成语义标记
+for l in sys.stdin.readlines():
+    if "max(id)" not in l:
+        amount = l.split()
+        MAXbwID = int(amount[0]
+        MINbwID = int(amount[1]
+        MAXbwA = MAXbID-MINbID
+MAXbMAX = MAXbwID
+lastID = 0
+sqltpl = open("_tpl/all_black.tpl","r").read()
+for i in range(MAXbwA/offset):
+    MAXbwID,LIMbwID = (MAXbMAX-offset*i,MAXbMAX-offset*(i+1))
+    print sqltpl%locals()
+    lastID = LIMbID
+MAXbID,LIMbID = lastID,MINbID   # 将切片限数之内的尾数个ID也查询出来
+print sqltpl%locals()
+```
+- 咔咔咔,当然的,要进行基于ID 的精确切分选择,就得先知道最大和最小的ID
+- 使用SQL ``SELECT max(id),min(id) FROM t_black ;``
+- 自然运用系统管道串接成处理过程:
+```
+#! shell
+#!/bin/sh
+#   m2d.sh v10.5.9
+DATE=`date "+%y%m%d-%H%M%S"`
+mysql -h xx.xx.xx -u User --password=*** &lt; _tpl/total_black.sql |\
+    python m2d.py go |\
+    mysql -h xx.xx.xx -u User --password=*** |\
+    python m2d.py &gt; m2d_$DATE.log
+```
+
+
+</t>
+<t tx="zoomq.20100520090310.4609">=== improve ===
+- 速度测试::
+ - 100W 值对导出 &gt;280秒,导入&gt;120秒;
+  - m2d.log &gt; 150M
+ - 1000W 值对导出 &gt;1300秒,导入&gt;780秒;
+  - m2d.log &gt; 570M
+
+
+
+进一步的,发现业务其实可以将双层,两次查询优化成一次查询的!
+- 简单的将输出字典的数据结构变成:
+```
+{key:v,...
+}
+```
+- 将原先的2个值结合原先的key 变成键,就成为了全局唯一的key
+- 即和MySQL 每行数据完成一一对应
+- 速度再测试::
+ - 100W 值对导出 &gt;250秒,导入&gt;100秒;
+  - m2d.log &gt; 130M
+ - 1000W 值对导出 &gt;1100秒,导入&gt;480秒;
+  - m2d.log &gt; 490M
+- 哗! 而且加载完后,字典对象所点内存体积也同样减少了 30% !
+
+</t>
+<t tx="zoomq.20100630152750.4000">@language Moin
+leo在Py2.5中的失败尝试
+-- 中文应用问题是国人永远的心痛哪
+&lt;&lt;t2t head&gt;&gt;
+
+
+@others
+
+
+
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="zoomq.20100714100009.3999">@language Moin
+OpenBookProject
+--开放图书计划
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20100714100009.4000">
+[/pybimage/2010/OpenBookProject-h90.png]
+
+: 历史小记:
++ 2005-12-10 07:34:19 [梁如军，Osmond http://wiki.woodpecker.org.cn/moin/OsmondLiang]创建维基入口
+ - http://wiki.woodpecker.org.cn/moin/OpenBookProject
++ 2007-07-26 22:07:06 +0800 Zoom.Quiet 创建工程环境 [openbookproject - Project Hosting on Google Code http://code.google.com/p/openbookproject/]
++ 在OBP组织下2007-12-07 [《Python核心编程》(中文第二版) (豆瓣) http://book.douban.com/subject/3112503/] 完成翻译，也引发了[书评__China-Pub 《Python 核心编程》应属于社区翻译 http://www.china-pub.com/member/bookpinglun/viewpinglun.asp?bookname=&amp;reader=0&amp;gid=0&amp;id=39969&amp;Curpage=9&amp;sale=0&amp;plgrade=1] 吉广事件！
++ 在OBP组织下2008-04-01  [Python源码剖析——深度探索动态语言核心技术 (豆瓣) http://book.douban.com/subject/3117898/] 完成校对
++ 在OBP组织下2009-09-01 [可爱的Python (豆瓣) http://book.douban.com/subject/3884108/] 方式发售
++ http://obp.zoomquiet.org/ 开始使用Sphinx 持续日编译发布最新 OBP 成果...
+
+</t>
+<t tx="zoomq.20100714100009.4008">@language Moin
+NOT WORD!
+--不仅仅关乎版权
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20100714100009.4009">
+: [几行字也发个doc?? http://blog.delphij.net/archives/001487.html]:
+    经常在邮件中看到朋友们将些小故事塞到 word 中分享,
+    和delphij 同样的感慨…………
+
+: 有诗曰:
+```
+文本文件好 
+工具遍地跑
+程序两三行
+全部改好了
+```
+    [文本好了歌 http://blog.cathayan.org/item/920] - Blog on 27th Floor
+    cathayan 的感慨
+
+: 文可文，非常文。本可文，非常本。文本,数据之始,字符,万思之母...
+    [结构化文本 http://wiki.woodpecker.org.cn/moin/AllAboutText]才是王道！
+    呜乎矣哉!是也乎是也乎!!
+    为了我们的写作快感，抵制一切富格式化编辑器!
+    有结构化文本想怎么漂亮都成的!不用在界面中辛苦的使用mouse 永远的点击…………
+
+: 可恨/可叹:
+    M$的市场策略，成功的将
+    ``正式文档===word文档``
+    的概念填入了人们的头脑中，特别是在中国！
+
+: 觉醒:
+    从我作起！[/pybimage/nodoc4cn.png] 至少从OOo 开始！
+
+
+[抵制.doc运动 http://www.cyut.edu.tw/~ckhung/i/nd/fydoc.png]</t>
+<t tx="zoomq.20100714100833.4002">
+我的”怪癖” (作业)
+2005-08-26　01:09:00
+大　中　小
+爆发性Blog游戏 -- 列举自个儿的 5个”怪癖” 并向另5名友人布置此作业!
+
+从 "怪癖专题之引火烧身"
+http://wwy.iseetimes.com/blog/?q=node/view/662
+
+嗬嗬!点名了在下,那未:
+
+1. 一直坚定的用"表形码"中文输入,从win98第一版中扒出来的,一直使用到现在!非常直觉性的笔形输入法!
+比如说"印"是键入"epz"--因为,左边象大写的E吧?右边则是P,z 已经是笔划了"折"是也乎!
+2. "是也乎"这个语气词,也不知道怎么形成习惯的,是从窐之内英策的漫画《外星福星》中看到的
+fufu 实在是通用哪！任何场所都可以是也乎一下子！
+3. 喜欢老玉米，现在什么粘/甜玉米，都反感！
+当然还是烤的最爱！
+4. 衣服只买是深色的,特别是深兰…………耐脏哪！一年都不用洗的！是也乎是也乎！
+立志单身的同学一定会养成的习惯吧？
+5. 见到美女的第一反应是：
+“唉呀呀！好可怜，现在没有办法避免花瓶的第一感观，刚刚习惯美丽带来的便利，马上就要老去了，所以一定有怨念的，不能接近！…………”
+
+嗯嗯！想了解 ”怪癖” 的友人(除去已经被人点名的):
+i: 潘居士 哪！ http://members.czug.org/blog/panjunyong/
+就是 CZUG 的站长！一直没有直面过，但是其它任何电子联系方式都频率的在交流的说
+ii: 清风 http://blog.donews.com/changzheng/
+CPUG/CJUG 双料开源爱好者，刚刚成为同事的新鲜好好家庭夫男是也乎！哈哈哈！
+iii: Blog on 27th Floor http://blog.cathayan.org/
+NucleusCMS 的同学，嗬嗬，以前常常交流的 因为 http://zqlib.sourceforge.net/nublog/
+后来空间过期也就备份了下来再没有写
+iv: 庄秀丽老师 http://blog.online-edu.org/zxl/
+极勤奋的Blogger 热情的e-learning专家，同我们啄木鸟社区进行过交流
+http://wiki.woodpecker.org.cn/moin/WoodpeckerClass/2005-02-26
+平时也常常讨教
+v: HD http://blog.sina.com.cn/blog/1435882772
+嗬嗬！啄木鸟的创立者，现在俺的领导人，从新疆流窜出来的牛人哪！
+
+</t>
+<t tx="zoomq.20100714100833.4007">@language Moin
+[Py4SA]批量文件重命名
+--远离Shell 的试探
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20100714100833.4008">
+= 问题 =
+嗯嗯嗯,最近从 六哥的 DUKU 重新激发了评书的记忆,下载了全本 袁阔成(40回)红岩魂的mp3 ;-)
+
+可是解开都是乱码文件名:
+- :[/pybimage/2010/zoomq-2010-07-14-105626_446x300_scrot.png];
+- 可恶的中文编码! 一定是在XP 中使用CP936 压出来的
+- 怎么整呢?
+
+
+
+
+
+
+
+: Python在Unix和Linux系统管理中的应用(影印版):
+[[/pybimage/2010/s3876423-py4unix-linux-sa.jpg] http://book.douban.com/subject/3767034/]
+- 绝对好书! 值得慢慢看,E文的也非常简洁,Py 清明的代码,直接看,尝试就可以体会到本意了...
+
+
+</t>
+<t tx="zoomq.20100714100833.4015">@language Moin
+[Py4SA]智能关闭触摸板
+--WACOM BAMBOO事务
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20100714100833.4016">
+= 问题 =
+嗯嗯嗯,俺一直使用 WACOM 的数字绘图板替代鼠标的 ；－）
+- 去年生日，老婆升级了俺的 [FAVO CTE-430 http://www.wacom.com.cn/products_before_detail.php?productsid=30]
+到 [BAMBOO CTH-461 http://www.wacom.com.cn/bamboo/case4-1.php]
+- 随着 Ubuntu 10.04系统，一同升级了驱动，非常好用:
+    + 小横板 248.2 x 176.1，和屏幕 1:1 对应，不用拖动，有空间感觉了直接就可以移动到对应区域!
+    + 无线压感笔，直接点击就是左击鼠标
+    + 笔有侧键，配置默认就是原先最舒服的:
+     - 上键是右击
+     - 下键是中击
+- **触摸板的手指点击就不必要了**
+ - 如何令系统不启动触摸板的 ``Touch`` 响应?
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20100714140857.4012">= 尝试 =
+- [Command Line Configuration Interface (xsetwacom) http://linuxwacom.sourceforge.net/index.php/howto/xsetwacom]
+    - 官方是有命令行级别的配置工具的
+    - 但是！真TMD难以看明白哈
+    - 广泛的搜索后，大致明白,xsetwacom 提供两种配置输出:
+        + 命令行用的执行字串
+        + 配置文件中使用的配置文本
+    - 整个使用流程是:
+        + 使用其它系统监察命令，确认 WACOM 设备USB接入后的设备号
+        + 使用 xsetwacom 进行模拟配置，选择输出合适的配置命令
+        + 然后将输出的配置内容,部署到合适的系统启动脚本或是配置文件中
+
+- 俺习惯使用命令行配置,这样可以直接测试是否靠谱,但是发现:
+```
+#! shell
+~&gt; xinput --list 
+⎡ Virtual core pointer                    	id=2	[master pointer  (3)]
+⎜   ↳ Virtual core XTEST pointer              	id=4	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Pen eraser           	id=11	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Pen                  	id=12	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Finger pad           	id=13	[slave  pointer  (2)]
+⎜   ↳ Wacom Bamboo Craft Finger               	id=14	[slave  pointer  (2)]
+⎜   ↳ TPPS/2 IBM TrackPoint                   	id=16	[slave  pointer  (2)]
+⎜   ↳ Macintosh mouse button emulation        	id=18	[slave  pointer  (2)]
+⎣ Virtual core keyboard                   	id=3	[master keyboard (2)]
+    ↳ Virtual core XTEST keyboard             	id=5	[slave  keyboard (3)]
+...
+```
+    - 使用 xinput 探察出来的 **Wacom Bamboo Craft Finger** 触摸板设备号,每次重启系统时不一定一样!
+    - FT! 那就得编程让系统重启时,自个儿探察一下设备号,然后使用固定的配置命令关闭 BAMBOO 对应设备
+
+
+: 如何在Shell 中获取另外系统命令的输出并截获对应数码组合成新的命令?:
+    嗯嗯嗯,,,
+    嗯嗯嗯,,,,直接囧掉!
+    俺没有这种功力!
+
+
+</t>
+<t tx="zoomq.20100714140857.4013">= Py之 =
+
+- 直接使用模板记录要执行的命令,预留可能变动的设备号:
+```
+#! shell
+#!/bin/sh
+### xinput4bamboo.tpl
+sleep 3 &amp;&amp; xsetwacom set %s Touch "off"
+
+```
+
+- 配合xinput4bamboo.py 
+```
+#! py
+import sys,os
+if __name__ == '__main__':      # this way the module can be
+    """usage:
+    $ xinput --list | grep "Wacom Bamboo Craft Finger" | python ./xinput4bamboo.py
+    """
+    if sys.stdin:
+        for l in sys.stdin.readlines():
+            if "pad" not in l:
+                bambooid= l.split()[6].split("=")[1]
+                open("xinput4bamboo.sh","w").write(open("xinput4bamboo.tpl").read()%bambooid)
+                os.chmod("xinput4bamboo.sh",0755)
+
+```
+
+- 组合成启动脚本
+```
+#! shell
+#!/bin/sh
+VER="main-rcloc.sh v10.7.14"
+DATE=`date "+%y%m%d"`
+MYRC="/home/zoomq/.zoomq/rc.local"
+#=========================================================== path defines
+LOGF="/var/log/0day/$DATE-myrcloc.log"
+#=========================================================== action defines
+cd $MYRC
+xinput --list | grep "Wacom Bamboo Craft Finger" | python ./xinput4bamboo.py  &gt;&gt; $LOGF 2&gt;&amp;1 
+./xinput4bamboo.sh  &gt;&gt; $LOGF 2&gt;&amp;1 
+```
+
+- 部属成启动应用:
+ - [/pybimage/2010/zoomq-2010-07-14-123737_530x267_scrot.png]
+
+**齐活！** 没有疑惑，随手写成！ 5分钟！
+
+
+
+</t>
+<t tx="zoomq.20100714140857.4014">: Python在Unix和Linux系统管理中的应用(影印版):
+[[/pybimage/2010/s3876423-py4unix-linux-sa.jpg] http://book.douban.com/subject/3767034/]
+- 绝对好书! 值得慢慢看,E文非常简洁,Py清明的代码,直接看/尝试就可以体会到本意了...
+
+</t>
+<t tx="zoomq.20100714140857.4015">= 尝试 =
+``已知有很多途径...``参考:[linux下批量修改文件名_乌哥的家常菜_百度空间 http://hi.baidu.com/sdusoul/blog/item/16f81a9508a1d640d0135ede.html]
+
++ 使用find、awk/grep/sed、mv等命令组合来实现
+    - 俺都不熟练,而且要串很多步操作，忒不直爽了..
+
++ 编写Shell脚本运行~ 不就是命令组合嘛,,.,
++ rename ... NGU/Linux 中的标准化重命名工具,但是,怎么可以将批量文件中指定前几个字符替换成指定字符?
+```
+#! shell
+~/media/4talking/袁阔诚/try&gt; rename -n 's/^.{6}/红岩魂/' *.mp3
+...
+���һ�38.mp3 renamed as 红岩魂38.mp3
+���һ�39.mp3 renamed as 红岩魂39.mp3
+���һ�40.mp3 renamed as 红岩魂40.mp3
+```
+    - 反复尝试半小时才获得满意的...
+
+
+
+</t>
+<t tx="zoomq.20100714140857.4016">= Py之 =
+想嘗試Py 的思路...
+```
+#! py
+import sys,shutil
+if __name__ == '__main__':      # this way the module can be
+    '''usage:
+        $ ls *.mp3 | python rename-zh.py
+    '''
+    if sys.stdin:
+        for l in sys.stdin.readlines():
+            shutil.copyfile(l[:-1], "redStoneSoul-%s"%l[6:-1])
+```
+- 好的,没有尝试,随手写来,3分钟搞掂
+
+</t>
+<t tx="zoomq.20100714140857.5218">== TODO ==
+``不断维护的完美之途紀...``
+
+: PyBlosxom 静态化发布体系:
++ 升級到 1.5.1b
++ 摸索静态化发布
+ + 升迁旧样式
+ + 兼容插件
+ + 微调样式:
+    - 头部的标题索引入口文字,怎么也消除不了下划綇
+    - //[SyntaxHighlighter http://alexgorbatchev.com/wiki/SyntaxHighlighter:Usage] 的行号后有意外空白 //
+        - __伪问题__ fixed!
+    - 归档插件的输出页面中,日期链接失常,应该清除
++ Hg的 hooks 部署
++ dot 的自动包含图片热区定义的 t2t 处理
++ Leo 中的自动化发布脚本按钮
+</t>
+<t tx="zoomq.20100728103610.7583">
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+</t>
+<t tx="zoomq.20100728103610.7584">= ssbsGAE =
+
+ slow step by step GAE::
+  - 慢慢使用GAE
+  - 俺计划将基于GAE 的使用体验使用 `[ssbsGAE]` 的标签长期完整的记录分享下来 ;-)
+
+
+== web2py ==
+
+为什么先选择了 `web2py`?
+ - 因为俺比较懒散
+ - [web2py http://www.web2py.com/]
+ - Python web app. framework 中最 Rails 样的新兴实现！
+ - 将核心引擎打造的足够`K.I.S.S` 自然使用之！
+  - M ~ DB的ROM 足够快和全面
+  - C ~ 完全OO而且可以在线编辑的控制层
+  - V ~ 模板系统非常友好，可以直接嵌入 Py 脚本段！
+  - D ~ 设计界面内置在系统中！
+ - 而且文档齐全！
+
+
+,[/pybimage/2008/web2py/gluon-web-framework.png];
+
+
+== zqlib ==
+
+[Zqlib. http://wiki.woodpecker.org.cn/moin/ZqLib] ~ 挖了N久的坑了！
+ - 目标也一直在变化着
+ - 现在就先成为自个儿的想法/代码/知识片段收集仓库吧
+ - 算是比Blog 要自在,但是没有 wiki 开放的地儿,先
+
+
+== go! ==
+
+- 下载web2py:``svn co http://web2py.googlecode.com/svn/trunk/ web2py-read-only``
+- 直接就可以运行:
+
+,[/pybimage/2008/web2py/2008-05-08-145319_0-start_scrot.png];
+
+ - 哗,还给了 GUI 的服务台控制器!
+
+- 直接对目录进行修减,在 GAE SDK 中试运行一下:
+
+,[/pybimage/2008/web2py/2008-05-08-165528_1-loctest_scrot.png];
+
+ - 嗯嗯嗯,除了警告一切正常!
+ - 参考:[web2py in GAE http://blog.donews.com/limodou/archive/2008/05/08/1287684.aspx] ~ limodou
+
+
+- 上传应用:``python appcfg.py update zqlib/``
+
+,[/pybimage/2008/web2py/2008-05-08-165659_2-GAE_scrot.png];
+
+ - 成了!
+
+
+== TODO ==
+
++ 使用gae.db
++ 使用 GBase
++ 使用 reST/t2t
++ 发布 RESTful 接口
+</t>
+<t tx="zoomq.20100728103610.7585">= 背景 =
+- 折腾了两天将Python2.5 编译了5回也没有搞定,询问大家是否有经验了!
+- 一直知道 LEO 在Linux 下面的中文支持问题是Tk 造的孽
+ - http://linux.ccidnet.com/art/738/20060430/545737_1.html
+
+
+- 但是这两日怎么搞都不成！
+- 详细记录在[啄木鸟维基-ZoomQuiet/2007-04-27 http://wiki.woodpecker.org.cn/moin/ZoomQuiet/2007-04-27]
+ - **请大家给点建议吧**
+ - [leo sf.net 讨论 http://sourceforge.net/forum/forum.php?thread_id=1724164&amp;forum_id=10227]
+
+
+
+== 思路 ==
+我的步骤和思路:
+
++ 不能影响现存的Py2.4 环境
++ 使用Py2.5 进行尝试
+
+: 因为: 
+  LEO 仅仅需要Python with Tk+Pwm
+  - (不过要求Tcl 不能使用线程支持参数)
+: 所以:
+  只要安装好Py2.5 就可以:
+
+
+
+== 安装步骤 ==
+
++ 安装最新 Tcl/Tk 
+```
+download cvs snapshots from ftp://ftp.tcl.tk/pub/tcl/nightly-cvs/
+tcl/unix$ ./configure --enable-shared --enable-gcc
+$ make clean &amp;&amp; make 
+$ sudo make install
+...
+/tk/unix$ ./configure --enable-xft
+$ make clean &amp;&amp; make 
+$ sudo make install
+...
+```
+
+: 安装Python2.5 并绑定Tk8.5
+  根据[前人Py2.5安装经验 http://blog.csdn.net/fyzhao/archive/2006/12/27/1464614.aspx]
+
+```
+$ sudo cp path/to/libtcl8.5.so /usr/lib/
+$ sudo cp path/to/libtk8.5.so /usr/lib/
+...
+/python2.5-2.5.1.orig$ ./configure --enable-unicode=ucs4 \
+  --with-tk   --with-tk-library=/usr/local/lib --with-tk-include=/usr/local/include/tcl8.5 \
+  --with-tcl-library=/usr/local/lib --with-tcl-include=/usr/local/include/tcl8.5 
+$  make clean &amp;&amp; make
+$  make test
+```
+
+: 安装 LEO
+```
+cp -r Pmw /usr/local/lib/python2.5/site-packages/
+cp -r leo-4-4-3-alpha-2 /opt/bin/
+```
+
+
+
+== 失败的结果 ==
+
+- OK,结果 在 ``/opt/bin/leo-4-4-3-alpha-2/src`` 中直接调用leo.py 可以运行;
+- 但是LEO 不能正當影响 Ctrl+c|v|s 等等各种操作;直接就死了...
+```
+/opt/bin/leo-4.4.3a2/src$ python2.5 leo.py
+reading settings in /opt/bin/leo-4.4.3a2/config/leoSettings.leo
+reading /home/zoomq/.leoRecentFiles.txt
+rst3 plugin: SilverCity not loaded
+rst3 plugin not loaded: can not load docutils
+Traceback (most recent call last):
+
+  File ''/opt/bin/leo-4.4.3a2/src/leoEditCommands.py'', line 7903, in getAspellWithCtypes
+    self.aspell = aspell = ctypes.CDLL(g.os_path_join(self.aspell_bin_dir, ''aspell-15.dll''))
+
+  File ''/usr/local/lib/python2.5/ctypes/__init__.py'', line 340, in __init__
+    self._handle = _dlopen(self._name, mode)
+
+OSError: /opt/bin/leo-4.4.3a2/src/c:\aspell\bin/aspell-15.dll: cannot open shared object file: No such file or directory
+
+Traceback (most recent call last):
+  File ''leo.py'', line 353, in &lt;module&gt;
+    run()
+  File ''leo.py'', line 138, in run
+    g.app.gui.runMainLoop()
+  File ''/opt/bin/leo-4.4.3a2/src/leoTkinterGui.py'', line 186, in runMainLoop
+    self.root.mainloop()
+  File ''/usr/local/lib/python2.5/lib-tk/Tkinter.py'', line 1023, in mainloop
+    self.tk.mainloop(n)
+  File ''/usr/local/lib/python2.5/site-packages/Pmw/Pmw_1_2/lib/PmwBase.py'', line 1751, in __call__
+    _reporterror(self.func, args)
+  File ''/usr/local/lib/python2.5/site-packages/Pmw/Pmw_1_2/lib/PmwBase.py'', line 1777, in _reporterror
+    msg = exc_type + ' Exception in Tk callback\n'
+TypeError: unsupported operand type(s) for +: 'type' and 'str'
+```
+
+**到底咋回事儿泥？！**
+
+</t>
+<t tx="zoomq.20100728103610.7586">= Solaris 的FS决择 =
+节译:[Solaris Filesystem Choices http://www.osnews.com/story/19665/Solaris_Filesystem_Choices] 50%
+
+OpenSolaris 10 已经给用户提供了一大堆存储相关的支持，而且秉承UNIX的一贯习俗，
+都是经过严格测试了的,这里就四种通用文件系统进行分析，希望可以就部署方面给读者提供足够的信息以便最终选择:
+
+== UFS ==
+UFS 忒有历史凫，从80年代开始就是BSD等UNIX系統的默认FS；
+类似于 ext3 在 GNU/Linux 体系中的地位;
+Solaris 中的UFS来自 SunOS,而SunOS 中的UFS来自 BSD;
+
+不久前，UFS还是Solaris 中唯一的FS，不同于HP, IBM, SGI, 以及 DEC；
+SUN直到90年代也没有自主发展下一代的FS；
+原因有两:
+ + 多数情况下开发者需要第三方代码来支持新FS，而这需要许可
+ + 多数可以交易来的FS都是 Veritas 许可的(嘛意思?)
+
+
+Solaris10 只能从UFS启动,未来将允许从ZFS启动;在OpenSolaris 已经可以了;
+但是当前,所有Solaris 还是得至少有一个UFS分区;
+
+UFS虽然是个技术,但是贵在稳定和足够快;
+而且Sun 在其最后基础上进行了多方的优化；
+从Solaris 7 开始支持日志，进入本世纪，从Solaris 9 开始成为了默认特性；
+原先卷級日志是种效率不好的模型,但是有趣的是FreeBSD又重新加入了这种特性.
+
+UFS已经加入了对RAID支持良好的Solaris卷管理.
+
+2008UFSd准备进行什么修订?
+除作启动之外,UFS足够好用了,将来可由ZFS替代,
+当然看,UFS 对于数据库是个好选择(有普遍的基于文件系统权限控制的DB);
+同时对于保守的有固定工作且不想花时间太多时间配置的SA也是个好选择;
+
+
+== ZFS ==
+对ZFS 已经有N多报道了,同时也收到了从Linux 阵营习惯性的嘲笑.
+
+ZFS 不是魔法,但是足够COOL 了.
+我喜欢将 UFS/ext3 视作首代UNIX文件系统,
+而 VxFS和XFS 视作二代FS,
+那未 ZFS 就是第一个三代UNIX FS!
+
+ZFS已不仅仅是个文件系统了.
+实际算是混合文件系统+卷管理器.
+以上功能的集成赋予了ZFS极大的灵活性.
+同时也是著名的"rampant layering violation"来源.
+不过千万记住,这只是开发特性.我从来没有在打开文件时见过"layering violation"
+
+ZFS的混合意味着你可以管理不同传统方案中的存储.
+你能将文件系统映射到分区,同时可以将另一个映射成逻辑巻,每个逻辑巻又涉及一个或是多个硬盘.
+在ZFS 中所有硬盘分配在一个存储池中.
+每个ZFS文件系统从池中使用所有硬盘,且文件系统不分卷,可以使用全部空间.
+这样没有重定分区大小的烦恼，一切是自动调整的，
+不断增长/收缩的文件系统不是靠谱的管理方式。
+
+ZFS同时在文件系统级别提供了可靠性检验.
+所有数据读/写都可以使用认证(提供了最严厉的SHA256),
+失败时双备份是支持的(元数据是在单一硬盘,而数据是经典的RAID结构),
+
+ZFS provides the most robust error checking of any filesystem available. All data and metadata is checksummed (SHA256 is available for the paranoid), and the checksum is validated on every read and write. If it fails and a second copy is available (metadata blocks are replicated even on single disk pools, and data is typically replicated by RAID), the second block is fetched and the corrupted block is replaced. This protects against not just bad disks, but bad controllers and fibre paths. On-disk changes are committed transactionally, so although traditional journaling is not used, on-disk state is always valid. There is no ZFS fsck program. ZFS pools may be scrubbed for errors (logical and checksum) without unmounting them.
+
+The copy-on-write nature of ZFS provides for nearly free snapshot and clone functionality. Snapshotting a filesystem creates a point in time image of that filesystem, mounted on a dot directory in the filesystem's root. Any number of different snapshots may be mounted, and no separate logical volume is needed, as would be for LVM style snapshots. Unless disk space becomes tight, there is no reason not to keep your snapshots forever. A clone is essentially a writable snapshot and may be mounted anywhere. Thus, multiple filesystems may be created based on the same dataset and may then diverge from the base. This is useful for creating a dozen virtual machines in a second or two from an image. Each new VM will take up no space at all until it is changed.
+
+These are just a few interesting features of ZFS. ZFS is not a perfect replacement for traditional filesystems yet - it lacks per-user quota support and performs differently than the usual UFS profile. But for typical applications, I think it is now the best option. Its administrative features and self-healing capability (especially when its built in RAID is used) are hard to beat. 
+
+== SAM and QFS ==
+SAM and QFS are different things but are closely coupled. QFS is Sun's cluster filesystem, meaning that the same filesystem may be simultaneously mounted by multiple systems. SAM is a hierarchical storage manager; it allows a set of disks to be used as a cache for a tape library. SAM and QFS are designed to work together, but each may be used separately.
+
+QFS has some interesting features. A QFS filesystem may span multiple disks with no extra LVM needed to do striping or concatenation. When multiple disks are used, data may be striped or round-robined. Round-robin allocation means that each file is written to one or two disks in the set. This is useful since, unlike striping, participation by all disks is not needed to fetch a file - each disk may seek totally independently. QFS also allows metadata to be separated from data. In this way, a few disks may serve the random metadata workload while the rest serve a sequential data workload. Finally, as mentioned before, QFS is an asymmetric cluster filesystem.
+
+QFS cannot manage its own RAID, besides striping. For this, you need a hardware controller, a traditional volume manager, or a raw ZFS volume.
+
+SAM makes a much larger backing store (typically a tape library) look like a regular UNIX filesystem. This is accomplished by storing metadata and often-referenced data on disk, and migrating infrequently used data in and out of the disk cache as needed. SAM can be configured so that all data is staged out to tape, so that if the disk cache fails, the tapes may be used like a backup. Files staged off of the disk cache are stored in tar-like archives, so that potentially random access of small files can become sequential. This can make further backups much faster.
+
+QFS may be used as a local or cluster filesystem for large-file intensive workloads like Oracle. SAM and QFS are often used for huge data sets such as those encountered in supercomputing. SAM and QFS are optional products and are not cheap, but they have recently been released into OpenSolaris. 
+
+
+== VxFS ==
+The Veritas filesystem and volume manager have their roots in a fault-tolerant proprietary minicomputer built by Veritas in the 1980s. They have been available for Solaris since at least 1993 and have been ported to AIX and Linux. They are integrated into HP-UX and SCO UNIX, and Veritas Volume Manager code has been used (and extensively modified) in Tru64 UNIX and even in Windows. Over the years, Veritas has made a lot of money licensing their tech, and not because it is cheap, but because it works.
+
+VxFS has never been part of Solaris but, when UFS was the only option, it was a popular addition. VxVM and VxFS are tightly integrated. Through vxassist, one may shrink and grow filesystems and their underlying volumes with minimal trouble. VxVM provides online RAID relayout. If you have a RAID5 and want to turn it into a RAID10, no problem, no downtime. If you need more space, just convert it back to a RAID5. VxVM has a reputation for being cryptic, and to some extent it is, but it's not so bad and the flexibility is impressive.
+
+VxFS is a fast, extent based, journaled, clusterable filesystem. In fact, it essentially introduced these features to the world, along with direct IO. Newer versions of VxFS and VxVM have the ability to do cross-platform disk sharing. If you ever wanted to unmount a volume from your AIX box and mount it on Linux or Solaris, now you can.
+
+VxFS and VxVM are still closed source. A version is available from Symantec that is free on small servers, with limitations, but I imagine that most users still pay. Pricing starts around $2500 and can be shocking for larger machines. VxFS and VxVM are solid choices for critical infrastructure workloads, including databases.
+
+= 结论 =
+Conclusion
+
+These are the four major choices in the Solaris on-disk filesystem world. Other filesystems, such as ext2, have some degree of support in OpenSolaris, and FUSE is also being worked on. But if you are deploying a Solaris server, you are going to be using one or more of these four. I hope that you enjoyed this overview, and if you have any corrections or tales of UNIX filesystem history, please let me know.
+
+
+About the Author
+
+John Finigan is a Computer Science graduate student and IT professional specializing in backup and recovery technology. He is especially interested in the history of enterprise computing and in Cold War technology. 
+
+
+= TODO =
+
+</t>
+<t tx="zoomq.20100728103610.7587">
+= FF3 =
+看周围M$ 用户都主动升迁到 FF2.0.0.14 超级稳定版本了，
+
+但是Ubuntu7.10 的源中依然是 2.0.0.13+,有点郁rz..
+
+
+== SwiftFox 3.0pre ==
+不过 SwiftFox 已到了 3.0pre!
+通过 apt 立即可以使用:
+
+
+== 探查 ==
+但是插件不能使用``Nightly Tester Tools`` 轻易全开...
+ 使用 安全模式::
+```
+swiftfox -safe-mode
+```
+ - 关闭所有 扩展和插件后，逐一尝试，确认最小可用组合::
+
+
+=== 配置 ===
+
+启用扩展： [16]
+- Adblock Plus 0.7.5.4: http://adblockplus.org/
+- CHM Reader 0.2.1.1: http://sourceforge.net/projects/chmreader/
+- Copy Link Name 1.2.5: http://www.captaincaveman.nl
+- DownThemAll! 1.0.1: http://downthemall.net/
+- FEBE 5.3.1: http://customsoftwareconsult.com/extensions
+- Firefox Universal Uploader (fireuploader) 0.3.2: http://www.fireuploader.com
+- MLdonkey Protocol Handler 2.0: http://www.informatik.uni-oldenburg.de/~dyna/mldonkey/
+- Nightly Tester Tools 1.3: http://www.oxymoronical.com/web/firefox/nightly
+- NoScript 1.6: http://noscript.net
+- PDF Download 1.0.1.1: http://www.pdfdownload.org
+- Right Encoding 0.2.2: http://heygom.com/extensions/
+- ScrapBook 1.3.3.2: http://amb.vis.ne.jp/mozilla/scrapbook/
+- SwiftTabs 0.3.3.1: http://heygom.com/extensions/
+- Tab Mix Plus 0.3.6.1.080416: http://tmp.garyr.net
+- ubufox 0.4~beta1: http://www.google.com/search?q=Firefox%20ubufox
+
+禁用扩展： [35]
+- Access Flickr! 1.71: http://flickr.com/photos/hamed
+- Add to Search Bar 1.7: http://maltekraus.de/Firefox/search-tools
+- Autohide 1.1.5: http://www.krickelkrackel.de/autohide/
+- Brookstone 0.0.2: http://www.mobilebrook.com
+- Chinese Simplified (zh-CN) Language Pack 2.0.0.7: http://www.google.com/search?q=Firefox%20Chinese%20Simplified%20%28zh-CN%29%20Language%20Pack
+- Classic Compact 3.0.6: http://blog.environmentalchemistry.com/2008/03/firefox-theme-classic-compact.html
+- ColorZilla 1.9: http://www.colorzilla.com/
+- Compact Menu 2 2.0.3: https://addons.mozilla.org/firefox/108029/author/
+- Copy Plain Text 0.3.3: http://mozmonkey.com/
+- CSSViewer 1.0.2: http://www.google.com/search?q=Firefox%20CSSViewer
+- CustomizeGoogle 0.71: http://www.customizegoogle.com/
+- Fasterfox 2.0.0: http://fasterfox.mozdev.org/
+- Firebug 1.05: http://www.getfirebug.com/
+- FlickrFox 1.3.0: http://philmccluskey.com/projects/flickrfox/
+- FoxyTunes 2.9.5.31: http://www.foxytunes.com/
+- Gmail Skins 0.9.8: http://gmailskins.mozdev.org
+- Google Gears 0.3.14.0: http://gears.google.com/
+- Google Toolbar for Firefox 3.0.20070525L: http://www.google.com/
+- Google Web Comments 1.4.20070529.0: http://toolbar.google.com/firefox/extensions/webcomments/
+- Greasemonkey 0.7.20080121.0: http://www.greasespot.net/
+- Hide Menubar 1.0.20080310: http://forum.moztw.org/viewtopic.php?t=15303
+- It's All Text! 0.8.4: http://addons.mozilla.org/firefox/4125
+- Locale Switcher 2.1: http://benjamin.smedbergs.us/switch-locales/
+- MeasureIt 0.3.6: http://www.kevinfreitas.net/pro/extensions/
+- Modify Headers 0.6.4: http://www.garethhunt.com/
+- Mozilla XForms 0.8.5: http://www.mozilla.org/projects/xforms/
+- MR Tech Local Install 5.3.2.3: http://www.mrtech.com/extensions/local_install/
+- Ook? Video Ook! 0.6.6: http://ook.dedos.net/
+- Pearl Crescent Page Saver Basic 1.7: http://pearlcrescent.com/products/pagesaver/
+- Resizeable Textarea 0.1d: http://www.google.com/search?q=Firefox%20Resizeable%20Textarea
+- Screen grab! 0.93: http://andy.5263.org/screengrab/
+- ScribeFire 1.4.8: http://www.scribefire.com/
+- Split Browser 0.4.2007120601: http://piro.sakura.ne.jp/xul/_splitbrowser.html.en
+- TwittyTunes 0.5.3.1: http://www.foxytunes.com/twittytunes/
+- Web Developer 1.1.5: http://chrispederick.com/work/web-developer/
+- wmlbrowser 0.7.17: http://wmlbrowser.mozdev.org
+
+全部扩展： 51
+
+已安装主题： [8]
+- azureFox 0.96.1: http://www.radar.250x.com/
+- Firefox (default): http://www.mozilla.org/
+- Human Theme 0.5: http://www.ffnn.nl/
+- iFox 2.5.1: http://www.radar.250x.com
+- miniFox 0.8.2: http://membres.lycos.fr/sethnakht
+- Pinstripe 5.0: http://www.webether.com
+- Tangerine Theme 0.5: http://www.ffnn.nl/
+- Tango Theme 0.5: http://www.ffnn.nl/
+
+已安装插件： (12)
+- DivX Browser Plug-In
+- DivX® Web Player
+- Java(TM) Plug-in 1.6.0_03-b05
+- MozPlugger 1.8.0 handles QuickTime and Windows Media Player Plugin
+- mplayerplug-in 3.40
+- QuickTime Plug-in 6.0 / 7
+- QuickTime Plug-in 7.2.0
+- RealPlayer 9
+- Shockwave Flash
+- Totem Web Browser Plugin 2.20.0
+- Windows Media Player Plug-in 10 (compatible; Totem)
+- Windows Media Player Plugin
+
+
+== 成了！ ==
+开始快乐的使用！
+
+. [/pybimage/2008/2008-04-21-144725_685x652_scrot.png];  
+
+
+
+</t>
+<t tx="zoomq.20100728103610.7588">= 很好,很强大! =
+升级!需要理由嘛?
+ - 不需要嘛?
+  - 需要嘛?! ...
+
+: 其实因为忍不住哪！
+    - 19号下载到CD版本的，
+    - 当天HP 520(GQ349AA)也配发到手里
+    - 为了20号的会课先忍了一下
+    - 21号回来就说不得要安装,将原先的 红旗Linux 洗掉~瞧着尽力伪装成M$ 的樣子就想吐
+
+
+== 流水 ==
+
+: 硬盘:
+ - 原来以为是简单的先清后win2k3 再Ubuntu 的事儿,结果,没有那么简单!
+ - 不删除 红旗,win2k3 不认硬盘,使用Ubuntu Alternate 分区重写后,依然!
+ - 罢了,直接来!
+ - Ubuntu 7.10 GG 的Alternate 好象不完整在安装到89%时报错退出!
+ - 只有使用 Ubuntu 7.04 FF 的DVD 先安装成功,然后升级了 ;(
+
+: 分区,最终规划:
+ - 其中前200Mb 有问题,无法格式化,只好让掉...
+. [/pybimage/2007/2007-10-23-202858_mtab_scrot.png];  
+
+
+: 升级:
+ - 通过Alternate CD升级,1小时50分钟,也下载了将近100Mb的东西,平顺完成!
+ - 很智能,将原先的一些定制源也都自动替换成了 GG 的!!
+
+
+== 惊喜 ==
+
+: SETI@home:
+ - 直接包含在源中了! 
+```
+:~$ acs boinc
+boinc-app-seti - SETI@home application for the BOINC client
+boinc-client - core client for the BOINC distributed computing infrastructure
+boinc-dbg - debugging symbols for BOINC binaries
+boinc-dev - development files to build applications for BOINC projects
+boinc-manager - GUI to control and monitor the BOINC core client
+kboincspy - monitoring utility for the BOINC client
+kboincspy-dev - development files for KBoincSpy plugins
+.
+```
+
+: 3D特效:
+ - 内置的非常足够 COOL 了!!
+
+
+
+= 结论 =
+**Ubuntu 越來越贴近用户的实际需求了,反应的快,强大的趋势明显**
+ - 期待 [/pybimage/2007/gobuntu-med.jpg] 的快速成长!
+ - http://www.ubuntu.com/products/whatisubuntu/gobuntu
+
+
+= TODO =
+ + WiFi 怎么也不能连接到公司的AP中,研究中;家里的 6.06 也得整了...p2p下载已经停了些日子了...
+ + VBox 带个能用网银的系统,也得整! 不想再多系统启动了,就Ubuntu!
+ + [XFS 是个蒙事儿的主 http://www.ibm.com/developerworks/cn/linux/l-jfs/],还是得经典的FS才成哪! 周末准备回写成 ReiserFS
+
+
+
+</t>
+<t tx="zoomq.20100728103610.7589">= 期待，但不等待 =
+升级!需要理由嘛?
+ - 不需要嘛?
+  - 需要嘛?! ...
+
+: 其实只是心理原因;-)
+    - 7.10 使用非常舒服
+    - 8.04 也没有ZFS哪
+    - 考虑FreeBSD ing..
+    - 不过，不跳票的 Ubuntu HH 还是非常想的，如果:
+     - 字体更加好了
+     - FF3支持所有主要插件了
+     - 输入法默认是 bridge-scim 了
+     - ...
+
+. [/pybimage/2008/804UbuntuCountdown_09days.jpg];  
+
+
+
+</t>
+<t tx="zoomq.20100728103610.7590">Ubuntu Edgy Eft Release Party In Beijing
+ - http://www.ubuntu.com.cn/releaseparty
+ - [中科院自动化所自由软件协会  http://fsa.ia.ac.cn/]以及CSDN 合作
+
+
+无责任报道 061102 19:30~21:00 如下
+ - [/pybimage/edubuntu_logo2.png]
+ - [/pybimage/xubuntu_logo2.png]
+ - [/pybimage/kubuntu_logo2.png]
+
+
+= 动机 =
+
+俺是怀着以下目的:
+ + 代朋友询问 6.10 的宽屏支持问题
+  - [Ericzhao http://blog.chinaunix.net/u/12701/showart_194451.html]还是自个儿解决了...
+ + 混点奖品
+ + 收藏一张 Ubuntu6.10 光盘
+
+
+= 流水账 =
+
+- 18:25出发,自行车
+- 18:45到中科院自动化所自动化大厦
+- 18:55挤入会场
+- 19:00～19:15　体会嘈杂，贡献体热
+- 19:20 主角入场
+- 19:35 Mark Shuttleworth 聊天，Amy 翻译:
+ + 自由软件和Ubuntu:
+    - e.g. FF 变化非常慢，但是会突然变的流行
+ + Ubuntu 发布工程:
+    - 基于工程师的需求和呼声的
+ + 6.10 Edgy Eft 特性
+    - 35s reroot,tea fast for this version...
+    - thin clien support;直观的好处是节省企业成本
+    - //net pc?	retun Uninx age...//
+    - understand linux is beat begin with lts(Gentoo)
+ + next week start 7.04 version;在美国开始
+    - 新功能: 
+     + SGL/3D  desktop suport
+     + windows game support!
+    - howto plugin u idea into Ubuntu:
+     + wiki page report;为什么重要的?如何实现?
+     + Forum/wiki 等等中找到代理人进行意见表达
+     + 获取corel dev. 的联系;电话,Skype..直接影响确认的人将意见带入版本意见会议
+       - 注意时区 ;) ...
+
+
+== 提问互动 ==
+```~20:30```
++ QQ 加入请求:
+ - 自由软件原则 soso..
++ 如何快速部属:
+ - 支持标准的网络安装控制..
++ 定制安装:
+ - liveCD 不如 Alternate(文字安装)光盘实用
++ Ubuntu 到底提供了什么有别于Winodws 的!?
+ - **Freedom!!!**
+ - 透明的详进的软件包管理
+ - 针对你的各种兴趣 自由软件环境可以给你更加多的选择
++ 安全升级Ubuntu!?总是崩溃
+ - GTK error?依赖问题??
+ - a: 没有使用标准工具升級
+ - b: 定制系统的升级可能有问题
+ - c: 自由软件本身有风险,需要我们主动参与解决
++ Debian包的兼并有计划?
+ - 使用 twin 作类比
+ - Ubuntu 和 Debian 将是完全不同的系统...!不论有多象....
+   - Ubuntu is GPL, so every change is publish to Debian;
+   - not equal to Debian'a goal
++ Gentoo和Ubuntu?
+ - Gentoo is better Ubuntu?
+  - Gentoo 是学习Linux 本身的好系统
+  - Gentoo 工程师没有在Ubuntu 团队中(曾经有)
+ - 学习Ubuntu 从开始Gentoo 比较好?
+  - Ubuntu 致力于与其它Linux 厂商合作
++ abt Mark space trip:
+ - 无法形容,无以类比的体验
+ - 8个月的训练-&gt;drink-&gt;训练-&gt;drink...发射前没有事儿可作...当地体验,民风..遇见加油成员..过程中有非常多的疯狂体验..物种的自觉...发射的报道..5秒飞过中国...15分从北美到北非..宇宙中看不到国家..一定也是中国未来宇航轨迹..有美国人员自习中文for work in China...
++ GPL3
+ - 是否合适不一定,但是探讨模式is good
++ 如何融合不同开发团队的思想/目标?
+ - Ubuntu 项目的策略:促进分享!在不同的 kbuntu .... 团队间..存在即真理,有人用,就可以存在于Ubuntu!
+ - Ubuntu 的工作就是促成项目的发布
++ 公司命名....
+ - canonical.com 的公司名..象书名,直接彰现主张..canonical -- 最简单直接的解决方法
++ start dict 问题:
+ - 升级时期 Ubuntu/Debian 的发布错开了
+ - 还有词典的版权问题
++ suggest for Ubuntu
+ - 自由软件不是任何抛出想法就有人作...
+ - QQ
+```
+又是QQ,这可怜的软件折磨我们这么多年了,难道仅仅因为其中的一些爱情故事;
+中国人就认定了要永远受到一家公司的不断要胁而安装越來越肥的软件?!
+竟然连自由软件爱好者都不能免俗?!
+建议区分真伪自由软件爱好者的标准之一检验是否使用QQ...
+```
+ - 中文支持
++ 自由软件的商业生存:
+ - not sale License just Servise...还有培训业务...政府支持
++ .NET 框架可以在Ubuntu 中支持?
+ - Ubuntu 没有怎么研究所以没有办法回答
++ 如何成为Ubuntu开发人员 
+ - 各种人士加入进来以后..沟通全球人的智慧..沟通技巧和欲望是加入Ubuntu 世界的主要技能
+ - canonical.com 现在70 人开发团队,分布在18个国家
+ - 在社区中表现和证实自个儿,然后提升为正式
++ Mark 的人生下一步
+ - 代替Windows....哈哈哈..人生目标也在寻求中
++ 为什么投资Ubuntu:
+ - Mark 生平..接触PC和Internet 很迟..大学时接触了 SlackwareLinux..windowx3.1 时有很差的体验...通过Linux 流畅的进入Internet..发现/把握机会..了解计算机..大学时成立咨询公司解答windows的网络问题来获利..mail server..南非的带宽非常有限..深入理解TCP/IP..使用自由软件..实现加密服务..美国的法令和现实不合(加密都是自由软件但是法令禁止出口)..甚至于IBM也不能和我竞争..1999年掌握了安全加密服务50%的世界份额, 卖出时获得6亿美元..**所以回馈自由软件世界**..
+ - 有很多著名商业公司是基于自由软件的!
+
+
+
+== 尾声 ==
+
+- 20:40 Ubuntu 社区中国成员想介绍社区规范
+ - 气氛控制不住,草就
+ - IRC 中国使用人数不多
+- 21:10 基本over,聪明的冲前要签名了
+
+
+
+=== 个人观点 ===
+: 环境:
+  - 忒闷了!
+  - 顶层的小会议厅,RMS 也曾经来访过,传说个人长势太强下面的只能耹听,Mark 毕竟年轻,技术方面也没有什么名声,现场是火爆的
+: 翻译:
+  - 忒差了....
+  - Amy 作为Ubuntu 唯一驻中国代表,本身显然是纯商务人士,技术名词,经典隐喻不甚了了
+: Mark:
+  - 好年轻! 想来Ubuntu 有希望!
+  - 现在Ubuntu 社区人员虽然没有Debian 的多,但是更新速度却要快很多,而且易用为普通人所用的目标和思想更加可以吸引贡献
+  - 在其它自由软件掌旗者们老去后,只有Mark 可以凭一已之力,连续一贯的推进Ubuntu 吧...
+
+
+
+==== 相关资料 ====
+- [测试－－选择适用的linux发布版本 http://dormforce.net/Blog/netsnail/archive/2006/03/12/8380.aspx]  
+ - http://www.zegeniestudios.net/ldc/
+- [LiveCD 下载排名 http://www.frozentech.com/content/livecd.php?pick=Linux_x86-64&amp;showonly=All&amp;sort=&amp;sm=1]
+- Bill :"I recommend Ubuntu!"
+ - http://static.flickr.com/96/281193199_519775b141.jpg
+
+
+== 照片 ==
+
+- 凤凰205E拍摄，乐凯400黑白胶卷，需要冲印扫描，才可以发布，耐心准备ing...
+
+
+
+</t>
+<t tx="zoomq.20100728103610.7591">
+= 为什么要升级 =
+升级!需要理由嘛?
+ - 不需要嘛?
+  - 需要嘛?! ...
+
+: 其实俺是被廹的...
+    - 原本Dapper 使用的非常的好,而且进行了巨量的配置,根本不想升级的
+    - 但是,人在江湖身不由已哪...
+```
+E: Problem with MergeList /var/lib/apt/lists/ \
+    ubuntu.cn99.com_ubuntu-cn_dists_dapper_main_binary-i386_Packages
+E: 无法解析或打开软件包的列表或是状态文件。
+```
+    - 这种软件包重新时的错误已经烦了快一个月了
+    - 为了稳定高效的考虑,还是要升级
+: 而且!
+    - [把你的 Ubuntu 打造为 OSX http://www.osxcn.com/ubuntu/linux-desktop-imitating-osx.html]
+    - 呜乎矣哉! 有人能够抵製这种诱惑嘛?!
+    -
+
+
+= 升级?! =
+: 但是!
+    - 经过[48小时的尝试 http://wiki.woodpecker.org.cn/moin/ZoomQuiet/2007-05-08]
+    - 以及[友人的马后炮 http://nicholasdsj.blogspot.com/2007/04/ubuntu-704-feisty-fawn.html]
+    - 死了逐步升级的心..
+    -
+
+
+= 重装升级! =
+幸好相关DVD早就准备好,而且对于分区也有万全的策略,重装非常顺畅
+
+
+== 流水 ==
++ 重启,安装!值得注意的是将分区根据过往使用体验进一步合理化:
+ - [/pybimage/070511_myUbuntu_partition_scrot.png]
+ - 
++ 50分钟快速从DVD 就安装完成了Gnome 环境,因为保存了``/home``以及``/opt``目录,90%的定制就继承了下来,笑;-)
++ 重新进入桌面后进行后期定制,1小时以内恢复工作状态:
+    + 更新源
+```
+# beryl release
+### wget http://ubuntu.beryl-project.org/root@lupine.me.uk.gpg -O- | sudo apt-key add -
+deb http://ubuntu.beryl-project.org feisty main
+deb-src http://ubuntu.beryl-project.org feisty main
+
+### zoomq::070510 for ies4linux
+# wget -q http://wine.budgetdedicated.com/apt/387EE263.gpg -O- | sudo apt-key add -
+deb http://us.archive.ubuntu.com/ubuntu feisty universe
+deb http://wine.budgetdedicated.com/apt feisty main
+
+# 电信用户首选国内源--cn99!
+deb http://ubuntu.cn99.com/ubuntu/ feisty main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ feisty-security main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ feisty-updates main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ feisty-proposed main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ feisty-backports main restricted universe multiverse
+deb-src http://ubuntu.cn99.com/ubuntu/ feisty main restricted universe multiverse
+deb-src http://ubuntu.cn99.com/ubuntu/ feisty-security main restricted universe multiverse
+deb-src http://ubuntu.cn99.com/ubuntu/ feisty-updates main restricted universe multiverse
+deb-src http://ubuntu.cn99.com/ubuntu/ feisty-proposed main restricted universe multiverse
+deb-src http://ubuntu.cn99.com/ubuntu/ feisty-backports main restricted universe multiverse
+```
+    + sudo 化:
+```
+#修订/etc/sudoers 相关行为
+%admin ALL=(ALL) NOPASSWD:ALL
+```
+    + 显示及数字板支持:``WACOM,915resolution`` 都是源自有的,直接安装就好
+    + 字体美化!
+    + 
+
+. [/pybimage/070511_yuanti_cfg_scrot.png];
+    + SCIM 配置并加载最爱的[zqBXM2006 http://share.zoomquiet.org/tools/zqBXM2006.7z]
+    + 多媒体配置,安装最爱的 [mocp http://moc.daper.net/]^在命令行播放音乐^ + [mplayer http://www.mplayerhq.hu/design7/news.html]^全能媒体播放^ 立即就可以恢复音乐背景环境了!
+. [/pybimage/070511_mocp_zh_scrot.png];    
+
+
+**KO!其它的就可以随用随装了,已经可以投入到无限的为人民服务的日常生活中了,是也乎^__^**
+
+
+== 惊喜 ==
++ Gnome 2.18.1 果然强悍的多,不用什么 Xfce4 ,本身就非常快速了...
++ 默认是Python2.5了! 而且配合的Tk8.4 居然也可以支持中文输入了
+. [/pybimage/070511_ubuntu704_leoZhKO_scrot.png];
+ - 单为这,也值得重装了哪!
++ 另外 ``inkscape`` 也终于可以保存了 -- [crash in dapper when read file http://ubuntuforums.org/showthread.php?t=294093]
++ 最大的惊喜是桌面特效的稳定丰富爽直的获取!
++ 终于可以正常``挂起``了!
+    - 不过,默认配置,笔记本屏幕关上后过段时间就会关闭显示，而且无法重新激活！
+    - 基于前人的经验 [Thinkpad上安装Ubuntu笔记 http://www.linuxsky.net/html/200606/3560.html]配置后问题依然
+    - 最后使用``Ctrl+Alt+l`` 手工锁屏幕就好
+    - 另外电源配置时使用 ``挂起``
+    -
+
+
+=== 但是... ===
+
+: 键盘布局
+    - 根据[安装fesity 后的键盘问题 http://forum.ubuntu.org.cn/about51819.html&amp;sid=eb5fea294a839836417ebf76d62ee221]
+    - 快速配置就好,而且针对Dell Laptop 居然有专门的预设
+    - 
+- [/pybimage/070511_dell_keylayout_scrot.png]
+    - 但是,没有左边的``Alt,Ctrl`` 支持...
+    - 
+
+: 多媒体支持:
+    - 著名的``w32codes`` 最终还是从源里清除了...
+    - 有人贡献了经验:[ubuntu 7.04 下播放rm http://blog.chinaunix.net/u1/34834/showart.php?id=291548]
+    - 快速解决之!
+    -
+
+: 字体惊魂
+    - 原先以上的字体设定是为了追求象OSX环境，结果发现有中文标点被显示为类似阿位伯文字的现象
+    - 又受到友人蛊惑尝试[黑体解决方案 http://www.osxcn.com/ubuntu/edgy-stheiti.html#comment-15473]
+    - 结果X 都启动不起来了
+    - 寒了半天恢复后,发现被Session 过的程序菜单都出不来了,折腾半天才发现,不能使用字体配置中的``LCD`` 专用配置!! 最好的配置如下
+    -
+
+- [/pybimage/070514_Beryl-ZHfonts_510X295_scrot.png]
+-
+
+
+
+
+= 结论 =
+**GNU/Linux 下面的重装和M$的重装云泥之差哪!**
+ - 没有注册表,都是配置文件,只要配置文件在,一切都在
+ - 没有分区,只有目录,只要系统是同一系列的,各种软件都在固定的地方,不用重新配置什么,重装后,原先的配置直接可用!
+ - 但是!毕竟每个发行版本以及自个儿的定制差别是极其大的,每周积累的升级也是非常多的,不破不立,该重装时就重装!
+ - 
+
+
+
+</t>
+<t tx="zoomq.20100728103610.8345">思路::
+    + hacking graphviz 插件追加 map 输出
+    + hacking 图片附件输出,包含 uasemap 属性
+        - Ajax 
+        - MoinMoin 核心
+</t>
+<t tx="zoomq.20100729092538.7643">只要有URL 嵌入,包含到其它页面时就出错!
+
+UnicodeDecodeError
+
+'ascii' codec can't decode byte 0xe6 in position 440: ordinal not in range(128)
+
+If you want to report a bug, please save this page and attach it to your bug report.
+
+定位为
+&lt;map id="hostLegendG" name="hostLegendG"&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="普配主机" alt="" coords="101,36,173,63"/&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="高配主机" alt="" coords="197,36,269,63"/&gt;
+&lt;/map&gt;
+其中的 title 属性无法正常包含时处置...</t>
+<t tx="zoomq.20100729092538.7644">fixed:
+    /usr/local/lib/python2.5/site-packages/MoinMoin/formatter/text_html.py
+    def attachment_image(self, url, **kw):
+        _ = self.request.getText
+        pagename, filename = AttachFile.absoluteName(url, self.page.page_name)
+        fname = wikiutil.taintfilename(filename)
+        exists = AttachFile.exists(self.request, pagename, fname)
+        if exists:
+            kw['css'] = 'attachment'
+            kw['src'] = AttachFile.getAttachUrl(pagename, filename, self.request, addts=1)
+            title = _('Inlined image: %(url)s') % {'url': self.text(url)}
+            if not 'title' in kw:
+                kw['title'] = title
+            # alt is required for images:
+            if not 'alt' in kw:
+                kw['alt'] = kw['title']
+            #   100729 Zoom.Quiet fixed for support imagemap fro Graphviz
+            kw['usemap'] = "#%s"%kw['alt']
+            return self.image(**kw)
+    
+    &lt;img alt="techparty" class="attachment" name="techparty" src="/moin/WikiSandBox?action=AttachFile&amp;amp;do=get&amp;amp;target=techparty-zoomq-2010-07-09-163848_457x465_scrot.png" title="techparty" /&gt;</t>
+<t tx="zoomq.20100730100904.4046">fixed:
+    ~/moin/data/plugin/parser/MoinGraphViz/main.py
+输出map...
+def renderGraphImage(tool, format, imagefilename, dotfilename):
+    #100728 Zoom.Quiet fixed for export URL hotarea map export
+    cmd = '%(tool)s -T%(format)s -o"%(imagefilename)s" -Tcmapx -o "%(imagefilename)s.map" "%(dotfilename)s"' % locals()
+    #cmd = '%(tool)s -T%(format)s -o"%(imagefilename)s" "%(dotfilename)s"' % locals()
+    print '[TRACE] executing:', cmd
+    os.system(cmd)
+
+嵌入map...
+class Parser:
+...
+    def format(self, formatter):
+        w = self.request.write
+        ##w('&lt;div style="border:3px ridge gray; padding:5px; width:95%; overflow:auto"&gt;')
+        s = self.renderer.render(self.raw)
+        imgname = os.path.basename(s)
+        #s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
+        s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
+        #   100728 Zoom.Quiet fixed for include URL hotarea map define
+        pfImgMap = "%s/%s.map"%(self.attapath,imgname)
+        s += fread(pfImgMap)
+        print '[TRACE] attachment URL:', s
+        w(s)
+        ##w('&lt;/div&gt;')
+
+
+&lt;img alt="graphviz-hostLegendG-2a5a8760fc8af107c7fa99585314feb5a14e6601.png" class="attachment" src="/moin/KupHostsMapping/MapLegend?action=AttachFile&amp;amp;do=get&amp;amp;target=graphviz-hostLegendG-2a5a8760fc8af107c7fa99585314feb5a14e6601.png" title="graphviz-hostLegendG-2a5a8760fc8af107c7fa99585314feb5a14e6601.png" /&gt; &lt;map id="hostLegendG" name="hostLegendG"&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="普配主机" alt="" coords="101,36,173,63"/&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="高配主机" alt="" coords="197,36,269,63"/&gt;
+&lt;/map&gt;
+
+
+
+</t>
+<t tx="zoomq.20100730100904.4047">graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png</t>
+<t tx="zoomq.20100730103931.6531">@language Moin
+MoinMoin插件hacking
+~Graphviz 图谱可点击!
+&lt;&lt;t2t head&gt;&gt;
+
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20100730103931.6532">= 需求 =
+[GraphVizForMoin http://moinmo.in/GraphVizForMoin] 插件部署到MoinMoin 中之后,很爽直!
+
+参考: [在维基中使用 Graphviz http://wiki.woodpecker.org.cn/moin/GraphVizForMoin]~ 啄木鸟中的效果
+
+可以说,解决了在维基中无法快速表达思维导图的问题:
+ - 以往都是使用 FreeMind 绘制后截屏附件上来
+ - 或是使用插件 [ParserMarket/FreeMind - MoinMoin http://moinmo.in/ParserMarket/FreeMind] 将文件使用Flash 控件就地发布出来~中文一直是个问题
+
+但是,使用 Graphviz 的dot 图形脚本在维基中书写图谱一直以来残念的问题是无法输出可点击的有热区的导图!
+- 有点希望的 [ParserMarket/ImageMap/ReleaseNotes - MoinMoin http://moinmo.in/ParserMarket/ImageMap/ReleaseNotes] 插件使用起来和 dot 命令输出的标准图片热区数据又实在相差太远...
+
+怎么整?! 自个儿来!
+
+
+
+
+</t>
+<t tx="zoomq.20100730104744.4052">== Hacking ==
+: 思路:
+    - hacked MoinGraphViz 令其使用``-Tcmapx -o **.mp``命令,输出热区定义
+    - hacked MoinMoin 相关脚本令输出到HTML 的图片认识可能的热区定义
+
+
+: fxied:
+    - ``path/2/moin运行实例/data/plugin/parser/MoinGraphViz/main.py`` 是插件的主体
+    - 很直白,快速就定位了具体代码进行了修订
+
+: diff:
+
+&lt;&lt;diff main.py&gt;&gt;
+
+: html 输出:
+
+&lt;&lt;html map&gt;&gt;
+
+**注意**: 发现,插件是直接使用``{{attachment:导图图片名}}`` 标准的图片附件形式来发布的!
+- 然而,HTML 中要想啓用热区图,至少要有专用属性的对应:
+```
+&lt;img usemap="#俺的ImgMap" src="..."/&gt;
+&lt;map id="俺的ImgMap" name="俺的ImgMap"&gt;
+&lt;area shape="rect" href="..." title="普配主机" alt="" coords="101,36,173,63"/&gt;
+...
+&lt;/map&gt;
+```
+ - 在dot 输出的map 数据中,id/name 就是``digraph G { `` 第一行的那个G,可以任意命名,当然最好是E文
+- 所以,就得找到方法来让 MoinMoin 对附件图片追加``usemap``属性
+
+找哈找,幸好有 [ack-grep http://manpages.ubuntu.com/manpages/jaunty/man1/ack-grep.1p.html] 快速从一堆脚本中定位到靠谱的代码段:
+
+
+&lt;&lt;fixed text_html.py&gt;&gt;
+
+追加一行就好...
+
+
+
+
+</t>
+<t tx="zoomq.20100730104744.4053">== jQuery ==
+虽然目标完成了,但是心里总感觉不好:
+- MoinMoin 本身的脚本被hacking 了,就等于,以后升級,迁移时,都要维护这一hacking
+- 很不 Pythonic 哪...
+
+怎么样脱离 MoinMoin 系统本身来给附件图片追加``usemap`` 属性?
+- 答案,自然是的 Ajax 哪
+- jQuery 就是为这类快速夹塞儿式行为诞生的哪...
+
+
+: 部署jQuery:
+    - 这是样式的事儿,所以:
+
+```
+path/2/moin实例/
++-- data
+    +-- plugin
+        +-- theme
+            +-- 你的样式定义脚本
+            +-- woodpecker.py ~ 俺用的
+        def footer(self, d, **keywords):
+            ... # 追加
+            u'&lt;!-- Finally, to loading jQuery Ajax Lib. --&gt;',
+            u'&lt;script src="/wiki/common/js/jquery-1.4.2.min.js" type="text/javascript"&gt;&lt;/script&gt;',
+            u'&lt;script src="/wiki/common/js/jquery-graphviz-map.js" type="text/javascript"&gt;&lt;/script&gt;',
+
++-- htdoc
+    +-- common
+        +-- js
+            +-- jquery-1.4.2.min.js ~ 官方运营用压缩版本
+            +-- jquery-graphviz-map.js  ~ 动态行为定义用
+```
+
+
+: 使用jQuery:
+    - 看看文档,就两行搞定..
+```
+#! js
+$(document).ready(function() {
+	$("img[class='attachment']").each(function(){
+	    $(this).attr("usemap","#"+$(this).attr("alt"));
+    });
+});
+```
+     - **特别的**:得考虑一页多个导图时的情况,所以是要进行 ``each()`` 循环处置
+    - 当然的,需要 ``MoinGraphViz/main.py``插件的配合,以便从附图的 alt 中获得正确的图片热区ID
+
+&lt;&lt;diff atta&gt;&gt;
+
+
+</t>
+<t tx="zoomq.20100730104744.4054">== 时间清单 ==
++ 00:05 定目标
++ 00:15 准备环境
++ 01:30 探查运行环境,明确修订目标脚本
++ 01:45 插件修订完成
++ 00:15 图片应用map jQuery 嘗試
++ 00:35 图片插入系统修订完成
++ 01:00 正则表达式+jQuery 解决 Incldue() 时的编码问题
++ 00:45 整理代码,发布到Blog
++ 00:35 整理代码,反馈到MoinMoin.in
++ 00:40 8次中断,回到工作场景的心理浪费
+
+
+**总计:** ~ 6小时
+
+
+
+</t>
+<t tx="zoomq.20100730104744.4055">```
+#! diff
+Index: tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py
+===================================================================
+--- tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py (revision 16946)
++++ tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py (revision 16975)
+@@ -56,4 +56,5 @@
+         p = request.formatter.page
+         self.renderer = Renderer(tool, targetdir=p.getPagePath('attachments'), encoding=config.charset)
++        self.attapath = p.getPagePath('attachments')
+
+     def format(self, formatter):
+@@ -61,5 +62,10 @@
+         ##w('&lt;div style="border:3px ridge gray; padding:5px; width:95%; overflow:auto"&gt;')
+         s = self.renderer.render(self.raw)
++        imgname = os.path.basename(s)
++        #s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
+         s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
++        #   100728 Zoom.Quiet fixed for include URL hotarea map define
++        pfImgMap = "%s/%s.map"%(self.attapath,imgname)
++        s += fread(pfImgMap)
+         print '[TRACE] attachment URL:', s
+         w(s)
+@@ -182,5 +193,7 @@
+
+ def renderGraphImage(tool, format, imagefilename, dotfilename):
+-    cmd = '%(tool)s -T%(format)s -o"%(imagefilename)s" "%(dotfilename)s"' % locals()
++    #100728 Zoom.Quiet fixed for export URL hotarea map export
++    cmd = '%(tool)s -T%(format)s -o"%(imagefilename)s" -Tcmapx -o "%(imagefilename)s.map" "%(dotfilename)s"' % locals()
++    #cmd = '%(tool)s -T%(format)s -o"%(imagefilename)s" "%(dotfilename)s"' % locals()
+     print '[TRACE] executing:', cmd
+     os.system(cmd
+
+```
+
+</t>
+<t tx="zoomq.20100730104744.4056">```
+#! html
+&lt;img alt="graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" 
+class="attachment" 
+src="/moin/KupHostsMapping/MapLegend?action=AttachFile&amp;amp;do=get&amp;amp;target=graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" 
+title="graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" /&gt; 
+&lt;map id="hostLegendG" name="hostLegendG"&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="普配主机" alt="" coords="101,36,173,63"/&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="高配主机" alt="" coords="197,36,269,63"/&gt;
+&lt;/map&gt;
+```
+</t>
+<t tx="zoomq.20100730150200.4062">```
+path/2/python2.5/site-packages/MoinMoin/formatter/text_html.py
+...
+    def attachment_image(self, url, **kw):
+        ...
+        if exists:
+            ...
+            if not 'alt' in kw:
+                kw['alt'] = kw['title']
+            #   100729 Zoom.Quiet fixed for support imagemap for Graphviz
+            kw['usemap'] = "#%s"%kw['alt']
+            return self.image(**kw)
+        ...
+```
+</t>
+<t tx="zoomq.20100730150200.4063">== 编码问题 ==
+一切表现良好,无意间发现凡是有URL包含的 dot 图谱,被其它页面包含时就出错!
+
+[/pybimage/2010/moin-graphviz-erro-2010-07-30-121804_780x382_scrot.png]
+
+: 囧rz...:
+- 尝试各种编码,未果
+- 嘗試各种&lt;map&gt;的包装形式:
+    + 使用  &lt;pre&gt;
+    + 使用  &lt;textarea&gt;
+- 都在  Include 时,可怜的出错了...
+- 实在是因为 MoinMoin 不想处理正常的 HTML 标签属性的其它编码内容
+- 好吧,俺就不给出无用的中文内容!
+- ``path/2/moin运行实例/data/plugin/parser/MoinGraphViz/main.py`` 追加一小段正则表达式替换
+
+
+```
+#! py
+    def format(self, formatter):
+        w = self.request.write
+        #...
+        #   100728 Zoom.Quiet appended &lt;map&gt; data
+        if os.path.exists(pfImgMap):
+            import re
+            p=re.compile( 'title=\".+?\"')
+            s += p.sub("title=\"\"",fread(pfImgMap))
+            #s += fread(pfImgMap)
+
+```
+
+
+: HTML 输出:
+
+&lt;&lt;html map&gt;&gt;
+
+
+一切安定了...
+
+
+
+</t>
+<t tx="zoomq.20100730150200.4064">```
+#! diff
+Index: tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py
+===================================================================
+--- tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py (revision 17010)
++++ tasks/wiki.KUP/MoinMoin/parser/MoinGraphViz/main.py (revision 17013)
+@@ -65,5 +65,8 @@
+         fImgName = os.path.basename(s)
+         pfImgMap = "%s/%s.map"%(self.attapath,fImgName)
+-        s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
++        #s = wiki2html(self.request, '{{attachment:%s}}' % os.path.basename(s))
++        s = wiki2html(self.request, '{{attachment:%s|%s}}' % (os.path.basename(s)
++                        ,fImgName.split("-")[1])
++                    )
+         #   100728 Zoom.Quiet appended &lt;map&gt; data
+         if os.path.exists(pfImgMap):
+```</t>
+<t tx="zoomq.20100730150200.4066">```
+#! html
+&lt;img alt="graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" 
+class="attachment" 
+src="/moin/KupHostsMapping/MapLegend?action=AttachFile&amp;amp;do=get&amp;amp;target=graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" 
+title="graphviz-hostLegendG-a58ce04d28b92b59230a72964c27a9f8fc867de5.png" /&gt; 
+&lt;map id="hostLegendG" name="hostLegendG"&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="" alt="" coords="101,36,173,63"/&gt;
+&lt;area shape="rect" href="http://wiki.s.kingsoft.net/moin/KupHosts" title="" alt="" coords="197,36,269,63"/&gt;
+&lt;/map&gt;
+```
+</t>
+<t tx="zoomq.20100730150200.4067">= 小结 =
+
+- 思路不乱的情况下,主要问题就是定位代码段!以及测试!
+    - 面对一运行中的MoinMoin 进行测试开发时
+    - 使用sshfs 可以快速挂接远程服务器的任意目录,非常方便!
+    - 使用沙箱页面进行修订插件的测试,可以避免正常文章页面的中间调试失常..
+    - 在调试中,直接输出预想数据到 HTML 里看,比看系统日志,使用print 要方便
+    - MoinMoin 有完备的缓冲机制,要及时看到修订效果,得重启HTTPD     
+- jQuery 真的很好用,也好学!
+
+
+: 下载:
+    diff: [MoinMoin_parser_MoinGraphViz_main.py-from-r16946-to-r17013.diff  /pybnodes/utility/py4web/MoinMoin/MoinMoin_parser_MoinGraphViz_main.py-from-r16946-to-r17013.diff]
+
+
+
+</t>
+<t tx="zoomq.20100806085041.4077">@language Moin
+NOT WORD!
+--不仅仅关乎版权
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="zoomq.20100806085041.4078">
+: [几行字也发个doc?? http://blog.delphij.net/archives/001487.html]:
+    经常在邮件中看到朋友们将些小故事塞到 word 中分享,
+    和delphij 同样的感慨…………
+
+: 有诗曰:
+```
+文本文件好 
+工具遍地跑
+程序两三行
+全部改好了
+```
+    [文本好了歌 http://blog.cathayan.org/item/920] - Blog on 27th Floor
+    cathayan 的感慨
+
+: 文可文，非常文。本可文，非常本。文本,数据之始,字符,万思之母...
+    [结构化文本 http://wiki.woodpecker.org.cn/moin/AllAboutText]才是王道！
+    呜乎矣哉!是也乎是也乎!!
+    为了我们的写作快感，抵制一切富格式化编辑器!
+    有结构化文本想怎么漂亮都成的!不用在界面中辛苦的使用mouse 永远的点击…………
+
+: 可恨/可叹:
+    M$的市场策略，成功的将
+    ``正式文档===word文档``
+    的概念填入了人们的头脑中，特别是在中国！
+
+: 觉醒:
+    从我作起！[/pybimage/nodoc4cn.png] 至少从OOo 开始！
+
+
+[抵制.doc运动 http://www.cyut.edu.tw/~ckhung/i/nd/fydoc.png]</t>
+<t tx="zoomq.20100806085041.4079">
+[/pybimage/technorati-over.gif]
+    [Zen http://www.technorati.com/tags/Zen]</t>
+<t tx="zoomq.20100817094645.4076">publishing dirs::
+	location /pyblosxom {
+        alias /home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/_static;
+        index  index.html index.htm;
+		autoindex on;
+	}
+	location /pybshare {
+		alias   /home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/pybshare;
+		autoindex on;
+	}
+	location /pybimage {
+		alias   /home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/_images;
+		autoindex on;
+	}
+	location /pybnodes {
+		alias   /home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/entries;
+		autoindex on;
+	}
+	location /pybstyle {
+		alias   /home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/flavours;
+		autoindex on;
+	}
+</t>
+<t tx="zoomq.20100910090235.9589">@language Moin
+MD5使用快记
+ZoomQuiet
+&lt;&lt;t2t head&gt;&gt;
+
+: [MD5 http://a-010.cyut.edu.tw/~vote/md5.php]
+  ( Message-Digest algorithm 5) 
+  MD5作为一个单向混淆算法，即不易以逆向运算得到原始资料
+:
+
+**Pythonic 的使用:**
+```
+::brush: shell
+Python 2.4.1 (#65, Mar 30 2005, 09:13:57) [MSC v.1310 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; import md5
+&gt;&gt;&gt; dir(md5)
+['MD5Type', '__doc__', '__name__', 'digest_size', 'md5', 'new']
+&gt;&gt;&gt; md5.md5(文件)
+&lt;md5.md5 object at 0x00B83800&gt;
+&gt;&gt;&gt; md=md5.md5(文件)
+&gt;&gt;&gt; dir(md)
+['copy', 'digest', 'hexdigest', 'update']
+&gt;&gt;&gt; md.hexdigest()
+'50235d71d6aa33a2be8d8bfbb1e87b91'
+```
+
+
+嗯哪……
+
+&lt;&lt;t2t foot&gt;&gt;
+&lt;&lt;SNSlink&gt;&gt;
+</t>
+<t tx="zoomq.20100910090235.9590">
+[/pybimage/technorati-over.gif]
+    [chinese http://www.technorati.com/tags/chinese]
+    ,[OpenSource http://www.technorati.com/tags/OpenSource]
+    ,[pythonic http://www.technorati.com/tags/pythonic]
+    ,[md5 http://www.technorati.com/tags/md5]
+</t>
+<t tx="zoomq.20100910090235.9593">= 原求 =
+
+== 设想 ==</t>
+<t tx="zoomq.20100910090235.9594">= 变化0:logging 不好用 =</t>
+<t tx="zoomq.20100910090235.9595">= 变化1:参数处理 =</t>
+<t tx="zoomq.20100910090235.9596">= 变化2:TDD反射 =</t>
+<t tx="zoomq.20100910090235.9597">= 时间帐单 =
++ ~1h   100902 起意，设立目标
++ ~1.5h   100906 OptionParser 设计
++ ~2.5h   100907 logging-&gt;zqlog
++ ~3h   100908 交互参数调整
+    兼容所有情况很难...
+    防御还是不防御？
++ ~1h   100910 处理参照,工作流?
++ ~3h   100913 Data-URI 输出,嵌入所有
+Using Dean Edwards IE7 Script
+http://www.charlescooke.me.uk/web/lab_notes/ie7_script.html
+</t>
+<t tx="zoomq.20100910090235.9599">= TODO =
+: 真正实用化...:
+
+</t>
+<t tx="zoomq.20100910090235.9600">= 成果 =
+**就是当前这个重生的 ZQ's PyBlosxom 了**
+
+- 通过对 t2t 的hack,可以直接在 t2t 文本中聲明是否使用 [SyntaxHighlighter http://alexgorbatchev.com/wiki/SyntaxHighlighter:Usage] ,以及使用哪种语法刷来显示
+
+: demo
+```
+#! python
+py["plugin_dirs"] = [os.path.join(blogdir, "plugins")
+                        ,os.path.join(blogdir, "plugins/archives")
+                        ,os.path.join(blogdir, "plugins/navigate")
+                        ,os.path.join(blogdir, "plugins/date")                        
+                        ,os.path.join(blogdir, "plugins/preformatters")
+                        ,os.path.join(blogdir, "plugins/folksonomy")
+                        ,os.path.join(blogdir, "plugins/willplugins")
+                        ,os.path.join(blogdir, "plugins/zqpyb+")    
+                        ]
+```
+
+
+
+</t>
+<t tx="zoomq.20100920084035.5437">@language Moin
+TXT2TAGS 示例
+~ by ZoomQuiet
+&lt;&lt;t2t head&gt;&gt;
+
+=  介绍 Intro.  =
+
+欢迎阅读 txt2tags 示例文件！
+
+这里你可以看到常用的所有 t2t 使用
+
+文件的头二行是文档的基本信息，
+按照以下顺序填写:
+```
+行 1: 文档标题
+行 2: 作者名，邮箱
+行 3: 日期，时间
+```
+
+空行，是自然段间的分隔
+
+% 这是秘密注释
+%TODO link to program homepage http://txt2tags.sf.net
+
+
+中文用户，一般要再单另一行声明编码:
+```
+%!encoding: gb2312
+```
+最好使用更加通用的Unicode 编码:
+```
+%!encoding: UTF-8
+```
+
+              == 文档声明 ==
+
+使用编辑环境时最好加入类似文档声明:
+```
+%! Target  : html
+%! Options : --toc --css-inside
+%! Options : --css-sugar
+%! Style   : css/moin.css
+
+```
+说明本文输出时的重要参数:
+ + 输出为标准HTML标签格式
+ + 要文档标题索引，并将CSS形式表包含在文档内
+ + 将文章按照结构使用 DIV 层来分离，以便使用CSS来进行美化
+  - 就象sample中展示的modern 效果
+ + 使用外部指定的一个CSS定义 
+
+
+              =  字体与美化 Fonts and Beautifiers  =
+
+整体上来说t2t 使用两种字体设定:
+
+正常 字体可以使用各种美化处理
+
+``打印机字体`` 即“等宽体” 是被预格式化处理的不能被美化处理
+
+现在进入详细章节...
+
+
+                  ==  美化 Beautifiers  ==
+
+就象你在 email 中定义文本样式一样，t2t 可以简单的快速美化字样
+
+- 双* 产生 **加重**效果
+- 双/ 产生 //斜体//效果
+- 双_ 产生 __下线__
+
+并且//可以**混合**使用//！
+
+
+
+                ==  更多的装饰 More Cosmetics  ==
+
+特殊的内容，比如说 email (duh@somewhere.com) 和
+URL (http://www.duh.com) 会自动处理
+还有横线:
+
+--------------------------------------------------------
+^ 细的 或是 粗的 v
+========================================================
+
+你也可以定义带URL的标签[外部链接 http://duh.org]
+
+并且记住,
+	在一行前缀一个制表符将产生引用, A TAB in front of the line does a quotation.
+		而且可以嵌套使用用 More TABs, more depth (if allowed).
+非常好用的！.
+
+
+                      =  列表  =
+
+形成一个列表非常的自然，只要在行前使用 **减号** 或是 **加号** 
+
+
+                  ==  普通列表 Plain List  ==
+
+减号 用来标识默许的列表. 对于嵌套列表只要在行前加 **空格** ,
+并且很自然的，越多的空格，层次就越深
+
+- 地球
+  - 中国
+    - 北京
+      - 海淀
+        - 还要多深？
+  - 朝鲜
+    - 更多的国家
+- 火星
+  - 上面有谁？
+
+
+想结束列表，只要使用连续**两个空行**
+
+
+                 ==  数字列表 Numbered List  ==
+
+同样的规则，只是使用 加号，则自动处理为数字式的列表
+
++ 甲 one
++ 乙 two
++ 丙 three
+  - 混合普通列表 mixed lists!
+  - 没有关系 
+    + 继续数字式的 counting again
+    + ...
++ 丁 four
+
+
+                ==  定义列表 Definition List  ==
+
+使用冒号，可以引出词典式的列表. 内容是在紧接的下一行
+
+: 桔 orange
+  黄色的水果 a yellow fruit
+: 苹果 apple
+  绿色或是红色的 a green or red fruit
+: 其它 other fruits
+  - 嗬嗬 wee!
+  - 当然可以混合 mixing lists
+    + 数字式的 again!
+    + 带来 and again!
+
+
+                     =  表格 Tables  =
+
+使用竖线来组成表格,
+双线开始，表示将解析表格，并作为表头
+使用空格对齐来标识每个表格项
+
+ || 表头 1    |  表头 2     |   表头 3   |
+  | 内文 1.1  |  内文 1.2   |   内文 1.3 |
+  | 内文 2.1  |  内文 2.2   |   内文 2.3 |
+
+没有最后的竖线，则没有边框:
+
+ || 表头 1    |  表头 2     |   表头 3  
+  | 内文 1.1  |  内文 1.2   |   内文 1.3 
+  | 内文 2.1  |  内文 2.2   |   内文 2.3 
+
+
+                =  特殊实体 Special Entities  =
+
+让事儿都简单哪！
+
+
+                    ==  图片 Images  ==
+
+非常简单的图片引用方式: ``[filename]``.
+
+                      [../img/photo.jpg]  
+
+- 文件必须是 PNG, JPG, GIF 格式
+- 方框内不能有空格
+
+
+                     ==  其它 Other  ==
+
+**``%%date``** 宏会输出当前日期
+
+是标准的ISO ``YYYYMMDD`` 格式 %%date 
+
+当然可以声明特殊的输出方式
+比如说: ``%%date(%m-%d-%Y)`` 会形成: %%date(%m-%d-%Y).
+
+That's all ! 现在你知道的足够开始使用 **t2t** 组织文档了！.
+
+----------------------------------------------------------
+Translated to Chinese by Zoom.Quiet([Zoom Quiet http://wiki.woodpecker.org.cn/moin/ZoomQuiet]).
+----------------------------------------------------------
+
+
+% #tags OpenSource,Stxt
+&lt;&lt;t2t foot&gt;&gt;</t>
+<t tx="zoomq.20100920084035.5440">= 缘起 =
+
+最近讲演频繁:
++ 100820: [IntroPy - Woodpecker Wiki for CPUG http://wiki.woodpecker.org.cn/moin/IntroPy]
++ 100826: [TDD4Py - Woodpecker Wiki for CPUG http://wiki.woodpecker.org.cn/moin/TDD4Py]
++ 100918: [Software Freedom Day 2010 - SZLUG file:///home/zoomq/zdata/zScrapBook/ZqFLOSS/data/20100817125828/index.html]
++ ...
+
+俺在 **[S5: A Simple Standards-Based Slide Show System http://meyerweb.com/eric/tools/s5/]** 中使用高桥流，幻灯页码轻易超过100! 即使有 Leo 帮助也感觉吃不住，
+主要原因是直接写 HTML 太多标签干扰思維了...
+
+其实早就知道有 rst-&gt;s5 的工具:
+- [結構文本(rst)轉網頁投影片(s5) http://inet6.blogspot.com/2007/03/rsts5.html]
+- [Easy Slide Shows With reST &amp; S5 http://docutils.sourceforge.net/docs/user/slide-shows.html]
+
+但是因为自个儿的s5 样式进行了深入定制，不知道是否容易迁移;
+
+可是实在幻灯稿多了受不住，就迁移了...
+
+
+</t>
+<t tx="zoomq.20100920084035.5441">= 运用 =
+
+文档的确不多,中文的就找到上述 Inet6 兄的，但是和谐后，也无法方便的直接咨询
+
+仔细看了哈文档，发现的确不复杂;
+
+之于俺，只是要引用原先的样式，只要:
+```
+#! shell; highlight: [3,5]
+#   先随便生成个默认工程
+rst2s5.py --theme &lt;base-theme&gt; &lt;doc&gt;.txt &lt;doc&gt;.html
+#   再复制原先样式过来
+ui/&lt;base-theme&gt; to ui/&lt;new-theme&gt;.
+#   然后聲明使用新样式就好:
+rst2s5.py --theme-url ui/&lt;new-theme&gt; &lt;doc&gt;.txt &lt;doc&gt;.html
+
+#   俺在对应目录中的实际命令就是:
+python rst2s5-Pygments.py  --current-slide --theme-url=ui/freedom index.rst index.html
+```
+    - ``--current-slide`` 是要求生成页码的开关参数
+    - ``rst2s5 --help`` 居然看到有几十种参数,才发现
+    - [Docutils Front-End Tools http://docutils.sourceforge.net/docs/user/tools.html]  实在是个丰富的工具集!
+    - [rst2s5-Pygments.py http://matt-good.net/files/software-dev-with-trac/rst2s5] 是定制过的支持 Pygments 语法颜色的 rst2s5 转换脚本!
+
+
+最后发布时的 s5演示目录分布是:
+```
+#! text
+http://zoomquiet.org/res/s5/100918-MyTools/rst2s5/
++-- i                   资源目录(图片什么的...)
+|-- index.html          S5
+|-- index.rst           rst撰写原文稿
+|-- rst2s5-Pygments.py  定制支持 Pygments 语法颜色渲染的s5生成脚本
+|-- s5defs.txt          rst2s5引用的 s5 配置文件
+`-- ui                  样式入口
+    +-- default         默认样式
+    `-- freedom         定制样式 
+```
+
+
+
+</t>
+<t tx="zoomq.20100920084035.5443">== 定制 ==
+比较囧是只有俺习惯并坚持的样式很搞:
+
+: 默认的样式排版:
+    : [/pybimage/2010/rst2st-theme-default.png]
+    - 和 s5 的默认样式100% 一致!
+
+: 定制的``Freedome``样式:
+    : [/pybimage/2010/ZQshutter_100920-151219_html.png]
+    主要的设计:
+     - A: 表格3栏格式的作者和版权聲明
+```
+#! html ; highlight: [6]
+&lt;div id="footer"&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;
+&lt;a target="_blank"  href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+Zoom.Quiet&lt;/a&gt;&lt;br/&gt;v10.8.17
+&lt;/td&gt;
+&lt;td rowspan="2"&gt;
+&lt;a  target="_blank" style="background-color:;" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh"&gt;
+&lt;img src="icon/cc-byncnd-88x31.png"/&gt;
+&lt;/a&gt;Recommend &lt;a  target="_blank"
+href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt; for the best experience!
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+    &lt;div id="controls"&gt;&lt;/div&gt;
+&lt;/div&gt;
+```
+     - B: 页码/页数 提示
+     - C: 当页内容提示
+```
+#! html ; highlight: [4]
+&lt;div class="slide"&gt;
+&lt;h1&gt;
+标题
+&lt;div id="sup"&gt;
+    mov-&gt;时间-&gt;效能工具
+&lt;/div&gt;
+&lt;/h1&gt;
+...
+```
+
+: 对应的rst2s5 效果:
+    : [/pybimage/2010/ZQshutter_100920-151709_rst2s4.png]
+
+    对应的设计:
+     - A: 表格的作者和版权聲明
+```
+#! text ; highlight: [1,2]
+.. footer:: 
+   .. class:: borderless
+
+   =============  ====================================
+   `Zoom.Quiet`_  |cc-byncsa15|
+   -------------  ------------------------------------
+   v10.09.16      推荐用 `FireFox`_ 获得最佳游览效果
+   =============  ====================================
+```
+     - B: 页码/页数 提示
+     - C: 当页内容提示
+```
+#! text ; highlight: [4]
+标题
+=========
+
+.. container:: handout
+
+   俺-&gt;工具-&gt;持续完善 |zqeye|
+
+...
+```
+        - 嗯嗯嗯,当然的得配合CSS:
+        - 注释掉默认样式``ui/&lt;theme&gt;/s5-core.css`` 中的
+```
+#! css
+.handout {display: none;}
+```
+        - 在专用CSS``ui/&lt;theme&gt;/takahashi.css``中定制
+```
+#! css
+div.handout{
+    float: right;
+    top:0;
+    margin-top: -85px;
+    margin-right: -30px;
+    font-size: 16px; font-style : italic ;
+    color: #385775;
+}
+div.handout a{
+    color: #385775;
+}
+
+div.handout a:hover{
+    color: orange;
+    font-style : bold ;
+}
+
+```
+        - 还得在默认的样式调配文件``ui/&lt;theme&gt;/slides.css``中引入自个儿定制的:
+```
+#! css ; highlight: [4,5]
+@import url(s5-core.css); /* required to make the slide show run at all */
+@import url(framing.css); /* sets basic placement and size of slide components */
+@import url(pretty.css);  /* stuff that makes the slides look better than blah */
+@import url(takahashi.css);  /* stuff that makes the takahashi style slides */
+@import url(rst2s5.css);  /* stuff that support slides gen. by rst2s5 */
+```
+     - D: 专用高桥流样式, 在s5专用子聲明文件:[s5defs.txt http://docutils.sourceforge.net/docutils/parsers/rst/include/s5defs.txt]  中追加俺习惯的CSS类名:
+```
+#! text ; highlight: [1,8,9]
+.. Text Sizes
+   ==========
+
+.. role:: huge
+.. role:: big
+.. role:: small
+.. role:: tiny
+.. role:: takahashi0
+.. role:: takahashi1
+.. role:: takahashi2
+...
+```
+
+
+</t>
+<t tx="zoomq.20100920084035.9975">== 初步 ==
+和S5 幻灯组织是完全对等的撰写:
+
+- HTML 首页:
+```
+#! html ; highlight: [1]
+&lt;div class="slide" id="slide0"&gt;
+Blalala
+&lt;/div&gt;
+```
+- rST首页:
+```
+#! text ; highlight: [2]
+==================================================================
+我的工具箱
+==================================================================
+```
+- HTML幻灯页:
+```
+#! html ; highlight: [1,2,4]
+&lt;div class="slide"&gt;
+&lt;h1&gt;标题&lt;/h1&gt;
+内容
+    &lt;div class="handout"&gt;
+    隐藏提示
+    &lt;/div&gt;
+&lt;/div&gt;
+```
+- rST幻灯页:
+```
+#! html ; highlight: [2,4]
+标题
+=========
+
+.. container:: handout
+
+   隐藏提示
+
+内容
+```
+
+: 唯一注意:
+ - 是要在文件头部引入 [s5defs.txt http://docutils.sourceforge.net/docutils/parsers/rst/include/s5defs.txt] 专用配置文本:
+```
+#! text
+.. include:: &lt;s5defs.txt&gt;
+```
+ - 参考: [reStructuredText Standard Substitution Definition Sets http://docutils.sourceforge.net/docs/ref/rst/substitutions.html]
+
+
+</t>
+<t tx="zoomq.20100920084035.9976">== rst ==
+html-&gt;rst 的撰写只有更加 [WYTIWYG http://wiki.woodpecker.org.cn/moin/WyTiWyG] 很容易习惯;
+
+参考: [http://docutils.sourceforge.net/docs/user/rst/quickref.html Quick reStructuredText]
+
+主要得习惯的只有:
++ 标题和 MoinMoin 语法不同使用 ``==================``独立的标题引用行来聲明第几层的标题
+ - 建议顺序是:``= - ` : ' " ~ ^ _ * + # &lt; &gt;``
+ - 一般就用到前4个:
+```
+#! text
+
+大标题
+======
+小标题
+------
+次标题
+''''''
+小节标
+""""""
+```
++ 列表项更加简单可以使用 ``+`` 以及 ``-`` 相比``*`` 要少按个键 ;-)
++ 链接更加灵活了:
+ - 就地链接: ``是也乎,是也乎`显示文字 &lt;http://foo.org&gt;`__ 是也乎``
+ - 匿名链接: 
+```
+#! text
+是也乎,是也乎`显示文字`__ 是也乎
+
+__  http://foo.org
+```
+    - 和行内链接聲明最近的独立URL 定义进行自动匹配
+ - 全局链接:
+```
+#! text ; highlight: [1,5]
+.. _Zoom.Quiet:
+    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
+
+...
+是也乎,是也乎`Zoom.Quiet`_ 是也乎
+
+```
++ 就地图片:
+```
+#! text ; highlight: [2,3,5]
+.. image:: pix/Takahashi-method.jpg
+    :align: center
+    :scale: 150 %
+    :alt: 高橋流
+    :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
+```
+    - 这个 target 就是链接! 文档中没有例子,找了半天...
++ 全局图片:
+```
+#! text ; highlight: [2]
+.. |Takahashi| image:: pix/Takahashi-method.jpg
+    :align: top
+    :scale: 150 %
+    :alt: 高橋流
+    :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
+
+...
+
+任意文字中 |Takahashi| 嵌入图片...
+```
+    - ``align`` 这时,就是图片和文字流的行内相对位置,而不是图片在整个页面的排版,所以,只能有"top", "middle", "bottom"
+    - 其实不用专门记忆,每次渲染时, rst2s5 会进行检查,比如说:
+```
+#! shell ; highlight: [3,4]
+$ python rst2s5-Pygments.py  --current-slide --theme-url=ui/freedom index.rst index.html
+index.rst:34: (ERROR/3) Error in "image" directive: 
+"center" is not a valid value for the "align" option within a substitution definition.  
+Valid values for "align" are: "top", "middle", "bottom".
+index.rst:34: (WARNING/2) Substitution definition "S5icon" empty or invalid.
+
+.. |S5icon| image:: pix/S5icon.GIF
+    :align: center
+    :scale: 100 %
+    :target: http://www.meyerweb.com/eric/tools/s5/
+index.rst:1284: (ERROR/3) Undefined substitution referenced: "S5icon".
+```
+
+
+嗯嗯嗯, 使用 rst 进行 s5 撰写,完全是脚本组织的感觉了...连输出时的交互 error 通告都是 Python 味的..
+
+</t>
+<t tx="zoomq.20100920084035.9977">: 成果对比:
+ - 手写HTML幻灯 
+  - 45Kb
+  - [index.html http://zoomquiet.org/res/s5/100918-MyTools/html-s5/index.html]
+ - 手写rST生成S5幻灯 
+  - 38Kb
+  - [index.rst http://zoomquiet.org/res/s5/100918-MyTools/rst2s5/index.rst]
+
+
+= 时间帐单 =
+``小结这次迁移的时间消耗``
++ 0.5h  试用 rst2s5
++ 0.5h  接入样式
++ 0.5h  重构Leo 模式
++ 2h    定制基于 rst2s5 的样式
++ 3h    逐一页面重写
++ 1h    修订发布
+
+共计 **7.5h**
+ - 嗯嗯嗯,主要是在重过过程中,反复调整了对应的 CSS 样式...
+ - 好在一切可以快速复用到其它幻灯中了...
+
+</t>
+<t tx="zoomq.20101009110805.4211">@language Moin
+M$ DLL Hell
+~ KUSO Windows编程革命简史 之歌
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+&lt;&lt;t2t foot&gt;&gt;
+
+</t>
+<t tx="zoomq.20101009110805.4213">- Windows编程革命简史 | 酷壳 - CoolShell.cn
+ - http://coolshell.cn/articles/3008.html
+- 忒给力了！ 想起: 新同事 | zonble’s promptbook
+ - http://zonble.net/archives/2007_05/937.php
+
+忍不住给个歌词吧,谁人有给力的曲,我们配首 **微软革命之歌** :
+
+```
+#! text
+M$ DLL Hell
+
+起初,我说起初
+那儿只有 Windows API 和 DLL Hell
+为了消灭 DLL Hell
+然后,DDE 出现了
+
+但是,他们说DDE 有重大缺陷：
+丫不是俺写的！
+于是 OLE 出现了
+除了名字和 DDE 不同
+其它其实真的一样的哈！
+
+后来,他们信了 C++
+为嘛?!你懂的,你真得懂的!
+于是 OLE 通过 MFC 进化成 COM
+为嘛?!你懂的,你真得懂的!
+
+但是,他们说 MFC 有重大缺陷：
+丫不是俺写的！
+于是 ATL 出现了
+除了名字和 MFC 不同
+其它其实真的一样的哈！
+
+然后 COM 变身成 ActiveX
+为嘛?!你懂的,你真得懂的!
+于是 DLL Hell 再次被消灭鸟
+为嘛?!你懂的,你真得懂的!
+
+同时,他们说 JAVA 有重大缺陷：
+丫不是俺写的！
+于是 ActiveJ 出现了
+除了名字和 JAVA 不同
+其它其实真的一样的哈！
+
+然后 COM 变身成 MTS
+为嘛?!你懂的,你真得懂的!
+于是 DLL Hell 再次被消灭鸟
+为嘛?!你懂的,你真得懂的!
+
+现在,他们说 Internet 有重大缺陷：
+你懂的,你真得懂的!
+于是 .NET 出现了
+除了名字和 Internet 不同
+其它其实真的一样的哈！
+
+然后 C++ 变身成 C#
+为嘛?!你懂的,你真得懂的!
+于是 DLL Hell 再次被消灭鸟
+为嘛?!你懂的,你真得懂的!
+
+你懂的!
+你真得要懂的!
+为嘛?! DLL Hell 总在被消灭?!
+为嘛?!
+因为 M$ 在革命!
+```</t>
+<t tx="zoomq.20101230094009.5511"></t>
+<t tx="zoomq.20101230094009.5512">http://centos.ustc.edu.cn/centos/
++-- wget all
+    - 自动化更新脚本
+    - git ?
++-- 定制repo
++-- nginx 发布
+
+</t>
+</tnodes>
+</leo_file>

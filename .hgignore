@@ -15,6 +15,6 @@
 .*\.7z
 .*\.xz
 ~$
-^zoomquiet/comment/*
-^zoomquiet/_static/*
+^pyblosoxm/zoomquiet/comment/*
+^pyblosoxm/zoomquiet/_static/*
 
