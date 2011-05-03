@@ -136,7 +136,6 @@ def cb_filelist(args):
     marker = time.time() - (60 * 60 * 24 * 14)
 
     # get entries and export
-
     # get all the entries
     #allentries = tools.Walk(request, datadir)
     ## Zoomq::060128 walking base Categories Point
@@ -182,7 +181,7 @@ def cb_filelist(args):
     #    "<td><a href=\"%s/%s\">%s</a> (%s)<br />%s</td></tr>\n"
     e = """<tr>
         <td valign="top" align="left">%s:</td>
-        <td><a href="%s/%s">%s</a> (%s)
+        <td><a href="%s/%s.html">%s</a> (%s)
         <br/>%s
         </td></tr>
         """

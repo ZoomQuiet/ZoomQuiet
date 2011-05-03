@@ -66,7 +66,7 @@
 </v>
 <v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
 </v>
-<v t="ZoomQuiet.20060113092644"><vh>entries</vh>
+<v t="ZoomQuiet.20060113092644" a="E"><vh>entries</vh>
 <v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
 <v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
 <v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
@@ -545,7 +545,7 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060306165940"><vh>~~~stuff</vh>
+<v t="ZoomQuiet.20060306165940"><vh>&gt;&gt;&gt;stuff</vh>
 <v t="zoomq.20100817094645.4076"><vh>Nginx配置</vh></v>
 <v t="zoomq.20060916180156.12"></v>
 <v t="zoomq.20100728103610.7583"></v>
@@ -670,8 +670,8 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060113151604"><vh>hacking</vh>
-<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
-<v t="ZoomQuiet.20060127164449"><vh>guestbook</vh></v>
+<v t="ZoomQuiet.20060117230430" a="E"><vh>flavours</vh>
+<v t="zoomq.20110503084352.4319"><vh>html.flav</vh></v>
 <v t="ZoomQuiet.20060117230447"><vh>phtm.flav</vh>
 <v t="ZoomQuiet.20060118001056"><vh>@nosent zqgreen.css</vh>
 <v t="ZoomQuiet.20060306102523"><vh>&lt;&lt;TagClouds&gt;&gt;</vh></v>
@@ -739,50 +739,261 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
-<v t="zoomq.20100414115206.4559"><vh>@shadow cleant2t.py</vh></v>
+<v t="zoomq.20100414115206.4559"><vh>@nosent cleant2t.py</vh>
+<v t="zoomq.20100414115206.4560"><vh>cleant2t declarations</vh></v>
+<v t="zoomq.20100414115206.4561"><vh>clean2entry</vh></v>
+</v>
 <v t="zoomq.20100414115206.4579"><vh>archives</vh>
-<v t="zoomq.20100414115206.4622"><vh>@shadow pycategories.py</vh></v>
-<v t="zoomq.20100414115206.4692"><vh>@shadow index.py</vh></v>
-<v t="zoomq.20100414115206.4702"><vh>@shadow index_static.py</vh></v>
-<v t="zoomq.20100419111908.3747"><vh>@shadow photogallery.py</vh></v>
-<v t="zoomq.20100419111908.3754"><vh>@shadow filekicker.py</vh></v>
-<v t="zoomq.20100419111908.3758"><vh>@shadow yeararchives.py</vh></v>
-<v t="zoomq.20100419111908.3769"><vh>@shadow pyarchives.py</vh></v>
+<v t="zoomq.20100414115206.4622"><vh>@nosent pycategories.py</vh>
+<v t="zoomq.20100414115206.4623"><vh>&lt;&lt;pycategories declarations&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4624"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4625"><vh>class PyblCategories</vh>
+<v t="zoomq.20100414115206.4626"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4627"><vh>__str__</vh></v>
+<v t="zoomq.20100414115206.4628"><vh>genCategories</vh></v>
+</v>
+<v t="zoomq.20100414115206.4629"><vh>cb_prepare</vh></v>
+</v>
+<v t="zoomq.20100414115206.4692"><vh>@nosent index.py</vh>
+<v t="zoomq.20100414115206.4693"><vh>index declarations</vh></v>
+<v t="zoomq.20100414115206.4694"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4695"><vh>cb_filelist</vh></v>
+<v t="zoomq.20100414115206.4696"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20100414115206.4702"><vh>@nosent index_static.py</vh>
+<v t="zoomq.20100414115206.4703"><vh>index declarations</vh></v>
+<v t="zoomq.20100414115206.4704"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4705"><vh>cb_filelist</vh></v>
+<v t="zoomq.20100414115206.4706"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20100419111908.3747"><vh>@nosent photogallery.py</vh>
+<v t="zoomq.20100419111908.3748"><vh>photogallery declarations</vh></v>
+<v t="zoomq.20100419111908.3749"><vh>verify_installation</vh></v>
+<v t="zoomq.20100419111908.3750"><vh>cb_filelist</vh>
+<v t="zoomq.20100419111908.3752"><vh>&lt;&lt;if_pyhttp&gt;&gt;</vh></v>
+<v t="zoomq.20100419111908.3753"><vh>&lt;&lt;elif_pyhttp&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100419111908.3751"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20100419111908.3754"><vh>@nosent filekicker.py</vh>
+<v t="zoomq.20100419111908.3755"><vh>filekicker declarations</vh></v>
+<v t="zoomq.20100419111908.3756"><vh>verify_installation</vh></v>
+<v t="zoomq.20100419111908.3757"><vh>cb_handle</vh></v>
+</v>
+<v t="zoomq.20100419111908.3758"><vh>@nosent yeararchives.py</vh>
+<v t="zoomq.20100419111908.3759"><vh>yeararchives declarations</vh></v>
+<v t="zoomq.20100419111908.3760"><vh>verify_installation</vh></v>
+<v t="zoomq.20100419111908.3761"><vh>class YearArchives</vh>
+<v t="zoomq.20100419111908.3762"><vh>__init__</vh></v>
+<v t="zoomq.20100419111908.3763"><vh>__str__</vh></v>
+<v t="zoomq.20100419111908.3764"><vh>gen_linear_archive</vh></v>
+</v>
+<v t="zoomq.20100419111908.3765"><vh>new_entry</vh></v>
+<v t="zoomq.20100419111908.3766"><vh>cb_prepare</vh></v>
+<v t="zoomq.20100419111908.3767"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100419111908.3768"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100419111908.3769"><vh>@nosent pyarchives.py</vh>
+<v t="zoomq.20100419111908.3770"><vh>pyarchives declarations</vh></v>
+<v t="zoomq.20100419111908.3771"><vh>verify_installation</vh></v>
+<v t="zoomq.20100419111908.3772"><vh>class PyblArchives</vh>
+<v t="zoomq.20100419111908.3773"><vh>__init__</vh></v>
+<v t="zoomq.20100419111908.3774"><vh>__str__</vh></v>
+<v t="zoomq.20100419111908.3775"><vh>gen_linear_archive</vh>
+<v t="zoomq.20100419194136.6323"><vh>gen_year_month_account</vh></v>
+</v>
+</v>
+<v t="zoomq.20100419111908.3776"><vh>cb_prepare</vh></v>
+</v>
 </v>
 <v t="zoomq.20100419111908.3737"><vh>navigate</vh>
-<v t="zoomq.20100419111908.3738"><vh>@shadow pyentrynavi.py</vh></v>
+<v t="zoomq.20100419111908.3738"><vh>@nosent pyentrynavi.py</vh>
+<v t="zoomq.20100419111908.3739"><vh>&lt;&lt;declarations&gt;&gt;</vh></v>
+<v t="zoomq.20100419111908.3740"><vh>verify_installation()</vh></v>
+<v t="zoomq.20100419111908.3741"><vh>cb_prepare()</vh></v>
+</v>
 </v>
 <v t="zoomq.20100414115206.4589"><vh>date</vh>
-<v t="zoomq.20100414115206.4606"><vh>@shadow pyfilenamemtime.py</vh></v>
-<v t="zoomq.20100414115206.4609"><vh>@shadow firstdaydiv.py</vh></v>
-<v t="zoomq.20100414115206.4615"><vh>@shadow w3cdate.py</vh></v>
-<v t="zoomq.20100419111908.3742"><vh>@shadow hardcodedates.py</vh></v>
+<v t="zoomq.20100414115206.4606"><vh>@nosent pyfilenamemtime.py</vh>
+<v t="zoomq.20100414115206.4607"><vh>&lt;&lt;pyfilenamemtime declarations&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4608"><vh>cb_filestat</vh></v>
+</v>
+<v t="zoomq.20100414115206.4609"><vh>@nosent firstdaydiv.py</vh>
+<v t="zoomq.20100414115206.4610"><vh>firstdaydiv declarations</vh></v>
+<v t="zoomq.20100414115206.4611"><vh>class PyFirstDate</vh>
+<v t="zoomq.20100414115206.4612"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4613"><vh>__str__</vh></v>
+</v>
+<v t="zoomq.20100414115206.4614"><vh>cb_prepare</vh></v>
+</v>
+<v t="zoomq.20100414115206.4615"><vh>@nosent w3cdate.py</vh>
+<v t="zoomq.20100414115206.4616"><vh>w3cdate declarations</vh></v>
+<v t="zoomq.20100414115206.4617"><vh>iso8601_hack_tostring</vh></v>
+<v t="zoomq.20100414115206.4618"><vh>get_formatted_date</vh></v>
+<v t="zoomq.20100414115206.4619"><vh>cb_head</vh></v>
+<v t="zoomq.20100414115206.4620"><vh>cb_story</vh></v>
+<v t="zoomq.20100414115206.4621"><vh>cb_foot</vh></v>
+</v>
+<v t="zoomq.20100419111908.3742"><vh>@nosent hardcodedates.py</vh>
+<v t="zoomq.20100419111908.3743"><vh>hardcodedates declarations</vh></v>
+<v t="zoomq.20100419111908.3744"><vh>init</vh></v>
+<v t="zoomq.20100419111908.3745"><vh>cb_filestat</vh></v>
+<v t="zoomq.20100419111908.3746"><vh>cb_end</vh></v>
+</v>
 </v>
 <v t="ZoomQuiet.20060127143628"><vh>willplugins</vh>
-<v t="zoomq.20100420100426.3921"><vh>@shadow wbglast10summary.py</vh></v>
-<v t="zoomq.20100414115206.4645"><vh>@shadow readmore.py</vh></v>
-<v t="zoomq.20100414115206.4637"><vh>@shadow plugininfo.py</vh></v>
-<v t="zoomq.20100414115206.4685"><vh>@shadow wbgrecent.py</vh></v>
-<v t="zoomq.20100414115206.4630"><vh>@shadow pystaticfile.py</vh></v>
-<v t="zoomq.20100414115206.4648"><vh>@shadow wbgarchives.py</vh></v>
-<v t="zoomq.20100414115206.4659"><vh>@shadow wbggrep.py</vh></v>
-<v t="zoomq.20100414115206.4665"><vh>@shadow wbgpager.py</vh></v>
-<v t="zoomq.20100414115206.4673"><vh>@shadow wbgtags.py</vh></v>
+<v t="zoomq.20100420100426.3921"><vh>@nosent wbglast10summary.py</vh>
+<v t="zoomq.20100420100426.3922"><vh>wbglast10summary declarations</vh></v>
+<v t="zoomq.20100420100426.3923"><vh>cb_prepare</vh></v>
+</v>
+<v t="zoomq.20100414115206.4645"><vh>@nosent readmore.py</vh>
+<v t="zoomq.20100414115206.4646"><vh>readmore declarations</vh></v>
+<v t="zoomq.20100414115206.4647"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20100414115206.4637"><vh>@nosent plugininfo.py</vh>
+<v t="zoomq.20100414115206.4638"><vh>plugininfo declarations</vh></v>
+<v t="zoomq.20100414115206.4639"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4640"><vh>build_entry</vh></v>
+<v t="zoomq.20100414115206.4641"><vh>cb_prepare</vh></v>
+<v t="zoomq.20100414115206.4642"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100414115206.4643"><vh>cb_staticrender_filelist</vh></v>
+<v t="zoomq.20100414115206.4644"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100414115206.4685"><vh>@nosent wbgrecent.py</vh>
+<v t="zoomq.20100414115206.4686"><vh>wbgrecent declarations</vh></v>
+<v t="zoomq.20100414115206.4687"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4688"><vh>new_entry</vh></v>
+<v t="zoomq.20100414115206.4689"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100414115206.4690"><vh>get_comment_text</vh></v>
+<v t="zoomq.20100414115206.4691"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100414115206.4630"><vh>@nosent pystaticfile.py</vh>
+<v t="zoomq.20100414115206.4631"><vh>pystaticfile declarations</vh></v>
+<v t="zoomq.20100414115206.4632"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4633"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100414115206.4634"><vh>cb_date_foot</vh></v>
+<v t="zoomq.20100414115206.4635"><vh>eval_python_blocks</vh></v>
+<v t="zoomq.20100414115206.4636"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100414115206.4648"><vh>@nosent wbgarchives.py</vh>
+<v t="zoomq.20100414115206.4649"><vh>wbgarchives declarations</vh></v>
+<v t="zoomq.20100414115206.4650"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4651"><vh>class WbgArchives</vh>
+<v t="zoomq.20100414115206.4652"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4653"><vh>__str__</vh></v>
+<v t="zoomq.20100414115206.4654"><vh>genLinearArchive</vh></v>
+</v>
+<v t="zoomq.20100414115206.4655"><vh>new_entry</vh></v>
+<v t="zoomq.20100414115206.4656"><vh>cb_prepare</vh></v>
+<v t="zoomq.20100414115206.4657"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100414115206.4658"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100414115206.4659"><vh>@nosent wbggrep.py</vh>
+<v t="zoomq.20100414115206.4660"><vh>wbggrep declarations</vh></v>
+<v t="zoomq.20100414115206.4661"><vh>prepare_text</vh></v>
+<v t="zoomq.20100414115206.4662"><vh>search</vh></v>
+<v t="zoomq.20100414115206.4663"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100414115206.4664"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100414115206.4665"><vh>@nosent wbgpager.py</vh>
+<v t="zoomq.20100414115206.4666"><vh>wbgpager declarations</vh></v>
+<v t="zoomq.20100414115206.4667"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4668"><vh>class PageDisplay</vh>
+<v t="zoomq.20100414115206.4669"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4670"><vh>__str__</vh></v>
+</v>
+<v t="zoomq.20100414115206.4671"><vh>cb_start</vh></v>
+<v t="zoomq.20100414115206.4672"><vh>cb_prepare</vh></v>
+</v>
+<v t="zoomq.20100414115206.4673"><vh>@nosent wbgtags.py</vh>
+<v t="zoomq.20100414115206.4674"><vh>wbgtags declarations</vh></v>
+<v t="zoomq.20100414115206.4675"><vh>savefile</vh></v>
+<v t="zoomq.20100414115206.4676"><vh>loadfile</vh></v>
+<v t="zoomq.20100414115206.4677"><vh>get_tagsfile</vh></v>
+<v t="zoomq.20100414115206.4678"><vh>buildtags</vh></v>
+<v t="zoomq.20100414115206.4679"><vh>category_to_tags</vh></v>
+<v t="zoomq.20100414115206.4680"><vh>cb_commandline</vh></v>
+<v t="zoomq.20100414115206.4681"><vh>cb_start</vh></v>
+<v t="zoomq.20100414115206.4682"><vh>cb_filelist</vh></v>
+<v t="zoomq.20100414115206.4683"><vh>cb_story</vh></v>
+<v t="zoomq.20100414115206.4684"><vh>cb_head</vh></v>
+</v>
 </v>
 <v t="ZoomQuiet.20060128153018"><vh>zqpyb+</vh>
 <v t="ZoomQuiet.20060128161220"><vh>__stuff</vh>
 <v t="zoomq.20100420100426.5502"><vh>_pushsubdir()</vh></v>
 <v t="zoomq.20100420100426.5500"><vh>try文章结构列表</vh></v>
 </v>
-<v t="zoomq.20100420100426.5124"><vh>@shadow category_static.py</vh></v>
-<v t="zoomq.20100414115206.4717"><vh>@shadow zqcategories.py</vh></v>
-<v t="zoomq.20100420100426.3908"><vh>@shadow zqarchives.py</vh></v>
-<v t="ZoomQuiet.20060128153405"><vh>@shadow zqcategory.py</vh></v>
-<v t="ZoomQuiet.20060128161946" a="M"><vh>@shadow zqcrecent.py</vh></v>
+<v t="zoomq.20100420100426.5124"><vh>@nosent category_static.py</vh>
+<v t="zoomq.20100420100426.5125"><vh>&lt;&lt;declarations&gt;&gt;</vh></v>
+<v t="zoomq.20100420100426.5126"><vh>verify_installation</vh></v>
+<v t="zoomq.20100420100426.5127"><vh>cb_filelist</vh>
+<v t="zoomq.20100420100426.5129"><vh>gen_dict</vh></v>
+<v t="zoomq.20100420100426.5130"><vh>gen_tree</vh></v>
+<v t="zoomq.20100514091552.4530"><vh>gen_html</vh>
+<v t="zoomq.20100514091552.4532"><vh>&lt;&lt;item link&gt;&gt;</vh></v>
+</v>
+</v>
+<v t="zoomq.20100420100426.5128"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20100414115206.4717" a="E"><vh>@nosent zqcategories.py</vh>
+<v t="zoomq.20100414115206.4718"><vh>&lt;&lt;pycategories declarations&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4719"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4720" a="E"><vh>class PyblCategories</vh>
+<v t="zoomq.20100414115206.4721"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4722"><vh>__str__</vh></v>
+<v t="zoomq.20100414115206.4723"><vh>genCategories</vh></v>
+<v t="zoomq.20100414115206.4724"><vh>_subCategories</vh></v>
+</v>
+<v t="zoomq.20100414115206.4725"><vh>cb_prepare</vh></v>
+</v>
+<v t="zoomq.20100420100426.3908"><vh>@nosent zqarchives.py</vh>
+<v t="zoomq.20100420100426.3909"><vh>pyarchives declarations</vh></v>
+<v t="zoomq.20100420100426.3910"><vh>verify_installation</vh></v>
+<v t="zoomq.20100420100426.3911"><vh>class PyblArchives</vh>
+<v t="zoomq.20100420100426.3912"><vh>__init__</vh></v>
+<v t="zoomq.20100420100426.3913"><vh>__str__</vh></v>
+<v t="zoomq.20100420100426.3914"><vh>gen_linear_archive</vh>
+<v t="zoomq.20100420100426.3915"><vh>gen_year_month_account</vh></v>
+</v>
+</v>
+<v t="zoomq.20100420100426.3916"><vh>cb_prepare</vh></v>
+</v>
+<v t="ZoomQuiet.20060128153405"><vh>@nosent zqcategory.py</vh>
+<v t="ZoomQuiet.20060128153405.1"><vh>&lt;&lt; zqcategory declarations &gt;&gt;</vh>
+<v t="ZoomQuiet.20060128095939"></v>
+</v>
+<v t="ZoomQuiet.20060128153405.2"><vh>verify_installation</vh></v>
+<v t="ZoomQuiet.20060128153405.3"><vh>class PyblCategories</vh>
+<v t="ZoomQuiet.20060128153405.4"><vh>__init__</vh></v>
+<v t="ZoomQuiet.20060128153405.5"><vh>__str__</vh></v>
+<v t="ZoomQuiet.20060128153405.6"><vh>genCategories</vh></v>
+</v>
+<v t="ZoomQuiet.20060128153405.7"><vh>cb_prepare</vh></v>
+</v>
+<v t="ZoomQuiet.20060128161946" a="M"><vh>@nosent zqcrecent.py</vh>
+<v t="ZoomQuiet.20060128161946.1"><vh>&lt;&lt; zqcrecent declarations &gt;&gt;</vh>
+<v t="ZoomQuiet.20060128095939"></v>
+</v>
+<v t="ZoomQuiet.20060128161946.2"><vh>verify_installation</vh></v>
+<v t="ZoomQuiet.20060128161946.3"><vh>new_entry</vh></v>
+<v t="ZoomQuiet.20060128161946.4"><vh>cb_date_head</vh></v>
+<v t="ZoomQuiet.20060128161946.5"><vh>get_comment_text</vh></v>
+<v t="ZoomQuiet.20060128161946.6" a="E"><vh>cb_filelist</vh>
+<v t="ZoomQuiet.20060128161946.7"><vh>获取entries</vh></v>
+<v t="ZoomQuiet.20060128161946.8"><vh>输出</vh></v>
+</v>
+</v>
 </v>
 <v t="ZoomQuiet.20060113155741"><vh>preformatters</vh>
 <v t="ZoomQuiet.20060122144657"><vh>为t2t</vh>
-<v t="ZoomQuiet.20060121163046"><vh>@shadow xhtml.py</vh></v>
+<v t="ZoomQuiet.20060121163046"><vh>@nosent  xhtml.py</vh>
+<v t="ZoomQuiet.20060121163046.1"><vh>&lt;&lt; xhtml declarations &gt;&gt;</vh>
+<v t="ZoomQuiet.20060128095939"></v>
+</v>
+<v t="ZoomQuiet.20060121163046.2"><vh>cb_entryparser</vh></v>
+<v t="ZoomQuiet.20060121163046.3"><vh>parse</vh></v>
+</v>
 <v t="ZoomQuiet.20060113175338"><vh>@nosent t2t.py</vh>
 <v t="ZoomQuiet.20060113175338.1"><vh>&lt;&lt; t2t declarations &gt;&gt;</vh></v>
 <v t="ZoomQuiet.20060113175338.2"><vh>cb_entryparser</vh></v>
@@ -793,7 +1004,184 @@
 <v t="ZoomQuiet.20060122145631.1"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
 <v t="ZoomQuiet.20060122145631.2"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
 </v>
-<v t="zoomq.20100414115206.4732"><vh>@shadow txt2tags.py</vh></v>
+<v t="zoomq.20100414115206.4732"><vh>@nosent  txt2tags.py</vh>
+<v t="zoomq.20100414115206.4733"><vh>&lt;&lt;txt2tags declarations&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4896"><vh>&lt;&lt;base options&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4895"><vh>&lt;&lt;misc options&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4894"><vh>&lt;&lt;target's templates&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4734"><vh>getTags</vh></v>
+<v t="zoomq.20100414115206.4735"><vh>getRules</vh></v>
+<v t="zoomq.20100414115206.4736"><vh>getRegexes</vh></v>
+<v t="zoomq.20100414115206.4737"><vh>class error</vh></v>
+<v t="zoomq.20100414115206.4738"><vh>echo</vh></v>
+<v t="zoomq.20100414115206.4739"><vh>Quit</vh></v>
+<v t="zoomq.20100414115206.4740"><vh>Error</vh></v>
+<v t="zoomq.20100414115206.4741"><vh>getTraceback</vh></v>
+<v t="zoomq.20100414115206.4742"><vh>getUnknownErrorMessage</vh></v>
+<v t="zoomq.20100414115206.4743"><vh>Message</vh></v>
+<v t="zoomq.20100414115206.4744"><vh>Debug</vh></v>
+<v t="zoomq.20100414115206.4745"><vh>Readfile</vh></v>
+<v t="zoomq.20100414115206.4746"><vh>Savefile</vh></v>
+<v t="zoomq.20100414115206.4747"><vh>showdic</vh></v>
+<v t="zoomq.20100414115206.4748"><vh>dotted_spaces</vh></v>
+<v t="zoomq.20100414115206.4749"><vh>get_rc_path</vh></v>
+<v t="zoomq.20100414115206.4750"><vh>class CommandLine</vh>
+<v t="zoomq.20100414115206.4751"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4752"><vh>_compose_short_opts</vh></v>
+<v t="zoomq.20100414115206.4753"><vh>_compose_long_opts</vh></v>
+<v t="zoomq.20100414115206.4754"><vh>_tokenize</vh></v>
+<v t="zoomq.20100414115206.4755"><vh>parse</vh></v>
+<v t="zoomq.20100414115206.4756"><vh>get_raw_config</vh></v>
+<v t="zoomq.20100414115206.4757"><vh>compose_cmdline</vh></v>
+</v>
+<v t="zoomq.20100414115206.4758"><vh>class SourceDocument</vh>
+<v t="zoomq.20100414115206.4759"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4760"><vh>split</vh></v>
+<v t="zoomq.20100414115206.4761"><vh>get</vh></v>
+<v t="zoomq.20100414115206.4762"><vh>scan_file</vh></v>
+<v t="zoomq.20100414115206.4763"><vh>scan</vh></v>
+<v t="zoomq.20100414115206.4764"><vh>get_raw_config</vh></v>
+</v>
+<v t="zoomq.20100414115206.4765"><vh>class ConfigMaster</vh>
+<v t="zoomq.20100414115206.4766"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4767"><vh>_get_defaults</vh></v>
+<v t="zoomq.20100414115206.4768"><vh>_get_off</vh></v>
+<v t="zoomq.20100414115206.4769"><vh>_check_target</vh></v>
+<v t="zoomq.20100414115206.4770"><vh>get_target_raw</vh></v>
+<v t="zoomq.20100414115206.4771"><vh>add</vh></v>
+<v t="zoomq.20100414115206.4772"><vh>get_outfile_name</vh></v>
+<v t="zoomq.20100414115206.4773"><vh>sanity</vh></v>
+<v t="zoomq.20100414115206.4774"><vh>parse</vh></v>
+<v t="zoomq.20100414115206.4775"><vh>find_value</vh></v>
+</v>
+<v t="zoomq.20100414115206.4776"><vh>class ConfigLines</vh>
+<v t="zoomq.20100414115206.4777"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4778"><vh>load_lines</vh></v>
+<v t="zoomq.20100414115206.4779"><vh>read_config_file</vh></v>
+<v t="zoomq.20100414115206.4780"><vh>include_config_file</vh></v>
+<v t="zoomq.20100414115206.4781"><vh>get_raw_config</vh></v>
+<v t="zoomq.20100414115206.4782"><vh>parse_line</vh></v>
+</v>
+<v t="zoomq.20100414115206.4783"><vh>class MaskMaster</vh>
+<v t="zoomq.20100414115206.4784"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4785"><vh>reset</vh></v>
+<v t="zoomq.20100414115206.4786"><vh>mask</vh></v>
+<v t="zoomq.20100414115206.4787"><vh>undo</vh></v>
+</v>
+<v t="zoomq.20100414115206.4788"><vh>class TitleMaster</vh>
+<v t="zoomq.20100414115206.4789"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4790"><vh>_open_close_blocks</vh></v>
+<v t="zoomq.20100414115206.4791"><vh>add</vh></v>
+<v t="zoomq.20100414115206.4792"><vh>close_all</vh></v>
+<v t="zoomq.20100414115206.4793"><vh>_save_toc_info</vh></v>
+<v t="zoomq.20100414115206.4794"><vh>_set_prop</vh></v>
+<v t="zoomq.20100414115206.4795"><vh>_set_count_id</vh></v>
+<v t="zoomq.20100414115206.4796"><vh>_set_label</vh></v>
+<v t="zoomq.20100414115206.4797"><vh>_get_tagged_anchor</vh></v>
+<v t="zoomq.20100414115206.4798"><vh>_get_full_title_text</vh></v>
+<v t="zoomq.20100414115206.4799"><vh>get</vh></v>
+<v t="zoomq.20100414115206.4800"><vh>dump_marked_toc</vh></v>
+</v>
+<v t="zoomq.20100414115206.4801"><vh>class TableMaster</vh>
+<v t="zoomq.20100414115206.4802"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4803"><vh>_get_open_tag</vh></v>
+<v t="zoomq.20100414115206.4804"><vh>_get_cell_align</vh></v>
+<v t="zoomq.20100414115206.4805"><vh>_get_cell_span</vh></v>
+<v t="zoomq.20100414115206.4806"><vh>_tag_cells</vh></v>
+<v t="zoomq.20100414115206.4807"><vh>add_row</vh></v>
+<v t="zoomq.20100414115206.4808"><vh>parse_row</vh></v>
+<v t="zoomq.20100414115206.4809"><vh>dump</vh></v>
+</v>
+<v t="zoomq.20100414115206.4810"><vh>class BlockMaster</vh>
+<v t="zoomq.20100414115206.4811"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4812"><vh>block</vh></v>
+<v t="zoomq.20100414115206.4813"><vh>isblock</vh></v>
+<v t="zoomq.20100414115206.4814"><vh>prop</vh></v>
+<v t="zoomq.20100414115206.4815"><vh>propset</vh></v>
+<v t="zoomq.20100414115206.4816"><vh>hold</vh></v>
+<v t="zoomq.20100414115206.4817"><vh>holdadd</vh></v>
+<v t="zoomq.20100414115206.4818"><vh>holdaddsub</vh></v>
+<v t="zoomq.20100414115206.4819"><vh>holdextend</vh></v>
+<v t="zoomq.20100414115206.4820"><vh>blockin</vh></v>
+<v t="zoomq.20100414115206.4821"><vh>blockout</vh></v>
+<v t="zoomq.20100414115206.4822"><vh>_last_escapes</vh></v>
+<v t="zoomq.20100414115206.4823"><vh>_get_escaped_hold</vh></v>
+<v t="zoomq.20100414115206.4824"><vh>_remove_twoblanks</vh></v>
+<v t="zoomq.20100414115206.4825"><vh>tagged</vh></v>
+<v t="zoomq.20100414115206.4826"><vh>comment</vh></v>
+<v t="zoomq.20100414115206.4827"><vh>raw</vh></v>
+<v t="zoomq.20100414115206.4828"><vh>para</vh></v>
+<v t="zoomq.20100414115206.4829"><vh>verb</vh>
+<v t="zoomq.20100420100426.5116"><vh>for SyntaxHighlighter</vh></v>
+</v>
+<v t="zoomq.20100414115206.4830"><vh>table</vh></v>
+<v t="zoomq.20100414115206.4831"><vh>quote</vh></v>
+<v t="zoomq.20100414115206.4832"><vh>deflist</vh></v>
+<v t="zoomq.20100414115206.4833"><vh>numlist</vh></v>
+<v t="zoomq.20100414115206.4834"><vh>list</vh></v>
+</v>
+<v t="zoomq.20100414115206.4835"><vh>class MacroMaster</vh>
+<v t="zoomq.20100414115206.4836"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4837"><vh>walk_file_format</vh></v>
+<v t="zoomq.20100414115206.4838"><vh>expand_file_flag</vh></v>
+<v t="zoomq.20100414115206.4839"><vh>set_file_info</vh></v>
+<v t="zoomq.20100414115206.4840"><vh>expand</vh></v>
+</v>
+<v t="zoomq.20100414115206.4841"><vh>dumpConfig</vh></v>
+<v t="zoomq.20100414115206.4842"><vh>get_file_body</vh></v>
+<v t="zoomq.20100414115206.4843"><vh>finish_him</vh></v>
+<v t="zoomq.20100414115206.4844"><vh>toc_inside_body</vh></v>
+<v t="zoomq.20100414115206.4845"><vh>toc_tagger</vh></v>
+<v t="zoomq.20100414115206.4846"><vh>toc_formatter</vh></v>
+<v t="zoomq.20100414115206.4847"><vh>doHeader</vh></v>
+<v t="zoomq.20100414115206.4848"><vh>doCommentLine</vh></v>
+<v t="zoomq.20100414115206.4849"><vh>doFooter</vh></v>
+<v t="zoomq.20100414115206.4850"><vh>doEscape</vh></v>
+<v t="zoomq.20100414115206.4851"><vh>doFinalEscape</vh></v>
+<v t="zoomq.20100414115206.4852"><vh>EscapeCharHandler</vh></v>
+<v t="zoomq.20100414115206.4853"><vh>maskEscapeChar</vh></v>
+<v t="zoomq.20100414115206.4854"><vh>unmaskEscapeChar</vh></v>
+<v t="zoomq.20100414115206.4855"><vh>addLineBreaks</vh></v>
+<v t="zoomq.20100414115206.4856"><vh>expandLineBreaks</vh></v>
+<v t="zoomq.20100414115206.4857"><vh>compile_filters</vh></v>
+<v t="zoomq.20100414115206.4858"><vh>enclose_me</vh></v>
+<v t="zoomq.20100414115206.4859"><vh>beautify_me</vh></v>
+<v t="zoomq.20100414115206.4860"><vh>get_tagged_link</vh></v>
+<v t="zoomq.20100414115206.4861"><vh>parse_deflist_term</vh></v>
+<v t="zoomq.20100414115206.4862"><vh>get_tagged_bar</vh></v>
+<v t="zoomq.20100414115206.4863"><vh>get_image_align</vh></v>
+<v t="zoomq.20100414115206.4864"><vh>get_encoding_string</vh></v>
+<v t="zoomq.20100414115206.4865"><vh>process_source_file</vh></v>
+<v t="zoomq.20100414115206.4866"><vh>get_infiles_config</vh></v>
+<v t="zoomq.20100414115206.4867"><vh>convert_this_files</vh></v>
+<v t="zoomq.20100414115206.4868"><vh>parse_images</vh></v>
+<v t="zoomq.20100414115206.4869"><vh>add_inline_tags</vh></v>
+<v t="zoomq.20100414115206.4870"><vh>get_include_contents</vh></v>
+<v t="zoomq.20100414115206.4871"><vh>set_global_config</vh></v>
+<v t="zoomq.20100414115206.4872"><vh>convert</vh></v>
+<v t="zoomq.20100414115206.4873"><vh>load_GUI_resources</vh></v>
+<v t="zoomq.20100414115206.4874"><vh>class Gui</vh>
+<v t="zoomq.20100414115206.4875"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4876"><vh>load_config</vh></v>
+<v t="zoomq.20100414115206.4877"><vh>entry</vh></v>
+<v t="zoomq.20100414115206.4878"><vh>label</vh></v>
+<v t="zoomq.20100414115206.4879"><vh>button</vh></v>
+<v t="zoomq.20100414115206.4880"><vh>check</vh></v>
+<v t="zoomq.20100414115206.4881"><vh>menu</vh></v>
+<v t="zoomq.20100414115206.4882"><vh>action</vh></v>
+<v t="zoomq.20100414115206.4883"><vh>frame_open</vh></v>
+<v t="zoomq.20100414115206.4884"><vh>frame_close</vh></v>
+<v t="zoomq.20100414115206.4885"><vh>target_name2key</vh></v>
+<v t="zoomq.20100414115206.4886"><vh>target_key2name</vh></v>
+<v t="zoomq.20100414115206.4887"><vh>exit</vh></v>
+<v t="zoomq.20100414115206.4888"><vh>setvar</vh></v>
+<v t="zoomq.20100414115206.4889"><vh>askfile</vh></v>
+<v t="zoomq.20100414115206.4890"><vh>scrollwindow</vh></v>
+<v t="zoomq.20100414115206.4891"><vh>runprogram</vh></v>
+<v t="zoomq.20100414115206.4892"><vh>mainwindow</vh></v>
+</v>
+<v t="zoomq.20100414115206.4893"><vh>exec_command_line</vh></v>
+</v>
 </v>
 <v t="ZoomQuiet.20060113182537"><vh>@nosent moinmoin.py</vh>
 <v t="ZoomQuiet.20060113182537.1"><vh>&lt;&lt; moinmoin declarations &gt;&gt;</vh></v>
@@ -802,10 +1190,38 @@
 <v t="ZoomQuiet.20060113182537.4"><vh>readfile</vh></v>
 <v t="ZoomQuiet.20060113182537.5"><vh>parse</vh></v>
 </v>
-<v t="ZoomQuiet.20060122150604"><vh>@shadow py.py</vh></v>
+<v t="ZoomQuiet.20060122150604"><vh>@nosent py.py</vh>
+<v t="ZoomQuiet.20060122150604.1"><vh>&lt;&lt; py declarations &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060122150604.2"><vh>cb_entryparser</vh></v>
+<v t="ZoomQuiet.20060122150604.3"><vh>parse</vh></v>
+<v t="ZoomQuiet.20060122150604.4"><vh>class Parser</vh>
+<v t="ZoomQuiet.20060122150604.5"><vh>__init__</vh></v>
+<v t="ZoomQuiet.20060122150604.6"><vh>format</vh></v>
+<v t="ZoomQuiet.20060122150604.7"><vh>__call__</vh></v>
+</v>
+</v>
 </v>
 <v t="ZoomQuiet.20060127143250"><vh>folksonomy</vh>
-<v t="zoomq.20100420100426.3881"><vh>@shadow tags.py</vh></v>
+<v t="zoomq.20100420100426.3881"><vh>@nosent tags.py</vh>
+<v t="zoomq.20100420100426.3882"><vh>tags declarations</vh></v>
+<v t="zoomq.20100420100426.3883"><vh>savefile</vh></v>
+<v t="zoomq.20100420100426.3884"><vh>loadfile</vh></v>
+<v t="zoomq.20100420100426.3885"><vh>get_tagsfile</vh></v>
+<v t="zoomq.20100420100426.3886"><vh>buildtags</vh></v>
+<v t="zoomq.20100420100426.3887"><vh>category_to_tags</vh></v>
+<v t="zoomq.20100420100426.3888"><vh>cb_commandline</vh></v>
+<v t="zoomq.20100420100426.3889"><vh>cb_start</vh></v>
+<v t="zoomq.20100420100426.3890"><vh>cb_filelist</vh></v>
+<v t="zoomq.20100420100426.3891"><vh>cb_story</vh></v>
+<v t="zoomq.20100420100426.3892"><vh>cb_head</vh></v>
+<v t="zoomq.20100420100426.3893"><vh>class TagsTest</vh>
+<v t="zoomq.20100420100426.3894"><vh>setUp</vh></v>
+<v t="zoomq.20100420100426.3895"><vh>get_datadir</vh></v>
+<v t="zoomq.20100420100426.3896"><vh>tearDown</vh></v>
+<v t="zoomq.20100420100426.3897"><vh>test_get_tagsfile</vh></v>
+</v>
+<v t="zoomq.20100420100426.3898"><vh>get_test_suite</vh></v>
+</v>
 <v t="ZoomQuiet.20060123122117"><vh>@nosent folksonomy.py</vh>
 <v t="ZoomQuiet.20060123122117.1"><vh>&lt;&lt; folksonomy declarations &gt;&gt;</vh></v>
 <v t="ZoomQuiet.20060123122117.2"><vh>cb_start</vh></v>
@@ -886,7 +1302,7 @@
 <v t="zoomq.20100419194136.6284"><vh>@shadow tools.py</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060113092617" a="E"><vh>web配置</vh>
+<v t="ZoomQuiet.20060113092617"><vh>web配置</vh>
 <v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
 <v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
 <v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
@@ -4287,6 +4703,62 @@ Zoomq::060613 乱码! 先不用
 &lt;/div&gt;
 
 </t>
+<t tx="ZoomQuiet.20060121163046"># -*- coding: utf-8 -*-
+&lt;&lt; xhtml declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+PREFORMATTER_ID = 'xhtml'
+FILE_EXT = 'xhtml'
+__version__ = "v10.4.14"
+__author__ = 'Zoom.Quiet &lt;Zoom.Quiet at gmail.com&gt;'
+__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/xhtml.phtm"
+__description__ = "txt2tags export xhmtl entry - Pyblosxom Parser."
+
+from Pyblosxom import tools
+
+@others
+
+</t>
+<t tx="ZoomQuiet.20060121163046.1">"""XHTML - html Parser
+    - 仅仅适用于 t2t 输出的xhtml
+
+&lt;&lt;CopyLeft&gt;&gt;
+
+"""
+
+
+</t>
+<t tx="ZoomQuiet.20060121163046.2">def cb_entryparser(args):
+    args['xhtml'] = parse
+    return args
+</t>
+<t tx="ZoomQuiet.20060121163046.3">def parse(filename, request):
+    import os, sys
+    config = request.getConfiguration()
+    ## 简单处理,基于 t2t 2.4.3
+    source = open(filename,"r").readlines()
+    body = "".join(source[11:-1])
+    #print source[6]
+    title = source[6][7:-9]
+    #print source[14]
+    #tags = source[14][4:-6]
+    #print tags
+    '''
+    title = ""
+    for line in open(filename,"r").readlines():
+        if "&lt;title&gt;" in line:
+            title=line[7:].replace("&lt;/title&gt;","")
+            break
+    if "" == title:
+        title = filename.replace(config['datadir'], '')
+    '''
+    entryData = {'body' : body
+                 ,'title' : title
+                 #,'tags' : tags
+                 #filename.replace(config['datadir'], '')
+                 }
+
+    return entryData
+</t>
 <t tx="ZoomQuiet.20060121170005">/*padding:5px 15px 10px 15px;          */
 #banner {
     font-family: "Courier New",Georgia,Verdana, arial, helvetica, sans-serif;
@@ -4907,6 +5379,163 @@ def parse(story):
 % leo: 编辑
 
 
+</t>
+<t tx="ZoomQuiet.20060122150604"># -*- coding: utf-8 -*-
+&lt;&lt; py declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+__version__ = "Jul 02, 2004 (Friday)"
+__author__ = "Wari.Wahab"
+__url__ = "http://pyblosxom.sourceforge.net/blog/registry/text/py"
+__description__ = "MoinMoin - Python Source Parser."
+
+@others
+</t>
+<t tx="ZoomQuiet.20060122150604.1">"""Python Source Parser
+
+usage MoinMoin Parser
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004, 2005 Wari Wahab
+"""
+</t>
+<t tx="ZoomQuiet.20060122150604.2">def cb_entryparser(args):
+    args['py'] = parse
+    return args
+</t>
+<t tx="ZoomQuiet.20060122150604.3">def parse(filename, request):
+    import os, sys
+    from StringIO import StringIO
+
+    # open own source
+    config = request.getConfiguration()
+    source = open(filename).read()
+    out = StringIO()
+
+    # write colorized version to "python.html"
+    Parser(source, out).format(None, None)
+
+    entryData = {'body' : out.getvalue(),
+                 'title' : filename.replace(config['datadir'], '')}
+
+    return entryData
+</t>
+<t tx="ZoomQuiet.20060122150604.4">
+
+# Imports
+import cgi, string, sys, cStringIO, os
+import keyword, token, tokenize
+
+
+#############################################################################
+### Python Source Parser (does Hilighting)
+#############################################################################
+
+_KEYWORD = token.NT_OFFSET + 1
+_TEXT    = token.NT_OFFSET + 2
+
+_colors = {
+    token.NUMBER:       '#0080C0',
+    token.OP:           '#0000C0',
+    token.STRING:       '#004080',
+    tokenize.COMMENT:   '#008000',
+    token.NAME:         '#000000',
+    token.ERRORTOKEN:   '#FF8080',
+    _KEYWORD:           '#C00000',
+    _TEXT:              '#000000',
+}
+
+LINEFEED = os.linesep
+
+
+class Parser:
+    """ Send colored python source.
+    """
+	@others
+</t>
+<t tx="ZoomQuiet.20060122150604.5">def __init__(self, raw, out = sys.stdout):
+    """ Store the source text.
+    """
+    self.raw = string.strip(string.expandtabs(raw))
+    self.out = out
+</t>
+<t tx="ZoomQuiet.20060122150604.6">def format(self, formatter, form):
+    """ Parse and send the colored source.
+    """
+    # store line offsets in self.lines
+    self.lines = [0, 0]
+    pos = 0
+    while 1:
+        pos = string.find(self.raw, LINEFEED, pos) + 1
+        if not pos: break
+        self.lines.append(pos)
+    self.lines.append(len(self.raw))
+
+    # parse the source and write it
+    self.pos = 0
+    text = cStringIO.StringIO(self.raw)
+    self.out.write('&lt;pre&gt;&lt;font face="Lucida,Courier New"&gt;')
+    try:
+        tokenize.tokenize(text.readline, self)
+    except tokenize.TokenError, ex:
+        msg = ex[0]
+        line = ex[1][0]
+        self.out.write("&lt;h3&gt;ERROR: %s&lt;/h3&gt;%s%s" % (
+            msg, self.raw[self.lines[line]:], LINEFEED))
+    self.out.write('&lt;/font&gt;&lt;/pre&gt;')
+    #self.out.write(self.lines)
+</t>
+<t tx="ZoomQuiet.20060122150604.7">def __call__(self, toktype, toktext, (srow,scol), (erow,ecol), line):
+    """ Token handler.
+    """
+    if 0:
+        print "type", toktype, token.tok_name[toktype], "text", toktext,
+        print "start", srow,scol, "end", erow,ecol, "&lt;br /&gt;"
+
+    # calculate new positions
+    oldpos = self.pos
+    newpos = self.lines[srow] + scol
+    self.pos = newpos + len(toktext)
+
+    # handle newlines
+    if toktype in [token.NEWLINE, tokenize.NL]:
+        self.out.write(LINEFEED)
+        return
+
+    # send the original whitespace, if needed
+    if newpos &gt; oldpos:
+        self.out.write(self.raw[oldpos:newpos])
+
+    # skip indenting tokens
+    if toktype in [token.INDENT, token.DEDENT]:
+        self.pos = newpos
+        return
+
+    # map token type to a color group
+    if token.LPAR &lt;= toktype and toktype &lt;= token.OP:
+        toktype = token.OP
+    elif toktype == token.NAME and keyword.iskeyword(toktext):
+        toktype = _KEYWORD
+    color = _colors.get(toktype, _colors[_TEXT])
+
+    style = ''
+    if toktype == token.ERRORTOKEN:
+        style = ' style="border: solid 1.5pt #FF0000;"'
+
+    # send text
+    self.out.write('&lt;font color="%s"%s&gt;' % (color, style))
+    self.out.write(cgi.escape(toktext))
+    self.out.write('&lt;/font&gt;')
 </t>
 <t tx="ZoomQuiet.20060122153701">@language Moin
 [RE:]一个程序员的博客 开源机会还要等10年？
@@ -7827,7 +8456,6 @@ py['imagedata'] = '/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/_images' #i
 py['gallerytrigger'] = 'gallerytrigger' #is required.
 #py['gallery_use_story_template'] = True/False is optional, defaulting to True.
 </t>
-<t tx="ZoomQuiet.20060127164449">@path guestbook</t>
 <t tx="ZoomQuiet.20060127173032">Comment 支持</t>
 <t tx="ZoomQuiet.20060127173032.3">&lt;div class="blosxomGuestbookForm"&gt;
 
@@ -7923,6 +8551,200 @@ Copyleft 2005, 2006 Zoom.Quiet
 </t>
 <t tx="ZoomQuiet.20060128153018">@path zqpyb+
 </t>
+<t tx="ZoomQuiet.20060128153405"># -*- coding: utf-8 -*-
+&lt;&lt; zqcategory declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+__author__ = "Zoom.Quiet - Zoom.Quiet at gmail.com"
+__version__ = "$Id: zqcategory.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $"
+__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/zqcategory"
+__description__ = "Builds a map of categories point zip list."
+
+from Pyblosxom import tools
+import re, os
+
+DEFAULT_START = r'&lt;ul class="categorygroup"&gt;'
+DEFAULT_BEGIN = r'&lt;li&gt;&lt;ul class="categorygroup"&gt;'
+DEFAULT_ITEM = r'&lt;li&gt;&lt;a href="%(base_url)s/zqcrecent?%(fullcategory)s"&gt;%(category)s (%(count)d)&lt;/a&gt;&lt;/li&gt;'
+#cancel index.%(flavour)s 
+DEFAULT_END = "&lt;/ul&gt;&lt;/li&gt;"
+DEFAULT_FINISH = "&lt;/ul&gt;"
+
+@others
+</t>
+<t tx="ZoomQuiet.20060128153405.1">"""改良的分类索引，与zqcrecent配合运用
+Walks through your blog root figuring out all the categories you have
+and how many entries are in each category.  It generates html with
+this information and stores it in the $categorylinks variable which
+you can use in your head or foot templates.
+
+You can format the output by setting "category_begin", "category_item",
+"category_end" and properties.
+
+Categories exist in a hierarchy.  "category_start" starts the category listing
+and is only used at the very beginning.  The "category_begin" property begins a 
+new category group and the "category_end" property ends that category group.  The
+"category_item" property is the template for each category item.  Then
+after all the categories are printed, "category_finish" ends the category
+listing.
+
+For example, the following properties will use &lt;ul&gt; to open a category, &lt;/ul&gt;
+to close a category and &lt;li&gt; for each item:
+
+py["category_start"] = "&lt;ul&gt;"
+py["category_begin"] = "&lt;li&gt;&lt;ul&gt;"
+py["category_item"] = r'&lt;li&gt;&lt;a href="%(base_url)s/%(category)sindex"&gt;%(category)s&lt;/a&gt;&lt;/li&gt;'
+py["category_end"] = "&lt;/li&gt;&lt;/ul&gt;"
+py["category_finish"] = "&lt;/ul&gt;"
+
+
+Another example, the following properties don't have a begin or an end but
+instead use indentation for links and displays the number of entries in that
+category:
+
+py["category_start"] = ""
+py["category_begin"] = ""
+py["category_item"] = r'%(indent)s&lt;a href="%(base_url)s/%(category)sindex"&gt;%(category)s&lt;/a&gt; (%(count)d)&lt;br /&gt;'
+py["category_end"] = ""
+py["category_finish"] = ""
+
+There are no variables available in the category_begin or category_end templates.
+
+Available variables in the category_item template:
+
+  base_url      (this is set in your config.py file)   string
+  fullcategory  'dev/pyblosxom/status/'                string
+  category      'status/'                              string
+  flavour       'html'                                 string
+  count         70                                     int
+  indent        '&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'             string
+
+
+&lt;&lt;CopyLeft&gt;&gt;
+"""
+
+</t>
+<t tx="ZoomQuiet.20060128153405.2">def verify_installation(request):
+    config = request.getConfiguration()
+    if not config.has_key("category_template"):
+        print "missing optional config property 'category_template' which allows "
+        print "you to specify how the category hierarchy is rendered.  see"
+        print "the documentation at the top of the pycategories plugin code "
+        print "file for more details."
+    return 1
+</t>
+<t tx="ZoomQuiet.20060128153405.3">
+class PyblCategories:
+	@others
+</t>
+<t tx="ZoomQuiet.20060128153405.4">def __init__(self, request):
+    self._request = request
+    self._categories = None
+    self.genCategories()
+</t>
+<t tx="ZoomQuiet.20060128153405.5">def __str__(self):
+    if self._categories == None:
+        self.genCategories()
+    return self._categories
+</t>
+<t tx="ZoomQuiet.20060128153405.6">def genCategories(self):
+    config = self._request.getConfiguration()
+    root = config["datadir"]
+
+    start_t = config.get("category_start", DEFAULT_START)
+    begin_t = config.get("category_begin", DEFAULT_BEGIN)
+    item_t = config.get("category_item", DEFAULT_ITEM)
+    end_t = config.get("category_end", DEFAULT_END)
+    finish_t = config.get("category_start", DEFAULT_FINISH)
+
+    self._baseurl = config.get("base_url", "")
+
+    form = self._request.getForm()
+    flavour = (form.has_key('flav') and form['flav'].value or 
+        config.get('default_flavour', 'html'))
+
+    # build the list of all entries in the datadir
+    elist = tools.Walk(self._request, root)
+
+    # peel off the root dir from the list of entries
+    elist = [mem[len(root)+1:] for mem in elist]
+
+    # go through the list of entries and build a map that
+    # maintains a count of how many entries are in each 
+    # category
+    elistmap = {}
+    for mem in elist:
+        mem = os.path.dirname(mem)
+        elistmap[mem] = 1 + elistmap.get(mem, 0)
+    self._elistmap = elistmap
+
+    # go through the elistmap keys (which is the list of
+    # categories) and for each piece in the key (i.e. the key
+    # could be "dev/pyblosxom/releases" and the pieces would
+    # be "dev", "pyblosxom", and "releases") we build keys
+    # for the category list map (i.e. "dev", "dev/pyblosxom",
+    # "dev/pyblosxom/releases")
+    clistmap = {}
+    for mem in elistmap.keys():
+        mem = mem.split(os.sep)
+        for index in range(len(mem)+1):
+            p = os.sep.join(mem[0:index])
+            clistmap[p] = 0
+
+    # then we take the category list from the clistmap and
+    # sort it alphabetically
+    clist = clistmap.keys()
+    clist.sort()
+
+    output = []
+    indent = 0
+
+    output.append(start_t)
+    # then we generate each item in the list
+    for item in clist:
+        itemlist = item.split(os.sep)
+
+        num = 0
+        for key in self._elistmap.keys():
+            if key.endswith(item) or key.endswith(item + os.sep):
+                num = num + self._elistmap[key]
+
+        if not item:
+            tab = ""
+        else:
+            tab = len(itemlist) * "&amp;nbsp;&amp;nbsp;"
+
+        if indent &gt; len(itemlist):
+            for i in range(indent - len(itemlist)):
+                output.append(end_t)
+
+        elif indent &lt; len(itemlist):
+            for i in range(len(itemlist) - indent):
+                output.append(begin_t)
+
+        # now we build the dict with the values for substitution
+        d = { "base_url":     self._baseurl, 
+              "fullcategory": item + "/", 
+              "category":     itemlist[-1] + "/", 
+              #"flavour":      flavour,
+              "count":        num,
+              "indent":       tab }
+
+        # and we toss it in the thing
+        output.append(item_t % d)
+
+        indent = len(itemlist)
+
+    output.append(end_t * indent)
+    output.append(finish_t)
+
+    # then we join the list and that's the final string
+    self._categories = "\n".join(output)
+</t>
+<t tx="ZoomQuiet.20060128153405.7">def cb_prepare(args):
+    request = args["request"]
+    data = request.getData()
+    data["categorylinks"] = PyblCategories(request)
+</t>
 <t tx="ZoomQuiet.20060128161220">request.getHttp()
 可以获取::
     
@@ -7939,6 +8761,211 @@ Copyleft 2005, 2006 Zoom.Quiet
  , 'QUERY_STRING': '/OpenSource/PyBlosxom/plugins'
  , 'HTTP_ACCEPT_ENCODING': 'gzip,deflate'
  , 'REQUEST_URI': '/pyblosxom/recent?c=123131'}</t>
+<t tx="ZoomQuiet.20060128161946"># -*- coding: utf-8 -*-
+&lt;&lt; zqcrecent declarations &gt;&gt;
+"""
+Revisions:
+1.6 - Zoomq::060128 base wbgrecent.py fix out;
+    - esp. for zqcategory show zip Category Entry list
+    - 1.6.1 fixed 2 week's limited
+2005-11-11 - Pulled into new VCS.
+1.5 - (26 October, 2005) pulled into new VCS
+1.1 - (09 December, 2004) fixed the timestamp and date_head issues
+1.0 - (31 August, 2004) initial writing
+"""
+## Leo: tab_width=-4 page_width=80
+
+__author__ = "Zoom.Quiet - Zoom.Quiet at gmail.com"
+__version__ = "v1.6.1"
+__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/zqcrecent"
+__description__ = "Listing recent Category blog entry."
+
+from Pyblosxom import tools, entries
+import time, os, glob
+
+@others
+</t>
+<t tx="ZoomQuiet.20060128161946.1">"""改良的最新更动列表，与zqcategory配合运用
+Walks through all your blog entries and comments and makes a list of
+all the entries that were either written in the last 14 days or have
+comments written in the last 14 days.  It then generates a very
+hard-coded html representation of them and semi-abuses the 
+flavour template yearmonthsummary which I use for my wbgarchives
+plugin.
+
+This plugin requires no installation.  Just drop it in and the url
+will be:
+
+   $baseurl/zqcrecent?uAskShowCategoryPath
+
+to see the recent activity.
+
+
+&lt;&lt;CopyLeft&gt;&gt;
+
+SUBVERSION VERSION: $Id: zqcrecent.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $
+
+"""
+
+</t>
+<t tx="ZoomQuiet.20060128161946.2">def verify_installation(request):
+    return 1
+</t>
+<t tx="ZoomQuiet.20060128161946.3">def new_entry(request, title, body):
+    """
+    Takes a bunch of variables and generates an entry out of it.  It creates
+    a timestamp so that conditionalhttp can handle it without getting
+    all fussy.
+    """
+    entry = entries.base.EntryBase(request)
+
+    entry['title'] = title
+    entry['filename'] = title + "/zqcrecent"
+    entry['file_path'] = title
+    entry._id = title + "::zqcrecent"
+
+    entry["template_name"] = "yearsummarystory"
+    entry["nocomments"] = "yes"
+
+    entry.setTime(time.localtime())
+    entry.setData(body)
+
+
+    return entry
+</t>
+<t tx="ZoomQuiet.20060128161946.4">INIT_KEY = "wbgrecent_initiated"
+
+def cb_date_head(args):
+    request = args["request"]
+    data = request.getData()
+
+    if data.has_key(INIT_KEY):
+        args["template"] = ""
+    return args
+</t>
+<t tx="ZoomQuiet.20060128161946.5">
+def get_comment_text(cmt):
+    f = open(cmt[1], "r")
+    lines = f.readlines()
+    title = "No title"
+    author = "Unknown"
+    for mem in lines:
+        mem = mem.rstrip()
+        if mem.find("&lt;title&gt;") == 0:
+            title = mem.replace("&lt;title&gt;", "").replace("&lt;/title&gt;", "")
+        elif mem.find("&lt;author&gt;") == 0:
+            author = mem.replace("&lt;author&gt;", "").replace("&lt;/author&gt;", "")
+
+    return "(%s) %s, by %s" % \
+           (time.strftime("%m/%d/%Y %H:%M", time.localtime(cmt[0])), \
+            title, author)
+</t>
+<t tx="ZoomQuiet.20060128161946.6">def cb_filelist(args):
+    request = args["request"]
+    pyhttp = request.getHttp()
+    data = request.getData()
+    config = request.getConfiguration()
+
+    if not pyhttp["PATH_INFO"].startswith("/zqcrecent"):
+        return
+
+    datadir = config["datadir"]
+    walkdir = datadir+"/"+str(pyhttp["QUERY_STRING"])
+    data["debug"] = "DEBUG::%s&lt;br/&gt;%s&lt;br/&gt;%s"%(datadir
+                                ,str(pyhttp["QUERY_STRING"])
+                                ,walkdir)
+
+    baseurl = config.get("base_url", "")
+    cmntdir = config.get("comment_dir", datadir + os.sep + "comments")
+    cmntext = config.get("comment_ext", ".cmt")
+
+    data["blog_title"] = config.get("blog_title", "") + "&lt;DIV id='recent'&gt; - category recent&lt;/DIV&gt;"
+
+    data[INIT_KEY] = 1
+    config['num_entries'] = 9999
+
+    marker = time.time() - (60 * 60 * 24 * 14)
+
+    # get entries and export
+    @others
+
+
+    return entrylist
+</t>
+<t tx="ZoomQuiet.20060128161946.7"># get all the entries
+#allentries = tools.Walk(request, datadir)
+## Zoomq::060128 walking base Categories Point
+allentries = tools.Walk(request, walkdir)
+
+debug = []
+stuff = []
+
+for mem in allentries:
+    timetuple = tools.filestat(request, mem)
+    entrytstamp = time.mktime(timetuple)
+    tstamp = entrytstamp
+
+    absolute_path = mem[len(datadir):mem.rfind(os.sep)]
+    fn = mem[mem.rfind(os.sep)+1:mem.rfind(".")]
+
+    cmtexpr = os.path.join(cmntdir + absolute_path, fn + '-*.' + cmntext)
+    cmtlist = glob.glob(cmtexpr)
+    cmtlist = [ (os.stat(m)[8], m) for m in cmtlist]
+    cmtlist.sort()
+    cmtlist.reverse()
+
+    # we want the most recent mtime from either the entry or
+    # any of its comments
+    if len(cmtlist) &gt; 0:
+        if tstamp &lt; cmtlist[0][0]:
+            tstamp = cmtlist[0][0]
+
+    # if the mtime is more recent than our marker, we toss the
+    # stuff into our list of things to look at.
+    # Zoomq::060214 fixed cancel this limited
+    """
+    if tstamp &gt; marker:
+        stuff.append( [tstamp, entrytstamp, mem, cmtlist] )
+    """
+    stuff.append( [tstamp, entrytstamp, mem, cmtlist] )
+
+stuff.sort()
+stuff.reverse()
+
+</t>
+<t tx="ZoomQuiet.20060128161946.8"># time stamp and blog entry
+#e = "&lt;tr&gt;\n&lt;td valign=\"top\" align=\"left\"&gt;%s:&lt;/td&gt;\n" \
+#    "&lt;td&gt;&lt;a href=\"%s/%s\"&gt;%s&lt;/a&gt; (%s)&lt;br /&gt;%s&lt;/td&gt;&lt;/tr&gt;\n"
+e = """&lt;tr&gt;
+    &lt;td valign="top" align="left"&gt;%s:&lt;/td&gt;
+    &lt;td&gt;&lt;a href="%s/%s.html"&gt;%s&lt;/a&gt; (%s)
+    &lt;br/&gt;%s
+    &lt;/td&gt;&lt;/tr&gt;
+    """
+
+entrylist = []
+output = []
+for mem in stuff:
+    entry = entries.fileentry.FileEntry(request, mem[2], data['root_datadir'])
+    tstamp = time.strftime("%m/%d/%Y", time.localtime(mem[1]))
+
+    temp = e % (tstamp, \
+                baseurl, \
+                entry["file_path"], \
+                entry["title"], \
+                "", \
+                "".join( [get_comment_text(c) + "&lt;br /&gt;" for c in mem[3]])
+                #entry["path"]
+                )
+    output.append(temp)
+
+entrylist.append(new_entry(request
+                           , "Category Recent Entries::"
+                           , "&lt;tr&gt;&lt;td colspan=2&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;\n".join(output)
+                           )
+                    )
+
+</t>
 <t tx="ZoomQuiet.20060214171628">@language Moin
 情人节？
 翻译的很烂的节日
@@ -12123,12 +13150,3159 @@ super-apropos 哪些文档提到此概念
 % leo: 编辑
 
 </t>
+<t tx="zoomq.20100414115206.4559">@language python
+@tabwidth -4
+@others
+if __name__ == '__main__':      # this way the module can be
+    if 2 != len(sys.argv):
+        print """ %s usage::
+$ python cleant2t.py path/2/t2t/export/entry.html
+        """ % VERSION
+    else:
+        htmfile = sys.argv[1]
+        clean2entry(htmfile)
+
+</t>
+<t tx="zoomq.20100414115206.4560"># -*- coding: utf-8 -*-
+# =============================================================
+# 快速预处理 t2t 生成的html :
+#   - 清除 &lt;body/&gt; 之外的代码
+#   - 将 title 单独放在头部,以便 PyBlosxom 识别使用
+# =============================================================
+__version__ = 'cleant2t.py v10.4.13'
+__author__ = 'Zoom.Quiet &lt;zoomq at zeuux dot org&gt;'
+
+import sys
+
+</t>
+<t tx="zoomq.20100414115206.4561">def clean2entry(htmf):
+    html = open(htmf).readlines()
+    #print html[9:-1]
+    #print html[5][7:-9]
+    body = "".join(html[9:-1])
+    #return "%s\n%s"%(html[5][7:-9],body)
+    open("%s.txt"%htmf,"w").write("%s\n%s"%(html[5][7:-9],body))
+    print "cleaned,ans exp. as %s.txt"%htmf
+
+</t>
 <t tx="zoomq.20100414115206.4579">@path archives
 
 归档相关插件</t>
 <t tx="zoomq.20100414115206.4589">@path date
 
 日期处理相关插件
+</t>
+<t tx="zoomq.20100414115206.4606">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+&lt;&lt;pyfilenamemtime declarations&gt;&gt;
+import os, re, time
+
+__author__ = 'Tim Roberts http://www.probo.com/timr/blog/'
+__version__ = '$Id: pyfilenamemtime.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $'
+
+DAYMATCH = re.compile('([0-9]{4})-([0-1][0-9])-([0-3][0-9])-([0-2][0-9])-([0-5][0-9]).[\w]+$')
+
+@others
+</t>
+<t tx="zoomq.20100414115206.4607"># -*- coding: utf-8 -*-
+"""
+If a filename contains a timestamp in the form of YYYY-MM-DD-hh-mm,
+change the mtime to be the timestamp instead of the one kept by the
+filesystem.  For example, a valid filename would be
+foo-2002-04-01-00-00.txt for April fools day on the year 2002.
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004, 2005 Tim Roberts
+"""
+## Leo: tab_width=-4 page_width=80
+# vim: tabstop=4 shiftwidth=4
+</t>
+<t tx="zoomq.20100414115206.4608">def cb_filestat(args):
+    filename = args["filename"]
+    stattuple = args["mtime"]
+
+    mtime = 0
+    mtch = DAYMATCH.search(os.path.basename(filename))
+    if mtch:
+        try:
+            year = int(mtch.groups()[0])
+            mo = int(mtch.groups()[1])
+            day = int(mtch.groups()[2])
+            hr = int(mtch.groups()[3])
+            minute = int(mtch.groups()[4]) 
+            mtime = time.mktime((year,mo,day,hr,minute,0,0,0,-1))
+        except:
+            # TODO: Some sort of debugging code here?
+            pass
+
+    if mtime: 
+        args["mtime"] = tuple(list(stattuple[:8]) + [mtime] + list(stattuple[9:]))
+
+    return args
+
+
+</t>
+<t tx="zoomq.20100414115206.4609">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+@others
+</t>
+<t tx="zoomq.20100414115206.4610">"""
+This is my fancy module to add a token which tells us whether we're
+the first day being displayed or not.
+
+To install:
+ 1. Copy this file into your pyblosxom/Pyblosxom/plugins directory.
+
+ 2. Create a file named date_head.html in your datadir containing::
+
+    &lt;div class="$dayDivClass"&gt;
+    &lt;span class="blosxomDate"&gt;$date&lt;/span&gt;
+
+ 3. Edit your config.py and add the line::
+
+    py['firstDayDiv'] = 'blosxomFirstDayDiv'
+
+ 4. That's it.  You're done.
+
+Questions, comments, concerns?  Email bwinton at latte dot ca for help.
+
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004, 2005 Blake Winton
+"""
+__author__ = "Blake Winton - bwinton@latte.ca"
+__version__ = "$Id: firstdaydiv.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $"
+__url__ = "http://pyblosxom.sourceforge.net/"
+__description__ = "Adds a token which tells us whether we're the first day being displayed or not."
+
+</t>
+<t tx="zoomq.20100414115206.4611">class PyFirstDate:
+    """
+    This class stores the state needed to determine whether we're
+    supposed to return the first-day-div class or the
+    not-the-first-day-div class.
+
+    @type _dayDiv: string
+    @ivar _dayDiv: The davDiv class to return.
+    @type _count: int
+    @ivar _count: The number of times we've been called (currently 0 or 1)
+    """
+    @others
+</t>
+<t tx="zoomq.20100414115206.4612">def __init__(self, request):
+    """
+    Initialize the PyFirstDate class.
+
+    @type request: L{Pyblosxom.pyblosxom.Request} object
+    @param request: A reference to the L{Pyblosxom.pyblosxom.Request} object.
+    """
+    config = request.getConfiguration()
+    self._dayDiv = config.get("firstDayDiv", "blosxomDayDiv")
+    self._count = 0
+
+</t>
+<t tx="zoomq.20100414115206.4613">def __str__(self):
+    """
+    Get a string representing the current state of this
+    object.
+
+    @rtype: string
+    @return: the user-specified firstDayDiv if it's the first
+             time we're called, or "blosxomDayDiv" if it's not.
+    """
+    if self._count == 0:
+        self._count = 1
+    else:
+        self._dayDiv = "blosxomDayDiv"
+    return self._dayDiv
+
+</t>
+<t tx="zoomq.20100414115206.4614">def cb_prepare(args):
+    """
+    Populate the L{Pyblosxom.pyblosxom.Request} with an instance of the
+    L{PyFirstDate} class in the "dayDivClass" key.
+    """
+    request = args["request"]
+
+    data = request.getData()
+    data["dayDivClass"] = PyFirstDate(request)
+</t>
+<t tx="zoomq.20100414115206.4615">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+@others
+</t>
+<t tx="zoomq.20100414115206.4616">"""
+Adds a 'w3cdate' variable to every entry which has the mtime of the entry
+in ISO8601 format.
+
+Adds a 'w3cdate' variable to the head and foot templates which has the mtime
+of the first entry in the entrylist being displayed (this is often the
+youngest/most-recent entry).
+
+
+Note: When adding this plugin to the load_plugins list, it helps 
+to put the plugin early in the list so that the data will be 
+available to subsequent plugins.
+
+Note: You might get better results if you have PyXMl installed as 
+part of your Python installation.  If you don't, then we fudge the 
+date using a home-brew function.
+
+
+Thanks to Matej Cepl for the hacked iso8601 code that doesn't require
+PyXML.
+
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Copyright (c) 2003-2005 Ted Leung
+"""
+__author__ = "Ted Leung &lt;twl@sauria.com&gt;"
+__version__ = "$Id: w3cdate.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $"
+__copyright__ = "Copyright (c) 2003-2005 Ted Leung"
+__license__ = "Python"
+
+import rfc822
+import time
+from Pyblosxom import tools
+
+</t>
+<t tx="zoomq.20100414115206.4617">def iso8601_hack_tostring(t, timezone):
+    timezone = int(timezone)
+    if timezone:
+        sign = (timezone &lt; 0) and "+" or "-"
+        timezone = abs(timezone)
+        hours = timezone / (60 * 60)
+        minutes = (timezone % (60 * 60)) / 60
+        tzspecifier = "%c%02d:%02d" % (sign, hours, minutes)
+    else:
+        tzspecifier = "Z"
+    psecs = t - int(t)
+    t = time.gmtime(int(t) - timezone)
+    year, month, day, hours, minutes, seconds = t[:6]
+    if seconds or psecs:
+        if psecs:
+            psecs = int(round(psecs * 100))
+            f = "%4d-%02d-%02dT%02d:%02d:%02d.%02d%s"
+            v = (year, month, day, hours, minutes, seconds, psecs, tzspecifier)
+        else:
+            f = "%4d-%02d-%02dT%02d:%02d:%02d%s"
+            v = (year, month, day, hours, minutes, seconds, tzspecifier)
+    else:
+        f = "%4d-%02d-%02dT%02d:%02d%s"
+        v = (year, month, day, hours, minutes, tzspecifier)
+    return f % v
+
+
+</t>
+<t tx="zoomq.20100414115206.4618">try:
+    from xml.utils import iso8601
+    format_date = iso8601.tostring
+
+except:
+    format_date = iso8601_hack_tostring
+
+
+def get_formatted_date(entry):
+    if not entry:
+        return ""
+
+    time_tuple = entry['timetuple']
+    tzoffset = time.timezone
+
+    # if is_dst flag set, adjust for daylight savings time
+    if time_tuple[8] == 1:
+        tzoffset = time.altzone
+    return format_date(time.mktime(time_tuple), tzoffset)    
+
+</t>
+<t tx="zoomq.20100414115206.4619">def cb_head(args):
+    entry = args["entry"]
+
+    req = args["request"]
+    data = req.getData()
+    config = req.getConfiguration()
+
+    entrylist = data.get("entry_list", None)
+    if not entrylist:
+        return args
+
+    entry["w3cdate"] = get_formatted_date(entrylist[0])
+    return args
+
+</t>
+<t tx="zoomq.20100414115206.4620">def cb_story(args):
+    entry = args['entry']
+    entry["w3cdate"] = get_formatted_date(entry)
+
+</t>
+<t tx="zoomq.20100414115206.4621">def cb_foot(args):
+    entry = args["entry"]
+
+    req = args["request"]
+    data = req.getData()
+    config = req.getConfiguration()
+
+    entrylist = data.get("entry_list", None)
+    if not entrylist:
+        return args
+
+    entry["w3cdate"] = get_formatted_date(entrylist[0])
+    return args
+</t>
+<t tx="zoomq.20100414115206.4622">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+&lt;&lt;pycategories declarations&gt;&gt;
+from Pyblosxom import tools
+import re, os
+
+DEFAULT_START = r'&lt;ul class="categorygroup"&gt;'
+DEFAULT_BEGIN = r'&lt;li&gt;&lt;ul class="categorygroup"&gt;'
+DEFAULT_ITEM = r'&lt;li&gt;&lt;a href="%(base_url)s/%(fullcategory_urlencoded)sindex.%(flavour)s"&gt;%(category)s&lt;/a&gt; (%(count)d)&lt;/li&gt;'
+DEFAULT_END = "&lt;/ul&gt;&lt;/li&gt;"
+DEFAULT_FINISH = "&lt;/ul&gt;"
+
+@others
+</t>
+<t tx="zoomq.20100414115206.4623"># vim: tabstop=4 shiftwidth=4
+"""
+Walks through your blog root figuring out all the categories you have
+and how many entries are in each category.  It generates html with
+this information and stores it in the $categorylinks variable which
+you can use in your head or foot templates.
+
+You can format the output by setting "category_begin", "category_item",
+"category_end" and properties.
+
+Categories exist in a hierarchy.  "category_start" starts the category listing
+and is only used at the very beginning.  The "category_begin" property begins a 
+new category group and the "category_end" property ends that category group.  
+The "category_item" property is the template for each category item.  Then
+after all the categories are printed, "category_finish" ends the category
+listing.
+
+For example, the following properties will use &lt;ul&gt; to open a category, &lt;/ul&gt;
+to close a category and &lt;li&gt; for each item:
+
+py["category_start"] = "&lt;ul&gt;"
+py["category_begin"] = "&lt;li&gt;&lt;ul&gt;"
+py["category_item"] = r'&lt;li&gt;&lt;a href="%(base_url)s/%(category_urlencoded)sindex"&gt;%(category)s&lt;/a&gt;&lt;/li&gt;'
+py["category_end"] = "&lt;/li&gt;&lt;/ul&gt;"
+py["category_finish"] = "&lt;/ul&gt;"
+
+
+Another example, the following properties don't have a begin or an end but
+instead use indentation for links and displays the number of entries in that
+category:
+
+py["category_start"] = ""
+py["category_begin"] = ""
+py["category_item"] = r'%(indent)s&lt;a href="%(base_url)s/%(category_urlencoded)sindex"&gt;%(category)s&lt;/a&gt; (%(count)d)&lt;br /&gt;'
+py["category_end"] = ""
+py["category_finish"] = ""
+
+There are no variables available in the category_begin or category_end 
+templates.
+
+Available variables in the category_item template:
+
+  variable                 example                      datatype
+  ========                 =======                      ========
+  base_url                 http://joe.com/blog/         string
+  fullcategory_urlencoded  'dev/pyblosxom/status/'      string
+  fullcategory             'dev/pyblosxom/status/'      string (urlencoded)
+  category                 'status/'                    string
+  category_urlencoded      'status/'                    string (urlencoed)
+  flavour                  'html'                       string
+  count                    70                           int
+  indent                   '&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'   string
+
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004, 2005, 2006 Will Guaraldi
+"""
+__author__ = "Will Guaraldi - willg at bluesock dot org"
+__version__ = "$Id: pycategories.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $"
+__url__ = "http://pyblosxom.sourceforge.net/"
+__description__ = "Builds a list of categories."
+
+</t>
+<t tx="zoomq.20100414115206.4624">def verify_installation(request):
+    config = request.getConfiguration()
+    if not config.has_key("category_template"):
+        print "missing optional config property 'category_template' which allows "
+        print "you to specify how the category hierarchy is rendered.  see"
+        print "the documentation at the top of the pycategories plugin code "
+        print "file for more details."
+    return 1
+
+</t>
+<t tx="zoomq.20100414115206.4625">class PyblCategories:
+    @others
+</t>
+<t tx="zoomq.20100414115206.4626">def __init__(self, request):
+    self._request = request
+    self._categories = None
+    self.genCategories()
+
+</t>
+<t tx="zoomq.20100414115206.4627">def __str__(self):
+    if self._categories == None:
+        self.genCategories()
+    return self._categories
+
+</t>
+<t tx="zoomq.20100414115206.4628">def genCategories(self):
+    config = self._request.getConfiguration()
+    root = config["datadir"]
+
+    start_t = config.get("category_start", DEFAULT_START)
+    begin_t = config.get("category_begin", DEFAULT_BEGIN)
+    item_t = config.get("category_item", DEFAULT_ITEM)
+    end_t = config.get("category_end", DEFAULT_END)
+    finish_t = config.get("category_finish", DEFAULT_FINISH)
+
+    self._baseurl = config.get("base_url", "")
+
+    form = self._request.getForm()
+    flavour = (form.has_key('flav') and form['flav'].value or 
+        config.get('default_flavour', 'html'))
+
+    # build the list of all entries in the datadir
+    elist = tools.Walk(self._request, root)
+
+    # peel off the root dir from the list of entries
+    elist = [mem[len(root)+1:] for mem in elist]
+
+    # go through the list of entries and build a map that
+    # maintains a count of how many entries are in each 
+    # category
+    elistmap = {}
+    for mem in elist:
+        mem = os.path.dirname(mem)
+        elistmap[mem] = 1 + elistmap.get(mem, 0)
+    self._elistmap = elistmap
+
+    # go through the elistmap keys (which is the list of
+    # categories) and for each piece in the key (i.e. the key
+    # could be "dev/pyblosxom/releases" and the pieces would
+    # be "dev", "pyblosxom", and "releases") we build keys
+    # for the category list map (i.e. "dev", "dev/pyblosxom",
+    # "dev/pyblosxom/releases")
+    clistmap = {}
+    for mem in elistmap.keys():
+        mem = mem.split(os.sep)
+        for index in range(len(mem)+1):
+            p = os.sep.join(mem[0:index])
+            clistmap[p] = 0
+
+    # then we take the category list from the clistmap and
+    # sort it alphabetically
+    clist = clistmap.keys()
+    clist.sort()
+
+    output = []
+    indent = 0
+
+    output.append(start_t)
+    # then we generate each item in the list
+    for item in clist:
+        itemlist = item.split(os.sep)
+
+        num = 0
+        for key in self._elistmap.keys():
+            if item == '' or key == item or key.startswith(item + os.sep):
+                num = num + self._elistmap[key]
+
+        if not item:
+            tab = ""
+        else:
+            tab = len(itemlist) * "&amp;nbsp;&amp;nbsp;"
+
+        if indent &gt; len(itemlist):
+            for i in range(indent - len(itemlist)):
+                output.append(end_t)
+
+        elif indent &lt; len(itemlist):
+            for i in range(len(itemlist) - indent):
+                output.append(begin_t)
+
+        # now we build the dict with the values for substitution
+        d = { "base_url":     self._baseurl, 
+              "fullcategory": item + "/", 
+              "category":     itemlist[-1] + "/", 
+              "flavour":      flavour,
+              "count":        num,
+              "indent":       tab }
+
+        # this prevents a double / in the root category url
+        if item == "":
+            d["fullcategory"] = item
+
+        # this adds urlencoded versions
+        d["fullcategory_urlencoded"] = tools.urlencode_text(d["fullcategory"])
+        d["category_urlencoded"] = tools.urlencode_text(d["category"])
+
+        # and we toss it in the thing
+        output.append(item_t % d)
+
+        indent = len(itemlist)
+
+    output.append(end_t * indent)
+    output.append(finish_t)
+
+    # then we join the list and that's the final string
+    self._categories = "\n".join(output)
+
+</t>
+<t tx="zoomq.20100414115206.4629">def cb_prepare(args):
+    request = args["request"]
+    data = request.getData()
+    data["categorylinks"] = PyblCategories(request)
+</t>
+<t tx="zoomq.20100414115206.4630">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="zoomq.20100414115206.4631">"""
+Summary
+=======
+
+This plugin is maintained at:
+
+   http://www.bluesock.org/~willg/pyblosxom/
+
+Check that URL for new versions, better documentation, and submitting
+bug reports and feature requests.
+
+
+Usage
+=====
+
+This plugin allows you to include static files outside of the entry
+system.  Static files should probably be text files, though this plugin
+could be improved to handle php, cgi and all that other non-static file
+stuff.
+
+It looks for urls like::
+
+   /static/blah
+
+and pulls up the file ``blah.txt`` [1] which is located in the path specified
+in the config file as ``staticdir``.  If no staticdir is specified, then we
+use the datadir.
+
+If the file is not there, it kicks up a 404.
+
+[1] The file ending (the ``.txt`` part) can be any file ending that's valid
+for entries on your blog.  For example, if you have the textile
+entryparser installed, then ``.txtl`` is also a valid file ending.
+
+pystaticfile formats the page using the ``static`` template.
+So you need to add a ``static.html`` file to your datadir (assuming
+you're using the ``html`` flavour).  I tend to copy my story flavour
+templates over and remove the date/time-related bits.
+
+pystaticfile handles evaluating python code blocks.  Enclose python
+code in ``&lt;%`` and ``%&gt;`` .  The assumption is that only you can edit your 
+static files, so there are no restrictions (security or otherwise).
+
+For example::
+
+   &lt;%
+   print "testing"
+   %&gt;
+
+   &lt;%
+   x = { "apple": 5, "banana": 6, "pear": 4 }
+   for mem in x.keys():
+      print "&lt;li&gt;%s - %s&lt;/li&gt;" % (mem, x[mem])
+   %&gt;
+
+The request object is available in python code blocks.  Reference it
+by ``request``.  Example::
+
+   &lt;%
+   config = request.getConfiguration()
+   print "your datadir is: %s" % config["datadir"]
+   %&gt;
+
+----
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2002-2007 Will Guaraldi
+
+SUBVERSION VERSION: $Id: pystaticfile.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $
+
+Revisions:
+2007-07-07 - converted documentation to reST.
+2006-10-01 - adjustments to the documentation at the top.
+2005-11-13 - now adjusts the $blog_title_with_path variable to include
+             the static file title
+2005-11-11 - Pulled into another new version control system
+2.0 (26 October, 2005) - pulled into new version control system
+1.9 (22 December, 2004) - Fixed a problem with the code blocks.
+1.8 (07 December, 2004) - Minor fix so that comments work again.
+1.7 (05 May, 2004) - Bunch of minor fixes.
+1.6 (28 April, 2004) - fixed it so it works with comments.
+1.5 (05 April, 2004) - added the request to the locals for eval_python_block.
+                       fixed stringio for eval_python_block.
+1.4 (27 January, 2004) - added handling for python codeblocks
+1.3 (22 January, 2004) - adjusted it to use its own flavour
+1.2 (21 July, 2003) - quelling of date headers
+1.1 (20 July, 2003) - minor adjustments
+1.0 (6 July, 2003) - first written
+"""
+import os, StringIO, sys
+from Pyblosxom.entries.fileentry import FileEntry
+from Pyblosxom import tools
+
+__author__ = "Will Guaraldi - willg at bluesock dot org"
+__version__ = "$Date: 2010/10/26 23:00:07 $"
+__url__ = "http://www.bluesock.org/~willg/pyblosxom/"
+__description__ = "Allows you to include non-blog-entry files in your site."
+
+TRIGGER = "static"
+INIT_KEY = "static_static_file_initiated"
+
+</t>
+<t tx="zoomq.20100414115206.4632">def verify_installation(req):
+    config = req.getConfiguration()
+    import os.path
+
+    retval = 1
+
+    if not config.has_key("staticdir") or not os.path.isdir(config["staticdir"]):
+        print "'staticdir' property is not set in the config file."
+        retval = 0
+
+    return retval
+
+</t>
+<t tx="zoomq.20100414115206.4633">def cb_date_head(args):
+    req = args["request"]
+    data = req.getData()
+    if data.has_key(INIT_KEY):
+        args["template"] = ""
+    return args
+
+</t>
+<t tx="zoomq.20100414115206.4634">def cb_date_foot(args):
+    return cb_date_head(args)
+
+</t>
+<t tx="zoomq.20100414115206.4635">def eval_python_blocks(req, body):
+    localsdict = {"request": req}
+    globalsdict = {}
+
+    old_stdout = sys.stdout
+    old_stderr = sys.stderr
+
+    try:
+        start = 0
+        while body.find("&lt;%", start) != -1:
+            start = body.find("&lt;%")
+            end = body.find("%&gt;", start)    
+
+            if start != -1 and end != -1:
+                codeblock = body[start+2:end].lstrip()
+
+                sys.stdout = StringIO.StringIO()
+                sys.stderr = StringIO.StringIO()
+
+                try:
+                    exec codeblock in localsdict, globalsdict
+                except Exception, e:
+                    print "ERROR in processing: %s" % e
+
+                output = sys.stdout.getvalue() + sys.stderr.getvalue()
+                body = body[:start] + output + body[end+2:]
+
+    finally:
+        sys.stdout = old_stdout
+        sys.stderr = old_stderr
+
+    return body
+
+</t>
+<t tx="zoomq.20100414115206.4636">def cb_filelist(args):
+    req = args["request"]
+
+    pyhttp = req.getHttp()
+    data = req.getData()
+    config = req.getConfiguration()
+
+    if not pyhttp["PATH_INFO"].startswith("/" + TRIGGER):
+        return
+
+    data[INIT_KEY] = 1
+    datadir = config["datadir"]
+    data['root_datadir'] = config['datadir']
+    staticdir = config.get("staticdir", config['datadir'])
+
+    staticdir = staticdir.replace("/", os.sep)
+    if not staticdir[-1] == os.sep:
+        staticdir = staticdir + os.sep
+
+    page_name = pyhttp["PATH_INFO"][len("/" + TRIGGER)+1:]
+
+    if not page_name:
+        return
+
+    # FIXME - need to do a better job of sanitizing
+    page_name = page_name.replace(os.sep, "/")
+
+    if not page_name:
+        return
+
+    if page_name[-1] == os.sep:
+        page_name = page_name[:-1]
+    if page_name.find("/") &gt; 0:
+        page_name = page_name[page_name.rfind("/"):]
+
+    # if the page has a flavour, we use that.  otherwise
+    # we default to the static flavour
+    page_name, flavour = os.path.splitext(page_name)
+    if flavour:
+        data["flavour"] = flavour[1:]
+
+    # we build our own config dict for the fileentry to kind of
+    # fake it into loading this file correctly rather than
+    # one of the entries.
+    newdatadir = staticdir
+    # config["datadir"] = newdatadir
+
+    ext = tools.what_ext(data["extensions"].keys(), staticdir + page_name)
+
+    if not ext:
+        return []
+
+    data['root_datadir'] = page_name + '.' + ext
+    data['bl_type'] = 'file'
+    filename = staticdir + page_name + "." + ext
+
+    if not os.path.isfile(filename):
+        return []
+
+    fe = FileEntry(req, filename, staticdir)
+    # now we evaluate python code blocks
+    body = fe.getData()
+    body = eval_python_blocks(req, body)
+    body = "&lt;!-- STATIC PAGE START --&gt;\n\n" + body + "&lt;!-- STATIC PAGE END --&gt;\n"
+    fe.setData(body)
+
+    fe["absolute_path"] = TRIGGER
+    fe["fn"] = page_name
+    fe["file_path"] = TRIGGER + "/" + page_name
+    fe["template_name"] = "static"
+
+    data['blog_title_with_path'] = config.get("blog_title", "") + " : " + fe.get("title", "")
+
+    # set the datadir back
+    config["datadir"] = datadir
+
+    return [fe]
+</t>
+<t tx="zoomq.20100414115206.4637">@language python
+@tabwidth -4
+@others
+# vim: tabstop=4 shiftwidth=4
+</t>
+<t tx="zoomq.20100414115206.4638">"""
+Summary
+=======
+
+This plugin is maintained at::
+
+   http://www.bluesock.org/~willg/pyblosxom/
+
+Check that URL for new versions, better documentation, and submitting
+bug reports and feature requests.
+
+
+Usage
+=====
+
+This plugin goes through all the plugins you have installed on your blog
+and extracts information about the plugin.
+
+To kick it off, the url starts with ``/plugin_info`` .
+
+If there are plugins you want to run that you don't want showing up,
+list them in the ``plugininfo_hide`` property of your ``config.py`` file::
+
+   py["plugininfo_hide"] = ["myplugin", "myotherplugin"]
+
+It takes a list of strings.
+
+----
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2002-2007 Will Guaraldi
+
+SUBVERSION VERSION: $Id: plugininfo.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $
+
+Revisions:
+2007-07-07 - Converted documentation to restructured text.
+2007-05-19 - Brushed up the code, fixed documentation, ...
+2005-11-11 - Pulled into another new version control system
+1.8 - (26 October, 2005) pulled into new version control system
+1.7 - (09 December, 2004) fixed date_head issue and stopped showing 
+      docstrings
+1.6 - (04 May 2004) added comment handling
+1.5 - (18 February 2004) added the ability to "hide" plugins so that
+      we don't talk about them
+1.4 - (17 February 2004) added alphabetical sorting of plugins and fixed
+      num_entries issue
+1.3 - (14 July 2003) added $plugincount variable
+1.2 - (5/27/2003) minor fixes in the build_entry
+"""
+import Pyblosxom.plugin_utils
+import Pyblosxom.entries.base
+import time
+import os.path
+
+__author__  = "Will Guaraldi - willg at bluesock dot org"
+__version__ = "$Date: 2010/10/26 23:00:07 $"
+__url__     = "http://www.bluesock.org/~willg/pyblosxom/"
+__description__ = "Shows information about plugins that you're running."
+
+TRIGGER = "/plugin_info"
+
+</t>
+<t tx="zoomq.20100414115206.4639">def verify_installation(request):
+    config = request.getConfiguration()
+
+    # check to see if the user has specified the "plugininfo_hide" 
+    # property
+    if not config.has_key("plugininfo_hide"):
+        # the user doesn't have the property set, so we let them know
+        # they can set it and it prevents specified plugins from showing
+        # up.
+        print "Note: You can set 'plugininfo_hide' to hide plugins you " + \
+              "don't want showing up."
+
+    else:
+        # they do have plugininfo_hide set, so we verify that the value
+        # is valid-ish.
+        val = config["plugininfo_hide"]
+
+        if not type(val) in [ list, tuple ]:
+            print "'plugininfo_hide' must be a list of strings."
+            return 0
+
+        for mem in val:
+            if not type(mem) == str:
+                print "'plugininfo_hide' must be a list of strings."
+                return 0
+    return 1
+
+</t>
+<t tx="zoomq.20100414115206.4640">def build_entry(request, mem):
+    """build_entry(Request, plugin) -&gt; PyBlosxom.entries.base.BaseEntry
+
+    Takes a plugin, extracts information from it, and builds a PyBlosxom
+    entry from the results.  It returns the BaseEntry object.
+    """
+    plugindata = []
+    plugindata.append("&lt;pre&gt;")
+
+    # previously we pulled __doc__, but more and more people are storing
+    # documentation for the plugin as well as license information--which
+    # isn't really what we want to show.  we really want the author, version,
+    # and url for the plugin.  currently these are stored in __author__,
+    # __version__, and __url__ (though those should be changed to something
+    # like VERSION, AUTHOR, and URL so as to avoid confusion with Python
+    # special things.
+    plugindata.append("AUTHOR: " + str(getattr(mem, "__author__", None)) + "\n")
+    plugindata.append("VERSION: " + str(getattr(mem, "__version__", None)) + "\n")
+    if hasattr(mem, "__url__"):
+        plugindata.append("URL: &lt;a href=\"%s\"&gt;%s&lt;/a&gt;\n" % \
+                          (str(mem.__url__), str(mem.__url__)))
+
+    plugindata.append("&lt;/pre&gt;")
+
+    # build a dict of the metadata that generate_entry needs
+    d = { "title": mem.__name__,
+          "absolute_path": TRIGGER[1:],
+          "fn": mem.__name__,
+          "file_path": TRIGGER[1:] + "/" + mem.__name__ }
+
+    # build the body of the entry
+    body = "".join(plugindata)
+
+    entry = Pyblosxom.entries.base.generate_entry(request, d, body, None)
+    return entry
+
+</t>
+<t tx="zoomq.20100414115206.4641">def cb_prepare(args):
+    request = args["request"]
+    data = request.getData()
+    config = request.getConfiguration()
+    antiplugins = config.get("plugininfo_hide", [])
+
+    plugins = Pyblosxom.plugin_utils.plugins
+    plugins = [m for m in plugins if m.__name__ not in antiplugins]
+
+    data["plugincount"] = len(plugins)
+
+
+</t>
+<t tx="zoomq.20100414115206.4642">INIT_KEY = "plugininfo_initiated"
+
+def cb_date_head(args):
+    """
+    If we're showing plugins, then we don't want the date_head templates
+    kicking in--so we block that.
+    """
+    request = args["request"]
+    data = request.getData()
+
+    if data.has_key(INIT_KEY):
+        args["template"] = ""
+    return args
+
+</t>
+<t tx="zoomq.20100414115206.4643">def cb_staticrender_filelist(args):
+    """
+    This is test code--trying to work additional bits into the static
+    renderer.
+    """
+    request = args["request"]
+    filelist = args["filelist"]
+    flavours = args["flavours"]
+
+    config = request.getConfiguration()
+
+    antiplugins = config.get("plugininfo_hide", [])
+
+    plugins = Pyblosxom.plugin_utils.plugins
+    plugins = [m for m in plugins if m.__name__ not in antiplugins]
+
+    if plugins:
+        for mem in plugins:
+            url = os.path.normpath(TRIGGER + "/" + mem.__name__ + ".")
+            for f in flavours:
+                filelist.append( (url + f, "") )
+        for f in flavours:
+            filelist.append( (os.path.normpath(TRIGGER + "/index." + f), "") )
+
+
+</t>
+<t tx="zoomq.20100414115206.4644">def cb_filelist(args):
+    request = args["request"]
+    pyhttp = request.getHttp()
+    data = request.getData()
+    config = request.getConfiguration()
+
+    if not pyhttp["PATH_INFO"].startswith(TRIGGER):
+        return
+
+    data[INIT_KEY] = 1
+    data['root_datadir'] = config['datadir']
+    config['num_entries'] = 9999
+    entry_list = []
+
+    antiplugins = config.get("plugininfo_hide", [])
+
+    plugins = Pyblosxom.plugin_utils.plugins
+    plugins = [m for m in plugins if m.__name__ not in antiplugins]
+
+    pathinfo = pyhttp["PATH_INFO"]
+
+    # if the browser requested the TRIGGER or TRiGGER/index, then we
+    # kick in and show plugin information for all plugins.
+    if pathinfo == TRIGGER or pathinfo.startswith(TRIGGER + "/index"):
+        plugins.sort(lambda x,y: cmp(x.__name__, y.__name__))
+        for mem in plugins:
+            entry_list.append(build_entry(request, mem))
+        return entry_list
+
+    # the browser requested to see information on a specific plugin.
+
+    # we need to pull off the flavour that was requested
+    # (if there was one).  FIXME - this is a good candidate for a tools
+    # function.
+    pathinfo = pathinfo[len(TRIGGER):]
+
+    if pathinfo.startswith("/"): pathinfo = pathinfo[1:]
+    if pathinfo.endswith("/"): pathinfo = pathinfo[:-1]
+
+    filename, ext = os.path.splitext(pathinfo)
+    if ext[1:]:
+        data["flavour"] = ext[1:]
+
+    d = {}
+    for mem in plugins:
+        d[mem.__name__] = mem
+
+    # if the browser requested to look at a specific plugin, then
+    # we only show that one.
+    if d.has_key(filename):
+        return [build_entry(request, d[filename])]
+
+    # if the plugin the browser requested isn't in the list of
+    # plugins, then we return an empty list of entries--PyBlosxom
+    # will show a "that doesn't exist" message for that.
+    return []
+
+</t>
+<t tx="zoomq.20100414115206.4645">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+@others
+</t>
+<t tx="zoomq.20100414115206.4646">"""
+Summary
+=======
+
+readmore.py is a plugin that associates a specific string in an entry as a
+breakpoint. It will replace that string with another and hide the rest of the
+entry text. That new string is a link to viewing the rest of the text.
+
+Configuration
+=============
+
+1. copy readmore.py into your plugins directory
+2. enable it by adding ``readmore`` to the ``py['load_plugins']`` list 
+   variable in your config.py file (probably located in a cgi-bin directory).
+3. alter the values of ``py['readmore_breakpoint']`` and 
+   ``py['readmore_template']`` in your config.py file.
+4. edit an entry and add the value of ``py['readmore_breakpoint']`` to the 
+   text between paragraphs at a logical breakpoint.  I insert my breakpoint 
+   after the first or second paragraph - or not at all if the entry is short.
+5. reload the blog in your browser and test away.
+
+This breakpoint text and the assocated replacement text are configured in
+config.py with these two values (one a string, the other a string or list of
+two strings)::
+
+    py['readmore_breakpoint'] - the breakpoint, default is "B R E A K"
+               (just take out the spaces)
+
+    py['readmore_template'] - the replacement text, default is
+               ['&lt;br /&gt;&lt;br /&gt;::&lt;a href="%(url)s"&gt;READ MORE&lt;/a&gt;',
+               '&lt;br /&gt;&lt;br /&gt;&lt;span style="color: red;"&gt;::READ HERE&lt;/span&gt;']
+
+In this example (the default case) the breakpoint will be replaced with two
+empty lines and ``::READ MORE`` that is a link to the rest of the entry.  In
+this example, if you put more than one breakpoint in the second value of
+``py['readmore_template']`` the full entry will be returned, but with the 
+text of the breakpoints replaced with that second string (by default a red
+``::READ HERE``). This gives you some creative freedom with how you would
+like to format the output using the breakpoints.
+
+The normal usecase is using only one breakpoint in an entry.
+
+These two values can be changed of course.  Here's a sample configuration::
+
+    py['readmore_breakpoint'] = '&lt;!--B R E A K--&gt;' # again remove the spaces
+    py['readmore_template'] = '&lt;p class="readmore"&gt;&lt;a href="%(url)s"&gt;more &amp;raquo;&lt;/a&gt;&lt;/p&gt;'
+
+It helps to use ``&lt;!--`` and ``--&gt;`` comment strings so if you ever decide 
+not to continue using the readmore plugin, the breakpoints won't be visible 
+to readers.
+
+In the ``py['readmore_template']`` variable (a string or a list of two 
+strings), you can use the following designators:
+
+* ``%(url)s``       - the full path to the story
+* ``%(base_url)s``  - base_url
+* ``%(flavour)s``   - the flavour selected now
+* ``%(file_path)s`` - path to the story (without extension)
+
+
+Note from Will Guaraldi (October 25, 2005)
+==========================================
+
+I'm assuming IWS doesn't care about this anymore so I'm going to "fork"
+the plugin and take over development and hosting for it.  I've made minor
+adjustments to it.
+
+
+Note regarding readmore and rss2renderer
+========================================
+
+This plugin does NOT work with the rss2renderer plugin.
+
+
+----
+
+SUBVERSION VERSION: $Id: readmore.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $
+
+Revisions:
+2007-07-07 - converted documentation to reST.
+2006-10-25 - Pulled in lots of changes suggested by Todd Warner, fixed
+      the documentation, other minor changes.
+2005-11-11 - Pulled into another new version control system.
+1.5 - (26 October, 2005) pulled into new version control system
+0.5 - (October 25, 2005) Changed the ^L to B R E A K, fixed some instructrions
+      and took over hosting.
+
+Original author:    IWS
+Current maintainer: Will Guaraldi
+Contributors:
+    Todd Warner
+    others....
+
+License: Python or GNU
+"""
+
+__author__ = "maintainer: Will Guaraldi - willg at bluesock dot org"
+__version__ = "$Date: 2010/10/26 23:00:07 $"
+__license__ = "python or GNU"
+__url__ = "http://www.bluesock.org/~willg/pyblosxom/"
+__description__ = "Breaks a long story at B R E A K (no spaces)."
+
+import re
+from Pyblosxom import tools
+
+</t>
+<t tx="zoomq.20100414115206.4647">def cb_story(args):
+    logger = tools.getLogger()
+
+    pagedelimiter = 'BREAK'
+    continue_template = '&lt;br /&gt;&lt;br /&gt;::&lt;a href="%(url)s"&gt;READ MORE&lt;/a&gt;'
+    continued_template = '&lt;br /&gt;&lt;br /&gt;&lt;span style="color: red;"&gt;::READ HERE&lt;/span&gt;'
+    entry = args['entry']
+    if not entry.has_key('body'):
+        return
+
+    # override default breakpoint (pagedelimiter) if applicable from the
+    # config.py file.
+    if args['entry'].has_key('readmore_breakpoint'):
+        readmore_breakpoint = args['entry']['readmore_breakpoint']
+        if isinstance(readmore_breakpoint, type('')):
+            pagedelimiter = readmore_breakpoint
+        else:
+            logger.error("py['readmore_breakpoint'] value is not a " + \
+                         "string. It's type seems to be: %s" % \
+                         type(readmore_breakpoint))
+
+    # find the delimiter in the body of the text                         
+    match = re.search(pagedelimiter, entry['body'])
+
+    if match:
+        if args['entry'].has_key('readmore_template'):
+            readmore_template = args['entry']['readmore_template']
+            if isinstance(readmore_template, type('')):
+                continue_template = readmore_template
+                continued_template = ''
+            elif isinstance(readmore_template, type([])):
+                if not readmore_template:
+                    logger.error("py['readmore_template'] is an empty list.")
+                else:
+                    continue_template = readmore_template[0]
+                    if len(readmore_template) &gt; 1:
+                        continued_template = readmore_template[1]
+            else:
+                logger.error("py['readmore_template'] value is neither " + \
+                             "a string nor a list.  It's type seems to " + \
+                             "be: %s" % type(readmore_template))
+
+        if entry['bl_type' ] == 'file':
+            entry['body'] = re.sub(pagedelimiter,
+                                   continued_template,
+                                   entry['body'])
+        else:
+            base_url = entry['base_url']
+            file_path = entry['file_path']
+            flavour = entry['flavour']
+            m = {'url':'%s/%s.%s' % (base_url, file_path, flavour),
+                 'base_url':base_url,
+                 'file_path':file_path,
+                 'flavour':flavour}
+            entry['body'] = entry['body'][:match.start()]
+            entry['body'] += continue_template % m
+</t>
+<t tx="zoomq.20100414115206.4648">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="zoomq.20100414115206.4649">"""
+Summary
+=======
+
+Walks through your blog root figuring out all the available years for
+the archives list.  It stores the years with links to year summaries
+in the variable $archivelinks.  You should put this variable in either
+your head or foot templates.
+
+
+Usage
+=====
+
+When the user clicks on one of the year links (i.e. http://base_url/2004/"), 
+then wbgarchives will display a summary page for that year.  The summary is 
+generated using the ``yearsummarystory.html`` template for each month in the
+year.  Mine is::
+
+   &lt;div class="blosxomEntry"&gt;
+   &lt;span class="blosxomTitle"&gt;$title&lt;/span&gt;
+   &lt;div class="blosxomBody"&gt;
+   &lt;table&gt;
+   $body
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;/div&gt;
+
+
+I don't have anything configurable in ``config.py``--so you'll have to 
+edit the html stuff directly in the plugin.  If you dislike this, please 
+take some time to fix it and send me a diff and I'll make the adjustments.
+
+
+----
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004-2008 Will Guaraldi
+
+SUBVERSION VERSION: $Id: wbgarchives.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $
+
+Revisions:
+2008-01-01 - fixed a problem between wbgarchives and comments and also
+             fixed the ordering of months displayed.
+2007-07-07 - converted documentation to reST.
+2005-11-11 - Pulled into new VCS.
+1.4 - (26 October, 2005) pulled into new VCS
+1.3 - (14 March, 2005) added categories
+1.2 - (09 December, 2004) fixed date_head issue
+1.1 - (22 August, 2004) fixed a bug involving four-letter category names
+                        (thanks Ludvig)
+1.0 - (15 August, 2004) initial writing
+"""
+__author__ = "Will Guaraldi - willg at bluesock dot org"
+__version__ = "$Date: 2010/10/26 23:00:07 $"
+__url__ = "http://www.bluesock.org/~willg/pyblosxom/"
+__description__ = "Archives handler."
+
+from Pyblosxom import tools, entries
+import time, os
+
+</t>
+<t tx="zoomq.20100414115206.4650">def verify_installation(request):
+    return 1
+
+</t>
+<t tx="zoomq.20100414115206.4651">class WbgArchives:
+    @others
+</t>
+<t tx="zoomq.20100414115206.4652">def __init__(self, request):
+    self._request = request
+    self._archives = None
+    self._items = None
+
+</t>
+<t tx="zoomq.20100414115206.4653">def __str__(self):
+    if self._archives == None:
+        self.genLinearArchive()
+    return self._archives
+
+</t>
+<t tx="zoomq.20100414115206.4654">def genLinearArchive(self):
+    config = self._request.getConfiguration()
+    data = self._request.getData()
+    root = config["datadir"]
+    baseurl = config.get("base_url", "")
+
+    archives = {}
+    archiveList = tools.Walk(self._request, root)
+    items = []
+
+    for mem in archiveList:
+        timetuple = tools.filestat(self._request, mem)
+
+        y = time.strftime("%Y", timetuple)
+        m = time.strftime("%m", timetuple)
+        d = time.strftime("%d", timetuple)
+        l = "&lt;a href=\"%s/%s/\"&gt;%s&lt;/a&gt;&lt;br&gt;" % (baseurl, y, y)
+
+        if not archives.has_key(y):
+            archives[y] = l
+        items.append( ["%s-%s" % (y, m), "%s-%s-%s" % (y, m, d), time.mktime(timetuple), mem] )
+
+    arcKeys = archives.keys()
+    arcKeys.sort()
+    arcKeys.reverse()
+
+    result = []
+    for key in arcKeys:
+        result.append(archives[key])
+    self._archives = '\n'.join(result)
+    self._items = items
+
+</t>
+<t tx="zoomq.20100414115206.4655">def new_entry(request, yearmonth, body):
+    """
+    Takes a bunch of variables and generates an entry out of it.  It creates
+    a timestamp so that conditionalhttp can handle it without getting
+    all fussy.
+    """
+    entry = entries.base.EntryBase(request)
+
+    entry['title'] = yearmonth
+    entry['filename'] = yearmonth + "/summary"
+    entry['file_path'] = yearmonth
+    entry._id = yearmonth + "::summary"
+
+    entry["template_name"] = "yearsummarystory"
+    entry["nocomments"] = "yes"
+
+    entry["absolute_path"] = ""
+    entry["fn"] = ""
+
+    entry.setTime(time.strptime(yearmonth, "%Y-%m"))
+    entry.setData(body)
+
+    return entry
+
+</t>
+<t tx="zoomq.20100414115206.4656">INIT_KEY = "wbgarchives_initiated"
+
+def cb_prepare(args):
+    request = args["request"]
+    data = request.getData()
+    data["archivelinks"] = WbgArchives(request)
+
+</t>
+<t tx="zoomq.20100414115206.4657">def cb_date_head(args):
+    request = args["request"]
+    data = request.getData()
+
+    if data.has_key(INIT_KEY):
+        args["template"] = ""
+    return args
+
+</t>
+<t tx="zoomq.20100414115206.4658">def cb_filelist(args):
+    request = args["request"]
+    pyhttp = request.getHttp()
+    data = request.getData()
+    config = request.getConfiguration()
+    baseurl = config.get("base_url", "")
+
+    year = pyhttp["PATH_INFO"]
+
+    if not year:
+        return
+
+    if year.startswith("/"): year = year[1:]
+    if year.endswith("/"): year = year[:-1]
+    if not year.isdigit() or not len(year) == 4:
+        return
+
+    data[INIT_KEY] = 1
+
+    # get all the entries
+    wa = WbgArchives(request)
+    wa.genLinearArchive()
+    items = wa._items
+
+    # peel off the items for this year
+    items = [m for m in items if m[0].startswith(year)]
+
+    items.sort()
+    items.reverse()
+
+    l = "(%(path)s) &lt;a href=\"" + baseurl + "/%(file_path)s.html\"&gt;%(title)s&lt;/a&gt;&lt;br&gt;"
+    e = "&lt;tr&gt;\n&lt;td valign=\"top\" align=\"left\"&gt;%s&lt;/td&gt;\n&lt;td&gt;%s&lt;/td&gt;&lt;/tr&gt;\n"
+    d = ""
+    m = ""
+
+    day = []
+    month = []
+    entrylist = []
+
+    for mem in items:
+        if not m:
+            m = mem[0]
+        if not d:
+            d = mem[1]
+
+        if m != mem[0]:
+            month.append(e % (d, "\n".join(day)))
+            entrylist.append(new_entry(request, m, "\n".join(month)))
+            m = mem[0]
+            d = mem[1]
+            day = []
+            month = []
+
+        elif d != mem[1]:
+            month.append(e % (d, "\n".join(day)))
+            d = mem[1]
+            day = []
+        entry = entries.fileentry.FileEntry(request, mem[3], data['root_datadir'])
+        day.append(l % entry)
+
+    if day:
+        month.append(e % (d, "\n".join(day)))
+    if month:
+        entrylist.append(new_entry(request, m, "\n".join(month)))
+
+    return entrylist
+</t>
+<t tx="zoomq.20100414115206.4659">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="zoomq.20100414115206.4660">"""
+Summary
+=======
+
+This plugin is a basic search plugin that uses grep.  It's super
+ultra basic but it provides for my search needs pretty well.
+
+To install:
+
+1. toss the plugin in your plugin dir
+2. add to your load_plugins list in your config.py file
+3. add a form to your foot.html or head.html like this::
+
+      &lt;form method="post" action="$base_url/search"&gt;
+      &lt;input name="query" value="" size=15&gt;&lt;br&gt;
+      &lt;input type="submit" name="search" value="Search"&gt;
+      &lt;/form&gt;
+
+4. you can specify the flavour the entry links point to with
+   the config.py property "grep_flavour" (defaults to html)
+5. you can specify the story template to use for the search
+   results entry with "grep_template" (defaults to "story")
+6. depending on where grep is on your system and what flags
+   it supports, you may have to edit the grep command line
+
+
+----
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004-2007 Will Guaraldi
+
+SUBVERSION VERSION: $Id: wbggrep.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $
+
+Revisions:
+2007-07-07 - converted documentation to reST.
+2005-11-11 - Pulled into new VCS.
+1.5 - (26 October, 2005) pulled into new VCS
+1.1 - (09 December, 2004) fixed date_head issue.
+1.0 - (27 May, 2004) Created.
+"""
+import os, sys, commands, time, string
+from Pyblosxom.entries import base
+
+__author__ = "Will Guaraldi - willg at bluesock dot org"
+__version__ = "$Date: 2010/10/26 23:00:07 $"
+__url__ = "http://www.bluesock.org/~willg/pyblosxom/"
+__description__ = "Ultra-basic search plugin that uses grep."
+
+TRIGGER = "/search"
+INIT_KEY = "search_initiated"
+GREP_CMD_LINE = "/bin/egrep -ir -m 1 \"%s\" %s"
+
+</t>
+<t tx="zoomq.20100414115206.4661">def prepare_text(text):
+    text = text.replace("&gt;", "&amp;gt;").replace("&lt;", "&amp;lt;")
+    return text
+
+</t>
+<t tx="zoomq.20100414115206.4662">def search(baseurl, datadir, extensions, flavour, s):
+    output = []
+    s2 = s
+    for mem in string.punctuation:
+        if mem == ".": continue
+        s2 = s2.replace(mem, "")
+
+    s2 = s2.split(" ")
+    s2 = [m for m in s2 if m]
+    if len(s2) &gt; 1:
+        s2 = "(" + "|".join(s2) + ")"
+    else:
+        s2 = "".join(s2)
+
+    output.append("&lt;p&gt;&lt;b&gt;searching for '%s':&lt;/b&gt;&lt;/p&gt;" % s2)
+
+    grep = commands.getstatusoutput(GREP_CMD_LINE % (s2, datadir))
+
+    grep = grep[1]
+    if not grep or grep.find("No such file or directory") != -1:
+        output.append("&lt;p&gt;There are no search results.&lt;/p&gt;")
+        return "".join(output)
+
+    grep = grep.splitlines()
+    grep.sort()
+    for mem in grep:
+        line = mem
+        f = line[:line.find(":")]
+
+        f = f.replace(datadir, "")
+        p = f.rfind(".")
+
+        if not f[p+1:] in extensions:
+            continue
+
+        f = f[:p] + "." + flavour
+        text = prepare_text(line[line.find(":")+1:])
+
+        output.append("&lt;p&gt;&lt;a href=\"%s/%s\"&gt;%s&lt;/a&gt;&lt;br&gt;%s&lt;/p&gt;\n" % (baseurl, f, f, text))
+
+    return "".join(output)
+
+</t>
+<t tx="zoomq.20100414115206.4663">def cb_date_head(args):
+    req = args["request"]
+    data = req.getData()
+    if data.has_key(INIT_KEY):
+        args["template"] = ""
+    return args
+
+</t>
+<t tx="zoomq.20100414115206.4664">def cb_filelist(args):
+    request = args["request"]
+    config = request.getConfiguration()
+    pyhttp = request.getHttp()
+    data = request.getData()
+
+    form = pyhttp["form"]
+    datadir = config["datadir"]
+    baseurl = config["base_url"]
+
+    if not datadir.endswith(os.sep):
+        datadir = datadir + os.sep
+
+    if not pyhttp["PATH_INFO"].startswith(TRIGGER) or not form.has_key("query"):
+        return
+
+    data[INIT_KEY] = 1
+    query = form["query"].value
+    extensions = data["extensions"].keys()
+    flavour = config.get("grep_flavour", "html")
+
+    output = search(baseurl, datadir, extensions, flavour, query)
+
+    entry = base.EntryBase(request)
+    entry["title"] = "Search results...."
+    entry["filename"] = "searchresults"
+    entry["filename"] = "searchresults"
+    entry["nocomments"] = "yes"
+    entry["absolute_path"] = ""
+    entry["fn"] = ""
+    if config.has_key("grep_template"):
+        entry["template_name"] = config["grep_template"]
+
+    entry.setTime(time.localtime())
+    entry.setData(output)
+
+    return [ entry ]
+</t>
+<t tx="zoomq.20100414115206.4665">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="zoomq.20100414115206.4666"># -*- coding: utf-8 -*-
+
+"""
+Quickly written plugin for paging long index pages.  
+
+PyBlosxom uses the num_entries configuration variable to prevent
+more than num_entries being rendered by cutting the list down
+to num_entries entries.  So if your num_entries is set to 20, you
+will only see the first 20 entries rendered.
+
+The wbgpager overrides this functionality and allows for paging.
+It does some dirty stuff so that PyBlosxom doesn't cut the list down
+and then wbgpager cuts it down in the prepare callback later down
+the line.
+
+To install wbgpager, do the following:
+
+  1. add "wbgpager" to your load_plugins list variable in your
+     config.py file--make sure it's the first thing listed so
+     that it has a chance to operate on the entry list before
+     other plugins.
+  2. add the $page_navigation variable to your head or foot
+     (or both) templates.  this is where the page navigation
+     HTML will appear.
+
+
+Here are some additional configuration variables to adjust the 
+behavior:
+
+  wbgpager_count_from
+    datatype:       int
+    default value:  0
+    description:    Some folks like their paging to start at 1--this
+                    enables you to do that.
+
+  wbgpager_previous_text
+    datatype:       string
+    default value:  &amp;lt;&amp;lt;
+    description:    Allows you to change the text for the prev link.
+
+  wbgpager_next_text
+    datatype:       string
+    default value:  &amp;gt;&amp;gt;
+    description:    Allows you to change the text for the next link.
+
+  wbgpager_linkstyle
+    datatype:       integer
+    default value:  0
+    description:    This allows you to change the link style of the paging.
+                    style 0:  [1] 2 3 4 5 6 7 8 9 ... &gt;&gt;
+                    style 1:  Page 1 of 4 &gt;&gt;
+
+
+That should be it!
+
+
+Note: This plugin doesn't work particularly well with static rendering.
+The problem is that it relies on the querystring to figure out which
+page to show and when you're static rendering, only the first page
+is rendered.  This will require a lot of thought to fix.  If you are
+someone who is passionate about fixing this issue, let me know.
+
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004, 2005, 2006 Will Guaraldi
+
+SUBVERSION VERSION: $Id: wbgpager.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $
+
+Revisions:
+2006-01-15 - Fixed problems with static rendering, added a note about how
+             wbgpager sucks with static rendering, and also added a
+             verify_installation section to check that num_entries is set.
+2005-11-11 - Pulled into new VCS.
+1.6 - (26 October, 2005) pulled into new VCS
+1.5 - (26 September 2005) added configurable 1, 2, 3, 4, ... or Page 1 of 23
+                          linking methodologies
+1.4 - (19 May 2005) added configurable next/prev links, additional spaceing
+                    between links, and configurable page start 
+                    (thanks Martin Michlmayr!)
+1.3 - (06 May 2005) fixed off-by-one issues (thanks Martin Michlmayr!)
+1.2 - (11 April 2005) fixed to work with PyBlosxom 1.2
+1.1 - (22 January 2005) fixed to work with PyBlosxom 1.1
+1.0 - (30 April 2004) initial writing
+"""
+## Leo: tab_width=-4 page_width=80
+__author__ = "Will Guaraldi - willg at bluesock dot org"
+__version__ = "$Date: 2010/10/26 23:00:07 $"
+__url__ = "http://www.bluesock.org/~willg/pyblosxom/"
+__description__ = "Allows navigation by page for indexes that have too many entries."
+
+</t>
+<t tx="zoomq.20100414115206.4667">def verify_installation(request):
+    config = request.getConfiguration()
+    if config.get("num_entries", 0) == 0:
+        print "missing config property 'num_entries'.  wbgpager won't do "
+        print "anything without num_entries set.  either set num_entries "
+        print "to a positive integer, or disable the wbgpager plugin."
+        print "see the documentation at the top of the wbgpager plugin "
+        print "code file for more details."
+        return 0
+
+    return 1
+
+</t>
+<t tx="zoomq.20100414115206.4668">class PageDisplay:
+    @others
+</t>
+<t tx="zoomq.20100414115206.4669">def __init__(self, url, current_page, max_pages, count_from, previous, next, linkstyle):
+    self._url = url
+    self._current_page = current_page
+    self._max_pages = max_pages
+    self._count_from = count_from
+    self._previous = previous
+    self._next = next
+    self._linkstyle = linkstyle
+</t>
+<t tx="zoomq.20100414115206.4670">def __str__(self):
+    output = []
+    # prev
+    if self._current_page != self._count_from:
+        output.append('&lt;a href="%s%d"&gt;%s&lt;/a&gt;&amp;nbsp;' % 
+                      (self._url, self._current_page - 1, self._previous))
+
+    if self._linkstyle == 0:
+        for i in range(self._count_from, self._max_pages):
+            if i == self._current_page:
+                output.append('[%d]' % i)
+            else:
+                output.append('&lt;a href="%s%d"&gt;%d&lt;/a&gt;' %
+                              (self._url, i, i))
+    elif self._linkstyle == 1:
+        output.append(' Page %s of %s ' % (self._current_page, self._max_pages-1))
+
+    # next
+    if self._current_page &lt; self._max_pages - 1:
+        output.append('&amp;nbsp;&lt;a href="%s%d"&gt;%s&lt;/a&gt;' % 
+                      (self._url, self._current_page + 1, self._next))
+
+    return " ".join(output)
+</t>
+<t tx="zoomq.20100414115206.4671">def cb_start(args):
+    req = args["request"]
+    config = req.getConfiguration()
+
+    # we do a quick slight of hand here so that PyBlosxom doesn't
+    # go and cut down the list of entries before we get a chance
+    # to.
+    if not config.has_key("wbgpager_num_entries"):
+        ne = config.get("num_entries", 0)
+        config["wbgpager_num_entries"] = ne
+        config["num_entries"] = 0
+</t>
+<t tx="zoomq.20100414115206.4672">def cb_prepare(args):
+    request = args["request"]
+    http = request.getHttp()
+    config = request.getConfiguration()
+    data = request.getData()
+    previous = config.get("wbgpager_previous_text", "&amp;lt;&amp;lt;")
+    next = config.get("wbgpager_next_text", "&amp;gt;&amp;gt;")
+
+    linkstyle = config.get("wbgpager_linkstyle", 1)
+    if linkstyle &gt; 1: linkstyle = 1
+
+    # grab the entry list
+    entry_list = data["entry_list"]
+    max = config.get("wbgpager_num_entries", 20)
+    count_from = config.get("wbgpager_count_from", 0)
+
+    if max &gt; 0 and isinstance(entry_list, list) and len(entry_list) &gt; max:
+        # this is the old way we got the form (PyBlosxom 1.1 and before)
+        form = http.get("form", None)
+
+        # this is the new way to get the form (PyBlosxom 1.2 and after)
+        if not form and getattr(request, "getForm"):
+            form = request.getForm()
+
+        page = count_from
+        if form:
+            try:
+                page = int(form.getvalue("page"))
+            except:
+                page = count_from
+
+        begin = (page - count_from) * max
+        end = (page + 1 - count_from) * max
+        if end &gt; len(entry_list):
+            end = len(entry_list)
+
+        maxpages = ((len(entry_list) - 1) / max) + 1 + count_from
+
+        url = http["REQUEST_URI"]
+        if url.find("?") != -1:
+            query = url[url.find("?")+1:]
+            url = url[:url.find("?")]
+
+            query = query.split("&amp;")
+            query = [m for m in query if not m.startswith("page=")]
+            if len(query) == 0:
+                url = url + "?" + "page="
+            else:
+                url = url + "?" + "&amp;".join(query) + "&amp;page="
+        else:
+            url = url + "?page="
+
+        data["entry_list"] = entry_list[begin:end]
+
+        data["page_navigation"] = PageDisplay(url, page, maxpages, count_from, previous, next, linkstyle)
+
+    else:
+        data["page_navigation"] = ""
+
+</t>
+<t tx="zoomq.20100414115206.4673">@language python
+@tabwidth -4
+@others
+cb_foot = cb_head
+</t>
+<t tx="zoomq.20100414115206.4674">"""
+Summary
+=======
+
+This is a tags plugin.  It uses PyBlosxom 1.5's command line abilities
+to split generation of tags index data from display of tags index
+data.
+
+It creates a ``$(tagslist)`` variable for head and foot templates
+which lists all the tags.
+
+It creates a ``$(tags)`` variable for story templates which lists tags
+for the story.
+
+
+Configuration
+=============
+
+The following config properties define where the tags file is located,
+how tag metadata is formatted, and how tag lists triggered.
+
+``tags_separator``
+
+    This defines the separator between tags in the metadata line.
+    Defaults to ",".
+
+    After splitting on the separator, each individual tag is stripped
+    of whitespace before and after the text.
+
+    For example::
+
+       Weather in Boston
+       #tags weather, boston
+       &lt;p&gt;
+         The weather in Boston today is pretty nice.
+       &lt;/p&gt;
+
+    returns tags ``weather`` and ``boston``.
+
+    If the ``tags_separator`` is::
+
+       py["tags_separator"] = "::"
+
+    then tags could be declared in the entries like this::
+
+       Weather in Boston
+       #tags weather::boston
+       &lt;p&gt;
+         The weather in Boston today is pretty nice.
+       &lt;/p&gt;
+
+``tags_filename``
+
+    This is the file that holds indexed tags data.  Defaults to
+    datadir + os.pardir + ``tags.index``.
+
+    This file needs to be readable by the process that runs your blog.
+    This file needs to be writable by the process that creates the
+    index.
+
+``tags_trigger``
+
+    This is the url trigger to indicate that the tags plugin should
+    handle the file list based on the tag.  Defaults to ``tag``.
+
+
+In the head and foot templates, you can list all the tags with the
+``$(tagslist)`` variable.  The templates for this listing use the
+following three config properties:
+
+``tags_list_start``
+
+    Printed before the list.  Defaults to ``&lt;p&gt;``.
+
+``tags_list_item``
+
+    Used for each tag in the list.  There are a bunch of variables you can
+    use:
+
+    * ``base_url`` - the baseurl for your blog
+    * ``flavour`` - the default flavour or flavour currently showing
+    * ``tag`` - the tag name
+    * ``count`` - the number of items that are tagged with this tag
+    * ``tagurl`` - url composed of baseurl, trigger, and tag
+
+    Defaults to ``&lt;a href="%(tagurl)s"&gt;%(tag)s&lt;/a&gt; ``.
+
+``tags_list_finish``
+
+    Printed after the list.  Defaults to ``&lt;/p&gt;``.
+
+
+You can list the tags for a given entry in the story template with the
+``$(tags)`` variable.  The tag items in the story are formatted with one
+configuration property:
+
+``tags_item``
+
+    This is the template for a single tag for an entry.  It can use the
+    following bits:
+
+    * ``base_url`` - the baseurl for this blog
+    * ``flavour`` - the default flavour or flavour currently being viewed
+    * ``tag`` - the tag
+    * ``tagurl`` - url composed of baseurl, trigger and tag
+
+    Defaults to ``&lt;a href="%(tagurl)s"&gt;%(tag)s&lt;/a&gt;``.
+
+    Tags are joined together with ``, ``.
+
+
+Creating the tags index file
+============================
+
+Run::
+
+    pyblosxom-cmd buildtags
+
+from the directory your ``config.py`` is in or::
+
+    pyblosxom-cmd --config=/path/to/config/file buildtags
+
+from anywhere.
+
+This builds the tags index file that the tags plugin requires to
+generate tags-based bits for the request.
+
+You should execute this every time you write or update an entry.
+Alternatively, you could execute it in a cron job once a day.
+
+.. Note::
+
+   If you're using static rendering, you need to build the tags
+   index before you statically render your blog.
+
+
+Converting from categories to tags
+==================================
+
+This plugin has a command that goes through your entries and adds tag
+metadata based on the category.  There are some caveats:
+
+1. it assumes entries are in the blosxom format of title, then
+   metadata, then the body.
+
+2. it only operates on entries in the datadir.
+
+It maintains the atime and mtime of the file.  My suggestion is to
+back up your files (use tar or something that maintains file stats),
+then try it out and see how well it works, and figure out if that
+works or not.
+
+To run the command do::
+
+    pyblosxom-cmd categorytotags
+
+from the directory your ``config.py`` is in or::
+
+    pyblosxom-cmd --config=/path/to/config/file categorytotags
+
+from anywhere.
+
+
+----
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2009 Will Guaraldi Kahn-Greene
+
+Revisions:
+1.0 - 2009-06-02 - initial writing
+"""
+
+__author__ = "Will Kahn-Greene - willg at bluesock dot org"
+__version__ = "1.0"
+__url__ = "http://www.bluesock.org/~willg/pyblosxom/"
+__description__ = "Tags plugin"
+
+import os
+import cPickle as pickle
+import shutil
+
+</t>
+<t tx="zoomq.20100414115206.4675">def savefile(filename, tagdata):
+    fp = open(filename + ".new", "w")
+    pickle.dump(tagdata, fp)
+    fp.close()
+
+    # FIXME - this only works on non-Windows operating systems
+    shutil.move(filename + ".new", filename)
+
+</t>
+<t tx="zoomq.20100414115206.4676">def loadfile(filename):
+    fp = open(filename, "r")
+    tagdata = pickle.load(fp)
+    fp.close()
+    return tagdata
+
+</t>
+<t tx="zoomq.20100414115206.4677">def get_tagsfile(cfg):
+    datadir = cfg["datadir"]
+    tagsfile = cfg.get("tags_filename",
+                       os.path.join(datadir, os.pardir, "tags.index"))
+    return tagsfile
+
+</t>
+<t tx="zoomq.20100414115206.4678">def buildtags(command, argv):
+    """Builds the tags index.
+    """
+    import config
+
+    datadir = config.py.get("datadir")
+    if not datadir:
+        raise ValueError("config.py has no datadir property.")
+
+    sep = config.py.get("tags_separator", ",")
+    tagsfile = get_tagsfile(config.py)
+
+    from Pyblosxom import pyblosxom
+    from Pyblosxom import tools
+    from Pyblosxom.entries import fileentry
+
+    data = {}
+
+    # register entryparsers so that we parse all possible file types.
+    data["extensions"] = tools.run_callback("entryparser",
+                                            {"txt": pyblosxom.blosxom_entry_parser},
+                                            mappingfunc=lambda x, y:y,
+                                            defaultfunc=lambda x: x)
+
+    req = pyblosxom.Request(config.py, {}, data)
+
+    # grab all the entries in the datadir
+    filelist = tools.walk(req, datadir)
+    entrylist = [fileentry.FileEntry(req, e, datadir) for e in filelist]
+
+    tags_to_files = {}
+    for mem in entrylist:
+        tagsline = mem["tags"]
+        if not tagsline:
+            continue
+        tagsline = [t.strip() for t in tagsline.split(sep)]
+        for t in tagsline:
+            tags_to_files.setdefault(t, []).append(mem["filename"])
+
+    savefile(tagsfile, tags_to_files)
+    return 0
+
+</t>
+<t tx="zoomq.20100414115206.4679">def category_to_tags(command, argv):
+    """Goes through all entries and converts the category to tags
+    metadata.
+
+    It adds the tags line as the second line.
+
+    It maintains the mtime for the file.
+    """
+    import config
+
+    datadir = config.py.get("datadir")
+    if not datadir:
+        raise ValueError("config.py has no datadir property.")
+
+    sep = config.py.get("tags_separator", ",")
+    tagsfile = get_tagsfile(config.py)
+
+    from Pyblosxom import pyblosxom
+    from Pyblosxom import tools
+    from Pyblosxom.entries import fileentry
+
+    data = {}
+
+    # register entryparsers so that we parse all possible file types.
+    data["extensions"] = tools.run_callback("entryparser",
+                                            {"txt": pyblosxom.blosxom_entry_parser},
+                                            mappingfunc=lambda x, y:y,
+                                            defaultfunc=lambda x: x)
+
+
+    req = pyblosxom.Request(config.py, {}, data)
+
+    # grab all the entries in the datadir
+    filelist = tools.walk(req, datadir)
+
+    if not datadir.endswith(os.sep):
+        datadir = datadir + os.sep
+
+    for mem in filelist:
+        print "working on %s..." % mem
+
+        category = os.path.dirname(mem)[len(datadir):]
+        tags = category.split(os.sep)
+        print "   adding tags %s" % tags
+        tags = "#tags %s\n" % (sep.join(tags))
+
+        atime, mtime = os.stat(mem)[7:9]
+
+        fp = open(mem, "r")
+        data = fp.readlines()
+        fp.close()
+
+        data.insert(1, tags)
+
+        fp = open(mem, "w")
+        fp.write("".join(data))
+        fp.close()
+
+        os.utime(mem, (atime, mtime))
+
+    return 0
+
+</t>
+<t tx="zoomq.20100414115206.4680">def cb_commandline(args):
+    args["buildtags"] = (buildtags, "builds the tags index")
+    args["categorytotags"] = (category_to_tags, "builds tag metadata from categories for entries")
+    return args
+
+</t>
+<t tx="zoomq.20100414115206.4681">def cb_start(args):
+    request = args["request"]
+    data = request.get_data()
+    tagsfile = get_tagsfile(request.get_configuration())
+    tagsdata = loadfile(tagsfile)
+    data["tagsdata"] = tagsdata
+
+</t>
+<t tx="zoomq.20100414115206.4682">def cb_filelist(args):
+    # handles /trigger/tag to show all the entries tagged that
+    # way
+    req = args["request"]
+
+    pyhttp = req.get_http()
+    data = req.get_data()
+    config = req.get_configuration()
+
+    trigger = "/" + config.get("tags_trigger", "tag")
+    if not pyhttp["PATH_INFO"].startswith(trigger):
+        return
+
+    datadir = config["datadir"]
+    tagsfile = get_tagsfile(config)
+    tagsdata = loadfile(tagsfile)
+
+    tag = pyhttp["PATH_INFO"][len(trigger) + 1:]
+    filelist = tagsdata.get(tag, [])
+    if not filelist:
+        tag, ext = os.path.splitext(tag)
+        filelist = tagsdata.get(tag, [])
+        if filelist:
+            data["flavour"] = ext[1:]
+
+    from Pyblosxom.entries import fileentry
+    entrylist = [fileentry.FileEntry(req, e, datadir) for e in filelist]
+
+    # sort the list by mtime
+    entrylist = [(e._mtime, e) for e in entrylist]
+    entrylist.sort()
+    entrylist.reverse()
+    entrylist = [e[1] for e in entrylist]
+
+    return entrylist
+
+</t>
+<t tx="zoomq.20100414115206.4683">def cb_story(args):
+    # adds tags to the entry properties
+    request = args["request"]
+    entry = args["entry"]
+    config = request.get_configuration()
+
+    sep = config.get("tags_separator", ",")
+    tags = [t.strip() for t in entry.get("tags", "").split(sep)]
+    tags.sort()
+    entry["tags_raw"] = tags
+
+    form = request.get_form()
+    flavour = (form.has_key('flav') and form['flav'].value or 
+               config.get('default_flavour', 'html'))
+    baseurl = config.get("base_url", "")
+    trigger = config.get("tags_trigger", "tag")
+    template = config.get("tags_item", '&lt;a href="%(tagurl)s"&gt;%(tag)s&lt;/a&gt;')
+
+    tags = [template % {"base_url": baseurl,
+                        "flavour": flavour,
+                        "tag": tag,
+                        "tagurl": "/".join([baseurl, trigger, tag])}
+            for tag in tags]
+    entry["tags"] = ", ".join(tags)
+    return args
+
+</t>
+<t tx="zoomq.20100414115206.4684">def cb_head(args):
+    # adds a taglist to header/footer
+    request = args["request"]
+    entry = args["entry"]
+    data = request.get_data()
+    config = request.get_configuration()
+    tagsdata = data.get("tagsdata", {})
+
+    tags = tagsdata.keys()
+    tags.sort()
+
+    start_t = config.get("tags_list_start", '&lt;p&gt;')
+    item_t = config.get("tags_list_item", ' &lt;a href="%(tagurl)s"&gt;%(tag)s&lt;/a&gt; ')
+    finish_t = config.get("tags_list_finish", '&lt;/p&gt;')
+
+    output = []
+
+    form = request.get_form()
+    flavour = (form.has_key('flav') and form['flav'].value or 
+               config.get('default_flavour', 'html'))
+    baseurl = config.get("base_url", "")
+    trigger = config.get("tags_trigger", "tag")
+
+    output.append(start_t)
+    for item in tags:
+        d = {"base_url": baseurl,
+             "flavour": flavour,
+             "tag": item,
+             "count": len(tagsdata[item]),
+             "tagurl": "/".join([baseurl, trigger, item])}
+        output.append(item_t % d)
+    output.append(finish_t)
+
+    entry["tagslist"] = "\n".join(output)
+    return args
+
+</t>
+<t tx="zoomq.20100414115206.4685">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="zoomq.20100414115206.4686">"""
+Summary
+=======
+
+Walks through all your blog entries and comments and makes a list of
+all the entries that were either written in the last 14 days or have
+comments written in the last 14 days.  It then generates a very
+hard-coded html representation of them and semi-abuses the 
+flavour template yearmonthsummary which I use for my wbgarchives
+plugin.
+
+This plugin requires no installation.  Just drop it in and the url
+will be::
+
+   $baseurl/recent
+
+to see the recent activity.
+
+----
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004-2007 Will Guaraldi
+
+SUBVERSION VERSION: $Id: wbgrecent.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $
+
+Revisions:
+2007-07-07 - Converted documentation to reST.
+2005-11-11 - Pulled into new VCS.
+1.5 - (26 October, 2005) pulled into new VCS
+1.1 - (09 December, 2004) fixed the timestamp and date_head issues
+1.0 - (31 August, 2004) initial writing
+"""
+__author__ = "Will Guaraldi - willg at bluesock dot org"
+__version__ = "$Date: 2010/10/26 23:00:07 $"
+__url__ = "http://www.bluesock.org/~willg/pyblosxom/"
+__description__ = "Summary of recent blog activity."
+
+from Pyblosxom import tools, entries
+import time, os, glob, urllib
+
+</t>
+<t tx="zoomq.20100414115206.4687">def verify_installation(request):
+    return 1
+
+
+</t>
+<t tx="zoomq.20100414115206.4688">def new_entry(request, title, body):
+    """
+    Takes a bunch of variables and generates an entry out of it.  It creates
+    a timestamp so that conditionalhttp can handle it without getting
+    all fussy.
+    """
+    entry = entries.base.EntryBase(request)
+
+    entry['title'] = title
+    entry['filename'] = title + "/recent"
+    entry['file_path'] = title
+    entry._id = title + "::recent"
+
+    entry["template_name"] = "yearsummarystory"
+    entry["nocomments"] = "yes"
+
+    entry.setTime(time.localtime())
+    entry.setData(body)
+
+    return entry
+
+
+</t>
+<t tx="zoomq.20100414115206.4689">INIT_KEY = "wbgrecent_initiated"
+
+def cb_date_head(args):
+    request = args["request"]
+    data = request.getData()
+
+    if data.has_key(INIT_KEY):
+        args["template"] = ""
+    return args
+
+</t>
+<t tx="zoomq.20100414115206.4690">def get_comment_text(cmt):
+    f = open(cmt[1], "r")
+    lines = f.readlines()
+    title = "No title"
+    author = "Unknown"
+    for mem in lines:
+        mem = mem.rstrip()
+        if mem.find("&lt;title&gt;") == 0:
+            title = mem.replace("&lt;title&gt;", "").replace("&lt;/title&gt;", "")
+            title = urllib.unquote(title)
+        elif mem.find("&lt;author&gt;") == 0:
+            author = mem.replace("&lt;author&gt;", "").replace("&lt;/author&gt;", "")
+            author = urllib.unquote(author)
+
+    return "(%s) comment from %s" % \
+           (time.strftime("%m/%d/%Y %H:%M", time.localtime(cmt[0])), \
+            author)
+
+</t>
+<t tx="zoomq.20100414115206.4691">def cb_filelist(args):
+    request = args["request"]
+    pyhttp = request.getHttp()
+    data = request.getData()
+    config = request.getConfiguration()
+
+    if not pyhttp["PATH_INFO"].startswith("/recent"):
+        return
+
+    datadir = config["datadir"]
+    baseurl = config.get("base_url", "")
+    cmntdir = config.get("comment_dir", datadir + os.sep + "comments")
+    cmntext = config.get("comment_ext", ".cmt")
+
+    data["blog_title"] = config.get("blog_title", "") + " - recent activity"
+    data[INIT_KEY] = 1
+    config['num_entries'] = 9999
+
+    marker = time.time() - (60 * 60 * 24 * 14)
+
+    # get all the entries
+    allentries = tools.Walk(request, datadir)
+
+    debug = []
+    stuff = []
+
+    for mem in allentries:
+        timetuple = tools.filestat(request, mem)
+        entrytstamp = time.mktime(timetuple)
+        tstamp = entrytstamp
+
+        absolute_path = mem[len(datadir):mem.rfind(os.sep)]
+        fn = mem[mem.rfind(os.sep)+1:mem.rfind(".")]
+
+        cmtexpr = os.path.join(cmntdir + absolute_path, fn + '-*.' + cmntext)
+        cmtlist = glob.glob(cmtexpr)
+        cmtlist = [ (os.stat(m)[8], m) for m in cmtlist]
+        cmtlist.sort()
+        cmtlist.reverse()
+
+        # we want the most recent mtime from either the entry or
+        # any of its comments
+        if len(cmtlist) &gt; 0:
+            if tstamp &lt; cmtlist[0][0]:
+                tstamp = cmtlist[0][0]
+
+        # if the mtime is more recent than our marker, we toss the
+        # stuff into our list of things to look at.
+        if tstamp &gt; marker:
+            stuff.append( [tstamp, entrytstamp, mem, cmtlist] )
+
+
+    stuff.sort()
+    stuff.reverse()
+
+    # time stamp and blog entry
+    e = "&lt;tr&gt;\n&lt;td valign=\"top\" align=\"left\"&gt;%s:&lt;/td&gt;\n" \
+        "&lt;td&gt;&lt;a href=\"%s/%s\"&gt;%s&lt;/a&gt; (%s)&lt;br /&gt;%s&lt;/td&gt;&lt;/tr&gt;\n"
+
+    entrylist = []
+    output = []
+    for mem in stuff:
+        entry = entries.fileentry.FileEntry(request, mem[2], config["datadir"])
+        tstamp = time.strftime("%m/%d/%Y", time.localtime(mem[1]))
+
+        temp = e % (tstamp, \
+                    baseurl, \
+                    entry["file_path"], \
+                    entry["title"], \
+                    entry["path"], \
+                    "".join( [get_comment_text(c) + "&lt;br /&gt;" for c in mem[3]]))
+        output.append(temp)
+
+    entrylist.append(new_entry(request, "Recent activity:", "&lt;tr&gt;&lt;td colspan=2&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;\n".join(output)))
+
+    return entrylist
+</t>
+<t tx="zoomq.20100414115206.4692">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="zoomq.20100414115206.4693">"""
+index.py
+http://snarfed.org/space/pyblosxom+index
+Ryan Barrett &lt;pyblosxom@ryanb.org&gt;
+
+This plugin displays an alphabetical index of all entries. It uses these
+optional config variables from config.py, shown here with their defaults:
+
+py['index_trigger']            = '/site-index'
+py['index_num_columns']        = 2
+py['index_letters_first']      = True
+py['index_title']              = 'index'
+py['index_use_story_template'] = True
+
+
+VERSION:
+0.2
+
+TODO:
+- use a template instead of hard-coded HTML
+
+Copyright 2006 Ryan Barrett
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+"""
+import math
+import os.path
+import time
+from Pyblosxom import tools
+import Pyblosxom.entries
+
+__author__ = 'Ryan Barrett'
+__version__ = '0.2'
+__url__ = 'http://snarfed.org/space/pyblosxom+index'
+__description__ = 'Displays an alphabetical index of all entries.'
+
+
+</t>
+<t tx="zoomq.20100414115206.4694">def verify_installation(request):
+  return 1
+
+</t>
+<t tx="zoomq.20100414115206.4695">def cb_filelist(args):
+  request = args['request']
+  http = request.getHttp()
+  data = request.getData()
+  config = request.getConfiguration()
+
+  trigger = config.get('index_trigger', 'site-index')
+  if http['PATH_INFO'] != trigger:
+    return
+
+  # get the entries
+  datadir = config['datadir']
+  files = tools.Walk(request, datadir)
+  files.sort()
+
+  # sort into sections, one for each letter. the dictionary is 
+  # letter =&gt; (entry name, path) where path is the relative to datadir.
+  sections = {}
+  entry_extensions = data['extensions'].keys()
+
+  for file in files:
+    assert file.startswith(datadir)
+    path, ext = os.path.splitext(file[len(datadir):])
+    if ext[1:] in entry_extensions:  # strip the leading period from ext
+      entry_name = os.path.basename(path)
+      sections.setdefault(entry_name[0].upper(), []).append((entry_name, path))
+
+  # extract the first letters. sort as usual, except that numbers and other
+  # non-letters go *after* letters. 
+  def letters_before_symbols(a, b):
+    if a.isalpha() and not b.isalpha():
+      return -1
+    elif not a.isalpha() and b.isalpha():
+      return 1
+    else:
+      return cmp(a, b)
+
+  letters = sections.keys()
+  if config.get('index_letters_first', 1):
+    letters.sort(letters_before_symbols)
+  else:
+    letters.sort()
+
+  # add the header with links to each section
+  body = '&lt;p class="index-header"&gt;'
+  letter_links = ['&lt;a href="#%s"&gt;%s&lt;/a&gt;' % (l, l) for l in letters]
+  body += ' |\n'.join(letter_links)
+  body += '&lt;/p&gt;\n&lt;hr class="index"/&gt;\n\n'
+
+  # add the sections themselves, with one link per entry, in a table. the
+  # number of columns is taken from the index_num_columns config variable.
+  # entries are ordered down each column, in order.
+  num_cols = config.get('index_num_columns', 2)
+
+  for l in letters:
+    body += '&lt;h3 class="index"&gt;%s&lt;/h3&gt; &lt;a name="%s"&gt;&lt;/a n&gt;\n' % (l, l)
+    body += '&lt;table class="index"&gt;\n'
+
+    entries = sections[l]
+    entries.sort()
+    num_rows = int(math.ceil(float(len(entries)) / num_cols))
+
+    for row in range(0, num_rows):
+      # alternate the &lt;tr&gt; tags' class between index-row-stripe-0 and
+      # index-row-stripe-1, so you can use CSS to alternate their color for
+      # readability, if you want.
+      body += '&lt;tr class="index-row-stripe-%d"&gt;\n' % (row % 2)
+      for col in range(0, num_cols):
+        entry_index = col * num_rows + row
+        if entry_index &lt; len(entries):
+          entry_name, path = entries[entry_index]
+        else:
+          entry_name = path = ''
+        body += '&lt;td&gt;&lt;a href="%s"&gt;%s&lt;/a&gt;&lt;/td&gt;\n' % (path, entry_name)
+      body += '&lt;/tr&gt;\n'
+
+    body += '&lt;/table&gt;\n&lt;hr class="index"/&gt;\n\n'
+
+  data = {'title': config.get('index_title', 'index')}
+  # use the epoch for mtime. otherwise, pyblosxom uses the current time, which
+  # makes other plugins (like weblogsping) think this is a new entry.
+  epoch = time.localtime(0)
+  fe = Pyblosxom.entries.base.generate_entry(request, data, body, epoch)
+  return [fe]
+
+</t>
+<t tx="zoomq.20100414115206.4696">def cb_story(args):
+  request = args['request']
+  http = request.getHttp()
+  config = request.getConfiguration()
+  trigger = config.get('index_trigger', 'site-index')
+
+  if (http['PATH_INFO'] == trigger and
+      not config.get('index_use_story_template', 1)):
+    title = config.get('index_title', 'index')
+    args['template'] = '&lt;h1 class="index"&gt;%s&lt;/h1&gt;\n&lt;hr /&gt;\n$body' % title
+
+  return args
+</t>
+<t tx="zoomq.20100414115206.4702">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+@others
+</t>
+<t tx="zoomq.20100414115206.4703">"""
+index_static.py
+    - just fixed for pyblosxom-cmd  staticrender export all .html links
+base index.py from:
+http://snarfed.org/space/pyblosxom+index
+Ryan Barrett &lt;pyblosxom@ryanb.org&gt;
+
+This plugin displays an alphabetical index of all entries. It uses these
+optional config variables from config.py, shown here with their defaults:
+
+py['index_trigger']            = '/site-index'
+py['index_num_columns']        = 2
+py['index_letters_first']      = True
+py['index_title']              = 'index'
+py['index_use_story_template'] = True
+
+
+VERSION:
+0.2
+
+TODO:
+- use a template instead of hard-coded HTML
+
+Copyright 2006 Ryan Barrett
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+"""
+import math
+import os.path
+import time
+from Pyblosxom import tools
+import Pyblosxom.entries
+
+__author__ = 'Ryan Barrett'
+__version__ = '0.2'
+__url__ = 'http://snarfed.org/space/pyblosxom+index'
+__description__ = 'Displays an alphabetical index of all entries.'
+
+
+</t>
+<t tx="zoomq.20100414115206.4704">def verify_installation(request):
+  return 1
+
+</t>
+<t tx="zoomq.20100414115206.4705">def cb_filelist(args):
+  request = args['request']
+  http = request.getHttp()
+  data = request.getData()
+  config = request.getConfiguration()
+
+  trigger = config.get('index_trigger', 'site-index')
+  if http['PATH_INFO'] != trigger:
+    return
+
+  # get the entries
+  datadir = config['datadir']
+  files = tools.Walk(request, datadir)
+  files.sort()
+
+  # sort into sections, one for each letter. the dictionary is 
+  # letter =&gt; (entry name, path) where path is the relative to datadir.
+  sections = {}
+  entry_extensions = data['extensions'].keys()
+
+  for file in files:
+    assert file.startswith(datadir)
+    path, ext = os.path.splitext(file[len(datadir):])
+    if ext[1:] in entry_extensions:  # strip the leading period from ext
+      entry_name = os.path.basename(path)
+      sections.setdefault(entry_name[0].upper(), []).append((entry_name, path))
+
+  # extract the first letters. sort as usual, except that numbers and other
+  # non-letters go *after* letters. 
+  def letters_before_symbols(a, b):
+    if a.isalpha() and not b.isalpha():
+      return -1
+    elif not a.isalpha() and b.isalpha():
+      return 1
+    else:
+      return cmp(a, b)
+
+  letters = sections.keys()
+  if config.get('index_letters_first', 1):
+    letters.sort(letters_before_symbols)
+  else:
+    letters.sort()
+
+  # add the header with links to each section
+  body = '&lt;p class="index-header"&gt;'
+  letter_links = ['&lt;a href="#%s"&gt;%s&lt;/a&gt;' % (l, l) for l in letters]
+  body += ' |\n'.join(letter_links)
+  body += '&lt;/p&gt;\n&lt;hr class="index"/&gt;\n\n'
+
+  # add the sections themselves, with one link per entry, in a table. the
+  # number of columns is taken from the index_num_columns config variable.
+  # entries are ordered down each column, in order.
+  num_cols = config.get('index_num_columns', 2)
+
+  for l in letters:
+    body += '&lt;h3 class="index"&gt;%s&lt;/h3&gt; &lt;a name="%s"&gt;&lt;/a n&gt;\n' % (l, l)
+    body += '&lt;table class="index"&gt;\n'
+
+    entries = sections[l]
+    entries.sort()
+    num_rows = int(math.ceil(float(len(entries)) / num_cols))
+
+    for row in range(0, num_rows):
+      # alternate the &lt;tr&gt; tags' class between index-row-stripe-0 and
+      # index-row-stripe-1, so you can use CSS to alternate their color for
+      # readability, if you want.
+      body += '&lt;tr class="index-row-stripe-%d"&gt;\n' % (row % 2)
+      for col in range(0, num_cols):
+        entry_index = col * num_rows + row
+        if entry_index &lt; len(entries):
+          entry_name, path = entries[entry_index]
+        else:
+          entry_name = path = ''
+        body += '&lt;td&gt;&lt;a href="%s.html"&gt;%s&lt;/a&gt;&lt;/td&gt;\n' % (path[1:], entry_name)
+      body += '&lt;/tr&gt;\n'
+
+    body += '&lt;/table&gt;\n&lt;hr class="index"/&gt;\n\n'
+
+  data = {'title': config.get('index_title', 'index')}
+  # use the epoch for mtime. otherwise, pyblosxom uses the current time, which
+  # makes other plugins (like weblogsping) think this is a new entry.
+  epoch = time.localtime(0)
+  fe = Pyblosxom.entries.base.generate_entry(request, data, body, epoch)
+  return [fe]
+
+</t>
+<t tx="zoomq.20100414115206.4706">def cb_story(args):
+  request = args['request']
+  http = request.getHttp()
+  config = request.getConfiguration()
+  trigger = config.get('index_trigger', 'site-index')
+
+  if (http['PATH_INFO'] == trigger and
+      not config.get('index_use_story_template', 1)):
+    title = config.get('index_title', 'index')
+    args['template'] = '&lt;h1 class="index"&gt;%s&lt;/h1&gt;\n&lt;hr /&gt;\n$body' % title
+
+  return args
+</t>
+<t tx="zoomq.20100414115206.4717">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+&lt;&lt;pycategories declarations&gt;&gt;
+from Pyblosxom import tools
+import re, os
+
+DEFAULT_START = r'&lt;ul class="categorygroup"&gt;'
+DEFAULT_BEGIN = r'&lt;li&gt;&lt;ul class="categorygroup"&gt;'
+DEFAULT_ITEM = r'&lt;li&gt;&lt;a href="%(base_url)s/%(fullcategory_urlencoded)sindex.%(flavour)s"&gt;%(category)s&lt;/a&gt; (%(count)d)&lt;/li&gt;'
+DEFAULT_END = "&lt;/ul&gt;&lt;/li&gt;"
+DEFAULT_FINISH = "&lt;/ul&gt;"
+DEFAULT_ROOT = []
+
+@others
+</t>
+<t tx="zoomq.20100414115206.4718"># vim: tabstop=4 shiftwidth=4
+"""
+- 仅仅要求可以根据指定顺序输出分类目录
+
+Walks through your blog root figuring out all the categories you have
+and how many entries are in each category.  It generates html with
+this information and stores it in the $categorylinks variable which
+you can use in your head or foot templates.
+
+You can format the output by setting "category_begin", "category_item",
+"category_end" and properties.
+
+Categories exist in a hierarchy.  "category_start" starts the category listing
+and is only used at the very beginning.  The "category_begin" property begins a 
+new category group and the "category_end" property ends that category group.  
+The "category_item" property is the template for each category item.  Then
+after all the categories are printed, "category_finish" ends the category
+listing.
+
+For example, the following properties will use &lt;ul&gt; to open a category, &lt;/ul&gt;
+to close a category and &lt;li&gt; for each item:
+
+py["category_start"] = "&lt;ul&gt;"
+py["category_begin"] = "&lt;li&gt;&lt;ul&gt;"
+py["category_item"] = r'&lt;li&gt;&lt;a href="%(base_url)s/%(category_urlencoded)sindex"&gt;%(category)s&lt;/a&gt;&lt;/li&gt;'
+py["category_end"] = "&lt;/li&gt;&lt;/ul&gt;"
+py["category_finish"] = "&lt;/ul&gt;"
+
+
+Another example, the following properties don't have a begin or an end but
+instead use indentation for links and displays the number of entries in that
+category:
+
+py["category_start"] = ""
+py["category_begin"] = ""
+py["category_item"] = r'%(indent)s&lt;a href="%(base_url)s/%(category_urlencoded)sindex"&gt;%(category)s&lt;/a&gt; (%(count)d)&lt;br /&gt;'
+py["category_end"] = ""
+py["category_finish"] = ""
+
+There are no variables available in the category_begin or category_end 
+templates.
+
+Available variables in the category_item template:
+
+  variable                 example                      datatype
+  ========                 =======                      ========
+  base_url                 http://joe.com/blog/         string
+  fullcategory_urlencoded  'dev/pyblosxom/status/'      string
+  fullcategory             'dev/pyblosxom/status/'      string (urlencoded)
+  category                 'status/'                    string
+  category_urlencoded      'status/'                    string (urlencoed)
+  flavour                  'html'                       string
+  count                    70                           int
+  indent                   '&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'   string
+
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004, 2005, 2006 Will Guaraldi
+"""
+__author__ = "Will Guaraldi - willg at bluesock dot org"
+__version__ = "$Id: zqcategories.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $"
+__url__ = "http://pyblosxom.sourceforge.net/"
+__description__ = "Builds a list of categories."
+
+</t>
+<t tx="zoomq.20100414115206.4719">def verify_installation(request):
+    config = request.getConfiguration()
+    if not config.has_key("category_template"):
+        print "missing optional config property 'category_template' which allows "
+        print "you to specify how the category hierarchy is rendered.  see"
+        print "the documentation at the top of the pycategories plugin code "
+        print "file for more details."
+    return 1
+
+</t>
+<t tx="zoomq.20100414115206.4720">class PyblCategories:
+    @others
+</t>
+<t tx="zoomq.20100414115206.4721">def __init__(self, request):
+    self._request = request
+    self._categories = None
+    config = self._request.getConfiguration()
+    self._baseurl = config.get("base_url", "")
+
+    self.genCategories()
+
+
+</t>
+<t tx="zoomq.20100414115206.4722">def __str__(self):
+    if self._categories == None:
+        self.genCategories()
+    return self._categories
+
+</t>
+<t tx="zoomq.20100414115206.4723">def genCategories(self):
+    config = self._request.getConfiguration()
+    root = config["datadir"]
+
+    start_t = config.get("category_start", DEFAULT_START)
+    begin_t = config.get("category_begin", DEFAULT_BEGIN)
+    item_t = config.get("category_item", DEFAULT_ITEM)
+    end_t = config.get("category_end", DEFAULT_END)
+    finish_t = config.get("category_finish", DEFAULT_FINISH)
+    #zoomq: configed order by mind the catrgorise
+    root_path_list = config.get("category_root_list", DEFAULT_ROOT)
+
+    cfgBaseUrl = config.get("base_url", "")
+
+    form = self._request.getForm()
+    flavour = (form.has_key('flav') and form['flav'].value or 
+        config.get('default_flavour', 'html'))
+    #print flavour
+
+    # build the list of all entries in the datadir
+    output = ""
+    #@others
+    if 0==len(root_path_list):  #as default walk and export Categories as word order 
+        elist = tools.Walk(self._request, root)
+        output += self._subCategories(elist,root,"")
+    else:
+        for rootCategory in root_path_list:
+            subroot = "%s/%s"%(root,rootCategory)
+            self._baseurl = "%s/%s"%(cfgBaseUrl,rootCategory)
+            elist = tools.Walk(self._request, subroot)
+            output += self._subCategories(elist,subroot,rootCategory)
+
+    # then we join the list and that's the final string
+    #self._categories = "\n".join(output)
+    self._categories = output
+
+</t>
+<t tx="zoomq.20100414115206.4724">def _subCategories(self,elist,root,rootname):
+    config = self._request.getConfiguration()
+    form = self._request.getForm()
+    flavour = (form.has_key('flav') and form['flav'].value or 
+        config.get('default_flavour', 'html'))
+    start_t = config.get("category_start", DEFAULT_START)
+    begin_t = config.get("category_begin", DEFAULT_BEGIN)
+    item_t = config.get("category_item", DEFAULT_ITEM)
+    end_t = config.get("category_end", DEFAULT_END)
+    finish_t = config.get("category_finish", DEFAULT_FINISH)
+
+    # peel off the root dir from the list of entries
+    elist = [mem[len(root)+1:] for mem in elist]
+
+    # go through the list of entries and build a map that
+    # maintains a count of how many entries are in each 
+    # category
+    elistmap = {}
+    for mem in elist:
+        mem = os.path.dirname(mem)
+        elistmap[mem] = 1 + elistmap.get(mem, 0)
+    self._elistmap = elistmap
+    #print self._elistmap
+    # go through the elistmap keys (which is the list of
+    # categories) and for each piece in the key (i.e. the key
+    # could be "dev/pyblosxom/releases" and the pieces would
+    # be "dev", "pyblosxom", and "releases") we build keys
+    # for the category list map (i.e. "dev", "dev/pyblosxom",
+    # "dev/pyblosxom/releases")
+    clistmap = {}
+    for mem in elistmap.keys():
+        mem = mem.split(os.sep)
+        for index in range(len(mem)+1):
+            p = os.sep.join(mem[0:index])
+            clistmap[p] = 0
+
+    # then we take the category list from the clistmap and
+    # sort it alphabetically
+    clist = clistmap.keys()
+    clist.sort()
+
+    output = []
+    indent = 0
+
+    output.append(start_t)
+    # then we generate each item in the list
+    for item in clist:
+        itemlist = item.split(os.sep)
+
+        num = 0
+        for key in self._elistmap.keys():
+            if item == '' or key == item or key.startswith(item + os.sep):
+                num = num + self._elistmap[key]
+
+        if not item:
+            tab = ""
+        else:
+            tab = len(itemlist) * "&amp;nbsp;&amp;nbsp;"
+
+        if indent &gt; len(itemlist):
+            for i in range(indent - len(itemlist)):
+                output.append(end_t)
+
+        elif indent &lt; len(itemlist):
+            for i in range(len(itemlist) - indent):
+                output.append(begin_t)
+
+        # now we build the dict with the values for substitution
+        d = { "base_url":     self._baseurl, 
+              "fullcategory": item + "/", 
+              "category":     itemlist[-1] + "/", 
+              "flavour":      flavour,
+              "count":        num,
+              "indent":       tab }
+
+        # this prevents a double / in the root category url
+        if item == "":
+            d["fullcategory"] = item
+        #print d
+        # this adds urlencoded versions
+        d["fullcategory_urlencoded"] = tools.urlencode_text(d["fullcategory"])
+        d["category_urlencoded"] = tools.urlencode_text(d["category"])
+
+        # and we toss it in the thing
+        output.append(item_t % d)
+
+        indent = len(itemlist)
+
+    output.append(end_t * indent)
+    output.append(finish_t)
+    # export define item's name
+    output[2] = output[2].replace("&gt;/&lt;/a&gt;"," class='rootcategory'&gt;%s/&lt;/a&gt;"%rootname)
+    return "\n".join(output)
+</t>
+<t tx="zoomq.20100414115206.4725">def cb_prepare(args):
+    request = args["request"]
+    data = request.getData()
+    data["categorylinks"] = PyblCategories(request)
 </t>
 <t tx="zoomq.20100414115206.4726">[/pybimage/technorati-over.gif]
     ,[Zen http://www.technorati.com/tags/Zen]
@@ -12407,9 +16581,6519 @@ Expert options:
 
 
 </t>
+<t tx="zoomq.20100414115206.4732">@language python
+@tabwidth -4
+&lt;&lt;txt2tags declarations&gt;&gt;
+&lt;&lt;base options&gt;&gt;
+&lt;&lt;misc options&gt;&gt;
+&lt;&lt;target's templates&gt;&gt;
+
+XHTML_TOPTOP = ""
+
+@others
+
+if __name__ == '__main__':
+    try:
+        exec_command_line()
+    except error, msg:
+        sys.stderr.write("%s\n"%msg)
+        sys.stderr.flush()
+        sys.exit(1)
+    except SystemExit:
+        pass
+    except:
+        sys.stderr.write(getUnknownErrorMessage())
+        sys.stderr.flush()
+        sys.exit(1)
+    Quit()
+
+
+# vim: ts=8
+</t>
+<t tx="zoomq.20100414115206.4733">#!/usr/bin/env python
+# txt2tags - generic text conversion tool
+# http://txt2tags.sf.net
+#
+# Copyright 2001, 2002, 2003, 2004, 2005, 2006 Aurelio Marinho Jargas
+#
+#   This program is free software; you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation, version 2.
+#
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#   You have received a copy of the GNU General Public License along
+#   with this program, on the COPYING file.
+#
+########################################################################
+#
+#   BORING CODE EXPLANATION AHEAD
+#
+# Just read if you wish to understand how the txt2tags code works
+#
+########################################################################
+#
+# Version 2.0 was a complete rewrite for the program 'core'.
+#
+# Now the code that [1] parses the marked text is separated from the
+# code that [2] insert the target tags.
+#
+#   [1] made by: def convert()
+#   [2] made by: class BlockMaster
+#
+# The structures of the marked text are identified and its contents are
+# extracted into a data holder (Python lists and dictionaries).
+#
+# When parsing the source file, the blocks (para, lists, quote, table)
+# are opened with BlockMaster, right when found. Then its contents,
+# which spans on several lines, are feeded into a special holder on the
+# BlockMaster instance. Just when the block is closed, the target tags
+# are inserted for the full block as a whole, in one pass. This way, we
+# have a better control on blocks. Much better than the previous line by
+# line approach.
+#
+# In other words, whenever inside a block, the parser *holds* the tag
+# insertion process, waiting until the full block is read. That was
+# needed primary to close paragraphs for the new XHTML target, but
+# proved to be a very good adding, improving many other processing.
+#
+# -------------------------------------------------------------------
+#
+# There is also a brand new code for the Configuration schema, 100%
+# rewritten. There are new classes, all self documented: CommandLine,
+# SourceDocument, ConfigMaster and ConfigLines. In short, a new RAW
+# Config format was created, and all kind of configuration is first
+# converted to this format, and then a generic method parses it.
+#
+# The init processing was changed also, and now the functions which
+# gets informations about the input files are: get_infiles_config(),
+#  process_source_file() and convert_this_files()
+#
+# Other parts are untouched, and remains the same as in v1.7, as the
+# marks regexes, target Headers and target Tags &amp; Rules.
+#
+########################################################################
+
+# Now I think the code is nice, easier to read and understand
+
+#XXX Python coding warning
+# Avoid common mistakes:
+# - do NOT use newlist=list instead newlist=list[:]
+# - do NOT use newdic=dic   instead newdic=dic.copy()
+# - do NOT use dic[key]     instead dic.get(key)
+# - do NOT use del dic[key] without has_key() before
+
+#XXX Smart Image Align don't work if the image is a link
+# Can't fix that because the image is expanded together with the
+# link, at the linkbank filling moment. Only the image is passed
+# to parse_images(), not the full line, so it is always 'middle'.
+
+#XXX Paragraph separation not valid inside Quote
+# Quote will not have &lt;p&gt;&lt;/p&gt; inside, instead will close and open
+# again the &lt;blockquote&gt;. This really sux in CSS, when defining a
+# different background color. Still don't know how to fix it.
+
+#XXX TODO (maybe)
+# New mark or macro which expands to an anchor full title.
+# It is necessary to parse the full document in this order:
+#  DONE  1st scan: HEAD: get all settings, including %!includeconf
+#  DONE  2nd scan: BODY: expand includes &amp; apply %!preproc
+#        3rd scan: BODY: read titles and compose TOC info
+#        4th scan: BODY: full parsing, expanding [#anchor] 1st
+# Steps 2 and 3 can be made together, with no tag adding.
+# Two complete body scans will be *slow*, don't know if it worths.
+# One solution may be add the titles as postproc rules
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4734">##############################################################################
+
+
+def getTags(config):
+    "Returns all the known tags for the specified target"
+
+    keys = [
+    'paragraphOpen','paragraphClose',
+    'title1','title2','title3','title4','title5',
+    'title1Open','title1Close','title2Open','title2Close',
+    'blocktitle1Open','title1Close','title2Open','title2Close',
+    'title3Open','title3Close','title4Open','title4Close',
+    'title5Open','title5Close',
+    'numtitle1','numtitle2','numtitle3','numtitle4','numtitle5',
+    'blockVerbOpen','blockVerbClose',
+    'blockQuoteOpen','blockQuoteClose','blockQuoteLine',
+    'blockCommentOpen','blockCommentClose',
+    'fontMonoOpen','fontMonoClose',
+    'fontBoldOpen','fontBoldClose',
+    'fontItalicOpen','fontItalicClose',
+    'fontUnderlineOpen','fontUnderlineClose',
+    'listOpen','listClose',
+    'listItemOpen','listItemClose','listItemLine',
+    'numlistOpen','numlistClose',
+    'numlistItemOpen','numlistItemClose','numlistItemLine',
+    'deflistOpen','deflistClose',
+    'deflistItem1Open','deflistItem1Close',
+    'deflistItem2Open','deflistItem2Close',
+    'bar1','bar2',
+    'url','urlMark','email','emailMark',
+    'img','imgAlignLeft','imgAlignRight','imgAlignCenter',
+    'tableOpen','tableClose',
+    'tableRowOpen','tableRowClose','tableRowSep',
+    'tableCellOpen','tableCellClose','tableCellSep',
+    'tableTitleCellOpen','tableTitleCellClose','tableTitleCellSep',
+    'tableTitleRowOpen','tableTitleRowClose',
+    'tableBorder', 'tableAlignLeft', 'tableAlignCenter',
+    'tableCellAlignLeft','tableCellAlignRight','tableCellAlignCenter',
+    'tableColAlignLeft','tableColAlignRight','tableColAlignCenter',
+    'tableColAlignSep', 'tableCellColSpan',
+    'anchor','comment','pageBreak',
+    'TOC','tocOpen','tocClose',
+    'cssOpen', 'cssClose',
+    'bodyOpen','bodyClose',
+    'EOD'
+    ]
+
+    # TIP: \a represents the current text on the mark
+    # TIP: ~A~, ~B~ and ~C~ are expanded to other tags parts
+
+    alltags = {
+
+    'txt': {
+       'title1'              : '  \a'      ,
+       'title2'              : '\t\a'      ,
+       'title3'              : '\t\t\a'    ,
+       'title4'              : '\t\t\t\a'  ,
+       'title5'              : '\t\t\t\t\a',
+       'blockQuoteLine'      : '\t'        ,
+       'listItemOpen'        : '- '        ,
+       'numlistItemOpen'     : '\a. '      ,
+       'bar1'                : '\a'        ,
+       'url'                 : '\a'        ,
+       'urlMark'             : '\a (\a)'   ,
+       'email'               : '\a'        ,
+       'emailMark'           : '\a (\a)'   ,
+       'img'                 : '[\a]'      ,
+    },
+
+    'html': {
+       'paragraphOpen'       : '&lt;P&gt;'            ,
+       'paragraphClose'      : '&lt;/P&gt;'           ,
+       'title1'              : '~A~&lt;H1&gt;\a&lt;/H1&gt;' ,
+       'title2'              : '~A~&lt;H2&gt;\a&lt;/H2&gt;' ,
+       'title3'              : '~A~&lt;H3&gt;\a&lt;/H3&gt;' ,
+       'title4'              : '~A~&lt;H4&gt;\a&lt;/H4&gt;' ,
+       'title5'              : '~A~&lt;H5&gt;\a&lt;/H5&gt;' ,
+       'blockVerbOpen'       : '&lt;PRE&gt;'          ,
+       'blockVerbClose'      : '&lt;/PRE&gt;'         ,
+       'blockQuoteOpen'      : '&lt;BLOCKQUOTE&gt;'   ,
+       'blockQuoteClose'     : '&lt;/BLOCKQUOTE&gt;'  ,
+       'fontMonoOpen'        : '&lt;CODE&gt;'         ,
+       'fontMonoClose'       : '&lt;/CODE&gt;'        ,
+       'fontBoldOpen'        : '&lt;B&gt;'            ,
+       'fontBoldClose'       : '&lt;/B&gt;'           ,
+       'fontItalicOpen'      : '&lt;I&gt;'            ,
+       'fontItalicClose'     : '&lt;/I&gt;'           ,
+       'fontUnderlineOpen'   : '&lt;U&gt;'            ,
+       'fontUnderlineClose'  : '&lt;/U&gt;'           ,
+       'listOpen'            : '&lt;UL&gt;'           ,
+       'listClose'           : '&lt;/UL&gt;'          ,
+       'listItemOpen'        : '&lt;LI&gt;'           ,
+       'numlistOpen'         : '&lt;OL&gt;'           ,
+       'numlistClose'        : '&lt;/OL&gt;'          ,
+       'numlistItemOpen'     : '&lt;LI&gt;'           ,
+       'deflistOpen'         : '&lt;DL&gt;'           ,
+       'deflistClose'        : '&lt;/DL&gt;'          ,
+       'deflistItem1Open'    : '&lt;DT&gt;'           ,
+       'deflistItem1Close'   : '&lt;/DT&gt;'          ,
+       'deflistItem2Open'    : '&lt;DD&gt;'           ,
+       'bar1'                : '&lt;HR NOSHADE SIZE=1&gt;'        ,
+       'bar2'                : '&lt;HR NOSHADE SIZE=5&gt;'        ,
+       'url'                 : '&lt;A HREF="\a"&gt;\a&lt;/A&gt;'        ,
+       'urlMark'             : '&lt;A HREF="\a"&gt;\a&lt;/A&gt;'        ,
+       'email'               : '&lt;A HREF="mailto:\a"&gt;\a&lt;/A&gt;' ,
+       'emailMark'           : '&lt;A HREF="mailto:\a"&gt;\a&lt;/A&gt;' ,
+       'img'                 : '&lt;IMG~A~ SRC="\a" BORDER="0" ALT=""&gt;',
+       'imgAlignLeft'        : ' ALIGN="left"'  ,
+       'imgAlignCenter'      : ' ALIGN="middle"',
+       'imgAlignRight'       : ' ALIGN="right"' ,
+       'tableOpen'           : '&lt;TABLE~A~ CELLPADDING="4"~B~&gt;',
+       'tableClose'          : '&lt;/TABLE&gt;'       ,
+       'tableRowOpen'        : '&lt;TR&gt;'           ,
+       'tableRowClose'       : '&lt;/TR&gt;'          ,
+       'tableCellOpen'       : '&lt;TD~A~~S~&gt;'      ,
+       'tableCellClose'      : '&lt;/TD&gt;'          ,
+       'tableTitleCellOpen'  : '&lt;TH~S~&gt;'        ,
+       'tableTitleCellClose' : '&lt;/TH&gt;'          ,
+       'tableBorder'         : ' BORDER="1"'    ,
+       'tableAlignCenter'    : ' ALIGN="center"',
+       'tableCellAlignRight' : ' ALIGN="right"' ,
+       'tableCellAlignCenter': ' ALIGN="center"',
+       'tableCellColSpan'    : ' COLSPAN="\a"'  ,
+       'anchor'              : '&lt;A NAME="\a"&gt;&lt;/A&gt;\n',
+       'cssOpen'             : '&lt;STYLE TYPE="text/css"&gt;',
+       'cssClose'            : '&lt;/STYLE&gt;'       ,
+       'comment'             : '&lt;!-- \a --&gt;'    ,
+       'EOD'                 : '&lt;/BODY&gt;&lt;/HTML&gt;'
+    },
+
+    #TIP xhtml inherits all HTML definitions (lowercased)
+    #TIP http://www.w3.org/TR/xhtml1/#guidelines
+    #TIP http://www.htmlref.com/samples/Chapt17/17_08.htm
+    'xhtml': {
+       'listItemClose'       : '&lt;/li&gt;'          ,
+       'numlistItemClose'    : '&lt;/li&gt;'          ,
+       'deflistItem2Close'   : '&lt;/dd&gt;'          ,
+       'bar1'                : '&lt;hr class="light" /&gt;',
+       'bar2'                : '&lt;hr class="heavy" /&gt;',
+       'anchor'              : '&lt;a id="\a" name="\a"&gt;&lt;/a&gt;\n',
+       'img'                 : '&lt;img~A~ src="\a" border="0" alt=""/&gt;',
+    },
+
+    'sgml': {
+       'paragraphOpen'       : '&lt;p&gt;'                ,
+       'title1'              : '&lt;sect&gt;\a~A~&lt;p&gt;'     ,
+       'title2'              : '&lt;sect1&gt;\a~A~&lt;p&gt;'    ,
+       'title3'              : '&lt;sect2&gt;\a~A~&lt;p&gt;'    ,
+       'title4'              : '&lt;sect3&gt;\a~A~&lt;p&gt;'    ,
+       'title5'              : '&lt;sect4&gt;\a~A~&lt;p&gt;'    ,
+       'blockVerbOpen'       : '&lt;tscreen&gt;&lt;verb&gt;'    ,
+       'blockVerbClose'      : '&lt;/verb&gt;&lt;/tscreen&gt;'  ,
+       'blockQuoteOpen'      : '&lt;quote&gt;'            ,
+       'blockQuoteClose'     : '&lt;/quote&gt;'           ,
+       'fontMonoOpen'        : '&lt;tt&gt;'               ,
+       'fontMonoClose'       : '&lt;/tt&gt;'              ,
+       'fontBoldOpen'        : '&lt;bf&gt;'               ,
+       'fontBoldClose'       : '&lt;/bf&gt;'              ,
+       'fontItalicOpen'      : '&lt;em&gt;'               ,
+       'fontItalicClose'     : '&lt;/em&gt;'              ,
+       'fontUnderlineOpen'   : '&lt;bf&gt;&lt;em&gt;'           ,
+       'fontUnderlineClose'  : '&lt;/em&gt;&lt;/bf&gt;'         ,
+       'listOpen'            : '&lt;itemize&gt;'          ,
+       'listClose'           : '&lt;/itemize&gt;'         ,
+       'listItemOpen'        : '&lt;item&gt;'             ,
+       'numlistOpen'         : '&lt;enum&gt;'             ,
+       'numlistClose'        : '&lt;/enum&gt;'            ,
+       'numlistItemOpen'     : '&lt;item&gt;'             ,
+       'deflistOpen'         : '&lt;descrip&gt;'          ,
+       'deflistClose'        : '&lt;/descrip&gt;'         ,
+       'deflistItem1Open'    : '&lt;tag&gt;'              ,
+       'deflistItem1Close'   : '&lt;/tag&gt;'             ,
+       'bar1'                : '&lt;!-- \a --&gt;'        ,
+       'url'                 : '&lt;htmlurl url="\a" name="\a"&gt;'        ,
+       'urlMark'             : '&lt;htmlurl url="\a" name="\a"&gt;'        ,
+       'email'               : '&lt;htmlurl url="mailto:\a" name="\a"&gt;' ,
+       'emailMark'           : '&lt;htmlurl url="mailto:\a" name="\a"&gt;' ,
+       'img'                 : '&lt;figure&gt;&lt;ph vspace=""&gt;&lt;img src="\a"&gt;'+\
+                               '&lt;/figure&gt;'                           ,
+       'tableOpen'           : '&lt;table&gt;&lt;tabular ca="~C~"&gt;'           ,
+       'tableClose'          : '&lt;/tabular&gt;&lt;/table&gt;' ,
+       'tableRowSep'         : '&lt;rowsep&gt;'           ,
+       'tableCellSep'        : '&lt;colsep&gt;'           ,
+       'tableColAlignLeft'   : 'l'                  ,
+       'tableColAlignRight'  : 'r'                  ,
+       'tableColAlignCenter' : 'c'                  ,
+       'comment'             : '&lt;!-- \a --&gt;'        ,
+       'anchor'              : '&lt;label id="\a"&gt;'    ,
+       'TOC'                 : '&lt;toc&gt;'              ,
+       'EOD'                 : '&lt;/article&gt;'
+    },
+
+    'tex': {
+       'title1'              : '\n\section*{\a}'     ,
+       'title2'              : '\\subsection*{\a}'   ,
+       'title3'              : '\\subsubsection*{\a}',
+       # title 4/5: DIRTY: para+BF+\\+\n
+       'title4'              : '\\paragraph{}\\textbf{\a}\\\\\n',
+       'title5'              : '\\paragraph{}\\textbf{\a}\\\\\n',
+       'numtitle1'           : '\n\section{\a}'      ,
+       'numtitle2'           : '\\subsection{\a}'    ,
+       'numtitle3'           : '\\subsubsection{\a}' ,
+       'blockVerbOpen'       : '\\begin{verbatim}'   ,
+       'blockVerbClose'      : '\\end{verbatim}'     ,
+       'blockQuoteOpen'      : '\\begin{quotation}'  ,
+       'blockQuoteClose'     : '\\end{quotation}'    ,
+       'fontMonoOpen'        : '\\texttt{'           ,
+       'fontMonoClose'       : '}'                   ,
+       'fontBoldOpen'        : '\\textbf{'           ,
+       'fontBoldClose'       : '}'                   ,
+       'fontItalicOpen'      : '\\textit{'           ,
+       'fontItalicClose'     : '}'                   ,
+       'fontUnderlineOpen'   : '\\underline{'        ,
+       'fontUnderlineClose'  : '}'                   ,
+       'listOpen'            : '\\begin{itemize}'    ,
+       'listClose'           : '\\end{itemize}'      ,
+       'listItemOpen'        : '\\item '             ,
+       'numlistOpen'         : '\\begin{enumerate}'  ,
+       'numlistClose'        : '\\end{enumerate}'    ,
+       'numlistItemOpen'     : '\\item '             ,
+       'deflistOpen'         : '\\begin{description}',
+       'deflistClose'        : '\\end{description}'  ,
+       'deflistItem1Open'    : '\\item['             ,
+       'deflistItem1Close'   : ']'                   ,
+       'bar1'                : '\n\\hrulefill{}\n'   ,
+       'bar2'                : '\n\\rule{\linewidth}{1mm}\n',
+       'url'                 : '\\htmladdnormallink{\a}{\a}',
+       'urlMark'             : '\\htmladdnormallink{\a}{\a}',
+       'email'               : '\\htmladdnormallink{\a}{mailto:\a}',
+       'emailMark'           : '\\htmladdnormallink{\a}{mailto:\a}',
+       'img'                 : '\\includegraphics{\a}',
+       'tableOpen'           : '\\begin{center}\\begin{tabular}{|~C~|}',
+       'tableClose'          : '\\end{tabular}\\end{center}',
+       'tableRowOpen'        : '\\hline ' ,
+       'tableRowClose'       : ' \\\\'    ,
+       'tableCellSep'        : ' &amp; '      ,
+       'tableColAlignLeft'   : 'l'        ,
+       'tableColAlignRight'  : 'r'        ,
+       'tableColAlignCenter' : 'c'        ,
+       'tableColAlignSep'    : '|'        ,
+       'comment'             : '% \a'     ,
+       'TOC'                 : '\\tableofcontents',
+       'pageBreak'           : '\\clearpage',
+       'EOD'                 : '\\end{document}'
+    },
+
+    'lout': {
+       'paragraphOpen'       : '@LP'                     ,
+       'blockTitle1Open'     : '@BeginSections'          ,
+       'blockTitle1Close'    : '@EndSections'            ,
+       'blockTitle2Open'     : ' @BeginSubSections'      ,
+       'blockTitle2Close'    : ' @EndSubSections'        ,
+       'blockTitle3Open'     : '  @BeginSubSubSections'  ,
+       'blockTitle3Close'    : '  @EndSubSubSections'    ,
+       'title1Open'          : '\n@Section @Title { \a } @Begin',
+       'title1Close'         : '@End @Section'           ,
+       'title2Open'          : '\n @SubSection @Title { \a } @Begin',
+       'title2Close'         : ' @End @SubSection'       ,
+       'title3Open'          : '\n  @SubSubSection @Title { \a } @Begin',
+       'title3Close'         : '  @End @SubSubSection'   ,
+       'title4Open'          : '\n@LP @LeftDisplay @B { \a }',
+       'title5Open'          : '\n@LP @LeftDisplay @B { \a }',
+       'anchor'              : '@Tag { \a }'             ,
+       'blockVerbOpen'       : '@LP @ID @F @RawVerbatim @Begin',
+       'blockVerbClose'      : '@End @RawVerbatim'   ,
+       'blockQuoteOpen'      : '@QD {'               ,
+       'blockQuoteClose'     : '}'                   ,
+       # enclosed inside {} to deal with joined**words**
+       'fontMonoOpen'        : '{@F {'               ,
+       'fontMonoClose'       : '}}'                  ,
+       'fontBoldOpen'        : '{@B {'               ,
+       'fontBoldClose'       : '}}'                  ,
+       'fontItalicOpen'      : '{@II {'              ,
+       'fontItalicClose'     : '}}'                  ,
+       'fontUnderlineOpen'   : '{@Underline{'        ,
+       'fontUnderlineClose'  : '}}'                  ,
+       # the full form is more readable, but could be BL EL LI NL TL DTI
+       'listOpen'            : '@BulletList'         ,
+       'listClose'           : '@EndList'            ,
+       'listItemOpen'        : '@ListItem{'          ,
+       'listItemClose'       : '}'                   ,
+       'numlistOpen'         : '@NumberedList'       ,
+       'numlistClose'        : '@EndList'            ,
+       'numlistItemOpen'     : '@ListItem{'          ,
+       'numlistItemClose'    : '}'                   ,
+       'deflistOpen'         : '@TaggedList'         ,
+       'deflistClose'        : '@EndList'            ,
+       'deflistItem1Open'    : '@DropTagItem {'      ,
+       'deflistItem1Close'   : '}'                   ,
+       'deflistItem2Open'    : '{'                   ,
+       'deflistItem2Close'   : '}'                   ,
+       'bar1'                : '\n@DP @FullWidthRule\n'     ,
+       'url'                 : '{blue @Colour { \a }}'      ,
+       'urlMark'             : '\a ({blue @Colour { \a }})' ,
+       'email'               : '{blue @Colour { \a }}'      ,
+       'emailMark'           : '\a ({blue Colour{ \a }})'   ,
+       'img'                 : '~A~@IncludeGraphic { \a }'  ,  # eps only!
+       'imgAlignLeft'        : '@LeftDisplay '              ,
+       'imgAlignRight'       : '@RightDisplay '             ,
+       'imgAlignCenter'      : '@CentredDisplay '           ,
+       # lout tables are *way* complicated, no support for now
+       #'tableOpen'          : '~A~@Tbl~B~\naformat{ @Cell A | @Cell B } {',
+       #'tableClose'         : '}'     ,
+       #'tableRowOpen'       : '@Rowa\n'       ,
+       #'tableTitleRowOpen'  : '@HeaderRowa'       ,
+       #'tableCenterAlign'   : '@CentredDisplay '         ,
+       #'tableCellOpen'      : '\a {'                     ,  # A, B, ...
+       #'tableCellClose'     : '}'                        ,
+       #'tableBorder'        : '\nrule {yes}'             ,
+       'comment'             : '# \a'                     ,
+       # @MakeContents must be on the config file
+       'TOC'                 : '@DP @ContentsGoesHere @DP',
+       'pageBreak'           : '\n@NP\n'                  ,
+       'EOD'                 : '@End @Text'
+    },
+
+    'moin': {
+       'title1'              : '= \a ='        ,
+       'title2'              : '== \a =='      ,
+       'title3'              : '=== \a ==='    ,
+       'title4'              : '==== \a ===='  ,
+       'title5'              : '===== \a =====',
+       'blockVerbOpen'       : '{{{'           ,
+       'blockVerbClose'      : '}}}'           ,
+       'blockQuoteLine'      : '  '            ,
+       'fontMonoOpen'        : '{{{'           ,
+       'fontMonoClose'       : '}}}'           ,
+       'fontBoldOpen'        : "'''"           ,
+       'fontBoldClose'       : "'''"           ,
+       'fontItalicOpen'      : "''"            ,
+       'fontItalicClose'     : "''"            ,
+       'fontUnderlineOpen'   : "__"            ,
+       'fontUnderlineClose'  : "__"            ,
+       'listItemOpen'        : ' * '           ,
+       'numlistItemOpen'     : ' \a. '         ,
+       'bar1'                : '----'          ,
+       'url'                 : '[\a]'          ,
+       'urlMark'             : '[\a \a]'       ,
+       'email'               : '[\a]'          ,
+       'emailMark'           : '[\a \a]'       ,
+       'img'                 : '[\a]'          ,
+       'tableRowOpen'        : '||'            ,
+       'tableCellOpen'       : '~A~'           ,
+       'tableCellClose'      : '||'            ,
+       'tableTitleCellClose' : '||'            ,
+       'tableCellAlignRight' : '&lt;)&gt;'           ,
+       'tableCellAlignCenter': '&lt;:&gt;'           ,
+       'comment'             : '## \a'         ,
+       'TOC'                 : '[[TableOfContents]]'
+    },
+
+    'mgp': {
+       'paragraphOpen'       : '%font "normal", size 5'     ,
+       'title1'              : '%page\n\n\a\n'              ,
+       'title2'              : '%page\n\n\a\n'              ,
+       'title3'              : '%page\n\n\a\n'              ,
+       'title4'              : '%page\n\n\a\n'              ,
+       'title5'              : '%page\n\n\a\n'              ,
+       'blockVerbOpen'       : '%font "mono"'               ,
+       'blockVerbClose'      : '%font "normal"'             ,
+       'blockQuoteOpen'      : '%prefix "       "'          ,
+       'blockQuoteClose'     : '%prefix "  "'               ,
+       'fontMonoOpen'        : '\n%cont, font "mono"\n'     ,
+       'fontMonoClose'       : '\n%cont, font "normal"\n'   ,
+       'fontBoldOpen'        : '\n%cont, font "normal-b"\n' ,
+       'fontBoldClose'       : '\n%cont, font "normal"\n'   ,
+       'fontItalicOpen'      : '\n%cont, font "normal-i"\n' ,
+       'fontItalicClose'     : '\n%cont, font "normal"\n'   ,
+       'fontUnderlineOpen'   : '\n%cont, fore "cyan"\n'     ,
+       'fontUnderlineClose'  : '\n%cont, fore "white"\n'    ,
+       'listItemLine'        : '\t'                         ,
+       'numlistItemLine'     : '\t'                         ,
+       'deflistItem1Open'    : '\t\n%cont, font "normal-b"\n',
+       'deflistItem1Close'   : '\n%cont, font "normal"\n'   ,
+       'bar1'                : '%bar "white" 5'             ,
+       'bar2'                : '%pause'                     ,
+       'url'                 : '\n%cont, fore "cyan"\n\a'   +\
+                               '\n%cont, fore "white"\n'    ,
+       'urlMark'             : '\a \n%cont, fore "cyan"\n\a'+\
+                               '\n%cont, fore "white"\n'    ,
+       'email'               : '\n%cont, fore "cyan"\n\a'   +\
+                               '\n%cont, fore "white"\n'    ,
+       'emailMark'           : '\a \n%cont, fore "cyan"\n\a'+\
+                               '\n%cont, fore "white"\n'    ,
+       'img'                 : '~A~\n%newimage "\a"\n%left\n',
+       'imgAlignLeft'        : '\n%left'                    ,
+       'imgAlignRight'       : '\n%right'                   ,
+       'imgAlignCenter'      : '\n%center'                  ,
+       'comment'             : '%% \a'                      ,
+       'pageBreak'           : '%page\n\n\n'                ,
+       'EOD'                 : '%%EOD'
+    },
+
+    # man groff_man ; man 7 groff
+    'man': {
+       'paragraphOpen'       : '.P'     ,
+       'title1'              : '.SH \a' ,
+       'title2'              : '.SS \a' ,
+       'title3'              : '.SS \a' ,
+       'title4'              : '.SS \a' ,
+       'title5'              : '.SS \a' ,
+       'blockVerbOpen'       : '.nf'    ,
+       'blockVerbClose'      : '.fi\n'  ,
+       'blockQuoteOpen'      : '.RS'    ,
+       'blockQuoteClose'     : '.RE'    ,
+       'fontBoldOpen'        : '\\fB'   ,
+       'fontBoldClose'       : '\\fR'   ,
+       'fontItalicOpen'      : '\\fI'   ,
+       'fontItalicClose'     : '\\fR'   ,
+       'listOpen'            : '.RS'    ,
+       'listItemOpen'        : '.IP \(bu 3\n',
+       'listClose'           : '.RE'    ,
+       'numlistOpen'         : '.RS'    ,
+       'numlistItemOpen'     : '.IP \a. 3\n',
+       'numlistClose'        : '.RE'    ,
+       'deflistItem1Open'    : '.TP\n'  ,
+       'bar1'                : '\n\n'   ,
+       'url'                 : '\a'     ,
+       'urlMark'             : '\a (\a)',
+       'email'               : '\a'     ,
+       'emailMark'           : '\a (\a)',
+       'img'                 : '\a'     ,
+       'tableOpen'           : '.TS\n~A~~B~tab(^); ~C~.',
+       'tableClose'          : '.TE'     ,
+       'tableRowOpen'        : ' '       ,
+       'tableCellSep'        : '^'       ,
+       'tableAlignCenter'    : 'center, ',
+       'tableBorder'         : 'allbox, ',
+       'tableColAlignLeft'   : 'l'       ,
+       'tableColAlignRight'  : 'r'       ,
+       'tableColAlignCenter' : 'c'       ,
+       'comment'             : '.\\" \a'
+    },
+
+    'pm6': {
+       'paragraphOpen'       : '&lt;@Normal:&gt;'    ,
+       'title1'              : '\n&lt;@Title1:&gt;\a',
+       'title2'              : '\n&lt;@Title2:&gt;\a',
+       'title3'              : '\n&lt;@Title3:&gt;\a',
+       'title4'              : '\n&lt;@Title4:&gt;\a',
+       'title5'              : '\n&lt;@Title5:&gt;\a',
+       'blockVerbOpen'       : '&lt;@PreFormat:&gt;' ,
+       'blockQuoteLine'      : '&lt;@Quote:&gt;'     ,
+       'fontMonoOpen'        : '&lt;FONT "Lucida Console"&gt;&lt;SIZE 9&gt;' ,
+       'fontMonoClose'       : '&lt;SIZE$&gt;&lt;FONT$&gt;',
+       'fontBoldOpen'        : '&lt;B&gt;'           ,
+       'fontBoldClose'       : '&lt;P&gt;'           ,
+       'fontItalicOpen'      : '&lt;I&gt;'           ,
+       'fontItalicClose'     : '&lt;P&gt;'           ,
+       'fontUnderlineOpen'   : '&lt;U&gt;'           ,
+       'fontUnderlineClose'  : '&lt;P&gt;'           ,
+       'listOpen'            : '&lt;@Bullet:&gt;'    ,
+       'listItemOpen'        : '\x95\t'        ,  # \x95 == ~U
+       'numlistOpen'         : '&lt;@Bullet:&gt;'    ,
+       'numlistItemOpen'     : '\x95\t'        ,
+       'bar1'                : '\a'            ,
+       'url'                 : '&lt;U&gt;\a&lt;P&gt;'      ,  # underline
+       'urlMark'             : '\a &lt;U&gt;\a&lt;P&gt;'   ,
+       'email'               : '\a'            ,
+       'emailMark'           : '\a \a'         ,
+       'img'                 : '\a'
+    }
+    }
+
+    # Exceptions for --css-sugar
+    if config['css-sugar'] and config['target'] in ('html','xhtml'):
+        # Change just HTML because XHTML inherits it
+        htmltags = alltags['html']
+        # Table with no cellpadding
+        htmltags['tableOpen'] = string.replace(
+            htmltags['tableOpen'], ' CELLPADDING="4"', '')
+        # DIVs
+        htmltags['tocOpen' ] = '&lt;DIV CLASS="toc" ID="toc"&gt;'
+        htmltags['tocClose'] = '&lt;/DIV&gt;'
+        htmltags['bodyOpen'] = '&lt;DIV CLASS="body" ID="body"&gt;'
+        htmltags['bodyClose']= '&lt;/DIV&gt;'
+
+    # Make the HTML -&gt; XHTML inheritance
+    xhtml = alltags['html'].copy()
+    for key in xhtml.keys(): xhtml[key] = string.lower(xhtml[key])
+    # Some like HTML tags as lowercase, some don't... (headers out)
+    if HTML_LOWER: alltags['html'] = xhtml.copy()
+    xhtml.update(alltags['xhtml'])
+    alltags['xhtml'] = xhtml.copy()
+
+    # Compose the target tags dictionary
+    tags = {}
+    target_tags = alltags[config['target']].copy()
+
+    for key in keys: tags[key] = ''     # create empty keys
+    for key in target_tags.keys():
+        tags[key] = maskEscapeChar(target_tags[key]) # populate
+
+    # Map strong line to separator if not defined
+    if not tags['bar2'] and tags['bar1']:
+        tags['bar2'] = tags['bar1']
+
+    return tags
+
+
+</t>
+<t tx="zoomq.20100414115206.4735">##############################################################################
+
+
+def getRules(config):
+    "Returns all the target-specific syntax rules"
+
+    ret = {}
+    allrules = [
+
+     # target rules (ON/OFF)
+      'linkable',             # target supports external links
+      'tableable',            # target supports tables
+      'imglinkable',          # target supports images as links
+      'imgalignable',         # target supports image alignment
+      'imgasdefterm',         # target supports image as definition term
+      'autonumberlist',       # target supports numbered lists natively
+      'autonumbertitle',      # target supports numbered titles natively
+      'stylable',             # target supports external style files
+      'parainsidelist',       # lists items supports paragraph
+      'spacedlistitem',       # lists support blank lines between items
+      'listnotnested',        # lists cannot be nested
+      'quotenotnested',       # quotes cannot be nested
+      'verbblocknotescaped',  # don't escape specials in verb block
+      'verbblockfinalescape', # do final escapes in verb block
+      'escapeurl',            # escape special in link URL
+      'onelinepara',          # dump paragraph as a single long line
+      'tabletitlerowinbold',  # manually bold any cell on table titles
+      'tablecellstrip',       # strip extra spaces from each table cell
+      'tablecellspannable',   # the table cells can have span attribute
+      'barinsidequote',       # bars are allowed inside quote blocks
+      'finalescapetitle',     # perform final escapes on title lines
+      'autotocnewpagebefore', # break page before automatic TOC
+      'autotocnewpageafter',  # break page after automatic TOC
+      'autotocwithbars',      # automatic TOC surrounded by bars
+      'mapbar2pagebreak',     # map the strong bar to a page break
+      'titleblocks',          # titles must be on open/close section blocks
+
+    # Target code beautify (ON/OFF)
+      'indentverbblock',      # add leading spaces to verb block lines
+      'breaktablecell',       # break lines after any table cell
+      'breaktablelineopen',   # break line after opening table line
+      'notbreaklistopen',     # don't break line after opening a new list
+      'notbreakparaopen',     # don't break line after opening a new para
+      'keepquoteindent',      # don't remove the leading TABs on quotes
+      'keeplistindent',       # don't remove the leading spaces on lists
+      'blankendmotherlist',   # append a blank line at the mother list end
+      'blankendtable',        # append a blank line at the table end
+      'blankendautotoc',      # append a blank line at the auto TOC end
+      'tagnotindentable',     # tags must be placed at the line begining
+
+    # Value settings
+      'listmaxdepth',         # maximum depth for lists
+      'quotemaxdepth',        # maximum depth for quotes
+      'tablecellaligntype'    # type of table cell align: cell, column
+    ]
+
+    rules_bank = {
+      'txt' : {
+        'indentverbblock':1,
+        'spacedlistitem':1,
+        'parainsidelist':1,
+        'keeplistindent':1,
+        'barinsidequote':1,
+        'autotocwithbars':1,
+        'blankendmotherlist':1
+        },
+      'html': {
+        'indentverbblock':1,
+        'linkable':1,
+        'stylable':1,
+        'escapeurl':1,
+        'imglinkable':1,
+        'imgalignable':1,
+        'imgasdefterm':1,
+        'autonumberlist':1,
+        'spacedlistitem':1,
+        'parainsidelist':1,
+        'blankendmotherlist':1,
+        'tableable':1,
+        'tablecellstrip':1,
+        'blankendtable':1,
+        'breaktablecell':1,
+        'breaktablelineopen':1,
+        'keeplistindent':1,
+        'keepquoteindent':1,
+        'barinsidequote':1,
+        'autotocwithbars':1,
+        'tablecellspannable':1,
+        'tablecellaligntype':'cell'
+        },
+      #TIP xhtml inherits all HTML rules
+      'xhtml': {
+        },
+      'sgml': {
+        'linkable':1,
+        'escapeurl':1,
+        'autonumberlist':1,
+        'spacedlistitem':1,
+        'blankendmotherlist':1,
+        'tableable':1,
+        'tablecellstrip':1,
+        'blankendtable':1,
+        'blankendautotoc':1,
+        'quotenotnested':1,
+        'keeplistindent':1,
+        'keepquoteindent':1,
+        'barinsidequote':1,
+        'finalescapetitle':1,
+        'tablecellaligntype':'column'
+        },
+      'mgp' : {
+        'blankendmotherlist':1,
+        'tagnotindentable':1,
+        'spacedlistitem':1,
+        'imgalignable':1,
+        'autotocnewpagebefore':1,
+        },
+      'tex' : {
+        'stylable':1,
+        'escapeurl':1,
+        'autonumberlist':1,
+        'autonumbertitle':1,
+        'spacedlistitem':1,
+        'blankendmotherlist':1,
+        'tableable':1,
+        'tablecellstrip':1,
+        'tabletitlerowinbold':1,
+        'blankendtable':1,
+        'verbblocknotescaped':1,
+        'keeplistindent':1,
+        'listmaxdepth':4,  # deflist is 6
+        'quotemaxdepth':6,
+        'barinsidequote':1,
+        'finalescapetitle':1,
+        'autotocnewpageafter':1,
+        'mapbar2pagebreak':1,
+        'tablecellaligntype':'column'
+        },
+      'lout': {
+        'keepquoteindent':1,
+        'escapeurl':1,
+        'verbblocknotescaped':1,
+        'imgalignable':1,
+        'mapbar2pagebreak':1,
+        'titleblocks':1,
+        'notbreakparaopen':1
+        },
+      'moin': {
+        'spacedlistitem':1,
+        'linkable':1,
+        'blankendmotherlist':1,
+        'keeplistindent':1,
+        'tableable':1,
+        'barinsidequote':1,
+        'blankendtable':1,
+        'tabletitlerowinbold':1,
+        'tablecellstrip':1,
+        'autotocwithbars':1,
+        'tablecellaligntype':'cell'
+        },
+      'man' : {
+        'spacedlistitem':1,
+        'indentverbblock':1,
+        'blankendmotherlist':1,
+        'tagnotindentable':1,
+        'tableable':1,
+        'tablecellaligntype':'column',
+        'tabletitlerowinbold':1,
+        'tablecellstrip':1,
+        'blankendtable':1,
+        'keeplistindent':0,
+        'barinsidequote':1,
+        'parainsidelist':0,
+        },
+      'pm6' : {
+        'keeplistindent':1,
+        'verbblockfinalescape':1,
+        #TODO add support for these - maybe set a JOINNEXT char and
+        #     do it on addLineBreaks()
+        'notbreaklistopen':1,
+        'notbreakparaopen':1,
+        'barinsidequote':1,
+        'autotocwithbars':1,
+        'onelinepara':1,
+        }
+    }
+
+    # Exceptions for --css-sugar
+    if config['css-sugar'] and config['target'] in ('html','xhtml'):
+        rules_bank['html']['indentverbblock'] = 0
+        rules_bank['html']['autotocwithbars'] = 0
+
+    # Get the target specific rules
+    if config['target'] == 'xhtml':
+        myrules = rules_bank['html'].copy()   # inheritance
+        myrules.update(rules_bank['xhtml'])   # get XHTML specific
+    else:
+        myrules = rules_bank[config['target']].copy()
+
+    # Populate return dictionary
+    for key in allrules: ret[key] = 0        # reset all
+    ret.update(myrules)                      # get rules
+
+    return ret
+
+
+</t>
+<t tx="zoomq.20100414115206.4736">##############################################################################
+
+
+def getRegexes():
+    "Returns all the regexes used to find the t2t marks"
+
+    bank = {
+    'blockVerbOpen':
+        re.compile(r'^```\s*$'),
+    'blockVerbClose':
+        re.compile(r'^```\s*$'),
+    'blockRawOpen':
+        re.compile(r'^"""\s*$'),
+    'blockRawClose':
+        re.compile(r'^"""\s*$'),
+    'blockCommentOpen':
+        re.compile(r'^%%%\s*$'),
+    'blockCommentClose':
+        re.compile(r'^%%%\s*$'),
+    'quote':
+        re.compile(r'^\t+'),
+    '1lineVerb':
+        re.compile(r'^``` (?=.)'),
+    '1lineRaw':
+        re.compile(r'^""" (?=.)'),
+    # mono, raw, bold, italic, underline:
+    # - marks must be glued with the contents, no boundary spaces
+    # - they are greedy, so in ****bold****, turns to &lt;b&gt;**bold**&lt;/b&gt;
+    'fontMono':
+        re.compile(  r'``([^\s](|.*?[^\s])`*)``'),
+    'raw':
+        re.compile(  r'""([^\s](|.*?[^\s])"*)""'),
+    'fontBold':
+        re.compile(r'\*\*([^\s](|.*?[^\s])\**)\*\*'),
+    'fontItalic':
+        re.compile(  r'//([^\s](|.*?[^\s])/*)//'),
+    'fontUnderline':
+        re.compile(  r'__([^\s](|.*?[^\s])_*)__'),
+    'list':
+        re.compile(r'^( *)(-) (?=[^ ])'),
+    'numlist':
+        re.compile(r'^( *)(\+) (?=[^ ])'),
+    'deflist':
+        re.compile(r'^( *)(:) (.*)$'),
+    'listclose':
+        re.compile(r'^( *)([-+:])\s*$'),
+    'bar':
+        re.compile(r'^(\s*)([_=-]{20,})\s*$'),
+    'table':
+        re.compile(r'^ *\|\|? '),
+    'blankline':
+        re.compile(r'^\s*$'),
+    'comment':
+        re.compile(r'^%'),
+
+    # Auxiliary tag regexes
+    '_imgAlign'        : re.compile(r'~A~', re.I),
+    '_tableAlign'      : re.compile(r'~A~', re.I),
+    '_anchor'          : re.compile(r'~A~', re.I),
+    '_tableBorder'     : re.compile(r'~B~', re.I),
+    '_tableColAlign'   : re.compile(r'~C~', re.I),
+    '_tableCellColSpan': re.compile(r'~S~', re.I),
+    '_tableCellAlign'  : re.compile(r'~A~', re.I),
+    }
+
+    # Special char to place data on TAGs contents  (\a == bell)
+    bank['x'] = re.compile('\a')
+
+    # %%macroname [ (formatting) ]
+    bank['macros'] = re.compile(r'%%%%(?P&lt;name&gt;%s)\b(\((?P&lt;fmt&gt;.*?)\))?'%(
+                                string.join(MACROS.keys(), '|')), re.I)
+
+    # %%TOC special macro for TOC positioning
+    bank['toc'] = re.compile(r'^ *%%toc\s*$', re.I)
+
+    # Almost complicated title regexes ;)
+    titskel = r'^ *(?P&lt;id&gt;%s)(?P&lt;txt&gt;%s)\1(\[(?P&lt;label&gt;[\w-]*)\])?\s*$'
+    bank[   'title'] = re.compile(titskel%('[=]{1,5}','[^=](|.*[^=])'))
+    bank['numtitle'] = re.compile(titskel%('[+]{1,5}','[^+](|.*[^+])'))
+
+    ### Complicated regexes begin here ;)
+    #
+    # Textual descriptions on --help's style: [...] is optional, | is OR
+
+
+    ### First, some auxiliary variables
+    #
+
+    # [image.EXT]
+    patt_img = r'\[([\w_,.+%$#@!?+~/-]+\.(png|jpe?g|gif|eps|bmp))\]'
+
+    # Link things
+    # http://www.gbiv.com/protocols/uri/rfc/rfc3986.html
+    # pchar: A-Za-z._~- / %FF / !$&amp;'()*+,;= / :@
+    # Recomended order: scheme://user:pass@domain/path?query=foo#anchor
+    # Also works      : scheme://user:pass@domain/path#anchor?query=foo
+    # TODO form: !'():
+    urlskel = {
+      'proto' : r'(https?|ftp|news|telnet|gopher|wais)://',
+      'guess' : r'(www[23]?|ftp)\.',         # w/out proto, try to guess
+      'login' : r'A-Za-z0-9_.-',             # for ftp://login@domain.com
+      'pass'  : r'[^ @]*',                   # for ftp://login:pass@dom.com
+      'chars' : r'A-Za-z0-9%._/~:,=$@&amp;+-',   # %20(space), :80(port), D&amp;D
+      'anchor': r'A-Za-z0-9%._-',            # %nn(encoded)
+      'form'  : r'A-Za-z0-9/%&amp;=+;.,$@*_-',   # .,@*_-(as is)
+      'punct' : r'.,;:!?'
+    }
+
+    # username [ :password ] @
+    patt_url_login = r'([%s]+(:%s)?@)?'%(urlskel['login'],urlskel['pass'])
+
+    # [ http:// ] [ username:password@ ] domain.com [ / ]
+    #     [ #anchor | ?form=data ]
+    retxt_url = r'\b(%s%s|%s)[%s]+\b/*(\?[%s]+)?(#[%s]*)?'%(
+                 urlskel['proto'],patt_url_login, urlskel['guess'],
+                 urlskel['chars'],urlskel['form'],urlskel['anchor'])
+
+    # filename | [ filename ] #anchor
+    retxt_url_local = r'[%s]+|[%s]*(#[%s]*)'%(
+                 urlskel['chars'],urlskel['chars'],urlskel['anchor'])
+
+    # user@domain [ ?form=data ]
+    patt_email = r'\b[%s]+@([A-Za-z0-9_-]+\.)+[A-Za-z]{2,4}\b(\?[%s]+)?'%(
+                 urlskel['login'],urlskel['form'])
+
+    # Saving for future use
+    bank['_urlskel'] = urlskel
+
+    ### And now the real regexes
+    #
+
+    bank['email'] = re.compile(patt_email,re.I)
+
+    # email | url
+    bank['link'] = re.compile(r'%s|%s'%(retxt_url,patt_email), re.I)
+
+    # \[ label | imagetag    url | email | filename \]
+    bank['linkmark'] = re.compile(
+        r'\[(?P&lt;label&gt;%s|[^]]+) (?P&lt;link&gt;%s|%s|%s)\]'%(
+          patt_img, retxt_url, patt_email, retxt_url_local),
+        re.L+re.I)
+
+    # Image
+    bank['img'] = re.compile(patt_img, re.L+re.I)
+
+    # Special things
+    bank['special'] = re.compile(r'^%!\s*')
+    return bank
+</t>
+<t tx="zoomq.20100414115206.4737">### END OF regex nightmares
+
+
+##############################################################################
+
+class error(Exception):
+    pass
+</t>
+<t tx="zoomq.20100414115206.4738">def echo(msg):   # for quick debug
+    print '\033[32;1m%s\033[m'%msg
+</t>
+<t tx="zoomq.20100414115206.4739">def Quit(msg=''):
+    if msg: print msg
+    sys.exit(0)
+</t>
+<t tx="zoomq.20100414115206.4740">def Error(msg):
+    msg = _("%s: Error: ")%my_name + msg
+    raise error, msg
+</t>
+<t tx="zoomq.20100414115206.4741">def getTraceback():
+    try:
+        from traceback import format_exception
+        etype, value, tb = sys.exc_info()
+        return string.join(format_exception(etype, value, tb), '')
+    except: pass
+</t>
+<t tx="zoomq.20100414115206.4742">def getUnknownErrorMessage():
+    msg = '%s\n%s (%s):\n\n%s'%(
+      _('Sorry! Txt2tags aborted by an unknown error.'),
+      _('Please send the following Error Traceback to the author'),
+      my_email, getTraceback())
+    return msg
+</t>
+<t tx="zoomq.20100414115206.4743">def Message(msg,level):
+    if level &lt;= VERBOSE and not QUIET:
+        prefix = '-'*5
+        print "%s %s"%(prefix*level, msg)
+</t>
+<t tx="zoomq.20100414115206.4744">def Debug(msg,id=0,linenr=None):
+    "Show debug messages, categorized (colored or not)"
+    if QUIET or not DEBUG: return
+    if int(id) not in range(8): id = 0
+    # 0:black 1:red 2:green 3:yellow 4:blue 5:pink 6:cyan 7:white ;1:light
+    ids            = ['INI','CFG','SRC','BLK','HLD','GUI','OUT','DET']
+    colors_bgdark  = ['7;1','1;1','3;1','6;1','4;1','5;1','2;1','7;1']
+    colors_bglight = ['0'  ,'1'  ,'3'  ,'6'  ,'4'  ,'5'  ,'2'  ,'0'  ]
+    if linenr is not None: msg = "LINE %04d: %s"%(linenr,msg)
+    if COLOR_DEBUG:
+        if BG_LIGHT: color = colors_bglight[id]
+        else       : color = colors_bgdark[id]
+        msg = '\033[3%sm%s\033[m'%(color,msg)
+    print "++ %s: %s"%(ids[id],msg)
+</t>
+<t tx="zoomq.20100414115206.4745">def Readfile(file, remove_linebreaks=0, ignore_error=0):
+    data = []
+    if file == '-':
+        try: data = sys.stdin.readlines()
+        except:
+            if not ignore_error:
+                Error(_('You must feed me with data on STDIN!'))
+    else:
+        try: f = open(file); data = f.readlines() ; f.close()
+        except:
+            if not ignore_error:
+                Error(_("Cannot read file:")+" %s"%file)
+    if remove_linebreaks:
+        data = map(lambda x:re.sub('[\n\r]+$','',x), data)
+    Message(_("File read (%d lines): %s")%(len(data),file),2)
+    return data
+</t>
+<t tx="zoomq.20100414115206.4746">def Savefile(file, contents):
+    try: f = open(file, 'wb')
+    except: Error(_("Cannot open file for writing:")+" %s"%file)
+    if type(contents) == type([]): doit = f.writelines
+    else: doit = f.write
+    doit(contents) ; f.close()
+
+</t>
+<t tx="zoomq.20100414115206.4747">def showdic(dic):
+    for k in dic.keys(): print "%15s : %s" % (k,dic[k])
+</t>
+<t tx="zoomq.20100414115206.4748">def dotted_spaces(txt=''):
+    return string.replace(txt,' ','.')
+
+</t>
+<t tx="zoomq.20100414115206.4749"># TIP: win env vars http://www.winnetmag.com/Article/ArticleID/23873/23873.html
+def get_rc_path():
+    "Return the full path for the users' RC file"
+    # Try to get the path from an env var. if yes, we're done
+    user_defined = os.environ.get('T2TCONFIG')
+    if user_defined: return user_defined
+    # Env var not found, so perform automatic path composing
+    # Set default filename according system platform
+    rc_names = {'default':'.txt2tagsrc', 'win':'_t2trc'}
+    rc_file = rc_names.get(sys.platform[:3]) or rc_names['default']
+    # The file must be on the user directory, but where is this dir?
+    rc_dir_search = ['HOME', 'HOMEPATH']
+    for var in rc_dir_search:
+        rc_dir = os.environ.get(var)
+        if rc_dir: break
+    # rc dir found, now we must join dir+file to compose the full path
+    if rc_dir:
+        # Compose path and return it if the file exists
+        rc_path = os.path.join(rc_dir, rc_file)
+        # On windows, prefix with the drive (%homedrive%: 2k/XP/NT)
+        if sys.platform[:3] == 'win':
+            rc_drive = os.environ.get('HOMEDRIVE')
+            rc_path = os.path.join(rc_drive,rc_path)
+        return rc_path
+    # Sorry, not found
+    return ''
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4750">##############################################################################
+
+class CommandLine:
+    """
+    Command Line class - Masters command line
+
+    This class checks and extract data from the provided command line.
+    The --long options and flags are taken from the global OPTIONS,
+    FLAGS and ACTIONS dictionaries. The short options are registered
+    here, and also their equivalence to the long ones.
+
+    METHODS:
+      _compose_short_opts() -&gt; str
+      _compose_long_opts() -&gt; list
+          Compose the valid short and long options list, on the
+          'getopt' format.
+
+      parse() -&gt; (opts, args)
+          Call getopt to check and parse the command line.
+          It expects to receive the command line as a list, and
+          without the program name (sys.argv[1:]).
+
+      get_raw_config() -&gt; [RAW config]
+          Scans command line and convert the data to the RAW config
+          format. See ConfigMaster class to the RAW format description.
+          Optional 'ignore' and 'filter' arguments are used to filter
+          in or out specified keys.
+
+      compose_cmdline(dict) -&gt; [Command line]
+          Compose a command line list from an already parsed config
+          dictionary, generated from RAW by ConfigMaster(). Use
+          this to compose an optimal command line for a group of
+          options.
+
+    The get_raw_config() calls parse(), so the tipical use of this
+    class is:
+
+            raw = CommandLine().get_raw_config(sys.argv[1:])
+    """
+    @others
+</t>
+<t tx="zoomq.20100414115206.4751">def __init__(self):
+    self.all_options = OPTIONS.keys()
+    self.all_flags   = FLAGS.keys()
+    self.all_actions = ACTIONS.keys()
+
+    # short:long options equivalence
+    self.short_long = {
+      'h':'help'     ,   'V':'version',
+      'n':'enum-title',  'i':'infile' ,
+      'H':'no-headers',  'o':'outfile',
+      'v':'verbose'   ,  't':'target' ,
+      'q':'quiet'     ,  'C':'config-file'
+    }
+
+    # Compose valid short and long options data for getopt
+    self.short_opts = self._compose_short_opts()
+    self.long_opts  = self._compose_long_opts()
+
+</t>
+<t tx="zoomq.20100414115206.4752">def _compose_short_opts(self):
+    "Returns a string like 'hVt:o' with all short options/flags"
+    ret = []
+    for opt in self.short_long.keys():
+        long = self.short_long[opt]
+        if long in self.all_options: # is flag or option?
+            opt = opt+':'        # option: have param
+        ret.append(opt)
+    #Debug('Valid SHORT options: %s'%ret)
+    return string.join(ret, '')
+
+</t>
+<t tx="zoomq.20100414115206.4753">def _compose_long_opts(self):
+    "Returns a list with all the valid long options/flags"
+    ret = map(lambda x:x+'=', self.all_options)          # add =
+    ret.extend(self.all_flags)                           # flag ON
+    ret.extend(self.all_actions)                         # acts
+    ret.extend(map(lambda x:'no-'+x, self.all_flags))    # add no-*
+    ret.extend(['no-style','no-encoding'])               # turn OFF
+    ret.extend(['no-outfile','no-infile'])               # turn OFF
+    ret.extend(['no-dump-config', 'no-dump-source'])     # turn OFF
+    #Debug('Valid LONG options: %s'%ret)
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4754">def _tokenize(self, cmd_string=''):
+    "Convert a command line string to a list"
+    #TODO protect quotes contents
+    return string.split(cmd_string)
+
+</t>
+<t tx="zoomq.20100414115206.4755">def parse(self, cmdline=[]):
+    "Check/Parse a command line list     TIP: no program name!"
+    # Get the valid options
+    short, long = self.short_opts, self.long_opts
+    # Parse it!
+    try:
+        opts, args = getopt.getopt(cmdline, short, long)
+    except getopt.error, errmsg:
+        Error(_("%s (try --help)")%errmsg)
+    return (opts, args)
+
+</t>
+<t tx="zoomq.20100414115206.4756">def get_raw_config(self, cmdline=[], ignore=[], filter=[], relative=0):
+    "Returns the options/arguments found as RAW config"
+    if not cmdline: return []
+    ret = []
+    # We need lists, not strings
+    if type(cmdline) == type(''): cmdline = self._tokenize(cmdline)
+    opts, args = self.parse(cmdline[:])
+    # Parse all options
+    for name,value in opts:
+        # Remove leading - and --
+        name = re.sub('^--?', '', name)
+        # Alias to old misspelled 'suGGar'
+        if   name ==    'css-suggar': name =    'css-sugar'
+        elif name == 'no-css-suggar': name = 'no-css-sugar'
+        # Translate short opt to long
+        if len(name) == 1: name = self.short_long.get(name)
+        # Outfile exception: path relative to PWD
+        if name == 'outfile' and relative \
+           and value not in [STDOUT, MODULEOUT]:
+            value = os.path.abspath(value)
+        # config-file inclusion, path relative to PWD
+        if name == 'config-file':
+            configs = ConfigLines().include_config_file(
+                      value)
+            # Remove the 'target' item of all configs
+            configs = map(lambda c: [c[1],c[2]], configs)
+            ret.extend(configs)
+            continue
+        # Save it
+        ret.append([name, value])
+    # Get infile, if any
+    while args:
+        infile = args.pop(0)
+        ret.append(['infile', infile])
+    # Apply 'ignore' and 'filter' rules (filter is stronger)
+    temp = ret[:] ; ret = []
+    for name,value in temp:
+        if (not filter and not ignore) or \
+           (filter and name in filter) or \
+           (ignore and name not in ignore):
+            ret.append( ['all', name, value] )
+    # Add the original command line string as 'realcmdline'
+    ret.append( ['all', 'realcmdline', cmdline] )
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4757">def compose_cmdline(self, conf={}, no_check=0):
+    "compose a full (and diet) command line from CONF dict"
+    if not conf: return []
+    args = []
+    dft_options = OPTIONS.copy()
+    cfg = conf.copy()
+    valid_opts = self.all_options + self.all_flags
+    use_short = {'no-headers':'H', 'enum-title':'n'}
+    # Remove useless options
+    if not no_check and cfg.get('toc-only'):
+        if cfg.has_key('no-headers'):
+            del cfg['no-headers']
+        if cfg.has_key('outfile'):
+            del cfg['outfile']      # defaults to STDOUT
+        if cfg.get('target') == 'txt':
+            del cfg['target']       # already default
+        args.append('--toc-only')  # must be the first
+        del cfg['toc-only']
+    # Add target type
+    if cfg.has_key('target'):
+        args.append('-t '+cfg['target'])
+        del cfg['target']
+    # Add other options
+    for key in cfg.keys():
+        if key not in valid_opts: continue  # may be a %!setting
+        if key == 'outfile' or key == 'infile': continue # later
+        val = cfg[key]
+        if not val: continue
+        # Default values are useless on cmdline
+        if val == dft_options.get(key): continue
+        # -short format
+        if key in use_short.keys():
+            args.append('-'+use_short[key])
+            continue
+        # --long format
+        if key in self.all_flags: # add --option
+            args.append('--'+key)
+        else:                     # add --option=value
+            args.append('--%s=%s'%(key,val))
+    # The outfile using -o
+    if cfg.has_key('outfile') and \
+       cfg['outfile'] != dft_options.get('outfile'):
+        args.append('-o '+cfg['outfile'])
+    # Place input file(s) always at the end
+    if cfg.has_key('infile'):
+        args.append(string.join(cfg['infile'],' '))
+    # Return as a nice list
+    Debug("Diet command line: %s"%string.join(args,' '), 1)
+    return args
+
+</t>
+<t tx="zoomq.20100414115206.4758">##############################################################################
+
+class SourceDocument:
+    """
+    SourceDocument class - scan document structure, extract data
+
+    It knows about full files. It reads a file and identify all
+    the areas begining (Head,Conf,Body). With this info it can
+    extract each area contents.
+    Note: the original line break is removed.
+
+    DATA:
+      self.arearef - Save Head, Conf, Body init line number
+      self.areas   - Store the area names which are not empty
+      self.buffer  - The full file contents (with NO \\r, \\n)
+
+    METHODS:
+      get()   - Access the contents of an Area. Example:
+                config = SourceDocument(file).get('conf')
+
+      split() - Get all the document Areas at once. Example:
+                head, conf, body = SourceDocument(file).split()
+
+    RULES:
+        * The document parts are sequential: Head, Conf and Body.
+        * One ends when the next begins.
+        * The Conf Area is optional, so a document can have just
+          Head and Body Areas.
+
+        These are the Areas limits:
+          - Head Area: the first three lines
+          - Body Area: from the first valid text line to the end
+          - Conf Area: the comments between Head and Body Areas
+
+        Exception: If the first line is blank, this means no
+        header info, so the Head Area is just the first line.
+    """
+    @others
+</t>
+<t tx="zoomq.20100414115206.4759">def __init__(self, filename='', contents=[]):
+    self.areas = ['head','conf','body']
+    self.arearef = []
+    self.areas_fancy = ''
+    self.filename = filename
+    self.buffer = []
+    if filename:
+        self.scan_file(filename)
+    elif contents:
+        self.scan(contents)
+
+</t>
+<t tx="zoomq.20100414115206.4760">def split(self):
+    "Returns all document parts, splitted into lists."
+    return self.get('head'), self.get('conf'), self.get('body')
+
+</t>
+<t tx="zoomq.20100414115206.4761">def get(self, areaname):
+    "Returns head|conf|body contents from self.buffer"
+    # Sanity
+    if areaname not in self.areas: return []
+    if not self.buffer           : return []
+    # Go get it
+    bufini = 1
+    bufend = len(self.buffer)
+    if   areaname == 'head':
+        ini = bufini
+        end = self.arearef[1] or self.arearef[2] or bufend
+    elif areaname == 'conf':
+        ini = self.arearef[1]
+        end = self.arearef[2] or bufend
+    elif areaname == 'body':
+        ini = self.arearef[2]
+        end = bufend
+    else:
+        Error("Unknown Area name '%s'"%areaname)
+    lines = self.buffer[ini:end]
+    # Make sure head will always have 3 lines
+    while areaname == 'head' and len(lines) &lt; 3:
+        lines.append('')
+    return lines
+
+</t>
+<t tx="zoomq.20100414115206.4762">def scan_file(self, filename):
+    Debug("source file: %s"%filename)
+    Message(_("Loading source document"),1)
+    buf = Readfile(filename, remove_linebreaks=1)
+    self.scan(buf)
+
+</t>
+<t tx="zoomq.20100414115206.4763">def scan(self, lines):
+    "Run through source file and identify head/conf/body areas"
+    buf = lines
+    if len(buf) == 0:
+        Error(_('The input file is empty: %s')%self.filename)
+    cfg_parser = ConfigLines().parse_line
+    buf.insert(0, '')                         # text start at pos 1
+    ref = [1,4,0]
+    if not string.strip(buf[1]):              # no header
+        ref[0] = 0 ; ref[1] = 2
+    rgx = getRegexes()
+    on_comment_block = 0
+    for i in xrange(ref[1],len(buf)):         # find body init:
+        # Handle comment blocks inside config area
+        if not on_comment_block \
+           and rgx['blockCommentOpen'].search(buf[i]):
+            on_comment_block = 1
+            continue
+        if on_comment_block \
+           and rgx['blockCommentOpen'].search(buf[i]):
+            on_comment_block = 0
+            continue
+        if on_comment_block: continue
+
+        if string.strip(buf[i]) and (     # ... not blank and
+           buf[i][0] != '%' or            # ... not comment or
+           rgx['macros'].match(buf[i]) or # ... %%macro
+           rgx['toc'].match(buf[i])    or # ... %%toc
+           cfg_parser(buf[i],'include')[1]): # ... %!include
+            ref[2] = i ; break
+    if ref[1] == ref[2]: ref[1] = 0           # no conf area
+    for i in 0,1,2:                           # del !existent
+        if ref[i] &gt;= len(buf): ref[i] = 0 # title-only
+        if not ref[i]: self.areas[i] = ''
+    Debug('Head,Conf,Body start line: %s'%ref)
+    self.arearef = ref                        # save results
+    self.buffer  = buf
+    # Fancyness sample: head conf body (1 4 8)
+    self.areas_fancy = "%s (%s)"%(
+         string.join(self.areas),
+         string.join(map(str, map(lambda x:x or '', ref))))
+    Message(_("Areas found: %s")%self.areas_fancy, 2)
+
+</t>
+<t tx="zoomq.20100414115206.4764">def get_raw_config(self):
+    "Handy method to get the CONF area RAW config (if any)"
+    if not self.areas.count('conf'): return []
+    Message(_("Scanning source document CONF area"),1)
+    raw = ConfigLines(
+          file=self.filename, lines=self.get('conf'),
+          first_line=self.arearef[1]).get_raw_config()
+    Debug("document raw config: %s"%raw, 1)
+    return raw
+
+</t>
+<t tx="zoomq.20100414115206.4765">##############################################################################
+
+class ConfigMaster:
+    """
+    ConfigMaster class - the configuration wizard
+
+    This class is the configuration master. It knows how to handle
+    the RAW and PARSED config format. It also performs the sanity
+    checking for a given configuration.
+
+    DATA:
+      self.raw         - Stores the config on the RAW format
+      self.parsed      - Stores the config on the PARSED format
+      self.defaults    - Stores the default values for all keys
+      self.off         - Stores the OFF values for all keys
+      self.multi       - List of keys which can have multiple values
+      self.numeric     - List of keys which value must be a number
+      self.incremental - List of keys which are incremental
+
+        RAW FORMAT:
+      The RAW format is a list of lists, being each mother list item
+      a full configuration entry. Any entry is a 3 item list, on
+      the following format: [ TARGET, KEY, VALUE ]
+      Being a list, the order is preserved, so it's easy to use
+      different kinds of configs, as CONF area and command line,
+      respecting the precedence.
+      The special target 'all' is used when no specific target was
+      defined on the original config.
+
+    PARSED FORMAT:
+      The PARSED format is a dictionary, with all the 'key : value'
+      found by reading the RAW config. The self.target contents
+      matters, so this dictionary only contains the target's
+      config. The configs of other targets are ignored.
+
+    The CommandLine and ConfigLines classes have the get_raw_config()
+    method which convert the configuration found to the RAW format.
+    Just feed it to parse() and get a brand-new ready-to-use config
+    dictionary. Example:
+
+        &gt;&gt;&gt; raw = CommandLine().get_raw_config(['-n', '-H'])
+        &gt;&gt;&gt; print raw
+        [['all', 'enum-title', ''], ['all', 'no-headers', '']]
+        &gt;&gt;&gt; parsed = ConfigMaster(raw).parse()
+        &gt;&gt;&gt; print parsed
+        {'enum-title': 1, 'headers': 0}
+    """
+    @others
+</t>
+<t tx="zoomq.20100414115206.4766">def __init__(self, raw=[], target=''):
+    self.raw          = raw
+    self.target       = target
+    self.parsed       = {}
+    self.dft_options  = OPTIONS.copy()
+    self.dft_flags    = FLAGS.copy()
+    self.dft_actions  = ACTIONS.copy()
+    self.dft_settings = SETTINGS.copy()
+    self.defaults     = self._get_defaults()
+    self.off          = self._get_off()
+    self.incremental  = ['verbose']
+    self.numeric      = ['toc-level','split']
+    self.multi        = ['infile', 'preproc', 'postproc',
+                         'options', 'style']
+
+</t>
+<t tx="zoomq.20100414115206.4767">def _get_defaults(self):
+    "Get the default values for all config/options/flags"
+    empty = {}
+    for kw in CONFIG_KEYWORDS: empty[kw] = ''
+    empty.update(self.dft_options)
+    empty.update(self.dft_flags)
+    empty.update(self.dft_actions)
+    empty.update(self.dft_settings)
+    empty['realcmdline'] = ''  # internal use only
+    empty['sourcefile']  = ''  # internal use only
+    return empty
+
+</t>
+<t tx="zoomq.20100414115206.4768">def _get_off(self):
+    "Turns OFF all the config/options/flags"
+    off = {}
+    for key in self.defaults.keys():
+        kind = type(self.defaults[key])
+        if kind == type(9):
+            off[key] = 0
+        elif kind == type(''):
+            off[key] = ''
+        elif kind == type([]):
+            off[key] = []
+        else:
+            Error('ConfigMaster: %s: Unknown type'+key)
+    return off
+
+</t>
+<t tx="zoomq.20100414115206.4769">def _check_target(self):
+    "Checks if the target is already defined. If not, do it"
+    if not self.target:
+        self.target = self.find_value('target')
+
+</t>
+<t tx="zoomq.20100414115206.4770">def get_target_raw(self):
+    "Returns the raw config for self.target or 'all'"
+    ret = []
+    self._check_target()
+    for entry in self.raw:
+        if entry[0] == self.target or entry[0] == 'all':
+            ret.append(entry)
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4771">def add(self, key, val):
+    "Adds the key:value pair to the config dictionary (if needed)"
+    # %!options
+    if key == 'options':
+        ignoreme = self.dft_actions.keys() + ['target']
+        ignoreme.remove('dump-config')
+        ignoreme.remove('dump-source')
+        raw_opts = CommandLine().get_raw_config(
+                     val, ignore=ignoreme)
+        for target, key, val in raw_opts:
+            self.add(key, val)
+        return
+    # The no- prefix turns OFF this key
+    if key[:3] == 'no-':
+        key = key[3:]              # remove prefix
+        val = self.off.get(key)    # turn key OFF
+    # Is this key valid?
+    if key not in self.defaults.keys():
+        Debug('Bogus Config %s:%s'%(key,val),1)
+        return
+    # Is this value the default one?
+    if val == self.defaults.get(key):
+        # If default value, remove previous key:val
+        if self.parsed.has_key(key):
+            del self.parsed[key]
+        # Nothing more to do
+        return
+    # Flags ON comes empty. we'll add the 1 value now
+    if val == '' and (
+       key in self.dft_flags.keys() or
+       key in self.dft_actions.keys()):
+        val = 1
+    # Multi value or single?
+    if key in self.multi:
+        # First one? start new list
+        if not self.parsed.has_key(key):
+            self.parsed[key] = []
+        self.parsed[key].append(val)
+    # Incremental value? so let's add it
+    elif key in self.incremental:
+        self.parsed[key] = (self.parsed.get(key) or 0) + val
+    else:
+        self.parsed[key] = val
+    fancykey = dotted_spaces("%12s"%key)
+    Message(_("Added config %s : %s")%(fancykey,val),3)
+
+</t>
+<t tx="zoomq.20100414115206.4772">def get_outfile_name(self, config={}):
+    "Dirname is the same for {in,out}file"
+    infile, outfile = config['sourcefile'], config['outfile']
+    if outfile and outfile not in (STDOUT, MODULEOUT) \
+       and not os.path.isabs(outfile):
+        outfile = os.path.join(os.path.dirname(infile), outfile)
+    if infile == STDIN    and not outfile: outfile = STDOUT
+    if infile == MODULEIN and not outfile: outfile = MODULEOUT
+    if not outfile and (infile and config.get('target')):
+        basename = re.sub('\.(txt|t2t)$','',infile)
+        outfile = "%s.%s"%(basename, config['target'])
+    Debug(" infile: '%s'"%infile , 1)
+    Debug("outfile: '%s'"%outfile, 1)
+    return outfile
+
+</t>
+<t tx="zoomq.20100414115206.4773">def sanity(self, config, gui=0):
+    "Basic config sanity checking"
+    if not config: return {}
+    target = config.get('target')
+    # Some actions don't require target specification
+    if not target:
+        for action in NO_TARGET:
+            if config.get(action):
+                target = 'txt'
+                break
+    # On GUI, some checking are skipped
+    if not gui:
+        # We *need* a target
+        if not target:
+            Error(_('No target specified (try --help)')+\
+            '\n\n'+\
+            _('Maybe trying to convert an old v1.x file?'))
+        # And of course, an infile also
+        if not config.get('infile'):
+            Error(_('Missing input file (try --help)'))
+        # Is the target valid?
+        if not TARGETS.count(target):
+            Error(_("Invalid target '%s' (try --help)")%\
+                 target)
+    # Ensure all keys are present
+    empty = self.defaults.copy() ; empty.update(config)
+    config = empty.copy()
+    # Check integers options
+    for key in config.keys():
+        if key in self.numeric:
+            try: config[key] = int(config[key])
+            except: Error(_('--%s value must be a number'
+                            )%key)
+    # Check split level value
+    if config['split'] not in (0,1,2):
+        Error(_('Option --split must be 0, 1 or 2'))
+    # --toc-only is stronger than others
+    if config['toc-only']:
+        config['headers'] = 0
+        config['toc']     = 0
+        config['split']   = 0
+        config['gui']     = 0
+        config['outfile'] = config['outfile'] or STDOUT
+    # Splitting is disable for now (future: HTML only, no STDOUT)
+    config['split'] = 0
+    # Restore target
+    config['target'] = target
+    # Set output file name
+    config['outfile'] = self.get_outfile_name(config)
+    # Checking suicide
+    if config['sourcefile'] == config['outfile'] and \
+       config['outfile'] not in [STDOUT,MODULEOUT] and not gui:
+        Error(_("Input and Output files are the same: %s")%(
+        config['outfile']))
+    return config
+
+</t>
+<t tx="zoomq.20100414115206.4774">def parse(self):
+    "Returns the parsed config for the current target"
+    raw = self.get_target_raw()
+    for target, key, value in raw:
+        self.add(key, value)
+    Message(_("Added the following keys: %s")%string.join(
+             self.parsed.keys(),', '),2)
+    return self.parsed.copy()
+
+</t>
+<t tx="zoomq.20100414115206.4775">def find_value(self, key='', target=''):
+    "Scans ALL raw config to find the desired key"
+    ret = []
+    # Scan and save all values found
+    for targ, k, val in self.raw:
+        if k == key and (targ == target or targ == 'all'):
+            ret.append(val)
+    if not ret: return ''
+    # If not multi value, return only the last found
+    if key in self.multi: return ret
+    else                : return ret[-1]
+
+</t>
+<t tx="zoomq.20100414115206.4776">########################################################################
+
+class ConfigLines:
+    """
+    ConfigLines class - the config file data extractor
+
+    This class reads and parse the config lines on the %!key:val
+    format, converting it to RAW config. It deals with user
+    config file (RC file), source document CONF area and
+    %!includeconf directives.
+
+    Call it passing a file name or feed the desired config lines.
+    Then just call the get_raw_config() method and wait to
+    receive the full config data on the RAW format. This method
+    also follows the possible %!includeconf directives found on
+    the config lines. Example:
+
+        raw = ConfigLines(file=".txt2tagsrc").get_raw_config()
+
+    The parse_line() method is also useful to be used alone,
+    to identify and tokenize a single config line. For example,
+    to get the %!include command components, on the source
+    document BODY:
+
+        target, key, value = ConfigLines().parse_line(body_line)
+    """
+    @others
+</t>
+<t tx="zoomq.20100414115206.4777">def __init__(self, file='', lines=[], first_line=1):
+    self.file = file or 'NOFILE'
+    self.lines = lines
+    self.first_line = first_line
+
+</t>
+<t tx="zoomq.20100414115206.4778">def load_lines(self):
+    "Make sure we've loaded the file contents into buffer"
+    if not self.lines and not self.file:
+        Error("ConfigLines: No file or lines provided")
+    if not self.lines:
+        self.lines = self.read_config_file(self.file)
+
+</t>
+<t tx="zoomq.20100414115206.4779">def read_config_file(self, filename=''):
+    "Read a Config File contents, aborting on invalid line"
+    if not filename: return []
+    errormsg = _("Invalid CONFIG line on %s")+"\n%03d:%s"
+    lines = Readfile(filename, remove_linebreaks=1)
+    # Sanity: try to find invalid config lines
+    for i in xrange(len(lines)):
+        line = string.rstrip(lines[i])
+        if not line: continue  # empty
+        if line[0] != '%': Error(errormsg%(filename,i+1,line))
+    return lines
+
+</t>
+<t tx="zoomq.20100414115206.4780">def include_config_file(self, file=''):
+    "Perform the %!includeconf action, returning RAW config"
+    if not file: return []
+    # Current dir relative to the current file (self.file)
+    current_dir = os.path.dirname(self.file)
+    file = os.path.join(current_dir, file)
+    # Read and parse included config file contents
+    lines = self.read_config_file(file)
+    return ConfigLines(file=file, lines=lines).get_raw_config()
+
+</t>
+<t tx="zoomq.20100414115206.4781">def get_raw_config(self):
+    "Scan buffer and extract all config as RAW (including includes)"
+    ret = []
+    self.load_lines()
+    first = self.first_line
+    for i in xrange(len(self.lines)):
+        line = self.lines[i]
+        Message(_("Processing line %03d: %s")%(first+i,line),2)
+        target, key, val = self.parse_line(line)
+        if not key: continue    # no config on this line
+        if key == 'includeconf':
+            err = _('A file cannot include itself (loop!)')
+            if val == self.file:
+                Error("%s: %%!includeconf: %s"%(
+                    err, self.file))
+            more_raw = self.include_config_file(val)
+            ret.extend(more_raw)
+            Message(_("Finished Config file inclusion: %s"
+                      )%(val),2)
+        else:
+            ret.append([target, key, val])
+            Message(_("Added %s")%key,3)
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4782">def parse_line(self, line='', keyname='', target=''):
+    "Detects %!key:val config lines and extract data from it"
+    empty = ['', '', '']
+    if not line: return empty
+    no_target = ['target', 'includeconf']
+    re_name   = keyname or '[a-z]+'
+    re_target = target  or '[a-z]*'
+    # XXX TODO &lt;value&gt;\S.+?  requires TWO chars, breaks %!include:a
+    cfgregex  = re.compile("""
+      ^%%!\s*               # leading id with opt spaces
+      (?P&lt;name&gt;%s)\s*       # config name
+      (\((?P&lt;target&gt;%s)\))? # optional target spec inside ()
+      \s*:\s*               # key:value delimiter with opt spaces
+      (?P&lt;value&gt;\S.+?)      # config value
+      \s*$                  # rstrip() spaces and hit EOL
+      """%(re_name,re_target), re.I+re.VERBOSE)
+    prepostregex = re.compile("""
+                            # ---[ PATTERN ]---
+      ^( "([^"]*)"          # "double quoted" or
+       | '([^']*)'          # 'single quoted' or
+       | ([^\s]+)           # single_word
+       )
+        \s+                 # separated by spaces
+
+                            # ---[ REPLACE ]---
+           ( "([^"]*)"      # "double quoted" or
+           | '([^']*)'      # 'single quoted' or
+           | (.*)           # anything
+               )
+                \s*$
+      """, re.VERBOSE)
+    guicolors = re.compile("^([^\s]+\s+){3}[^\s]+") # 4 tokens
+    match = cfgregex.match(line)
+    if not match: return empty
+
+    name   = string.lower(match.group('name') or '')
+    target = string.lower(match.group('target') or 'all')
+    value  = match.group('value')
+
+    # NO target keywords: force all targets
+    if name in no_target: target = 'all'
+
+    # Special config for GUI colors
+    if name == 'guicolors':
+        valmatch = guicolors.search(value)
+        if not valmatch: return empty
+        value = re.split('\s+', value)
+
+    # Special config with two quoted values (%!preproc: "foo" 'bar')
+    if name == 'preproc' or name == 'postproc':
+        valmatch = prepostregex.search(value)
+        if not valmatch: return empty
+        getval = valmatch.group
+        patt   = getval(2) or getval(3) or getval(4) or ''
+        repl   = getval(6) or getval(7) or getval(8) or ''
+        value  = (patt, repl)
+    return [target, name, value]
+
+</t>
+<t tx="zoomq.20100414115206.4783">##############################################################################
+
+class MaskMaster:
+    "(Un)Protect important structures from escaping and formatting"
+    @others
+</t>
+<t tx="zoomq.20100414115206.4784">def __init__(self):
+    self.linkmask  = 'vvvLINKvvv'
+    self.monomask  = 'vvvMONOvvv'
+    self.macromask = 'vvvMACROvvv'
+    self.rawmask   = 'vvvRAWvvv'
+    self.tocmask   = 'vvvTOCvvv'
+    self.macroman  = MacroMaster()
+    self.reset()
+
+</t>
+<t tx="zoomq.20100414115206.4785">def reset(self):
+    self.linkbank = []
+    self.monobank = []
+    self.macrobank = []
+    self.rawbank = []
+
+</t>
+<t tx="zoomq.20100414115206.4786">def mask(self, line=''):
+    global AUTOTOC
+
+    # Protect raw text
+    while regex['raw'].search(line):
+        txt = regex['raw'].search(line).group(1)
+        txt = doEscape(TARGET,txt)
+        self.rawbank.append(txt)
+        line = regex['raw'].sub(self.rawmask,line,1)
+
+    # Protect pre-formatted font text
+    while regex['fontMono'].search(line):
+        txt = regex['fontMono'].search(line).group(1)
+        txt = doEscape(TARGET,txt)
+        self.monobank.append(txt)
+        line = regex['fontMono'].sub(self.monomask,line,1)
+
+    # Protect macros
+    while regex['macros'].search(line):
+        txt = regex['macros'].search(line).group()
+        self.macrobank.append(txt)
+        line = regex['macros'].sub(self.macromask,line,1)
+
+    # Protect TOC location
+    while regex['toc'].search(line):
+        line = regex['toc'].sub(self.tocmask,line)
+        AUTOTOC = 0
+
+    # Protect URLs and emails
+    while regex['linkmark'].search(line) or \
+          regex['link'    ].search(line):
+
+        # Try to match plain or named links
+        match_link  = regex['link'].search(line)
+        match_named = regex['linkmark'].search(line)
+
+        # Define the current match
+        if match_link and match_named:
+            # Both types found, which is the first?
+            m = match_link
+            if match_named.start() &lt; match_link.start():
+                m = match_named
+        else:
+            # Just one type found, we're fine
+            m = match_link or match_named
+
+        # Extract link data and apply mask
+        if m == match_link:              # plain link
+            link = m.group()
+            label = ''
+            link_re = regex['link']
+        else:                            # named link
+            link = m.group('link')
+            label = string.rstrip(m.group('label'))
+            link_re = regex['linkmark']
+        line = link_re.sub(self.linkmask,line,1)
+
+        # Save link data to the link bank
+        self.linkbank.append((label, link))
+    return line
+
+</t>
+<t tx="zoomq.20100414115206.4787">def undo(self, line):
+
+    # url &amp; email
+    for label,url in self.linkbank:
+        link = get_tagged_link(label, url)
+        line = string.replace(line, self.linkmask, link, 1)
+
+    # Expand macros
+    for macro in self.macrobank:
+        macro = self.macroman.expand(macro)
+        line = string.replace(line, self.macromask, macro, 1)
+
+    # Expand verb
+    for mono in self.monobank:
+        open,close = TAGS['fontMonoOpen'],TAGS['fontMonoClose']
+        tagged = open+mono+close
+        line = string.replace(line, self.monomask, tagged, 1)
+
+    # Expand raw
+    for raw in self.rawbank:
+        line = string.replace(line, self.rawmask, raw, 1)
+
+    return line
+
+
+</t>
+<t tx="zoomq.20100414115206.4788">##############################################################################
+import base64
+#hashlib
+
+class TitleMaster:
+    "Title things"
+    @others
+</t>
+<t tx="zoomq.20100414115206.4789">def __init__(self):
+    self.count = ['',0,0,0,0,0]
+    self.toc   = []
+    self.level = 0
+    self.kind  = ''
+    self.txt   = ''
+    self.label = ''
+    self.tag   = ''
+    self.tag_hold = []
+    self.last_level = 0
+    self.count_id = ''
+    self.user_labels = {}
+    self.anchor_count = 0
+    self.anchor_prefix = 'toc'
+
+    #self.hash = hashlib.md5()
+    #self.unique = base64.b64encode(base64.b32encode(self._get_full_title_text()))
+
+    #self.toptop = XHTML_TOPTOP
+</t>
+<t tx="zoomq.20100414115206.4790">def _open_close_blocks(self):
+    "Open new title blocks, closing the previous (if any)"
+    if not rules['titleblocks']: return
+    tag = ''
+    last = self.last_level
+    curr = self.level
+
+    # Same level, just close the previous
+    if curr == last:
+        tag = TAGS.get('title%dClose'%last)
+        if tag: self.tag_hold.append(tag)
+
+    # Section -&gt; subsection, more depth
+    while curr &gt; last:
+        last = last + 1
+
+        # Open the new block of subsections
+        tag = TAGS.get('blockTitle%dOpen'%last)
+        if tag: self.tag_hold.append(tag)
+
+        # Jump from title1 to title3 or more
+        # Fill the gap with an empty section
+        if curr - last &gt; 0:
+            tag = TAGS.get('title%dOpen'%last)
+            tag = regex['x'].sub('', tag)      # del \a
+            if tag: self.tag_hold.append(tag)
+
+    # Section &lt;- subsection, less depth
+    while curr &lt; last:
+        # Close the current opened subsection
+        tag = TAGS.get('title%dClose'%last)
+        if tag: self.tag_hold.append(tag)
+
+        # Close the current opened block of subsections
+        tag = TAGS.get('blockTitle%dClose'%last)
+        if tag: self.tag_hold.append(tag)
+
+        last = last - 1
+
+        # Close the previous section of the same level
+        # The subsections were under it
+        if curr == last:
+            tag = TAGS.get('title%dClose'%last)
+            if tag: self.tag_hold.append(tag)
+
+</t>
+<t tx="zoomq.20100414115206.4791">def add(self, line):
+    "Parses a new title line."
+    if not line: return
+    self._set_prop(line)
+    self._open_close_blocks()
+    self._set_count_id()
+    self._set_label()
+    self._save_toc_info()
+
+</t>
+<t tx="zoomq.20100414115206.4792">def close_all(self):
+    "Closes all opened title blocks"
+    ret = []
+    ret.extend(self.tag_hold)
+    while self.level:
+        tag = TAGS.get('title%dClose'%self.level)
+        if tag: ret.append(tag)
+        tag = TAGS.get('blockTitle%dClose'%self.level)
+        if tag: ret.append(tag)
+        self.level = self.level - 1
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4793">def _save_toc_info(self):
+    "Save TOC info, used by self.dump_marked_toc()"
+    self.toc.append((self.level, self.count_id,
+                     self.txt  , self.label   ))
+    #print self.toc
+</t>
+<t tx="zoomq.20100414115206.4794">def _set_prop(self, line=''):
+    "Extract info from original line and set data holders."
+    # Detect title type (numbered or not)
+    id = string.lstrip(line)[0]
+    if   id == '=': kind = 'title'
+    elif id == '+': kind = 'numtitle'
+    else: Error("Unknown Title ID '%s'"%id)
+    # Extract line info
+    match = regex[kind].search(line)
+    level = len(match.group('id'))
+    txt   = string.strip(match.group('txt'))
+    label = match.group('label')
+    # Parse info &amp; save
+    if CONF['enum-title']: kind = 'numtitle'  # force
+    if rules['titleblocks']:
+        self.tag = TAGS.get('%s%dOpen'%(kind,level)) or \
+                   TAGS.get('title%dOpen'%level)
+    else:
+        self.tag = TAGS.get(kind+`level`) or \
+                   TAGS.get('title'+`level`)
+    self.last_level = self.level
+    self.kind  = kind
+    self.level = level
+    self.txt   = txt
+    self.label = label
+
+</t>
+<t tx="zoomq.20100414115206.4795">def _set_count_id(self):
+    "Compose and save the title count identifier (if needed)."
+    count_id = ''
+    if self.kind == 'numtitle' and not rules['autonumbertitle']:
+        # Manually increase title count
+        self.count[self.level] = self.count[self.level] +1
+        # Reset sublevels count (if any)
+        max_levels = len(self.count)
+        if self.level &lt; max_levels-1:
+            for i in xrange(self.level+1, max_levels):
+                self.count[i] = 0
+        # Compose count id from hierarchy
+        for i in xrange(self.level):
+            count_id= "%s%d."%(count_id, self.count[i+1])
+    self.count_id = count_id
+
+</t>
+<t tx="zoomq.20100414115206.4796">def _set_label(self):
+    "Compose and save title label, used by anchors."
+    # Remove invalid chars from label set by user
+    self.label = re.sub('[^A-Za-z0-9_-]', '', self.label or '')
+    # Generate name as 15 first :alnum: chars
+    #TODO how to translate safely accented chars to plain?
+    #self.label = re.sub('[^A-Za-z0-9]', '', self.txt)[:15]
+    # 'tocN' label - sequential count, ignoring 'toc-level'
+    #self.label = self.anchor_prefix + str(len(self.toc)+1)
+
+</t>
+<t tx="zoomq.20100414115206.4797">def _get_tagged_anchor(self):
+    "Return anchor if user defined a label, or TOC is on."
+    ret = ''
+    label = self.label
+    if CONF['toc'] and self.level &lt;= CONF['toc-level']:
+        # This count is needed bcos self.toc stores all
+        # titles, regardless of the 'toc-level' setting,
+        # so we can't use self.toc length to number anchors
+        self.anchor_count = self.anchor_count + 1
+        # Autonumber label (if needed)
+        # zoomq:100414 fixed link as unique str
+        unique = base64.b64encode(base64.b32encode(self._get_full_title_text()))
+        label = label or '%s%s%s'%(
+                self.anchor_prefix
+                , self.anchor_count
+                , unique[:9]
+                )
+    if label and TAGS['anchor']:
+        ret = regex['x'].sub(label,TAGS['anchor'])
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4798">def _get_full_title_text(self):
+    "Returns the full title contents, already escaped."
+    ret = self.txt
+    # Insert count_id (if any) before text
+    if self.count_id:
+        ret = '%s %s'%(self.count_id, ret)
+    # Escape specials
+    ret = doEscape(TARGET, ret)
+    # Same targets needs final escapes on title lines
+    # It's here because there is a 'continue' after title
+    if rules['finalescapetitle']:
+        ret = doFinalEscape(TARGET, ret)
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4799">def get(self):
+    "Returns the tagged title as a list."
+    ret = []
+
+    # Maybe some anchoring before?
+    anchor = self._get_tagged_anchor()
+    self.tag = regex['_anchor'].sub(anchor, self.tag)
+    #   zoomq:100419 for toc click back top
+    ### Compose &amp; escape title text (TOC uses unescaped)
+    # zoomq:100414 fixed link as unique str
+    #unique = base64.b64encode(base64.b32encode(self._get_full_title_text()))
+    global XHTML_TOPTOP
+
+    full_title = "&lt;A href='#toptop%s'&gt; %s &lt;/A&gt;" %(XHTML_TOPTOP, self._get_full_title_text())
+    #print full_title
+    # Close previous section area
+    ret.extend(self.tag_hold)
+    self.tag_hold = []
+
+    # Finish title, adding "underline" on TXT target
+    tagged = regex['x'].sub(full_title, self.tag)
+    if TARGET == 'txt':
+        ret.append('') # blank line before
+        ret.append(tagged)
+        ret.append(regex['x'].sub('='*len(full_title),self.tag))
+        ret.append('?') # blank line after
+    else:
+        ret.append(tagged)
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4800">def dump_marked_toc(self, max_level=99):
+    "Dumps all toc itens as a valid t2t markup list"
+    #TODO maybe use quote+linebreaks instead lists
+    ret = []
+    toc_count = 1
+    for level, count_id, txt, label in self.toc:
+        # zoomq:100414 fixed link as unique str
+        tocStr = "%s %s%s"%(count_id,txt, label)
+        uniqueStr = base64.b64encode(base64.b32encode(tocStr))
+        if level &gt; max_level: continue   # ignore
+        indent = '  '*level
+        id_txt = string.lstrip('%s %s'%(count_id, txt))
+        label = label or self.anchor_prefix+`toc_count`
+        label += uniqueStr[:9]
+
+        toc_count = toc_count + 1
+        # TOC will have links
+        if TAGS['anchor']:
+            # TOC is more readable with master topics
+            # not linked at number. This is a stoled
+            # idea from Windows .CHM help files
+            if CONF['enum-title'] and level == 1:
+                tocitem = '%s+ [""%s"" #%s]'%(
+                          indent, txt, label)
+            else:
+                tocitem = '%s- [""%s"" #%s]'%(
+                          indent, id_txt, label)
+        # No links on TOC, just text
+        else:
+            # man don't reformat TOC lines, cool!
+            if TARGET == 'txt' or TARGET == 'man':
+                tocitem = '%s""%s""' %(
+                          indent, id_txt)
+            else:
+                tocitem = '%s- ""%s""'%(
+                          indent, id_txt)
+        ret.append(tocitem)
+    #print ret
+    return ret
+
+
+</t>
+<t tx="zoomq.20100414115206.4801">##############################################################################
+
+#TODO check all this table mess
+# Trata linhas TABLE, com as prop do parse_row
+# O metodo table() do BLOCK xunxa e troca as celulas pelas parseadas
+class TableMaster:
+    @others
+</t>
+<t tx="zoomq.20100414115206.4802">def __init__(self, line=''):
+    self.rows      = []
+    self.border    = 0
+    self.align     = 'Left'
+    self.cellalign = []
+    self.cellspan  = []
+    if line:
+        prop = self.parse_row(line)
+        self.border    = prop['border']
+        self.align     = prop['align']
+        self.cellalign = prop['cellalign']
+        self.cellspan  = prop['cellspan']
+
+</t>
+<t tx="zoomq.20100414115206.4803">def _get_open_tag(self):
+    topen     = TAGS['tableOpen']
+    tborder   = TAGS['tableBorder']
+    talign    = TAGS['tableAlign'+self.align]
+    calignsep = TAGS['tableColAlignSep']
+    calign    = ''
+
+    # The first line defines if table has border or not
+    if not self.border: tborder = ''
+    # Set the columns alignment
+    if rules['tablecellaligntype'] == 'column':
+        calign = map(lambda x: TAGS['tableColAlign%s'%x],
+                     self.cellalign)
+        calign = string.join(calign, calignsep)
+    # Align full table, set border and Column align (if any)
+    topen = regex['_tableAlign'   ].sub(talign , topen)
+    topen = regex['_tableBorder'  ].sub(tborder, topen)
+    topen = regex['_tableColAlign'].sub(calign , topen)
+    # Tex table spec, border or not: {|l|c|r|} , {lcr}
+    if calignsep and not self.border:
+        # Remove cell align separator
+        topen = string.replace(topen, calignsep, '')
+    return topen
+
+</t>
+<t tx="zoomq.20100414115206.4804">def _get_cell_align(self, cells):
+    ret = []
+    for cell in cells:
+        align = 'Left'
+        if string.strip(cell):
+            if cell[0] == ' ' and cell[-1] == ' ':
+                align = 'Center'
+            elif cell[0] == ' ':
+                align = 'Right'
+        ret.append(align)
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4805">def _get_cell_span(self, cells):
+    ret = []
+    for cell in cells:
+        span = 0
+        m = re.search('\a(\|+)$', cell)
+        if m: span = len(m.group(1))+1
+        ret.append(span)
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4806">def _tag_cells(self, rowdata):
+    row = []
+    cells  = rowdata['cells']
+    open   = TAGS['tableCellOpen']
+    close  = TAGS['tableCellClose']
+    sep    = TAGS['tableCellSep']
+    calign = map(lambda x: TAGS['tableCellAlign'+x],
+                 rowdata['cellalign'])
+    # Populate the span tag
+    cspan = []
+    for i in rowdata['cellspan']:
+        if i &gt; 0:
+            cspan.append(regex['x'].sub(
+            str(i), TAGS['tableCellColSpan']))
+        else:
+            cspan.append('')
+
+    # Maybe is it a title row?
+    if rowdata['title']:
+        open  = TAGS['tableTitleCellOpen']  or open
+        close = TAGS['tableTitleCellClose'] or close
+        sep   = TAGS['tableTitleCellSep']   or sep
+
+    # Should we break the line on *each* table cell?
+    if rules['breaktablecell']: close = close+'\n'
+
+    # Cells pre processing
+    if rules['tablecellstrip']:
+        cells = map(lambda x: string.strip(x), cells)
+    if rowdata['title'] and rules['tabletitlerowinbold']:
+        cells = map(lambda x: enclose_me('fontBold',x), cells)
+
+    # Add cell BEGIN/END tags
+    for cell in cells:
+        copen = open
+        # Make sure we will pop from some filled lists
+        # Fixes empty line bug '| |'
+        this_align = this_span = ''
+        if calign: this_align = calign.pop(0)
+        if cspan : this_span = cspan.pop(0)
+        # Insert cell align into open tag (if cell is alignable)
+        if rules['tablecellaligntype'] == 'cell':
+            copen = regex['_tableCellAlign'].sub(
+                this_align, copen)
+        if rules['tablecellspannable']:
+            copen = regex['_tableCellColSpan'].sub(
+                this_span, copen)
+        row.append(copen + cell + close)
+
+    # Maybe there are cell separators?
+    return string.join(row, sep)
+
+</t>
+<t tx="zoomq.20100414115206.4807">def add_row(self, cells):
+    self.rows.append(cells)
+
+</t>
+<t tx="zoomq.20100414115206.4808">def parse_row(self, line):
+    # Default table properties
+    ret = {'border':0,'title':0,'align':'Left',
+           'cells':[],'cellalign':[], 'cellspan':[]}
+    # Detect table align (and remove spaces mark)
+    if line[0] == ' ': ret['align'] = 'Center'
+    line = string.lstrip(line)
+    # Detect title mark
+    if line[1] == '|': ret['title'] = 1
+    # Detect border mark and normalize the EOL
+    m = re.search(' (\|+) *$', line)
+    if m: line = line+' ' ; ret['border'] = 1
+    else: line = line+' | '
+    # Delete table mark
+    line = regex['table'].sub('', line)
+    # Detect colspan  | foo | bar baz |||
+    line = re.sub(' (\|+)\| ', '\a\\1 | ', line)
+    # Split cells (the last is fake)
+    ret['cells'] = string.split(line, ' | ')[:-1]
+    # Find cells span
+    ret['cellspan'] = self._get_cell_span(ret['cells'])
+    # Remove span ID
+    ret['cells'] = map(lambda x:re.sub('\a\|+$','',x),ret['cells'])
+    # Find cells align
+    ret['cellalign'] = self._get_cell_align(ret['cells'])
+    # Hooray!
+    Debug('Table Prop: %s' % ret, 7)
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4809">def dump(self):
+    open  = self._get_open_tag()
+    rows  = self.rows
+    close = TAGS['tableClose']
+
+    rowopen     = TAGS['tableRowOpen']
+    rowclose    = TAGS['tableRowClose']
+    rowsep      = TAGS['tableRowSep']
+    titrowopen  = TAGS['tableTitleRowOpen']  or rowopen
+    titrowclose = TAGS['tableTitleRowClose'] or rowclose
+
+    if rules['breaktablelineopen']:
+        rowopen = rowopen + '\n'
+        titrowopen = titrowopen + '\n'
+
+    # Tex gotchas
+    if TARGET == 'tex':
+        if not self.border:
+            rowopen = titrowopen = ''
+        else:
+            close = rowopen + close
+
+    # Now we tag all the table cells on each row
+    #tagged_cells = map(lambda x: self._tag_cells(x), rows) #!py15
+    tagged_cells = []
+    for cell in rows: tagged_cells.append(self._tag_cells(cell))
+
+    # Add row separator tags between lines
+    tagged_rows = []
+    if rowsep:
+        #!py15
+        #tagged_rows = map(lambda x:x+rowsep, tagged_cells)
+        for cell in tagged_cells:
+            tagged_rows.append(cell+rowsep)
+        # Remove last rowsep, because the table is over
+        tagged_rows[-1] = string.replace(
+                          tagged_rows[-1], rowsep, '')
+    # Add row BEGIN/END tags for each line
+    else:
+        for rowdata in rows:
+            if rowdata['title']:
+                o,c = titrowopen, titrowclose
+            else:
+                o,c = rowopen, rowclose
+            row = tagged_cells.pop(0)
+            tagged_rows.append(o + row + c)
+
+    fulltable = [open] + tagged_rows + [close]
+
+    if rules['blankendtable']: fulltable.append('')
+    return fulltable
+
+
+</t>
+<t tx="zoomq.20100414115206.4810">##############################################################################
+
+
+class BlockMaster:
+    "TIP: use blockin/out to add/del holders"
+    @others
+</t>
+<t tx="zoomq.20100414115206.4811">def __init__(self):
+    self.BLK = []
+    self.HLD = []
+    self.PRP = []
+    self.depth = 0
+    self.last = ''
+    self.tableparser = None
+    self.contains = {
+      'para'    :['comment','raw'],
+      'verb'    :[],
+      'table'   :['comment'],
+      'raw'     :[],
+      'tagged'  :[],
+      'comment' :[],
+      'quote'   :['quote','comment','raw'],
+      'list'    :['list' ,'numlist' ,'deflist','para','verb',
+                  'comment', 'raw'],
+      'numlist' :['list' ,'numlist' ,'deflist','para','verb',
+                  'comment', 'raw'],
+      'deflist' :['list' ,'numlist' ,'deflist','para','verb',
+                  'comment', 'raw']
+    }
+    self.allblocks = self.contains.keys()
+    # If one found inside another, ignore the marks
+    self.exclusive = ['comment','verb','raw']
+
+</t>
+<t tx="zoomq.20100414115206.4812">def block(self):
+    if not self.BLK: return ''
+    return self.BLK[-1]
+
+</t>
+<t tx="zoomq.20100414115206.4813">def isblock(self, name=''):
+    return self.block() == name
+
+</t>
+<t tx="zoomq.20100414115206.4814">def prop(self, key):
+    if not self.PRP: return ''
+    return self.PRP[-1].get(key) or ''
+
+</t>
+<t tx="zoomq.20100414115206.4815">def propset(self, key, val):
+    self.PRP[-1][key] = val
+    #Debug('BLOCK prop ++: %s-&gt;%s'%(key,repr(val)), 1)
+    #Debug('BLOCK props: %s'%(repr(self.PRP)), 1)
+
+</t>
+<t tx="zoomq.20100414115206.4816">def hold(self):
+    if not self.HLD: return []
+    return self.HLD[-1]
+
+</t>
+<t tx="zoomq.20100414115206.4817">def holdadd(self, line):
+    if self.block()[-4:] == 'list': line = [line]
+    self.HLD[-1].append(line)
+    Debug('HOLD add: %s'%repr(line), 4)
+    Debug('FULL HOLD: %s'%self.HLD, 4)
+
+</t>
+<t tx="zoomq.20100414115206.4818">def holdaddsub(self, line):
+    self.HLD[-1][-1].append(line)
+    Debug('HOLD addsub: %s'%repr(line), 4)
+    Debug('FULL HOLD: %s'%self.HLD, 4)
+
+</t>
+<t tx="zoomq.20100414115206.4819">def holdextend(self, lines):
+    if self.block()[-4:] == 'list': lines = [lines]
+    self.HLD[-1].extend(lines)
+    Debug('HOLD extend: %s'%repr(lines), 4)
+    Debug('FULL HOLD: %s'%self.HLD, 4)
+
+</t>
+<t tx="zoomq.20100414115206.4820">def blockin(self, block):
+    ret = []
+    if block not in self.allblocks:
+        Error("Invalid block '%s'"%block)
+    # First, let's close other possible open blocks
+    while self.block() and block not in self.contains[self.block()]:
+        ret.extend(self.blockout())
+    # Now we can gladly add this new one
+    self.BLK.append(block)
+    self.HLD.append([])
+    self.PRP.append({})
+    if block == 'table': self.tableparser = TableMaster()
+    # Deeper and deeper
+    self.depth = len(self.BLK)
+    Debug('block ++ (%s): %s' % (block,self.BLK), 3)
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4821">def blockout(self):
+    if not self.BLK: Error('No block to pop')
+    self.last = self.BLK.pop()
+    result = getattr(self, self.last)()
+    parsed = self.HLD.pop()
+    self.PRP.pop()
+    self.depth = len(self.BLK)
+    if self.last == 'table': del self.tableparser
+    # Inserting a nested block into mother
+    if self.block():
+        if self.last != 'comment': # ignore comment blocks
+            if self.block()[-4:] == 'list':
+                self.HLD[-1][-1].append(result)
+            else:
+                self.HLD[-1].append(result)
+        # Reset now. Mother block will have it all
+        result = []
+    Debug('block -- (%s): %s' % (self.last,self.BLK), 3)
+    Debug('RELEASED (%s): %s' % (self.last,parsed), 3)
+    if result: Debug('BLOCK: %s'%result, 6)
+    return result
+
+</t>
+<t tx="zoomq.20100414115206.4822">def _last_escapes(self, line):
+    return doFinalEscape(TARGET, line)
+
+</t>
+<t tx="zoomq.20100414115206.4823">def _get_escaped_hold(self):
+    ret = []
+    for line in self.hold():
+        linetype = type(line)
+        if linetype == type(''):
+            ret.append(self._last_escapes(line))
+        elif linetype == type([]):
+            ret.extend(line)
+        else:
+            Error("BlockMaster: Unknown HOLD item type:"
+                  " %s"%linetype)
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4824">def _remove_twoblanks(self, lastitem):
+    if len(lastitem) &gt; 1 and lastitem[-2:] == ['','']:
+        return lastitem[:-2]
+    return lastitem
+
+</t>
+<t tx="zoomq.20100414115206.4825">def tagged(self):
+    return self.hold()
+
+</t>
+<t tx="zoomq.20100414115206.4826">def comment(self):
+    return ''
+
+</t>
+<t tx="zoomq.20100414115206.4827">def raw(self):
+    lines = self.hold()
+    return map(lambda x: doEscape(TARGET, x), lines)
+
+</t>
+<t tx="zoomq.20100414115206.4828">def para(self):
+    result = []
+    open  = TAGS['paragraphOpen']
+    close = TAGS['paragraphClose']
+    lines = self._get_escaped_hold()
+    # Open (or not) paragraph
+    if not open+close and self.last == 'para':
+        pass # avoids multiple blank lines
+    else:
+        result.append(open)
+    # Pagemaker likes a paragraph as a single long line
+    if rules['onelinepara']:
+        result.append(string.join(lines,' '))
+    # Others are normal :)
+    else:
+        result.extend(lines)
+    result.append(close)
+
+    # Very very very very very very very very very UGLY fix
+    # Needed because &lt;center&gt; can't appear inside &lt;p&gt;
+    try:
+        if len(lines) == 1 and \
+           TARGET in ('html', 'xhtml') and \
+           re.match('^\s*&lt;center&gt;.*&lt;/center&gt;\s*$', lines[0]):
+            result = [lines[0]]
+    except: pass
+
+    return result
+
+</t>
+<t tx="zoomq.20100414115206.4829">def verb(self):
+    "Verbatim lines are not masked, so there's no need to unmask"
+    result = []
+    result.append(TAGS['blockVerbOpen'])
+    for line in self.hold():
+        if self.prop('mapped') == 'table':
+            line = MacroMaster().expand(line)
+        if not rules['verbblocknotescaped']:
+            line = doEscape(TARGET,line)
+        if rules['indentverbblock']:
+            line = '  '+line
+        if rules['verbblockfinalescape']:
+            line = doFinalEscape(TARGET, line)
+        result.append(line)
+    @others
+    #print result
+    #TODO maybe use if not TAGS['blockVerbClose']
+    if TARGET != 'pm6':
+        result.append(TAGS['blockVerbClose'])
+    return result
+
+</t>
+<t tx="zoomq.20100414115206.4830">def table(self):
+    # Rewrite all table cells by the unmasked and escaped data
+    lines = self._get_escaped_hold()
+    for i in xrange(len(lines)):
+        cells = string.split(lines[i], SEPARATOR)
+        self.tableparser.rows[i]['cells'] = cells
+
+    return self.tableparser.dump()
+
+</t>
+<t tx="zoomq.20100414115206.4831">def quote(self):
+    result = []
+    myre   = regex['quote']
+    open   = TAGS['blockQuoteOpen']            # block based
+    close  = TAGS['blockQuoteClose']
+    qline  = TAGS['blockQuoteLine']            # line based
+    indent = tagindent = '\t'*self.depth
+    if rules['tagnotindentable']: tagindent = ''
+    if not rules['keepquoteindent']: indent = ''
+
+    if open: result.append(tagindent+open)     # open block
+    for item in self.hold():
+        if type(item) == type([]):
+            result.extend(item)        # subquotes
+        else:
+            item = myre.sub('', item)  # del TABs
+            if rules['barinsidequote']:
+                item = get_tagged_bar(item)
+            item = self._last_escapes(item)
+            item = qline*self.depth + item
+            result.append(indent+item) # quote line
+    if close: result.append(tagindent+close)   # close block
+    return result
+
+</t>
+<t tx="zoomq.20100414115206.4832">def deflist(self): return self.list('deflist')
+</t>
+<t tx="zoomq.20100414115206.4833">def numlist(self): return self.list('numlist')
+</t>
+<t tx="zoomq.20100414115206.4834">def list(self, name='list'):
+    result    = []
+    items     = self.hold()
+    indent    = self.prop('indent')
+    tagindent = indent
+    listopen  = TAGS.get(name+'Open')
+    listclose = TAGS.get(name+'Close')
+    listline  = TAGS.get(name+'ItemLine')
+    itemcount = 0
+    if rules['tagnotindentable']: tagindent = ''
+    if not rules['keeplistindent']: indent = ''
+
+    if name == 'deflist':
+        itemopen  = TAGS[name+'Item1Open']
+        itemclose = TAGS[name+'Item2Close']
+        itemsep   = TAGS[name+'Item1Close']+\
+                    TAGS[name+'Item2Open']
+    else:
+        itemopen  = TAGS[name+'ItemOpen']
+        itemclose = TAGS[name+'ItemClose']
+        itemsep   = ''
+
+    # ItemLine: number of leading chars identifies list depth
+    if listline:
+        itemopen  = listline*self.depth
+        # Dirty fix for mgp
+        if name == 'numlist': itemopen = itemopen + '\a. '
+
+    # Remove two-blanks from list ending mark, to avoid &lt;p&gt;
+    items[-1] = self._remove_twoblanks(items[-1])
+
+    # Open list (not nestable lists are only opened at mother)
+    if listopen and not \
+       (rules['listnotnested'] and BLOCK.depth != 1):
+        result.append(tagindent+listopen)
+
+    # Tag each list item (multiline items)
+    itemopenorig = itemopen
+    for item in items:
+
+        # Add "manual" item count for noautonum targets
+        itemcount = itemcount + 1
+        if name == 'numlist' and not rules['autonumberlist']:
+            n = str(itemcount)
+            itemopen = regex['x'].sub(n, itemopenorig)
+            del n
+
+        item[0] = self._last_escapes(item[0])
+        if name == 'deflist':
+            z,term,rest = string.split(item[0],SEPARATOR,2)
+            item[0] = rest
+            if not item[0]: del item[0]      # to avoid &lt;p&gt;
+            result.append(tagindent+itemopen+term+itemsep)
+        else:
+            fullitem = tagindent+itemopen
+            result.append(string.replace(
+                          item[0], SEPARATOR, fullitem))
+            del item[0]
+
+        # Process next lines for this item (if any)
+        for line in item:
+            if type(line) == type([]): # sublist inside
+                result.extend(line)
+            else:
+                line = self._last_escapes(line)
+                # Blank lines turns to &lt;p&gt;
+                if not line and rules['parainsidelist']:
+                    line = string.rstrip(indent   +\
+                             TAGS['paragraphOpen']+\
+                             TAGS['paragraphClose'])
+                if not rules['keeplistindent']:
+                    line = string.lstrip(line)
+                result.append(line)
+
+        # Close item (if needed)
+        if itemclose: result.append(tagindent+itemclose)
+
+    # Close list (not nestable lists are only closed at mother)
+    if listclose and not \
+       (rules['listnotnested'] and BLOCK.depth != 1):
+        result.append(tagindent+listclose)
+
+    if rules['blankendmotherlist'] and BLOCK.depth == 1:
+        result.append('')
+
+    return result
+
+
+</t>
+<t tx="zoomq.20100414115206.4835">##############################################################################
+
+
+class MacroMaster:
+    @others
+</t>
+<t tx="zoomq.20100414115206.4836">def __init__(self, config={}):
+    self.name     = ''
+    self.config   = config or CONF
+    self.infile   = self.config['sourcefile']
+    self.outfile  = self.config['outfile']
+    self.currdate = time.localtime(time.time())
+    self.rgx      = regex.get('macros') or getRegexes()['macros']
+    self.fileinfo = { 'infile': None, 'outfile': None }
+    self.dft_fmt  = MACROS
+
+</t>
+<t tx="zoomq.20100414115206.4837">def walk_file_format(self, fmt):
+    "Walks the %%{in/out}file format string, expanding the % flags"
+    i = 0; ret = ''                                 # counter/hold
+    while i &lt; len(fmt):                             # char by char
+        c = fmt[i]; i = i + 1
+        if c == '%':                            # hot char!
+            if i == len(fmt):               # % at the end
+                ret = ret + c
+                break
+            c = fmt[i]; i = i + 1           # read next
+            ret = ret + self.expand_file_flag(c)
+        else:
+            ret = ret +c                    # common char
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4838">def expand_file_flag(self, flag):
+    "%f: filename          %F: filename (w/o extension)"
+    "%d: dirname           %D: dirname (only parent dir)"
+    "%p: file path         %e: extension"
+    info = self.fileinfo[self.name]           # get dict
+    if   flag == '%': x = '%'                 # %% -&gt; %
+    elif flag == 'f': x = info['name']
+    elif flag == 'F': x = re.sub('\.[^.]*$','',info['name'])
+    elif flag == 'd': x = info['dir']
+    elif flag == 'D': x = os.path.split(info['dir'])[-1]
+    elif flag == 'p': x = info['path']
+    elif flag == 'e': x = re.search('.(\.([^.]+))?$',info['name']
+                                    ).group(2) or ''
+    #TODO simpler way for %e ?
+    else            : x = '%'+flag            # false alarm
+    return x
+
+</t>
+<t tx="zoomq.20100414115206.4839">def set_file_info(self, macroname):
+    if self.fileinfo.get(macroname): return   # already done
+    file = getattr(self, self.name)           # self.infile
+    if file == STDOUT or file == MODULEOUT:
+        dir = ''; path = name = file
+    else:
+        path = os.path.abspath(file)
+        dir  = os.path.dirname(path)
+        name = os.path.basename(path)
+    self.fileinfo[macroname] = {'path':path,'dir':dir,'name':name}
+
+</t>
+<t tx="zoomq.20100414115206.4840">def expand(self, line=''):
+    "Expand all macros found on the line"
+    while self.rgx.search(line):
+        m = self.rgx.search(line)
+        name = self.name = string.lower(m.group('name'))
+        fmt = m.group('fmt') or self.dft_fmt.get(name)
+        if name == 'date':
+            txt = time.strftime(fmt,self.currdate)
+        elif name == 'mtime':
+            if self.infile in (STDIN, MODULEIN):
+                fdate = self.currdate
+            else:
+                mtime = os.path.getmtime(self.infile)
+                fdate = time.localtime(mtime)
+            txt = time.strftime(fmt,fdate)
+        elif name == 'infile' or name == 'outfile':
+            self.set_file_info(name)
+            txt = self.walk_file_format(fmt)
+        else:
+            Error("Unknown macro name '%s'"%name)
+        line = self.rgx.sub(txt,line,1)
+    return line
+
+
+</t>
+<t tx="zoomq.20100414115206.4841">##############################################################################
+
+
+def dumpConfig(source_raw, parsed_config):
+    onoff = {1:_('ON'), 0:_('OFF')}
+    data = [
+      (_('RC file')        , RC_RAW     ),
+      (_('source document'), source_raw ),
+      (_('command line')   , CMDLINE_RAW)
+    ]
+    # First show all RAW data found
+    for label, cfg in data:
+        print _('RAW config for %s')%label
+        for target,key,val in cfg:
+            target = '(%s)'%target
+            key    = dotted_spaces("%-14s"%key)
+            val    = val or _('ON')
+            print '  %-8s %s: %s'%(target,key,val)
+        print
+    # Then the parsed results of all of them
+    print _('Full PARSED config')
+    keys = parsed_config.keys() ; keys.sort()  # sorted
+    for key in keys:
+        val = parsed_config[key]
+        # Filters are the last
+        if key == 'preproc' or key == 'postproc':
+            continue
+        # Flag beautifier
+        if key in FLAGS.keys() or key in ACTIONS.keys():
+            val = onoff.get(val) or val
+        # List beautifier
+        if type(val) == type([]):
+            if key == 'options': sep = ' '
+            else               : sep = ', '
+            val = string.join(val, sep)
+        print "%25s: %s"%(dotted_spaces("%-14s"%key),val)
+    print
+    print _('Active filters')
+    for filter in ['preproc','postproc']:
+        for rule in parsed_config.get(filter) or []:
+            print "%25s: %s  -&gt;  %s"%(
+               dotted_spaces("%-14s"%filter),rule[0],rule[1])
+
+
+</t>
+<t tx="zoomq.20100414115206.4842">def get_file_body(file):
+    "Returns all the document BODY lines"
+    return process_source_file(file, noconf=1)[1][2]
+
+
+</t>
+<t tx="zoomq.20100414115206.4843">def finish_him(outlist, config):
+    "Writing output to screen or file"
+    outfile = config['outfile']
+    outlist = unmaskEscapeChar(outlist)
+    outlist = expandLineBreaks(outlist)
+
+    # Apply PostProc filters
+    if config['postproc']:
+        filters = compile_filters(config['postproc'],
+                                _('Invalid PostProc filter regex'))
+        postoutlist = []
+        errmsg = _('Invalid PostProc filter replacement')
+        for line in outlist:
+            for rgx,repl in filters:
+                try: line = rgx.sub(repl, line)
+                except: Error("%s: '%s'"%(errmsg, repl))
+            postoutlist.append(line)
+        outlist = postoutlist[:]
+
+    if outfile == MODULEOUT:
+        return outlist
+    elif outfile == STDOUT:
+        if GUI:
+            return outlist, config
+        else:
+            for line in outlist: print line
+    else:
+        Savefile(outfile, addLineBreaks(outlist))
+        if not GUI and not QUIET:
+            print _('%s wrote %s')%(my_name,outfile)
+
+    if config['split']:
+        if not QUIET: print "--- html..."
+        sgml2html = 'sgml2html -s %s -l %s %s'%(
+                    config['split'],config['lang'] or lang,outfile)
+        if not QUIET: print "Running system command:", sgml2html
+        os.system(sgml2html)
+
+
+</t>
+<t tx="zoomq.20100414115206.4844">def toc_inside_body(body, toc, config):
+    ret = []
+    if AUTOTOC: return body                     # nothing to expand
+    toc_mark = MaskMaster().tocmask
+    # Expand toc mark with TOC contents
+    for line in body:
+        if string.count(line, toc_mark):    # toc mark found
+            if config['toc']:
+                ret.extend(toc)     # include if --toc
+            else:
+                pass                # or remove %%toc line
+        else:
+            ret.append(line)            # common line
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4845">def toc_tagger(toc, config):
+    "Convert t2t-marked TOC (it is a list) to target-tagged TOC"
+    ret = []
+    # Tag if TOC-only TOC "by hand" (target don't have a TOC tag)
+    if config['toc-only'] or (config['toc'] and not TAGS['TOC']):
+        fakeconf = config.copy()
+        fakeconf['headers']    = 0
+        fakeconf['toc-only']   = 0
+        fakeconf['mask-email'] = 0
+        fakeconf['preproc']    = []
+        fakeconf['postproc']   = []
+        fakeconf['css-sugar']  = 0
+        ret,foo = convert(toc, fakeconf)
+        set_global_config(config)   # restore config
+    # Target TOC is a tag
+    elif config['toc'] and TAGS['TOC']:
+        ret = [TAGS['TOC']]
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4846">def toc_formatter(toc, config):
+    "Formats TOC for automatic placement between headers and body"
+    if config['toc-only']: return toc              # no formatting needed
+    if not config['toc'] : return []               # TOC disabled
+    ret = toc
+    # TOC open/close tags (if any)
+    if TAGS['tocOpen' ]: ret.insert(0, TAGS['tocOpen'])
+    if TAGS['tocClose']: ret.append(TAGS['tocClose'])
+    # Autotoc specific formatting
+    if AUTOTOC:
+        if rules['autotocwithbars']:           # TOC between bars
+            para = TAGS['paragraphOpen']+TAGS['paragraphClose']
+            bar  = regex['x'].sub('-'*72,TAGS['bar1'])
+            tocbar = [para, bar, para]
+            ret = tocbar + ret + tocbar
+        if rules['blankendautotoc']:           # blank line after TOC
+            ret.append('')
+        if rules['autotocnewpagebefore']:      # page break before TOC
+            ret.insert(0,TAGS['pageBreak'])
+        if rules['autotocnewpageafter']:       # page break after TOC
+            ret.append(TAGS['pageBreak'])
+    return ret
+
+
+</t>
+<t tx="zoomq.20100414115206.4847">def doHeader(headers, config):
+    #100419:zoomq for toc fixed in multipages
+    global XHTML_TOPTOP
+
+    if not config['headers']: return []
+    if not headers: headers = ['','','']
+    target = config['target']
+    if not HEADER_TEMPLATE.has_key(target):
+        Error("doheader: Unknow target '%s'"%target)
+
+    if target in ('html','xhtml') and config.get('css-sugar'):
+        template = string.split(HEADER_TEMPLATE[target+'css'], '\n')
+    else:
+        template = string.split(HEADER_TEMPLATE[target], '\n')
+
+    head_data = {'STYLE':[], 'ENCODING':''}
+    for key in head_data.keys():
+        val = config.get(string.lower(key))
+        # Remove .sty extension from each style filename (freaking tex)
+        # XXX Can't handle --style foo.sty,bar.sty
+        if target == 'tex' and key == 'STYLE':
+            val = map(lambda x:re.sub('(?i)\.sty$','',x), val)
+        if key == 'ENCODING':
+            val = get_encoding_string(val, target)
+        head_data[key] = val
+    # Parse header contents
+    for i in 0,1,2:
+        # Expand macros
+        contents = MacroMaster(config=config).expand(headers[i])
+        # Escapes - on tex, just do it if any \tag{} present
+        if target != 'tex' or \
+          (target == 'tex' and re.search(r'\\\w+{', contents)):
+            contents = doEscape(target, contents)
+        if target == 'lout':
+            contents = doFinalEscape(target, contents)
+
+        head_data['HEADER%d'%(i+1)] = contents
+    # css-inside removes STYLE line
+    #XXX In tex, this also removes the modules call (%!style:amsfonts)
+    if target in ('html','xhtml') and config.get('css-inside') and \
+       config.get('style'):
+        head_data['STYLE'] = []
+    Debug("Header Data: %s"%head_data, 1)
+    # Scan for empty dictionary keys
+    # If found, scan template lines for that key reference
+    # If found, remove the reference
+    # If there isn't any other key reference on the same line, remove it
+    #TODO loop by template line &gt; key
+    for key in head_data.keys():
+        if head_data.get(key): continue
+        for line in template:
+            if string.count(line, '%%(%s)s'%key):
+                sline = string.replace(line, '%%(%s)s'%key, '')
+                if not re.search(r'%\([A-Z0-9]+\)s', sline):
+                    template.remove(line)
+    # Style is a multiple tag.
+    # - If none or just one, use default template
+    # - If two or more, insert extra lines in a loop (and remove original)
+    styles = head_data['STYLE']
+    if len(styles) == 1:
+        head_data['STYLE'] = styles[0]
+    elif len(styles) &gt; 1:
+        style_mark = '%(STYLE)s'
+        for i in xrange(len(template)):
+            if string.count(template[i], style_mark):
+                while styles:
+                    template.insert(i+1,
+                        string.replace(
+                            template[i],
+                            style_mark,
+                            styles.pop()))
+                del template[i]
+                break
+    # Populate template with data (dict expansion)
+    template = string.join(template, '\n') % head_data
+
+    # Adding CSS contents into template (for --css-inside)
+    # This code sux. Dirty++
+    if target in ('html','xhtml') and config.get('css-inside') and \
+       config.get('style'):
+        set_global_config(config) # usually on convert(), needed here
+        for i in xrange(len(config['style'])):
+            cssfile = config['style'][i]
+            if not os.path.isabs(cssfile):
+                infile = config.get('sourcefile')
+                cssfile = os.path.join(
+                    os.path.dirname(infile), cssfile)
+            try:
+                contents = Readfile(cssfile, 1)
+                css = "\n%s\n%s\n%s\n%s\n" % (
+                    doCommentLine("Included %s" % cssfile),
+                    TAGS['cssOpen'],
+                    string.join(contents, '\n'),
+                    TAGS['cssClose'])
+                # Style now is content, needs escaping (tex)
+                #css = maskEscapeChar(css)
+            except:
+                errmsg = "CSS include failed for %s" % cssfile
+                css = "\n%s\n" % (doCommentLine(errmsg))
+            # Insert this CSS file contents on the template
+            template = re.sub('(?i)(&lt;/HEAD&gt;)', css+r'\1', template)
+            # template = re.sub(r'(?i)(\\begin{document})',
+            #		css+'\n'+r'\1', template) # tex
+
+        # The last blank line to keep everything separated
+        template = re.sub('(?i)(&lt;/HEAD&gt;)', '\n'+r'\1', template)
+    ret =  string.split(template, '\n')
+    #   zoomq:100419 for toc in multi pages
+    for i in range(len(ret)):
+        if "&lt;h1&gt;" in ret[i]:
+            #print ret[i][4:-5]
+            XHTML_TOPTOP = base64.b64encode(base64.b32encode(ret[i][4:-6]))[:9]
+            '''
+            print "&lt;a name='toptop%s' id='toptop%s'&gt;&lt;/a&gt;%s"%(XHTML_TOPTOP
+                ,XHTML_TOPTOP
+                ,ret[i]
+                )
+            '''
+            ret[i] = "&lt;a name='toptop%s' id='toptop%s'&gt;&lt;/a&gt;%s"%(XHTML_TOPTOP
+                ,XHTML_TOPTOP
+                ,ret[i]
+                )
+            break
+    #self.toptop = base64.b64encode(base64.b32encode(self.txt))[:9]
+    #return string.split(template, '\n')
+    #print XHTML_TOPTOP
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4848">def doCommentLine(txt):
+    # The -- string ends a (h|sg|xht)ml comment :(
+    txt = maskEscapeChar(txt)
+    if string.count(TAGS['comment'], '--') and \
+       string.count(txt, '--'):
+        txt = re.sub('-(?=-)', r'-\\', txt)
+
+    if TAGS['comment']:
+        return regex['x'].sub(txt, TAGS['comment'])
+    return ''
+
+</t>
+<t tx="zoomq.20100414115206.4849">def doFooter(config):
+    if not config['headers']: return []
+    ret = []
+    target = config['target']
+    cmdline = config['realcmdline']
+    typename = target
+    if target == 'tex': typename = 'LaTeX2e'
+    ppgd = '%s code generated by %s %s (%s)'%(
+            typename,my_name,my_version,my_url)
+    cmdline = 'cmdline: %s %s'%(my_name, string.join(cmdline, ' '))
+    ret.append('')
+    ret.append(doCommentLine(ppgd))
+    ret.append(doCommentLine(cmdline))
+    ret.append(TAGS['EOD'])
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4850">def doEscape(target,txt):
+    "Target-specific special escapes. Apply *before* insert any tag."
+    tmpmask = 'vvvvThisEscapingSuxvvvv'
+    if target in ('html','sgml','xhtml'):
+        txt = re.sub('&amp;','&amp;amp;',txt)
+        txt = re.sub('&lt;','&amp;lt;',txt)
+        txt = re.sub('&gt;','&amp;gt;',txt)
+        if target == 'sgml':
+            txt = re.sub('\xff','&amp;yuml;',txt)  # "+y
+    elif target == 'pm6':
+        txt = re.sub('&lt;','&lt;\#60&gt;',txt)
+    elif target == 'mgp':
+        txt = re.sub('^%',' %',txt)  # add leading blank to avoid parse
+    elif target == 'man':
+        txt = re.sub("^([.'])", '\\&amp;\\1',txt)           # command ID
+        txt = string.replace(txt,ESCCHAR, ESCCHAR+'e')  # \e
+    elif target == 'lout':
+        # TIP: / moved to FinalEscape to avoid //italic//
+        # TIP: these are also converted by lout:  ...  ---  --
+        txt = string.replace(txt, ESCCHAR, tmpmask)             # \
+        txt = string.replace(txt, '"', '"%s""'%ESCCHAR)         # "\""
+        txt = re.sub('([|&amp;{}@#^~])', '"\\1"',txt)               # "@"
+        txt = string.replace(txt, tmpmask, '"%s"'%(ESCCHAR*2))  # "\\"
+    elif target == 'tex':
+        # Mark literal \ to be changed to $\backslash$ later
+        txt = string.replace( txt, ESCCHAR, tmpmask)
+        txt = re.sub('([#$&amp;%{}])', ESCCHAR+r'\1'  , txt)  # \%
+        txt = re.sub('([~^])'    , ESCCHAR+r'\1{}', txt)  # \~{}
+        txt = re.sub('([&lt;|&gt;])'   ,         r'$\1$', txt)  # $&gt;$
+        txt = string.replace(txt, tmpmask,
+                             maskEscapeChar(r'$\backslash$'))
+        # TIP the _ is escaped at the end
+    return txt
+
+</t>
+<t tx="zoomq.20100414115206.4851"># TODO man: where - really needs to be escaped?
+def doFinalEscape(target, txt):
+    "Last escapes of each line"
+    if   target == 'pm6' : txt = string.replace(txt,ESCCHAR+'&lt;',r'&lt;\#92&gt;&lt;')
+    elif target == 'man' : txt = string.replace(txt, '-', r'\-')
+    elif target == 'sgml': txt = string.replace(txt, '[', '&amp;lsqb;')
+    elif target == 'lout': txt = string.replace(txt, '/', '"/"')
+    elif target == 'tex' :
+        txt = string.replace(txt, '_', r'\_')
+        txt = string.replace(txt, 'vvvvTexUndervvvv', '_')  # shame!
+    return txt
+
+</t>
+<t tx="zoomq.20100414115206.4852">def EscapeCharHandler(action, data):
+    "Mask/Unmask the Escape Char on the given string"
+    if not string.strip(data): return data
+    if action not in ('mask','unmask'):
+        Error("EscapeCharHandler: Invalid action '%s'"%action)
+    if action == 'mask': return string.replace(data,'\\',ESCCHAR)
+    else:                return string.replace(data,ESCCHAR,'\\')
+
+</t>
+<t tx="zoomq.20100414115206.4853">def maskEscapeChar(data):
+    "Replace any Escape Char \ with a text mask (Input: str or list)"
+    if type(data) == type([]):
+        return map(lambda x: EscapeCharHandler('mask', x), data)
+    return EscapeCharHandler('mask',data)
+
+</t>
+<t tx="zoomq.20100414115206.4854">def unmaskEscapeChar(data):
+    "Undo the Escape char \ masking (Input: str or list)"
+    if type(data) == type([]):
+        return map(lambda x: EscapeCharHandler('unmask', x), data)
+    return EscapeCharHandler('unmask',data)
+
+</t>
+<t tx="zoomq.20100414115206.4855">def addLineBreaks(mylist):
+    "use LB to respect sys.platform"
+    ret = []
+    for line in mylist:
+        line = string.replace(line,'\n',LB)  # embedded \n's
+        ret.append(line+LB)                  # add final line break
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4856"># Convert ['foo\nbar'] to ['foo', 'bar']
+def expandLineBreaks(mylist):
+    ret = []
+    for line in mylist:
+        ret.extend(string.split(line, '\n'))
+    return ret
+
+</t>
+<t tx="zoomq.20100414115206.4857">def compile_filters(filters, errmsg='Filter'):
+    if filters:
+        for i in xrange(len(filters)):
+            patt,repl = filters[i]
+            try: rgx = re.compile(patt)
+            except: Error("%s: '%s'"%(errmsg, patt))
+            filters[i] = (rgx,repl)
+    return filters
+
+</t>
+<t tx="zoomq.20100414115206.4858">def enclose_me(tagname, txt):
+    return TAGS.get(tagname+'Open') + txt + TAGS.get(tagname+'Close')
+
+</t>
+<t tx="zoomq.20100414115206.4859">def beautify_me(name, line):
+    "where name is: bold, italic or underline"
+    name  = 'font%s' % string.capitalize(name)
+    open  = TAGS['%sOpen'%name]
+    close = TAGS['%sClose'%name]
+    txt = r'%s\1%s'%(open, close)
+    line = regex[name].sub(txt,line)
+    return line
+
+</t>
+<t tx="zoomq.20100414115206.4860">def get_tagged_link(label, url):
+    ret = ''
+    target = CONF['target']
+    image_re = regex['img']
+
+    # Set link type
+    if regex['email'].match(url):
+        linktype = 'email'
+    else:
+        linktype = 'url';
+
+    # Escape specials from TEXT parts
+    label = doEscape(target,label)
+
+    # Escape specials from link URL
+    if not rules['linkable'] or rules['escapeurl']:
+        url = doEscape(target, url)
+
+    # Adding protocol to guessed link
+    guessurl = ''
+    if linktype == 'url' and \
+       re.match('(?i)'+regex['_urlskel']['guess'], url):
+        if url[0] in 'Ww': guessurl = 'http://' +url
+        else             : guessurl =  'ftp://' +url
+
+        # Not link aware targets -&gt; protocol is useless
+        if not rules['linkable']: guessurl = ''
+
+    # Simple link (not guessed)
+    if not label and not guessurl:
+        if CONF['mask-email'] and linktype == 'email':
+            # Do the email mask feature (no TAGs, just text)
+            url = string.replace(url,'@',' (a) ')
+            url = string.replace(url,'.',' ')
+            url = "&lt;%s&gt;" % url
+            if rules['linkable']: url = doEscape(target, url)
+            ret = url
+        else:
+            # Just add link data to tag
+            tag = TAGS[linktype]
+            ret = regex['x'].sub(url,tag)
+
+    # Named link or guessed simple link
+    else:
+        # Adjusts for guessed link
+        if not label: label = url         # no   protocol
+        if guessurl : url   = guessurl    # with protocol
+
+        # Image inside link!
+        if image_re.match(label):
+            if rules['imglinkable']:  # get image tag
+                label = parse_images(label)
+            else:                     #  img@link !supported
+                label = "(%s)"%image_re.match(label).group(1)
+
+        # Putting data on the right appearance order
+        if rules['linkable']:
+            urlorder = [url, label]   # link before label
+        else:
+            urlorder = [label, url]   # label before link
+
+        # Add link data to tag (replace \a's)
+        ret = TAGS["%sMark"%linktype]
+        for data in urlorder:
+            ret = regex['x'].sub(data,ret,1)
+
+    return ret
+
+
+</t>
+<t tx="zoomq.20100414115206.4861">def parse_deflist_term(line):
+    "Extract and parse definition list term contents"
+    img_re = regex['img']
+    term   = regex['deflist'].search(line).group(3)
+
+    # Mask image inside term as (image.jpg), where not supported
+    if not rules['imgasdefterm'] and img_re.search(term):
+        while img_re.search(term):
+            imgfile = img_re.search(term).group(1)
+            term = img_re.sub('(%s)'%imgfile, term, 1)
+
+    #TODO tex: escape ] on term. \], \rbrack{} and \verb!]! don't work :(
+    return term
+
+
+</t>
+<t tx="zoomq.20100414115206.4862">def get_tagged_bar(line):
+    m = regex['bar'].search(line)
+    if not m: return line
+    txt = m.group(2)
+
+    # Map strong bar to pagebreak
+    if rules['mapbar2pagebreak'] and TAGS['pageBreak']:
+        TAGS['bar2'] = TAGS['pageBreak']
+
+    # Set bar type
+    if txt[0] == '=': bar = TAGS['bar2']
+    else            : bar = TAGS['bar1']
+
+    # To avoid comment tag confusion like &lt;!-- ------ --&gt;
+    if string.count(TAGS['comment'], '--'):
+        txt = string.replace(txt,'--','__')
+
+    # Tag line
+    return regex['x'].sub(txt, bar)
+
+
+</t>
+<t tx="zoomq.20100414115206.4863">def get_image_align(line):
+    "Return the image (first found) align for the given line"
+
+    # First clear marks that can mess align detection
+    line = re.sub(SEPARATOR+'$', '', line)  # remove deflist sep
+    line = re.sub('^'+SEPARATOR, '', line)  # remove list sep
+    line = re.sub('^[\t]+'     , '', line)  # remove quote mark
+
+    # Get image position on the line
+    m = regex['img'].search(line)
+    ini = m.start() ; head = 0
+    end = m.end()   ; tail = len(line)
+
+    # The align detection algorithm
+    if   ini == head and end != tail: align = 'left'   # ^img + text$
+    elif ini != head and end == tail: align = 'right'  # ^text + img$
+    else                            : align = 'center' # default align
+
+    # Some special cases
+    if BLOCK.isblock('table'): align = 'center'    # ignore when table
+#	if TARGET == 'mgp' and align == 'center': align = 'center'
+
+    return align
+
+
+</t>
+<t tx="zoomq.20100414115206.4864"># Reference: http://www.iana.org/assignments/character-sets
+# http://www.drclue.net/F1.cgi/HTML/META/META.html
+def get_encoding_string(enc, target):
+    if not enc: return ''
+    # Target specific translation table
+    translate = {
+    'tex': {
+      # missing: ansinew , applemac , cp437 , cp437de , cp865
+      'us-ascii'    : 'ascii',
+      'windows-1250': 'cp1250',
+      'windows-1252': 'cp1252',
+      'ibm850'      : 'cp850',
+      'ibm852'      : 'cp852',
+      'iso-8859-1'  : 'latin1',
+      'iso-8859-2'  : 'latin2',
+      'iso-8859-3'  : 'latin3',
+      'iso-8859-4'  : 'latin4',
+      'iso-8859-5'  : 'latin5',
+      'iso-8859-9'  : 'latin9',
+      'koi8-r'      : 'koi8-r'
+      }
+    }
+    # Normalization
+    enc = re.sub('(?i)(us[-_]?)?ascii|us|ibm367','us-ascii'  , enc)
+    enc = re.sub('(?i)(ibm|cp)?85([02])'        ,'ibm85\\2'  , enc)
+    enc = re.sub('(?i)(iso[_-]?)?8859[_-]?'     ,'iso-8859-' , enc)
+    enc = re.sub('iso-8859-($|[^1-9]).*'        ,'iso-8859-1', enc)
+    # Apply translation table
+    try: enc = translate[target][string.lower(enc)]
+    except: pass
+    return enc
+
+
+</t>
+<t tx="zoomq.20100414115206.4865">##############################################################################
+##MerryChristmas,IdontwanttofighttonightwithyouImissyourbodyandIneedyourlove##
+##############################################################################
+
+
+def process_source_file(file='', noconf=0, contents=[]):
+    """
+    Find and Join all the configuration available for a source file.
+    No sanity checking is done on this step.
+    It also extracts the source document parts into separate holders.
+
+    The config scan order is:
+       1. The user configuration file (i.e. $HOME/.txt2tagsrc)
+       2. The source document's CONF area
+       3. The command line options
+
+    The return data is a tuple of two items:
+       1. The parsed config dictionary
+       2. The document's parts, as a (head, conf, body) tuple
+
+    All the conversion process will be based on the data and
+    configuration returned by this function.
+    The source files is read on this step only.
+    """
+    if contents:
+        source = SourceDocument(contents=contents)
+    else:
+        source = SourceDocument(file)
+    head, conf, body = source.split()
+    Message(_("Source document contents stored"),2)
+    if not noconf:
+        # Read document config
+        source_raw = source.get_raw_config()
+        # Join all the config directives found, then parse it
+        full_raw = RC_RAW + source_raw + CMDLINE_RAW
+        Message(_("Parsing and saving all config found (%03d items)")%(
+                len(full_raw)),1)
+        full_parsed = ConfigMaster(full_raw).parse()
+        # Add manually the filename to the conf dic
+        if contents:
+            full_parsed['sourcefile'] = MODULEIN
+            full_parsed['infile'] = MODULEIN
+            full_parsed['outfile'] = MODULEOUT
+        else:
+            full_parsed['sourcefile'] = file
+        # Maybe should we dump the config found?
+        if full_parsed.get('dump-config'):
+            dumpConfig(source_raw, full_parsed)
+            Quit()
+        # Okay, all done
+        Debug("FULL config for this file: %s"%full_parsed, 1)
+    else:
+        full_parsed = {}
+    return full_parsed, (head,conf,body)
+
+</t>
+<t tx="zoomq.20100414115206.4866">def get_infiles_config(infiles):
+    """
+    Find and Join into a single list, all configuration available
+    for each input file. This function is supposed to be the very
+    first one to be called, before any processing.
+    """
+    return map(process_source_file, infiles)
+
+</t>
+<t tx="zoomq.20100414115206.4867">def convert_this_files(configs):
+    global CONF
+    for myconf,doc in configs:                 # multifile support
+        target_head = []
+        target_toc  = []
+        target_body = []
+        target_foot = []
+        source_head, source_conf, source_body = doc
+        myconf = ConfigMaster().sanity(myconf)
+        # Compose the target file Headers
+        #TODO escape line before?
+        #TODO see exceptions by tex and mgp
+        Message(_("Composing target Headers"),1)
+        target_head = doHeader(source_head, myconf)
+        # Parse the full marked body into tagged target
+        first_body_line = (len(source_head) or 1)+ len(source_conf) + 1
+        Message(_("Composing target Body"),1)
+        target_body, marked_toc = convert(source_body, myconf,
+                                  firstlinenr=first_body_line)
+        # If dump-source, we're done
+        if myconf['dump-source']:
+            for line in source_head+source_conf+target_body:
+                print line
+            return
+        # Make TOC (if needed)
+        Message(_("Composing target TOC"),1)
+        tagged_toc  = toc_tagger(marked_toc, myconf)
+        target_toc  = toc_formatter(tagged_toc, myconf)
+        target_body = toc_inside_body(target_body, target_toc, myconf)
+        if not AUTOTOC and not myconf['toc-only']: target_toc = []
+        # Compose the target file Footer
+        Message(_("Composing target Footer"),1)
+        target_foot = doFooter(myconf)
+        # Finally, we have our document
+        outlist = target_head + target_toc + target_body + target_foot
+        # If on GUI, abort before finish_him
+        # If module, return finish_him as list
+        # Else, write results to file or STDOUT
+        if GUI:
+            return outlist, myconf
+        elif myconf.get('outfile') == MODULEOUT:
+            return finish_him(outlist, myconf), myconf
+        else:
+            Message(_("Saving results to the output file"),1)
+            finish_him(outlist, myconf)
+
+
+</t>
+<t tx="zoomq.20100414115206.4868">def parse_images(line):
+    "Tag all images found"
+    while regex['img'].search(line) and TAGS['img'] != '[\a]':
+        txt = regex['img'].search(line).group(1)
+        tag = TAGS['img']
+
+        # HTML, XHTML and mgp!
+        if rules['imgalignable']:
+            align = get_image_align(line)
+            # Add align on tag
+            align_name = string.capitalize(align)
+            align_tag = TAGS['imgAlign'+align_name]
+            tag = regex['_imgAlign'].sub(align_tag, tag, 1)
+            # Dirty fix to allow centered solo images
+            if align == 'center' and TARGET in ('html','xhtml'):
+                rest = regex['img'].sub('',line,1)
+                if re.match('^\s+$', rest):
+                    tag = "&lt;center&gt;%s&lt;/center&gt;" %tag
+
+        if TARGET == 'tex':
+            tag = re.sub(r'\\b',r'\\\\b',tag)
+            txt = string.replace(txt, '_', 'vvvvTexUndervvvv')
+
+        line = regex['img'].sub(tag,line,1)
+        line = regex['x'].sub(txt,line,1)
+    return line
+
+
+</t>
+<t tx="zoomq.20100414115206.4869">def add_inline_tags(line):
+    # Beautifiers
+    for beauti in ('Bold', 'Italic', 'Underline'):
+        if regex['font%s'%beauti].search(line):
+            line = beautify_me(beauti, line)
+
+    line = parse_images(line)
+    return line
+
+
+</t>
+<t tx="zoomq.20100414115206.4870">def get_include_contents(file, path=''):
+    "Parses %!include: value and extract file contents"
+    ids = {'`':'verb', '"':'raw', "'":'tagged' }
+    id = 't2t'
+    # Set include type and remove identifier marks
+    mark = file[0]
+    if mark in ids.keys():
+        if file[:2] == file[-2:] == mark*2:
+            id = ids[mark]     # set type
+            file = file[2:-2]  # remove marks
+    # Handle remote dir execution
+    filepath = os.path.join(path, file)
+    # Read included file contents
+    lines = Readfile(filepath, remove_linebreaks=1)
+    # Default txt2tags marked text, just BODY matters
+    if id == 't2t':
+        lines = get_file_body(filepath)
+        lines.insert(0, '%%INCLUDED(%s) starts here: %s'%(id,file))
+        # This appears when included hit EOF with verbatim area open
+        #lines.append('%%INCLUDED(%s) ends here: %s'%(id,file))
+    return id, lines
+
+
+</t>
+<t tx="zoomq.20100414115206.4871">def set_global_config(config):
+    global CONF, TAGS, regex, rules, TARGET
+    CONF   = config
+    TAGS   = getTags(CONF)
+    rules  = getRules(CONF)
+    regex  = getRegexes()
+    TARGET = config['target']  # save for buggy functions that need global
+
+
+</t>
+<t tx="zoomq.20100414115206.4872">def convert(bodylines, config, firstlinenr=1):
+    global BLOCK
+
+    set_global_config(config)
+
+    target = config['target']
+    BLOCK = BlockMaster()
+    MASK  =  MaskMaster()
+    TITLE = TitleMaster()
+
+    ret = []
+    dump_source = []
+    f_lastwasblank = 0
+
+    # Compiling all PreProc regexes
+    pre_filter = compile_filters(
+        CONF['preproc'], _('Invalid PreProc filter regex'))
+
+    # Let's mark it up!
+    linenr = firstlinenr-1
+    lineref = 0
+    while lineref &lt; len(bodylines):
+        # Defaults
+        MASK.reset()
+        results_box = ''
+
+        untouchedline = bodylines[lineref]
+        dump_source.append(untouchedline)
+
+        line = re.sub('[\n\r]+$','',untouchedline)   # del line break
+
+        # Apply PreProc filters
+        if pre_filter:
+            errmsg = _('Invalid PreProc filter replacement')
+            for rgx,repl in pre_filter:
+                try: line = rgx.sub(repl, line)
+                except: Error("%s: '%s'"%(errmsg, repl))
+
+        line = maskEscapeChar(line)                  # protect \ char
+        linenr  = linenr  +1
+        lineref = lineref +1
+
+        Debug(repr(line), 2, linenr)  # heavy debug: show each line
+
+        #------------------[ Comment Block ]------------------------
+
+        # We're already on a comment block
+        if BLOCK.block() == 'comment':
+
+            # Closing comment
+            if regex['blockCommentClose'].search(line):
+                ret.extend(BLOCK.blockout() or [])
+                continue
+
+            # Normal comment-inside line. Ignore it.
+            continue
+
+        # Detecting comment block init
+        if regex['blockCommentOpen'].search(line) \
+           and BLOCK.block() not in BLOCK.exclusive:
+            ret.extend(BLOCK.blockin('comment'))
+            continue
+
+        #-------------------------[ Raw Text ]----------------------
+
+        # We're already on a raw block
+        if BLOCK.block() == 'raw':
+
+            # Closing raw
+            if regex['blockRawClose'].search(line):
+                ret.extend(BLOCK.blockout())
+                continue
+
+            # Normal raw-inside line
+            BLOCK.holdadd(line)
+            continue
+
+        # Detecting raw block init
+        if regex['blockRawOpen'].search(line) \
+           and BLOCK.block() not in BLOCK.exclusive:
+            ret.extend(BLOCK.blockin('raw'))
+            continue
+
+        # One line raw text
+        if regex['1lineRaw'].search(line) \
+           and BLOCK.block() not in BLOCK.exclusive:
+            ret.extend(BLOCK.blockin('raw'))
+            line = regex['1lineRaw'].sub('',line)
+            BLOCK.holdadd(line)
+            ret.extend(BLOCK.blockout())
+            continue
+
+        #------------------------[ Verbatim  ]----------------------
+
+        #TIP We'll never support beautifiers inside verbatim
+
+        # Closing table mapped to verb
+        if BLOCK.block() == 'verb' \
+           and BLOCK.prop('mapped') == 'table' \
+           and not regex['table'].search(line):
+            ret.extend(BLOCK.blockout())
+
+        # We're already on a verb block
+        if BLOCK.block() == 'verb':
+
+            # Closing verb
+            if regex['blockVerbClose'].search(line):
+                ret.extend(BLOCK.blockout())
+                continue
+
+            # Normal verb-inside line
+            BLOCK.holdadd(line)
+            continue
+
+        # Detecting verb block init
+        if regex['blockVerbOpen'].search(line) \
+           and BLOCK.block() not in BLOCK.exclusive:
+            ret.extend(BLOCK.blockin('verb'))
+            f_lastwasblank = 0
+            continue
+
+        # One line verb-formatted text
+        if regex['1lineVerb'].search(line) \
+           and BLOCK.block() not in BLOCK.exclusive:
+            ret.extend(BLOCK.blockin('verb'))
+            line = regex['1lineVerb'].sub('',line)
+            BLOCK.holdadd(line)
+            ret.extend(BLOCK.blockout())
+            f_lastwasblank = 0
+            continue
+
+        # Tables are mapped to verb when target is not table-aware
+        if not rules['tableable'] and regex['table'].search(line):
+            if not BLOCK.isblock('verb'):
+                ret.extend(BLOCK.blockin('verb'))
+                BLOCK.propset('mapped', 'table')
+                BLOCK.holdadd(line)
+                continue
+
+        #---------------------[ blank lines ]-----------------------
+
+        if regex['blankline'].search(line):
+
+            # Close open paragraph
+            if BLOCK.isblock('para'):
+                ret.extend(BLOCK.blockout())
+                f_lastwasblank = 1
+                continue
+
+            # Close all open tables
+            if BLOCK.isblock('table'):
+                ret.extend(BLOCK.blockout())
+                f_lastwasblank = 1
+                continue
+
+            # Close all open quotes
+            while BLOCK.isblock('quote'):
+                ret.extend(BLOCK.blockout())
+
+            # Closing all open lists
+            if f_lastwasblank:          # 2nd consecutive blank
+                if BLOCK.block()[-4:] == 'list':
+                    BLOCK.holdaddsub('')   # helps parser
+                while BLOCK.depth:  # closes list (if any)
+                    ret.extend(BLOCK.blockout())
+                continue            # ignore consecutive blanks
+
+            # Paragraph (if any) is wanted inside lists also
+            if BLOCK.block()[-4:] == 'list':
+                BLOCK.holdaddsub('')
+            else:
+                # html: show blank line (needs tag)
+                if target in ('html','xhtml'):
+                    ret.append(TAGS['paragraphOpen']+\
+                               TAGS['paragraphClose'])
+                # Otherwise we just show a blank line
+                else:
+                    ret.append('')
+
+            f_lastwasblank = 1
+            continue
+
+
+        #---------------------[ special ]---------------------------
+
+        if regex['special'].search(line):
+            # Include command
+            targ, key, val = ConfigLines().parse_line(
+                               line, 'include', target)
+            if key:
+                Debug("Found config '%s', value '%s'"%(
+                       key,val),1,linenr)
+
+                incpath = os.path.dirname(CONF['sourcefile'])
+                incfile = val
+                err = _('A file cannot include itself (loop!)')
+                if CONF['sourcefile'] == incfile:
+                    Error("%s: %s"%(err,incfile))
+                inctype, inclines = get_include_contents(
+                                      incfile, incpath)
+                # Verb, raw and tagged are easy
+                if inctype != 't2t':
+                    ret.extend(BLOCK.blockin(inctype))
+                    BLOCK.holdextend(inclines)
+                    ret.extend(BLOCK.blockout())
+                else:
+                    # Insert include lines into body
+                    #TODO include maxdepth limit
+                    bodylines = bodylines[:lineref] \
+                               +inclines \
+                               +bodylines[lineref:]
+                    #TODO fix path if include@include
+                    # Remove %!include call
+                    if CONF['dump-source']:
+                        dump_source.pop()
+                continue
+            else:
+                Debug('Bogus Special Line',1,linenr)
+
+        #---------------------[ dump-source ]-----------------------
+
+        # We don't need to go any further
+        if CONF['dump-source']:
+            continue
+
+        #---------------------[ Comments ]--------------------------
+
+        # Just skip them (if not macro)
+        if regex['comment'].search(line) and not \
+           regex['macros'].match(line) and not \
+           regex['toc'].match(line):
+            continue
+
+        #---------------------[ Triggers ]--------------------------
+
+        # Valid line, reset blank status
+        f_lastwasblank = 0
+
+        # Any NOT quote line closes all open quotes
+        if BLOCK.isblock('quote') and not regex['quote'].search(line):
+            while BLOCK.isblock('quote'):
+                ret.extend(BLOCK.blockout())
+
+        # Any NOT table line closes an open table
+        if BLOCK.isblock('table') and not regex['table'].search(line):
+            ret.extend(BLOCK.blockout())
+
+
+        #---------------------[ Horizontal Bar ]--------------------
+
+        if regex['bar'].search(line):
+
+            # A bar closes a paragraph
+            if BLOCK.isblock('para'):
+                ret.extend(BLOCK.blockout())
+
+            # We need to close all opened quote blocks
+            # if bar isn't allowed inside or if not a quote line
+            if BLOCK.isblock('quote'):
+                if not rules['barinsidequote'] or \
+                   not regex['quote'].search(line):
+                    while BLOCK.isblock('quote'):
+                        ret.extend(BLOCK.blockout())
+
+            # Quote + bar: continue processing for quoting
+            if rules['barinsidequote'] and \
+               regex['quote'].search(line):
+                pass
+
+            # Just bar: save tagged line and we're done
+            else:
+                line = get_tagged_bar(line)
+                if BLOCK.block()[-4:] == 'list':
+                    BLOCK.holdaddsub(line)
+                elif BLOCK.block():
+                    BLOCK.holdadd(line)
+                else:
+                    ret.append(line)
+                    Debug("BAR: %s"%line, 6)
+                continue
+
+        #---------------------[ Title ]-----------------------------
+
+        #TODO set next blank and set f_lastwasblank or f_lasttitle
+        if (regex['title'].search(line) or
+            regex['numtitle'].search(line)) and \
+            BLOCK.block()[-4:] != 'list':
+
+            # A title closes a paragraph
+            if BLOCK.isblock('para'):
+                ret.extend(BLOCK.blockout())
+
+            TITLE.add(line)
+            tagged_title = TITLE.get()
+            ret.extend(tagged_title)
+            Debug("TITLE: %s"%tagged_title, 6)
+
+            f_lastwasblank = 1
+            continue
+
+        #---------------------[ %%toc ]-----------------------
+
+        # %%toc line closes paragraph
+        if BLOCK.block() == 'para' and regex['toc'].search(line):
+            ret.extend(BLOCK.blockout())
+
+        #---------------------[ apply masks ]-----------------------
+
+        line = MASK.mask(line)
+
+        #XXX from here, only block-inside lines will pass
+
+        #---------------------[ Quote ]-----------------------------
+
+        if regex['quote'].search(line):
+
+            # Store number of leading TABS
+            quotedepth = len(regex['quote'].search(line).group(0))
+
+            # SGML doesn't support nested quotes
+            if rules['quotenotnested']: quotedepth = 1
+
+            # Don't cross depth limit
+            maxdepth = rules['quotemaxdepth']
+            if maxdepth and quotedepth &gt; maxdepth:
+                quotedepth = maxdepth
+
+            # New quote
+            if not BLOCK.isblock('quote'):
+                ret.extend(BLOCK.blockin('quote'))
+
+            # New subquotes
+            while BLOCK.depth &lt; quotedepth:
+                BLOCK.blockin('quote')
+
+            # Closing quotes
+            while quotedepth &lt; BLOCK.depth:
+                ret.extend(BLOCK.blockout())
+
+        #---------------------[ Lists ]-----------------------------
+
+        # An empty item also closes the current list
+        if BLOCK.block()[-4:] == 'list':
+            m = regex['listclose'].match(line)
+            if m:
+                listindent = m.group(1)
+                listtype = m.group(2)
+                currlisttype = BLOCK.prop('type')
+                currlistindent = BLOCK.prop('indent')
+                if listindent == currlistindent and \
+                   listtype == currlisttype:
+                    ret.extend(BLOCK.blockout())
+                    continue
+
+        if   regex['list'].search(line) or \
+          regex['numlist'].search(line) or \
+          regex['deflist'].search(line):
+
+            listindent = BLOCK.prop('indent')
+            listids = string.join(LISTNAMES.keys(), '')
+            m = re.match('^( *)([%s]) '%listids, line)
+            listitemindent = m.group(1)
+            listtype = m.group(2)
+            listname = LISTNAMES[listtype]
+            results_box = BLOCK.holdadd
+
+            # Del list ID (and separate term from definition)
+            if listname == 'deflist':
+                term = parse_deflist_term(line)
+                line = regex['deflist'].sub(
+                    SEPARATOR+term+SEPARATOR,line)
+            else:
+                line = regex[listname].sub(SEPARATOR,line)
+
+            # Don't cross depth limit
+            maxdepth = rules['listmaxdepth']
+            if maxdepth and BLOCK.depth == maxdepth:
+                if len(listitemindent) &gt; len(listindent):
+                    listitemindent = listindent
+
+            # List bumping (same indent, diff mark)
+            # Close the currently open list to clear the mess
+            if BLOCK.block()[-4:] == 'list' \
+               and listname != BLOCK.block() \
+               and len(listitemindent) == len(listindent):
+                ret.extend(BLOCK.blockout())
+                listindent = BLOCK.prop('indent')
+
+            # Open mother list or sublist
+            if BLOCK.block()[-4:] != 'list' or \
+               len(listitemindent) &gt; len(listindent):
+                ret.extend(BLOCK.blockin(listname))
+                BLOCK.propset('indent',listitemindent)
+                BLOCK.propset('type',listtype)
+
+            # Closing sublists
+            while len(listitemindent) &lt; len(BLOCK.prop('indent')):
+                ret.extend(BLOCK.blockout())
+
+            # O-oh, sublist before list ("\n\n  - foo\n- foo")
+            # Fix: close sublist (as mother), open another list
+            if BLOCK.block()[-4:] != 'list':
+                ret.extend(BLOCK.blockin(listname))
+                BLOCK.propset('indent',listitemindent)
+                BLOCK.propset('type',listtype)
+
+        #---------------------[ Table ]-----------------------------
+
+        #TODO escape undesired format inside table
+        #TODO add pm6 target
+        if regex['table'].search(line):
+
+            if not BLOCK.isblock('table'):   # first table line!
+                ret.extend(BLOCK.blockin('table'))
+                BLOCK.tableparser.__init__(line)
+
+            tablerow = TableMaster().parse_row(line)
+            BLOCK.tableparser.add_row(tablerow)     # save config
+
+            # Maintain line to unmask and inlines
+            line = string.join(tablerow['cells'], SEPARATOR)
+
+        #---------------------[ Paragraph ]-------------------------
+
+        if not BLOCK.block() and \
+           not string.count(line, MASK.tocmask): # new para!
+            ret.extend(BLOCK.blockin('para'))
+
+
+        ############################################################
+        ############################################################
+        ############################################################
+
+
+        #---------------------[ Final Parses ]----------------------
+
+        # The target-specific special char escapes for body lines
+        line = doEscape(target,line)
+
+        line = add_inline_tags(line)
+        line = MASK.undo(line)
+
+
+        #---------------------[ Hold or Return? ]-------------------
+
+        ### Now we must choose where to put the parsed line
+        #
+        if not results_box:
+            # List item extra lines
+            if BLOCK.block()[-4:] == 'list':
+                results_box = BLOCK.holdaddsub
+            # Other blocks
+            elif BLOCK.block():
+                results_box = BLOCK.holdadd
+            # No blocks
+            else:
+                line = doFinalEscape(target, line)
+                results_box = ret.append
+
+        results_box(line)
+
+    # EOF: close any open para/verb/lists/table/quotes
+    Debug('EOF',7)
+    while BLOCK.block():
+        ret.extend(BLOCK.blockout())
+
+    # Maybe close some opened title area?
+    if rules['titleblocks']:
+        ret.extend(TITLE.close_all())
+
+    # Maybe a major tag to enclose body? (like DIV for CSS)
+    if TAGS['bodyOpen' ]: ret.insert(0, TAGS['bodyOpen'])
+    if TAGS['bodyClose']: ret.append(TAGS['bodyClose'])
+
+    if CONF['toc-only']: ret = []
+    marked_toc = TITLE.dump_marked_toc(CONF['toc-level'])
+
+    # If dump-source, all parsing is ignored
+    if CONF['dump-source']: ret = dump_source[:]
+
+    return ret, marked_toc
+
+
+
+</t>
+<t tx="zoomq.20100414115206.4873">##############################################################################
+################################### GUI ######################################
+##############################################################################
+#
+# Tk help: http://python.org/topics/tkinter/
+#    Tuto: http://ibiblio.org/obp/py4fun/gui/tkPhone.html
+#          /usr/lib/python*/lib-tk/Tkinter.py
+#
+# grid table : row=0, column=0, columnspan=2, rowspan=2
+# grid align : sticky='n,s,e,w' (North, South, East, West)
+# pack place : side='top,bottom,right,left'
+# pack fill  : fill='x,y,both,none', expand=1
+# pack align : anchor='n,s,e,w' (North, South, East, West)
+# padding    : padx=10, pady=10, ipadx=10, ipady=10 (internal)
+# checkbox   : offvalue is return if the _user_ deselected the box
+# label align: justify=left,right,center
+
+def load_GUI_resources():
+    "Load all extra modules and methods used by GUI"
+    global askopenfilename, showinfo, showwarning, showerror, Tkinter
+    from tkFileDialog import askopenfilename
+    from tkMessageBox import showinfo,showwarning,showerror
+    import Tkinter
+
+</t>
+<t tx="zoomq.20100414115206.4874">class Gui:
+    "Graphical Tk Interface"
+    @others
+</t>
+<t tx="zoomq.20100414115206.4875">def __init__(self, conf={}):
+    self.root = Tkinter.Tk()    # mother window, come to butthead
+    self.root.title(my_name)    # window title bar text
+    self.window = self.root     # variable "focus" for inclusion
+    self.row = 0                # row count for grid()
+
+    self.action_length = 150    # left column length (pixel)
+    self.frame_margin  = 10     # frame margin size  (pixel)
+    self.frame_border  = 6      # frame border size  (pixel)
+
+    # The default Gui colors, can be changed by %!guicolors
+    self.dft_gui_colors = ['#6c6','white','#cf9','#030']
+    self.gui_colors = []
+    self.bg1 = self.fg1 = self.bg2 = self.fg2 = ''
+
+    # On Tk, vars need to be set/get using setvar()/get()
+    self.infile  = self.setvar('')
+    self.target  = self.setvar('')
+    self.target_name = self.setvar('')
+
+    # The checks appearance order
+    self.checks  = [
+      'headers','enum-title','toc','mask-email',
+      'toc-only','stdout']
+
+    # Creating variables for all checks
+    for check in self.checks:
+        setattr(self, 'f_'+check, self.setvar(''))
+
+    # Load RC config
+    self.conf = {}
+    if conf: self.load_config(conf)
+
+</t>
+<t tx="zoomq.20100414115206.4876">def load_config(self, conf):
+    self.conf = conf
+    self.gui_colors = conf.get('guicolors') or self.dft_gui_colors
+    self.bg1, self.fg1, self.bg2, self.fg2 = self.gui_colors
+    self.root.config(bd=15,bg=self.bg1)
+
+</t>
+<t tx="zoomq.20100414115206.4877">### Config as dic for python 1.5 compat (**opts don't work :( )
+def entry(self, **opts): return Tkinter.Entry(self.window, opts)
+</t>
+<t tx="zoomq.20100414115206.4878">def label(self, txt='', bg=None, **opts):
+    opts.update({'text':txt,'bg':bg or self.bg1})
+    return Tkinter.Label(self.window, opts)
+</t>
+<t tx="zoomq.20100414115206.4879">def button(self,name,cmd,**opts):
+    opts.update({'text':name,'command':cmd})
+    return Tkinter.Button(self.window, opts)
+</t>
+<t tx="zoomq.20100414115206.4880">def check(self,name,checked=0,**opts):
+    bg, fg = self.bg2, self.fg2
+    opts.update({
+      'text':name, 'onvalue':1, 'offvalue':0,
+      'activeforeground':fg, 'fg':fg,
+      'activebackground':bg, 'bg':bg,
+      'highlightbackground':bg, 'anchor':'w'
+    })
+    chk = Tkinter.Checkbutton(self.window, opts)
+    if checked: chk.select()
+    chk.grid(columnspan=2, sticky='w', padx=0)
+</t>
+<t tx="zoomq.20100414115206.4881">def menu(self,sel,items):
+    return apply(Tkinter.OptionMenu,(self.window,sel)+tuple(items))
+
+</t>
+<t tx="zoomq.20100414115206.4882"># Handy auxiliary functions
+def action(self, txt):
+    self.label(txt, fg=self.fg1, bg=self.bg1,
+         wraplength=self.action_length).grid(column=0,row=self.row)
+</t>
+<t tx="zoomq.20100414115206.4883">def frame_open(self):
+    self.window = Tkinter.Frame(self.root,bg=self.bg2,
+         borderwidth=self.frame_border)
+</t>
+<t tx="zoomq.20100414115206.4884">def frame_close(self):
+    self.window.grid(column=1, row=self.row, sticky='w',
+         padx=self.frame_margin)
+    self.window = self.root
+    self.label('').grid()
+    self.row = self.row + 2   # update row count
+</t>
+<t tx="zoomq.20100414115206.4885">def target_name2key(self):
+    name = self.target_name.get()
+    target = filter(lambda x: TARGET_NAMES[x] == name, TARGETS)
+    try   : key = target[0]
+    except: key = ''
+    self.target = self.setvar(key)
+</t>
+<t tx="zoomq.20100414115206.4886">def target_key2name(self):
+    key = self.target.get()
+    name = TARGET_NAMES.get(key) or key
+    self.target_name = self.setvar(name)
+
+</t>
+<t tx="zoomq.20100414115206.4887">def exit(self): self.root.destroy()
+</t>
+<t tx="zoomq.20100414115206.4888">def setvar(self, val): z = Tkinter.StringVar() ; z.set(val) ; return z
+
+</t>
+<t tx="zoomq.20100414115206.4889">def askfile(self):
+    ftypes= [(_('txt2tags files'),('*.t2t','*.txt')),
+             (_('All files'),'*')]
+    newfile = askopenfilename(filetypes=ftypes)
+    if newfile:
+        self.infile.set(newfile)
+        newconf = process_source_file(newfile)[0]
+        newconf = ConfigMaster().sanity(newconf, gui=1)
+        # Restate all checkboxes after file selection
+        #TODO how to make a refresh without killing it?
+        self.root.destroy()
+        self.__init__(newconf)
+        self.mainwindow()
+
+</t>
+<t tx="zoomq.20100414115206.4890">def scrollwindow(self, txt='no text!', title=''):
+    # Create components
+    win    = Tkinter.Toplevel() ; win.title(title)
+    frame  = Tkinter.Frame(win)
+    scroll = Tkinter.Scrollbar(frame)
+    text   = Tkinter.Text(frame,yscrollcommand=scroll.set)
+    button = Tkinter.Button(win)
+    # Config
+    text.insert(Tkinter.END, string.join(txt,'\n'))
+    scroll.config(command=text.yview)
+    button.config(text=_('Close'), command=win.destroy)
+    button.focus_set()
+    # Packing
+    text.pack(side='left', fill='both', expand=1)
+    scroll.pack(side='right', fill='y')
+    frame.pack(fill='both', expand=1)
+    button.pack(ipadx=30)
+
+</t>
+<t tx="zoomq.20100414115206.4891">def runprogram(self):
+    global CMDLINE_RAW
+    # Prepare
+    self.target_name2key()
+    infile, target = self.infile.get(), self.target.get()
+    # Sanity
+    if not target:
+        showwarning(my_name,_("You must select a target type!"))
+        return
+    if not infile:
+        showwarning(my_name,
+           _("You must provide the source file location!"))
+        return
+    # Compose cmdline
+    guiflags = []
+    real_cmdline_conf = ConfigMaster(CMDLINE_RAW).parse()
+    if real_cmdline_conf.has_key('infile'):
+        del real_cmdline_conf['infile']
+    if real_cmdline_conf.has_key('target'):
+        del real_cmdline_conf['target']
+    real_cmdline = CommandLine().compose_cmdline(real_cmdline_conf)
+    default_outfile = ConfigMaster().get_outfile_name(
+         {'sourcefile':infile, 'outfile':'', 'target':target})
+    for opt in self.checks:
+        val = int(getattr(self, 'f_%s'%opt).get() or "0")
+        if opt == 'stdout': opt = 'outfile'
+        on_config  = self.conf.get(opt) or 0
+        on_cmdline = real_cmdline_conf.get(opt) or 0
+        if opt == 'outfile':
+            if on_config  == STDOUT: on_config = 1
+            else: on_config = 0
+            if on_cmdline == STDOUT: on_cmdline = 1
+            else: on_cmdline = 0
+        if val != on_config or (
+          val == on_config == on_cmdline and
+          real_cmdline_conf.has_key(opt)):
+            if val:
+                # Was not set, but user selected on GUI
+                Debug("user turned  ON: %s"%opt)
+                if opt == 'outfile': opt = '-o-'
+                else: opt = '--%s'%opt
+            else:
+                # Was set, but user deselected on GUI
+                Debug("user turned OFF: %s"%opt)
+                if opt == 'outfile':
+                    opt = "-o%s"%default_outfile
+                else: opt = '--no-%s'%opt
+            guiflags.append(opt)
+    cmdline = [my_name, '-t', target] +real_cmdline \
+              +guiflags +[infile]
+    Debug('Gui/Tk cmdline: %s'%cmdline,5)
+    # Run!
+    cmdline_raw_orig = CMDLINE_RAW
+    try:
+        # Fake the GUI cmdline as the real one, and parse file
+        CMDLINE_RAW = CommandLine().get_raw_config(cmdline[1:])
+        data = process_source_file(infile)
+        # On GUI, convert_* returns the data, not finish_him()
+        outlist, config = convert_this_files([data])
+        # On GUI and STDOUT, finish_him() returns the data
+        result = finish_him(outlist, config)
+        # Show outlist in s a nice new window
+        if result:
+            outlist, config = result
+            title = _('%s: %s converted to %s')%(
+              my_name, os.path.basename(infile),
+              string.upper(config['target']))
+            self.scrollwindow(outlist, title)
+        # Show the "file saved" message
+        else:
+            msg = "%s\n\n  %s\n%s\n\n  %s\n%s"%(
+                  _('Conversion done!'),
+                  _('FROM:'), infile,
+                  _('TO:'), config['outfile'])
+            showinfo(my_name, msg)
+    except error:         # common error (windowed), not quit
+        pass
+    except:               # fatal error (windowed and printed)
+        errormsg = getUnknownErrorMessage()
+        print errormsg
+        showerror(_('%s FATAL ERROR!')%my_name,errormsg)
+        self.exit()
+    CMDLINE_RAW = cmdline_raw_orig
+
+</t>
+<t tx="zoomq.20100414115206.4892">def mainwindow(self):
+    self.infile.set(self.conf.get('sourcefile') or '')
+    self.target.set(self.conf.get('target') or \
+                  _('-- select one --'))
+    outfile = self.conf.get('outfile')
+    if outfile == STDOUT:                  # map -o-
+        self.conf['stdout'] = 1
+    if self.conf.get('headers') == None:
+        self.conf['headers'] = 1       # map default
+
+    action1 = _("Enter the source file location:")
+    action2 = _("Choose the target document type:")
+    action3 = _("Some options you may check:")
+    action4 = _("Some extra options:")
+    checks_txt = {
+      'headers'   : _("Include headers on output"),
+      'enum-title': _("Number titles (1, 1.1, 1.1.1, etc)"),
+      'toc'       : _("Do TOC also (Table of Contents)"),
+      'mask-email': _("Hide e-mails from SPAM robots"),
+
+      'toc-only'  : _("Just do TOC, nothing more"),
+      'stdout'    : _("Dump to screen (Don't save target file)")
+    }
+    targets_menu = map(lambda x: TARGET_NAMES[x], TARGETS)
+
+    # Header
+    self.label("%s %s"%(string.upper(my_name), my_version),
+         bg=self.bg2, fg=self.fg2).grid(columnspan=2, ipadx=10)
+    self.label(_("ONE source, MULTI targets")+'\n%s\n'%my_url,
+         bg=self.bg1, fg=self.fg1).grid(columnspan=2)
+    self.row = 2
+    # Choose input file
+    self.action(action1) ; self.frame_open()
+    e_infile = self.entry(textvariable=self.infile,width=25)
+    e_infile.grid(row=self.row, column=0, sticky='e')
+    if not self.infile.get(): e_infile.focus_set()
+    self.button(_("Browse"), self.askfile).grid(
+        row=self.row, column=1, sticky='w', padx=10)
+    # Show outfile name, style and encoding (if any)
+    txt = ''
+    if outfile:
+        txt = outfile
+        if outfile == STDOUT: txt = _('&lt;screen&gt;')
+        l_output = self.label(_('Output: ')+txt,
+                        fg=self.fg2,bg=self.bg2)
+        l_output.grid(columnspan=2, sticky='w')
+    for setting in ['style','encoding']:
+        if self.conf.get(setting):
+            name = string.capitalize(setting)
+            val  = self.conf[setting]
+            self.label('%s: %s'%(name, val),
+                 fg=self.fg2, bg=self.bg2).grid(
+                 columnspan=2, sticky='w')
+    # Choose target
+    self.frame_close() ; self.action(action2)
+    self.frame_open()
+    self.target_key2name()
+    self.menu(self.target_name, targets_menu).grid(
+         columnspan=2, sticky='w')
+    # Options checkboxes label
+    self.frame_close() ; self.action(action3)
+    self.frame_open()
+    # Compose options check boxes, example:
+    # self.check(checks_txt['toc'],1,variable=self.f_toc)
+    for check in self.checks:
+        # Extra options label
+        if check == 'toc-only':
+            self.frame_close() ; self.action(action4)
+            self.frame_open()
+        txt = checks_txt[check]
+        var = getattr(self, 'f_'+check)
+        checked = self.conf.get(check)
+        self.check(txt,checked,variable=var)
+    self.frame_close()
+    # Spacer and buttons
+    self.label('').grid() ; self.row = self.row + 1
+    b_quit = self.button(_("Quit"), self.exit)
+    b_quit.grid(row=self.row, column=0, sticky='w', padx=30)
+    b_conv = self.button(_("Convert!"), self.runprogram)
+    b_conv.grid(row=self.row, column=1, sticky='e', padx=30)
+    if self.target.get() and self.infile.get():
+        b_conv.focus_set()
+
+    # As documentation told me
+    if sys.platform[:3] == 'win':
+        self.root.iconify()
+        self.root.update()
+        self.root.deiconify()
+
+    self.root.mainloop()
+
+
+</t>
+<t tx="zoomq.20100414115206.4893">##############################################################################
+##############################################################################
+
+def exec_command_line(user_cmdline=[]):
+    global CMDLINE_RAW, RC_RAW, DEBUG, VERBOSE, QUIET, GUI, Error
+
+    # Extract command line data
+    cmdline_data = user_cmdline or sys.argv[1:]
+    CMDLINE_RAW = CommandLine().get_raw_config(cmdline_data, relative=1)
+    cmdline_parsed = ConfigMaster(CMDLINE_RAW).parse()
+    DEBUG   = cmdline_parsed.get('debug'  ) or 0
+    VERBOSE = cmdline_parsed.get('verbose') or 0
+    QUIET   = cmdline_parsed.get('quiet'  ) or 0
+    GUI     = cmdline_parsed.get('gui'    ) or 0
+    infiles = cmdline_parsed.get('infile' ) or []
+
+    Message(_("Txt2tags %s processing begins")%my_version,1)
+
+    # The easy ones
+    if cmdline_parsed.get('help'   ): Quit(USAGE)
+    if cmdline_parsed.get('version'): Quit(VERSIONSTR)
+
+    # Multifile haters
+    if len(infiles) &gt; 1:
+        errmsg=_("Option --%s can't be used with multiple input files")
+        for option in NO_MULTI_INPUT:
+            if cmdline_parsed.get(option):
+                Error(errmsg%option)
+
+    Debug("system platform: %s"%sys.platform)
+    Debug("python version: %s"%(string.split(sys.version,'(')[0]))
+    Debug("line break char: %s"%repr(LB))
+    Debug("command line: %s"%sys.argv)
+    Debug("command line raw config: %s"%CMDLINE_RAW,1)
+
+    # Extract RC file config
+    if cmdline_parsed.get('rc') == 0:
+        Message(_("Ignoring user configuration file"),1)
+    else:
+        rc_file = get_rc_path()
+        if os.path.isfile(rc_file):
+            Message(_("Loading user configuration file"),1)
+            RC_RAW = ConfigLines(file=rc_file).get_raw_config()
+
+        Debug("rc file: %s"%rc_file)
+        Debug("rc file raw config: %s"%RC_RAW,1)
+
+    # Get all infiles config (if any)
+    infiles_config = get_infiles_config(infiles)
+
+    # Is GUI available?
+    # Try to load and start GUI interface for --gui
+    # If program was called with no arguments, try GUI also
+    if GUI or not infiles:
+        try:
+            load_GUI_resources()
+            Debug("GUI resources OK (Tk module is installed)")
+            winbox = Gui()
+            Debug("GUI display OK")
+            GUI = 1
+        except:
+            Debug("GUI Error: no Tk module or no DISPLAY")
+            GUI = 0
+
+    # User forced --gui, but it's not available
+    if cmdline_parsed.get('gui') and not GUI:
+        print getTraceback(); print
+        Error("Sorry, I can't run my Graphical Interface - GUI\n"
+              "- Check if Python Tcl/Tk module is installed (Tkinter)\n"
+              "- Make sure you are in a graphical environment (like X)")
+
+    # Okay, we will use GUI
+    if GUI:
+        Message(_("We are on GUI interface"),1)
+
+        # Redefine Error function to raise exception instead sys.exit()
+        def Error(msg):
+            showerror(_('txt2tags ERROR!'), msg)
+            raise error
+
+        # If no input file, get RC+cmdline config, else full config
+        if not infiles:
+            gui_conf = ConfigMaster(RC_RAW+CMDLINE_RAW).parse()
+        else:
+            try   : gui_conf = infiles_config[0][0]
+            except: gui_conf = {}
+
+        # Sanity is needed to set outfile and other things
+        gui_conf = ConfigMaster().sanity(gui_conf, gui=1)
+        Debug("GUI config: %s"%gui_conf,5)
+
+        # Insert config and populate the nice window!
+        winbox.load_config(gui_conf)
+        winbox.mainwindow()
+
+    # Console mode rocks forever!
+    else:
+        Message(_("We are on Command Line interface"),1)
+
+        # Called with no arguments, show error
+        if not infiles: Error(_('Missing input file (try --help)'))
+
+        convert_this_files(infiles_config)
+
+    Message(_("Txt2tags finished sucessfuly"),1)
+
+</t>
+<t tx="zoomq.20100414115206.4894">##############################################################################
+
+# Here is all the target's templates
+# You may edit them to fit your needs
+#  - the %(HEADERn)s strings represent the Header lines
+#  - the %(STYLE)s string is changed by --style contents
+#  - the %(ENCODING)s string is changed by --encoding contents
+#  - if any of the above is empty, the full line is removed
+#  - use %% to represent a literal %
+#
+HEADER_TEMPLATE = {
+  'txt': """\
+%(HEADER1)s
+%(HEADER2)s
+%(HEADER3)s
+""",
+
+  'sgml': """\
+&lt;!doctype linuxdoc system&gt;
+&lt;article&gt;
+&lt;title&gt;%(HEADER1)s
+&lt;author&gt;%(HEADER2)s
+&lt;date&gt;%(HEADER3)s
+""",
+
+  'html': """\
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"&gt;
+&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;META NAME="generator" CONTENT="http://txt2tags.sf.net"&gt;
+&lt;META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=%(ENCODING)s"&gt;
+&lt;LINK REL="stylesheet" TYPE="text/css" HREF="%(STYLE)s"&gt;
+&lt;TITLE&gt;%(HEADER1)s&lt;/TITLE&gt;
+&lt;/HEAD&gt;&lt;BODY BGCOLOR="white" TEXT="black"&gt;
+
+&lt;P ALIGN="center"&gt;&lt;CENTER&gt;&lt;H1&gt;%(HEADER1)s&lt;/H1&gt;
+&lt;FONT SIZE="4"&gt;
+&lt;I&gt;%(HEADER2)s&lt;/I&gt;&lt;BR&gt;
+%(HEADER3)s
+&lt;/FONT&gt;&lt;/CENTER&gt;
+""",
+
+  'htmlcss': """\
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"&gt;
+&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;META NAME="generator" CONTENT="http://txt2tags.sf.net"&gt;
+&lt;META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=%(ENCODING)s"&gt;
+&lt;LINK REL="stylesheet" TYPE="text/css" HREF="%(STYLE)s"&gt;
+&lt;TITLE&gt;%(HEADER1)s&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+
+&lt;DIV CLASS="header" ID="header"&gt;
+&lt;H1&gt;%(HEADER1)s&lt;/H1&gt;
+&lt;H2&gt;%(HEADER2)s&lt;/H2&gt;
+&lt;H3&gt;%(HEADER3)s&lt;/H3&gt;
+&lt;/DIV&gt;
+""",
+
+  'xhtml': """\
+&lt;?xml version="1.0"
+      encoding="%(ENCODING)s"
+?&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;title&gt;%(HEADER1)s&lt;/title&gt;
+&lt;meta name="generator" content="http://txt2tags.sf.net" /&gt;
+&lt;link rel="stylesheet" type="text/css" href="%(STYLE)s" /&gt;
+&lt;/head&gt;
+&lt;body bgcolor="white" text="black"&gt;
+
+&lt;div align="center"&gt;
+&lt;h1&gt;%(HEADER1)s&lt;/h1&gt;
+&lt;h2&gt;%(HEADER2)s&lt;/h2&gt;
+&lt;h3&gt;%(HEADER3)s&lt;/h3&gt;
+&lt;/div&gt;
+""",
+
+  'xhtmlcss': """\
+&lt;?xml version="1.0"
+      encoding="%(ENCODING)s"
+?&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;title&gt;%(HEADER1)s&lt;/title&gt;
+&lt;meta name="generator" content="http://txt2tags.sf.net" /&gt;
+&lt;link rel="stylesheet" type="text/css" href="%(STYLE)s" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="header" id="header"&gt;
+&lt;h1&gt;%(HEADER1)s&lt;/h1&gt;
+&lt;h2&gt;%(HEADER2)s&lt;/h2&gt;
+&lt;h3&gt;%(HEADER3)s&lt;/h3&gt;
+&lt;/div&gt;
+""",
+
+  'man': """\
+.TH "%(HEADER1)s" 1 "%(HEADER3)s" "%(HEADER2)s"
+""",
+
+# TODO style to &lt;HR&gt;
+  'pm6': """\
+&lt;PMTags1.0 win&gt;&lt;C-COLORTABLE ("Preto" 1 0 0 0)
+&gt;&lt;@Normal=
+  &lt;FONT "Times New Roman"&gt;&lt;CCOLOR "Preto"&gt;&lt;SIZE 11&gt;
+  &lt;HORIZONTAL 100&gt;&lt;LETTERSPACE 0&gt;&lt;CTRACK 127&gt;&lt;CSSIZE 70&gt;&lt;C+SIZE 58.3&gt;
+  &lt;C-POSITION 33.3&gt;&lt;C+POSITION 33.3&gt;&lt;P&gt;&lt;CBASELINE 0&gt;&lt;CNOBREAK 0&gt;&lt;CLEADING -0.05&gt;
+  &lt;GGRID 0&gt;&lt;GLEFT 7.2&gt;&lt;GRIGHT 0&gt;&lt;GFIRST 0&gt;&lt;G+BEFORE 7.2&gt;&lt;G+AFTER 0&gt;
+  &lt;GALIGNMENT "justify"&gt;&lt;GMETHOD "proportional"&gt;&lt;G&amp; "ENGLISH"&gt;
+  &lt;GPAIRS 12&gt;&lt;G%% 120&gt;&lt;GKNEXT 0&gt;&lt;GKWIDOW 0&gt;&lt;GKORPHAN 0&gt;&lt;GTABS $&gt;
+  &lt;GHYPHENATION 2 34 0&gt;&lt;GWORDSPACE 75 100 150&gt;&lt;GSPACE -5 0 25&gt;
+&gt;&lt;@Bullet=&lt;@-PARENT "Normal"&gt;&lt;FONT "Abadi MT Condensed Light"&gt;
+  &lt;GLEFT 14.4&gt;&lt;G+BEFORE 2.15&gt;&lt;G%% 110&gt;&lt;GTABS(25.2 l "")&gt;
+&gt;&lt;@PreFormat=&lt;@-PARENT "Normal"&gt;&lt;FONT "Lucida Console"&gt;&lt;SIZE 8&gt;&lt;CTRACK 0&gt;
+  &lt;GLEFT 0&gt;&lt;G+BEFORE 0&gt;&lt;GALIGNMENT "left"&gt;&lt;GWORDSPACE 100 100 100&gt;&lt;GSPACE 0 0 0&gt;
+&gt;&lt;@Title1=&lt;@-PARENT "Normal"&gt;&lt;FONT "Arial"&gt;&lt;SIZE 14&gt;&lt;B&gt;
+  &lt;GCONTENTS&gt;&lt;GLEFT 0&gt;&lt;G+BEFORE 0&gt;&lt;GALIGNMENT "left"&gt;
+&gt;&lt;@Title2=&lt;@-PARENT "Title1"&gt;&lt;SIZE 12&gt;&lt;G+BEFORE 3.6&gt;
+&gt;&lt;@Title3=&lt;@-PARENT "Title1"&gt;&lt;SIZE 10&gt;&lt;GLEFT 7.2&gt;&lt;G+BEFORE 7.2&gt;
+&gt;&lt;@Title4=&lt;@-PARENT "Title3"&gt;
+&gt;&lt;@Title5=&lt;@-PARENT "Title3"&gt;
+&gt;&lt;@Quote=&lt;@-PARENT "Normal"&gt;&lt;SIZE 10&gt;&lt;I&gt;&gt;
+
+%(HEADER1)s
+%(HEADER2)s
+%(HEADER3)s
+""",
+
+  'mgp': """\
+#!/usr/X11R6/bin/mgp -t 90
+%%deffont "normal"    xfont  "utopia-medium-r", charset "iso8859-1"
+%%deffont "normal-i"  xfont  "utopia-medium-i", charset "iso8859-1"
+%%deffont "normal-b"  xfont  "utopia-bold-r"  , charset "iso8859-1"
+%%deffont "normal-bi" xfont  "utopia-bold-i"  , charset "iso8859-1"
+%%deffont "mono"      xfont "courier-medium-r", charset "iso8859-1"
+%%default 1 size 5
+%%default 2 size 8, fore "yellow", font "normal-b", center
+%%default 3 size 5, fore "white",  font "normal", left, prefix "  "
+%%tab 1 size 4, vgap 30, prefix "     ", icon arc "red" 40, leftfill
+%%tab 2 prefix "            ", icon arc "orange" 40, leftfill
+%%tab 3 prefix "                   ", icon arc "brown" 40, leftfill
+%%tab 4 prefix "                          ", icon arc "darkmagenta" 40, leftfill
+%%tab 5 prefix "                                ", icon arc "magenta" 40, leftfill
+%%%%------------------------- end of headers -----------------------------
+%%page
+
+
+
+
+
+%%size 10, center, fore "yellow"
+%(HEADER1)s
+
+%%font "normal-i", size 6, fore "white", center
+%(HEADER2)s
+
+%%font "mono", size 7, center
+%(HEADER3)s
+""",
+
+  'moin': """\
+'''%(HEADER1)s'''
+
+''%(HEADER2)s''
+
+%(HEADER3)s
+""",
+
+  'tex': \
+r"""\documentclass{article}
+\usepackage{graphicx}
+\usepackage[urlcolor=blue,colorlinks=true]{hyperref}
+\usepackage[%(ENCODING)s]{inputenc}  %% char encoding
+\usepackage{%(STYLE)s}  %% user defined
+
+\title{%(HEADER1)s}
+\author{%(HEADER2)s}
+\begin{document}
+\date{%(HEADER3)s}
+\maketitle
+\clearpage
+""",
+
+  'lout': """\
+@SysInclude { doc }
+@Document
+  @InitialFont { Times Base 12p }  # Times, Courier, Helvetica, ...
+  @PageOrientation { Portrait }    # Portrait, Landscape
+  @ColumnNumber { 1 }              # Number of columns (2, 3, ...)
+  @PageHeaders { Simple }          # None, Simple, Titles, NoTitles
+  @InitialLanguage { English }     # German, French, Portuguese, ...
+  @OptimizePages { Yes }           # Yes/No smart page break feature
+//
+@Text @Begin
+@Display @Heading { %(HEADER1)s }
+@Display @I { %(HEADER2)s }
+@Display { %(HEADER3)s }
+#@NP                               # Break page after Headers
+"""
+# @SysInclude { tbl }                   # Tables support
+# setup: @MakeContents { Yes }          # show TOC
+# setup: @SectionGap                    # break page at each section
+}
+
+
+</t>
+<t tx="zoomq.20100414115206.4895"># FLAGS   : the conversion related flags  , may be used in %!options
+# OPTIONS : the conversion related options, may be used in %!options
+# ACTIONS : the other behavior modifiers, valid on command line only
+# MACROS  : the valid macros with their default values for formatting
+# SETTINGS: global miscellaneous settings, valid on RC file only
+# NO_TARGET: actions that don't require a target specification
+# NO_MULTI_INPUT: actions that don't accept more than one input file
+# CONFIG_KEYWORDS: the valid %!key:val keywords
+#
+# FLAGS and OPTIONS are configs that affect the converted document.
+# They usually have also a --no-&lt;option&gt; to turn them OFF.
+# ACTIONS are needed because when doing multiple input files, strange
+# behavior would be found, as use command line interface for the
+# first file and gui for the second. There is no --no-&lt;action&gt;.
+# --version and --help inside %!options are also odd
+#
+TARGETS  = ['html', 'xhtml', 'sgml', 'tex', 'lout', 'man', 'mgp',
+            'moin', 'pm6'  , 'txt']
+FLAGS    = {'headers'    :1 , 'enum-title' :0 , 'mask-email' :0 ,
+            'toc-only'   :0 , 'toc'        :0 , 'rc'         :1 ,
+            'css-sugar'  :0 , 'css-suggar' :0 , 'css-inside' :0 ,
+            'quiet'      :0 }
+OPTIONS  = {'target'     :'', 'toc-level'  :3 , 'style'      :'',
+            'infile'     :'', 'outfile'    :'', 'encoding'   :'',
+            'config-file':'', 'split'      :0 , 'lang'       :''}
+ACTIONS  = {'help'       :0 , 'version'    :0 , 'gui'        :0 ,
+            'verbose'    :0 , 'debug'      :0 , 'dump-config':0 ,
+            'dump-source':0 }
+MACROS   = {'date' : '%Y%m%d',  'infile': '%f',
+            'mtime': '%Y%m%d', 'outfile': '%f'}
+SETTINGS = {}         # for future use
+NO_TARGET = ['help', 'version', 'gui', 'toc-only', 'dump-config', 'dump-source']
+NO_MULTI_INPUT = ['gui','dump-config','dump-source']
+CONFIG_KEYWORDS = [
+            'target', 'encoding', 'style', 'options', 'preproc','postproc',
+            'guicolors']
+TARGET_NAMES = {
+  'html' : _('HTML page'),
+  'xhtml': _('XHTML page'),
+  'sgml' : _('SGML document'),
+  'tex'  : _('LaTeX document'),
+  'lout' : _('Lout document'),
+  'man'  : _('UNIX Manual page'),
+  'mgp'  : _('MagicPoint presentation'),
+  'moin' : _('MoinMoin page'),
+  'pm6'  : _('PageMaker document'),
+  'txt'  : _('Plain Text'),
+}
+
+DEBUG = 0     # do not edit here, please use --debug
+VERBOSE = 0   # do not edit here, please use -v, -vv or -vvv
+QUIET = 0     # do not edit here, please use --quiet
+GUI = 0       # do not edit here, please use --gui
+AUTOTOC = 1   # do not edit here, please use --no-toc or %%toc
+
+RC_RAW = []
+CMDLINE_RAW = []
+CONF = {}
+BLOCK = None
+regex = {}
+TAGS = {}
+rules = {}
+
+lang = 'english'
+TARGET = ''
+
+STDIN = STDOUT = '-'
+MODULEIN = MODULEOUT = '-module-'
+ESCCHAR   = '\x00'
+SEPARATOR = '\x01'
+LISTNAMES = {'-':'list', '+':'numlist', ':':'deflist'}
+LINEBREAK = {'default':'\n', 'win':'\r\n', 'mac':'\r'}
+
+# Platform specific settings
+LB = LINEBREAK.get(sys.platform[:3]) or LINEBREAK['default']
+
+VERSIONSTR = _("%s version %s &lt;%s&gt;")%(my_name,my_version,my_url)
+
+USAGE = string.join([
+'',
+_("Usage: %s [OPTIONS] [infile.t2t ...]") % my_name,
+'',
+_("  -t, --target=TYPE   set target document type. currently supported:"),
+'                      %s' % re.sub(r"[]'[]",'',repr(TARGETS)),
+_("  -i, --infile=FILE   set FILE as the input file name ('-' for STDIN)"),
+_("  -o, --outfile=FILE  set FILE as the output file name ('-' for STDOUT)"),
+_("  -H, --no-headers    suppress header, title and footer contents"),
+_("      --headers       show header, title and footer contents (default ON)"),
+_("      --encoding=ENC  set target file encoding (utf-8, iso-8859-1, etc)"),
+_("      --style=FILE    use FILE as the document style (like HTML CSS)"),
+_("      --css-sugar     insert CSS-friendly tags for HTML and XHTML targets"),
+_("      --css-inside    insert CSS file contents inside HTML/XHTML headers"),
+_("      --mask-email    hide email from spam robots. x@y.z turns &lt;x (a) y z&gt;"),
+_("      --toc           add TOC (Table of Contents) to target document"),
+_("      --toc-only      print document TOC and exit"),
+_("      --toc-level=N   set maximum TOC level (depth) to N"),
+_("  -n, --enum-title    enumerate all titles as 1, 1.1, 1.1.1, etc"),
+_("  -C, --config-file=F read config from file F"),
+_("      --rc            read user config file ~/.txt2tagsrc (default ON)"),
+_("      --gui           invoke Graphical Tk Interface"),
+_("  -q, --quiet         quiet mode, suppress all output (except errors)"),
+_("  -v, --verbose       print informative messages during conversion"),
+_("  -h, --help          print this help information and exit"),
+_("  -V, --version       print program version and exit"),
+_("      --dump-config   print all the config found and exit"),
+_("      --dump-source   print the document source, with includes expanded"),
+'',
+_("Turn OFF options:"),
+"     --no-outfile, --no-infile, --no-style, --no-encoding, --no-headers",
+"     --no-toc, --no-toc-only, --no-mask-email, --no-enum-title, --no-rc",
+"     --no-css-sugar, --no-css-inside, --no-quiet, --no-dump-config",
+"     --no-dump-source",
+'',
+_("Example:\n     %s -t html --toc myfile.t2t") % my_name,
+'',
+_("By default, converted output is saved to 'infile.&lt;target&gt;'."),
+_("Use --outfile to force an output file name."),
+_("If  input file is '-', reads from STDIN."),
+_("If output file is '-', dumps output to STDOUT."),
+'',
+'http://txt2tags.sourceforge.net',
+''
+], '\n')
+
+</t>
+<t tx="zoomq.20100414115206.4896">##############################################################################
+# User config (1=ON, 0=OFF)
+
+USE_I18N    = 1   # use gettext for i18ned messages?        (default is 1)
+COLOR_DEBUG = 1   # show debug messages in colors?          (default is 1)
+BG_LIGHT    = 0   # your terminal background color is light (default is 0)
+HTML_LOWER  = 0   # use lowercased HTML tags instead upper? (default is 0)
+
+##############################################################################
+
+# These are all the core Python modules used by txt2tags (KISS!)
+import re, string, os, sys, time, getopt
+
+# Program information
+my_url = 'http://txt2tags.sf.net'
+my_name = 'txt2tags'
+my_email = 'verde@aurelio.net'
+my_version = '2.4'
+
+# i18n - just use if available
+if USE_I18N:
+    try:
+        import gettext
+        # If your locale dir is different, change it here
+        cat = gettext.Catalog('txt2tags',localedir='/usr/share/locale/')
+        _ = cat.gettext
+    except:
+        _ = lambda x:x
+else:
+    _ = lambda x:x
+</t>
 <t tx="zoomq.20100419111908.3737">@path navigate
 
 导航，索引相关</t>
+<t tx="zoomq.20100419111908.3738">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+&lt;&lt;declarations&gt;&gt;
+__author__      = "shunuhs"
+__version__     = "0.5 2009/10/24"
+__url1__        = "http://sh1.2-d.jp/b/static/pyentrynavi.html"
+__url2__        = "http://sh1.2-d.jp/h/pyblosxom_plugin/file/tip/pyentrynavi.py"
+__description__ = "show entry navigator"
+
+from Pyblosxom import tools, entries
+import time
+import re
+import os.path
+
+@others
+
+
+
+</t>
+<t tx="zoomq.20100419111908.3739">"""
+Create navigation to the previous/next entry for each entry,
+like this.
+
+  &lt; previous entry title | MAIN | next entry title &gt;
+
+
+To install pyentrynavi, do the following
+
+  1. add "pyentrynavi" to your load_plugins list variable
+     in your config.py.
+  2. add the $entry_navi variable to your date_head and/or
+     comment-story templates.
+  3. if your file extension other than "txt", set the following on your
+     config.py.
+
+     ex) py["entry_extension"] = "rst"
+
+
+version 0.4: modified regular expression '(.*\.txt)' to '(.*\.txt$)',
+             to prevent hit backup files or swap files.
+             Thanks Bill Powell!
+version 0.5: modified system depend path handling and enable to use file
+             extension other than .txt.
+             Thanks Andrey Bondarenko!
+
+----
+
+Copyright (C) 2006-2009 shunuhs
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+02110-1301, USA.
+
+"""
+
+</t>
+<t tx="zoomq.20100419111908.3740">def verify_installation(request):
+    config = request.getConfiguration()
+    if not config.has_key('datadir'):
+        print "missing datadir variable"
+        return 0
+    return 1
+</t>
+<t tx="zoomq.20100419111908.3741">def cb_prepare(args):
+    request = args['request']
+    data = request.getData()
+    if data['bl_type'] != 'file':
+        return
+
+    entry = data['entry_list']
+    flavour = data['flavour']
+    filename = os.path.normpath(entry[0]['filename']) # normpath is for windows.
+
+    config = request.getConfiguration()
+    datadir = config['datadir']
+    base_url = config['base_url']
+
+    extension = config.get('entry_extension','txt')
+
+    r = re.compile('(.*\.'+extension+'$)')
+    allentries = tools.Walk(request, datadir, pattern=r)
+
+    #    cur_time = time.localtime()
+
+    entrylist = []
+    for e in allentries:
+        timetuple = tools.filestat(request, e)
+#        if cur_time &lt; timetuple:
+#            continue
+
+        entrylist.append((timetuple, e))
+
+    entrylist.sort()
+    entrylist.reverse()
+
+    entrylist = [x[1] for x in entrylist]
+    try:
+        num = entrylist.index(filename)
+    except ValueError:
+        data['entry_navi'] = '| &lt;a href="%s"&gt;MAIN&lt;/a&gt; |'%base_url
+        return
+
+    def _entry_url(file_entry):
+      return "%s/%s.%s" % (base_url, file_entry["file_path"], flavour)
+
+    navi_str = ''
+    if num != (len(entrylist)-1):
+        fname = entrylist[num+1]
+        e = entries.fileentry.FileEntry(request, fname, datadir)
+        prev_link = _entry_url(e)
+        navi_str += '&amp;lt; &lt;a href="%s"&gt;%s&lt;/a&gt; '%(prev_link,e['title'])
+
+    navi_str += '| &lt;a href="%s"&gt;MAIN&lt;/a&gt; |'%base_url
+
+    if num:
+        fname = entrylist[num-1]
+        e = entries.fileentry.FileEntry(request, fname, datadir)
+        next_link = _entry_url(e)
+        navi_str += ' &lt;a href="%s"&gt;%s&lt;/a&gt; &amp;gt;'%(next_link,e['title'])
+
+    data['entry_navi'] = navi_str
+</t>
+<t tx="zoomq.20100419111908.3742">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+from Pyblosxom import tools
+import os, os.path, posix, re, stat, time
+
+FILETIME = re.compile('^([0-9]{4})-([0-1][0-9])-([0-3][0-9])-([0-2][0-9])-([0-5][0-9]) +(.*)$')
+
+all_timestamps = {}
+extensions = []
+timestamps_to_save = {}
+
+
+@others
+</t>
+<t tx="zoomq.20100419111908.3743">#mode: python; indent-tabs-mode: t, tab-width: 4 
+"""
+This allows the user to create a file "timestamps" in their datadir,
+that will override the timestamp of any given blog entry. Each line
+in this file should be of the form "YYYY-MM-DD-hh-mm file-name".
+Then for any entry that one of these lines exist the system will use
+that timestamp instead of the actual files modification time.
+
+Note: the filename is relative to your data-dir.
+Example of a line for the file /var/data-dir/school/abc.txt
+   where the datadir is "/var/data-dir/" and the date is Aug 9, 2004.
+
+2004-08-09-00-00 school/abc.txt
+"""
+__author__ = 'Nathan Kent Bullock, Ryan Barrett'
+__homepage__ = 'http://snarfed.org/space/hardcodedates'
+__email__ = 'nathan_kent_bullock -at- yahoo.ca, hardcodedates -at- ryanb.org'
+__version__ = '1.4'
+</t>
+<t tx="zoomq.20100419111908.3744">def init(request):
+    if all_timestamps:
+        return  # already initialized
+
+    datadir = request.getConfiguration()['datadir']
+    timestamp_file = os.path.join(datadir, 'timestamps')
+
+    if os.path.isfile(timestamp_file):
+        f = file(timestamp_file)
+        for str in f.readlines():
+            m = FILETIME.search(str.strip())
+            if m:
+                year = int(m.group(1))
+                mo = int(m.group(2))
+                day = int(m.group(3))
+                hr = int(m.group(4))
+                minute = int(m.group(5))
+                mtime = time.mktime((year,mo,day,hr,minute,0,0,0,-1))
+                filename = os.path.join(datadir, m.group(6))
+                all_timestamps[filename] = mtime
+
+        f.close()
+
+    extensions.extend(request.getData()['extensions'].keys())
+    extensions.append(request.getConfiguration().get('comment_ext', 'cmt'))
+
+</t>
+<t tx="zoomq.20100419111908.3745">def cb_filestat(args):
+    request = args['request']
+    init(request)
+
+    filename = args['filename']
+    extension = os.path.splitext(filename)[1][1:]
+    datadir = request.getConfiguration()['datadir']
+
+    if all_timestamps.has_key(filename):
+        # we know this file's timestamp
+        mtime = args['mtime']
+        assert isinstance(mtime, (tuple, posix.stat_result))
+        args['mtime'] = (mtime[0:stat.ST_MTIME] + (all_timestamps[filename],) +
+                         mtime[stat.ST_MTIME + 1:])
+
+    elif extension in extensions and filename.startswith(datadir):
+        # we don't know it, but we should. ask the os for it, and remember it.
+        args['mtime'] = os.stat(filename)
+        all_timestamps[filename] = args['mtime'][stat.ST_MTIME]
+        timestamps_to_save[filename] = args['mtime'][stat.ST_MTIME]
+
+    return args
+
+</t>
+<t tx="zoomq.20100419111908.3746">def cb_end(args):
+    if timestamps_to_save:
+        datadir = args['request'].getConfiguration()['datadir']
+        datadir = os.path.normpath(datadir)
+        tsfile = file(os.path.join(datadir, 'timestamps'), 'a')
+        for filename, mtime in timestamps_to_save.items():
+            time_str = time.strftime('%Y-%m-%d-%H-%M', time.localtime(mtime))
+            # strip the datadir prefix and directory separator slash
+            filename = filename[len(datadir) + 1:]
+            tsfile.write('%s %s\n' % (time_str, filename))
+            tools.getLogger().info('Saved mtime %s for %s' % (time_str, filename))
+        tsfile.close()
+        timestamps_to_save.clear()
+
+</t>
+<t tx="zoomq.20100419111908.3747">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+
+@others</t>
+<t tx="zoomq.20100419111908.3748"># mode: python; indent-tabs-mode: t, tab-width: 8 
+"""
+This plugin kicks up a photo gallery when accessed with the set trigger.
+
+It REQUIRES either the imagekicker or filekicker plugin.
+
+Directory structure should look like this
+
+&lt;imagefolder&gt;
+|
+--&lt;trigger&gt;
+  |
+  --&lt;Gallery name&gt;
+    |
+    --thumbs (name of the folder is thumbs, yes. contains thumbnails)
+    |
+    --&lt;images&gt;
+
+It also requires some variables in the config.
+py['base_url'] is now required.
+
+py['imagedata'] = '&lt;path to map with images&gt;' is required by imagefile, and also here.
+py['gallerytrigger'] = '&lt;trigger&gt;' is required.
+py['gallery_use_story_template'] = True/False is optional, defaulting to True.
+
+VERSION:
+0.5 404 on unknown file, added gallery_use_story_template config option
+0.4 Added head and foot templates, and config options
+0.3 Now works with comments!
+0.2 It now can co-exist with comments. It can't use them, but it can co-exist.
+0.1 First release. Some issues
+
+TODO:
+Make sure it is not so syntax fragile.
+Make sure it handles flavours correctly.
+Make sure it is correctly commented
+
+LICENCE: GPL
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+"""
+import os, string
+from Pyblosxom import tools, entries, pyblosxom
+
+__author__ = "Magnus Nordlander magnus (at) nordlander (dot) tk"
+__version__ = "0.5 (27 April, 2004)"
+__url__ = "http://magnus.nordlander.tk/"
+__description__ = "Displays a photo gallery on a given trigger"
+
+</t>
+<t tx="zoomq.20100419111908.3749">def verify_installation(request):
+    config = request.getConfiguration()
+    import os.path
+    goodinstall = 1
+
+    if not config.has_key("base_url"):
+        print "Required variable base_url not set"
+        goodinstall = 0
+    if not config.has_key("imagedata"):
+        print "Required variable imagedata not set"
+        goodinstall = 0
+    if not config.has_key("gallerytrigger"):
+        print "Required variable gallerytrigger not set"
+        goodinstall = 0
+
+    return goodinstall
+
+</t>
+<t tx="zoomq.20100419111908.3750">def cb_filelist(args):
+    request = args["request"]
+
+    pyhttp = request.getHttp()
+    data = request.getData()
+    config = request.getConfiguration()
+
+    baseurl = config['base_url']
+    trigger = config['gallerytrigger']
+    captions = config.get('gallerycaptions', True)
+    columns = config.get('gallerycolumns', 4)
+    imagepath = config['imagedata'] + trigger
+    gallery = pyhttp["PATH_INFO"][len(trigger) + 1:]
+
+    #Check if we have been started with the trigger
+    if not pyhttp["PATH_INFO"].startswith(trigger):
+        return
+
+    #Check whether we are going to access a list of galleries, a gallery, or an image 
+    if pyhttp["PATH_INFO"] == trigger or pyhttp["PATH_INFO"] == trigger + "/" :
+        &lt;&lt;if_pyhttp&gt;&gt;
+    elif string.find(gallery, "/") == -1:
+        &lt;&lt;elif_pyhttp&gt;&gt;
+    else:
+        # unknown URL
+        return None
+
+</t>
+<t tx="zoomq.20100419111908.3751">def cb_story(args):
+    request = args['request']
+    http = request.getHttp()
+    config = request.getConfiguration()
+    trigger = config['gallerytrigger']
+
+    if (http['PATH_INFO'].startswith(trigger) and 
+    not config.get('gallery_use_story_template', 1)):
+        args['template'] = '&lt;h1 class="photogallery"&gt;$title&lt;/h1&gt;\n&lt;hr /&gt;\n$body'
+
+    return args
+</t>
+<t tx="zoomq.20100419111908.3752">#Find out what folders there are
+dirlist = os.listdir(imagepath)
+nicelist = []
+#Generate list of galleries
+for x in dirlist:
+    nicelist.append("&lt;a href=\"" + baseurl + trigger + "/" + x + "\"&gt;" + x + "&lt;/a&gt;&lt;br /&gt;")
+contents = string.join(nicelist)
+#Generate entry and return it
+absolute_path = ""
+fn = trigger[1:]
+file_path = trigger[1:]
+fe = entries.base.generate_entry(request, {"title": "Gallery"
+        , "absolute_path": absolute_path
+        , "file_path": file_path, "fn": fn }
+    , contents, None)
+return [fe]
+</t>
+<t tx="zoomq.20100419111908.3753">#find out what images we have
+abspath = imagepath + "/" + gallery + "/thumbs"
+if not os.path.isdir(abspath):
+    return
+list = os.listdir(abspath)
+i = str(len(list))
+#generate table with thumbnails and 
+stringlist = []
+stringlist.append("&lt;table&gt;")
+j = 1
+stringlist.append("&lt;tr&gt;")
+for x in list:
+    stringlist.append("&lt;td&gt;&lt;a href=\"" + baseurl + trigger + "/" + gallery + "/" + x + "\"&gt;&lt;img src=\"" + baseurl + trigger + "/" + gallery + "/thumbs/" + x + "\" alt=\"" + x + "\" /&gt;&lt;/a&gt;&lt;br /&gt;")
+if captions:
+    stringlist.append(x)
+    stringlist.append("&lt;/td&gt;")
+    j = 1 + j
+if j % columns == 1:
+    stringlist.append("&lt;/tr&gt;")
+    stringlist.append("&lt;tr&gt;")
+    stringlist.append("&lt;/tr&gt;&lt;/table&gt;")
+    contents = string.join(stringlist)
+    absolute_path = trigger[1:]
+    fn = gallery
+    file_path = absolute_path + "/" + fn
+    #generate entry and return it
+    data = {"title": gallery, "absolute_path": absolute_path,
+    "file_path": file_path, "fn": fn}
+
+# parse the header and footer
+for filename in ['foot.txt', 'head.txt']:
+    path = os.path.join(config['datadir'], file_path, filename)
+    if os.path.isfile(path):
+        data.update(pyblosxom.blosxom_entry_parser(path, request))
+        data[filename] = data['body']
+    else:
+        data[filename] = ''
+contents = '\n\n'.join([data['head.txt'], contents, data['foot.txt']])
+
+fe = entries.base.generate_entry(request, data, contents, None)
+return [fe]
+</t>
+<t tx="zoomq.20100419111908.3754">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+# chunk size for transferring files
+BLOCK_SIZE = 4096
+
+# populate this with MIME types to replace with text/plain, for in-browser
+# viewing.
+REDUCE_TO_TEXT_PLAIN = ['text/python', 'text/x-python', 'text/lisp',
+                        'text/elisp', 'text/x-diff']
+
+@others
+</t>
+<t tx="zoomq.20100419111908.3755">#!/usr/bin/python
+"""
+filekicker.py
+A pyblosxom plugin.
+
+http://snarfed.org/space/filekicker
+Copyright 2006 Ryan Barrett
+
+This plugin serves static files in the pyblosxom datadir. It looks for the
+filename from the URL based at datadir. For example, if config['datadir'] is
+'/home/ryanb/www/data', and a user requests http://mysite.com/foo/bar.py,
+filekicker will send back the file /home/ryanb/www/data/foo/bar.py. Its MIME
+type is inferred from its extension.
+
+In other words, filekicker takes a static file and "kicks" it up into the
+pyblosxom structure.
+
+Inspired by Magnus Nordlander's imagekicker plugin:
+http://www.nordlander.tk/pyblosxom/
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+details.
+
+You should have received a copy of the GNU General Public License along with
+this program; if not, write to the Free Software Foundation, Inc., 59 Temple
+Place, Suite 330, Boston, MA 02111-1307 USA
+"""
+
+__author__ = 'Ryan Barrett &lt;pyblosxom at ryanb dot org&gt;'
+__version__ = '0.2'
+__url__ = 'http://snarfed.org/space/filekicker'
+__description__  = 'Serves static files through pyblosxom'
+
+import mimetypes
+import os
+import os.path
+import stat
+import types
+
+</t>
+<t tx="zoomq.20100419111908.3756">def verify_installation(request):
+  # no setup necessary
+  return True
+
+</t>
+<t tx="zoomq.20100419111908.3757">def cb_handle(args):
+  request = args['request']
+  config = request.getConfiguration()
+  response = request.getResponse()
+
+  # does the file exist?
+  filename = request.getHttp()['PATH_INFO']
+  filename = config['datadir'] + '/' + filename
+  if not os.path.isfile(filename):
+    return
+
+  # add the headers
+  type, encoding = mimetypes.guess_type(filename)
+  if type:
+    if type in REDUCE_TO_TEXT_PLAIN:
+      type = 'text/plain'
+    response.addHeader('Content-Type', type)
+
+  if encoding:
+    response.addHeader('Content-Encoding', encoding)
+
+  length = os.stat(filename)[stat.ST_SIZE]
+  response.addHeader('Content-Length', str(length))
+
+  # send the file to the client
+  f = file(filename, 'rb', BLOCK_SIZE)
+  while True:
+    block = f.read(BLOCK_SIZE)
+    if not block:
+      break
+    response.write(block)
+
+  f.close()
+  return 1
+</t>
+<t tx="zoomq.20100419111908.3758">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+
+@others
+</t>
+<t tx="zoomq.20100419111908.3759">"""
+Summary
+=======
+
+Walks through your blog root figuring out all the available years for
+the archives list.  It stores the years with links to year summaries
+in the variable ``$archivelinks``.  You should put this variable in either
+your head or foot template.
+
+
+Usage
+=====
+
+When the user clicks on one of the year links (i.e. http://base_url/2004/), 
+then yeararchives will display a summary page for that year.  The summary is 
+generated using the ``yearsummarystory.html`` template for each month in the
+year.  Mine is::
+
+   &lt;div class="blosxomEntry"&gt;
+   &lt;span class="blosxomTitle"&gt;$title&lt;/span&gt;
+   &lt;div class="blosxomBody"&gt;
+   &lt;table&gt;
+   $body
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;/div&gt;
+
+
+I don't have anything configurable in ``config.py``--so you'll have to 
+edit the html stuff directly in the plugin.  If you dislike this, please 
+take some time to fix it and send me a diff and I'll make the adjustments.
+
+
+----
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004-2010 Will Guaraldi
+
+Revisions:
+2010-01-07 - updated to yeararchives, updated for PyBlosxom 1.5.
+2008-01-01 - fixed a problem between wbgarchives and comments and also
+             fixed the ordering of months displayed.
+2007-07-07 - converted documentation to reST.
+2005-11-11 - Pulled into new VCS.
+1.4 - (26 October, 2005) pulled into new VCS
+1.3 - (14 March, 2005) added categories
+1.2 - (09 December, 2004) fixed date_head issue
+1.1 - (22 August, 2004) fixed a bug involving four-letter category names
+                        (thanks Ludvig)
+1.0 - (15 August, 2004) initial writing
+"""
+__author__ = "Will Guaraldi - willg at bluesock dot org"
+__version__ = "$Date: 2010/10/26 23:00:07 $"
+__url__ = "http://pyblosxom.sourceforge.net/"
+__description__ = "Year-based archives handler."
+
+from Pyblosxom import tools, entries
+import time, os
+
+</t>
+<t tx="zoomq.20100419111908.3760">def verify_installation(request):
+    return 1
+
+</t>
+<t tx="zoomq.20100419111908.3761">class YearArchives:
+    @others
+</t>
+<t tx="zoomq.20100419111908.3762">def __init__(self, request):
+    self._request = request
+    self._archives = None
+    self._items = None
+
+</t>
+<t tx="zoomq.20100419111908.3763">def __str__(self):
+    if self._archives == None:
+        self.gen_linear_archive()
+    return self._archives
+
+</t>
+<t tx="zoomq.20100419111908.3764">def gen_linear_archive(self):
+    config = self._request.get_configuration()
+    data = self._request.get_data()
+    root = config["datadir"]
+    baseurl = config.get("base_url", "")
+
+    archives = {}
+    archive_list = tools.walk(self._request, root)
+    items = []
+
+    for mem in archive_list:
+        timetuple = tools.filestat(self._request, mem)
+
+        y = time.strftime("%Y", timetuple)
+        m = time.strftime("%m", timetuple)
+        d = time.strftime("%d", timetuple)
+        l = "&lt;a href=\"%s/%s/\"&gt;%s&lt;/a&gt;&lt;br&gt;" % (baseurl, y, y)
+
+        if not archives.has_key(y):
+            archives[y] = l
+        items.append(["%s-%s" % (y, m), "%s-%s-%s" % (y, m, d),
+                      time.mktime(timetuple), mem])
+
+    arc_keys = archives.keys()
+    arc_keys.sort()
+    arc_keys.reverse()
+
+    result = []
+    for key in arc_keys:
+        result.append(archives[key])
+    self._archives = '\n'.join(result)
+    self._items = items
+
+</t>
+<t tx="zoomq.20100419111908.3765">def new_entry(request, yearmonth, body):
+    """
+    Takes a bunch of variables and generates an entry out of it.  It
+    creates a timestamp so that conditionalhttp can handle it without
+    getting all fussy.
+    """
+    entry = entries.base.EntryBase(request)
+
+    entry['title'] = yearmonth
+    entry['filename'] = yearmonth + "/summary"
+    entry['file_path'] = yearmonth
+    entry._id = yearmonth + "::summary"
+
+    entry["template_name"] = "yearsummarystory"
+    entry["nocomments"] = "yes"
+
+    entry["absolute_path"] = ""
+    entry["fn"] = ""
+
+    entry.set_time(time.strptime(yearmonth, "%Y-%m"))
+    entry.set_data(body)
+    #print entry
+    return entry
+
+</t>
+<t tx="zoomq.20100419111908.3766">INIT_KEY = "yeararchives_initiated"
+
+def cb_prepare(args):
+    request = args["request"]
+    data = request.get_data()
+    data["archivelinks"] = YearArchives(request)
+
+</t>
+<t tx="zoomq.20100419111908.3767">def cb_date_head(args):
+    request = args["request"]
+    data = request.get_data()
+
+    if data.has_key(INIT_KEY):
+        args["template"] = ""
+    return args
+
+</t>
+<t tx="zoomq.20100419111908.3768">def cb_filelist(args):
+    request = args["request"]
+    pyhttp = request.get_http()
+    data = request.get_data()
+    config = request.get_configuration()
+    baseurl = config.get("base_url", "")
+
+    year = pyhttp["PATH_INFO"]
+
+    if not year:
+        return
+
+    if year.startswith("/"):
+        year = year[1:]
+    if year.endswith("/"):
+        year = year[:-1]
+    if not year.isdigit() or not len(year) == 4:
+        return
+
+    data[INIT_KEY] = 1
+
+    # get all the entries
+    wa = YearArchives(request)
+    wa.gen_linear_archive()
+    items = wa._items
+
+    # peel off the items for this year
+    items = [m for m in items if m[0].startswith(year)]
+
+    items.sort()
+    items.reverse()
+
+    l = ("(%(path)s) &lt;a href=\"" + baseurl +
+         "/%(file_path)s.html\"&gt;%(title)s&lt;/a&gt;&lt;br&gt;")
+    e = "&lt;tr&gt;\n&lt;td valign=\"top\" align=\"left\"&gt;%s&lt;/td&gt;\n&lt;td&gt;%s&lt;/td&gt;&lt;/tr&gt;\n"
+    d = ""
+    m = ""
+
+    day = []
+    month = []
+    entrylist = []
+
+    for mem in items:
+        if not m:
+            m = mem[0]
+        if not d:
+            d = mem[1]
+
+        if m != mem[0]:
+            month.append(e % (d, "\n".join(day)))
+            entrylist.append(new_entry(request, m, "\n".join(month)))
+            m = mem[0]
+            d = mem[1]
+            day = []
+            month = []
+
+        elif d != mem[1]:
+            month.append(e % (d, "\n".join(day)))
+            d = mem[1]
+            day = []
+        entry = entries.fileentry.FileEntry(
+            request, mem[3], data['root_datadir'])
+        day.append(l % entry)
+
+    if day:
+        month.append(e % (d, "\n".join(day)))
+    if month:
+        entrylist.append(new_entry(request, m, "\n".join(month)))
+
+    return entrylist
+</t>
+<t tx="zoomq.20100419111908.3769">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+@others
+</t>
+<t tx="zoomq.20100419111908.3770"># vim: tabstop=4 shiftwidth=4
+"""
+- zoomq 100419 fixed for export month/year with count
+Walks through your blog root figuring out all the available monthly archives in
+your blogs.  It generates html with this information and stores it in the
+$archivelinks variable which you can use in your head or foot templates.
+
+You can format the output with the key "archive_template".
+
+A config.py example:
+
+    py['archive_template'] = '&lt;li&gt;&lt;a href="%(base_url)s/%(Y)s/%(b)s"&gt;%(m)s/%(y)s&lt;/a&gt;&lt;/li&gt;'
+
+Displays the archives as list items, with a month number slash year number, like 06/78.
+
+The vars available with typical example values are:
+    b      'Jun'
+    m      '6'
+    Y      '1978'
+    y      '78'
+
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004, 2005 Wari Wahab
+"""
+__author__ = "Wari Wahab - wari at wari dot per dot sg"
+__version__ = "$Id: pyarchives.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $"
+
+from Pyblosxom import tools
+import time, os
+
+</t>
+<t tx="zoomq.20100419111908.3771">def verify_installation(request):
+    config = request.get_configuration()
+    if not config.has_key("archive_template"):
+        print "missing optional config property 'archive_template' which "
+        print "allows you to specify how the archive links are created.  "
+        print "refer to pyarchive plugin documentation for more details."
+    return 1
+
+</t>
+<t tx="zoomq.20100419111908.3772">class PyblArchives:
+    @others
+</t>
+<t tx="zoomq.20100419111908.3773">def __init__(self, request):
+    self._request = request
+    self._archives = None
+
+</t>
+<t tx="zoomq.20100419111908.3774">def __str__(self):
+    if self._archives == None:
+        self.gen_linear_archive()
+    return self._archives
+
+</t>
+<t tx="zoomq.20100419111908.3775">def gen_linear_archive(self):
+    config = self._request.get_configuration()
+    data = self._request.get_data()
+    root = config["datadir"]
+    archives = {}
+    archive_list = tools.walk(self._request, root)
+    fulldict = {}
+    fulldict.update(config)
+    fulldict.update(data)
+    template = config.get('archive_template', 
+                '&lt;a href="%(base_url)s/%(Y)s/%(m)s"&gt;%(y)s.%(m)s&lt;/a&gt;')
+    #&lt;a href="%(base_url)s/%(Y)s/%(b)s"&gt;%(Y)s-%(b)s&lt;/a&gt;
+    #print fulldict["base_url"]
+    for mem in archive_list:
+        timetuple = tools.filestat(self._request, mem)
+        timedict = {}
+        for x in ["B", "b", "m", "Y", "y"]:
+            timedict[x] = time.strftime("%" + x, timetuple)
+        fulldict.update(timedict)
+        if not archives.has_key(timedict['Y'] + timedict['m']):
+            archives[timedict['Y'] + timedict['m']] = [template % fulldict,1]
+        else:
+            archives[timedict['Y'] + timedict['m']][1] += 1
+            archives[timedict['Y'] + timedict['m']][0] = template % fulldict
+    #print archives
+    #return
+    arc_keys = archives.keys()
+    arc_keys.sort()
+    arc_keys.reverse()
+    @others
+    #print result
+    self._archives = '\n'.join(result)
+
+</t>
+<t tx="zoomq.20100419111908.3776">def cb_prepare(args):
+    request = args["request"]
+    data = request.get_data()
+    data["archivelinks"] = PyblArchives(request)
+</t>
+<t tx="zoomq.20100419194136.6323">yearmonth = {}
+result = []
+#base archives walk and count every year's mounth
+for key in arc_keys:
+    yearname = key[:-2]
+    if yearname in yearmonth.keys():
+        yearmonth[yearname][0] += archives[key][1]
+        yearmonth[yearname][1].append(archives[key])
+    else:
+        yearmonth[yearname] = [archives[key][1],[]]
+        yearmonth[yearname][1].append(archives[key])
+#print yearmonth["2007"]
+mon_keys = yearmonth.keys()
+mon_keys.sort()
+mon_keys.reverse()
+#print mon_keys
+for year in mon_keys:
+    #print "%s&lt;sup&gt;%s&lt;sup&gt;"%(year,yearmonth[year][0])
+    monode = yearmonth[year][1]
+    result.append("&lt;li class='yearchives'&gt;&lt;a href='%s'&gt;%s&lt;/a&gt;&lt;sup&gt;(%d)&lt;/sup&gt;&lt;/li&gt;"%(fulldict["base_url"],year,yearmonth[year][0]))
+    if 1==len(monode):
+        #print "%s&lt;sup&gt;%s&lt;sup&gt;"%(monode[0][0],monode[0][1])
+        result.append("&lt;li&gt;%s&lt;sup&gt;(%d)&lt;/sup&gt;&lt;li&gt;"%(monode[0][0],monode[0][1]))
+    else:
+        for m in monode:
+            #print m
+            #print "%s&lt;sup&gt;%s&lt;sup&gt;"%(m[0],m[1])
+            result.append("&lt;li&gt;%s&lt;sup&gt;(%d)&lt;/sup&gt;&lt;li&gt;"%(m[0],m[1]))
+            #result.append("%s&lt;sup&gt;%s&lt;sup&gt;"%(month[0],month[1]))
+
+</t>
+<t tx="zoomq.20100420100426.3881">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+
+@others
+</t>
+<t tx="zoomq.20100420100426.3882">"""
+Summary
+=======
+
+This is a tags plugin.  It uses PyBlosxom 1.5's command line abilities
+to split generation of tags index data from display of tags index
+data.
+
+It creates a ``$(tagslist)`` variable for head and foot templates
+which lists all the tags.
+
+It creates a ``$(tags)`` variable for story templates which lists tags
+for the story.
+
+
+Configuration
+=============
+
+The following config properties define where the tags file is located,
+how tag metadata is formatted, and how tag lists triggered.
+
+``tags_separator``
+
+    This defines the separator between tags in the metadata line.
+    Defaults to ",".
+
+    After splitting on the separator, each individual tag is stripped
+    of whitespace before and after the text.
+
+    For example::
+
+       Weather in Boston
+       #tags weather, boston
+       &lt;p&gt;
+         The weather in Boston today is pretty nice.
+       &lt;/p&gt;
+
+    returns tags ``weather`` and ``boston``.
+
+    If the ``tags_separator`` is::
+
+       py["tags_separator"] = "::"
+
+    then tags could be declared in the entries like this::
+
+       Weather in Boston
+       #tags weather::boston
+       &lt;p&gt;
+         The weather in Boston today is pretty nice.
+       &lt;/p&gt;
+
+``tags_filename``
+
+    This is the file that holds indexed tags data.  Defaults to
+    datadir + os.pardir + ``tags.index``.
+
+    This file needs to be readable by the process that runs your blog.
+    This file needs to be writable by the process that creates the
+    index.
+
+``tags_trigger``
+
+    This is the url trigger to indicate that the tags plugin should
+    handle the file list based on the tag.  Defaults to ``tag``.
+
+
+In the head and foot templates, you can list all the tags with the
+``$(tagslist)`` variable.  The templates for this listing use the
+following three config properties:
+
+``tags_list_start``
+
+    Printed before the list.  Defaults to ``&lt;p&gt;``.
+
+``tags_list_item``
+
+    Used for each tag in the list.  There are a bunch of variables you can
+    use:
+
+    * ``base_url`` - the baseurl for your blog
+    * ``flavour`` - the default flavour or flavour currently showing
+    * ``tag`` - the tag name
+    * ``count`` - the number of items that are tagged with this tag
+    * ``tagurl`` - url composed of baseurl, trigger, and tag
+
+    Defaults to ``&lt;a href="%(tagurl)s"&gt;%(tag)s&lt;/a&gt; ``.
+
+``tags_list_finish``
+
+    Printed after the list.  Defaults to ``&lt;/p&gt;``.
+
+
+You can list the tags for a given entry in the story template with the
+``$(tags)`` variable.  The tag items in the story are formatted with one
+configuration property:
+
+``tags_item``
+
+    This is the template for a single tag for an entry.  It can use the
+    following bits:
+
+    * ``base_url`` - the baseurl for this blog
+    * ``flavour`` - the default flavour or flavour currently being viewed
+    * ``tag`` - the tag
+    * ``tagurl`` - url composed of baseurl, trigger and tag
+
+    Defaults to ``&lt;a href="%(tagurl)s"&gt;%(tag)s&lt;/a&gt;``.
+
+    Tags are joined together with ``, ``.
+
+
+Creating the tags index file
+============================
+
+Run::
+
+    pyblosxom-cmd buildtags
+
+from the directory your ``config.py`` is in or::
+
+    pyblosxom-cmd buildtags --config=/path/to/config/file 
+
+from anywhere.
+
+This builds the tags index file that the tags plugin requires to
+generate tags-based bits for the request.
+
+Until you rebuild the tags index file, the entry will not have its
+tags indexed.  Thus you should either rebuild the tags file after writing
+or updating an entry or you should rebuild the tags file as a cron job.
+
+.. Note::
+
+   If you're using static rendering, you need to build the tags
+   index before you statically render your blog.
+
+
+Converting from categories to tags
+==================================
+
+This plugin has a command that goes through your entries and adds tag
+metadata based on the category.  There are some caveats:
+
+1. it assumes entries are in the blosxom format of title, then
+   metadata, then the body.
+
+2. it only operates on entries in the datadir.
+
+It maintains the atime and mtime of the file.  My suggestion is to
+back up your files (use tar or something that maintains file stats),
+then try it out and see how well it works, and figure out if that
+works or not.
+
+To run the command do::
+
+    pyblosxom-cmd categorytotags
+
+from the directory your ``config.py`` is in or::
+
+    pyblosxom-cmd categorytotags --config=/path/to/config/file
+
+from anywhere.
+
+
+----
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2009 Will Guaraldi Kahn-Greene
+
+Revisions:
+1.0 - 2009-06-02 - initial writing
+"""
+
+__author__ = "Will Kahn-Greene - willg at bluesock dot org"
+__version__ = "1.0"
+__url__ = "http://pyblosxom.sourceforge.net/"
+__description__ = "Tags plugin"
+
+import os
+import cPickle as pickle
+import shutil
+import unittest
+import tempfile
+
+
+</t>
+<t tx="zoomq.20100420100426.3883">def savefile(path, tagdata):
+    """Saves tagdata to file at path."""
+    fp = open(path + ".new", "w")
+    pickle.dump(tagdata, fp)
+    fp.close()
+
+    shutil.move(path + ".new", path)
+
+</t>
+<t tx="zoomq.20100420100426.3884">def loadfile(path):
+    """Loads tagdata from file at path."""
+    fp = open(path, "r")
+    tagdata = pickle.load(fp)
+    fp.close()
+    return tagdata
+
+</t>
+<t tx="zoomq.20100420100426.3885">def get_tagsfile(cfg):
+    """Generates tagdata filename."""
+    datadir = cfg["datadir"]
+    tagsfile = cfg.get("tags_filename",
+                       os.path.join(datadir, os.pardir, "tags.index"))
+    return tagsfile
+
+</t>
+<t tx="zoomq.20100420100426.3886">def buildtags(command, argv):
+    """Command for building the tags index."""
+    import config
+
+    datadir = config.py.get("datadir")
+    if not datadir:
+        raise ValueError("config.py has no datadir property.")
+
+    sep = config.py.get("tags_separator", ",")
+    tagsfile = get_tagsfile(config.py)
+
+    from Pyblosxom.pyblosxom import blosxom_entry_parser, Request
+    from Pyblosxom import tools
+    from Pyblosxom.entries import fileentry
+
+    data = {}
+
+    # register entryparsers so that we parse all possible file types.
+    data["extensions"] = tools.run_callback("entryparser",
+                                            {"txt": blosxom_entry_parser},
+                                            mappingfunc=lambda x, y:y,
+                                            defaultfunc=lambda x: x)
+
+    req = Request(config.py, {}, data)
+
+    # grab all the entries in the datadir
+    filelist = tools.walk(req, datadir)
+    entrylist = [fileentry.FileEntry(req, e, datadir) for e in filelist]
+
+    tags_to_files = {}
+    for mem in entrylist:
+        tagsline = mem["tags"]
+        if not tagsline:
+            continue
+        tagsline = [t.strip() for t in tagsline.split(sep)]
+        for t in tagsline:
+            tags_to_files.setdefault(t, []).append(mem["filename"])
+
+    savefile(tagsfile, tags_to_files)
+    return 0
+
+</t>
+<t tx="zoomq.20100420100426.3887">def category_to_tags(command, argv):
+    """Goes through all entries and converts the category to tags
+    metadata.
+
+    It adds the tags line as the second line.
+
+    It maintains the mtime for the file.
+    """
+    import config
+
+    datadir = config.py.get("datadir")
+    if not datadir:
+        raise ValueError("config.py has no datadir property.")
+
+    sep = config.py.get("tags_separator", ",")
+    tagsfile = get_tagsfile(config.py)
+
+    from Pyblosxom.pyblosxom import blosxom_entry_parser, Request
+    from Pyblosxom import tools
+    from Pyblosxom.entries import fileentry
+
+    data = {}
+
+    # register entryparsers so that we parse all possible file types.
+    data["extensions"] = tools.run_callback("entryparser",
+                                            {"txt": blosxom_entry_parser},
+                                            mappingfunc=lambda x, y:y,
+                                            defaultfunc=lambda x: x)
+
+
+    req = Request(config.py, {}, data)
+
+    # grab all the entries in the datadir
+    filelist = tools.walk(req, datadir)
+
+    if not datadir.endswith(os.sep):
+        datadir = datadir + os.sep
+
+    for mem in filelist:
+        print "working on %s..." % mem
+
+        category = os.path.dirname(mem)[len(datadir):]
+        tags = category.split(os.sep)
+        print "   adding tags %s" % tags
+        tags = "#tags %s\n" % (sep.join(tags))
+
+        atime, mtime = os.stat(mem)[7:9]
+
+        fp = open(mem, "r")
+        data = fp.readlines()
+        fp.close()
+
+        data.insert(1, tags)
+
+        fp = open(mem, "w")
+        fp.write("".join(data))
+        fp.close()
+
+        os.utime(mem, (atime, mtime))
+
+    return 0
+
+</t>
+<t tx="zoomq.20100420100426.3888">def cb_commandline(args):
+    args["buildtags"] = (buildtags, "builds the tags index")
+    args["categorytotags"] = (category_to_tags,
+                              "builds tag metadata from categories for entries")
+    return args
+
+</t>
+<t tx="zoomq.20100420100426.3889">def cb_start(args):
+    request = args["request"]
+    data = request.get_data()
+    tagsfile = get_tagsfile(request.get_configuration())
+    tagsdata = loadfile(tagsfile)
+    data["tagsdata"] = tagsdata
+
+</t>
+<t tx="zoomq.20100420100426.3890">def cb_filelist(args):
+    # handles /trigger/tag to show all the entries tagged that
+    # way
+    req = args["request"]
+
+    pyhttp = req.get_http()
+    data = req.get_data()
+    config = req.get_configuration()
+
+    trigger = "/" + config.get("tags_trigger", "tag")
+    if not pyhttp["PATH_INFO"].startswith(trigger):
+        return
+
+    datadir = config["datadir"]
+    tagsfile = get_tagsfile(config)
+    tagsdata = loadfile(tagsfile)
+
+    tag = pyhttp["PATH_INFO"][len(trigger) + 1:]
+    filelist = tagsdata.get(tag, [])
+    if not filelist:
+        tag, ext = os.path.splitext(tag)
+        filelist = tagsdata.get(tag, [])
+        if filelist:
+            data["flavour"] = ext[1:]
+
+    from Pyblosxom.entries import fileentry
+    entrylist = [fileentry.FileEntry(req, e, datadir) for e in filelist]
+
+    # sort the list by mtime
+    entrylist = [(e._mtime, e) for e in entrylist]
+    entrylist.sort()
+    entrylist.reverse()
+    entrylist = [e[1] for e in entrylist]
+
+    return entrylist
+
+</t>
+<t tx="zoomq.20100420100426.3891">def cb_story(args):
+    # adds tags to the entry properties
+    request = args["request"]
+    entry = args["entry"]
+    config = request.get_configuration()
+
+    sep = config.get("tags_separator", ",")
+    tags = [t.strip() for t in entry.get("tags", "").split(sep)]
+    tags.sort()
+    entry["tags_raw"] = tags
+
+    form = request.get_form()
+    try:
+        flavour = form["flav"].value
+    except AttributeError:
+        flavour = config.get("default_flavour", "html")
+    baseurl = config.get("base_url", "")
+    trigger = config.get("tags_trigger", "tag")
+    template = config.get("tags_item", '&lt;a href="%(tagurl)s"&gt;%(tag)s&lt;/a&gt;')
+
+    tags = [template % {"base_url": baseurl,
+                        "flavour": flavour,
+                        "tag": tag,
+                        "tagurl": "/".join([baseurl, trigger, tag])}
+            for tag in tags]
+    entry["tags"] = ", ".join(tags)
+    return args
+
+</t>
+<t tx="zoomq.20100420100426.3892">def cb_head(args):
+    # adds a taglist to header/footer
+    request = args["request"]
+    entry = args["entry"]
+    data = request.get_data()
+    config = request.get_configuration()
+    tagsdata = data.get("tagsdata", {})
+
+    tags = tagsdata.keys()
+    tags.sort()
+
+    start_t = config.get("tags_list_start", '&lt;p&gt;')
+    item_t = config.get("tags_list_item", ' &lt;a href="%(tagurl)s"&gt;%(tag)s&lt;/a&gt; ')
+    finish_t = config.get("tags_list_finish", '&lt;/p&gt;')
+
+    output = []
+
+    form = request.get_form()
+    try:
+        flavour = form["flav"].value
+    except AttributeError:
+        flavour = config.get("default_flavour", "html")
+    baseurl = config.get("base_url", "")
+    trigger = config.get("tags_trigger", "tag")
+
+    output.append(start_t)
+    for item in tags:
+        d = {"base_url": baseurl,
+             "flavour": flavour,
+             "tag": item,
+             "count": len(tagsdata[item]),
+             "tagurl": "/".join([baseurl, trigger, item])}
+        output.append(item_t % d)
+    output.append(finish_t)
+
+    entry["tagslist"] = "\n".join(output)
+    return args
+
+</t>
+<t tx="zoomq.20100420100426.3893">cb_foot = cb_head
+
+class TagsTest(unittest.TestCase):
+    @others
+</t>
+<t tx="zoomq.20100420100426.3894">def setUp(self):
+    self.tmpdir = tempfile.mkdtemp() 
+
+</t>
+<t tx="zoomq.20100420100426.3895">def get_datadir(self):
+    return os.path.join(self.tmpdir, "datadir")
+
+</t>
+<t tx="zoomq.20100420100426.3896">def tearDown(self):
+    try:
+        shutil.rmtree(self.tmpdir)
+    except OSError:
+        pass
+
+</t>
+<t tx="zoomq.20100420100426.3897">def test_get_tagsfile(self):
+    from Pyblosxom.pyblosxom import Request
+    req = Request({"datadir": self.get_datadir()}, {}, {})
+
+    cfg = {"datadir": self.get_datadir()}
+    self.assertEquals(get_tagsfile(cfg),
+                      os.path.join(self.get_datadir(), os.pardir,
+                                   "tags.index"))
+
+    tags_filename = os.path.join(self.get_datadir(), "tags.db")
+    cfg = {"datadir": self.get_datadir(), "tags_filename": tags_filename}
+    self.assertEquals(get_tagsfile(cfg), tags_filename)
+
+</t>
+<t tx="zoomq.20100420100426.3898">def get_test_suite():
+    ret = unittest.TestLoader().loadTestsFromTestCase(TagsTest)
+    return ret
+</t>
+<t tx="zoomq.20100420100426.3908">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+
+@others
+</t>
+<t tx="zoomq.20100420100426.3909"># vim: tabstop=4 shiftwidth=4
+"""
+- zoomq 100419 fixed for export month/year with count
+Walks through your blog root figuring out all the available monthly archives in
+your blogs.  It generates html with this information and stores it in the
+$archivelinks variable which you can use in your head or foot templates.
+
+You can format the output with the key "archive_template".
+
+A config.py example:
+
+    py['archive_template'] = '&lt;li&gt;&lt;a href="%(base_url)s/%(Y)s/%(b)s"&gt;%(m)s/%(y)s&lt;/a&gt;&lt;/li&gt;'
+
+Displays the archives as list items, with a month number slash year number, like 06/78.
+
+The vars available with typical example values are:
+    b      'Jun'
+    m      '6'
+    Y      '1978'
+    y      '78'
+
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004, 2005 Wari Wahab
+"""
+__author__ = "Wari Wahab - wari at wari dot per dot sg"
+__version__ = "$Id: zqarchives.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $"
+
+from Pyblosxom import tools
+import time, os
+
+</t>
+<t tx="zoomq.20100420100426.3910">def verify_installation(request):
+    config = request.get_configuration()
+    if not config.has_key("archive_template"):
+        print "missing optional config property 'archive_template' which "
+        print "allows you to specify how the archive links are created.  "
+        print "refer to pyarchive plugin documentation for more details."
+    return 1
+
+</t>
+<t tx="zoomq.20100420100426.3911">class PyblArchives:
+    @others
+</t>
+<t tx="zoomq.20100420100426.3912">def __init__(self, request):
+    self._request = request
+    self._archives = None
+
+</t>
+<t tx="zoomq.20100420100426.3913">def __str__(self):
+    if self._archives == None:
+        self.gen_linear_archive()
+    return self._archives
+
+</t>
+<t tx="zoomq.20100420100426.3914">def gen_linear_archive(self):
+    config = self._request.get_configuration()
+    data = self._request.get_data()
+    root = config["datadir"]
+    archives = {}
+    archive_list = tools.walk(self._request, root)
+    fulldict = {}
+    fulldict.update(config)
+    fulldict.update(data)
+    template = config.get('archive_template', 
+                '&lt;a href="%(base_url)s/%(Y)s/%(m)s"&gt;%(y)s.%(m)s&lt;/a&gt;')
+    #&lt;a href="%(base_url)s/%(Y)s/%(b)s"&gt;%(Y)s-%(b)s&lt;/a&gt;
+    #print fulldict["base_url"]
+    for mem in archive_list:
+        timetuple = tools.filestat(self._request, mem)
+        timedict = {}
+        for x in ["B", "b", "m", "Y", "y"]:
+            timedict[x] = time.strftime("%" + x, timetuple)
+        fulldict.update(timedict)
+        if not archives.has_key(timedict['Y'] + timedict['m']):
+            archives[timedict['Y'] + timedict['m']] = [template % fulldict,1]
+        else:
+            archives[timedict['Y'] + timedict['m']][1] += 1
+            archives[timedict['Y'] + timedict['m']][0] = template % fulldict
+    #print archives
+    #return
+    arc_keys = archives.keys()
+    arc_keys.sort()
+    arc_keys.reverse()
+    @others
+    #print result
+    self._archives = '\n'.join(result)
+
+</t>
+<t tx="zoomq.20100420100426.3915">yearmonth = {}
+result = []
+#base archives walk and count every year's mounth
+for key in arc_keys:
+    yearname = key[:-2]
+    if yearname in yearmonth.keys():
+        yearmonth[yearname][0] += archives[key][1]
+        yearmonth[yearname][1].append(archives[key])
+    else:
+        yearmonth[yearname] = [archives[key][1],[]]
+        yearmonth[yearname][1].append(archives[key])
+#print yearmonth["2007"]
+mon_keys = yearmonth.keys()
+mon_keys.sort()
+mon_keys.reverse()
+#print mon_keys
+for year in mon_keys:
+    #print "%s&lt;sup&gt;%s&lt;sup&gt;"%(year,yearmonth[year][0])
+    monode = yearmonth[year][1]
+    result.append("&lt;li class='yearchives'&gt;&lt;a href='%s/%s'&gt;%s&lt;/a&gt;&lt;sup&gt;(%d)&lt;/sup&gt;&lt;/li&gt;"%(fulldict["base_url"],year,year,yearmonth[year][0]))
+    if 1==len(monode):
+        #print "%s&lt;sup&gt;%s&lt;sup&gt;"%(monode[0][0],monode[0][1])
+        result.append("&lt;li&gt;%s&lt;sup&gt;(%d)&lt;/sup&gt;&lt;li&gt;"%(monode[0][0],monode[0][1]))
+    else:
+        for m in monode:
+            #print m
+            #print "%s&lt;sup&gt;%s&lt;sup&gt;"%(m[0],m[1])
+            result.append("&lt;li&gt;%s&lt;sup&gt;(%d)&lt;/sup&gt;&lt;li&gt;"%(m[0],m[1]))
+            #result.append("%s&lt;sup&gt;%s&lt;sup&gt;"%(month[0],month[1]))
+
+</t>
+<t tx="zoomq.20100420100426.3916">def cb_prepare(args):
+    request = args["request"]
+    data = request.get_data()
+    data["archivelinks"] = PyblArchives(request)
+</t>
 <t tx="zoomq.20100420100426.3917">pyblosxom-cmd  buildtags --config /home/zoomq/3hg/pyk.pyblosoxm/zoomquiet/config.py 
 pyblosxom-cmd version 1.5-rc1 20100129
 Adding /home/zoomq/3hg/pyk.pyblosoxm/zoomquiet/ to sys.path....
@@ -12435,6 +23119,57 @@ Traceback (most recent call last):
 IndexError: list index out of range
 
 </t>
+<t tx="zoomq.20100420100426.3921">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+@others
+</t>
+<t tx="zoomq.20100420100426.3922">"""
+Summary
+=======
+
+Thrown-together plugin to summarize all entries after the first five
+in the html flavour.
+
+This uses the ``summary`` template.  So make sure to build a ``summary`` 
+template file.  Also, you should probably fiddle with the values in this 
+plugin to get it to meet your special needs.
+
+----
+
+This code is placed in the public domain.  Do with it as you will.
+
+SUBVERSION VERSION: $Id: wbglast10summary.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $
+"""
+
+__author__ = "Will Guaraldi - willg at bluesock dot org"
+__version__ = "$Date: 2010/10/26 23:00:07 $"
+__url__ = "http://www.bluesock.org/~willg/pyblosxom/"
+__description__ = "Summarizes old posts."
+
+
+</t>
+<t tx="zoomq.20100420100426.3923">def cb_prepare(args):
+    request = args["request"]
+    data = request.getData()
+
+    flavour = data.get("flavour", "html")
+
+    # we don't want to do anything if the flavour isn't html
+    if not flavour in ["html"]:
+        return
+
+    # grab the entry list
+    entry_list = data["entry_list"]
+
+    # for all the entries after the 5th one, we set the template_name
+    # to summary.
+    i = 5
+    while i &lt; len(entry_list):
+        if entry_list[i].get("template_name", "story") == "story":
+            entry_list[i]["template_name"] = "summary"
+        i = i + 1
+</t>
 <t tx="zoomq.20100420100426.5115">http://alexgorbatchev.com/wiki/SyntaxHighlighter:Usage
 &lt;!-- Include required JS files --&gt;
 &lt;script type="text/javascript" src="js/shCore.js"&gt;&lt;/script&gt;
@@ -12457,6 +23192,21 @@ function foo()
 &lt;script type="text/javascript"&gt;
      SyntaxHighlighter.all()
 &lt;/script&gt;
+</t>
+<t tx="zoomq.20100420100426.5116">#100420:zoomq   appended for usage SyntaxHighlighter
+"""usage: ~ ::brush:
+```
+#! python
+import this
+...
+```
+"""
+if "#! " in result[1]:
+    #print "result[1][2:]:\t%s"%result[1][2:]
+    result[0] = '&lt;pre class="%s %s"&gt;'%("brush:",result[1][2:])
+    result[1] = ""
+    #print result[0]
+
 </t>
 <t tx="zoomq.20100420100426.5117">&lt;pyblosxom-users@lists.sourceforge.net&gt;
 
@@ -12588,6 +23338,161 @@ that all!
 t2t and PyBlosxom is all K.I.S.S;
 so we can easy hacking them to working for u style ;-)
 thanx for all        </t>
+<t tx="zoomq.20100420100426.5124">@language python
+@tabwidth -4
+# -*- coding: utf-8 -*-
+&lt;&lt;declarations&gt;&gt;
+import math
+import os.path
+import time
+from operator import itemgetter
+from Pyblosxom import tools
+import Pyblosxom.entries
+#import re
+
+__author__ = 'Zoom.Quiet'
+__version__ = '10.4.20'
+__url__ = 'http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/'
+__description__ = 'Displays an Category index as Tree for all entries. in one page'
+DEFAULT_ROOT = []
+@others
+</t>
+<t tx="zoomq.20100420100426.5125">"""
+category_static.py
+    - just fixed for pyblosxom-cmd  staticrender export all .html links
+base index.py from:
+http://snarfed.org/space/pyblosxom+index
+Ryan Barrett &lt;pyblosxom@ryanb.org&gt;
+    - Zoom.Quiet 100401
+
+This plugin displays an alphabetical index of all entries. It uses these
+optional config variables from config.py, shown here with their defaults:
+
+py['cindex_trigger']            = '/site-index'
+py['cindex_num_columns']        = 2
+py['cindex_letters_first']      = True
+py['cindex_title']              = 'index'
+py['cindex_use_story_template'] = True
+
+
+VERSION:
+0.2
+
+TODO:
+- use a template instead of hard-coded HTML
+
+Copyright 2006 Ryan Barrett
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+"""
+
+</t>
+<t tx="zoomq.20100420100426.5126">def verify_installation(request):
+  return 1
+
+</t>
+<t tx="zoomq.20100420100426.5127">def cb_filelist(args):
+    request = args['request']
+    http = request.getHttp()
+    data = request.getData()
+    config = request.getConfiguration()
+    _baseurl = config.get("base_url", "")
+
+    trigger = config.get('cindex_trigger', 'site-index')
+    if http['PATH_INFO'] != trigger:
+        return
+
+    # get the entries
+    datadir = config['datadir']
+    files = tools.Walk(request, datadir)
+    files.sort()
+
+    body = '&lt;div id="categoriselist"&gt;'
+    @others
+    #print body
+    body +="&lt;/div&gt;" 
+    data = {'title': config.get('cindex_title', 'index')}
+    # use the epoch for mtime. otherwise, pyblosxom uses the current time, which
+    # makes other plugins (like weblogsping) think this is a new entry.
+    epoch = time.localtime(0)
+    fe = Pyblosxom.entries.base.generate_entry(request, data, body, epoch)
+    return [fe]
+
+</t>
+<t tx="zoomq.20100420100426.5128">def cb_story(args):
+  request = args['request']
+  http = request.getHttp()
+  config = request.getConfiguration()
+  trigger = config.get('cindex_trigger', 'site-index')
+
+  if (http['PATH_INFO'] == trigger and
+      not config.get('cindex_use_story_template', 1)):
+    title = config.get('cindex_title', 'index')
+    args['template'] = '&lt;h1 class="index"&gt;%s&lt;/h1&gt;\n&lt;hr /&gt;\n$body' % title
+
+  return args
+</t>
+<t tx="zoomq.20100420100426.5129">#print files
+# sort into sections, one for each letter. the dictionary is 
+# letter =&gt; (entry name, path) where path is the relative to datadir.
+#sections = {}
+#   the entrise dictionary is 
+# path =&gt; (entry name, 0) 
+entrise = []
+
+entry_extensions = data['extensions'].keys()
+
+for file in files:
+    #objEntry = entries.fileentry.FileEntry(request, file,datadir)
+    #print objEntry.keys()  
+    assert file.startswith(datadir)
+    path, ext = os.path.splitext(file[len(datadir):])
+    if ext[1:] in entry_extensions:  # strip the leading period from ext
+        entry_name = os.path.basename(path)
+        #sections.setdefault(entry_name[0].upper(), []).append((entry_name, path))
+        entrise.append((entry_name,path,file))
+#print entrise
+#sortPaths = sorted(entrise.iteritems(), key=itemgetter(1), reverse=True)
+#print sortPaths</t>
+<t tx="zoomq.20100420100426.5130">#print _baseurl
+etree = {}
+"""{
+"pathID":[(path.split()),"title",...]
+,
+}
+"""
+for entry in entrise:
+    e = Pyblosxom.entries.fileentry.FileEntry(request, entry[2], entry[1])
+    deeps = entry[1].split("/")[:-1]
+    pathID = "".join(deeps)
+    if pathID in etree:
+        etree[pathID].append((e['title'],entry[1]))
+    else:
+        etree[pathID]= [tuple(deeps),(e['title'],entry[1])]
+#print etree.keys()
+root_path_list = config.get("category_root_list", DEFAULT_ROOT)
+root_entry_list = []
+for opath in root_path_list:
+    #print opath
+    crtRoot = []
+    for k in etree.keys():
+        if opath in k:
+            crtRoot.append(k)
+    crtRoot.sort()
+    root_entry_list.append((opath,crtRoot))
+
+'''root_entry_list as::
+[('Zen', ['ZenChinese', 'ZenGoogle', 'Zenpythonic']), ('oss', ['oss', 'ossFreeBSD', 'ossMozillaFireFox', 'ossUbuntu']), ('opening', []), ('mind', ['mind']), ('Quiet', ['Quietliving', 'Quietnomeans']), ('utility', ['utilitySubversion', 'utilitySubversionhooks', 'utilitypy4strStructuredText', 'utilitypy4webDjango', 'utilitypy4webMoinMoin', 'utilitypy4webQuixote', 'utilitypy4zh', 'utilityzqlib']), ('internet', ['internet', 'internetFolksonomy']), ('easy', ['easymovie', 'easymusic']), ('techic', ['techic', 'techicEmacs', 'techicPyBlosxom', 'techicPyBlosxomblosxom', 'techicPyBlosxomplugins'])]
+'''
+</t>
 <t tx="zoomq.20100420100426.5500">elist = tools.Walk(self._request, root)
 
 data = self._request.getData()
@@ -12707,6 +23612,60 @@ for entry in entrise:
     - 
 
 
+</t>
+<t tx="zoomq.20100514091552.4530">body += '&lt;h3&gt;/&lt;/h3&gt;'
+for e in etree[''][1:]:
+    #print "etree[''] include::",e
+    body += '&lt;span class="indents"&gt;%s&lt;/span&gt;&lt;a href="%s%s.html"&gt;%s&lt;/a&gt;&lt;br&gt;\n'%(
+        "...."
+        ,_baseurl
+        ,e[1]
+        ,e[0]
+        )
+#print root_entry_list
+
+for k in root_entry_list:
+    #['techic', 'techicEmacs', 'techicPyBlosxom', 'techicPyBlosxomblosxom', 'techicPyBlosxomplugins']
+    body += '&lt;h4&gt;%s/&lt;/h4&gt;'%k[0]
+    cpath = ""
+    for p in k[1]:
+        #print etree[p]
+        &lt;&lt;item link&gt;&gt;
+
+'''
+[('', 'easy', 'movie'), '\xe4\xb8\x96\xe9\x97\xb4\xe5\xae\x89\xe5\xbe\x97\xe5\x8f\x8c\xe5\x85\xa8\xe6\xb3\x95,\xe4\xb8\x8d\xe8\xb4\x9f\xe5\xa6\x82\xe6\x9d\xa5\xe4\xb8\x8d\xe8\xb4\x9f\xe5\x8d\xbf!']
+[('', 'easy', 'music'), 'ZARD\xe6\xb6\x88\xe9\x80\x9d\xe4\xba\x86']
+
+for entry in entrise:
+    e = Pyblosxom.entries.fileentry.FileEntry(request, entry[2], entry[1])
+    #print e['title']
+    #print entry[1].split("/")[:-1]
+    body += '&lt;span class="indents"&gt;%s&lt;/span&gt;&lt;a href="%s%s.html"&gt;%s&lt;/a&gt;%s&lt;br&gt;\n'%(
+            "...."*len(entry[1].split("/"))
+            ,_baseurl
+            ,entry[1]
+            ,e['title'] #entry[0]
+            ,entry[1]
+            )
+'''
+</t>
+<t tx="zoomq.20100514091552.4532">#[('', 'Zen', 'Chinese'), '9.18', 'CC Salon BJ', '\xe2\x80\x9c\xe5\x9b\xbd\xe9\x99\x85\xe8\x87\xaa\xe7\x94\xb1\xe8\xbd\xaf\xe4\xbb\xb6\xe6\x97\xa5\xe2\x80\x9d\xe4\xb9\x8b\xe5\xa4\xb4\xe8\x84\x91\xe9\xa3\x8e\xe6\x9a\xb4', '\xe8\xa1\xa8\xe5\xbd\xa2\xe7\xa0\x81\xe7\x9a\x84\xe6\xb6\x88\xe4\xba\xa1\xe8\x83\x8c\xe6\x99\xaf\xef\xbc\x81']
+epath = "/".join(etree[p][0][2:])
+if k[0] != "".join(etree[p][0]):
+    if cpath != epath:
+        cpath = epath
+        ldeep = len(etree[p][0][1:])
+        if 3 &gt; ldeep:
+            body += '&lt;H5&gt;%s/&lt;/H5&gt;'%"/".join(etree[p][0][2:])
+        else:
+            body += '&lt;H6&gt;%s/&lt;/H6&gt;'%"/".join(etree[p][0][3:])
+for e in etree[p][1:]:
+    body += '&lt;span class="indents"&gt;%s&lt;/span&gt;&lt;a href="%s%s.html"&gt;%s&lt;/a&gt;&lt;br&gt;\n'%(
+            "..."*len(etree[p][0])
+            ,_baseurl
+            ,e[1]
+            ,e[0]
+            )
 </t>
 <t tx="zoomq.20100517221505.4512">@path IOP</t>
 <t tx="zoomq.20100517221505.4526">@language Moin
@@ -15648,6 +26607,8 @@ py["static_monthnames"] = 0
 #py["static_monthnumbers"] = 0
 py["static_monthnumbers"] = 1
 
+</t>
+<t tx="zoomq.20110503084352.4319">@path html.flav
 </t>
 </tnodes>
 </leo_file>
