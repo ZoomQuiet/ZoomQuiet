@@ -94,9 +94,6 @@ py["num_entries"] = 5
 #py["default_flavour"] = "wpdoc"
 py["default_flavour"] = "html"
 #py["default_flavour"] = "phtm"
-
-
-
 # Logging configuration
 # =====================
 
@@ -118,9 +115,6 @@ py["log_level"] = "debug"
 # If you use log_filter and ommit the "root" channel here, app level messages 
 # are not logged! log_filter is mainly interesting to debug a specific plugin.
 #py["log_filter"] = ["root", "plugin1", "plugin2"]
-
-
-
 # Plugin configuration
 # ====================
 
@@ -140,6 +134,7 @@ py["plugin_dirs"] = [os.path.join(blogdir, "plugins")
                         ,os.path.join(blogdir, "plugins/willplugins")
                         ,os.path.join(blogdir, "plugins/zqpyb+")    
                         ]
+
 
 # There are two ways for PyBlosxom to load plugins.  The first is the
 # default way which involves loading all the plugins in the lib/plugins
@@ -171,6 +166,7 @@ py["load_plugins"] = ["pyfilenamemtime"
                         #,"tags"
                         #,"folksonomy"
                         ]
+
 # for plugins configs
 # ======================
 #   for tags
@@ -224,6 +220,8 @@ py['imagedata'] = '/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/_images' #i
 py['gallerytrigger'] = 'gallerytrigger' #is required.
 #py['gallery_use_story_template'] = True/False is optional, defaulting to True.
 
+
+
 # ======================
 # Optional Configuration
 # ======================
@@ -236,23 +234,6 @@ py["base_url"] = "/pyblosxom/"
 # Default parser/preformatter. Defaults to plain (does nothing)
 #py["parser"] = "plain"
 py["parser"] = "xhtml"
-
-
-
-# Caching configuration
-# =====================
-
-# Using Caching? Caching speeds up rendering the page that is going to be
-# shown. Even if you are not using pyblosxom special features, caching can
-# improve rendering speed of certain flavours that can show a large number of
-# files at one time. Choose a cache mechanism you'd like, see the
-# Pyblosxom/cache/ directory, and read the source on how to enable caching with
-# the particular cache driver, you need to set two variables:
-#py["cacheDriver"] = "xxxx"
-#py["cacheConfig"] = ""
-
-
-
 # Static rendering
 # ================
 
@@ -293,3 +274,27 @@ py["static_monthnames"] = 0
 # numbers?  (ex. /2004/04/01)  Defaults to 0 (no).
 #py["static_monthnumbers"] = 0
 py["static_monthnumbers"] = 1
+
+# Caching configuration
+# =====================
+
+# Using Caching? Caching speeds up rendering the page that is going to be
+# shown. Even if you are not using pyblosxom special features, caching can
+# improve rendering speed of certain flavours that can show a large number of
+# files at one time. Choose a cache mechanism you'd like, see the
+# Pyblosxom/cache/ directory, and read the source on how to enable caching with
+# the particular cache driver, you need to set two variables:
+#py["cacheDriver"] = "xxxx"
+#py["cacheConfig"] = ""
+
+
+
+
+
+
+
+
+
+
+
+

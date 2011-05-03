@@ -11,8 +11,8 @@
 <vnodes>
 <v t="zoomq.20100310084837.5905"><vh>@chapters</vh></v>
 <v t="ZoomQuiet.20060116172141"><vh>运维记要</vh>
-<v t="zoomq.20100319214837.4218"><vh>2010@py.k</vh>
-<v t="zoomq.20100413102905.5772"><vh>静态化发布</vh>
+<v t="zoomq.20100319214837.4218" a="E"><vh>2010@py.k</vh>
+<v t="zoomq.20100413102905.5772" a="E"><vh>静态化发布</vh>
 <v t="zoomq.20100413102905.5776"><vh>批量重整</vh>
 <v t="zoomq.20100413102905.5773"><vh>ask@ZSP</vh></v>
 </v>
@@ -44,6 +44,7 @@
 <v t="ZoomQuiet.20060113151620"><vh>Hoxide</vh></v>
 <v t="ZoomQuiet.20060117234315"><vh>列表问</vh></v>
 </v>
+<v t="ZoomQuiet.20060113123414"><vh>@nosent index.html</vh></v>
 <v t="ZoomQuiet.20060113092539" a="E"><vh>PyBlosxom</vh>
 <v t="ZoomQuiet.20060121172947"><vh>通用项</vh>
 <v t="ZoomQuiet.20060128095939"><vh>&lt;&lt;CopyLeft&gt;&gt;</vh></v>
@@ -52,7 +53,20 @@
 <v t="ZoomQuiet.20060122153701.1"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
 <v t="ZoomQuiet.20060121172947.1"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
 </v>
-<v t="ZoomQuiet.20060113092644"><vh>Blogging</vh>
+<v t="zoomq.20101230094009.5511"><vh>撰写ing..</vh>
+<v t="ZoomQuiet.20060124152735"><vh>gen4dot2htm-py.t2t</vh>
+<v t="zoomq.20100910090235.9593"><vh>5W1H</vh></v>
+<v t="zoomq.20100910090235.9594"><vh>zqlog</vh></v>
+<v t="zoomq.20100910090235.9595"><vh>智能参数？</vh></v>
+<v t="zoomq.20100910090235.9596"><vh>TDD</vh></v>
+<v t="zoomq.20100910090235.9599"><vh>todo</vh></v>
+<v t="zoomq.20100910090235.9597"><vh>TiLog</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
+<v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
+</v>
+<v t="ZoomQuiet.20060113092644"><vh>entries</vh>
 <v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
 <v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
 <v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
@@ -655,20 +669,75 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20101230094009.5511" a="E"><vh>logging</vh>
-<v t="ZoomQuiet.20060124152735"><vh>gen4dot2htm-py.t2t</vh>
-<v t="zoomq.20100910090235.9593"><vh>5W1H</vh></v>
-<v t="zoomq.20100910090235.9594"><vh>zqlog</vh></v>
-<v t="zoomq.20100910090235.9595"><vh>智能参数？</vh></v>
-<v t="zoomq.20100910090235.9596"><vh>TDD</vh></v>
-<v t="zoomq.20100910090235.9599"><vh>todo</vh></v>
-<v t="zoomq.20100910090235.9597"><vh>TiLog</vh></v>
-<v t="ZoomQuiet.20060122153701.1"></v>
-<v t="ZoomQuiet.20060121172947.1"></v>
-</v>
-<v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
-</v>
 <v t="ZoomQuiet.20060113151604"><vh>hacking</vh>
+<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
+<v t="ZoomQuiet.20060127164449"><vh>guestbook</vh></v>
+<v t="ZoomQuiet.20060117230447"><vh>phtm.flav</vh>
+<v t="ZoomQuiet.20060118001056"><vh>@nosent zqgreen.css</vh>
+<v t="ZoomQuiet.20060306102523"><vh>&lt;&lt;TagClouds&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060118001230"><vh>&lt;&lt;通用&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060121170005"><vh>&lt;&lt; banner &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123163025"><vh>&lt;&lt;content&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123184441"><vh>&lt;&lt;评注&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123163025.1"><vh>&lt;&lt;links&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123161842"><vh>&lt;&lt;plugins&gt;&gt;</vh>
+<v t="ZoomQuiet.20060127182610"><vh>&lt;&lt;willplugins&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124165636"><vh>&lt;&lt;Blogroll&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124095643"><vh>&lt;&lt;pycategories&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123172454"><vh>&lt;&lt;blosxomCalendar&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123181812"><vh>&lt;&lt;google&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060123232910"><vh>&lt;&lt;t2t&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060118001321"><vh>&lt;&lt;特用&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060127173032"><vh>Guestbook</vh>
+<v t="ZoomQuiet.20060127173402"><vh>@nosent pyguest_item.phtm</vh></v>
+<v t="ZoomQuiet.20060127173032.3"><vh>@nosent pyguest_form.phtm</vh></v>
+</v>
+<v t="ZoomQuiet.20060127182127"><vh>@nosent yearsummarystory.phtm</vh></v>
+<v t="ZoomQuiet.20060117230523"><vh>@nosent head.phtm</vh></v>
+<v t="ZoomQuiet.20060117230550.1"><vh>@nosent foot.phtm</vh>
+<v t="zoomq.20060816163913"><vh>&lt;&lt;51pipi&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060313092024"><vh>&lt;&lt;zoomclouds&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124174942"><vh>&lt;&lt;aboutme&gt;&gt;   </vh></v>
+<v t="ZoomQuiet.20060222134553"><vh>&lt;&lt;CoComment&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060127180654"><vh>&lt;&lt;Menu&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124102944"><vh>&lt;&lt;Blogroll&gt;&gt;</vh>
+<v t="ZoomQuiet.20060125164843"><vh>&lt;&lt;OpenPeople&gt;&gt;   </vh></v>
+<v t="ZoomQuiet.20060124160948"><vh>&lt;&lt;PyBlosxom&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124160948.1"><vh>&lt;&lt;CPUG&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124160948.2"><vh>&lt;&lt;Blogger&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060124104215"><vh>&lt;&lt;blosxomCalendar&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124104215.1"><vh>&lt;&lt;Archive&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123181155"><vh>&lt;&lt;SiteSearch&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123175757"><vh>&lt;&lt;AdSense&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123123552"><vh>&lt;&lt;PoweredBy&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060124161106"><vh>&lt;&lt;CreativeCommons&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060120163448"><vh>&lt;&lt;Extra&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060301090101"><vh>&lt;&lt;PyCon&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060120163510"><vh>&lt;&lt;聚合&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060120163550"><vh>&lt;&lt;License&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060117230550.2"><vh>@nosent date_head.phtm</vh></v>
+<v t="ZoomQuiet.20060117230550"><vh>@nosent story.phtm</vh>
+<v t="ZoomQuiet.20060123150758"><vh>&lt;&lt;SNS&gt;&gt;</vh></v>
+</v>
+<v t="ZoomQuiet.20060117230550.3"><vh>@nosent date_foot.phtm</vh></v>
+<v t="ZoomQuiet.20060117231056"><vh>Comment</vh>
+<v t="ZoomQuiet.20060117231056.1"><vh>@nosent comment-story.phtm</vh></v>
+<v t="ZoomQuiet.20060117231056.4"><vh>@nosent comment.phtm</vh></v>
+<v t="ZoomQuiet.20060117231056.3"><vh>@nosent comment-form.phtm</vh></v>
+<v t="ZoomQuiet.20060117231056.2"><vh>@nosent comment-preview.phtm</vh></v>
+</v>
+<v t="ZoomQuiet.20060117230550.4"><vh>@nosent content_type.phtm</vh></v>
+</v>
+<v t="ZoomQuiet.20060121185443"><vh>rss20.flav</vh>
+<v t="ZoomQuiet.20060121185443.1"><vh>@nosent head.rss20</vh></v>
+<v t="ZoomQuiet.20060121185526.1"><vh>@nosent story.rss20</vh></v>
+<v t="ZoomQuiet.20060121185526"><vh>@nosent foot.rss20</vh></v>
+</v>
+</v>
 <v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
 <v t="zoomq.20100414115206.4559"><vh>@shadow cleant2t.py</vh></v>
 <v t="zoomq.20100414115206.4579"><vh>archives</vh>
@@ -816,93 +885,20 @@
 <v t="zoomq.20100419194136.6232"><vh>@shadow pyblosxom.py</vh></v>
 <v t="zoomq.20100419194136.6284"><vh>@shadow tools.py</vh></v>
 </v>
-<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
-<v t="ZoomQuiet.20060127164449"><vh>guestbook</vh></v>
-<v t="ZoomQuiet.20060117230447"><vh>phtm.flav</vh>
-<v t="ZoomQuiet.20060118001056"><vh>@nosent zqgreen.css</vh>
-<v t="ZoomQuiet.20060306102523"><vh>&lt;&lt;TagClouds&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060118001230"><vh>&lt;&lt;通用&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060121170005"><vh>&lt;&lt; banner &gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060123163025"><vh>&lt;&lt;content&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060123184441"><vh>&lt;&lt;评注&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060123163025.1"><vh>&lt;&lt;links&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060123161842"><vh>&lt;&lt;plugins&gt;&gt;</vh>
-<v t="ZoomQuiet.20060127182610"><vh>&lt;&lt;willplugins&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060124165636"><vh>&lt;&lt;Blogroll&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060124095643"><vh>&lt;&lt;pycategories&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060123172454"><vh>&lt;&lt;blosxomCalendar&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060123181812"><vh>&lt;&lt;google&gt;&gt;</vh></v>
 </v>
-<v t="ZoomQuiet.20060123232910"><vh>&lt;&lt;t2t&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060118001321"><vh>&lt;&lt;特用&gt;&gt;</vh></v>
-</v>
-<v t="ZoomQuiet.20060127173032"><vh>Guestbook</vh>
-<v t="ZoomQuiet.20060127173402"><vh>@nosent pyguest_item.phtm</vh></v>
-<v t="ZoomQuiet.20060127173032.3"><vh>@nosent pyguest_form.phtm</vh></v>
-</v>
-<v t="ZoomQuiet.20060127182127"><vh>@nosent yearsummarystory.phtm</vh></v>
-<v t="ZoomQuiet.20060117230523"><vh>@nosent head.phtm</vh></v>
-<v t="ZoomQuiet.20060117230550.1"><vh>@nosent foot.phtm</vh>
-<v t="zoomq.20060816163913"><vh>&lt;&lt;51pipi&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060313092024"><vh>&lt;&lt;zoomclouds&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060124174942"><vh>&lt;&lt;aboutme&gt;&gt;   </vh></v>
-<v t="ZoomQuiet.20060222134553"><vh>&lt;&lt;CoComment&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060127180654"><vh>&lt;&lt;Menu&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060124102944"><vh>&lt;&lt;Blogroll&gt;&gt;</vh>
-<v t="ZoomQuiet.20060125164843"><vh>&lt;&lt;OpenPeople&gt;&gt;   </vh></v>
-<v t="ZoomQuiet.20060124160948"><vh>&lt;&lt;PyBlosxom&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060124160948.1"><vh>&lt;&lt;CPUG&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060124160948.2"><vh>&lt;&lt;Blogger&gt;&gt;</vh></v>
-</v>
-<v t="ZoomQuiet.20060124104215"><vh>&lt;&lt;blosxomCalendar&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060124104215.1"><vh>&lt;&lt;Archive&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060123181155"><vh>&lt;&lt;SiteSearch&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060123175757"><vh>&lt;&lt;AdSense&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060123123552"><vh>&lt;&lt;PoweredBy&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060124161106"><vh>&lt;&lt;CreativeCommons&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060120163448"><vh>&lt;&lt;Extra&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060301090101"><vh>&lt;&lt;PyCon&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060120163510"><vh>&lt;&lt;聚合&gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060120163550"><vh>&lt;&lt;License&gt;&gt;</vh></v>
-</v>
-<v t="ZoomQuiet.20060117230550.2"><vh>@nosent date_head.phtm</vh></v>
-<v t="ZoomQuiet.20060117230550"><vh>@nosent story.phtm</vh>
-<v t="ZoomQuiet.20060123150758"><vh>&lt;&lt;SNS&gt;&gt;</vh></v>
-</v>
-<v t="ZoomQuiet.20060117230550.3"><vh>@nosent date_foot.phtm</vh></v>
-<v t="ZoomQuiet.20060117231056"><vh>Comment</vh>
-<v t="ZoomQuiet.20060117231056.1"><vh>@nosent comment-story.phtm</vh></v>
-<v t="ZoomQuiet.20060117231056.4"><vh>@nosent comment.phtm</vh></v>
-<v t="ZoomQuiet.20060117231056.3"><vh>@nosent comment-form.phtm</vh></v>
-<v t="ZoomQuiet.20060117231056.2"><vh>@nosent comment-preview.phtm</vh></v>
-</v>
-<v t="ZoomQuiet.20060117230550.4"><vh>@nosent content_type.phtm</vh></v>
-</v>
-<v t="ZoomQuiet.20060121185443"><vh>rss20.flav</vh>
-<v t="ZoomQuiet.20060121185443.1"><vh>@nosent head.rss20</vh></v>
-<v t="ZoomQuiet.20060121185526.1"><vh>@nosent story.rss20</vh></v>
-<v t="ZoomQuiet.20060121185526"><vh>@nosent foot.rss20</vh></v>
-</v>
-</v>
-</v>
-<v t="ZoomQuiet.20060113092617"><vh>web配置</vh>
-<v t="ZoomQuiet.20060113123414"><vh>@nosent index.html</vh></v>
+<v t="ZoomQuiet.20060113092617" a="E"><vh>web配置</vh>
 <v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
-<v t="ZoomQuiet.20060123105542"><vh>&lt;&lt;Plugins&gt;&gt;</vh>
+<v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
+<v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
+<v t="ZoomQuiet.20060123105542"><vh>Plugin configuration</vh>
 <v t="ZoomQuiet.20060127162954"><vh>loader</vh></v>
 <v t="ZoomQuiet.20060127163053"><vh>vars</vh></v>
-<v t="ZoomQuiet.20060531194835"><vh>4antiSpam</vh></v>
 </v>
+<v t="zoomq.20110503084352.4316"><vh>Optional Configuration</vh></v>
+<v t="zoomq.20110503084352.4318"><vh>Static rendering</vh></v>
+<v t="zoomq.20110503084352.4317"><vh>Caching configuration</vh></v>
 </v>
-<v t="ZoomQuiet.20060113093014"><vh>@nosent  pyblosxom.cgi</vh></v>
-</v>
-</v>
-<v t="ZoomQuiet.20060113095905"><vh>系统配置</vh>
-<v t="ZoomQuiet.20060126122942" a="M"><vh>Account</vh>
-<v t="ZoomQuiet.20060126122942.1"><vh>系统</vh></v>
-</v>
-<v t="ZoomQuiet.20060125100636" a="M"><vh>SVN部属</vh>
-<v t="ZoomQuiet.20060404103542"><vh>060404-Dj0faq</vh></v>
+<v t="ZoomQuiet.20060113093014"><vh>@nosent pyblosxom.cgi</vh></v>
 </v>
 </v>
 <v t="ZoomQuiet.20060126165250"><vh>stuff</vh>
@@ -954,7 +950,7 @@ PyBlosxom 定制项目
         py4gui
         py4web
     </t>
-<t tx="ZoomQuiet.20060113092617">@path web/
+<t tx="ZoomQuiet.20060113092617">#@path web/
 
 Zen
 of
@@ -971,152 +967,47 @@ techic
 <t tx="ZoomQuiet.20060113092644">@path entries
 
 </t>
-<t tx="ZoomQuiet.20060113092909">#coding=utf-8
+<t tx="ZoomQuiet.20060113092909"># -*- coding: utf-8 -*-
+# =============================================================
+# This is the config file for PyBlosxom.  You should go through 
+# the file and fill in values for the various properties.  This 
+# affects the behavior of your blog.
+#
+# The PyBlosxom documentation has additional information on 
+# configuration variables.
+# =============================================================
+
+# Don't touch this next line.
 py = {}
-# Zoomq::060128 add for develop PyBlosxom
-py['blog_debug'] = "DEBUG::"
-###############
-# Start Below #
-###############
-# If your PyBlosxom installation is in a funky place, uncomment
-# this next line and point it to your PyBlosxom installation
-# directory.
-#py["codebase"] = "/path/to/pyblosxom/installation"
-#py["codebase"] = "/usr/local/lib/python2.4/site-packages/Pyblosxom"
-# Zoomq::060111 usage lasted Version
-#py["codebase"] = "/data1/www/blog.woodpecker/pyblosxom/core"
 
-# What's this blog's title?
-#py['page_title'] = "Zoomq's PyBlosxom blogging"
-py['blog_title'] = "Z&lt;sub&gt;en&lt;/sub&gt;o&lt;sub&gt;f&lt;/sub&gt;o&lt;sub&gt;penSource&lt;/sub&gt;M&lt;sup&gt;ind&lt;/sup&gt;. Q&lt;sub&gt;uick&lt;/sub&gt;u&lt;sub&gt;tility&lt;/sub&gt;i&lt;sub&gt;nternet&lt;/sub&gt;e&lt;sub&gt;xtensible&lt;/sub&gt;t&lt;sup&gt;echic&lt;/sup&gt;"
-
-# What's this blog's description (for outgoing RSS feed)?
-py['blog_description'] = "Zoom.Quiet's PyBlosxom blogging"
-
-# What's this blog's author name?
-py['blog_author'] = "Zoom.Quiet"
-
-# What's the blog author's email address?
-py["blog_email"] = "Zoom.Quiet at gmail.com"
-
-# What's this blog's primary language (for outgoing RSS feed)?
-py['blog_language'] = "zh"
-
-# Encoding for output. Default is iso-8859-1.
-#py['blog_encoding'] = "iso-8859-1"
-py['blog_encoding'] = "utf-8"
-#py['blog_encoding'] = "gbk"
-
-# These are the rights you give to others in regards to the content
-# on your blog.  Generally, this is the copyright information.
-# This is used in the Atom feeds.  Leaving this blank or not filling
-# it in correctly could result in a feed that doesn't validate.
-py["blog_rights"] = "Copyright 2005 Joe Bobb"
-
-# Where are this blog's entries kept?
-#py['datadir'] = "/path/to/blog"
-py['datadir'] = "/data1/www/blog.woodpecker/pyblosxom/zoomquiet/data"
-
-# Where should the application log to?
-# If set to "NONE" log messages are silently ignored.
-# Falls back to sys.stderr if the file can't be opened for writing.
-# py['log_file'] = "/path/to/pyblosxom.log"
-py['log_file'] = "/data1/www/blog.woodpecker/pyblosxom/zoomquiet/log/pyblosxom.log"
-
-# At what level should we log to log_file?
-# One of: critical, error, warning, info, debug
-# For production 'warning' or 'error' is recommended.
-py['log_level'] = "warning"
-#py['log_level'] = "debug"
-
-# Let's you specify which channels should be logged.
-# If specified, only messages from the listed channels are logged.
-# Each plugin logs to it's own channel, therefor channelname == pluginname.
-# Application level messages are logged to a channel named 'root'.
-# If you use log_filter and ommit the 'root' channel here, app level messages 
-# are not logged! log_filter is mainly interesting to debug a specific plugin.
-# py['log_filter'] = ['root', 'plugin1', 'plugin2']
-
-# List of strings with directories that should be ignored (e.g. "CVS")
-# ex: py['ignore_directories'] = ["CVS", "temp"]
-#py['ignore_directories'] = []
-py['ignore_directories'] = ["CVS", ".svn", "temp", "pic"]
-
-# Should I stick only to the datadir for items or travel down the directory
-# hierarchy looking for items?  If so, to what depth?
-# 0 = infinite depth (aka grab everything), 1 = datadir only, n = n levels down
-#py['depth'] = 0
-py['depth'] = 4
-
-# How many entries should I show on the home page?
-#py['num_entries'] = 40
-py['num_entries'] = 10
-
-# What should the default flavour you want used be?
-#py['default_flavour'] = "html"
-py["flavourdir"] = "/data1/www/blog.woodpecker/pyblosxom/flavours/"
-py["default_flavour"] = "phtm"
-
-###########################
-# Optional Configurations #
-###########################
+### for debug when reFactory flavours
 #py["renderer"] = "debug"
-py["renderer"] = "blosxom"
-# What should this blog use as its base url?
-# py['base_url'] = "http://www.some.host/weblog"
-py['base_url'] = "http://blog.zoomquiet.org/pyblosxom/"
 
-# Default parser/preformatter. Defaults to plain (does nothing)
-#py['parser'] = 'plain'
-#py['parser'] = 'html'
+# Codebase configuration
+# ======================
 
-# Using Caching? Caching speeds up rendering the page that is going to be
-# shown. Even if you are not using pyblosxom special features, caching can
-# improve rendering speed of certain flavours that can show a large number of
-# files at one time. Choose a cache mechanism you'd like, see the
-# Pyblosxom/cache/ directory, and read the source on how to enable caching with
-# the particular cache driver, you need to set two variables:
-#py['cacheDriver'] = 'xxxx'
-#py['cacheConfig'] = ''
+# If you did not install PyBlosxom as a library (i.e. python setup.py install)
+# then uncomment this next line and point it to your PyBlosxom installation
+# directory.
+# Note, this should be the directory that holds the "Pyblosxom" 
+# directory (note the case--uppercase P lowercase b!).
+#py["codebase"] = "/usr/local/lib/python2.6/dist-packages/pyblosxom-1.5_rc1-py2.6.egg"
 
-# Plugin directories:
-# You can now specify where you plugins all lives, there are two types
-# of plugindirectories, the standard pyblosxom plugins, and the xmlrpc
-# plugins.  You can list out as many directories you want, but they
-# should only contain the related plugins.
-# Example: py['plugin_dirs'] = ['/opt', '/usr/bin']
-#py['plugin_dirs'] = ['/path/to/my/plugins']
+import os
 
-&lt;&lt;Plugins&gt;&gt;
+blogdir = '/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet'
+#'/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/cgi/'
+#"/home/zoomq/workspace/py-virtualenv/home/blog/"
+
+@others
 
 
-# 模板处理
-# Doing static rendering?  Static rendering essentially "compiles" your
-# blog into a series of static html pages.  For more details, read:
-# http://wiki.subtlehints.net/moin/PyBlosxom_2fStaticRendering
-# 
-# What directory do you want your static html pages to go into?
-#py["static_dir"] = "/path/to/static/dir"
-py['static_dir'] = ['/data1/www/blog.woodpecker/pyblosxom/zoomquiet/static']
 
-# What flavours shouldt get generated?
-#py["static_flavours"] = ["html"]
 
-# What other paths should we statically render?
-# This is for additional urls handled by other plugins like the booklist
-# and plugin_info plugins.  If there are multiple flavours you want
-# to capture, specify each:
-# ex: py["static_urls"] = ["/booklist.rss", "/booklist.html"]
-#py["static_urls"] = ["/path/to/url1", "/path/to/url2"]
 
-# Whether (1) or not (0) you want to create date indexes using month
-# names?  (ex. /2004/Apr/01)  Defaults to 1 (yes).
-#py["static_monthnames"] = 1
-py["static_monthnames"] = 0
-# Whether (1) or not (0) you want to create date indexes using month
-# numbers?  (ex. /2004/04/01)  Defaults to 0 (no).
-#py["static_monthnumbers"] = 0
-py["static_monthnumbers"] = 1
+
+
+
 
 </t>
 <t tx="ZoomQuiet.20060113093014">#!/usr/local/bin/python
@@ -1149,7 +1040,7 @@ if cfg.has_key("codebase"):
 from Pyblosxom.pyblosxom import PyBlosxom
 
 if __name__ == '__main__':
-    
+
     env = {}
     # names taken from wsgi instead of inventing something new
     env['wsgi.input'] = sys.stdin
@@ -1160,7 +1051,7 @@ if __name__ == '__main__':
         env['wsgi.url_scheme'] = cfg['base_url'][:cfg['base_url'].find("://")]
     else:
         env['wsgi.url_scheme'] = "http"
-    
+
 
     # if they executed pyblosxom.cgi from the command line, then
     # there is no REQUEST_METHOD.
@@ -1207,8 +1098,6 @@ if __name__ == '__main__':
             response.sendBody(sys.stdout)
 
 # vim: shiftwidth=4 tabstop=4 expandtab
-</t>
-<t tx="ZoomQuiet.20060113095905">系统配置
 </t>
 <t tx="ZoomQuiet.20060113123414">&lt;html&gt;
   &lt;head&gt;
@@ -5111,28 +5000,27 @@ but why in my blog not working?
 thanx for all!
 </t>
 <t tx="ZoomQuiet.20060123104045">@path plugins</t>
-<t tx="ZoomQuiet.20060123105542">py['plugin_dirs'] = ['/data1/www/blog.woodpecker/pyblosxom/plugins'
-                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/preformatters'
-                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/comments/plugins'
-                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/xmlrpc_plugins'
-                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/meta_plugins'
-                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/snsplugins'
-                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/willplugins'
-                     ,'/data1/www/blog.woodpecker/pyblosxom/plugins/zqpyb+'
-                     ]
+<t tx="ZoomQuiet.20060123105542"># Plugin configuration
+# ====================
+
+# Plugin directories:
+# You can now specify where you plugins all lives, there are two types
+# of plugindirectories, the standard pyblosxom plugins, and the xmlrpc
+# plugins.  You can list out as many directories you want, but they
+# should only contain the related plugins.
+# Example: py['plugin_dirs'] = [ "/home/joe/blog/plugins",
+#                                "/var/lib/pyblosxom/plugins" ]
+py["plugin_dirs"] = [os.path.join(blogdir, "plugins")
+                        ,os.path.join(blogdir, "plugins/archives")
+                        ,os.path.join(blogdir, "plugins/navigate")
+                        ,os.path.join(blogdir, "plugins/date")                        
+                        ,os.path.join(blogdir, "plugins/preformatters")
+                        ,os.path.join(blogdir, "plugins/folksonomy")
+                        ,os.path.join(blogdir, "plugins/willplugins")
+                        ,os.path.join(blogdir, "plugins/zqpyb+")    
+                        ]
 
 
-# There are two ways for PyBlosxom to load plugins.  The first is the
-# default way which involves loading all the plugins in the lib/plugins
-# directory in alphanumeric order.  The second is by specifying a
-# "load_plugins" key here.  Doing so will cause us to load only the
-# plugins you name and we will load them in the order you name them.
-# The "load_plugins" key is a list of strings where each string is
-# the name of a plugin module (i.e. the filename without the .py at
-# the end).
-# ex: py['load_plugins'] = ["pycalendar", "pyfortune", "pyarchives"]
-#py['load_plugins'] = []
-    
 @others
 
 
@@ -7045,45 +6933,6 @@ DIV#cloud{
 &lt;/a&gt;
 
 &lt;/div&gt;</t>
-<t tx="ZoomQuiet.20060125100636">逐一初始化目标复本:
-    简单测试
-$ env - ./post-commit /var/lib/svn-repos 1234
-    svn checkout ...
-"conf::
-    /usr/local/etc
-    使用:
-file:///data1/www/svn.woodpecker/repos/matter/conf/usrloc/etc/
-"svn::
-    ln -s /var/log/svn/ log
-    使用:
-file:///data1/www/svn.woodpecker/repos/matter/data/svn/matter/    
-"通过 matter 维护 woodpecker 的hooks, 由woodpecker 自个儿调用触发
-file:///data1/www/svn.woodpecker/repos/matter/data/svn/woodpecker/
-"blog:: 
-    /data1/www/blog.woodpecker/PyBlosxom   
-    使用:
-file:///data1/www/svn.woodpecker/repos/matter/data/blog/pyblosxom 
-    /data1/www/blog.woodpecker/planet   
-    使用:
-file:///data1/www/svn.woodpecker/repos/matter/data/blog/planet
-
-"wiki::
-    /data1/www/wiki.woodpecker/moin/
-    配置维护:
-file:///data1/www/svn.woodpecker/repos/matter/data/wiki/moin
-"www::
-    www.woodpecker/data/idx/
-file:///data1/www/svn.woodpecker/repos/matter/data/www/idx
-"demo::
-    体验专区！
-    /data1/www/demo.woodpecker/
-file:///data1/www/svn.woodpecker/repos/matter/data/www/demo
-"site-packages::
-    python 产品！
-    /usr/local/lib/python2.4/site-packages/
-file:///data1/www/svn.woodpecker/repos/matter/python/site-packages
-
-</t>
 <t tx="ZoomQuiet.20060125103000"></t>
 <t tx="ZoomQuiet.20060125112200">&lt;dl&gt;
 &lt;dt&gt;http://pyblosxom.sourceforge.net/1.3/manual/c857.html
@@ -7510,60 +7359,6 @@ def usage():
     [OpenSource http://www.technorati.com/tags/OpenSource]
     ,[Mozilla http://www.technorati.com/tags/Mozilla]
     ,[FireFox http://www.technorati.com/tags/FireFox]</t>
-<t tx="ZoomQuiet.20060126122942">woodpecker.org.cn
-202.108.44.62
-================
-zhouqi
-
-huangdong:
-5JAg0X6X+kfZnbniQEmiqlFrmjMcGaDCACLadikjoNhW
-
-root:
-D3axxZFECNTwAK997UjcUZXe7eDId/jxxZFECNTwAK9n7y3P
-
-不要乱搞！
-
-----HD  
-
-对于 nfcserver...
-su-2.05# kill -HUP 37448
-
-
-</t>
-<t tx="ZoomQuiet.20060126122942.1">cat /var/run/dmesg.boot
-:
-    FreeBSD 4.10-STABLE
-    CPU: Intel(R) Xeon(TM) CPU 3.06GHz (3050.94-MHz 686-class CPU)
-    real memory  = 1073573888 (1048412K bytes)
-    FreeBSD/SMP: Multiprocessor motherboard: 2 CPUs
-    cpu0 (BSP): apic id:  0, version: 0x00050014, at 0xfee00000
-    cpu1 (AP):  apic id:  1, version: 0x00050014, at 0xfee00000
-     
-     &lt;ATI Mach64-GR graphics accelerator&gt; at 14.0
-     em0: &lt;Intel(R) PRO/1000 Network Connection, Version - 1.7.25&gt;
-     em1: &lt;Intel(R) PRO/1000 Network Connection, Version - 1.7.25&gt;
-     
-    da0: &lt;IBM IC35L146UCDY10-0 S27T&gt; Fixed Direct Access SCSI-3 device
-    da0: 140014MB (286749480 512 byte sectors: 255H 63S/T 17849C)
-    da2: &lt;SEAGATE ST373453LC DX10&gt; Fixed Direct Access SCSI-3 device
-    da2: 70007MB (143374650 512 byte sectors: 255H 63S/T 8924C)
-    da1: &lt;SEAGATE ST373453LC DX10&gt; Fixed Direct Access SCSI-3 device
-    da1: 70007MB (143374650 512 byte sectors: 255H 63S/T 8924C)
-
-    
-    
-
-host# df
-Filesystem  1K-blocks    Used     Avail Capacity  Mounted on
-/dev/da0s1a    516062   59682    415096    13%    /
-/dev/da0s1h 124102392       2 114174200     0%    /backup
-/dev/da1s1e  70571492  219084  64706690     0%    /data1
-/dev/da2s1e  70571492 1037812  63887962     2%    /data2
-/dev/da0s1g   1032142      32    949540     0%    /tmp
-/dev/da0s1e   9289902 2177846   6368864    25%    /usr
-/dev/da0s1f   2064302  286658   1612500    15%    /var
-procfs              4       4         0   100%    /proc
-</t>
 <t tx="ZoomQuiet.20060126165250"></t>
 <t tx="ZoomQuiet.20060126165836">&lt;a href="http://www.djangoproject.com/"&gt;
 Djano
@@ -7947,63 +7742,90 @@ def unique_filename(astr, adate = None):
 <t tx="ZoomQuiet.20060127153926">@path /usr/local/lib/python2.6/dist-packages/pyblosxom-1.5_rc1-py2.6.egg/Pyblosxom/
 PyBlosxom 本身！
 </t>
-<t tx="ZoomQuiet.20060127162954">py['load_plugins'] = ["wbgpager"
-                      , "pycalendar"
-                      , "zqcategory"#"pycategories"
-                      , "zqcrecent"
-                      , "pyfilenamemtime"
-                      #, "pyarchives"
-                      # 格式处理
-                      , "py"
-                      #,"t2t"
-                      #,"rst"
-                      ,"xhtml"
-                      #,"moinmoin" 有问题！
-                      # SNS 处理
-                      #,"trackback"
-                      ,"comments"
-                      #,"commentAPI"
-                      #,"folksonomy"
-                      #,"keywords"
-                      #,"latest_comments"
-                      ,"pyguest"
-                      # Will's plugins
-                      ,"plugininfo"
-                      ,"wbgarchives"
-                      ,"wbgrecent"
-                      ,"wbggrep"  
-                      # Zoomq::060516 nospam 
-                      ## usage Steven Armstrong's http://www.c-area.ch/code/pyblosxom/plugins/
-                      #,"contact"
-                      #,"session"
-                      #,"test_session"
-                      ,"magicword"                     
-                      ]
+<t tx="ZoomQuiet.20060127162954"># There are two ways for PyBlosxom to load plugins.  The first is the
+# default way which involves loading all the plugins in the lib/plugins
+# directory in alphanumeric order.  The second is by specifying a
+# "load_plugins" key here.  Doing so will cause us to load only the
+# plugins you name and we will load them in the order you name them.
+# The "load_plugins" key is a list of strings where each string is
+# the name of a plugin module (i.e. the filename without the .py at
+# the end).
+# If you specify an empty list, then this will load no plugins.
+# ex: py["load_plugins"] = ["pycalendar", "pyfortune", "pyarchives"]
+py["load_plugins"] = ["pyfilenamemtime"
+                        ,"hardcodedates"
+                        #,"yeararchives"
+                        ,"category_static"
+                        #,"pyarchives"
+                        ,"zqarchives"
+                        ,"zqcategories"
+                        ,"index_static" #,"index"
+                        #,"pycategories"
+                        ,"firstdaydiv"
+                        ,"xhtml"
+                        ,"py"
+                        ,"pyentrynavi"
+                        #,"filekicker"
+                        #,"photogallery"
+                        ,"wbgrecent"
+                        ,"plugininfo"
+                        #,"tags"
+                        #,"folksonomy"
+                        ]
 
 </t>
-<t tx="ZoomQuiet.20060127163053">## for Will's plugins
-py["wbgpager_count_from"] = 1
-py["wbgpager_linkstyle"] = 0
+<t tx="ZoomQuiet.20060127163053"># for plugins configs
+# ======================
+#   for tags
+py['tags_trigger'] = 'tags.html'
+#   for folksonomy
+py['pretext'] = '&lt;span class="tags"&gt;Tags: '
+py['posttext'] = '&lt;/span&gt;'
+py['tagsep'] = ','
+py['ignore_tags'] = 'tag'
 
-py["plugininfo_hide"] = ["pyguest"]
 
-# for guestbook
-py["guestbookdir"] = '/data1/www/blog.woodpecker/pyblosxom/zoomquiet/guestbook'
+#   for firstdaydiv
+py['firstDayDiv'] = 'blosxomFirstDayDiv'
+py["plugininfo_hide"] = ["firstdaydiv",]
+#   for index_static
+py['index_trigger']            = '/site-index.html'
+py['index_num_columns']        = 2
+py['index_letters_first']      = True
+py['index_title']              = 'Entries Title Index'
+py['index_use_story_template'] = True
 
-py['latest_comment_count'] = 7
-#py['archive_template'] = '&lt;li&gt;&lt;a href="%(base_url)s/%(Y)s/%(b)s"&gt;%(m)s/%(y)s&lt;/a&gt;&lt;/li&gt;'
+#   for index_category
+py['cindex_trigger']            = '/category-index.html'
+py['cindex_num_columns']        = 2
+py['cindex_letters_first']      = True
+py['cindex_title']              = 'Entries Category Tree'
+py['cindex_use_story_template'] = True
 
-# 4 Folksonomy 
-py['pretext'] = "&lt;div class='tags'&gt;TAGs:"
-py['posttext'] = "&lt;/div&gt;"
-py['tagsep'] = ", "
-#py['tag_url'] = "http://mysite/tags"  # defaults to $base_url/tags
-#py['tag_url_display'] = "http://mysite/tags" # defaults to tag_url
-#py['ignore_tags'] = []
+#   for pyarchives.py
+#py['archive_template'] = '&lt;li&gt;&lt;a href="%(base_url)s/%(Y)s/%(b)s"&gt;%(y)s.%(m)s/a&gt;&lt;/li&gt;'
+#py['archive_template'] = '&lt;li&gt;&lt;a href="%(base_url)s/%(Y)s/%(m)s"&gt;%(y)s.%(m)s&lt;/a&gt;&lt;sup&gt;%(count)&lt;/sup&gt;&lt;/li&gt;'
+#   for zqcategories.py
+py["category_root_list"] = ["Zen"
+                            ,"oss"
+                            ,"opening"
+                            ,"mind"
+                            ,"Quiet"
+                            ,"utility"
+                            ,"internet"
+                            ,"easy"
+                            ,"techic"
+                            ]
+py["category_item"] = r'&lt;li&gt;&lt;a href="%(base_url)s/%(fullcategory)s"&gt;%(category)s&lt;/a&gt;&lt;sup&gt;(%(count)d)&lt;/sup&gt;&lt;a href="%(base_url)s/%(fullcategory)s/index.atom"&gt;&lt;img src="/pybstyle/rss12x12.png"/&gt;&lt;/a&gt;&lt;/li&gt;'
+#py["category_template"] = "category_list"
 
-# 4 trackback
-#py['trackback_urltrigger'] = "/trackback"
-#py['commentAPI_urltrigger'] = "/commentAPI"
+#   for pyentrynavi
+py["entry_extension"] = "xhtml"
+
+#   for foto garllry
+py['imagedata'] = '/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/_images' #is required by imagefile, and also here.
+py['gallerytrigger'] = 'gallerytrigger' #is required.
+#py['gallery_use_story_template'] = True/False is optional, defaulting to True.
 </t>
 <t tx="ZoomQuiet.20060127164449">@path guestbook</t>
 <t tx="ZoomQuiet.20060127173032">Comment 支持</t>
@@ -8554,11 +8376,6 @@ WWW: http://valgrind.kde.org/
     ,[Python http://www.technorati.com/tags/python]
     ,[ldap http://www.technorati.com/tags/ldap]
     ,[computer http://www.technorati.com/tags/computer]</t>
-<t tx="ZoomQuiet.20060404103542">"Django -faq::
-    /woodpecker/www.woodpecker/data/share/projects/django/django-faq/
-file:///data1/www/svn.woodpecker/repos/woodpecker/zqlib/tangle/weizhong/django-faq/
-
-</t>
 <t tx="ZoomQuiet.20060410130427">@path FreeBSD</t>
 <t tx="ZoomQuiet.20060410185041">@language Moin
 GNN北京之行
@@ -9105,24 +8922,6 @@ google 仅仅是认了个死理： ```不作自个儿控制不了的事儿！```
     [chinese http://www.technorati.com/tags/chinese]
     ,[Zen http://www.technorati.com/tags/Zen]
     ,[internet http://www.technorati.com/tags/internet]</t>
-<t tx="ZoomQuiet.20060531194835"># for comments
-py['comment_dir'] = '/data1/www/blog.woodpecker/pyblosxom/zoomquiet/comment'
-py['comment_nofollow'] = 1
-#py['comment_smtp_server'] = "localhost"
-#py['comment_smtp_from']   = "ZqPyBlosxom@woodpecker.org.cn"
-#py['comment_smtp_to']     = "Zoom.Quiet@gmail.com"
-
-
-py["comment_rejected_words"] = ["poker", "casino", "gambling"]
-# Zoomq::060516for nospam contact me
-py['contact_urltrigger'] = "/contact" # optional, this is the default
-py['contact_smtp_server'] = "localhost" # required
-py['contact_smtp_to'] = "Zoom.Quiet@gmail.com" # required
-
-# Zoomq::060516 add simple pluing fo antiSpamer
-py['mw_question'] = "Pythonic!What is the 1st word in this sentence?回答本句第一个单词是什么?"
-py['mw_answer'] = "pythonic"
-</t>
 <t tx="ZoomQuiet.20060602095242">@language Moin
 保重身体
 --死在HW因为"床垫文化"?!
@@ -15691,6 +15490,163 @@ M$ DLL Hell
     - git ?
 +-- 定制repo
 +-- nginx 发布
+
+</t>
+<t tx="zoomq.20110503084352.4314"># Blog configuration
+# ==================
+
+# What is the title of this blog?
+#py["blog_title"] = "Another pyblosxom blog"
+py['blog_title'] = "Z&lt;sub&gt;en&lt;/sub&gt;o&lt;sub&gt;f&lt;/sub&gt;o&lt;sub&gt;pen&lt;/sub&gt;M&lt;sup&gt;ind&lt;/sup&gt;. Q&lt;sub&gt;uickly&lt;/sub&gt;u&lt;sub&gt;tility&lt;/sub&gt;i&lt;sub&gt;nternet&lt;/sub&gt;e&lt;sub&gt;asy&lt;/sub&gt;t&lt;sup&gt;echnic&lt;/sup&gt;"
+
+
+# What is the description of this blog?
+#py["blog_description"] = "blosxom with a touch of python"
+py['blog_description'] = "Zoom.Quiet's PyBlosxom blogging"
+
+# Who are the author(s) of this blog?
+py["blog_author"] = "Zoom.Quiet"
+
+# What is the email address through which readers of the blog may contact
+# the authors?
+py["blog_email"] = "ZoomQuiet+sns@gmail.com"
+
+# These are the rights you give to others in regards to the content
+# on your blog.  Generally, this is the copyright information.
+# This is used in the Atom feeds.  Leaving this blank or not filling
+# it in correctly could result in a feed that doesn't validate.
+py["blog_rights"] = "Copyright 2005 Zoom.Quiet"
+
+# What is this blog's primary language (for outgoing RSS feed)?
+#py["blog_language"] = "en"
+py["blog_language"] = "zh"
+
+# Encoding for output.  This defaults to utf-8.
+py["blog_encoding"] = "utf-8"
+
+# What is the locale for this blog?  This is used when formatting dates
+# and other locale-sensitive things.  Make sure the locale is valid for
+# your system.  See the PyBlosxom documentation for details.
+#py["locale"] = "en_US.iso-8859-1"
+
+# Where are this blog's entries kept?
+py["datadir"] = os.path.join(blogdir, "entries")
+
+# Where are this blog's flavours kept?
+py["flavourdir"] = os.path.join(blogdir, "flavours")
+
+# List of strings with directories that should be ignored (e.g. "CVS")
+# ex: py['ignore_directories'] = ["CVS", "temp"]
+py["ignore_directories"] = ["CVS", ".svn", ".hg",".git",".leo_shadow", "pic"]
+
+# Should I stick only to the datadir for items or travel down the directory
+# hierarchy looking for items?  If so, to what depth?
+# 0 = infinite depth (aka grab everything)
+# 1 = datadir only
+# n = n levels down
+py["depth"] = 4
+
+# How many entries should I show on the home page and category pages?
+# If you put 0 here, then I will show all pages.
+# Note: this doesn't affect date-based archive pages.
+py["num_entries"] = 5
+
+# What is the default flavour you want to use when the user doesn't
+# specify a flavour in the request?
+#py["default_flavour"] = "wpdoc"
+py["default_flavour"] = "html"
+#py["default_flavour"] = "phtm"
+</t>
+<t tx="zoomq.20110503084352.4315"># Logging configuration
+# =====================
+
+# Where should PyBlosxom write logged messages to?
+# If set to "NONE" log messages are silently ignored.
+# Falls back to sys.stderr if the file can't be opened for writing.
+#py["log_file"] = os.path.join(blogdir, "logs", "pyblosxom.log")
+
+# At what level should we log to log_file?
+# One of: "critical", "error", "warning", "info", "debug"
+# For production, "warning" or "error' is recommended.
+#py["log_level"] = "warning"
+py["log_level"] = "debug"
+
+# This lets you specify which channels should be logged.
+# If specified, only messages from the listed channels are logged.
+# Each plugin logs to it's own channel, therefor channelname == pluginname.
+# Application level messages are logged to a channel named "root".
+# If you use log_filter and ommit the "root" channel here, app level messages 
+# are not logged! log_filter is mainly interesting to debug a specific plugin.
+#py["log_filter"] = ["root", "plugin1", "plugin2"]
+</t>
+<t tx="zoomq.20110503084352.4316"># ======================
+# Optional Configuration
+# ======================
+
+# What should this blog use as its base url?
+#py["base_url"] = "http://www.example.com/weblog"
+#py["base_url"] = "http://blog.zoomquiet.org/pyblosxom/"
+py["base_url"] = "/pyblosxom/"
+
+# Default parser/preformatter. Defaults to plain (does nothing)
+#py["parser"] = "plain"
+py["parser"] = "xhtml"
+</t>
+<t tx="zoomq.20110503084352.4317"># Caching configuration
+# =====================
+
+# Using Caching? Caching speeds up rendering the page that is going to be
+# shown. Even if you are not using pyblosxom special features, caching can
+# improve rendering speed of certain flavours that can show a large number of
+# files at one time. Choose a cache mechanism you'd like, see the
+# Pyblosxom/cache/ directory, and read the source on how to enable caching with
+# the particular cache driver, you need to set two variables:
+#py["cacheDriver"] = "xxxx"
+#py["cacheConfig"] = ""
+
+
+
+</t>
+<t tx="zoomq.20110503084352.4318"># Static rendering
+# ================
+
+# Doing static rendering?  Static rendering essentially "compiles" your
+# blog into a series of static html pages.  For more details, see the
+# documentation.
+# 
+# What directory do you want your static html pages to go into?
+#py["static_dir"] = "/path/to/static/dir"
+py["static_dir"] = os.path.join(blogdir, "_static")
+
+# What flavours should get generated?
+py["static_flavours"] = ["html"
+    ,"atom"
+    ,"rdf"
+    ]
+#py["static_flavours"] = ["atom"]
+#py["static_flavours"] = ["rdf"]
+
+# What other paths should we statically render?
+# This is for additional urls handled by other plugins like the booklist
+# and plugin_info plugins.  If there are multiple flavours you want
+# to capture, specify each:
+# ex: py["static_urls"] = ["/booklist.rss", "/booklist.html"]
+#
+py["static_urls"] = [ "/site-index.html"
+                    ,"/category-index.html"
+                    #,"/gallerytrigger.html"
+                    ,"/recent.html"
+                    ]   
+
+# Whether (1) or not (0) you want to create date indexes using month
+# names?  (ex. /2004/Apr/01)  Defaults to 1 (yes).
+#py["static_monthnames"] = 1
+py["static_monthnames"] = 0
+
+# Whether (1) or not (0) you want to create date indexes using month
+# numbers?  (ex. /2004/04/01)  Defaults to 0 (no).
+#py["static_monthnumbers"] = 0
+py["static_monthnumbers"] = 1
 
 </t>
 </tnodes>
