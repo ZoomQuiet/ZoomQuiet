@@ -10,7 +10,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="zoomq.20100310084837.5905"><vh>@chapters</vh></v>
-<v t="ZoomQuiet.20060116172141" a="E"><vh>运维记要</vh>
+<v t="ZoomQuiet.20060116172141"><vh>运维记要</vh>
 <v t="zoomq.20100319214837.4218"><vh>2010@py.k</vh>
 <v t="zoomq.20100413102905.5772"><vh>静态化发布</vh>
 <v t="zoomq.20100413102905.5776"><vh>批量重整</vh>
@@ -52,7 +52,7 @@
 <v t="ZoomQuiet.20060122153701.1"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
 <v t="ZoomQuiet.20060121172947.1"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
 </v>
-<v t="ZoomQuiet.20060113092644" a="E"><vh>Blogging</vh>
+<v t="ZoomQuiet.20060113092644"><vh>Blogging</vh>
 <v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
 <v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
 <v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
@@ -336,7 +336,7 @@
 </v>
 <v t="ZoomQuiet.20060116170435"><vh>SiFi</vh></v>
 </v>
-<v t="zoomq.20100414115206.4538" a="E"><vh>utility</vh>
+<v t="zoomq.20100414115206.4538"><vh>utility</vh>
 <v t="ZoomQuiet.20060116170508"><vh>py4gui</vh></v>
 <v t="ZoomQuiet.20060116170643"><vh>py4str</vh>
 <v t="zoomq.20100414115206.4235"><vh>StructuredText</vh>
@@ -460,17 +460,7 @@
 <v t="ZoomQuiet.20060122153701.1"></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170256.2" a="E"><vh>ZqLib</vh>
-<v t="ZoomQuiet.20060124152735" a="E"><vh>@nosent gen4dot2htm-py.t2t</vh>
-<v t="zoomq.20100910090235.9593"><vh>5W1H</vh></v>
-<v t="zoomq.20100910090235.9594"><vh>zqlog</vh></v>
-<v t="zoomq.20100910090235.9595"><vh>智能参数？</vh></v>
-<v t="zoomq.20100910090235.9596"><vh>TDD</vh></v>
-<v t="zoomq.20100910090235.9599"><vh>todo</vh></v>
-<v t="zoomq.20100910090235.9597"><vh>TiLog</vh></v>
-<v t="ZoomQuiet.20060122153701.1"></v>
-<v t="ZoomQuiet.20060121172947.1"></v>
-</v>
+<v t="ZoomQuiet.20060116170256.2"><vh>ZqLib</vh>
 <v t="zoomq.20100910090235.9589"><vh>@nosent MD5-2006-01-24-23-23.t2t</vh>
 <v t="ZoomQuiet.20060122153701.1"></v>
 <v t="ZoomQuiet.20060121172947.1"></v>
@@ -530,11 +520,11 @@
 <v t="ZoomQuiet.20060121172947.1"></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060118005022" a="E"><vh>music</vh>
+<v t="ZoomQuiet.20060118005022"><vh>music</vh>
 <v t="zoomq.20100414115206.4557"><vh>@nosent ZARD-leaved-2007-05-28-16-00.t2t</vh>
 <v t="ZoomQuiet.20060122153701.1"></v>
 </v>
-<v t="zoomq.20101009110805.4211" a="E"><vh>@nosent ms-dll-hell-2010-10-09-01-00.t2t</vh>
+<v t="zoomq.20101009110805.4211"><vh>@nosent ms-dll-hell-2010-10-09-01-00.t2t</vh>
 <v t="zoomq.20101009110805.4213"><vh>lyric</vh></v>
 <v t="zoomq.20100728103610.7583"></v>
 <v t="zoomq.20060916180156.12"></v>
@@ -664,6 +654,19 @@
 <v t="ZoomQuiet.20060317180750"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
 </v>
 </v>
+</v>
+<v t="zoomq.20101230094009.5511" a="E"><vh>logging</vh>
+<v t="ZoomQuiet.20060124152735"><vh>gen4dot2htm-py.t2t</vh>
+<v t="zoomq.20100910090235.9593"><vh>5W1H</vh></v>
+<v t="zoomq.20100910090235.9594"><vh>zqlog</vh></v>
+<v t="zoomq.20100910090235.9595"><vh>智能参数？</vh></v>
+<v t="zoomq.20100910090235.9596"><vh>TDD</vh></v>
+<v t="zoomq.20100910090235.9599"><vh>todo</vh></v>
+<v t="zoomq.20100910090235.9597"><vh>TiLog</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
+<v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
 </v>
 <v t="ZoomQuiet.20060113151604"><vh>hacking</vh>
 <v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
@@ -15681,5 +15684,14 @@ M$ DLL Hell
 为嘛?!
 因为 M$ 在革命!
 ```</t>
+<t tx="zoomq.20101230094009.5511"></t>
+<t tx="zoomq.20101230094009.5512">http://centos.ustc.edu.cn/centos/
++-- wget all
+    - 自动化更新脚本
+    - git ?
++-- 定制repo
++-- nginx 发布
+
+</t>
 </tnodes>
 </leo_file>
