@@ -537,7 +537,7 @@
 <v t="zoomq.20100414115206.4557"><vh>@nosent ZARD-leaved-2007-05-28-16-00.t2t</vh>
 <v t="ZoomQuiet.20060122153701.1"></v>
 </v>
-<v t="zoomq.20101009110805.4211"><vh>@nosent ms-dll-hell-2010-10-09-01-00.t2t</vh>
+<v t="zoomq.20101009110805.4211" a="E"><vh>@nosent ms-dll-hell-2010-10-09-01-00.t2t</vh>
 <v t="zoomq.20101009110805.4213"><vh>lyric</vh></v>
 <v t="zoomq.20100728103610.7583"></v>
 <v t="zoomq.20060916180156.12"></v>
@@ -669,17 +669,17 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060113151604" a="E"><vh>hacking</vh>
-<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
-<v t="zoomq.20110503084352.4319"><vh>html.flav</vh>
+<v t="ZoomQuiet.20060117230430" a="E"><vh>flavours</vh>
+<v t="zoomq.20110503084352.4319" a="E"><vh>html.flav</vh>
 <v t="zoomq.20110503084352.4320"><vh>@nosent category_list</vh></v>
 <v t="zoomq.20110503084352.4321"><vh>@nosent content_type</vh></v>
 <v t="zoomq.20110503084352.4322"><vh>@nosent date_head</vh></v>
 <v t="zoomq.20110503084352.4324"><vh>@nosent head</vh></v>
 <v t="zoomq.20110503084352.4326"><vh>@nosent story</vh></v>
-<v t="zoomq.20110503084352.4323"><vh>@nosent foot</vh>
-<v t="zoomq.20110503084352.4329" a="E"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
+<v t="zoomq.20110503084352.4323" a="E"><vh>@nosent foot</vh>
+<v t="zoomq.20110503084352.4329"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
 <v t="zoomq.20110503084352.4336"><vh>search text box</vh></v>
-<v t="zoomq.20110503084352.4337" a="E"><vh>abt.</vh>
+<v t="zoomq.20110503084352.4337"><vh>abt.</vh>
 <v t="zoomq.20110503084352.4341"><vh>reading.</vh></v>
 <v t="zoomq.20110503084352.4338"><vh>sys.</vh></v>
 <v t="zoomq.20110503084352.4339"><vh>livin.</vh></v>
@@ -688,7 +688,7 @@
 </v>
 <v t="zoomq.20110503084352.4330"><vh>&lt;&lt;MID function barnners&gt;&gt;</vh></v>
 <v t="zoomq.20110503084352.4331"><vh>&lt;&lt;RIGHT function barnners&gt;&gt;</vh></v>
-<v t="zoomq.20110503084352.4335"><vh>&lt;&lt;footer barnners&gt;&gt;</vh>
+<v t="zoomq.20110503084352.4335" a="E"><vh>&lt;&lt;footer barnners&gt;&gt;</vh>
 <v t="zoomq.20110503084352.4332"><vh>文尾</vh></v>
 <v t="zoomq.20110503084352.4333"><vh>CC</vh></v>
 </v>
@@ -1328,8 +1328,8 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060113092617"><vh>web配置</vh>
-<v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
+<v t="ZoomQuiet.20060113092617" a="E"><vh>web配置</vh>
+<v t="ZoomQuiet.20060113092909" a="E"><vh>@nosent config.py</vh>
 <v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
 <v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
 <v t="ZoomQuiet.20060123105542"><vh>Plugin configuration</vh>
@@ -1439,11 +1439,13 @@ py = {}
 
 import os
 
-blogdir = '/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet'
+blogdir = '/home/zoomq/workspace/3hg/zoomquiet-default/pyblosoxm/zoomquiet'
+#'/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet'
 #'/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/cgi/'
 #"/home/zoomq/workspace/py-virtualenv/home/blog/"
 
 @others
+
 
 
 </t>
@@ -26489,13 +26491,13 @@ py["blog_author"] = "Zoom.Quiet"
 
 # What is the email address through which readers of the blog may contact
 # the authors?
-py["blog_email"] = "ZoomQuiet+sns@gmail.com"
+py["blog_email"] = "zoomquiet+sns [AT] gmail.com"
 
 # These are the rights you give to others in regards to the content
 # on your blog.  Generally, this is the copyright information.
 # This is used in the Atom feeds.  Leaving this blank or not filling
 # it in correctly could result in a feed that doesn't validate.
-py["blog_rights"] = "Copyright 2005 Zoom.Quiet"
+py["blog_rights"] = "Copyright 2001-2011 Zoom.Quiet"
 
 # What is this blog's primary language (for outgoing RSS feed)?
 #py["blog_language"] = "en"
@@ -26529,7 +26531,7 @@ py["depth"] = 4
 # How many entries should I show on the home page and category pages?
 # If you put 0 here, then I will show all pages.
 # Note: this doesn't affect date-based archive pages.
-py["num_entries"] = 5
+py["num_entries"] = 1
 
 # What is the default flavour you want to use when the user doesn't
 # specify a flavour in the request?
@@ -26707,9 +26709,12 @@ $(tagcloud)
 &lt;link rel="stylesheet" type="text/css"  href="/pybstyle/html.flav/style.css" /&gt;
 &lt;link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/html.flav/print.css" /&gt;
 &lt;!-- Include *at least* the core style and default theme --&gt;
-&lt;link href="/pybshare/syntaxhighlighter_2.1.364_zh/styles/shCore.css" rel="stylesheet" type="text/css" /&gt;
-&lt;link type="text/css" rel="Stylesheet" href="/pybshare/syntaxhighlighter_2.1.364_zh/styles/shThemeFadeToGrey.css"/&gt;
+&lt;link rel="stylesheet" type="text/css" 
+    href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css"/&gt;
+&lt;link rel="stylesheet" type="text/css" 
+    href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeFadeToGrey.css"/&gt;
 &lt;!-- Include the jQuery usage css 
+href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
 &lt;link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/jQrssPopupBubble.css" /&gt;
 --&gt;
 
@@ -27893,10 +27898,12 @@ $debug
 &lt;/div&gt;
 </t>
 <t tx="zoomq.20110503084352.4332">&amp;sect;
-&lt;a href="#"&gt;$(blog_title)&lt;/a&gt; is prowdly powered by   &lt;a href="http://pyblosxom.sourceforge.net/"&gt;&lt;img src="http://pyblosxom.sourceforge.net/images/pb_pyblosxom.gif" alt="Made with PyBlosxom" border="0" /&gt;&lt;/a&gt;
+&lt;a href="#"&gt;$(blog_title)&lt;/a&gt; powered by 
+&lt;a href="http://pyblosxom.bluesock.org"&gt;
+    &lt;img src="http://pyblosxom.bluesock.org/images/pb_pyblosxom.gif" alt="Made with PyBlosxom" border="0" /&gt;&lt;/a&gt;
 v1.5-rc1 20100129
 |
-theme base on &lt;a href="http://www.bestwpthemes.com/doc/"&gt;"Doc"&lt;/a&gt;
+theme design base &lt;a href="http://www.bestwpthemes.com/doc/"&gt;"Doc"&lt;/a&gt;
 &amp;sect;
 &lt;br/&gt;
 </t>
@@ -27911,26 +27918,14 @@ theme base on &lt;a href="http://www.bestwpthemes.com/doc/"&gt;"Doc"&lt;/a&gt;
 &lt;script src="/pybshare/jquery-pybactions.js" type="text/javascript"&gt;&lt;/script&gt;
 
 &lt;!-- for syntaxhighlighter_2.1.364_zh Include required JS files --&gt;
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shCore.js"&gt;&lt;/script&gt;
-&lt;!-- At least one brush, here we choose JS. You need to include a brush for every language you want to highlight --&gt;
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPlain.js"&gt;&lt;/script&gt;
-
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushJScript.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushCss.js"&gt;&lt;/script&gt;
-
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPhp.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPython.js"&gt;&lt;/script&gt;
-
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushErlang.js"&gt;&lt;/script&gt;
-
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushXml.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPlain.js"&gt;&lt;/script&gt;
-
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushSql.js"&gt;&lt;/script&gt;
-
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushBash.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushDiff.js"&gt;&lt;/script&gt;
-
+&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushBash.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCss.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushDiff.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPlain.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js"&gt;&lt;/script&gt;
 &lt;!-- Finally, to actually run the highlighter, you need to include this JS on your page --&gt;
 &lt;script type="text/javascript"&gt;
      SyntaxHighlighter.all()

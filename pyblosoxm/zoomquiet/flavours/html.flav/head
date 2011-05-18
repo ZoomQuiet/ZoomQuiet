@@ -10,9 +10,12 @@
 <link rel="stylesheet" type="text/css"  href="/pybstyle/html.flav/style.css" />
 <link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/html.flav/print.css" />
 <!-- Include *at least* the core style and default theme -->
-<link href="/pybshare/syntaxhighlighter_2.1.364_zh/styles/shCore.css" rel="stylesheet" type="text/css" />
-<link type="text/css" rel="Stylesheet" href="/pybshare/syntaxhighlighter_2.1.364_zh/styles/shThemeFadeToGrey.css"/>
+<link rel="stylesheet" type="text/css" 
+    href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css"/>
+<link rel="stylesheet" type="text/css" 
+    href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeFadeToGrey.css"/>
 <!-- Include the jQuery usage css 
+href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/>
 <link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/jQrssPopupBubble.css" />
 -->
 

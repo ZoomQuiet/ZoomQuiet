@@ -165,10 +165,12 @@ $(tagcloud)
 
 <div id="footer" class="g33">
 &sect;
-<a href="#">$(blog_title)</a> is prowdly powered by   <a href="http://pyblosxom.sourceforge.net/"><img src="http://pyblosxom.sourceforge.net/images/pb_pyblosxom.gif" alt="Made with PyBlosxom" border="0" /></a>
+<a href="#">$(blog_title)</a> powered by 
+<a href="http://pyblosxom.bluesock.org">
+    <img src="http://pyblosxom.bluesock.org/images/pb_pyblosxom.gif" alt="Made with PyBlosxom" border="0" /></a>
 v1.5-rc1 20100129
 |
-theme base on <a href="http://www.bestwpthemes.com/doc/">"Doc"</a>
+theme design base <a href="http://www.bestwpthemes.com/doc/">"Doc"</a>
 &sect;
 <br/>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/cn/88x31.png" /></a>
@@ -191,26 +193,14 @@ theme base on <a href="http://www.bestwpthemes.com/doc/">"Doc"</a>
 <script src="/pybshare/jquery-pybactions.js" type="text/javascript"></script>
 
 <!-- for syntaxhighlighter_2.1.364_zh Include required JS files -->
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shCore.js"></script>
-<!-- At least one brush, here we choose JS. You need to include a brush for every language you want to highlight -->
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPlain.js"></script>
-
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushJScript.js"></script>
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushCss.js"></script>
-
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPhp.js"></script>
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPython.js"></script>
-
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushErlang.js"></script>
-
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushXml.js"></script>
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushPlain.js"></script>
-
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushSql.js"></script>
-
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushBash.js"></script>
-<script type="text/javascript" src="/pybshare/syntaxhighlighter_2.1.364_zh/scripts/shBrushDiff.js"></script>
-
+<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js"></script>
+<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCss.js"></script>
+<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"></script>
+<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPython.js"></script>
+<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js"></script>
 <!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
 <script type="text/javascript">
      SyntaxHighlighter.all()

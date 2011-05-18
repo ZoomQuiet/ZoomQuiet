@@ -26,7 +26,8 @@ py = {}
 
 import os
 
-blogdir = '/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet'
+blogdir = '/home/zoomq/workspace/3hg/zoomquiet-default/pyblosoxm/zoomquiet'
+#'/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet'
 #'/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/cgi/'
 #"/home/zoomq/workspace/py-virtualenv/home/blog/"
 
@@ -47,13 +48,13 @@ py["blog_author"] = "Zoom.Quiet"
 
 # What is the email address through which readers of the blog may contact
 # the authors?
-py["blog_email"] = "ZoomQuiet+sns@gmail.com"
+py["blog_email"] = "zoomquiet+sns [AT] gmail.com"
 
 # These are the rights you give to others in regards to the content
 # on your blog.  Generally, this is the copyright information.
 # This is used in the Atom feeds.  Leaving this blank or not filling
 # it in correctly could result in a feed that doesn't validate.
-py["blog_rights"] = "Copyright 2005 Zoom.Quiet"
+py["blog_rights"] = "Copyright 2001-2011 Zoom.Quiet"
 
 # What is this blog's primary language (for outgoing RSS feed)?
 #py["blog_language"] = "en"
@@ -87,7 +88,7 @@ py["depth"] = 4
 # How many entries should I show on the home page and category pages?
 # If you put 0 here, then I will show all pages.
 # Note: this doesn't affect date-based archive pages.
-py["num_entries"] = 5
+py["num_entries"] = 1
 
 # What is the default flavour you want to use when the user doesn't
 # specify a flavour in the request?
@@ -286,6 +287,7 @@ py["static_monthnumbers"] = 1
 # the particular cache driver, you need to set two variables:
 #py["cacheDriver"] = "xxxx"
 #py["cacheConfig"] = ""
+
 
 
 
