@@ -25,16 +25,31 @@ href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/>
 <div class="container"> 
 <table><!-- main page structure-->
 <tr>
-<td><!-- id="head" -->
+<td><!-- id="head" 
+    <div id="header" class="g33"> 
+        <h2><a href="$(base_url)">
+        <img src="/pybstyle/zoomquiet-means-100414_h90.png" alt="$(blog_title)">
+        </a>
+        </h2> 
+    </div> 
 
     <div id="top" class="g33"> 
         <div id="description" class="g16 alpha"> 
         <h3>$(blog_description)
         </h3>
         </div>
+-->
+    <div id="top" class="g33"> 
+        <div id="description" class="g16 alpha"> 
+            <h3><a href="$(base_url)">
+            <img src="/pybstyle/zoomquiet-pyb-110831.png" alt="$(blog_description)">
+            </a>
+            </h3>
+        </div>
 
-        <div id="feeds" class="g16 omega" style="text-align:right;"> 
+        <div id="feeds"> 
         <!-- rss-popup usage div... 
+<div id="feeds" class="g16 omega" style="text-align:right;"> 
 <div class="rss-popup">
         <a href="$(base_url)/index.atom" id="rss-icon">RSS Feed</a>
         <em>Subscribe the RSS Feed</em>
@@ -49,18 +64,14 @@ href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/>
         <a style="text-decoration=none" href="$(base_url)/site-index.html">引</a>
         </sub>
 
-        </div> 
-    </div> 
+        </div> <!--id="feeds"-->
+    </div> <!--id="top" class="g33"-->
 
-    <div id="header" class="g33"> 
-        <h2><a href="$(base_url)">
-        <img src="/pybstyle/zoomquiet-means-100414_h90.png" alt="$(blog_title)">
-        </a>
-        </h2> 
-    </div> 
-    <div class="clear"></div> 
+<hr id="split"/>
+
 
 <!--
+    <div class="clear"></div> 
 <p>$(yr)-$(mo_num)-$(da) $(ti)</p>
 -->    
 </td><!-- id="head" -->

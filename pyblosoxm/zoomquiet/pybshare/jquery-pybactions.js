@@ -10,14 +10,19 @@
 	$(this).next("em").animate({opacity: "hide", top: "-70"}, "fast");
 	});
 */
+
 $(document).ready(function() {
 // for hide tree/archive page 's losted link!
-	$("a[href='/pyblosxom/file_path.html']").addClass("jQhide");
-	if (1==$("div[class='post']").size()) {
-	    //alert($("div[class='header']").find("h1").text());
-	    var wordsName = $("div[class='header']").find("h1").text()+" "+$("div[class='header']").find("h2").text()+" @ "+$("h2[class='permanentURL']").find("a").text()+" - "
-	    $('title').prepend(wordsName);
-	}
+    $("a[href='/pyblosxom/file_path.html']").addClass("jQhide");
 
+// for Title include gen date:
+    if (1==$("div[class='post']").size()) {
+        //alert($("div[class='header']").find("h1").text());
+        var wordsName = $("div[class='header']").find("h1").text()+" "+$("div[class='header']").find("h2").text()+" @ "+$("h2[class='permanentURL']").find("a").text()+" - "
+        $('title').prepend(wordsName);
+
+// for make H1 URI
+
+    }
 });
 

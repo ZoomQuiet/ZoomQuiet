@@ -130,10 +130,12 @@ py["plugin_dirs"] = [os.path.join(blogdir, "plugins")
                         ,os.path.join(blogdir, "plugins/archives")
                         ,os.path.join(blogdir, "plugins/navigate")
                         ,os.path.join(blogdir, "plugins/date")                        
-                        ,os.path.join(blogdir, "plugins/preformatters")
+                        ,os.path.join(blogdir, "plugins/preformaters")
                         ,os.path.join(blogdir, "plugins/folksonomy")
                         ,os.path.join(blogdir, "plugins/willplugins")
                         ,os.path.join(blogdir, "plugins/zqpyb+")    
+                        ,os.path.join(blogdir, "plugins/pyb15rc3/display")    
+                        ,os.path.join(blogdir, "plugins/pyb15rc3/text")                        
                         ]
 
 
@@ -156,9 +158,10 @@ py["load_plugins"] = ["pyfilenamemtime"
                         ,"zqcategories"
                         ,"index_static" #,"index"
                         #,"pycategories"
-                        ,"firstdaydiv"
+                        #,"firstdaydiv"
                         ,"xhtml"
                         ,"py"
+                        #,"rst"
                         ,"pyentrynavi"
                         #,"filekicker"
                         #,"photogallery"
@@ -166,22 +169,15 @@ py["load_plugins"] = ["pyfilenamemtime"
                         ,"plugininfo"
                         #,"tags"
                         #,"folksonomy"
+                        #,"paginate"
                         ]
 
 # for plugins configs
 # ======================
-#   for tags
-py['tags_trigger'] = 'tags.html'
-#   for folksonomy
-py['pretext'] = '<span class="tags">Tags: '
-py['posttext'] = '</span>'
-py['tagsep'] = ','
-py['ignore_tags'] = 'tag'
-
 
 #   for firstdaydiv
-py['firstDayDiv'] = 'blosxomFirstDayDiv'
-py["plugininfo_hide"] = ["firstdaydiv",]
+#py['firstDayDiv'] = 'blosxomFirstDayDiv'
+#py["plugininfo_hide"] = ["firstdaydiv",]
 #   for index_static
 py['index_trigger']            = '/site-index.html'
 py['index_num_columns']        = 2
@@ -213,12 +209,21 @@ py["category_root_list"] = ["Zen"
 py["category_item"] = r'<li><a href="%(base_url)s/%(fullcategory)s">%(category)s</a><sup>(%(count)d)</sup><a href="%(base_url)s/%(fullcategory)s/index.atom"><img src="/pybstyle/rss12x12.png"/></a></li>'
 #py["category_template"] = "category_list"
 
+
+#   for tags
+#py['tags_trigger'] = 'tags.html'
+#   for folksonomy
+#py['pretext'] = '<span class="tags">Tags: '
+#py['posttext'] = '</span>'
+#py['tagsep'] = ','
+#py['ignore_tags'] = 'tag'
+
 #   for pyentrynavi
-py["entry_extension"] = "xhtml"
+#py["entry_extension"] = "xhtml"
 
 #   for foto garllry
-py['imagedata'] = '/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/_images' #is required by imagefile, and also here.
-py['gallerytrigger'] = 'gallerytrigger' #is required.
+#py['imagedata'] = '/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/_images' #is required by imagefile, and also here.
+#py['gallerytrigger'] = 'gallerytrigger' #is required.
 #py['gallery_use_story_template'] = True/False is optional, defaulting to True.
 
 
@@ -235,6 +240,7 @@ py["base_url"] = "/pyblosxom/"
 # Default parser/preformatter. Defaults to plain (does nothing)
 #py["parser"] = "plain"
 py["parser"] = "xhtml"
+#py["parser"] = "py"
 # Static rendering
 # ================
 
@@ -249,7 +255,6 @@ py["static_dir"] = os.path.join(blogdir, "_static")
 # What flavours should get generated?
 py["static_flavours"] = ["html"
     ,"atom"
-    ,"rdf"
     ]
 #py["static_flavours"] = ["atom"]
 #py["static_flavours"] = ["rdf"]
@@ -274,7 +279,7 @@ py["static_monthnames"] = 0
 # Whether (1) or not (0) you want to create date indexes using month
 # numbers?  (ex. /2004/04/01)  Defaults to 0 (no).
 #py["static_monthnumbers"] = 0
-py["static_monthnumbers"] = 1
+#py["static_monthnumbers"] = 1
 
 # Caching configuration
 # =====================

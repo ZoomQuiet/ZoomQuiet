@@ -23,7 +23,7 @@
 | 分类: <a href="$(base_url)/$(urlencode(absolute_path))" title="path">/$(absolute_path)</a>
 &sect;
 <br/>
-<a href="mailto:zoomquiet+blog@gmail.com?subject={PyBlosxom}$(title)&body=abt. $(urlencode(file_path))">[Comment]</a>
+<a href="mailto:zoomquiet+blog@gmail.com?subject={PyBlosxom}$(title)&body=abt. $(urlencode(file_path))">[MailMe]</a>
 <a href="javascript:window.print()">[Print]</a>
  <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/">
 <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/cn/80x15.png" /></a>
@@ -32,12 +32,33 @@
     &#26412;<span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">&#20316;&#21697;</span>&#30001;<span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Zoom.Quiet</span>&#21019;&#20316;&#65292;&#37319;&#29992;<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/">&#30693;&#35782;&#20849;&#20139;&#32626;&#21517;-&#30456;&#21516;&#26041;&#24335;&#20849;&#20139; 2.5 &#20013;&#22269;&#22823;&#38470;&#35768;&#21487;&#21327;&#35758;</a>&#36827;&#34892;&#35768;&#21487;&#12290;
 &#22522;&#20110;<a xmlns:dc="http://purl.org/dc/elements/1.1/" href="$(base_url)/$(urlencode(file_path)).$(flavour)" rel="dc:source">zoomquiet.org</a>&#19978;&#30340;&#20316;&#21697;&#21019;&#20316;&#12290;
 </span>
+
+<br/>
+<div id="disqus_thread"></div>
+<!-- for Disqus actions -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'zoomquietpyblosxomblogging'; // required: replace example with your forum shortname
+    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+    var disqus_identifier = "$(urlencode(file_path)).$(flavour)";
+    var disqus_url = "http://blog.zoomquiet.org$(base_url)/$(urlencode(file_path)).$(flavour)";
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<!--<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+<center id="pyentrynavi">
+    $(entry_navi)
+</center>
+-->
     </div> <!--class="meta"-->
 
     </div> <!-- class="text"-->
-<center id="pyentrynavi">
-    $(entry_navi) <!-- for pyentrynavi-->
-</center>
 
 </div> <!-- id="page-content"-->
 </div> <!-- class="post"-->

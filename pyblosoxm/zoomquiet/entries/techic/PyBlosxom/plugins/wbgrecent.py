@@ -1,6 +1,7 @@
-# -*- coding: utf-8 -*-
-#tags techic,PyBlosxom,plugins
 """
+Summary
+=======
+
 Walks through all your blog entries and comments and makes a list of
 all the entries that were either written in the last 14 days or have
 comments written in the last 14 days.  It then generates a very
@@ -9,12 +10,13 @@ flavour template yearmonthsummary which I use for my wbgarchives
 plugin.
 
 This plugin requires no installation.  Just drop it in and the url
-will be:
+will be::
 
    $baseurl/recent
 
 to see the recent activity.
 
+----
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
@@ -36,32 +38,29 @@ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Copyright 2004 Will Guaraldi
+Copyright 2004-2007 Will Guaraldi
 
 SUBVERSION VERSION: $Id$
 
-"""
-
-"""
 Revisions:
-1.5.1 - Zoomq::060128 hide sys path of entry
+2007-07-07 - Converted documentation to reST.
 2005-11-11 - Pulled into new VCS.
 1.5 - (26 October, 2005) pulled into new VCS
 1.1 - (09 December, 2004) fixed the timestamp and date_head issues
 1.0 - (31 August, 2004) initial writing
 """
-## Leo: tab_width=-4 page_width=80
-# vim: tabstop=4 shiftwidth=4
 __author__ = "Will Guaraldi - willg at bluesock dot org"
 __version__ = "$Date$"
 __url__ = "http://www.bluesock.org/~willg/pyblosxom/"
 __description__ = "Summary of recent blog activity."
 
 from Pyblosxom import tools, entries
-import time, os, glob
+import time, os, glob, urllib
 
 def verify_installation(request):
     return 1
+
+
 def new_entry(request, title, body):
     """
     Takes a bunch of variables and generates an entry out of it.  It creates
@@ -81,8 +80,9 @@ def new_entry(request, title, body):
     entry.setTime(time.localtime())
     entry.setData(body)
 
-
     return entry
+
+
 INIT_KEY = "wbgrecent_initiated"
 
 def cb_date_head(args):
@@ -102,12 +102,15 @@ def get_comment_text(cmt):
         mem = mem.rstrip()
         if mem.find("<title>") == 0:
             title = mem.replace("<title>", "").replace("</title>", "")
+            title = urllib.unquote(title)
         elif mem.find("<author>") == 0:
             author = mem.replace("<author>", "").replace("</author>", "")
+            author = urllib.unquote(author)
 
-    return "(%s) %s, by %s" % \
+    return "(%s) comment from %s" % \
            (time.strftime("%m/%d/%Y %H:%M", time.localtime(cmt[0])), \
-            title, author)
+            author)
+
 def cb_filelist(args):
     request = args["request"]
     pyhttp = request.getHttp()
@@ -122,18 +125,11 @@ def cb_filelist(args):
     cmntdir = config.get("comment_dir", datadir + os.sep + "comments")
     cmntext = config.get("comment_ext", ".cmt")
 
-    data["blog_title"] = config.get("blog_title", "") + "<DIV id='recent'> - recent activity</DIV>"
-    """
-    data["debug"] = "%s%s"%(config.get("blog_debug")
-                            ,str(pyhttp["QUERY_STRING"])
-                            )
-    """
+    data["blog_title"] = config.get("blog_title", "") + " - recent activity"
     data[INIT_KEY] = 1
     config['num_entries'] = 9999
 
     marker = time.time() - (60 * 60 * 24 * 14)
-
-    # get entries and export
 
     # get all the entries
     allentries = tools.Walk(request, datadir)
@@ -171,38 +167,23 @@ def cb_filelist(args):
     stuff.reverse()
 
     # time stamp and blog entry
-    #e = "<tr>\n<td valign=\"top\" align=\"left\">%s:</td>\n" \
-    #    "<td><a href=\"%s/%s\">%s</a> (%s)<br />%s</td></tr>\n"
-    e = """<tr>
-        <td valign="top" align="left">%s:</td>
-        <td><a href="%s/%s">%s</a> (%s)
-        <br/>%s
-        </td></tr>
-        """
+    e = "<tr>\n<td valign=\"top\" align=\"left\">%s:</td>\n" \
+        "<td><a href=\"%s/%s\">%s</a> (%s)<br />%s</td></tr>\n"
 
     entrylist = []
     output = []
     for mem in stuff:
-        entry = entries.fileentry.FileEntry(request, mem[2], data['root_datadir'])
+        entry = entries.fileentry.FileEntry(request, mem[2], config["datadir"])
         tstamp = time.strftime("%m/%d/%Y", time.localtime(mem[1]))
 
         temp = e % (tstamp, \
                     baseurl, \
                     entry["file_path"], \
                     entry["title"], \
-                    "", \
-                    "".join( [get_comment_text(c) + "<br />" for c in mem[3]])
-                    #entry["path"]
-                    )
+                    entry["path"], \
+                    "".join( [get_comment_text(c) + "<br />" for c in mem[3]]))
         output.append(temp)
 
-    entrylist.append(new_entry(request
-                               , "Recent activity in 2 weeks:"
-                               , "<tr><td colspan=2>&nbsp;</td></tr>\n".join(output)
-                               )
-                        )
-
-
+    entrylist.append(new_entry(request, "Recent activity:", "<tr><td colspan=2>&nbsp;</td></tr>\n".join(output)))
 
     return entrylist
-

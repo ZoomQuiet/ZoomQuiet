@@ -5,6 +5,7 @@
 <tr><td><!-- id="footer" -->
 
 <div id="funcbarnner">
+
 <!-- foot function barnners -->
     <table class="funcbarnner" align="CENTER" border="0">
     <tr><td>
@@ -168,7 +169,7 @@ $(tagcloud)
 <a href="#">$(blog_title)</a> powered by 
 <a href="http://pyblosxom.bluesock.org">
     <img src="http://pyblosxom.bluesock.org/images/pb_pyblosxom.gif" alt="Made with PyBlosxom" border="0" /></a>
-v1.5-rc1 20100129
+v1.5-rc3
 |
 theme design base <a href="http://www.bestwpthemes.com/doc/">"Doc"</a>
 &sect;
@@ -188,8 +189,9 @@ theme design base <a href="http://www.bestwpthemes.com/doc/">"Doc"</a>
 </div> <!--end for class="container"-->
 <!-- Finally, to loading jQuery Ajax Lib. 
 <script type="text/javascript" src="/pybshare/jquery-1.4.2.min.js"></script>
--->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+-->
+<script type="text/javascript" src="/pybshare/jquery-1.6.2.min.js"></script>
 <script src="/pybshare/jquery-pybactions.js" type="text/javascript"></script>
 
 <!-- for syntaxhighlighter_2.1.364_zh Include required JS files -->
@@ -200,6 +202,7 @@ theme design base <a href="http://www.bestwpthemes.com/doc/">"Doc"</a>
 <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"></script>
 <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPlain.js"></script>
 <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPython.js"></script>
+<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushSql.js"></script>
 <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js"></script>
 <!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
 <script type="text/javascript">

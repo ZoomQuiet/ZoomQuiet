@@ -11,8 +11,8 @@
 <vnodes>
 <v t="zoomq.20100310084837.5905"><vh>@chapters</vh></v>
 <v t="ZoomQuiet.20060116172141"><vh>运维记要</vh>
-<v t="zoomq.20100319214837.4218" a="E"><vh>2010@py.k</vh>
-<v t="zoomq.20100413102905.5772" a="E"><vh>静态化发布</vh>
+<v t="zoomq.20100319214837.4218"><vh>2010@py.k</vh>
+<v t="zoomq.20100413102905.5772"><vh>静态化发布</vh>
 <v t="zoomq.20100413102905.5776"><vh>批量重整</vh>
 <v t="zoomq.20100413102905.5773"><vh>ask@ZSP</vh></v>
 </v>
@@ -537,7 +537,7 @@
 <v t="zoomq.20100414115206.4557"><vh>@nosent ZARD-leaved-2007-05-28-16-00.t2t</vh>
 <v t="ZoomQuiet.20060122153701.1"></v>
 </v>
-<v t="zoomq.20101009110805.4211" a="E"><vh>@nosent ms-dll-hell-2010-10-09-01-00.t2t</vh>
+<v t="zoomq.20101009110805.4211"><vh>@nosent ms-dll-hell-2010-10-09-01-00.t2t</vh>
 <v t="zoomq.20101009110805.4213"><vh>lyric</vh></v>
 <v t="zoomq.20100728103610.7583"></v>
 <v t="zoomq.20060916180156.12"></v>
@@ -669,14 +669,15 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060113151604" a="E"><vh>hacking</vh>
-<v t="ZoomQuiet.20060117230430" a="E"><vh>flavours</vh>
+<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
 <v t="zoomq.20110503084352.4319" a="E"><vh>html.flav</vh>
 <v t="zoomq.20110503084352.4320"><vh>@nosent category_list</vh></v>
 <v t="zoomq.20110503084352.4321"><vh>@nosent content_type</vh></v>
 <v t="zoomq.20110503084352.4322"><vh>@nosent date_head</vh></v>
 <v t="zoomq.20110503084352.4324"><vh>@nosent head</vh></v>
 <v t="zoomq.20110503084352.4326"><vh>@nosent story</vh></v>
-<v t="zoomq.20110503084352.4323" a="E"><vh>@nosent foot</vh>
+<v t="zoomq.20110503084352.4323"><vh>@nosent foot</vh>
+<v t="zoomq.20110503084352.4334"><vh>&lt;&lt;JS loader&gt;&gt;</vh></v>
 <v t="zoomq.20110503084352.4329"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
 <v t="zoomq.20110503084352.4336"><vh>search text box</vh></v>
 <v t="zoomq.20110503084352.4337"><vh>abt.</vh>
@@ -688,14 +689,13 @@
 </v>
 <v t="zoomq.20110503084352.4330"><vh>&lt;&lt;MID function barnners&gt;&gt;</vh></v>
 <v t="zoomq.20110503084352.4331"><vh>&lt;&lt;RIGHT function barnners&gt;&gt;</vh></v>
-<v t="zoomq.20110503084352.4335" a="E"><vh>&lt;&lt;footer barnners&gt;&gt;</vh>
+<v t="zoomq.20110503084352.4335"><vh>&lt;&lt;footer barnners&gt;&gt;</vh>
 <v t="zoomq.20110503084352.4332"><vh>文尾</vh></v>
 <v t="zoomq.20110503084352.4333"><vh>CC</vh></v>
 </v>
-<v t="zoomq.20110503084352.4334"><vh>&lt;&lt;JS loader&gt;&gt;</vh></v>
 </v>
-<v t="zoomq.20110503084352.4325"><vh>@nosent print.css</vh></v>
 <v t="zoomq.20110503084352.4327"><vh>@nosent style.css</vh></v>
+<v t="zoomq.20110503084352.4325"><vh>@nosent print.css</vh></v>
 <v t="zoomq.20110503084352.4328"><vh>@nosent yearsummarystory</vh></v>
 </v>
 <v t="ZoomQuiet.20060117230447"><vh>phtm.flav</vh>
@@ -764,261 +764,144 @@
 <v t="ZoomQuiet.20060121185526"><vh>@nosent foot.rss20</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060127153926"><vh>core</vh>
-<v t="zoomq.20100419111908.4968"><vh>@shadow commandline.py</vh></v>
-<v t="zoomq.20100419194136.6232"><vh>@shadow pyblosxom.py</vh></v>
-<v t="zoomq.20100419194136.6284"><vh>@shadow tools.py</vh></v>
+<v t="ZoomQuiet.20060127153926" a="E"><vh>core</vh>
+<v t="zoomq.20110831211902.4849" a="EO"><vh>@nosent commandline.py</vh>
+<v t="zoomq.20110831211902.4850"><vh>commandline declarations</vh></v>
+<v t="zoomq.20110831211902.4851"><vh>pwrap</vh></v>
+<v t="zoomq.20110831211902.4852"><vh>pwrap_error</vh></v>
+<v t="zoomq.20110831211902.4853"><vh>build_pyblosxom</vh></v>
+<v t="zoomq.20110831211902.4854"><vh>build_parser</vh></v>
+<v t="zoomq.20110831211902.4855"><vh>test_installation</vh></v>
+<v t="zoomq.20110831211902.4856"><vh>create_blog</vh></v>
+<v t="zoomq.20110831211902.4857"><vh>render_url</vh></v>
+<v t="zoomq.20110831211902.4858"><vh>run_static_renderer</vh></v>
+<v t="zoomq.20110831211902.4859"><vh>get_handlers</vh></v>
+<v t="zoomq.20110831211902.4860"><vh>command_line_handler</vh></v>
+</v>
+<v t="zoomq.20110831211902.4869" a="E"><vh>@nosent pyblosxom.py</vh>
+<v t="zoomq.20110831211902.4870"><vh>pyblosxom declarations</vh></v>
+<v t="zoomq.20110831211902.4871" a="E"><vh>class PyBlosxom</vh>
+<v t="zoomq.20110831211902.4872"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4873"><vh>initialize</vh></v>
+<v t="zoomq.20110831211902.4874"><vh>cleanup</vh></v>
+<v t="zoomq.20110831211902.4875"><vh>get_request</vh></v>
+<v t="zoomq.20110831211902.4876"><vh>get_response</vh></v>
+<v t="zoomq.20110831211902.4877"><vh>run</vh></v>
+<v t="zoomq.20110831211902.4878"><vh>run_callback</vh></v>
+<v t="zoomq.20110831211902.4879"><vh>run_render_one</vh></v>
+<v t="zoomq.20110831211902.4880" a="E"><vh>run_static_renderer</vh>
+<v t="zoomq.20110831211902.4971"><vh>&lt;&lt;cfg&gt;&gt;</vh></v>
+<v t="zoomq.20110831211902.4972"><vh>&lt;&lt;static_month&gt;&gt;</vh></v>
+<v t="zoomq.20110831211902.4973"><vh>&lt;&lt;static_categories&gt;&gt;</vh></v>
+</v>
+</v>
+<v t="zoomq.20110831211902.4881"><vh>class PyBlosxomWSGIApp</vh>
+<v t="zoomq.20110831211902.4882"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4883"><vh>run_pyblosxom</vh></v>
+<v t="zoomq.20110831211902.4884"><vh>__call__</vh></v>
+<v t="zoomq.20110831211902.4885"><vh>__iter__</vh></v>
+</v>
+<v t="zoomq.20110831211902.4886"><vh>pyblosxom_app_factory</vh></v>
+<v t="zoomq.20110831211902.4887"><vh>class EnvDict</vh>
+<v t="zoomq.20110831211902.4888"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4889"><vh>__getitem__</vh></v>
+</v>
+<v t="zoomq.20110831211902.4890"><vh>class Request</vh>
+<v t="zoomq.20110831211902.4891"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4892"><vh>__iter__</vh></v>
+<v t="zoomq.20110831211902.4893"><vh>buffer_input_stream</vh></v>
+<v t="zoomq.20110831211902.4894"><vh>set_response</vh></v>
+<v t="zoomq.20110831211902.4895"><vh>get_response</vh></v>
+<v t="zoomq.20110831211902.4896"><vh>_getform</vh></v>
+<v t="zoomq.20110831211902.4897"><vh>get_form</vh></v>
+<v t="zoomq.20110831211902.4898"><vh>get_configuration</vh></v>
+<v t="zoomq.20110831211902.4899"><vh>get_http</vh></v>
+<v t="zoomq.20110831211902.4900"><vh>get_data</vh></v>
+<v t="zoomq.20110831211902.4901"><vh>add_http</vh></v>
+<v t="zoomq.20110831211902.4902"><vh>add_data</vh></v>
+<v t="zoomq.20110831211902.4903"><vh>add_configuration</vh></v>
+<v t="zoomq.20110831211902.4904"><vh>__getattr__</vh></v>
+<v t="zoomq.20110831211902.4905"><vh>__repr__</vh></v>
+</v>
+<v t="zoomq.20110831211902.4906"><vh>class Response</vh>
+<v t="zoomq.20110831211902.4907"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4908"><vh>__iter__</vh></v>
+<v t="zoomq.20110831211902.4909"><vh>set_status</vh></v>
+<v t="zoomq.20110831211902.4910"><vh>get_status</vh></v>
+<v t="zoomq.20110831211902.4911"><vh>add_header</vh></v>
+<v t="zoomq.20110831211902.4912"><vh>get_headers</vh></v>
+<v t="zoomq.20110831211902.4913"><vh>send_headers</vh></v>
+<v t="zoomq.20110831211902.4914"><vh>send_body</vh></v>
+</v>
+<v t="zoomq.20110831211902.4915"><vh>blosxom_handler</vh></v>
+<v t="zoomq.20110831211902.4916"><vh>blosxom_entry_parser</vh></v>
+<v t="zoomq.20110831211902.4917"><vh>blosxom_file_list_handler</vh></v>
+<v t="zoomq.20110831211902.4918"><vh>blosxom_sort_list_handler</vh></v>
+<v t="zoomq.20110831211902.4919"><vh>blosxom_truncate_list_handler</vh></v>
+<v t="zoomq.20110831211902.4920"><vh>blosxom_process_path_info</vh></v>
+<v t="zoomq.20110831211902.4921"><vh>run_pyblosxom</vh></v>
+</v>
+<v t="zoomq.20110831211902.4922" a="O"><vh>@nosent tools.py</vh>
+<v t="zoomq.20110831211902.4923"><vh>tools declarations</vh></v>
+<v t="zoomq.20110831211902.4924"><vh>initialize</vh></v>
+<v t="zoomq.20110831211902.4925"><vh>deprecated_function</vh></v>
+<v t="zoomq.20110831211902.4926"><vh>class ConfigSyntaxErrorException</vh></v>
+<v t="zoomq.20110831211902.4927"><vh>convert_configini_values</vh></v>
+<v t="zoomq.20110831211902.4928"><vh>escape_text</vh></v>
+<v t="zoomq.20110831211902.4929"><vh>urlencode_text</vh></v>
+<v t="zoomq.20110831211902.4930"><vh>class Stripper</vh>
+<v t="zoomq.20110831211902.4931"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4932"><vh>unknown_starttag</vh></v>
+<v t="zoomq.20110831211902.4933"><vh>unknown_endtag</vh></v>
+<v t="zoomq.20110831211902.4934"><vh>handle_data</vh></v>
+<v t="zoomq.20110831211902.4935"><vh>gettext</vh></v>
+</v>
+<v t="zoomq.20110831211902.4936"><vh>commasplit</vh></v>
+<v t="zoomq.20110831211902.4937"><vh>class Replacer</vh>
+<v t="zoomq.20110831211902.4938"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4939"><vh>replace</vh></v>
+</v>
+<v t="zoomq.20110831211902.4940"><vh>parse</vh></v>
+<v t="zoomq.20110831211902.4941"><vh>walk</vh></v>
+<v t="zoomq.20110831211902.4942"><vh>_walk_internal</vh></v>
+<v t="zoomq.20110831211902.4943"><vh>filestat</vh></v>
+<v t="zoomq.20110831211902.4944"><vh>what_ext</vh></v>
+<v t="zoomq.20110831211902.4945"><vh>is_year</vh></v>
+<v t="zoomq.20110831211902.4946"><vh>importname</vh></v>
+<v t="zoomq.20110831211902.4947"><vh>generate_rand_str</vh></v>
+<v t="zoomq.20110831211902.4948"><vh>run_callback</vh></v>
+<v t="zoomq.20110831211902.4949"><vh>addcr</vh></v>
+<v t="zoomq.20110831211902.4950"><vh>create_entry</vh></v>
+<v t="zoomq.20110831211902.4951"><vh>get_cache</vh></v>
+<v t="zoomq.20110831211902.4952"><vh>update_static_entry</vh></v>
+<v t="zoomq.20110831211902.4953"><vh>render_url_statically</vh></v>
+<v t="zoomq.20110831211902.4954"><vh>render_url</vh></v>
+<v t="zoomq.20110831211902.4955"><vh>class LogFilter</vh>
+<v t="zoomq.20110831211902.4956"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4957"><vh>filter</vh></v>
+</v>
+<v t="zoomq.20110831211902.4958"><vh>get_logger</vh></v>
+<v t="zoomq.20110831211902.4959"><vh>log_exception</vh></v>
+<v t="zoomq.20110831211902.4960"><vh>log_caller</vh></v>
+</v>
+<v t="zoomq.20110831211902.4861" a="O"><vh>@nosent plugin_utils.py</vh>
+<v t="zoomq.20110831211902.4862"><vh>plugin_utils declarations</vh></v>
+<v t="zoomq.20110831211902.4863"><vh>catalogue_plugin</vh></v>
+<v t="zoomq.20110831211902.4864"><vh>get_callback_chain</vh></v>
+<v t="zoomq.20110831211902.4865"><vh>initialize_plugins</vh></v>
+<v t="zoomq.20110831211902.4866"><vh>get_plugin_by_name</vh></v>
+<v t="zoomq.20110831211902.4867"><vh>get_module_name</vh></v>
+<v t="zoomq.20110831211902.4868"><vh>get_plugin_list</vh></v>
+</v>
 </v>
 <v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
 <v t="zoomq.20100414115206.4559"><vh>@nosent cleant2t.py</vh>
 <v t="zoomq.20100414115206.4560"><vh>cleant2t declarations</vh></v>
 <v t="zoomq.20100414115206.4561"><vh>clean2entry</vh></v>
 </v>
-<v t="zoomq.20100414115206.4579"><vh>archives</vh>
-<v t="zoomq.20100414115206.4622"><vh>@nosent pycategories.py</vh>
-<v t="zoomq.20100414115206.4623"><vh>&lt;&lt;pycategories declarations&gt;&gt;</vh></v>
-<v t="zoomq.20100414115206.4624"><vh>verify_installation</vh></v>
-<v t="zoomq.20100414115206.4625"><vh>class PyblCategories</vh>
-<v t="zoomq.20100414115206.4626"><vh>__init__</vh></v>
-<v t="zoomq.20100414115206.4627"><vh>__str__</vh></v>
-<v t="zoomq.20100414115206.4628"><vh>genCategories</vh></v>
-</v>
-<v t="zoomq.20100414115206.4629"><vh>cb_prepare</vh></v>
-</v>
-<v t="zoomq.20100414115206.4692"><vh>@nosent index.py</vh>
-<v t="zoomq.20100414115206.4693"><vh>index declarations</vh></v>
-<v t="zoomq.20100414115206.4694"><vh>verify_installation</vh></v>
-<v t="zoomq.20100414115206.4695"><vh>cb_filelist</vh></v>
-<v t="zoomq.20100414115206.4696"><vh>cb_story</vh></v>
-</v>
-<v t="zoomq.20100414115206.4702"><vh>@nosent index_static.py</vh>
-<v t="zoomq.20100414115206.4703"><vh>index declarations</vh></v>
-<v t="zoomq.20100414115206.4704"><vh>verify_installation</vh></v>
-<v t="zoomq.20100414115206.4705"><vh>cb_filelist</vh></v>
-<v t="zoomq.20100414115206.4706"><vh>cb_story</vh></v>
-</v>
-<v t="zoomq.20100419111908.3747"><vh>@nosent photogallery.py</vh>
-<v t="zoomq.20100419111908.3748"><vh>photogallery declarations</vh></v>
-<v t="zoomq.20100419111908.3749"><vh>verify_installation</vh></v>
-<v t="zoomq.20100419111908.3750"><vh>cb_filelist</vh>
-<v t="zoomq.20100419111908.3752"><vh>&lt;&lt;if_pyhttp&gt;&gt;</vh></v>
-<v t="zoomq.20100419111908.3753"><vh>&lt;&lt;elif_pyhttp&gt;&gt;</vh></v>
-</v>
-<v t="zoomq.20100419111908.3751"><vh>cb_story</vh></v>
-</v>
-<v t="zoomq.20100419111908.3754"><vh>@nosent filekicker.py</vh>
-<v t="zoomq.20100419111908.3755"><vh>filekicker declarations</vh></v>
-<v t="zoomq.20100419111908.3756"><vh>verify_installation</vh></v>
-<v t="zoomq.20100419111908.3757"><vh>cb_handle</vh></v>
-</v>
-<v t="zoomq.20100419111908.3758"><vh>@nosent yeararchives.py</vh>
-<v t="zoomq.20100419111908.3759"><vh>yeararchives declarations</vh></v>
-<v t="zoomq.20100419111908.3760"><vh>verify_installation</vh></v>
-<v t="zoomq.20100419111908.3761"><vh>class YearArchives</vh>
-<v t="zoomq.20100419111908.3762"><vh>__init__</vh></v>
-<v t="zoomq.20100419111908.3763"><vh>__str__</vh></v>
-<v t="zoomq.20100419111908.3764"><vh>gen_linear_archive</vh></v>
-</v>
-<v t="zoomq.20100419111908.3765"><vh>new_entry</vh></v>
-<v t="zoomq.20100419111908.3766"><vh>cb_prepare</vh></v>
-<v t="zoomq.20100419111908.3767"><vh>cb_date_head</vh></v>
-<v t="zoomq.20100419111908.3768"><vh>cb_filelist</vh></v>
-</v>
-<v t="zoomq.20100419111908.3769"><vh>@nosent pyarchives.py</vh>
-<v t="zoomq.20100419111908.3770"><vh>pyarchives declarations</vh></v>
-<v t="zoomq.20100419111908.3771"><vh>verify_installation</vh></v>
-<v t="zoomq.20100419111908.3772"><vh>class PyblArchives</vh>
-<v t="zoomq.20100419111908.3773"><vh>__init__</vh></v>
-<v t="zoomq.20100419111908.3774"><vh>__str__</vh></v>
-<v t="zoomq.20100419111908.3775"><vh>gen_linear_archive</vh>
-<v t="zoomq.20100419194136.6323"><vh>gen_year_month_account</vh></v>
-</v>
-</v>
-<v t="zoomq.20100419111908.3776"><vh>cb_prepare</vh></v>
-</v>
-</v>
-<v t="zoomq.20100419111908.3737"><vh>navigate</vh>
-<v t="zoomq.20100419111908.3738"><vh>@nosent pyentrynavi.py</vh>
-<v t="zoomq.20100419111908.3739"><vh>&lt;&lt;declarations&gt;&gt;</vh></v>
-<v t="zoomq.20100419111908.3740"><vh>verify_installation()</vh></v>
-<v t="zoomq.20100419111908.3741"><vh>cb_prepare()</vh></v>
-</v>
-</v>
-<v t="zoomq.20100414115206.4589"><vh>date</vh>
-<v t="zoomq.20100414115206.4606"><vh>@nosent pyfilenamemtime.py</vh>
-<v t="zoomq.20100414115206.4607"><vh>&lt;&lt;pyfilenamemtime declarations&gt;&gt;</vh></v>
-<v t="zoomq.20100414115206.4608"><vh>cb_filestat</vh></v>
-</v>
-<v t="zoomq.20100414115206.4609"><vh>@nosent firstdaydiv.py</vh>
-<v t="zoomq.20100414115206.4610"><vh>firstdaydiv declarations</vh></v>
-<v t="zoomq.20100414115206.4611"><vh>class PyFirstDate</vh>
-<v t="zoomq.20100414115206.4612"><vh>__init__</vh></v>
-<v t="zoomq.20100414115206.4613"><vh>__str__</vh></v>
-</v>
-<v t="zoomq.20100414115206.4614"><vh>cb_prepare</vh></v>
-</v>
-<v t="zoomq.20100414115206.4615"><vh>@nosent w3cdate.py</vh>
-<v t="zoomq.20100414115206.4616"><vh>w3cdate declarations</vh></v>
-<v t="zoomq.20100414115206.4617"><vh>iso8601_hack_tostring</vh></v>
-<v t="zoomq.20100414115206.4618"><vh>get_formatted_date</vh></v>
-<v t="zoomq.20100414115206.4619"><vh>cb_head</vh></v>
-<v t="zoomq.20100414115206.4620"><vh>cb_story</vh></v>
-<v t="zoomq.20100414115206.4621"><vh>cb_foot</vh></v>
-</v>
-<v t="zoomq.20100419111908.3742"><vh>@nosent hardcodedates.py</vh>
-<v t="zoomq.20100419111908.3743"><vh>hardcodedates declarations</vh></v>
-<v t="zoomq.20100419111908.3744"><vh>init</vh></v>
-<v t="zoomq.20100419111908.3745"><vh>cb_filestat</vh></v>
-<v t="zoomq.20100419111908.3746"><vh>cb_end</vh></v>
-</v>
-</v>
-<v t="ZoomQuiet.20060127143628" a="E"><vh>willplugins</vh>
-<v t="zoomq.20100420100426.3921"><vh>@nosent wbglast10summary.py</vh>
-<v t="zoomq.20100420100426.3922"><vh>wbglast10summary declarations</vh></v>
-<v t="zoomq.20100420100426.3923"><vh>cb_prepare</vh></v>
-</v>
-<v t="zoomq.20100414115206.4645"><vh>@nosent readmore.py</vh>
-<v t="zoomq.20100414115206.4646"><vh>readmore declarations</vh></v>
-<v t="zoomq.20100414115206.4647"><vh>cb_story</vh></v>
-</v>
-<v t="zoomq.20100414115206.4637"><vh>@nosent plugininfo.py</vh>
-<v t="zoomq.20100414115206.4638"><vh>plugininfo declarations</vh></v>
-<v t="zoomq.20100414115206.4639"><vh>verify_installation</vh></v>
-<v t="zoomq.20100414115206.4640"><vh>build_entry</vh></v>
-<v t="zoomq.20100414115206.4641"><vh>cb_prepare</vh></v>
-<v t="zoomq.20100414115206.4642"><vh>cb_date_head</vh></v>
-<v t="zoomq.20100414115206.4643"><vh>cb_staticrender_filelist</vh></v>
-<v t="zoomq.20100414115206.4644"><vh>cb_filelist</vh></v>
-</v>
-<v t="zoomq.20100414115206.4685"><vh>@nosent wbgrecent.py</vh>
-<v t="zoomq.20100414115206.4686"><vh>wbgrecent declarations</vh></v>
-<v t="zoomq.20100414115206.4687"><vh>verify_installation</vh></v>
-<v t="zoomq.20100414115206.4688"><vh>new_entry</vh></v>
-<v t="zoomq.20100414115206.4689"><vh>cb_date_head</vh></v>
-<v t="zoomq.20100414115206.4690"><vh>get_comment_text</vh></v>
-<v t="zoomq.20100414115206.4691"><vh>cb_filelist</vh></v>
-</v>
-<v t="zoomq.20100414115206.4630"><vh>@nosent pystaticfile.py</vh>
-<v t="zoomq.20100414115206.4631"><vh>pystaticfile declarations</vh></v>
-<v t="zoomq.20100414115206.4632"><vh>verify_installation</vh></v>
-<v t="zoomq.20100414115206.4633"><vh>cb_date_head</vh></v>
-<v t="zoomq.20100414115206.4634"><vh>cb_date_foot</vh></v>
-<v t="zoomq.20100414115206.4635"><vh>eval_python_blocks</vh></v>
-<v t="zoomq.20100414115206.4636"><vh>cb_filelist</vh></v>
-</v>
-<v t="zoomq.20100414115206.4648"><vh>@nosent wbgarchives.py</vh>
-<v t="zoomq.20100414115206.4649"><vh>wbgarchives declarations</vh></v>
-<v t="zoomq.20100414115206.4650"><vh>verify_installation</vh></v>
-<v t="zoomq.20100414115206.4651"><vh>class WbgArchives</vh>
-<v t="zoomq.20100414115206.4652"><vh>__init__</vh></v>
-<v t="zoomq.20100414115206.4653"><vh>__str__</vh></v>
-<v t="zoomq.20100414115206.4654"><vh>genLinearArchive</vh></v>
-</v>
-<v t="zoomq.20100414115206.4655"><vh>new_entry</vh></v>
-<v t="zoomq.20100414115206.4656"><vh>cb_prepare</vh></v>
-<v t="zoomq.20100414115206.4657"><vh>cb_date_head</vh></v>
-<v t="zoomq.20100414115206.4658"><vh>cb_filelist</vh></v>
-</v>
-<v t="zoomq.20100414115206.4659"><vh>@nosent wbggrep.py</vh>
-<v t="zoomq.20100414115206.4660"><vh>wbggrep declarations</vh></v>
-<v t="zoomq.20100414115206.4661"><vh>prepare_text</vh></v>
-<v t="zoomq.20100414115206.4662"><vh>search</vh></v>
-<v t="zoomq.20100414115206.4663"><vh>cb_date_head</vh></v>
-<v t="zoomq.20100414115206.4664"><vh>cb_filelist</vh></v>
-</v>
-<v t="zoomq.20100414115206.4665"><vh>@nosent wbgpager.py</vh>
-<v t="zoomq.20100414115206.4666"><vh>wbgpager declarations</vh></v>
-<v t="zoomq.20100414115206.4667"><vh>verify_installation</vh></v>
-<v t="zoomq.20100414115206.4668"><vh>class PageDisplay</vh>
-<v t="zoomq.20100414115206.4669"><vh>__init__</vh></v>
-<v t="zoomq.20100414115206.4670"><vh>__str__</vh></v>
-</v>
-<v t="zoomq.20100414115206.4671"><vh>cb_start</vh></v>
-<v t="zoomq.20100414115206.4672"><vh>cb_prepare</vh></v>
-</v>
-<v t="zoomq.20100414115206.4673"><vh>@nosent wbgtags.py</vh>
-<v t="zoomq.20100414115206.4674"><vh>wbgtags declarations</vh></v>
-<v t="zoomq.20100414115206.4675"><vh>savefile</vh></v>
-<v t="zoomq.20100414115206.4676"><vh>loadfile</vh></v>
-<v t="zoomq.20100414115206.4677"><vh>get_tagsfile</vh></v>
-<v t="zoomq.20100414115206.4678"><vh>buildtags</vh></v>
-<v t="zoomq.20100414115206.4679"><vh>category_to_tags</vh></v>
-<v t="zoomq.20100414115206.4680"><vh>cb_commandline</vh></v>
-<v t="zoomq.20100414115206.4681"><vh>cb_start</vh></v>
-<v t="zoomq.20100414115206.4682"><vh>cb_filelist</vh></v>
-<v t="zoomq.20100414115206.4683"><vh>cb_story</vh></v>
-<v t="zoomq.20100414115206.4684"><vh>cb_head</vh></v>
-</v>
-</v>
-<v t="ZoomQuiet.20060128153018"><vh>zqpyb+</vh>
-<v t="ZoomQuiet.20060128161220"><vh>__stuff</vh>
-<v t="zoomq.20100420100426.5502"><vh>_pushsubdir()</vh></v>
-<v t="zoomq.20100420100426.5500"><vh>try文章结构列表</vh></v>
-</v>
-<v t="zoomq.20100420100426.5124"><vh>@nosent category_static.py</vh>
-<v t="zoomq.20100420100426.5125"><vh>&lt;&lt;declarations&gt;&gt;</vh></v>
-<v t="zoomq.20100420100426.5126"><vh>verify_installation</vh></v>
-<v t="zoomq.20100420100426.5127"><vh>cb_filelist</vh>
-<v t="zoomq.20100420100426.5129"><vh>gen_dict</vh></v>
-<v t="zoomq.20100420100426.5130"><vh>gen_tree</vh></v>
-<v t="zoomq.20100514091552.4530"><vh>gen_html</vh>
-<v t="zoomq.20100514091552.4532"><vh>&lt;&lt;item link&gt;&gt;</vh></v>
-</v>
-</v>
-<v t="zoomq.20100420100426.5128"><vh>cb_story</vh></v>
-</v>
-<v t="zoomq.20100414115206.4717"><vh>@nosent zqcategories.py</vh>
-<v t="zoomq.20100414115206.4718"><vh>&lt;&lt;pycategories declarations&gt;&gt;</vh></v>
-<v t="zoomq.20100414115206.4719"><vh>verify_installation</vh></v>
-<v t="zoomq.20100414115206.4720" a="E"><vh>class PyblCategories</vh>
-<v t="zoomq.20100414115206.4721"><vh>__init__</vh></v>
-<v t="zoomq.20100414115206.4722"><vh>__str__</vh></v>
-<v t="zoomq.20100414115206.4723"><vh>genCategories</vh></v>
-<v t="zoomq.20100414115206.4724"><vh>_subCategories</vh></v>
-</v>
-<v t="zoomq.20100414115206.4725"><vh>cb_prepare</vh></v>
-</v>
-<v t="zoomq.20100420100426.3908"><vh>@nosent zqarchives.py</vh>
-<v t="zoomq.20100420100426.3909"><vh>pyarchives declarations</vh></v>
-<v t="zoomq.20100420100426.3910"><vh>verify_installation</vh></v>
-<v t="zoomq.20100420100426.3911"><vh>class PyblArchives</vh>
-<v t="zoomq.20100420100426.3912"><vh>__init__</vh></v>
-<v t="zoomq.20100420100426.3913"><vh>__str__</vh></v>
-<v t="zoomq.20100420100426.3914"><vh>gen_linear_archive</vh>
-<v t="zoomq.20100420100426.3915"><vh>gen_year_month_account</vh></v>
-</v>
-</v>
-<v t="zoomq.20100420100426.3916"><vh>cb_prepare</vh></v>
-</v>
-<v t="ZoomQuiet.20060128153405"><vh>@nosent zqcategory.py</vh>
-<v t="ZoomQuiet.20060128153405.1"><vh>&lt;&lt; zqcategory declarations &gt;&gt;</vh>
-<v t="ZoomQuiet.20060128095939"></v>
-</v>
-<v t="ZoomQuiet.20060128153405.2"><vh>verify_installation</vh></v>
-<v t="ZoomQuiet.20060128153405.3"><vh>class PyblCategories</vh>
-<v t="ZoomQuiet.20060128153405.4"><vh>__init__</vh></v>
-<v t="ZoomQuiet.20060128153405.5"><vh>__str__</vh></v>
-<v t="ZoomQuiet.20060128153405.6"><vh>genCategories</vh></v>
-</v>
-<v t="ZoomQuiet.20060128153405.7"><vh>cb_prepare</vh></v>
-</v>
-<v t="ZoomQuiet.20060128161946" a="M"><vh>@nosent zqcrecent.py</vh>
-<v t="ZoomQuiet.20060128161946.1"><vh>&lt;&lt; zqcrecent declarations &gt;&gt;</vh>
-<v t="ZoomQuiet.20060128095939"></v>
-</v>
-<v t="ZoomQuiet.20060128161946.2"><vh>verify_installation</vh></v>
-<v t="ZoomQuiet.20060128161946.3"><vh>new_entry</vh></v>
-<v t="ZoomQuiet.20060128161946.4"><vh>cb_date_head</vh></v>
-<v t="ZoomQuiet.20060128161946.5"><vh>get_comment_text</vh></v>
-<v t="ZoomQuiet.20060128161946.6"><vh>cb_filelist</vh>
-<v t="ZoomQuiet.20060128161946.7"><vh>获取entries</vh></v>
-<v t="ZoomQuiet.20060128161946.8"><vh>输出</vh></v>
-</v>
-</v>
-</v>
-<v t="ZoomQuiet.20060113155741"><vh>preformatters</vh>
+<v t="ZoomQuiet.20060113155741" a="E"><vh>preformaters</vh>
 <v t="ZoomQuiet.20060122144657"><vh>为t2t</vh>
-<v t="ZoomQuiet.20060121163046"><vh>@nosent  xhtml.py</vh>
+<v t="ZoomQuiet.20060121163046"><vh>@nosent xhtml.py</vh>
 <v t="ZoomQuiet.20060121163046.1"><vh>&lt;&lt; xhtml declarations &gt;&gt;</vh>
 <v t="ZoomQuiet.20060128095939"></v>
 </v>
@@ -1035,7 +918,7 @@
 <v t="ZoomQuiet.20060122145631.1"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
 <v t="ZoomQuiet.20060122145631.2"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
 </v>
-<v t="zoomq.20100414115206.4732"><vh>@nosent  txt2tags.py</vh>
+<v t="zoomq.20100414115206.4732"><vh>@nosent txt2tags.py</vh>
 <v t="zoomq.20100414115206.4733"><vh>&lt;&lt;txt2tags declarations&gt;&gt;</vh></v>
 <v t="zoomq.20100414115206.4896"><vh>&lt;&lt;base options&gt;&gt;</vh></v>
 <v t="zoomq.20100414115206.4895"><vh>&lt;&lt;misc options&gt;&gt;</vh></v>
@@ -1214,14 +1097,14 @@
 <v t="zoomq.20100414115206.4893"><vh>exec_command_line</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060113182537"><vh>@nosent moinmoin.py</vh>
-<v t="ZoomQuiet.20060113182537.1"><vh>&lt;&lt; moinmoin declarations &gt;&gt;</vh></v>
-<v t="ZoomQuiet.20060113182537.2"><vh>cb_preformat</vh></v>
-<v t="ZoomQuiet.20060113182537.3"><vh>cb_entryparser</vh></v>
-<v t="ZoomQuiet.20060113182537.4"><vh>readfile</vh></v>
-<v t="ZoomQuiet.20060113182537.5"><vh>parse</vh></v>
+<v t="zoomq.20110831211902.4966" a="E"><vh>@nosent py.py</vh>
+<v t="zoomq.20110831211902.4967" a="E"><vh>&lt;&lt; xhtml declarations &gt;&gt;</vh>
+<v t="zoomq.20110831211902.4968"><vh>&lt;&lt;CopyLeft&gt;&gt;</vh></v>
 </v>
-<v t="ZoomQuiet.20060122150604"><vh>@nosent py.py</vh>
+<v t="zoomq.20110831211902.4969"><vh>cb_entryparser</vh></v>
+<v t="zoomq.20110831211902.4970"><vh>parse</vh></v>
+</v>
+<v t="ZoomQuiet.20060122150604"><vh>Orig. py.py</vh>
 <v t="ZoomQuiet.20060122150604.1"><vh>&lt;&lt; py declarations &gt;&gt;</vh></v>
 <v t="ZoomQuiet.20060122150604.2"><vh>cb_entryparser</vh></v>
 <v t="ZoomQuiet.20060122150604.3"><vh>parse</vh></v>
@@ -1230,6 +1113,255 @@
 <v t="ZoomQuiet.20060122150604.6"><vh>format</vh></v>
 <v t="ZoomQuiet.20060122150604.7"><vh>__call__</vh></v>
 </v>
+</v>
+<v t="ZoomQuiet.20060113182537"><vh>@nosent moinmoin.py</vh>
+<v t="ZoomQuiet.20060113182537.1"><vh>&lt;&lt; moinmoin declarations &gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060113182537.2"><vh>cb_preformat</vh></v>
+<v t="ZoomQuiet.20060113182537.3"><vh>cb_entryparser</vh></v>
+<v t="ZoomQuiet.20060113182537.4"><vh>readfile</vh></v>
+<v t="ZoomQuiet.20060113182537.5"><vh>parse</vh></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060128153018"><vh>zqpyb+</vh>
+<v t="ZoomQuiet.20060128161220"><vh>__stuff</vh>
+<v t="zoomq.20100420100426.5502"><vh>_pushsubdir()</vh></v>
+<v t="zoomq.20100420100426.5500"><vh>try文章结构列表</vh></v>
+</v>
+<v t="zoomq.20100420100426.5124"><vh>@nosent category_static.py</vh>
+<v t="zoomq.20100420100426.5125"><vh>&lt;&lt;declarations&gt;&gt;</vh></v>
+<v t="zoomq.20100420100426.5126"><vh>verify_installation</vh></v>
+<v t="zoomq.20100420100426.5127"><vh>cb_filelist</vh>
+<v t="zoomq.20100420100426.5129"><vh>gen_dict</vh></v>
+<v t="zoomq.20100420100426.5130"><vh>gen_tree</vh></v>
+<v t="zoomq.20100514091552.4530"><vh>gen_html</vh>
+<v t="zoomq.20100514091552.4532"><vh>&lt;&lt;item link&gt;&gt;</vh></v>
+</v>
+</v>
+<v t="zoomq.20100420100426.5128"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20100414115206.4717"><vh>@nosent zqcategories.py</vh>
+<v t="zoomq.20100414115206.4718"><vh>&lt;&lt;pycategories declarations&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4719"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4720"><vh>class PyblCategories</vh>
+<v t="zoomq.20100414115206.4721"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4722"><vh>__str__</vh></v>
+<v t="zoomq.20100414115206.4723"><vh>genCategories</vh></v>
+<v t="zoomq.20100414115206.4724"><vh>_subCategories</vh></v>
+</v>
+<v t="zoomq.20100414115206.4725"><vh>cb_prepare</vh></v>
+</v>
+<v t="zoomq.20100420100426.3908"><vh>@nosent zqarchives.py</vh>
+<v t="zoomq.20100420100426.3909"><vh>pyarchives declarations</vh></v>
+<v t="zoomq.20100420100426.3910"><vh>verify_installation</vh></v>
+<v t="zoomq.20100420100426.3911"><vh>class PyblArchives</vh>
+<v t="zoomq.20100420100426.3912"><vh>__init__</vh></v>
+<v t="zoomq.20100420100426.3913"><vh>__str__</vh></v>
+<v t="zoomq.20100420100426.3914"><vh>gen_linear_archive</vh>
+<v t="zoomq.20100420100426.3915"><vh>gen_year_month_account</vh></v>
+</v>
+</v>
+<v t="zoomq.20100420100426.3916"><vh>cb_prepare</vh></v>
+</v>
+<v t="ZoomQuiet.20060128153405"><vh>@nosent zqcategory.py</vh>
+<v t="ZoomQuiet.20060128153405.1"><vh>&lt;&lt; zqcategory declarations &gt;&gt;</vh>
+<v t="ZoomQuiet.20060128095939"></v>
+</v>
+<v t="ZoomQuiet.20060128153405.2"><vh>verify_installation</vh></v>
+<v t="ZoomQuiet.20060128153405.3"><vh>class PyblCategories</vh>
+<v t="ZoomQuiet.20060128153405.4"><vh>__init__</vh></v>
+<v t="ZoomQuiet.20060128153405.5"><vh>__str__</vh></v>
+<v t="ZoomQuiet.20060128153405.6"><vh>genCategories</vh></v>
+</v>
+<v t="ZoomQuiet.20060128153405.7"><vh>cb_prepare</vh></v>
+</v>
+<v t="ZoomQuiet.20060128161946" a="M"><vh>@nosent zqcrecent.py</vh>
+<v t="ZoomQuiet.20060128161946.1"><vh>&lt;&lt; zqcrecent declarations &gt;&gt;</vh>
+<v t="ZoomQuiet.20060128095939"></v>
+</v>
+<v t="ZoomQuiet.20060128161946.2"><vh>verify_installation</vh></v>
+<v t="ZoomQuiet.20060128161946.3"><vh>new_entry</vh></v>
+<v t="ZoomQuiet.20060128161946.4"><vh>cb_date_head</vh></v>
+<v t="ZoomQuiet.20060128161946.5"><vh>get_comment_text</vh></v>
+<v t="ZoomQuiet.20060128161946.6"><vh>cb_filelist</vh>
+<v t="ZoomQuiet.20060128161946.7"><vh>获取entries</vh></v>
+<v t="ZoomQuiet.20060128161946.8"><vh>输出</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20100414115206.4579"><vh>archives</vh>
+<v t="zoomq.20100414115206.4622"><vh>@nosent pycategories.py</vh>
+<v t="zoomq.20100414115206.4623"><vh>&lt;&lt;pycategories declarations&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4624"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4625"><vh>class PyblCategories</vh>
+<v t="zoomq.20100414115206.4626"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4627"><vh>__str__</vh></v>
+<v t="zoomq.20100414115206.4628"><vh>genCategories</vh></v>
+</v>
+<v t="zoomq.20100414115206.4629"><vh>cb_prepare</vh></v>
+</v>
+<v t="zoomq.20100414115206.4692"><vh>@nosent index.py</vh>
+<v t="zoomq.20100414115206.4693"><vh>index declarations</vh></v>
+<v t="zoomq.20100414115206.4694"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4695"><vh>cb_filelist</vh></v>
+<v t="zoomq.20100414115206.4696"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20100414115206.4702"><vh>@nosent index_static.py</vh>
+<v t="zoomq.20100414115206.4703"><vh>index declarations</vh></v>
+<v t="zoomq.20100414115206.4704"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4705"><vh>cb_filelist</vh></v>
+<v t="zoomq.20100414115206.4706"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20100419111908.3747"><vh>@nosent photogallery.py</vh>
+<v t="zoomq.20100419111908.3748"><vh>photogallery declarations</vh></v>
+<v t="zoomq.20100419111908.3749"><vh>verify_installation</vh></v>
+<v t="zoomq.20100419111908.3750"><vh>cb_filelist</vh>
+<v t="zoomq.20100419111908.3752"><vh>&lt;&lt;if_pyhttp&gt;&gt;</vh></v>
+<v t="zoomq.20100419111908.3753"><vh>&lt;&lt;elif_pyhttp&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20100419111908.3751"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20100419111908.3754"><vh>@nosent filekicker.py</vh>
+<v t="zoomq.20100419111908.3755"><vh>filekicker declarations</vh></v>
+<v t="zoomq.20100419111908.3756"><vh>verify_installation</vh></v>
+<v t="zoomq.20100419111908.3757"><vh>cb_handle</vh></v>
+</v>
+<v t="zoomq.20100419111908.3758"><vh>@nosent yeararchives.py</vh>
+<v t="zoomq.20100419111908.3759"><vh>yeararchives declarations</vh></v>
+<v t="zoomq.20100419111908.3760"><vh>verify_installation</vh></v>
+<v t="zoomq.20100419111908.3761"><vh>class YearArchives</vh>
+<v t="zoomq.20100419111908.3762"><vh>__init__</vh></v>
+<v t="zoomq.20100419111908.3763"><vh>__str__</vh></v>
+<v t="zoomq.20100419111908.3764"><vh>gen_linear_archive</vh></v>
+</v>
+<v t="zoomq.20100419111908.3765"><vh>new_entry</vh></v>
+<v t="zoomq.20100419111908.3766"><vh>cb_prepare</vh></v>
+<v t="zoomq.20100419111908.3767"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100419111908.3768"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100419111908.3769"><vh>@nosent pyarchives.py</vh>
+<v t="zoomq.20100419111908.3770"><vh>pyarchives declarations</vh></v>
+<v t="zoomq.20100419111908.3771"><vh>verify_installation</vh></v>
+<v t="zoomq.20100419111908.3772"><vh>class PyblArchives</vh>
+<v t="zoomq.20100419111908.3773"><vh>__init__</vh></v>
+<v t="zoomq.20100419111908.3774"><vh>__str__</vh></v>
+<v t="zoomq.20100419111908.3775"><vh>gen_linear_archive</vh>
+<v t="zoomq.20100419194136.6323"><vh>gen_year_month_account</vh></v>
+</v>
+</v>
+<v t="zoomq.20100419111908.3776"><vh>cb_prepare</vh></v>
+</v>
+</v>
+<v t="zoomq.20100419111908.3737"><vh>navigate</vh>
+<v t="zoomq.20100419111908.3738"><vh>@nosent pyentrynavi.py</vh>
+<v t="zoomq.20100419111908.3739"><vh>&lt;&lt;declarations&gt;&gt;</vh></v>
+<v t="zoomq.20100419111908.3740"><vh>verify_installation()</vh></v>
+<v t="zoomq.20100419111908.3741"><vh>cb_prepare()</vh></v>
+</v>
+</v>
+<v t="zoomq.20100414115206.4589"><vh>date</vh>
+<v t="zoomq.20100414115206.4606"><vh>@nosent pyfilenamemtime.py</vh>
+<v t="zoomq.20100414115206.4607"><vh>&lt;&lt;pyfilenamemtime declarations&gt;&gt;</vh></v>
+<v t="zoomq.20100414115206.4608"><vh>cb_filestat</vh></v>
+</v>
+<v t="zoomq.20100414115206.4609"><vh>@nosent firstdaydiv.py</vh>
+<v t="zoomq.20100414115206.4610"><vh>firstdaydiv declarations</vh></v>
+<v t="zoomq.20100414115206.4611"><vh>class PyFirstDate</vh>
+<v t="zoomq.20100414115206.4612"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4613"><vh>__str__</vh></v>
+</v>
+<v t="zoomq.20100414115206.4614"><vh>cb_prepare</vh></v>
+</v>
+<v t="zoomq.20100414115206.4615"><vh>@nosent w3cdate.py</vh>
+<v t="zoomq.20100414115206.4616"><vh>w3cdate declarations</vh></v>
+<v t="zoomq.20100414115206.4617"><vh>iso8601_hack_tostring</vh></v>
+<v t="zoomq.20100414115206.4618"><vh>get_formatted_date</vh></v>
+<v t="zoomq.20100414115206.4619"><vh>cb_head</vh></v>
+<v t="zoomq.20100414115206.4620"><vh>cb_story</vh></v>
+<v t="zoomq.20100414115206.4621"><vh>cb_foot</vh></v>
+</v>
+<v t="zoomq.20100419111908.3742"><vh>@nosent hardcodedates.py</vh>
+<v t="zoomq.20100419111908.3743"><vh>hardcodedates declarations</vh></v>
+<v t="zoomq.20100419111908.3744"><vh>init</vh></v>
+<v t="zoomq.20100419111908.3745"><vh>cb_filestat</vh></v>
+<v t="zoomq.20100419111908.3746"><vh>cb_end</vh></v>
+</v>
+</v>
+<v t="ZoomQuiet.20060127143628"><vh>willplugins</vh>
+<v t="zoomq.20100420100426.3921"><vh>@nosent wbglast10summary.py</vh>
+<v t="zoomq.20100420100426.3922"><vh>wbglast10summary declarations</vh></v>
+<v t="zoomq.20100420100426.3923"><vh>cb_prepare</vh></v>
+</v>
+<v t="zoomq.20100414115206.4645"><vh>@nosent readmore.py</vh>
+<v t="zoomq.20100414115206.4646"><vh>readmore declarations</vh></v>
+<v t="zoomq.20100414115206.4647"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20100414115206.4637"><vh>@nosent plugininfo.py</vh>
+<v t="zoomq.20100414115206.4638"><vh>plugininfo declarations</vh></v>
+<v t="zoomq.20100414115206.4639"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4640"><vh>build_entry</vh></v>
+<v t="zoomq.20100414115206.4641"><vh>cb_prepare</vh></v>
+<v t="zoomq.20100414115206.4642"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100414115206.4643"><vh>cb_staticrender_filelist</vh></v>
+<v t="zoomq.20100414115206.4644"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100414115206.4685"><vh>@nosent wbgrecent.py</vh>
+<v t="zoomq.20100414115206.4686"><vh>wbgrecent declarations</vh></v>
+<v t="zoomq.20100414115206.4687"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4688"><vh>new_entry</vh></v>
+<v t="zoomq.20100414115206.4689"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100414115206.4690"><vh>get_comment_text</vh></v>
+<v t="zoomq.20100414115206.4691"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100414115206.4630"><vh>@nosent pystaticfile.py</vh>
+<v t="zoomq.20100414115206.4631"><vh>pystaticfile declarations</vh></v>
+<v t="zoomq.20100414115206.4632"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4633"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100414115206.4634"><vh>cb_date_foot</vh></v>
+<v t="zoomq.20100414115206.4635"><vh>eval_python_blocks</vh></v>
+<v t="zoomq.20100414115206.4636"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100414115206.4648"><vh>@nosent wbgarchives.py</vh>
+<v t="zoomq.20100414115206.4649"><vh>wbgarchives declarations</vh></v>
+<v t="zoomq.20100414115206.4650"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4651"><vh>class WbgArchives</vh>
+<v t="zoomq.20100414115206.4652"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4653"><vh>__str__</vh></v>
+<v t="zoomq.20100414115206.4654"><vh>genLinearArchive</vh></v>
+</v>
+<v t="zoomq.20100414115206.4655"><vh>new_entry</vh></v>
+<v t="zoomq.20100414115206.4656"><vh>cb_prepare</vh></v>
+<v t="zoomq.20100414115206.4657"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100414115206.4658"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100414115206.4659"><vh>@nosent wbggrep.py</vh>
+<v t="zoomq.20100414115206.4660"><vh>wbggrep declarations</vh></v>
+<v t="zoomq.20100414115206.4661"><vh>prepare_text</vh></v>
+<v t="zoomq.20100414115206.4662"><vh>search</vh></v>
+<v t="zoomq.20100414115206.4663"><vh>cb_date_head</vh></v>
+<v t="zoomq.20100414115206.4664"><vh>cb_filelist</vh></v>
+</v>
+<v t="zoomq.20100414115206.4665"><vh>@nosent wbgpager.py</vh>
+<v t="zoomq.20100414115206.4666"><vh>wbgpager declarations</vh></v>
+<v t="zoomq.20100414115206.4667"><vh>verify_installation</vh></v>
+<v t="zoomq.20100414115206.4668"><vh>class PageDisplay</vh>
+<v t="zoomq.20100414115206.4669"><vh>__init__</vh></v>
+<v t="zoomq.20100414115206.4670"><vh>__str__</vh></v>
+</v>
+<v t="zoomq.20100414115206.4671"><vh>cb_start</vh></v>
+<v t="zoomq.20100414115206.4672"><vh>cb_prepare</vh></v>
+</v>
+<v t="zoomq.20100414115206.4673"><vh>@nosent wbgtags.py</vh>
+<v t="zoomq.20100414115206.4674"><vh>wbgtags declarations</vh></v>
+<v t="zoomq.20100414115206.4675"><vh>savefile</vh></v>
+<v t="zoomq.20100414115206.4676"><vh>loadfile</vh></v>
+<v t="zoomq.20100414115206.4677"><vh>get_tagsfile</vh></v>
+<v t="zoomq.20100414115206.4678"><vh>buildtags</vh></v>
+<v t="zoomq.20100414115206.4679"><vh>category_to_tags</vh></v>
+<v t="zoomq.20100414115206.4680"><vh>cb_commandline</vh></v>
+<v t="zoomq.20100414115206.4681"><vh>cb_start</vh></v>
+<v t="zoomq.20100414115206.4682"><vh>cb_filelist</vh></v>
+<v t="zoomq.20100414115206.4683"><vh>cb_story</vh></v>
+<v t="zoomq.20100414115206.4684"><vh>cb_head</vh></v>
 </v>
 </v>
 <v t="ZoomQuiet.20060127143250"><vh>folksonomy</vh>
@@ -1329,10 +1461,10 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060113092617" a="E"><vh>web配置</vh>
-<v t="ZoomQuiet.20060113092909" a="E"><vh>@nosent config.py</vh>
+<v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
 <v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
 <v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
-<v t="ZoomQuiet.20060123105542"><vh>Plugin configuration</vh>
+<v t="ZoomQuiet.20060123105542" a="E"><vh>Plugin configuration</vh>
 <v t="ZoomQuiet.20060127162954"><vh>loader</vh></v>
 <v t="ZoomQuiet.20060127163053"><vh>vars</vh></v>
 </v>
@@ -1591,7 +1723,7 @@ http://www.c-area.ch/code/pyblosxom/plugins/
 
 
 </t>
-<t tx="ZoomQuiet.20060113155741">@path preformatters</t>
+<t tx="ZoomQuiet.20060113155741">@path preformaters</t>
 <t tx="ZoomQuiet.20060113160325">@language Moin
 Python开发编码规范
 &lt;&lt;t2t head&gt;&gt;
@@ -5350,7 +5482,7 @@ http://sourceforge.net/mailarchive/forum.php?thread_id=6946268&amp;forum_id=2436
 
 cheers
 Steven</t>
-<t tx="ZoomQuiet.20060122144657"></t>
+<t tx="ZoomQuiet.20060122144657">collection t2t blogging support scripts</t>
 <t tx="ZoomQuiet.20060122145631">[定制3]定制entry格式
 ..
 &lt;&lt;t2t head&gt;&gt;
@@ -5411,6 +5543,7 @@ __author__ = "Wari.Wahab"
 __url__ = "http://pyblosxom.sourceforge.net/blog/registry/text/py"
 __description__ = "MoinMoin - Python Source Parser."
 
+from Pyblosxom import tools
 @others
 </t>
 <t tx="ZoomQuiet.20060122150604.1">"""Python Source Parser
@@ -5666,10 +5799,12 @@ py["plugin_dirs"] = [os.path.join(blogdir, "plugins")
                         ,os.path.join(blogdir, "plugins/archives")
                         ,os.path.join(blogdir, "plugins/navigate")
                         ,os.path.join(blogdir, "plugins/date")                        
-                        ,os.path.join(blogdir, "plugins/preformatters")
+                        ,os.path.join(blogdir, "plugins/preformaters")
                         ,os.path.join(blogdir, "plugins/folksonomy")
                         ,os.path.join(blogdir, "plugins/willplugins")
                         ,os.path.join(blogdir, "plugins/zqpyb+")    
+                        ,os.path.join(blogdir, "plugins/pyb15rc3/display")    
+                        ,os.path.join(blogdir, "plugins/pyb15rc3/text")                        
                         ]
 
 
@@ -8391,7 +8526,9 @@ def unique_filename(astr, adate = None):
 <t tx="ZoomQuiet.20060127143628">@path willplugins
 
 </t>
-<t tx="ZoomQuiet.20060127153926">@path /usr/local/lib/python2.6/dist-packages/pyblosxom-1.5_rc1-py2.6.egg/Pyblosxom/
+<t tx="ZoomQuiet.20060127153926">@path /usr/local/lib/python2.6/dist-packages/Pyblosxom
+110831 upgrade into 1.5rc3
+#   /usr/local/lib/python2.6/dist-packages/pyblosxom-1.5_rc1-py2.6.egg/Pyblosxom/
 PyBlosxom 本身！
 </t>
 <t tx="ZoomQuiet.20060127162954"># There are two ways for PyBlosxom to load plugins.  The first is the
@@ -8413,9 +8550,10 @@ py["load_plugins"] = ["pyfilenamemtime"
                         ,"zqcategories"
                         ,"index_static" #,"index"
                         #,"pycategories"
-                        ,"firstdaydiv"
+                        #,"firstdaydiv"
                         ,"xhtml"
                         ,"py"
+                        #,"rst"
                         ,"pyentrynavi"
                         #,"filekicker"
                         #,"photogallery"
@@ -8423,23 +8561,16 @@ py["load_plugins"] = ["pyfilenamemtime"
                         ,"plugininfo"
                         #,"tags"
                         #,"folksonomy"
+                        #,"paginate"
                         ]
 
 </t>
 <t tx="ZoomQuiet.20060127163053"># for plugins configs
 # ======================
-#   for tags
-py['tags_trigger'] = 'tags.html'
-#   for folksonomy
-py['pretext'] = '&lt;span class="tags"&gt;Tags: '
-py['posttext'] = '&lt;/span&gt;'
-py['tagsep'] = ','
-py['ignore_tags'] = 'tag'
-
 
 #   for firstdaydiv
-py['firstDayDiv'] = 'blosxomFirstDayDiv'
-py["plugininfo_hide"] = ["firstdaydiv",]
+#py['firstDayDiv'] = 'blosxomFirstDayDiv'
+#py["plugininfo_hide"] = ["firstdaydiv",]
 #   for index_static
 py['index_trigger']            = '/site-index.html'
 py['index_num_columns']        = 2
@@ -8471,12 +8602,21 @@ py["category_root_list"] = ["Zen"
 py["category_item"] = r'&lt;li&gt;&lt;a href="%(base_url)s/%(fullcategory)s"&gt;%(category)s&lt;/a&gt;&lt;sup&gt;(%(count)d)&lt;/sup&gt;&lt;a href="%(base_url)s/%(fullcategory)s/index.atom"&gt;&lt;img src="/pybstyle/rss12x12.png"/&gt;&lt;/a&gt;&lt;/li&gt;'
 #py["category_template"] = "category_list"
 
+
+#   for tags
+#py['tags_trigger'] = 'tags.html'
+#   for folksonomy
+#py['pretext'] = '&lt;span class="tags"&gt;Tags: '
+#py['posttext'] = '&lt;/span&gt;'
+#py['tagsep'] = ','
+#py['ignore_tags'] = 'tag'
+
 #   for pyentrynavi
-py["entry_extension"] = "xhtml"
+#py["entry_extension"] = "xhtml"
 
 #   for foto garllry
-py['imagedata'] = '/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/_images' #is required by imagefile, and also here.
-py['gallerytrigger'] = 'gallerytrigger' #is required.
+#py['imagedata'] = '/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/_images' #is required by imagefile, and also here.
+#py['gallerytrigger'] = 'gallerytrigger' #is required.
 #py['gallery_use_story_template'] = True/False is optional, defaulting to True.
 </t>
 <t tx="ZoomQuiet.20060127173032">Comment 支持</t>
@@ -26573,6 +26713,7 @@ py["base_url"] = "/pyblosxom/"
 # Default parser/preformatter. Defaults to plain (does nothing)
 #py["parser"] = "plain"
 py["parser"] = "xhtml"
+#py["parser"] = "py"
 </t>
 <t tx="zoomq.20110503084352.4317"># Caching configuration
 # =====================
@@ -26603,7 +26744,6 @@ py["static_dir"] = os.path.join(blogdir, "_static")
 # What flavours should get generated?
 py["static_flavours"] = ["html"
     ,"atom"
-    ,"rdf"
     ]
 #py["static_flavours"] = ["atom"]
 #py["static_flavours"] = ["rdf"]
@@ -26628,7 +26768,7 @@ py["static_monthnames"] = 0
 # Whether (1) or not (0) you want to create date indexes using month
 # numbers?  (ex. /2004/04/01)  Defaults to 0 (no).
 #py["static_monthnumbers"] = 0
-py["static_monthnumbers"] = 1
+#py["static_monthnumbers"] = 1
 
 </t>
 <t tx="zoomq.20110503084352.4319">@path html.flav
@@ -26664,6 +26804,7 @@ $debug
 &lt;tr&gt;&lt;td&gt;&lt;!-- id="footer" --&gt;
 
 &lt;div id="funcbarnner"&gt;
+
 &lt;!-- foot function barnners --&gt;
     &lt;table class="funcbarnner" align="CENTER" border="0"&gt;
     &lt;tr&gt;&lt;td&gt;
@@ -26724,16 +26865,31 @@ href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
 &lt;div class="container"&gt; 
 &lt;table&gt;&lt;!-- main page structure--&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- id="head" --&gt;
+&lt;td&gt;&lt;!-- id="head" 
+    &lt;div id="header" class="g33"&gt; 
+        &lt;h2&gt;&lt;a href="$(base_url)"&gt;
+        &lt;img src="/pybstyle/zoomquiet-means-100414_h90.png" alt="$(blog_title)"&gt;
+        &lt;/a&gt;
+        &lt;/h2&gt; 
+    &lt;/div&gt; 
 
     &lt;div id="top" class="g33"&gt; 
         &lt;div id="description" class="g16 alpha"&gt; 
         &lt;h3&gt;$(blog_description)
         &lt;/h3&gt;
         &lt;/div&gt;
+--&gt;
+    &lt;div id="top" class="g33"&gt; 
+        &lt;div id="description" class="g16 alpha"&gt; 
+            &lt;h3&gt;&lt;a href="$(base_url)"&gt;
+            &lt;img src="/pybstyle/zoomquiet-pyb-110831.png" alt="$(blog_description)"&gt;
+            &lt;/a&gt;
+            &lt;/h3&gt;
+        &lt;/div&gt;
 
-        &lt;div id="feeds" class="g16 omega" style="text-align:right;"&gt; 
+        &lt;div id="feeds"&gt; 
         &lt;!-- rss-popup usage div... 
+&lt;div id="feeds" class="g16 omega" style="text-align:right;"&gt; 
 &lt;div class="rss-popup"&gt;
         &lt;a href="$(base_url)/index.atom" id="rss-icon"&gt;RSS Feed&lt;/a&gt;
         &lt;em&gt;Subscribe the RSS Feed&lt;/em&gt;
@@ -26748,18 +26904,14 @@ href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
         &lt;a style="text-decoration=none" href="$(base_url)/site-index.html"&gt;引&lt;/a&gt;
         &lt;/sub&gt;
 
-        &lt;/div&gt; 
-    &lt;/div&gt; 
+        &lt;/div&gt; &lt;!--id="feeds"--&gt;
+    &lt;/div&gt; &lt;!--id="top" class="g33"--&gt;
 
-    &lt;div id="header" class="g33"&gt; 
-        &lt;h2&gt;&lt;a href="$(base_url)"&gt;
-        &lt;img src="/pybstyle/zoomquiet-means-100414_h90.png" alt="$(blog_title)"&gt;
-        &lt;/a&gt;
-        &lt;/h2&gt; 
-    &lt;/div&gt; 
-    &lt;div class="clear"&gt;&lt;/div&gt; 
+&lt;hr id="split"/&gt;
+
 
 &lt;!--
+    &lt;div class="clear"&gt;&lt;/div&gt; 
 &lt;p&gt;$(yr)-$(mo_num)-$(da) $(ti)&lt;/p&gt;
 --&gt;    
 &lt;/td&gt;&lt;!-- id="head" --&gt;
@@ -26860,7 +27012,7 @@ href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
 | 分类: &lt;a href="$(base_url)/$(urlencode(absolute_path))" title="path"&gt;/$(absolute_path)&lt;/a&gt;
 &amp;sect;
 &lt;br/&gt;
-&lt;a href="mailto:zoomquiet+blog@gmail.com?subject={PyBlosxom}$(title)&amp;body=abt. $(urlencode(file_path))"&gt;[Comment]&lt;/a&gt;
+&lt;a href="mailto:zoomquiet+blog@gmail.com?subject={PyBlosxom}$(title)&amp;body=abt. $(urlencode(file_path))"&gt;[MailMe]&lt;/a&gt;
 &lt;a href="javascript:window.print()"&gt;[Print]&lt;/a&gt;
  &lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/"&gt;
 &lt;img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/cn/80x15.png" /&gt;&lt;/a&gt;
@@ -26869,12 +27021,33 @@ href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
     &amp;#26412;&lt;span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type"&gt;&amp;#20316;&amp;#21697;&lt;/span&gt;&amp;#30001;&lt;span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"&gt;Zoom.Quiet&lt;/span&gt;&amp;#21019;&amp;#20316;&amp;#65292;&amp;#37319;&amp;#29992;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/"&gt;&amp;#30693;&amp;#35782;&amp;#20849;&amp;#20139;&amp;#32626;&amp;#21517;-&amp;#30456;&amp;#21516;&amp;#26041;&amp;#24335;&amp;#20849;&amp;#20139; 2.5 &amp;#20013;&amp;#22269;&amp;#22823;&amp;#38470;&amp;#35768;&amp;#21487;&amp;#21327;&amp;#35758;&lt;/a&gt;&amp;#36827;&amp;#34892;&amp;#35768;&amp;#21487;&amp;#12290;
 &amp;#22522;&amp;#20110;&lt;a xmlns:dc="http://purl.org/dc/elements/1.1/" href="$(base_url)/$(urlencode(file_path)).$(flavour)" rel="dc:source"&gt;zoomquiet.org&lt;/a&gt;&amp;#19978;&amp;#30340;&amp;#20316;&amp;#21697;&amp;#21019;&amp;#20316;&amp;#12290;
 &lt;/span&gt;
+
+&lt;br/&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;!-- for Disqus actions --&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'zoomquietpyblosxomblogging'; // required: replace example with your forum shortname
+    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+    var disqus_identifier = "$(urlencode(file_path)).$(flavour)";
+    var disqus_url = "http://blog.zoomquiet.org$(base_url)/$(urlencode(file_path)).$(flavour)";
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;!--&lt;a href="http://disqus.com" class="dsq-brlink"&gt;blog comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+&lt;center id="pyentrynavi"&gt;
+    $(entry_navi)
+&lt;/center&gt;
+--&gt;
     &lt;/div&gt; &lt;!--class="meta"--&gt;
 
     &lt;/div&gt; &lt;!-- class="text"--&gt;
-&lt;center id="pyentrynavi"&gt;
-    $(entry_navi) &lt;!-- for pyentrynavi--&gt;
-&lt;/center&gt;
 
 &lt;/div&gt; &lt;!-- id="page-content"--&gt;
 &lt;/div&gt; &lt;!-- class="post"--&gt;
@@ -26899,14 +27072,14 @@ Eric Meyer's css reset
 /* ========== Reset ========== */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-margin : 0;
-padding : 0;
-border : 0;
-outline : 0;
-font-size : 100%;
-vertical-align : baseline;
-background : transparent;
-}
+    margin : 0;
+    padding : 0;
+    border : 0;
+    outline : 0;
+    font-size : 100%;
+    vertical-align : baseline;
+    background : transparent;
+    }
 ol, ul {
 list-style : none;
 }
@@ -26936,26 +27109,26 @@ border-spacing : 0;
 font-family : Times, 'Times New Roman', serif;
 */
 body {
-background : #c5c3ae;
-color : #333;
-line-height : 2;
-}
+    background : #c5c3ae;
+    color : #333;
+    line-height : 2;
+    }
 .container {
-margin-left : auto;
-margin-right : auto;
-width : 980px;
-background : #fff;
-margin-top : 10px;
-margin-bottom : 10px;
-border : 2px outset #eee;
-}
+    margin-left : auto;
+    margin-right : auto;
+    width : 980px;
+    background : #fff;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    border : 2px outset #eee;
+    }
 .g33, .g25, .g16, .g10 {
-float : left;
-display : inline;
-margin : 0 10px;
-padding : 0;
-width : auto;
-}
+    float : left;
+    display : inline;
+    margin : 0 10px;
+    padding : 0;
+    width : auto;
+    }
 .g33 {
 width : 960px;
 }
@@ -26982,35 +27155,35 @@ margin-right : 0;
 /* ========== HTML elements ========== */
 
 html body div.clear, html body span.clear {
-background : none;
-border : 0;
-clear : both;
-display : block;
-float : none;
-font-size : 0;
-margin : 0;
-padding : 0;
-overflow : hidden;
-visibility : hidden;
-width : 0;
-height : 0;
-}
+    background : none;
+    border : 0;
+    clear : both;
+    display : block;
+    float : none;
+    font-size : 0;
+    margin : 0;
+    padding : 0;
+    overflow : hidden;
+    visibility : hidden;
+    width : 0;
+    height : 0;
+    }
 .clearfix:after {
-clear : both;
-content : '.';
-display : block;
-visibility : hidden;
-height : 0;
-}
+    clear : both;
+    content : '.';
+    display : block;
+    visibility : hidden;
+    height : 0;
+    }
 .clearfix {
-display : inline-block;
-}
+    display : inline-block;
+    }
 * html .clearfix {
-height : 1%;
-}
+    height : 1%;
+    }
 .clearfix {
-display : block;
-}
+    display : block;
+    }
 /*    border-bottom : 1px solid #000;
 border-bottom : 1px solid #666;
 */
@@ -27025,63 +27198,63 @@ a:hover {
 }
 
 blockquote {
-font-style : italic;
-padding : 10px 30px;
-font-family : Georgia;
-font-size : 12px;
-}
+    font-style : italic;
+    padding : 10px 30px;
+    font-family : Georgia;
+    font-size : 12px;
+    }
 p + p {
-text-indent : 20px;
-margin-top : -8px;
-}
+    text-indent : 20px;
+    margin-top : -8px;
+    }
 form p + p {
-text-indent : 0;
-}
+    text-indent : 0;
+    }
 img, object {
-max-width : 90%;
-margin : 0;
-padding : 0;
-border : 0;
-}
+    max-width : 90%;
+    margin : 0;
+    padding : 0;
+    border : 0;
+    }
 a img {
-border : 0;
-}
+    border : 0;
+    }
 h1, h2, h3, h4, h5, h6 {
-margin : 5px 20px 0 10px;
-}
+    margin : 5px 20px 0 10px;
+    }
 p {
-margin : 0 0 10px 0;
-}
+    margin : 0 0 10px 0;
+    }
 h1 {
-font-size : 20px;
-font-weight : 700;
-}
+    font-size : 20px;
+    font-weight : 700;
+    }
 h2 {
-font-size : 18px;
-font-weight : 600;
-}
+    font-size : 18px;
+    font-weight : 600;
+    }
 h3 {
-font-size : 17px;
-font-weight : 500;
-}
+    font-size : 17px;
+    font-weight : 500;
+    }
 h4 {
-font-size : 16px;
-font-weight : 400;
-}
+    font-size : 16px;
+    font-weight : 400;
+    }
 h5 {
-font-size : 15px;
-font-weight : 300;
-}
+    font-size : 15px;
+    font-weight : 300;
+    }
 h6 {
-font-size : 14px;
-font-weight : 200;
-}
+    font-size : 14px;
+    font-weight : 200;
+    }
 em {
-font-style : italic;
-}
+    font-style : italic;
+    }
 strong {
-font-weight : 600;
-}
+    font-weight : 600;
+    }
 
 dt {
     overflow : auto;
@@ -27136,48 +27309,48 @@ pre {
 
 
 ol {
-padding-left : 20px;
-margin : 5px 5px 20px 5px;
-}
+    padding-left : 20px;
+    margin : 5px 5px 20px 5px;
+    }
 ul {
-margin : 5px 5px 20px 5px;
-}
+    margin : 5px 5px 20px 5px;
+    }
 ul ul {
-margin : 5px;
-}
+    margin : 5px;
+    }
 ol ol {
-margin : 5px;
-}
+    margin : 5px;
+    }
 ol li, ul li {
-line-height : 20px;
-margin-bottom : 5px;
-font-size : 12px;
-}
+    line-height : 20px;
+    margin-bottom : 5px;
+    font-size : 12px;
+    }
 table {
-margin-bottom : 14px;
-}
+    margin-bottom : 14px;
+    }
 /*width : 99%;
 */
 th {
-font-weight : 600;
-background : #eee;
-}
+    font-weight : 600;
+    background : #eee;
+    }
 th, td {
-padding : 4px 10px 4px 5px;
-text-align : left;
-}
+    padding : 4px 10px 4px 5px;
+    text-align : left;
+    }
 
 div.meta {
-padding : 0px;
-text-align :center;
-}
+    padding : 0px;
+    text-align :center;
+    }
 
 tr.even td {
-background : #f8f8f8;
-}
+    background : #f8f8f8;
+    }
 tfoot {
-font-style : italic;
-}
+    font-style : italic;
+    }
 
 
 /* ==================== Page elements =================== */
@@ -27236,22 +27409,32 @@ font-style : italic;
 
 
 
-/* ==================== Header =============== */
-#top {
-margin-top : 50px;
+/* ==================== Header =============== 
 border-bottom : 2px solid #999;
-line-height : 1;
-}
+    border : 1px dotted #930;
+*/
+#top {
+    margin: 20px 0px 5px 10px;  
+    line-height : 1;
+    }
 #feeds {
-font-size : 14px;
-}
+    margin: 50px 0px 5px 0px;  
+    font-size : 14px;
+    text-align:right;
+    float : left;
+    display : inline;
+    padding : 0;
+    width : 480px;
+    }
+
+    }
 .feeds {
-text-align : right;
-}
+    text-align : right;
+    }
 #feeds a {
-border : 0;
-text-align : right;
-}
+    border : 0;
+    text-align : right;
+    }
 #feeds sub a:hover {
     text-decoration : overline;
     color:#930;
@@ -27260,14 +27443,12 @@ text-align : right;
     text-decoration : overline;
     color:#930;
 }
-
 #feeds sub {
     color : #798;
     font-size : 9px;
     vertical-align : sub;
     margin: 0px 2px 0px 0px;
 }
-
 #feeds sup {
     color : #789;
     font-size : 9px;
@@ -27281,30 +27462,39 @@ text-align : right;
     text-align : center;
 }
 #header h2 {
-font-size : 40px;
-line-height : 1;
-}
+    font-size : 40px;
+    line-height : 1;
+    }
 #header h2 a {
-border : 0;
-}
+    border : 0;
+    }
 #main {
     margin-left : 80px;
-}
+    }
 #main hr {
     width : 50%;
     height : 1px;
     background : #eee;
     border : 1px solid #ddd;
     clear : both;
-}
+    }
+
+hr#split {
+    width : 96%;
+    height : 2px;
+    background : #eee;
+    border : 1px solid #ddd;
+    clear : both;
+    }
+
 
 #description  h3 a{
     text-decoration :  none;
-}
+    }
 #description  h3 a:hover {
     text-decoration : overline;
     color:#930;
-}
+    }
 
 /* ======================= Post styles =================== */
 
@@ -27901,7 +28091,7 @@ $debug
 &lt;a href="#"&gt;$(blog_title)&lt;/a&gt; powered by 
 &lt;a href="http://pyblosxom.bluesock.org"&gt;
     &lt;img src="http://pyblosxom.bluesock.org/images/pb_pyblosxom.gif" alt="Made with PyBlosxom" border="0" /&gt;&lt;/a&gt;
-v1.5-rc1 20100129
+v1.5-rc3
 |
 theme design base &lt;a href="http://www.bestwpthemes.com/doc/"&gt;"Doc"&lt;/a&gt;
 &amp;sect;
@@ -27913,8 +28103,9 @@ theme design base &lt;a href="http://www.bestwpthemes.com/doc/"&gt;"Doc"&lt;/a&g
 </t>
 <t tx="zoomq.20110503084352.4334">&lt;!-- Finally, to loading jQuery Ajax Lib. 
 &lt;script type="text/javascript" src="/pybshare/jquery-1.4.2.min.js"&gt;&lt;/script&gt;
---&gt;
 &lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"&gt;&lt;/script&gt;
+--&gt;
+&lt;script type="text/javascript" src="/pybshare/jquery-1.6.2.min.js"&gt;&lt;/script&gt;
 &lt;script src="/pybshare/jquery-pybactions.js" type="text/javascript"&gt;&lt;/script&gt;
 
 &lt;!-- for syntaxhighlighter_2.1.364_zh Include required JS files --&gt;
@@ -27925,6 +28116,7 @@ theme design base &lt;a href="http://www.bestwpthemes.com/doc/"&gt;"Doc"&lt;/a&g
 &lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPlain.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushSql.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js"&gt;&lt;/script&gt;
 &lt;!-- Finally, to actually run the highlighter, you need to include this JS on your page --&gt;
 &lt;script type="text/javascript"&gt;
@@ -28065,6 +28257,3343 @@ theme design base &lt;a href="http://www.bestwpthemes.com/doc/"&gt;"Doc"&lt;/a&g
 
     &lt;/ul&gt;&lt;!--id="BlogrollSubTopic"--&gt;
     &lt;/li&gt;
+</t>
+<t tx="zoomq.20110831211902.4849">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="zoomq.20110831211902.4850">#######################################################################
+# This file is part of PyBlosxom.
+#
+# Copyright (C) 2010 Dieter Plaetinck
+# Copyright (C) 2008, 2009, 2010, 2011 Will Kahn-Greene
+#
+# PyBlosxom is distributed under the MIT license.  See the file
+# LICENSE for distribution details.
+#######################################################################
+
+"""
+This module holds commandline related stuff.  Installation
+verification, blog creation, commandline argument parsing, ...
+"""
+
+import os
+import os.path
+import sys
+import textwrap
+from optparse import OptionParser
+
+from Pyblosxom.pyblosxom import VERSION_DATE, PyBlosxom
+from Pyblosxom.tools import run_callback
+from Pyblosxom import plugin_utils
+
+USAGE = "%prog [options] [command] [command-options]"
+VERSION = "%prog " + VERSION_DATE
+
+</t>
+<t tx="zoomq.20110831211902.4851">def pwrap(s):
+    """Wraps the text and prints it.
+    """
+    starter = ""
+    linesep = os.linesep
+    if s.startswith("- "):
+        starter = "- "
+        s = s[2:]
+        linesep = os.linesep + "  "
+
+    print starter + linesep.join(textwrap.wrap(s, 72))
+
+</t>
+<t tx="zoomq.20110831211902.4852">def pwrap_error(s):
+    """Wraps an error message and prints it to stderr.
+    """
+    starter = ""
+    linesep = os.linesep
+    if s.startswith("- "):
+        starter = "- "
+        s = s[2:]
+        linesep = os.linesep + "  "
+
+    sys.stderr.write(starter + linesep.join(textwrap.wrap(s, 72)) + "\n")
+
+</t>
+<t tx="zoomq.20110831211902.4853">def build_pyblosxom():
+    """Imports config.py and builds an empty PyBlosxom object.
+    """
+    pwrap("Trying to import the config module....")
+    try:
+        from config import py as cfg
+    except StandardError:
+        h, t = os.path.split(sys.argv[0])
+        scriptname = t or h
+
+        pwrap_error("ERROR: Cannot find your config.py file.  Please execute "
+                    "%s in the directory with the config.py file in it or use "
+                    "the --config flag.\n\n"
+                    "See \"%s --help\" for more details." % (scriptname,
+                                                             scriptname))
+        return None
+
+    return PyBlosxom(cfg, {})
+
+</t>
+<t tx="zoomq.20110831211902.4854">def build_parser(usage):
+    parser = OptionParser(usage=usage, version=VERSION)
+    parser.add_option("-q", "--quiet",
+                      action="store_false", dest="verbose", default=True,
+                      help="If the quiet flag is specified, then PyBlosxom "
+                      "will run quietly.")
+    parser.add_option("--config",
+                      help="This specifies the directory that the config.py "
+                      "for the blog you want to work with is in.  If the "
+                      "config.py file is in the current directory, then "
+                      "you don't need to specify this.  All commands except "
+                      "the 'create' command need a config.py file.")
+
+    return parser
+
+</t>
+<t tx="zoomq.20110831211902.4855">def test_installation(command, argv):
+    """
+    This function gets called when someone starts up pyblosxom.cgi
+    from the command line with no REQUEST_METHOD environment variable.
+    It:
+
+    1. verifies config.py file properties
+    2. initializes all the plugins they have installed
+    3. runs ``cb_verify_installation``--plugins can print out whether
+       they are installed correctly (i.e. have valid config property
+       settings and can read/write to data files)
+
+    The goal is to be as useful and informative to the user as we can
+    be without being overly verbose and confusing.
+
+    This is designed to make it easier for a user to verify their
+    PyBlosxom installation is working and also to install new plugins
+    and verify that their configuration is correct.
+
+    :Parameters:
+       request : Request object
+          the request object
+    """
+    parser = build_parser("%prog test [options]")
+    parser.parse_args()
+
+    p = build_pyblosxom()
+    if not p:
+        return 0
+
+    request = p.get_request()
+    config = request.config
+
+    pwrap("System Information")
+    pwrap("==================")
+    pwrap("")
+
+    pwrap("- pyblosxom:    %s" % VERSION_DATE)
+    pwrap("- sys.version:  %s" % sys.version.replace("\n", " "))
+    pwrap("- os.name:      %s" % os.name)
+    codebase = os.path.dirname(os.path.dirname(__file__))
+    pwrap("- codebase:     %s" % config.get("codebase", codebase))
+    pwrap("")
+
+    pwrap("Checking config.py file")
+    pwrap("=======================")
+    pwrap("- properties set: %s" % len(config))
+
+    config_keys = config.keys()
+
+    if "datadir" not in config_keys:
+        pwrap_error("- ERROR: 'datadir' must be set.  Refer to installation "
+              "documentation.")
+
+    elif not os.path.isdir(config["datadir"]):
+        pwrap_error("- ERROR: datadir '%s' does not exist."
+                    "  You need to create your datadir and give it "
+                    " appropriate permissions." % config["datadir"])
+    else:
+        pwrap("- datadir '%s' exists." % config["datadir"])
+
+    if "flavourdir" not in config_keys:
+        pwrap("- WARNING: You should consider setting flavourdir and putting "
+              "your flavour templates there.  See the documentation for "
+              "more details.")
+    elif not os.path.isdir(config["flavourdir"]):
+        pwrap_error("- ERROR: flavourdir '%s' does not exist."
+                    "  You need to create your flavourdir and give it "
+                    " appropriate permissions." % config["flavourdir"])
+    else:
+        pwrap("- flavourdir '%s' exists." % config["flavourdir"])
+
+    if (("blog_encoding" in config_keys
+         and config["blog_encoding"].lower() != "utf-8")):
+        pwrap_error("- WARNING: 'blog_encoding' is set to something other "
+                    "than 'utf-8'.  As of PyBlosxom 2.0, "
+                    "this isn't a good idea unless you're absolutely certain "
+                    "it's going to work for your blog.")
+    pwrap("")
+
+    pwrap("Checking plugin configuration")
+    pwrap("=============================")
+
+    import traceback
+
+    no_verification_support = []
+
+    if len(plugin_utils.bad_plugins) &gt; 0:
+        pwrap("- Some plugins failed to load.")
+        pwrap("")
+        pwrap("----")
+        for mem in plugin_utils.bad_plugins:
+            pwrap("plugin:  %s" % mem[0])
+            print "%s" % mem[1]
+            pwrap("----")
+
+    if len(plugin_utils.plugins) == 0:
+        pwrap("- There are no plugins installed.")
+    else:
+        pwrap("- This goes through your plugins and asks each of them to "
+              "verify configuration and installation.")
+        pwrap("")
+        pwrap("----")
+        for mem in plugin_utils.plugins:
+            if hasattr(mem, "verify_installation"):
+                pwrap("plugin:  %s" % mem.__name__)
+                print "file:    %s" % mem.__file__
+                print "version: %s" % (str(getattr(mem, "__version__")))
+
+                try:
+                    if mem.verify_installation(request) == 1:
+                        pwrap("PASS")
+                    else:
+                        pwrap_error("FAIL")
+                except StandardError:
+                    pwrap_error("FAIL: Exception thrown:")
+                    traceback.print_exc(file=sys.stdout)
+
+                pwrap("----")
+            else:
+                mn = mem.__name__
+                mf = mem.__file__
+                no_verification_support.append( "'%s' (%s)" % (mn, mf))
+
+        if len(no_verification_support) &gt; 0:
+            pwrap("")
+            pwrap("The following plugins do not support installation "
+                  "verification:")
+            no_verification_support.sort()
+            for mem in no_verification_support:
+                print "- %s" % mem
+
+    pwrap("")
+    pwrap("Verification complete.  Correct any errors and warnings above.")
+
+</t>
+<t tx="zoomq.20110831211902.4856">def create_blog(command, argv):
+    """
+    Creates a blog in the specified directory.  Mostly this involves
+    copying things over, but there are a few cases where we expand
+    template variables.
+    """
+    parser = build_parser("%prog create [options] &lt;dir&gt;")
+    (options, args) = parser.parse_args()
+
+    if args:
+        d = args[0]
+    else:
+        d = "."
+
+    if d == ".":
+        d = "." + os.sep + "blog"
+
+    d = os.path.abspath(d)
+
+    verbose = options.verbose
+
+    if os.path.isfile(d) or os.path.isdir(d):
+        pwrap_error("ERROR: Cannot create '%s'--something is in the way." % d)
+        return 0
+
+    def _mkdir(d):
+        if verbose:
+            print "Creating '%s'..." % d
+        os.makedirs(d)
+
+    _mkdir(d)
+    _mkdir(os.path.join(d, "entries"))
+    _mkdir(os.path.join(d, "plugins"))
+
+    source = os.path.join(os.path.dirname(__file__), "flavours")
+
+    for root, dirs, files in os.walk(source):
+        if ".svn" in root:
+            continue
+
+        dest = os.path.join(d, "flavours", root[len(source)+1:])
+        if not os.path.isdir(dest):
+            if verbose:
+                print "Creating '%s'..." % dest
+            os.mkdir(dest)
+
+        for mem in files:
+            if verbose:
+                print "Creating file '%s'..." % os.path.join(dest, mem)
+            fpin = open(os.path.join(root, mem), "r")
+            fpout = open(os.path.join(dest, mem), "w")
+
+            fpout.write(fpin.read())
+
+            fpout.close()
+            fpin.close()
+
+    def _copyfile(frompath, topath, fn, fix=False):
+        if verbose:
+            print "Creating file '%s'..." % os.path.join(topath, fn)
+        fp = open(os.path.join(frompath, fn), "r")
+        filedata = fp.readlines()
+        fp.close()
+
+        if fix:
+            basedir = topath
+            if not basedir.endswith(os.sep):
+                basedir = basedir + os.sep
+            if os.sep == "\\":
+                basedir = basedir.replace(os.sep, os.sep + os.sep)
+            datamap = { "basedir": basedir,
+                        "codedir": os.path.dirname(os.path.dirname(__file__)) }
+            filedata = [line % datamap for line in filedata]
+
+        fp = open(os.path.join(topath, fn), "w")
+        fp.write("".join(filedata))
+        fp.close()
+
+    source = os.path.join(os.path.dirname(__file__), "data")
+
+    _copyfile(source, d, "config.py", fix=True)
+    _copyfile(source, d, "blog.ini", fix=True)
+    _copyfile(source, d, "pyblosxom.cgi", fix=True)
+
+    datadir = os.path.join(d, "entries")
+    firstpost = os.path.join(datadir, "firstpost.txt")
+    if verbose:
+        print "Creating file '%s'..." % firstpost
+    fp = open(firstpost, "w")
+    fp.write("""First post!
+&lt;p&gt;
+  This is your first post!  If you can see this with a web-browser,
+  then it's likely that everything's working nicely!
+&lt;/p&gt;
+""")
+    fp.close()
+
+    if verbose:
+        print "Done!"
+    return 0
+
+</t>
+<t tx="zoomq.20110831211902.4857">def render_url(command, argv):
+    """Renders a single url.
+    """
+    parser = build_parser("%prog renderurl [options] &lt;url&gt; [&lt;url&gt;...]")
+
+    parser.add_option("--headers",
+                      action="store_true", dest="headers", default=False,
+                      help="Option that causes headers to be displayed "
+                      "when rendering a single url.")
+
+    (options, args) = parser.parse_args()
+
+    if not args:
+        parser.print_help()
+        return 0
+
+    for url in args:
+        p = build_pyblosxom()
+
+        base_url = p.get_request().config.get("base_url", "")
+        if url.startswith(base_url):
+            url = url[len(base_url):]
+        p.run_render_one(url, options.headers)
+
+    return 0
+
+</t>
+<t tx="zoomq.20110831211902.4858">def run_static_renderer(command, argv):
+    parser = build_parser("%prog staticrender [options]")
+    parser.add_option("--incremental",
+                      action="store_true", dest="incremental", default=False,
+                      help="Option that causes static rendering to be "
+                      "incremental.")
+
+    (options, args) = parser.parse_args()
+
+    p = build_pyblosxom()
+    if not p:
+        return 0
+
+    return p.run_static_renderer(options.incremental)
+
+</t>
+<t tx="zoomq.20110831211902.4859">DEFAULT_HANDLERS = (
+    ("create", create_blog, "Creates directory structure for a new blog."),
+    ("test", test_installation,
+     "Tests installation and configuration for a blog."),
+    ("staticrender", run_static_renderer,
+     "Statically renders your blog into an HTML site."),
+    ("renderurl", render_url, "Renders a single url of your blog.")
+    )
+
+def get_handlers():
+    try:
+        from config import py as cfg
+        plugin_utils.initialize_plugins(cfg.get("plugin_dirs", []),
+                                        cfg.get("load_plugins", None))
+    except ImportError:
+        pass
+
+    handlers_dict = dict([(v[0], (v[1], v[2])) for v in DEFAULT_HANDLERS])
+    handlers_dict = run_callback("commandline", handlers_dict,
+                                 mappingfunc=lambda x, y: y,
+                                 defaultfunc=lambda x: x)
+
+    # test the handlers, drop any that aren't the right return type,
+    # and print a warning.
+    handlers = []
+    for k, v in handlers_dict.items():
+        if not len(v) == 2 or not callable(v[0]) or not isinstance(v[1], str):
+            print "Plugin returned '%s' for commandline." % ((k, v),)
+            continue
+        handlers.append((k, v[0], v[1]))
+
+    return handlers
+
+</t>
+<t tx="zoomq.20110831211902.4860">def command_line_handler(scriptname, argv):
+    if "--silent" in argv:
+        sys.stdout = open(os.devnull, "w")
+        argv.remove("--silent")
+
+    print "%s version %s" % (scriptname, VERSION_DATE)
+
+    # slurp off the config file setting and add it to sys.path.
+    # this needs to be first to pick up plugin-based command handlers.
+    configdir = None
+    for i, mem in enumerate(argv):
+        if mem.startswith("--config"):
+            if "=" in mem:
+                _, configdir = mem.split("=")
+                break
+            else:
+                try:
+                    configdir = argv[i+1]
+                    break
+                except IndexError:
+                    pwrap_error("Error: no config file argument specified.")
+                    pwrap_error("Exiting.")
+                    return 1
+
+    if configdir is not None:
+        if configdir.endswith("config.py"):
+            configdir = configdir[0:-9]
+
+        if not os.path.exists(configdir):
+            pwrap_error("ERROR: '%s' does not exist--cannot find config.py "
+                        "file." % configdir)
+            pwrap_error("Exiting.")
+            return 1
+
+        if not "config.py" in os.listdir(configdir):
+            pwrap_error("Error: config.py not in '%s'.  "
+                        "Cannot find config.py file." % configdir)
+            pwrap_error("Exiting.")
+            return 1
+
+        sys.path.insert(0, configdir)
+        print "Inserting %s to beginning of sys.path...." % configdir
+
+    handlers = get_handlers()
+
+    if len(argv) == 1 or (len(argv) == 2 and argv[1] in ("-h", "--help")):
+        parser = build_parser("[command]")
+        parser.print_help()
+        print ""
+        print "Commands:"
+        for command_str, _, command_help in handlers:
+            print "    %-14s %s" % (command_str, command_help)
+        return 0
+
+    if argv[1] == "--version":
+        return 0
+
+    # then we execute the named command with options, or print help
+    if argv[1].startswith("-"):
+        pwrap_error ( "Command '%s' does not exist." % argv[1])
+        pwrap_error ('')
+        pwrap_error ( "Commands:")
+        for command_str, _, command_help in handlers:
+            pwrap_error ( "    %-14s %s" % (command_str, command_help))
+        return 1
+
+    command = argv.pop(1)
+    for (c, f, h) in handlers:
+        if c == command:
+            return f(command, argv)
+
+    pwrap_error ( "Command '%s' does not exist." % command)
+    for command_str, command_func, command_help in handlers:
+        pwrap_error ( "    %-14s %s" % (command_str, command_help))
+    return 1
+</t>
+<t tx="zoomq.20110831211902.4861">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="zoomq.20110831211902.4862">#######################################################################
+# This file is part of PyBlosxom.
+#
+# Copyright (C) 2003 Wari Wahab
+# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2009, 2010, 2011 Will Kahn-Greene
+#
+# PyBlosxom is distributed under the MIT license.  See the file
+# LICENSE for distribution details.
+#######################################################################
+
+"""
+Holds a series of utility functions for cataloguing, retrieving, and
+manipulating callback functions and chains.  Refer to the documentation
+for which callbacks are available and their behavior.
+"""
+
+import os
+import glob
+import sys
+import os.path
+import traceback
+
+
+# this holds the list of plugins that have been loaded.  if you're running
+# PyBlosxom as a long-running process, this only gets cleared when the
+# process is restarted.
+plugins = []
+
+# this holds a list of callbacks (any function that begins with cp_) and the
+# list of function instances that support that callback.
+# if you're running PyBlosxom as a long-running process, this only
+# gets cleared when the process is restarted.
+callbacks = {}
+
+# this holds a list of (plugin name, exception) tuples for plugins that
+# didn't import.
+bad_plugins = []
+
+</t>
+<t tx="zoomq.20110831211902.4863">def catalogue_plugin(plugin_module):
+    """
+    Goes through the plugin's contents and catalogues all the functions
+    that start with cb_.  Functions that start with cb_ are callbacks.
+
+    :param plugin_module: the module to catalogue
+    """
+    listing = dir(plugin_module)
+
+    listing = [item for item in listing if item.startswith("cb_")]
+
+    for mem in listing:
+        func = getattr(plugin_module, mem)
+        memadj = mem[3:]
+        if callable(func):
+            callbacks.setdefault(memadj, []).append(func)
+
+</t>
+<t tx="zoomq.20110831211902.4864">def get_callback_chain(chain):
+    """
+    Returns a list of functions registered with the callback.
+
+    @returns: list of functions registered with the callback (or an
+        empty list)
+    @rtype: list of functions
+    """
+    return callbacks.get(chain, [])
+
+</t>
+<t tx="zoomq.20110831211902.4865">def initialize_plugins(plugin_dirs, plugin_list):
+    """
+    Imports and initializes plugins from the directories in the list
+    specified by "plugins_dir".  If no such list exists, then we don't
+    load any plugins.
+
+    If the user specifies a "load_plugins" list of plugins to load, then
+    we explicitly load those plugins in the order they're listed.  If the
+    load_plugins key does not exist, then we load all the plugins in the
+    plugins directory using an alphanumeric sorting order.
+
+    .. Note::
+
+       If PyBlosxom is part of a long-running process, you must
+       restart PyBlosxom in order to pick up any changes to your plugins.
+
+    :param plugin_dirs: the list of directories to add to the sys.path
+                        because that's where our plugins are located.
+
+    :param plugin_list: the list of plugins to load, or if None, we'll
+                        load all the plugins we find in those dirs.
+    """
+    if plugins or bad_plugins:
+        return
+
+    # we clear out the callbacks dict so we can rebuild them
+    callbacks.clear()
+
+    # handle plugin_dirs here
+    for mem in plugin_dirs:
+        if os.path.isdir(mem):
+            sys.path.append(mem)
+        else:
+            raise Exception("Plugin directory '%s' does not exist.  " \
+                            "Please check your config file." % mem)
+
+    plugin_list = get_plugin_list(plugin_list, plugin_dirs)
+
+    for mem in plugin_list:
+        try:
+            _module = __import__(mem)
+        except (SystemExit, KeyboardInterrupt):
+            raise
+        except:
+            # this needs to be a catch-all
+            bad_plugins.append((mem, "".join(traceback.format_exc())))
+            continue
+
+        for comp in mem.split(".")[1:]:
+            _module = getattr(_module, comp)
+        catalogue_plugin(_module)
+        plugins.append(_module)
+
+</t>
+<t tx="zoomq.20110831211902.4866">def get_plugin_by_name(name):
+    """
+    This retrieves a plugin instance (it's a Python module instance)
+    by name.
+
+    :param name: the name of the plugin to retrieve (ex: "xmlrpc")
+
+    :returns: the Python module instance for the plugin or None
+    """
+    if plugins:
+        for mem in plugins:
+            if mem.__name__ == name:
+                return mem
+    return None
+
+</t>
+<t tx="zoomq.20110831211902.4867">def get_module_name(filename):
+    """
+    Takes a filename and returns the module name from the filename.
+
+    Example: passing in "/blah/blah/blah/module.ext" returns "module"
+
+    :param filename: the filename in question (with a full path)
+
+    :returns: the filename without path or extension
+    """
+    return os.path.splitext(os.path.split(filename)[1])[0]
+
+</t>
+<t tx="zoomq.20110831211902.4868">def get_plugin_list(plugin_list, plugin_dirs):
+    """
+    This handles the situation where the user has provided a series of
+    plugin dirs, but has not specified which plugins they want to load
+    from those dirs.  In this case, we load all possible plugins except
+    the ones whose names being with _ .
+
+    :param plugin_list: List of plugins to load
+
+    :param plugin_dirs: A list of directories where plugins can be loaded from
+
+    :return: list of python module names of the plugins to load
+    """
+    if plugin_list == None:
+        plugin_list = []
+        for mem in plugin_dirs:
+            file_list = glob.glob(os.path.join(mem, "*.py"))
+
+            file_list = [get_module_name(filename) for filename in file_list]
+
+            # remove plugins that start with a _
+            file_list = [plugin for plugin in file_list \
+                         if not plugin.startswith('_')]
+            plugin_list += file_list
+
+        plugin_list.sort()
+
+    return plugin_list
+</t>
+<t tx="zoomq.20110831211902.4869">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="zoomq.20110831211902.4870">#######################################################################
+# This file is part of PyBlosxom.
+#
+# Copyright (C) 2004 Ted Leung
+# Copyright (C) 2003, 2004 Wari Wahab
+# Copyright (C) 2005 Steven Armstrong
+# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Will Kahn-Greene
+# Copyright (C) 2007 Ryan Barrett
+# Copyright (C) 2004 Robert Wall
+#
+# PyBlosxom is distributed under the MIT license.  See the file
+# LICENSE for distribution details.
+#######################################################################
+
+
+"""This is the main module for PyBlosxom functionality.  PyBlosxom's
+setup and default handlers are defined here.
+"""
+
+from __future__ import nested_scopes, generators
+
+# Python imports
+import os
+import time
+import locale
+import sys
+import os.path
+import cgi
+try:
+    from cStringIO import StringIO
+except ImportError:
+    from StringIO import StringIO
+
+# Pyblosxom imports
+from Pyblosxom import crashhandling
+from Pyblosxom import tools
+from Pyblosxom import plugin_utils
+from Pyblosxom.entries.fileentry import FileEntry
+
+# valid version formats:
+# * x.y      - final release
+# * x.ya1    - alpha 1
+# * x.yb1    - beta 1
+# * x.yrc1   - release candidate 1
+# * x.y-dev  - dev
+
+# see http://www.python.org/dev/peps/pep-0386/
+
+# VERSION = "1.5-dev"
+# VERSION_DATE = VERSION + " git-master"
+VERSION = "1.5rc3"
+VERSION_DATE = VERSION + " 20110618"
+VERSION_SPLIT = tuple(VERSION.split(" ")[0].split('.'))
+
+</t>
+<t tx="zoomq.20110831211902.4871">class PyBlosxom:
+    """Main class for PyBlosxom functionality.  It handles
+    initialization, defines default behavior, and also pushes the
+    request through all the steps until the output is rendered and
+    we're complete.
+    """
+    @others
+</t>
+<t tx="zoomq.20110831211902.4872">def __init__(self, config, environ, data=None):
+    """Sets configuration and environment and creates the Request
+    object.
+
+    :param config: dict containing the configuration variables.
+    :param environ: dict containing the environment variables.
+    :param data: dict containing data variables.
+    """
+    config['pyblosxom_name'] = "pyblosxom"
+    config['pyblosxom_version'] = VERSION_DATE
+
+    self._config = config
+    self._request = Request(config, environ, data)
+
+</t>
+<t tx="zoomq.20110831211902.4873">def initialize(self):
+    """The initialize step further initializes the Request by
+    setting additional information in the ``data`` dict,
+    registering plugins, and entryparsers.
+    """
+    data = self._request.get_data()
+    pyhttp = self._request.get_http()
+    config = self._request.get_configuration()
+
+    # initialize the locale, if wanted (will silently fail if locale
+    # is not available)
+    if config.get('locale', None):
+        try:
+            locale.setlocale(locale.LC_ALL, config['locale'])
+        except locale.Error:
+            # invalid locale
+            pass
+
+    # initialize the tools module
+    tools.initialize(config)
+
+    data["pyblosxom_version"] = VERSION_DATE
+    data['pi_bl'] = ''
+
+    # get our URL and configure the base_url param
+    if pyhttp.has_key('SCRIPT_NAME'):
+        if not config.has_key('base_url'):
+            # allow http and https
+            config['base_url'] = '%s://%s%s' % \
+                                 (pyhttp['wsgi.url_scheme'],
+                                  pyhttp['HTTP_HOST'],
+                                  pyhttp['SCRIPT_NAME'])
+    else:
+        config['base_url'] = config.get('base_url', '')
+
+    # take off the trailing slash for base_url
+    if config['base_url'].endswith("/"):
+        config['base_url'] = config['base_url'][:-1]
+
+    datadir = config["datadir"]
+    if datadir.endswith("/") or datadir.endswith("\\"):
+        datadir = datadir[:-1]
+        config['datadir'] = datadir
+
+    # import and initialize plugins
+    plugin_utils.initialize_plugins(config.get("plugin_dirs", []),
+                                    config.get("load_plugins", None))
+
+    # entryparser callback is run here first to allow other
+    # plugins register what file extensions can be used
+    data['extensions'] = tools.run_callback("entryparser",
+                                    {'txt': blosxom_entry_parser},
+                                    mappingfunc=lambda x,y:y,
+                                    defaultfunc=lambda x:x)
+
+</t>
+<t tx="zoomq.20110831211902.4874">def cleanup(self):
+    """This cleans up PyBlosxom after a run.
+
+    This should be called when Pyblosxom has done everything it
+    needs to do before exiting.
+    """
+    # log some useful stuff for debugging
+    # this will only be logged if the log_level is "debug"
+    log = tools.getLogger()
+    response = self.get_response()
+    log.debug("status = %s" % response.status)
+    log.debug("headers = %s" % response.headers)
+
+</t>
+<t tx="zoomq.20110831211902.4875">def get_request(self):
+    """Returns the Request object for this PyBlosxom instance.
+    """
+    return self._request
+</t>
+<t tx="zoomq.20110831211902.4876">getRequest = tools.deprecated_function(get_request)
+
+def get_response(self):
+    """Returns the Response object associated with this Request.
+    """
+    return self._request.getResponse()
+</t>
+<t tx="zoomq.20110831211902.4877">getResponse = tools.deprecated_function(get_response)
+
+def run(self, static=False):
+    """This is the main loop for PyBlosxom.  This method will run
+    the handle callback to allow registered handlers to handle the
+    request.  If nothing handles the request, then we use the
+    ``default_blosxom_handler``.
+
+    :param static: True if PyBlosxom should execute in "static rendering
+                   mode" and False otherwise.
+    """
+    self.initialize()
+
+    # buffer the input stream in a StringIO instance if dynamic
+    # rendering is used.  This is done to have a known/consistent
+    # way of accessing incomming data.
+    if static == False:
+        self.get_request().buffer_input_stream()
+
+    # run the start callback
+    tools.run_callback("start", {'request': self._request})
+
+    # allow anyone else to handle the request at this point
+    handled = tools.run_callback("handle",
+                    {'request': self._request},
+                    mappingfunc=lambda x,y:x,
+                    donefunc=lambda x:x)
+
+    if not handled == 1:
+        blosxom_handler(self._request)
+
+    # do end callback
+    tools.run_callback("end", {'request': self._request})
+
+    # we're done, clean up.
+    # only call this if we're not in static rendering mode.
+    if static == False:
+        self.cleanup()
+
+</t>
+<t tx="zoomq.20110831211902.4878">def run_callback(self, callback="help"):
+    """This method executes the start callback (initializing
+    plugins), executes the requested callback, and then executes
+    the end callback.
+
+    This is useful for scripts outside of PyBlosxom that need to
+    do things inside of the PyBlosxom framework.
+
+    If you want to run a callback from a plugin, use
+    ``tools.run_callback`` instead.
+
+    :param callback: the name of the callback to execute.
+
+    :returns: the results of the callback.
+    """
+    self.initialize()
+
+    # run the start callback
+    tools.run_callback("start", {'request': self._request})
+
+    # invoke all callbacks for the 'callback'
+    handled = tools.run_callback(callback,
+                                 {'request': self._request},
+                                 mappingfunc=lambda x,y:x,
+                                 donefunc=lambda x:x)
+
+    # do end callback
+    tools.run_callback("end", {'request': self._request})
+
+    return handled
+</t>
+<t tx="zoomq.20110831211902.4879">runCallback = tools.deprecated_function(run_callback)
+
+def run_render_one(self, url, headers):
+    """Renders a single page from the blog.
+
+    :param url: the url to render--this has to be relative to the
+                base url for this blog.
+
+    :param headers: True if you want headers to be rendered and
+                    False if not.
+    """
+    self.initialize()
+
+    config = self._request.get_configuration()
+
+    if url.find("?") != -1:
+        url = url[:url.find("?")]
+        query = url[url.find("?")+1:]
+    else:
+        query = ""
+
+    url = url.replace(os.sep, "/")
+    response = tools.render_url(config, url, query)
+    if headers:
+        response.send_headers(sys.stdout)
+    response.send_body(sys.stdout)
+
+    print response.read()
+
+    # we're done, clean up
+    self.cleanup()
+
+</t>
+<t tx="zoomq.20110831211902.4880">def run_static_renderer(self, incremental=False):
+    &lt;&lt;cfg&gt;&gt;
+
+    dates = {}
+    categories = {}
+    # first we handle entries and categories
+    listing = tools.walk(self._request, datadir)
+
+    &lt;&lt;static_month&gt;&gt;
+
+    &lt;&lt;static_categories&gt;&gt;
+
+    # now we handle dates
+    dates = dates.keys()
+    dates.sort()
+
+    dates = ["/" + d for d in dates]
+
+    print "rendering %d date indexes." % len(dates)
+
+    for mem in dates:
+        mem = os.path.normpath(mem + "/index.")
+        for f in flavours:
+            renderme.append((mem + f, ""))
+
+    # now we handle arbitrary urls
+    additional_stuff = config.get("static_urls", [])
+    print "rendering %d arbitrary urls." % len(additional_stuff)
+
+    for mem in additional_stuff:
+        if mem.find("?") != -1:
+            url = mem[:mem.find("?")]
+            query = mem[mem.find("?")+1:]
+        else:
+            url = mem
+            query = ""
+
+        renderme.append((url, query))
+
+    # now we pass the complete render list to all the plugins via
+    # cb_staticrender_filelist and they can add to the filelist
+    # any (url, query) tuples they want rendered.
+    print "(before) building %s files." % len(renderme)
+    tools.run_callback("staticrender_filelist",
+                       {'request': self._request,
+                        'filelist': renderme,
+                        'flavours': flavours})
+
+    renderme = sorted(set(renderme))
+
+    print "building %s files." % len(renderme)
+
+    for url, q in renderme:
+        url = url.replace(os.sep, "/")
+        print "rendering '%s' ..." % url
+
+        tools.render_url_statically(config, url, q)
+
+    # we're done, clean up
+    self.cleanup()
+
+</t>
+<t tx="zoomq.20110831211902.4881">class PyBlosxomWSGIApp:
+    """This class is the WSGI application for PyBlosxom.
+    """
+    @others
+</t>
+<t tx="zoomq.20110831211902.4882">def __init__(self, environ=None, start_response=None, configini=None):
+    """
+    Make WSGI app for PyBlosxom.
+
+    :param environ: FIXME
+
+    :param start_response: FIXME
+
+    :param configini: Dict encapsulating information from a
+                      ``config.ini`` file or any other property
+                      file that will override the ``config.py``
+                      file.
+    """
+    self.environ = environ
+    self.start_response = start_response
+
+    if configini == None:
+        configini = {}
+
+    _config = tools.convert_configini_values(configini)
+
+    import config
+    self.config = dict(config.py)
+
+    self.config.update(_config)
+    if "codebase" in _config:
+        sys.path.insert(0, _config["codebase"])
+
+</t>
+<t tx="zoomq.20110831211902.4883">def run_pyblosxom(self, env, start_response):
+    """
+    Executes a single run of PyBlosxom wrapped in the crash handler.
+    """
+    response = None
+    try:
+        # ensure that PATH_INFO exists. a few plugins break if this is
+        # missing.
+        if "PATH_INFO" not in env:
+            env["PATH_INFO"] = ""
+
+        p = PyBlosxom(dict(self.config), env)
+        p.run()
+
+        response = p.get_response()
+
+    except Exception:
+        ch = crashhandling.CrashHandler(True, env)
+        response = ch.handle_by_response(*sys.exc_info())
+
+    start_response(response.status, list(response.headers.items()))
+    response.seek(0)
+    return response.read()
+
+</t>
+<t tx="zoomq.20110831211902.4884">def __call__(self, env, start_response):
+    return [self.run_pyblosxom(env, start_response)]
+
+</t>
+<t tx="zoomq.20110831211902.4885">def __iter__(self):
+    yield self.run_pyblosxom(self.environ, self.start_response)
+
+</t>
+<t tx="zoomq.20110831211902.4886">def pyblosxom_app_factory(global_config, **local_config):
+    """App factory for paste.
+
+    :returns: WSGI application
+    """
+    conf = global_config.copy()
+    conf.update(local_config)
+    conf.update(dict(local_config=local_config, global_config=global_config))
+
+    if "configpydir" in conf:
+        sys.path.insert(0, conf["configpydir"])
+
+    return PyBlosxomWSGIApp(configini=conf)
+
+</t>
+<t tx="zoomq.20110831211902.4887">class EnvDict(dict):
+    """Wrapper arround a dict to provide a backwards compatible way to
+    get the ``form`` with syntax as::
+
+        request.get_http()['form']
+
+    instead of::
+
+        request.get_form()
+    """
+    @others
+</t>
+<t tx="zoomq.20110831211902.4888">def __init__(self, request, env):
+    """Wraps an environment (which is a dict) and a request.
+
+    :param request: the Request object for this request.
+    :param env: the environment dict for this request.
+    """
+    dict.__init__(self)
+    self._request = request
+    self.update(env)
+
+</t>
+<t tx="zoomq.20110831211902.4889">def __getitem__(self, key):
+    """If the key argument is ``form``, we return
+    ``_request.getForm()``.  Otherwise this returns the item for
+    that key in the wrapped dict.
+    """
+    if key == "form":
+        return self._request.getForm()
+
+    return dict.__getitem__(self, key)
+
+</t>
+<t tx="zoomq.20110831211902.4890">class Request(object):
+    """
+    This class holds the PyBlosxom request.  It holds configuration
+    information, HTTP/CGI information, and data that we calculate and
+    transform over the course of execution.
+
+    There should be only one instance of this class floating around
+    and it should get created by ``pyblosxom.cgi`` and passed into the
+    PyBlosxom instance which will do further manipulation on the
+    Request instance.
+    """
+    @others
+</t>
+<t tx="zoomq.20110831211902.4891">def __init__(self, config, environ, data):
+    """Sets configuration and environment.
+
+    Creates the Response object which handles all output related
+    functionality.
+
+    :param config: dict containing configuration variables.
+    :param environ: dict containing environment variables.
+    :param data: dict containing data variables.
+    """
+    # this holds configuration data that the user changes in
+    # config.py
+    self._configuration = config
+
+    # this holds HTTP/CGI oriented data specific to the request
+    # and the environment in which the request was created
+    self._http = EnvDict(self, environ)
+
+    # this holds run-time data which gets created and transformed
+    # by pyblosxom during execution
+    if data == None:
+        self._data = dict()
+    else:
+        self._data = data
+
+    # this holds the input stream.  initialized for dynamic
+    # rendering in Pyblosxom.run.  for static rendering there is
+    # no input stream.
+    self._in = StringIO()
+
+    # copy methods to the Request object.
+    self.read = self._in.read
+    self.readline = self._in.readline
+    self.readlines = self._in.readlines
+    self.seek = self._in.seek
+    self.tell = self._in.tell
+
+    # this holds the FieldStorage instance.
+    # initialized when request.getForm is called the first time
+    self._form = None
+
+    self._response = None
+
+    # create and set the Response
+    self.setResponse(Response(self))
+
+</t>
+<t tx="zoomq.20110831211902.4892">def __iter__(self):
+    """
+    Can't copy the __iter__ method over from the StringIO instance
+    cause iter looks for the method in the class instead of the
+    instance.
+
+    See http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/252151
+    """
+    return self._in
+
+</t>
+<t tx="zoomq.20110831211902.4893">def buffer_input_stream(self):
+    """
+    Buffer the input stream in a StringIO instance.  This is done
+    to have a known/consistent way of accessing incomming data.
+    For example the input stream passed by mod_python does not
+    offer the same functionallity as ``sys.stdin``.
+    """
+    # TODO: tests on memory consumption when uploading huge files
+    pyhttp = self.get_http()
+    winput = pyhttp['wsgi.input']
+    method = pyhttp["REQUEST_METHOD"]
+
+    # there's no data on stdin for a GET request.  pyblosxom
+    # will block indefinitely on the read for a GET request with
+    # thttpd.
+    if method != "GET":
+        try:
+            length = int(pyhttp.get("CONTENT_LENGTH", 0))
+        except ValueError:
+            length = 0
+
+        if length &gt; 0:
+            self._in.write(winput.read(length))
+            # rewind to start
+            self._in.seek(0)
+
+</t>
+<t tx="zoomq.20110831211902.4894">def set_response(self, response):
+    """Sets the Response object.
+    """
+    self._response = response
+    # for backwards compatibility
+    self.get_configuration()['stdoutput'] = response
+</t>
+<t tx="zoomq.20110831211902.4895">setResponse = tools.deprecated_function(set_response)
+
+def get_response(self):
+    """Returns the Response for this request.
+    """
+    return self._response
+</t>
+<t tx="zoomq.20110831211902.4896">getResponse = tools.deprecated_function(get_response)
+
+def _getform(self):
+    form = cgi.FieldStorage(fp=self._in,
+                            environ=self._http,
+                            keep_blank_values=0)
+    # rewind the input buffer
+    self._in.seek(0)
+    return form
+
+</t>
+<t tx="zoomq.20110831211902.4897">def get_form(self):
+    """Returns the form data submitted by the client.  The
+    ``form`` instance is created only when requested to prevent
+    overhead and unnecessary consumption of the input stream.
+
+    :returns: a ``cgi.FieldStorage`` instance.
+    """
+    if self._form == None:
+        self._form = self._getform()
+    return self._form
+</t>
+<t tx="zoomq.20110831211902.4898">getForm = tools.deprecated_function(get_form)
+
+def get_configuration(self):
+    """Returns the *actual* configuration dict.  The configuration
+    dict holds values that the user sets in their ``config.py``
+    file.
+
+    Modifying the contents of the dict will affect all downstream
+    processing.
+    """
+    return self._configuration
+</t>
+<t tx="zoomq.20110831211902.4899">getConfiguration = tools.deprecated_function(get_configuration)
+
+def get_http(self):
+    """Returns the *actual* http dict.  Holds HTTP/CGI data
+    derived from the environment of execution.
+
+    Modifying the contents of the dict will affect all downstream
+    processing.
+    """
+    return self._http
+</t>
+<t tx="zoomq.20110831211902.4900">getHttp = tools.deprecated_function(get_http)
+
+def get_data(self):
+    """Returns the *actual* data dict.  Holds run-time data which
+    is created and transformed by pyblosxom during execution.
+
+    Modifying the contents of the dict will affect all downstream
+    processing.
+    """
+    return self._data
+</t>
+<t tx="zoomq.20110831211902.4901">getData = tools.deprecated_function(get_data)
+
+def add_http(self, d):
+    """Takes in a dict and adds/overrides values in the existing
+    http dict with the new values.
+    """
+    self._http.update(d)
+</t>
+<t tx="zoomq.20110831211902.4902">addHttp = tools.deprecated_function(add_http)
+
+def add_data(self, d):
+    """Takes in a dict and adds/overrides values in the existing
+    data dict with the new values.
+    """
+    self._data.update(d)
+</t>
+<t tx="zoomq.20110831211902.4903">addData = tools.deprecated_function(add_data)
+
+def add_configuration(self, newdict):
+    """Takes in a dict and adds/overrides values in the existing
+    configuration dict with the new values.
+    """
+    self._configuration.update(newdict)
+</t>
+<t tx="zoomq.20110831211902.4904">addConfiguration = tools.deprecated_function(add_configuration)
+
+def __getattr__(self, name):
+    if name in ["config", "configuration", "conf"]:
+        return self._configuration
+
+    if name == "data":
+        return self._data
+
+    if name == "http":
+        return self._http
+
+    raise AttributeError, name
+
+</t>
+<t tx="zoomq.20110831211902.4905">def __repr__(self):
+    return "Request"
+
+</t>
+<t tx="zoomq.20110831211902.4906">class Response(object):
+    """Response class to handle all output related tasks in one place.
+
+    This class is basically a wrapper arround a ``StringIO`` instance.
+    It also provides methods for managing http headers.
+    """
+    @others
+    sendBody = tools.deprecated_function(send_body)
+
+
+</t>
+<t tx="zoomq.20110831211902.4907">def __init__(self, request):
+    """Sets the ``Request`` object that leaded to this response.
+    Creates a ``StringIO`` that is used as a output buffer.
+    """
+    self._request = request
+    self._out = StringIO()
+    self._headers_sent = False
+    self.headers = {}
+    self.status = "200 OK"
+
+    self.close = self._out.close
+    self.flush = self._out.flush
+    self.read = self._out.read
+    self.readline = self._out.readline
+    self.readlines = self._out.readlines
+    self.seek = self._out.seek
+    self.tell = self._out.tell
+    self.write = self._out.write
+    self.writelines = self._out.writelines
+
+</t>
+<t tx="zoomq.20110831211902.4908">def __iter__(self):
+    """Can't copy the ``__iter__`` method over from the
+    ``StringIO`` instance because iter looks for the method in the
+    class instead of the instance.
+
+    See
+    http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/252151
+    """
+    return self._out
+
+</t>
+<t tx="zoomq.20110831211902.4909">def set_status(self, status):
+    """Sets the status code for this response.  The status should
+    be a valid HTTP response status.
+
+    Examples:
+
+    &gt;&gt;&gt; resp.set_status("200 OK")
+    &gt;&gt;&gt; resp.set_status("404 Not Found")
+
+    :param status: the status string.
+    """
+    self.status = status
+</t>
+<t tx="zoomq.20110831211902.4910">setStatus = tools.deprecated_function(set_status)
+
+def get_status(self):
+    """Returns the status code and message of this response.
+    """
+    return self.status
+
+</t>
+<t tx="zoomq.20110831211902.4911">def add_header(self, key, value):
+    """Populates the HTTP header with lines of text.  Sets the
+    status code on this response object if the given argument list
+    containes a 'Status' header.
+
+    Example:
+
+    &gt;&gt;&gt; resp.add_header("Content-type", "text/plain")
+    &gt;&gt;&gt; resp.add_header("Content-Length", "10500")
+
+    :raises ValueError: This happens when the parameters are
+                        not correct.
+    """
+    key = key.strip()
+    if key.find(' ') != -1 or key.find(':') != -1:
+        raise ValueError, 'There should be no spaces in header keys'
+    value = value.strip()
+    if key.lower() == "status":
+        self.setStatus(str(value))
+    else:
+        self.headers.update({key: str(value)})
+</t>
+<t tx="zoomq.20110831211902.4912">addHeader = tools.deprecated_function(add_header)
+
+def get_headers(self):
+    """Returns the headers.
+    """
+    return self.headers
+</t>
+<t tx="zoomq.20110831211902.4913">getHeaders = tools.deprecated_function(get_headers)
+
+def send_headers(self, out):
+    """Send HTTP Headers to the given output stream.
+
+    .. Note::
+
+        This prints the headers and then the ``\\n\\n`` that
+        separates headers from the body.
+
+    :param out: The file-like object to print headers to.
+    """
+    out.write("Status: %s\n" % self.status)
+    out.write('\n'.join(['%s: %s' % (hkey, self.headers[hkey])
+            for hkey in self.headers.keys()]))
+    out.write('\n\n')
+    self._headers_sent = True
+
+</t>
+<t tx="zoomq.20110831211902.4914">sendHeaders = tools.deprecated_function(send_headers)
+
+def send_body(self, out):
+    """Send the response body to the given output stream.
+
+    :param out: the file-like object to print the body to.
+    """
+    self.seek(0)
+    try:
+        out.write(self.read())
+    except IOError:
+        # this is usually a Broken Pipe because the client dropped the
+        # connection.  so we skip it.
+        pass
+
+</t>
+<t tx="zoomq.20110831211902.4915">#
+# blosxom behavior stuff
+#
+
+def blosxom_handler(request):
+    """This is the default blosxom handler.
+
+    It calls the renderer callback to get a renderer.  If there is no
+    renderer, it uses the blosxom renderer.
+
+    It calls the pathinfo callback to process the path_info http
+    variable.
+
+    It calls the filelist callback to build a list of entries to
+    display.
+
+    It calls the prepare callback to do any additional preparation
+    before rendering the entries.
+
+    Then it tells the renderer to render the entries.
+
+    :param request: the request object.
+    """
+    config = request.get_configuration()
+    data = request.get_data()
+
+    # go through the renderer callback to see if anyone else wants to
+    # render.  this renderer gets stored in the data dict for
+    # downstream processing.
+    rend = tools.run_callback('renderer',
+                              {'request': request},
+                              donefunc = lambda x: x != None,
+                              defaultfunc = lambda x: None)
+
+    if not rend:
+        # get the renderer we want to use
+        rend = config.get("renderer", "blosxom")
+
+        # import the renderer
+        rend = tools.importname("Pyblosxom.renderers", rend)
+
+        # get the renderer object
+        rend = rend.Renderer(request, config.get("stdoutput", sys.stdout))
+
+    data['renderer'] = rend
+
+    # generate the timezone variable
+    data["timezone"] = time.tzname[time.localtime()[8]]
+
+    # process the path info to determine what kind of blog entry(ies)
+    # this is
+    tools.run_callback("pathinfo",
+                       {"request": request},
+                       donefunc=lambda x:x != None,
+                       defaultfunc=blosxom_process_path_info)
+
+    # call the filelist callback to generate a list of entries
+    data["entry_list"] = tools.run_callback(
+        "filelist",
+        {"request": request},
+        donefunc=lambda x:x != None,
+        defaultfunc=blosxom_file_list_handler)
+
+    # figure out the blog-level mtime which is the mtime of the head
+    # of the entry_list
+    entry_list = data["entry_list"]
+    if isinstance(entry_list, list) and len(entry_list) &gt; 0:
+        mtime = entry_list[0].get("mtime", time.time())
+    else:
+        mtime = time.time()
+    mtime_tuple = time.localtime(mtime)
+    mtime_gmtuple = time.gmtime(mtime)
+
+    data["latest_date"] = time.strftime('%a, %d %b %Y', mtime_tuple)
+
+    # Make sure we get proper 'English' dates when using standards
+    loc = locale.getlocale(locale.LC_ALL)
+    locale.setlocale(locale.LC_ALL, 'C')
+
+    data["latest_w3cdate"] = time.strftime('%Y-%m-%dT%H:%M:%SZ',
+                                           mtime_gmtuple)
+    data['latest_rfc822date'] = time.strftime('%a, %d %b %Y %H:%M GMT',
+                                              mtime_gmtuple)
+
+    # set the locale back
+    locale.setlocale(locale.LC_ALL, loc)
+
+    # we pass the request with the entry_list through the prepare
+    # callback giving everyone a chance to transform the data.  the
+    # request is modified in place.
+    tools.run_callback("prepare", {"request": request})
+
+    # now we pass the entry_list through the renderer
+    entry_list = data["entry_list"]
+    renderer = data['renderer']
+
+    if renderer and not renderer.rendered:
+        if entry_list:
+            renderer.set_content(entry_list)
+            # Log it as success
+            tools.run_callback("logrequest",
+                               {'filename':config.get('logfile',''),
+                                'return_code': '200',
+                                'request': request})
+        else:
+            renderer.add_header('Status', '404 Not Found')
+            renderer.set_content(
+                {'title': 'The page you are looking for is not available',
+                 'body': 'Somehow I cannot find the page you want. ' +
+                 'Go Back to &lt;a href="%s"&gt;%s&lt;/a&gt;?'
+                 % (config["base_url"], config["blog_title"])})
+            # Log it as failure
+            tools.run_callback("logrequest",
+                               {'filename':config.get('logfile',''),
+                                'return_code': '404',
+                                'request': request})
+        renderer.render()
+
+    elif not renderer:
+        output = config.get('stdoutput', sys.stdout)
+        output.write("Content-Type: text/plain\n\n" +
+                     "There is something wrong with your setup.\n" +
+                     "Check your config files and verify that your " +
+                     "configuration is correct.\n")
+
+    cache = tools.get_cache(request)
+    if cache:
+        cache.close()
+
+</t>
+<t tx="zoomq.20110831211902.4916">def blosxom_entry_parser(filename, request):
+    """Open up a ``.txt`` file and read its contents.  The first line
+    becomes the title of the entry.  The other lines are the body of
+    the entry.
+
+    :param filename: a filename to extract data and metadata from
+    :param request: a standard request object
+
+    :returns: dict containing parsed data and meta data with the
+              particular file (and plugin)
+    """
+    config = request.get_configuration()
+
+    entry_data = {}
+
+    f = open(filename, "r")
+    lines = f.readlines()
+    f.close()
+
+    # the file has nothing in it...  so we're going to return a blank
+    # entry data object.
+    if len(lines) == 0:
+        return {"title": "", "body": ""}
+
+    # the first line is the title
+    entry_data["title"] = lines.pop(0).strip()
+
+    # absorb meta data lines which begin with a #
+    while lines and lines[0].startswith("#"):
+        meta = lines.pop(0)
+        # remove the hash
+        meta = meta[1:].strip()
+        meta = meta.split(" ", 1)
+        # if there's no value, we append a 1
+        if len(meta) == 1:
+            meta.append("1")
+        entry_data[meta[0].strip()] = meta[1].strip()
+
+    # call the preformat function
+    args = {'parser': entry_data.get('parser', config.get('parser', 'plain')),
+            'story': lines,
+            'request': request}
+    entry_data["body"] = tools.run_callback(
+        'preformat',
+        args,
+        donefunc=lambda x: x != None,
+        defaultfunc=lambda x: ''.join(x['story']))
+
+    # call the postformat callbacks
+    tools.run_callback('postformat',
+                      {'request': request,
+                       'entry_data': entry_data})
+
+    return entry_data
+
+</t>
+<t tx="zoomq.20110831211902.4917">def blosxom_file_list_handler(args):
+    """This is the default handler for getting entries.  It takes the
+    request object in and figures out which entries based on the
+    default behavior that we want to show and generates a list of
+    EntryBase subclass objects which it returns.
+
+    :param args: dict containing the incoming Request object
+
+    :returns: the content we want to render
+    """
+    request = args["request"]
+
+    data = request.get_data()
+    config = request.get_configuration()
+
+    if data['bl_type'] == 'dir':
+        filelist = tools.walk(request,
+                              data['root_datadir'],
+                              int(config.get("depth", "0")))
+    elif data['bl_type'] == 'file':
+        filelist = [data['root_datadir']]
+    else:
+        filelist = []
+
+    entrylist = [FileEntry(request, e, data["root_datadir"]) for e in filelist]
+
+    # if we're looking at a set of archives, remove all the entries
+    # that aren't in the archive
+    if data.get("pi_yr", ""):
+        tmp_pi_mo = data.get("pi_mo", "")
+        datestr = "%s%s%s" % (data.get("pi_yr", ""),
+                              tools.month2num.get(tmp_pi_mo, tmp_pi_mo),
+                              data.get("pi_da", ""))
+        entrylist = [x for x in entrylist
+                     if time.strftime("%Y%m%d%H%M%S", x["timetuple"]).startswith(datestr)]
+
+
+    args = {"request": request, "entry_list": entrylist}
+    entrylist = tools.run_callback("sortlist",
+                                   args,
+                                   donefunc=lambda x: x != None,
+                                   defaultfunc=blosxom_sort_list_handler)
+
+    args = {"request": request, "entry_list": entrylist}    
+    entrylist = tools.run_callback("truncatelist",
+                                   args,
+                                   donefunc=lambda x: x != None,
+                                   defaultfunc=blosxom_truncate_list_handler)
+
+    return entrylist
+
+</t>
+<t tx="zoomq.20110831211902.4918">def blosxom_sort_list_handler(args):
+    """Sorts the list based on ``_mtime`` attribute such that
+    most recently written entries are at the beginning of the list
+    and oldest entries are at the end.
+
+    :param args: args dict with ``request`` object and ``entry_list``
+                 list of entries
+
+    :returns: the sorted ``entry_list``
+    """
+    entrylist = args["entry_list"]
+
+    entrylist = [(e._mtime, e) for e in entrylist]
+    entrylist.sort()
+    entrylist.reverse()
+    entrylist = [e[1] for e in entrylist]
+
+    return entrylist
+
+</t>
+<t tx="zoomq.20110831211902.4919">def blosxom_truncate_list_handler(args):
+    """If ``config["num_entries"]`` is not 0 and ``data["truncate"]``
+    is not 0, then this truncates ``args["entry_list"]`` by
+    ``config["num_entries"]``.
+
+    :param args: args dict with ``request`` object and ``entry_list``
+                 list of entries
+
+    :returns: the truncated ``entry_list``.
+    """
+    request = args["request"]
+    entrylist = args["entry_list"]
+
+    data = request.data
+    config = request.config
+
+    num_entries = config.get("num_entries", 5)
+    truncate = data.get("truncate", 0)
+    if num_entries and truncate:
+        entrylist = entrylist[:num_entries]
+    return entrylist
+
+</t>
+<t tx="zoomq.20110831211902.4920">def blosxom_process_path_info(args):
+    """Process HTTP ``PATH_INFO`` for URI according to path
+    specifications, fill in data dict accordingly.
+
+    The paths specification looks like this:
+
+    - ``/foo.html`` and ``/cat/foo.html`` - file foo.* in / and /cat
+    - ``/cat`` - category
+    - ``/2002`` - category
+    - ``/2002`` - year
+    - ``/2002/Feb`` and ``/2002/02`` - Year and Month
+    - ``/cat/2002/Feb/31`` and ``/cat/2002/02/31``- year and month day
+      in category.
+
+    :param args: dict containing the incoming Request object
+    """
+    request = args['request']
+    config = request.get_configuration()
+    data = request.get_data()
+    pyhttp = request.get_http()
+
+    form = request.getForm()
+
+    # figure out which flavour to use.  the flavour is determined by
+    # looking at the "flav" post-data variable, the "flav" query
+    # string variable, the "default_flavour" setting in the config.py
+    # file, or "html"
+    flav = config.get("default_flavour", "html")
+    if form.has_key("flav"):
+        flav = form["flav"].value
+
+    data['flavour'] = flav
+
+    data['pi_yr'] = ''
+    data['pi_mo'] = ''
+    data['pi_da'] = ''
+
+    path_info = pyhttp.get("PATH_INFO", "")
+
+    data['root_datadir'] = config['datadir']
+
+    data["pi_bl"] = path_info
+
+    # first we check to see if this is a request for an index and we
+    # can pluck the extension (which is certainly a flavour) right
+    # off.
+    newpath, ext = os.path.splitext(path_info)
+    if newpath.endswith("/index") and ext:
+        # there is a flavour-like thing, so that's our new flavour and
+        # we adjust the path_info to the new filename
+        data["flavour"] = ext[1:]
+        path_info = newpath
+
+    while path_info and path_info.startswith("/"):
+        path_info = path_info[1:]
+
+    absolute_path = os.path.join(config["datadir"], path_info)
+
+    path_info = path_info.split("/")
+
+    if os.path.isdir(absolute_path):
+
+        # this is an absolute path
+
+        data['root_datadir'] = absolute_path
+        data['bl_type'] = 'dir'
+
+    elif absolute_path.endswith("/index") and \
+             os.path.isdir(absolute_path[:-6]):
+
+        # this is an absolute path with /index at the end of it
+
+        data['root_datadir'] = absolute_path[:-6]
+        data['bl_type'] = 'dir'
+
+    else:
+        # this is either a file or a date
+
+        ext = tools.what_ext(data["extensions"].keys(), absolute_path)
+        if not ext:
+            # it's possible we didn't find the file because it's got a
+            # flavour thing at the end--so try removing it and
+            # checking again.
+            newpath, flav = os.path.splitext(absolute_path)
+            if flav:
+                ext = tools.what_ext(data["extensions"].keys(), newpath)
+                if ext:
+                    # there is a flavour-like thing, so that's our new
+                    # flavour and we adjust the absolute_path and
+                    # path_info to the new filename
+                    data["flavour"] = flav[1:]
+                    absolute_path = newpath
+                    path_info, flav = os.path.splitext("/".join(path_info))
+                    path_info = path_info.split("/")
+
+        if ext:
+            # this is a file
+            data["bl_type"] = "file"
+            data["root_datadir"] = absolute_path + "." + ext
+
+        else:
+            data["bl_type"] = "dir"
+
+            # it's possible to have category/category/year/month/day
+            # (or something like that) so we pluck off the categories
+            # here.
+            pi_bl = ""
+            while len(path_info) &gt; 0 and \
+                      not (len(path_info[0]) == 4 and path_info[0].isdigit()):
+                pi_bl = os.path.join(pi_bl, path_info.pop(0))
+
+            # handle the case where we do in fact have a category
+            # preceeding the date.
+            if pi_bl:
+                pi_bl = pi_bl.replace("\\", "/")
+                data["pi_bl"] = pi_bl
+                data["root_datadir"] = os.path.join(config["datadir"], pi_bl)
+
+            if len(path_info) &gt; 0:
+                item = path_info.pop(0)
+                # handle a year token
+                if len(item) == 4 and item.isdigit():
+                    data['pi_yr'] = item
+                    item = ""
+
+                    if (len(path_info) &gt; 0):
+                        item = path_info.pop(0)
+                        # handle a month token
+                        if item in tools.MONTHS:
+                            data['pi_mo'] = item
+                            item = ""
+
+                            if (len(path_info) &gt; 0):
+                                item = path_info.pop(0)
+                                # handle a day token
+                                if len(item) == 2 and item.isdigit():
+                                    data["pi_da"] = item
+                                    item = ""
+
+                                    if len(path_info) &gt; 0:
+                                        item = path_info.pop(0)
+
+                # if the last item we picked up was "index", then we
+                # just ditch it because we don't need it.
+                if item == "index":
+                    item = ""
+
+                # if we picked off an item we don't recognize and/or
+                # there is still stuff in path_info to pluck out, then
+                # it's likely this wasn't a date.
+                if item or len(path_info) &gt; 0:
+                    data["bl_type"] = "dir"
+                    data["root_datadir"] = absolute_path
+
+    # construct our final URL
+    url = config['base_url']
+    if data['pi_bl'].startswith("/") and url.endswith("/"):
+        url = url[:-1] + data['pi_bl']
+    elif data['pi_bl'].startswith("/") or url.endswith("/"):
+        url = url + data["pi_bl"]
+    else:
+        url = url + "/" + data['pi_bl']
+    data['url'] = url
+
+    # set path_info to our latest path_info
+    data['path_info'] = path_info
+
+    if data.get("pi_yr"):
+        data["truncate"] = config.get("truncate_date", False)
+    elif data.get("bl_type") == "dir":
+        if data["path_info"] == [''] or data["path_info"] == ['index']:
+            data["truncate"] = config.get("truncate_frontpage", True)
+        else:
+            data["truncate"] = config.get("truncate_category", True)
+    else:
+        data["truncate"] = False
+
+</t>
+<t tx="zoomq.20110831211902.4921">def run_pyblosxom():
+    """Executes PyBlosxom either as a commandline script or CGI
+    script.
+    """
+    from config import py as cfg
+    env = {}
+
+    # if there's no REQUEST_METHOD, then this is being run on the
+    # command line and we should execute the command_line_handler.
+    if not "REQUEST_METHOD" in os.environ:
+        from Pyblosxom.commandline import command_line_handler
+
+        if len(sys.argv) &lt;= 1:
+            sys.argv.append("test")
+
+        sys.exit(command_line_handler("pyblosxom.cgi", sys.argv))
+
+    # names taken from wsgi instead of inventing something new
+    env['wsgi.input'] = sys.stdin
+    env['wsgi.errors'] = sys.stderr
+
+    # figure out what the protocol is for the wsgi.url_scheme
+    # property.  we look at the base_url first and if there's nothing
+    # set there, we look at environ.
+    if 'base_url' in cfg:
+        env['wsgi.url_scheme'] = cfg['base_url'][:cfg['base_url'].find("://")]
+
+    else:
+        if os.environ.get("HTTPS", "off") in ("on", "1"):
+            env["wsgi.url_scheme"] = "https"
+
+        else:
+            env['wsgi.url_scheme'] = "http"
+
+    try:
+        # try running as a WSGI-CGI
+        from wsgiref.handlers import CGIHandler
+        CGIHandler().run(PyBlosxomWSGIApp())
+
+    except ImportError:
+        # run as a regular CGI
+
+        if os.environ.get("HTTPS") in ("yes", "on", "1"):
+            env['wsgi.url_scheme'] = "https"
+
+        for mem in ["HTTP_HOST", "HTTP_USER_AGENT", "HTTP_REFERER",
+                    "PATH_INFO", "QUERY_STRING", "REMOTE_ADDR",
+                    "REQUEST_METHOD", "REQUEST_URI", "SCRIPT_NAME",
+                    "HTTP_IF_NONE_MATCH", "HTTP_IF_MODIFIED_SINCE",
+                    "HTTP_COOKIE", "CONTENT_LENGTH", "CONTENT_TYPE",
+                    "HTTP_ACCEPT", "HTTP_ACCEPT_ENCODING"]:
+            env[mem] = os.environ.get(mem, "")
+
+        p = PyBlosxom(dict(cfg), env)
+
+        p.run()
+        response = p.get_response()
+        response.send_headers(sys.stdout)
+        response.send_body(sys.stdout)
+</t>
+<t tx="zoomq.20110831211902.4922">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="zoomq.20110831211902.4923">#######################################################################
+# This file is part of PyBlosxom.
+#
+# Copyright (C) 2005 Steven Armstrong
+# Copyright (C) 2004 Ted Leung
+# Copyright (C) 2007 Ryan Barrett
+# Copyright (C) 2003, 2004 Wari Wahab
+# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Will Kahn-Greene
+#
+# PyBlosxom is distributed under the MIT license.  See the file
+# LICENSE for distribution details.
+#######################################################################
+
+"""Utility module for functions that are useful to PyBlosxom and plugins.
+"""
+
+import sgmllib
+import re
+import os
+import time
+import os.path
+import stat
+import sys
+import locale
+import urllib
+import inspect
+
+# Pyblosxom imports
+from Pyblosxom import plugin_utils
+
+# Note: month names tend to differ with locale
+
+# month name (Jan) to number (1)
+month2num = None
+# month number (1) to name (Jan)
+num2month = None
+# list of all month numbers and names
+MONTHS    = None
+
+# regular expression for detection and substituion of variables.
+_VAR_REGEXP = re.compile(r"""
+    (?&lt;!\\)   # if the $ is escaped, then this isn't a variable
+    \$        # variables start with a $
+    (
+        (?:\w|\-|::\w)+       # word char, - or :: followed by a word char
+        (?:
+            \(                # an open paren
+            .*?               # followed by non-greedy bunch of stuff
+            (?&lt;!\\)\)         # with an end paren that's not escaped
+        )?    # 0 or 1 of these ( ... ) blocks
+    |
+        \(
+        (?:\w|\-|::\w)+       # word char, - or :: followed by a word char
+        (?:
+            \(                # an open paren
+            .*?               # followed by non-greedy bunch of stuff
+            (?&lt;!\\)\)         # with an end paren that's not escaped
+        )?    # 0 or 1 of these ( ... ) blocks
+        \)
+    )
+    """, re.VERBOSE)
+
+# reference to the pyblosxom config dict
+_config = {}
+
+</t>
+<t tx="zoomq.20110831211902.4924">def initialize(config):
+    """Initializes the tools module.
+
+    This gives the module a chance to use configuration from the
+    pyblosxom config.py file.
+
+    This should be called from ``Pyblosxom.pyblosxom.PyBlosxom.initialize``.
+    """
+    global _config
+    _config = config
+
+    # Month names tend to differ with locale
+    global month2num
+
+    try:
+        month2num = {'nil' : '00',
+                     locale.nl_langinfo(locale.ABMON_1) : '01',
+                     locale.nl_langinfo(locale.ABMON_2) : '02',
+                     locale.nl_langinfo(locale.ABMON_3) : '03',
+                     locale.nl_langinfo(locale.ABMON_4) : '04',
+                     locale.nl_langinfo(locale.ABMON_5) : '05',
+                     locale.nl_langinfo(locale.ABMON_6) : '06',
+                     locale.nl_langinfo(locale.ABMON_7) : '07',
+                     locale.nl_langinfo(locale.ABMON_8) : '08',
+                     locale.nl_langinfo(locale.ABMON_9) : '09',
+                     locale.nl_langinfo(locale.ABMON_10) : '10',
+                     locale.nl_langinfo(locale.ABMON_11) : '11',
+                     locale.nl_langinfo(locale.ABMON_12) : '12'}
+
+    except AttributeError:
+        # Windows doesn't have nl_langinfo, so we use one that
+        # only return English.
+        # FIXME - need a better hack for this issue.
+        month2num = {'nil': '00',
+                     "Jan": '01',
+                     "Feb": '02',
+                     "Mar": '03',
+                     "Apr": '04',
+                     "May": '05',
+                     "Jun": '06',
+                     "Jul": '07',
+                     "Aug": '08',
+                     "Sep": '09',
+                     "Oct": '10',
+                     "Nov": '11',
+                     "Dec": '12'}
+
+    # This is not python 2.1 compatible (Nifty though)
+    # num2month = dict(zip(month2num.itervalues(), month2num))
+    global num2month
+    num2month = {}
+    for month_abbr, month_num in month2num.items():
+        num2month[month_num] = month_abbr
+        num2month[int(month_num)] = month_abbr
+
+    # all the valid month possibilities
+    global MONTHS
+    MONTHS = num2month.keys() + month2num.keys()
+
+</t>
+<t tx="zoomq.20110831211902.4925">def deprecated_function(func):
+    def _deprecated_function(*args, **kwargs):
+        return func(*args, **kwargs)
+
+    _deprecated_function.__doc__ = ("DEPRECATED.  Use %s instead." % 
+                                    func.__name__)
+    _deprecated_function.__dict__.update(func.__dict__)
+    return _deprecated_function
+
+</t>
+<t tx="zoomq.20110831211902.4926">class ConfigSyntaxErrorException(Exception):
+    """Thrown when ``convert_configini_values`` encounters a syntax
+    error.
+    """
+    pass
+
+</t>
+<t tx="zoomq.20110831211902.4927">def convert_configini_values(configini):
+    """Takes a dict containing config.ini style keys and values, converts
+    the values, and returns a new config dict.
+
+    :param confini: dict containing the config.ini style keys and values
+
+    :raises ConfigSyntaxErrorException: when there's a syntax error
+
+    :returns: new config dict
+    """
+    def s_or_i(text):
+        """
+        Takes a string and if it begins with \" or \' and ends with
+        \" or \', then it returns the string.  If it's an int, returns
+        the int.  Otherwise it returns the text.
+        """
+        text = text.strip()
+        if (((text.startswith('"') and not text.endswith('"'))
+             or (not text.startswith('"') and text.endswith('"')))):
+            raise ConfigSyntaxErrorException(
+                "config syntax error: string '%s' missing start or end \"" %
+                text)
+        elif (((text.startswith("'") and not text.endswith("'"))
+               or (not text.startswith("'") and text.endswith("'")))):
+            raise ConfigSyntaxErrorException(
+                "config syntax error: string '%s' missing start or end '" %
+                text)
+        elif text.startswith('"') and text.endswith('"'):
+            return text[1:-1]
+        elif text.startswith("'") and text.endswith("'"):
+            return text[1:-1]
+        elif text.isdigit():
+            return int(text)
+        return text
+
+    config = {}
+    for key, value in configini.items():
+        # in configini.items, we pick up a local_config which seems
+        # to be a copy of what's in configini.items--puzzling.
+        if isinstance(value, dict):
+            continue
+
+        value = value.strip()
+        if (((value.startswith("[") and not value.endswith("]"))
+             or (not value.startswith("[") and value.endswith("]")))):
+            raise ConfigSyntaxErrorException(
+                "config syntax error: list '%s' missing [ or ]" %
+                value)
+        elif value.startswith("[") and value.endswith("]"):
+            value2 = value[1:-1].strip().split(",")
+            if len(value2) == 1 and value2[0] == "":
+                # handle the foo = [] case
+                config[key] = []
+            else:
+                config[key] = [s_or_i(s.strip()) for s in value2]
+        else:
+            config[key] = s_or_i(value)
+
+    return config
+
+</t>
+<t tx="zoomq.20110831211902.4928">def escape_text(s):
+    """Takes in a string and converts:
+
+    * ``&amp;`` to ``&amp;amp;``
+    * ``&gt;`` to ``&amp;gt;``
+    * ``&lt;`` to ``&amp;lt;``
+    * ``\"`` to ``&amp;quot;``
+    * ``'`` to ``&amp;#x27;``
+    * ``/`` to ``&amp;#x2F;``
+
+    Note: if ``s`` is ``None``, then we return ``None``.
+
+    &gt;&gt;&gt; escape_text(None)
+    None
+    &gt;&gt;&gt; escape_text("")
+    ""
+    &gt;&gt;&gt; escape_text("a'b")
+    "a&amp;#x27;b"
+    &gt;&gt;&gt; escape_text('a"b')
+    "a&amp;quot;b"
+    """
+    if not s:
+        return s
+
+    for mem in (("&amp;", "&amp;amp;"), ("&gt;", "&amp;gt;"), ("&lt;", "&amp;lt;"), ("\"", "&amp;quot;"),
+                ("'", "&amp;#x27;"), ("/", "&amp;#x2F;")):
+        s = s.replace(mem[0], mem[1])
+    return s
+
+</t>
+<t tx="zoomq.20110831211902.4929">def urlencode_text(s):
+    """Calls ``urllib.quote`` on the string ``s``.
+
+    Note: if ``s`` is ``None``, then we return ``None``.
+
+    &gt;&gt;&gt; urlencode_text(None)
+    None
+    &gt;&gt;&gt; urlencode_text("")
+    ""
+    &gt;&gt;&gt; urlencode_text("a c")
+    "a%20c"
+    &gt;&gt;&gt; urlencode_text("a&amp;c")
+    "a%26c"
+    &gt;&gt;&gt; urlencode_text("a=c")
+    "a%3Dc"
+
+    """
+    if not s:
+        return s
+
+    return urllib.quote(s)
+
+</t>
+<t tx="zoomq.20110831211902.4930">STANDARD_FILTERS = {"escape": lambda req, vd, s: escape_text(s),
+                    "urlencode": lambda req, vd, s: urlencode_text(s)}
+
+class Stripper(sgmllib.SGMLParser):
+    """
+    SGMLParser that removes HTML formatting code.
+    """
+    @others
+</t>
+<t tx="zoomq.20110831211902.4931">def __init__(self):
+    """
+    Initializes the instance.
+    """
+    self.data = []
+    sgmllib.SGMLParser.__init__(self)
+
+</t>
+<t tx="zoomq.20110831211902.4932">def unknown_starttag(self, tag, attrs):
+    """
+    Implements unknown_starttag.  Appends a space to the buffer.
+    """
+    self.data.append(" ")
+
+</t>
+<t tx="zoomq.20110831211902.4933">def unknown_endtag(self, tag):
+    """
+    Implements unknown_endtag.  Appends a space to the buffer.
+    """
+    self.data.append(" ")
+
+</t>
+<t tx="zoomq.20110831211902.4934">def handle_data(self, data):
+    """
+    Implements handle_data.  Appends data to the buffer.
+    """
+    self.data.append(data)
+
+</t>
+<t tx="zoomq.20110831211902.4935">def gettext(self):
+    """
+    Returns the buffer.
+    """
+    return "".join(self.data)
+
+</t>
+<t tx="zoomq.20110831211902.4936">def commasplit(s):
+    """
+    Splits a string that contains strings by comma.  This is
+    more involved than just an ``s.split(",")`` because this handles
+    commas in strings correctly.
+
+    Note: commasplit doesn't remove extranneous spaces.
+
+    &gt;&gt;&gt; tools.commasplit(None)
+    []
+    &gt;&gt;&gt; tools.commasplit("")
+    [""]
+    &gt;&gt;&gt; tools.commasplit("a")
+    ["a"]
+    &gt;&gt;&gt; tools.commasplit("a, b, c")
+    ["a", " b", " c"]
+    &gt;&gt;&gt; tools.commasplit("'a', 'b, c'")
+    ["a", " 'b, c'"]
+    &gt;&gt;&gt; tools.commasplit("'a', \"b, c\"")
+    ["a", " \"b, c\""]
+
+    :param s: the string to split
+
+    :returns: list of strings
+    """
+    if s is None:
+        return []
+
+    if not s:
+        return [""]
+
+    startstring = None
+    t = []
+    l = []
+
+    for c in s:
+        if c == startstring:
+            startstring = None
+            t.append(c)
+        elif c == "'" or c == '"':
+            startstring = c
+            t.append(c)
+        elif not startstring and c == ",":
+            l.append("".join(t))
+            t = []
+        else:
+            t.append(c)
+    if t:
+        l.append("".join(t))
+    return l
+
+</t>
+<t tx="zoomq.20110831211902.4937">class Replacer:
+    """
+    Class for replacing variables in a template
+
+    This class is a utility class used to provide a bound method to the
+    ``re.sub()`` function.  Originally from OPAGCGI.
+    """
+    @others
+</t>
+<t tx="zoomq.20110831211902.4938">def __init__(self, request, encoding, var_dict):
+    """
+    Its only duty is to populate itself with the replacement
+    dictionary passed.
+
+    :param request: the Request object
+    :param encoding: the encoding to use.  ``utf-8`` is good.
+    :param var_dict: the dict containing variable substitutions
+    """
+    self._request = request
+    self._encoding = encoding
+    self.var_dict = var_dict
+
+</t>
+<t tx="zoomq.20110831211902.4939">def replace(self, matchobj):
+    """
+    This is passed a match object by ``re.sub()`` which represents
+    a template variable without the ``$``.  parse manipulates the
+    variable and returns the expansion of that variable using the
+    following rules:
+
+    1. if the variable ``v`` is an identifier, but not in the
+       variable dict, then we return the empty string, or
+
+    2. if the variable ``v`` is an identifier in the variable
+       dict, then we return ``var_dict[v]``, or
+
+    3. if the variable ``v`` is a function call where the function
+       is an identifier in the variable dict, then
+
+       - if ``v`` has no passed arguments and the function takes
+         no arguments we return ``var_dict[v]()`` (this is the old
+         behavior
+
+       - if ``v`` has no passed arguments and the function takes
+         two arguments we return ``var_dict[v](request, vd)``
+
+       - if ``v`` has passed arguments, we return
+         ``var_dict[v](request, vd, *args)`` after some mild
+         processing of the arguments
+
+    Also, for backwards compatability reasons, we convert things
+    like::
+
+        $id_escaped
+        $id_urlencoded
+        $(id_escaped)
+        $(id_urlencoded)
+
+    to::
+
+        $escape(id)
+        $urlencode(id)
+
+    :param matchobj: the regular expression match object
+
+    :returns: the substituted string
+    """
+    vd = self.var_dict
+    request = self._request
+    key = matchobj.group(1)
+
+    # if the variable is using $(foo) syntax, then we strip the
+    # outer parens here.
+    if key.startswith("(") and key.endswith(")"):
+        key = key[1:-1]
+
+    # do this for backwards-compatability reasons
+    if key.endswith("_escaped"):
+        key = "escape(%s)" % key[:-8]
+    elif key.endswith("_urlencoded"):
+        key = "urlencode(%s)" % key[:-11]
+
+    if key.find("(") != -1 and key.rfind(")") &gt; key.find("("):
+        args = key[key.find("(")+1:key.rfind(")")]
+        key = key[:key.find("(")]
+    else:
+        args = None
+
+    if not vd.has_key(key):
+        return ""
+
+    r = vd[key]
+
+    # if the value turns out to be a function, then we call it
+    # with the args that we were passed.
+    if callable(r):
+        if args:
+            def fix(s, vd=vd):
+                # if it's an int, return an int
+                if s.isdigit():
+                    return int(s)
+                # if it's a string, return a string
+                if s.startswith("'") or s.startswith('"'):
+                    return s[1:-1]
+                # otherwise it might be an identifier--check
+                # the vardict and return the value if it's in
+                # there
+                if vd.has_key(s):
+                    return vd[s]
+                if s.startswith("$") and vd.has_key(s[1:]):
+                    return vd[s[1:]]
+                return s
+            args = [fix(arg.strip()) for arg in commasplit(args)]
+
+            # stick the request and var_dict in as the first and
+            # second arguments
+            args.insert(0, vd)
+            args.insert(0, request)
+
+            r = r(*args)
+
+        elif len(inspect.getargspec(r)[0]) == 2:
+            r = r(request, vd)
+
+        else:
+            # this case is here for handling the old behavior
+            # where functions took no arguments
+            r = r()
+
+    # convert non-strings to strings
+    if not isinstance(r, str):
+        if isinstance(r, unicode):
+            r = r.encode(self._encoding)
+        else:
+            r = str(r)
+
+    return r
+
+</t>
+<t tx="zoomq.20110831211902.4940">def parse(request, var_dict, template):
+    """
+    This method parses the ``template`` passed in using ``Replacer``
+    to expand template variables using values in the ``var_dict``.
+
+    Originally based on OPAGCGI, but mostly re-written.
+
+    :param request: the Request object
+    :param var_dict: the dict holding name/value pair variable replacements
+    :param template: the string template we're expanding variables in.
+
+    :returns: the template string with template variables expanded.
+    """
+    encoding = request.config.get("blog_encoding", "utf-8")
+    replacer = Replacer(request, encoding, var_dict)
+    return _VAR_REGEXP.sub(replacer.replace, template)
+
+</t>
+<t tx="zoomq.20110831211902.4941">def walk(request, root='.', recurse=0, pattern='', return_folders=0):
+    """
+    This function walks a directory tree starting at a specified root
+    folder, and returns a list of all of the files (and optionally
+    folders) that match our pattern(s). Taken from the online Python
+    Cookbook and modified to own needs.
+
+    It will look at the config "ignore_directories" for a list of
+    directories to ignore.  It uses a regexp that joins all the things
+    you list.  So the following::
+
+       config.py["ignore_directories"] = ["CVS", "dev/pyblosxom"]
+
+    turns into the regexp::
+
+       .*?(CVS|dev/pyblosxom)$
+
+    It will also skip all directories that start with a period.
+
+    :param request: the Request object
+    :param root: the root directory to walk
+    :param recurse: the depth of recursion; defaults to 0 which goes all
+                    the way down
+    :param pattern: the regexp object for matching files; defaults to
+                    '' which causes PyBlosxom to return files with
+                    file extensions that match those the entryparsers
+                    handle
+    :param return_folders: True if you want only folders, False if you
+                    want files AND folders
+
+    :returns: a list of file paths.
+    """
+    # expand pattern
+    if not pattern:
+        ext = request.get_data()['extensions']
+        pattern = re.compile(r'.*\.(' + '|'.join(ext.keys()) + r')$')
+
+    ignore = request.get_configuration().get("ignore_directories", None)
+    if isinstance(ignore, str):
+        ignore = [ignore]
+
+    if ignore:
+        ignore = [re.escape(i) for i in ignore]
+        ignorere = re.compile(r'.*?(' + '|'.join(ignore) + r')$')
+    else:
+        ignorere = None
+
+    # must have at least root folder
+    if not os.path.isdir(root):
+        return []
+
+    return _walk_internal(root, recurse, pattern, ignorere, return_folders)
+
+</t>
+<t tx="zoomq.20110831211902.4942"># We do this for backwards compatibility reasons.
+Walk = deprecated_function(walk)
+
+def _walk_internal(root, recurse, pattern, ignorere, return_folders):
+    """
+    Note: This is an internal function--don't use it and don't expect
+    it to stay the same between PyBlosxom releases.
+    """
+    # FIXME - we should either ditch this function and use os.walk or
+    # something similar, or optimize this version by removing the
+    # multiple stat calls that happen as a result of islink, isdir and
+    # isfile.
+
+    # initialize
+    result = []
+
+    try:
+        names = os.listdir(root)
+    except OSError:
+        return []
+
+    # check each file
+    for name in names:
+        fullname = os.path.normpath(os.path.join(root, name))
+
+        # grab if it matches our pattern and entry type
+        if pattern.match(name):
+            if ((os.path.isfile(fullname) and not return_folders) or
+                (return_folders and os.path.isdir(fullname) and
+                 (not ignorere or not ignorere.match(fullname)))):
+                result.append(fullname)
+
+        # recursively scan other folders, appending results
+        if (recurse == 0) or (recurse &gt; 1):
+            if name[0] != "." and os.path.isdir(fullname) and \
+                    not os.path.islink(fullname) and \
+                    (not ignorere or not ignorere.match(fullname)):
+                result = result + \
+                         _walk_internal(fullname,
+                                        (recurse &gt; 1 and [recurse - 1] or [0])[0],
+                                        pattern, ignorere, return_folders)
+
+    return result
+
+
+</t>
+<t tx="zoomq.20110831211902.4943">def filestat(request, filename):
+    """
+    Returns the filestat on a given file.  We store the filestat in
+    case we've already retrieved it during this PyBlosxom request.
+
+    This returns the mtime of the file (same as returned by
+    ``time.localtime()``) -- tuple of 9 ints.
+
+    :param request: the Request object
+    :param filename: the file name of the file to stat
+
+    :returns: the filestat (tuple of 9 ints) on the given file
+    """
+    data = request.getData()
+    filestat_cache = data.setdefault("filestat_cache", {})
+
+    if filestat_cache.has_key(filename):
+        return filestat_cache[filename]
+
+    argdict = {"request": request,
+               "filename": filename,
+               "mtime": (0,) * 10}
+
+    MT = stat.ST_MTIME
+
+    argdict = run_callback("filestat",
+                           argdict,
+                           mappingfunc=lambda x, y: y,
+                           donefunc=lambda x: x and x["mtime"][MT] != 0,
+                           defaultfunc=lambda x: x)
+
+    # no plugin handled cb_filestat; we default to asking the
+    # filesystem
+    if argdict["mtime"][MT] == 0:
+        argdict["mtime"] = os.stat(filename)
+
+    timetuple = time.localtime(argdict["mtime"][MT])
+    filestat_cache[filename] = timetuple
+
+    return timetuple
+
+</t>
+<t tx="zoomq.20110831211902.4944">def what_ext(extensions, filepath):
+    """
+    Takes in a filepath and a list of extensions and tries them all
+    until it finds the first extension that works.
+
+    :param extensions: the list of extensions to test
+    :param filepath: the complete file path (minus the extension) to
+                     test and find the extension for
+
+    :returns: the extension (string) of the file or ``None``.
+    """
+    for ext in extensions:
+        if os.path.isfile(filepath + '.' + ext):
+            return ext
+    return None
+
+</t>
+<t tx="zoomq.20110831211902.4945">def is_year(s):
+    """
+    Checks to see if the string is likely to be a year or not.  In
+    order to be considered to be a year, it must pass the following
+    criteria:
+
+    1. four digits
+    2. first two digits are either 19 or 20.
+
+    :param s: the string to check for "year-hood"
+
+    :returns: ``True`` if it is a year and ``False`` otherwise.
+    """
+    if not s:
+        return False
+
+    if len(s) == 4 and s.isdigit() and \
+            (s.startswith("19") or s.startswith("20")):
+        return True
+    return False
+
+</t>
+<t tx="zoomq.20110831211902.4946">def importname(modulename, name):
+    """
+    Safely imports modules for runtime importing.
+
+    :param modulename: the package name of the module to import from
+    :param name: the name of the module to import
+
+    :returns: the module object or ``None`` if there were problems
+              importing.
+    """
+    logger = getLogger()
+    if not modulename:
+        m = name
+    else:
+        m = "%s.%s" % (modulename, name)
+
+    try:
+        module = __import__(m)
+        for c in m.split(".")[1:]:
+            module = getattr(module, c)
+        return module
+
+    except ImportError, ie:
+        logger.error("Module %s in package %s won't import: %s" % \
+                     (repr(modulename), repr(name), ie))
+
+    except StandardError, e:
+        logger.error("Module %s not in in package %s: %s" % \
+                     (repr(modulename), repr(name), e))
+
+    return None
+
+</t>
+<t tx="zoomq.20110831211902.4947">def generate_rand_str(minlen=5, maxlen=10):
+    """
+    Generate a random string between ``minlen`` and ``maxlen``
+    characters long.
+
+    The generated string consists of letters and numbers.
+
+    :param minlen: the minimum length of the generated random string
+    :param maxlen: the maximum length of the generated random string
+
+    :returns: generated string
+    """
+    import random, string
+    chars = string.letters + string.digits
+    randstr = []
+    randstr_size = random.randint(minlen, maxlen)
+    x = 0
+    while x &lt; randstr_size:
+        randstr.append(random.choice(chars))
+        x += 1
+    return "".join(randstr)
+
+</t>
+<t tx="zoomq.20110831211902.4948">generateRandStr = deprecated_function(generate_rand_str)
+
+def run_callback(chain, input,
+                 mappingfunc=lambda x, y: x,
+                 donefunc=lambda x: 0,
+                 defaultfunc=None):
+    """
+    Executes a callback chain on a given piece of data.  passed in is
+    a dict of name/value pairs.  Consult the documentation for the
+    specific callback chain you're executing.
+
+    Callback chains should conform to their documented behavior.  This
+    function allows us to do transforms on data, handling data, and
+    also callbacks.
+
+    The difference in behavior is affected by the mappingfunc passed
+    in which converts the output of a given function in the chain to
+    the input for the next function.
+
+    If this is confusing, read through the code for this function.
+
+    Returns the transformed input dict.
+
+    :param chain: the name of the callback chain to run
+
+    :param input: dict with name/value pairs that gets passed as the
+                  args dict to all callback functions
+
+    :param mappingfunc: the function that maps output arguments to
+                        input arguments for the next iteration.  It
+                        must take two arguments: the original dict and
+                        the return from the previous function.  It
+                        defaults to returning the original dict.
+
+    :param donefunc: this function tests whether we're done doing what
+                     we're doing.  This function takes as input the
+                     output of the most recent iteration.  If this
+                     function returns True then we'll drop out of the
+                     loop.  For example, if you wanted a callback to
+                     stop running when one of the registered functions
+                     returned a 1, then you would pass in:
+                     ``donefunc=lambda x: x`` .
+
+    :param defaultfunc: if this is set and we finish going through all
+                        the functions in the chain and none of them
+                        have returned something that satisfies the
+                        donefunc, then we'll execute the defaultfunc
+                        with the latest version of the input dict.
+
+    :returns: varies
+    """
+    chain = plugin_utils.get_callback_chain(chain)
+
+    output = None
+
+    for func in chain:
+        # we call the function with the input dict it returns an
+        # output.
+        output = func(input)
+
+        # we fun the output through our donefunc to see if we should
+        # stop iterating through the loop.  if the donefunc returns
+        # something true, then we're all done; otherwise we continue.
+        if donefunc(output):
+            break
+
+        # we pass the input we just used and the output we just got
+        # into the mappingfunc which will give us the input for the
+        # next iteration.  in most cases, this consists of either
+        # returning the old input or the old output--depending on
+        # whether we're transforming the data through the chain or
+        # not.
+        input = mappingfunc(input, output)
+
+    # if we have a defaultfunc and we haven't satisfied the donefunc
+    # conditions, then we return whatever the defaultfunc returns when
+    # given the current version of the input.
+    if callable(defaultfunc) and not donefunc(output):
+        return defaultfunc(input)
+
+    # we didn't call the defaultfunc--so we return the most recent
+    # output.
+    return output
+
+</t>
+<t tx="zoomq.20110831211902.4949">def addcr(text):
+    """Adds a cr if it needs one.
+
+    &gt;&gt;&gt; addrc("foo")
+    foo\\n
+    &gt;&gt;&gt; addcr("foo\\n")
+    foo\\n
+
+    :returns: string with \\n at the end
+    """
+    if not text.endswith("\n"):
+        return text + "\n"
+    return text
+
+</t>
+<t tx="zoomq.20110831211902.4950">def create_entry(datadir, category, filename, mtime, title, metadata, body):
+    """
+    Creates a new entry in the blog.
+
+    This is primarily used by the testing system, but it could be used
+    by scripts and other tools.
+
+    :param datadir: the datadir
+    :param category: the category the entry should go in
+    :param filename: the name of the blog entry (filename and
+                     extension--no directory)
+    :param mtime: the mtime (float) for the entry in seconds since the
+                  epoch
+    :param title: the title for the entry
+    :param metadata: dict of key/value metadata pairs
+    :param body: the body of the entry
+
+    :raises IOError: if the datadir + category directory exists, but
+                     isn't a directory
+    """
+
+    # format the metadata lines for the entry
+    metadatalines = ["#%s %s" % (key, metadata[key])
+                     for key in metadata.keys()]
+
+    entry = addcr(title) + "\n".join(metadatalines) + body
+
+    # create the category directories
+    d = os.path.join(datadir, category)
+    if not os.path.exists(d):
+        os.makedirs(d)
+
+    if not os.path.isdir(d):
+        raise IOError("%s exists, but isn't a directory." % d)
+
+    # create the filename
+    fn = os.path.join(datadir, category, filename)
+
+    # write the entry to disk
+    f = open(fn, "w")
+    f.write(entry)
+    f.close()
+
+    # set the mtime on the entry
+    os.utime(fn, (mtime, mtime))
+
+</t>
+<t tx="zoomq.20110831211902.4951">def get_cache(request):
+    """
+    Retrieves the cache from the request or fetches a new CacheDriver
+    instance.
+
+    :param request: the Request object
+
+    :returns: a BlosxomCache object
+    """
+    data = request.getData()
+    mycache = data.get("data_cache", "")
+
+    if not mycache:
+        config = request.getConfiguration()
+
+        cache_driver_config = config.get('cacheDriver', 'base')
+        cache_config = config.get('cacheConfig', '')
+
+        cache_driver = importname('Pyblosxom.cache', cache_driver_config)
+        mycache = cache_driver.BlosxomCache(request, cache_config)
+
+        data["data_cache"] = mycache
+
+    return mycache
+
+</t>
+<t tx="zoomq.20110831211902.4952">def update_static_entry(cdict, entry_filename):
+    """
+    This is a utility function that allows plugins to easily update
+    statically rendered entries without going through all the
+    rigamarole.
+
+    First we figure out whether this blog is set up for static
+    rendering.  If not, then we return--no harm done.
+
+    If we are, then we call ``render_url`` for each ``static_flavour``
+    of the entry and then for each ``static_flavour`` of the index
+    page.
+
+    :param cdict: the config.py dict
+    :param entry_filename: the url path of the entry to be updated;
+                           example: ``/movies/xmen2``
+    """
+    staticdir = cdict.get("static_dir", "")
+
+    if not staticdir:
+        return
+
+    staticflavours = cdict.get("static_flavours", ["html"])
+
+    renderme = []
+    for mem in staticflavours:
+        renderme.append("/index" + "." + mem, "")
+        renderme.append(entry_filename + "." + mem, "")
+
+    for mem in renderme:
+        render_url_statically(cdict, mem[0], mem[1])
+
+</t>
+<t tx="zoomq.20110831211902.4953">def render_url_statically(cdict, url, querystring):
+    """Renders a url and saves the rendered output to the
+    filesystem.
+
+    :param cdict: config dict
+    :param url: url to render
+    :param querystring: querystring of the url to render or ""
+    """
+    staticdir = cdict.get("static_dir", "")
+
+    # if there is no staticdir, then they're not set up for static
+    # rendering.
+    if not staticdir:
+        raise Exception("You must set static_dir in your config file.")
+
+    staticdir = cdict.get("static_dir", "")
+
+    response = render_url(cdict, url, querystring)
+    response.seek(0)
+
+    fn = os.path.normpath(staticdir + os.sep + url)
+    if not os.path.isdir(os.path.dirname(fn)):
+        os.makedirs(os.path.dirname(fn))
+
+    # by using the response object the cheesy part of removing the
+    # HTTP headers from the file is history.
+    f = open(fn, "w")
+    f.write(response.read())
+    f.close()
+
+</t>
+<t tx="zoomq.20110831211902.4954">def render_url(cdict, pathinfo, querystring=""):
+    """
+    Takes a url and a querystring and renders the page that
+    corresponds with that by creating a Request and a PyBlosxom object
+    and passing it through.  It then returns the resulting Response.
+
+    :param cdict: the config.py dict
+    :param pathinfo: the ``PATH_INFO`` string;
+                     example: ``/dev/pyblosxom/firstpost.html``
+    :param querystring: the querystring (if any); example: debug=yes
+
+    :returns: a PyBlosxom ``Response`` object. 
+    """
+    from pyblosxom import PyBlosxom
+
+    env = {
+        "HTTP_HOST": "localhost",
+        "HTTP_REFERER": "",
+        "HTTP_USER_AGENT": "static renderer",
+        "PATH_INFO": pathinfo,
+        "QUERY_STRING": querystring,
+        "REMOTE_ADDR": "",
+        "REQUEST_METHOD": "GET",
+        "REQUEST_URI": pathinfo + "?" + querystring,
+        "SCRIPT_NAME": "",
+        "wsgi.errors": sys.stderr,
+        "wsgi.input": None
+    }
+    data = {"STATIC": 1}
+    p = PyBlosxom(cdict, env, data)
+    p.run(static=True)
+    return p.get_response()
+
+
+</t>
+<t tx="zoomq.20110831211902.4955">#******************************
+# Logging
+#******************************
+
+import logging
+
+# A dict to keep track of created log handlers.  Used to prevent
+# multiple handlers from beeing added to the same logger.
+_loghandler_registry = {}
+
+class LogFilter(object):
+    """
+    Filters out messages from log-channels that are not listed in the
+    log_filter config variable.
+    """
+    @others
+</t>
+<t tx="zoomq.20110831211902.4956">def __init__(self, names=None):
+    """
+    Initializes the filter to the list provided by the names
+    argument (or ``[]`` if ``names`` is ``None``).
+
+    :param names: list of strings to filter out
+    """
+    if names == None:
+        names = []
+    self.names = names
+
+</t>
+<t tx="zoomq.20110831211902.4957">def filter(self, record):
+    if record.name in self.names:
+        return 1
+    return 0
+
+</t>
+<t tx="zoomq.20110831211902.4958">def get_logger(log_file=None):
+    """Creates and retuns a log channel.
+
+    If no log_file is given the system-wide logfile as defined in
+    config.py is used. If a log_file is given that's where the created
+    logger logs to.
+
+    :param log_file: the file to log to.  defaults to None which
+                     causes PyBlosxom to check for the ``log_file``
+                     config.py property and if that's blank, then the
+                     log_file is stderr
+
+    :returns: a log channel (logger instance) which you can call
+              ``error``, ``warning``, ``debug``, ``info``, ... on.
+    """
+    custom_log_file = False
+    if log_file == None:
+        log_file = _config.get('log_file', 'stderr')
+        f = sys._getframe(1)
+        filename = f.f_code.co_filename
+        module = f.f_globals["__name__"]
+        # by default use the root logger
+        log_name = ""
+        for path in _config.get('plugin_dirs', []):
+            if filename.startswith(path):
+                # if it's a plugin, use the module name as the log
+                # channels name
+                log_name = module
+                break
+        # default to log level WARNING if it's not defined in
+        # config.py
+        log_level = _config.get('log_level', 'warning')
+    else:
+        # handle custom log_file
+        custom_log_file = True
+        # figure out a name for the log channel
+        log_name = os.path.splitext(os.path.basename(log_file))[0]
+        # assume log_level debug (show everything)
+        log_level = "debug"
+
+    global _loghandler_registry
+
+    # get the logger for this channel
+    logger = logging.getLogger(log_name)
+    # don't propagate messages up the logger hierarchy
+    logger.propagate = 0
+
+    # setup the handler if it doesn't allready exist.  only add one
+    # handler per log channel.
+    key = "%s|%s" % (log_file, log_name)
+    if not key in _loghandler_registry:
+
+        # create the handler
+        if log_file == "stderr":
+            hdlr = logging.StreamHandler(sys.stderr)
+        else:
+            if log_file == "NONE": # user disabled logging
+                if os.name == 'nt': # windoze
+                    log_file = "NUL"
+                else: # assume *nix
+                    log_file = "/dev/null"
+            try:
+                hdlr = logging.FileHandler(log_file)
+            except IOError:
+                # couldn't open logfile, fallback to stderr
+                hdlr = logging.StreamHandler(sys.stderr)
+
+        # create and set the formatter
+        if log_name:
+            fmtr_s = '%(asctime)s [%(levelname)s] %(name)s: %(message)s'
+        else: # root logger
+            fmtr_s = '%(asctime)s [%(levelname)s]: %(message)s'
+
+        hdlr.setFormatter(logging.Formatter(fmtr_s))
+
+        logger.addHandler(hdlr)
+        int_level = getattr(logging, log_level.upper())
+        logger.setLevel(int_level)
+
+        if not custom_log_file:
+            # only log messages from plugins listed in log_filter.
+            # add 'root' to the log_filter list to still allow
+            # application level messages.
+            log_filter = _config.get('log_filter', None)
+            if log_filter:
+                lfilter = LogFilter(log_filter)
+                logger.addFilter(lfilter)
+
+        # remember that we've seen this handler
+        _loghandler_registry[key] = True
+
+    return logger
+
+</t>
+<t tx="zoomq.20110831211902.4959">getLogger = deprecated_function(get_logger)
+
+def log_exception(log_file=None):
+    """
+    Logs an exception to the given file.  Uses the system-wide
+    log_file as defined in config.py if none is given here.
+
+    :param log_file: the file to log to.  defaults to None which
+                     causes PyBlosxom to check for the ``log_file``
+                     config.py property and if that's blank, then the
+                     log_file is stderr
+    """
+    log = getLogger(log_file)
+    log.exception("Exception occured:")
+
+</t>
+<t tx="zoomq.20110831211902.4960">def log_caller(frame_num=1, log_file=None):
+    """
+    Logs some info about the calling function/method.  Useful for
+    debugging.
+
+    Usage:
+
+    &gt;&gt;&gt; import tools
+    &gt;&gt;&gt; tools.log_caller()     # logs frame 1
+    &gt;&gt;&gt; tools.log_caller(2)
+    &gt;&gt;&gt; tools.log_caller(3, log_file="/path/to/file")
+
+    :param frame_num: the index of the frame to log; defaults to 1
+
+    :param log_file: the file to log to.  defaults to None which
+                     causes PyBlosxom to check for the ``log_file``
+                     config.py property and if that's blank, then the
+                     log_file is stderr
+    """
+    f = sys._getframe(frame_num)
+    module = f.f_globals["__name__"]
+    filename = f.f_code.co_filename
+    line = f.f_lineno
+    subr = f.f_code.co_name
+
+    log = getLogger(log_file)
+    log.info("\n  module: %s\n  filename: %s\n  line: %s\n  subroutine: %s",
+             module, filename, line, subr)
+</t>
+<t tx="zoomq.20110831211902.4966"># -*- coding: utf-8 -*-
+&lt;&lt; xhtml declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+PREFORMATTER_ID = 'py'
+FILE_EXT = 'py'
+__version__ = "v11.08.31"
+__author__ = 'Zoom.Quiet &lt;Zoom.Quiet at gmail.com&gt;'
+__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/py.html"
+__description__ = ".py export hmtl entry with syntaxhighlighter."
+
+from Pyblosxom import tools
+
+@others
+
+</t>
+<t tx="zoomq.20110831211902.4967">"""py - html Parser
+    - refactory py.py from xhtml.py
+
+&lt;&lt;CopyLeft&gt;&gt;
+
+"""
+
+
+</t>
+<t tx="zoomq.20110831211902.4968">Copyright (c) 2011 Zoom.Quiet 
+All rights reserved.
+
+Redistribution and use in source and binary forms are permitted
+provided that the above copyright notice and this paragraph are
+duplicated in all such forms and that any documentation,
+advertising materials, and other materials related to such
+distribution and use acknowledge that the software was developed
+by the zoomquiet.org.  The name of the
+University may not be used to endorse or promote products derived
+from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+</t>
+<t tx="zoomq.20110831211902.4969">def cb_entryparser(args):
+    args['py'] = parse
+    return args
+</t>
+<t tx="zoomq.20110831211902.4970">def parse(filename, request):
+    import os, sys
+    config = request.getConfiguration()
+    print filenames
+    source = open(filename,"r").read()
+    body = '&lt;pre class="brush: python"&gt;%s&lt;/pre&gt;' % source
+    entry_data = {'body' : body
+                 ,'title' : filename.replace(config['datadir'], '')
+                 #,'tags' : tags
+                 #filename.replace(config['datadir'], '')
+                 }
+    # Call the postformat callbacks
+    tools.run_callback('postformat', {'request': request, 
+                                      'entry_data': entry_data})
+    return entry_data
+</t>
+<t tx="zoomq.20110831211902.4971">"""This will go through all possible things in the blog and
+statically render everything to the ``static_dir`` specified
+in the config file.
+
+This figures out all the possible ``path_info`` settings and
+calls ``self.run()`` a bazillion times saving each file.
+
+:param incremental: Whether (True) or not (False) to
+                    incrementally render the pages.  If we're
+                    incrementally rendering pages, then we
+                    render only the ones that have changed.
+"""
+self.initialize()
+
+config = self._request.get_configuration()
+data = self._request.get_data()
+print "Performing static rendering."
+if incremental:
+    print "Incremental is set."
+
+staticdir = config.get("static_dir", "")
+datadir = config["datadir"]
+
+if not staticdir:
+    print "Error: You must set static_dir in your config file."
+    return 0
+
+flavours = config.get("static_flavours", ["html"])
+
+renderme = []
+
+monthnames = config.get("static_monthnames", 1)
+monthnumbers = config.get("static_monthnumbers", 0)
+</t>
+<t tx="zoomq.20110831211902.4972">for mem in listing:
+    # skip the ones that have bad extensions
+    ext = mem[mem.rfind(".")+1:]
+    if not ext in data["extensions"].keys():
+        continue
+
+    # grab the mtime of the entry file
+    mtime = time.mktime(tools.filestat(self._request, mem))
+
+    # remove the datadir from the front and the bit at the end
+    mem = mem[len(datadir):mem.rfind(".")]
+
+    # this is the static filename
+    fn = os.path.normpath(staticdir + mem)
+
+    # grab the mtime of one of the statically rendered file
+    try:
+        smtime = os.stat(fn + "." + flavours[0])[8]
+    except:
+        smtime = 0
+
+    # if the entry is more recent than the static, we want to
+    # re-render
+    if smtime &lt; mtime or not incremental:
+
+        # grab the categories
+        temp = os.path.dirname(mem).split(os.sep)
+        for i in range(len(temp)+1):
+            p = os.sep.join(temp[0:i])
+            categories[p] = 0
+
+        # grab the date
+        mtime = time.localtime(mtime)
+        year = time.strftime("%Y", mtime)
+        month = time.strftime("%m", mtime)
+        day = time.strftime("%d", mtime)
+
+        dates[year] = 1
+
+        if monthnumbers:
+            dates[year + "/" + month] = 1
+            dates[year + "/" + month + "/" + day] = 1
+
+        if monthnames:
+            monthname = tools.num2month[month]
+            dates[year + "/" + monthname] = 1
+            dates[year + "/" + monthname + "/" + day] = 1
+
+        # toss in the render queue
+        for f in flavours:
+            renderme.append( (mem + "." + f, "") )
+
+print "rendering %d entries." % len(renderme)
+</t>
+<t tx="zoomq.20110831211902.4973"># handle categories
+categories = categories.keys()
+categories.sort()
+
+# if they have stuff in their root category, it'll add a "/"
+# to the category list and we want to remove that because it's
+# a duplicate of "".
+if "/" in categories:
+    categories.remove("/")
+
+print "rendering %d category indexes." % len(categories)
+
+for mem in categories:
+    mem = os.path.normpath(mem + "/index.")
+    for f in flavours:
+        renderme.append((mem + f, ""))
 </t>
 </tnodes>
 </leo_file>

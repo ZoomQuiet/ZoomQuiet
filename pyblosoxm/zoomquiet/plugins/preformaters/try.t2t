@@ -1,0 +1,51 @@
+[定制3]定制entry格式
+..
+
+%! Target  : html
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+
+[/pybimage/technorati.gif]:
+    [news http://www.technorati.com/tags/news]
+    ,[nomeans http://www.technorati.com/tags/nomeans]
+%<span class="technoratitag"></span>
+```
+def parse(story):
+    """
+    The main workhorse that does nothing but call MoinMoin to do its dirty
+    laundry
+
+    @param story: A text for conversion
+    @type story: string
+    @returns: formatted string
+    @rtype: string
+    """
+    s = StringIO()
+    oldstdout = sys.stdout
+    form = None
+    page = Page(None)
+    page.hilite_re = None
+    request = Request()
+    request.user = User()
+    formatter = Formatter(request)
+    formatter.setPage(page)
+    sys.stdout = s
+    Parser(story, request).format(formatter, form)
+    sys.stdout = oldstdout
+    result = s.getvalue()
+    s.close()
+    return result
+
+```
+
+  那未就自个儿DIY!
+
+------------------------------
+更新::%%date(%Y-%m-%d %I:%M:%S)
+
+动力源自:**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
