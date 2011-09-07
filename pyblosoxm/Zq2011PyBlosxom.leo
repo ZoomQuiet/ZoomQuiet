@@ -52,8 +52,8 @@
 <v t="ZoomQuiet.20060122153701.1"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
 <v t="ZoomQuiet.20060121172947.1"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
 </v>
-<v t="zoomq.20101230094009.5511" a="E"><vh>撰写ing..</vh>
-<v t="ZoomQuiet.20060124152735" a="E"><vh>gen4dot2htm-py.t2t</vh>
+<v t="zoomq.20101230094009.5511"><vh>撰写ing..</vh>
+<v t="ZoomQuiet.20060124152735"><vh>gen4dot2htm-py.t2t</vh>
 <v t="zoomq.20100910090235.9593"><vh>5W1H</vh></v>
 <v t="zoomq.20100910090235.9594"><vh>zqlog</vh></v>
 <v t="zoomq.20100910090235.9595"><vh>智能参数？</vh></v>
@@ -65,7 +65,7 @@
 </v>
 <v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
 </v>
-<v t="ZoomQuiet.20060113092644" a="E"><vh>entries</vh>
+<v t="ZoomQuiet.20060113092644"><vh>entries</vh>
 <v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
 <v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
 <v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
@@ -550,7 +550,7 @@
 <v t="zoomq.20100728103610.7583"></v>
 <v t="zoomq.20100714100833.4002"><vh>我的”怪癖” (作业)</vh></v>
 </v>
-<v t="ZoomQuiet.20060116170040.5" a="E"><vh>techic</vh>
+<v t="ZoomQuiet.20060116170040.5"><vh>techic</vh>
 <v t="zoomq.20100414115206.4542"><vh>Emacs</vh>
 <v t="zoomq.20100414115206.4558"><vh>@nosent fw_learning_emacs_notes-2007-03-08-18-00.t2t</vh>
 <v t="zoomq.20100414115206.4534"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
@@ -680,14 +680,9 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060113151604" a="E"><vh>hacking</vh>
-<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
-<v t="zoomq.20110503084352.4319"><vh>html.flav</vh>
-<v t="zoomq.20110503084352.4320"><vh>@nosent category_list</vh></v>
-<v t="zoomq.20110503084352.4321"><vh>@nosent content_type</vh></v>
-<v t="zoomq.20110503084352.4322"><vh>@nosent date_head</vh></v>
-<v t="zoomq.20110503084352.4324"><vh>@nosent head</vh></v>
-<v t="zoomq.20110503084352.4326"><vh>@nosent story</vh></v>
-<v t="zoomq.20110503084352.4323"><vh>@nosent foot</vh>
+<v t="ZoomQuiet.20060117230430" a="E"><vh>flavours</vh>
+<v t="zoomq.20110503084352.4319" a="E"><vh>html.flav</vh>
+<v t="zoomq.20110503084352.4323" a="E"><vh>@nosent foot</vh>
 <v t="zoomq.20110503084352.4334"><vh>&lt;&lt;JS loader&gt;&gt;</vh></v>
 <v t="zoomq.20110503084352.4329" a="E"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
 <v t="zoomq.20110503084352.4336"><vh>search text box</vh></v>
@@ -705,6 +700,11 @@
 <v t="zoomq.20110503084352.4333"><vh>CC</vh></v>
 </v>
 </v>
+<v t="zoomq.20110503084352.4320"><vh>@nosent category_list</vh></v>
+<v t="zoomq.20110503084352.4321"><vh>@nosent content_type</vh></v>
+<v t="zoomq.20110503084352.4322"><vh>@nosent date_head</vh></v>
+<v t="zoomq.20110503084352.4324"><vh>@nosent head</vh></v>
+<v t="zoomq.20110503084352.4326"><vh>@nosent story</vh></v>
 <v t="zoomq.20110503084352.4327"><vh>@nosent style.css</vh></v>
 <v t="zoomq.20110503084352.4325"><vh>@nosent print.css</vh></v>
 <v t="zoomq.20110503084352.4328"><vh>@nosent yearsummarystory</vh></v>
@@ -775,7 +775,7 @@
 <v t="ZoomQuiet.20060121185526"><vh>@nosent foot.rss20</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060123104045" a="E"><vh>plugins</vh>
+<v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
 <v t="zoomq.20100414115206.4559"><vh>@nosent cp4idx2category.py</vh>
 <v t="zoomq.20100414115206.4560"><vh>declarations</vh></v>
 <v t="zoomq.20100414115206.4561" a="E"><vh>cp4gen(path)</vh>
@@ -1513,11 +1513,11 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060113092617"><vh>web配置</vh>
-<v t="ZoomQuiet.20060113092909" a="E"><vh>@nosent config.py</vh>
+<v t="ZoomQuiet.20060113092617" a="E"><vh>web配置</vh>
+<v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
 <v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
 <v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
-<v t="ZoomQuiet.20060123105542"><vh>Plugin configuration</vh>
+<v t="ZoomQuiet.20060123105542" a="E"><vh>Plugin configuration</vh>
 <v t="ZoomQuiet.20060127162954"><vh>loader</vh></v>
 <v t="ZoomQuiet.20060127163053"><vh>vars</vh></v>
 </v>
@@ -15942,7 +15942,7 @@ def cb_date_head(args):
 
     # time stamp and blog entry
     e = "&lt;tr&gt;\n&lt;td valign=\"top\" align=\"left\"&gt;%s:&lt;/td&gt;\n" \
-        "&lt;td&gt;&lt;a href=\"%s/%s\"&gt;%s&lt;/a&gt; (%s)&lt;br /&gt;%s&lt;/td&gt;&lt;/tr&gt;\n"
+        "&lt;td&gt;&lt;a href=\"%s/%s.html\"&gt;%s&lt;/a&gt; (%s)&lt;br /&gt;%s&lt;/td&gt;&lt;/tr&gt;\n"
 
     entrylist = []
     output = []
@@ -26842,7 +26842,7 @@ py["static_monthnames"] = 0
 
 # Whether (1) or not (0) you want to create date indexes using month
 # numbers?  (ex. /2004/04/01)  Defaults to 0 (no).
-py["static_monthnumbers"] = 0
+py["static_monthnumbers"] = 1
 #py["static_monthnumbers"] = 1
 
 </t>
@@ -27091,6 +27091,21 @@ $(tagcloud)
 &lt;br/&gt;
 &lt;!-- for Disqus actions --&gt;
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;!-- for Disqus actions --&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'zoomquietpyblosxomblogging'; // required: replace example with your forum shortname
+    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+    var disqus_identifier = "$(urlencode(file_path)).$(flavour)";
+    var disqus_url = "http://blog.zoomquiet.org$(base_url)/$(urlencode(file_path)).$(flavour)";
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;!--&lt;a href="http://disqus.com" class="dsq-brlink"&gt;blog comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
 &lt;center id="pyentrynavi"&gt;
@@ -28185,22 +28200,6 @@ SyntaxHighlighter.autoloader.apply(null, path(
 SyntaxHighlighter.all()
 &lt;/script&gt;
 
-&lt;!-- for Disqus actions --&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'zoomquietpyblosxomblogging'; // required: replace example with your forum shortname
-    // The following are highly recommended additional parameters. Remove the slashes in front to use.
-    var disqus_identifier = "$(urlencode(file_path)).$(flavour)";
-    var disqus_url = "http://blog.zoomquiet.org$(base_url)/$(urlencode(file_path)).$(flavour)";
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-
 &lt;!-- Include the jQuery usage css 
 href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
 &lt;link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/jQrssPopupBubble.css" /&gt;
@@ -28247,8 +28246,8 @@ href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
 </t>
 <t tx="zoomq.20110503084352.4338">&lt;li&gt;sys.
     &lt;ul id="BlogrollSubTopic"&gt;
+        &lt;li&gt;&lt;b&gt;&lt;a href="/pyblosxom/recent.html"&gt;recents&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="/pyblosxom/plugin_info/"&gt;plugins&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="/pyblosxom/recent.html"&gt;recents&lt;/a&gt;&lt;/li&gt;
 
     &lt;/ul&gt;&lt;!--id="BlogrollSubTopic"--&gt;
     &lt;/li&gt;

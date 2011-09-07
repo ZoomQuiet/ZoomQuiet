@@ -279,7 +279,7 @@ py["static_monthnames"] = 0
 
 # Whether (1) or not (0) you want to create date indexes using month
 # numbers?  (ex. /2004/04/01)  Defaults to 0 (no).
-py["static_monthnumbers"] = 0
+py["static_monthnumbers"] = 1
 #py["static_monthnumbers"] = 1
 
 # Caching configuration
