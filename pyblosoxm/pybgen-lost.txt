@@ -119,6 +119,16 @@ KeyError: 'filename'
 
 
 
+! pyblosoxm/zoomquiet/entries/techic/PyBlosxom/plugins/py.py
+! pyblosoxm/zoomquiet/entries/techic/PyBlosxom/plugins/zqcategory.py
+! pyblosoxm/zoomquiet/entries/techic/PyBlosxom/plugins/zqcrecent.py
+! pyblosoxm/zoomquiet/entries/utility/zqlib/gen4dot2htm-py.t2t
+! pyblosoxm/zoomquiet/plugins/preformatter/py.py
+! pyblosoxm/zoomquiet/plugins/preformatter/try.t2t
+
+
+
+
 
 
 
