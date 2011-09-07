@@ -669,14 +669,14 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060113151604" a="E"><vh>hacking</vh>
-<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
+<v t="ZoomQuiet.20060117230430" a="E"><vh>flavours</vh>
 <v t="zoomq.20110503084352.4319" a="E"><vh>html.flav</vh>
 <v t="zoomq.20110503084352.4320"><vh>@nosent category_list</vh></v>
 <v t="zoomq.20110503084352.4321"><vh>@nosent content_type</vh></v>
 <v t="zoomq.20110503084352.4322"><vh>@nosent date_head</vh></v>
 <v t="zoomq.20110503084352.4324"><vh>@nosent head</vh></v>
 <v t="zoomq.20110503084352.4326"><vh>@nosent story</vh></v>
-<v t="zoomq.20110503084352.4323"><vh>@nosent foot</vh>
+<v t="zoomq.20110503084352.4323" a="E"><vh>@nosent foot</vh>
 <v t="zoomq.20110503084352.4334"><vh>&lt;&lt;JS loader&gt;&gt;</vh></v>
 <v t="zoomq.20110503084352.4329"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
 <v t="zoomq.20110503084352.4336"><vh>search text box</vh></v>
@@ -764,8 +764,8 @@
 <v t="ZoomQuiet.20060121185526"><vh>@nosent foot.rss20</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060127153926" a="E"><vh>core</vh>
-<v t="zoomq.20110831211902.4849" a="EO"><vh>@nosent commandline.py</vh>
+<v t="ZoomQuiet.20060127153926"><vh>core</vh>
+<v t="zoomq.20110831211902.4849"><vh>@nosent commandline.py</vh>
 <v t="zoomq.20110831211902.4850"><vh>commandline declarations</vh></v>
 <v t="zoomq.20110831211902.4851"><vh>pwrap</vh></v>
 <v t="zoomq.20110831211902.4852"><vh>pwrap_error</vh></v>
@@ -778,9 +778,9 @@
 <v t="zoomq.20110831211902.4859"><vh>get_handlers</vh></v>
 <v t="zoomq.20110831211902.4860"><vh>command_line_handler</vh></v>
 </v>
-<v t="zoomq.20110831211902.4869" a="E"><vh>@nosent pyblosxom.py</vh>
+<v t="zoomq.20110831211902.4869"><vh>@nosent pyblosxom.py</vh>
 <v t="zoomq.20110831211902.4870"><vh>pyblosxom declarations</vh></v>
-<v t="zoomq.20110831211902.4871" a="E"><vh>class PyBlosxom</vh>
+<v t="zoomq.20110831211902.4871"><vh>class PyBlosxom</vh>
 <v t="zoomq.20110831211902.4872"><vh>__init__</vh></v>
 <v t="zoomq.20110831211902.4873"><vh>initialize</vh></v>
 <v t="zoomq.20110831211902.4874"><vh>cleanup</vh></v>
@@ -789,7 +789,7 @@
 <v t="zoomq.20110831211902.4877"><vh>run</vh></v>
 <v t="zoomq.20110831211902.4878"><vh>run_callback</vh></v>
 <v t="zoomq.20110831211902.4879"><vh>run_render_one</vh></v>
-<v t="zoomq.20110831211902.4880" a="E"><vh>run_static_renderer</vh>
+<v t="zoomq.20110831211902.4880"><vh>run_static_renderer</vh>
 <v t="zoomq.20110831211902.4971"><vh>&lt;&lt;cfg&gt;&gt;</vh></v>
 <v t="zoomq.20110831211902.4972"><vh>&lt;&lt;static_month&gt;&gt;</vh></v>
 <v t="zoomq.20110831211902.4973"><vh>&lt;&lt;static_categories&gt;&gt;</vh></v>
@@ -841,7 +841,7 @@
 <v t="zoomq.20110831211902.4920"><vh>blosxom_process_path_info</vh></v>
 <v t="zoomq.20110831211902.4921"><vh>run_pyblosxom</vh></v>
 </v>
-<v t="zoomq.20110831211902.4922" a="O"><vh>@nosent tools.py</vh>
+<v t="zoomq.20110831211902.4922"><vh>@nosent tools.py</vh>
 <v t="zoomq.20110831211902.4923"><vh>tools declarations</vh></v>
 <v t="zoomq.20110831211902.4924"><vh>initialize</vh></v>
 <v t="zoomq.20110831211902.4925"><vh>deprecated_function</vh></v>
@@ -884,7 +884,7 @@
 <v t="zoomq.20110831211902.4959"><vh>log_exception</vh></v>
 <v t="zoomq.20110831211902.4960"><vh>log_caller</vh></v>
 </v>
-<v t="zoomq.20110831211902.4861" a="O"><vh>@nosent plugin_utils.py</vh>
+<v t="zoomq.20110831211902.4861" a="E"><vh>@nosent plugin_utils.py</vh>
 <v t="zoomq.20110831211902.4862"><vh>plugin_utils declarations</vh></v>
 <v t="zoomq.20110831211902.4863"><vh>catalogue_plugin</vh></v>
 <v t="zoomq.20110831211902.4864"><vh>get_callback_chain</vh></v>
@@ -1098,7 +1098,7 @@
 </v>
 </v>
 <v t="zoomq.20110831211902.4966" a="E"><vh>@nosent py.py</vh>
-<v t="zoomq.20110831211902.4967" a="E"><vh>&lt;&lt; xhtml declarations &gt;&gt;</vh>
+<v t="zoomq.20110831211902.4967"><vh>&lt;&lt; xhtml declarations &gt;&gt;</vh>
 <v t="zoomq.20110831211902.4968"><vh>&lt;&lt;CopyLeft&gt;&gt;</vh></v>
 </v>
 <v t="zoomq.20110831211902.4969"><vh>cb_entryparser</vh></v>
@@ -1461,10 +1461,10 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060113092617" a="E"><vh>web配置</vh>
-<v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
+<v t="ZoomQuiet.20060113092909" a="E"><vh>@nosent config.py</vh>
 <v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
 <v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
-<v t="ZoomQuiet.20060123105542" a="E"><vh>Plugin configuration</vh>
+<v t="ZoomQuiet.20060123105542"><vh>Plugin configuration</vh>
 <v t="ZoomQuiet.20060127162954"><vh>loader</vh></v>
 <v t="ZoomQuiet.20060127163053"><vh>vars</vh></v>
 </v>
@@ -26712,8 +26712,8 @@ py["base_url"] = "/pyblosxom/"
 
 # Default parser/preformatter. Defaults to plain (does nothing)
 #py["parser"] = "plain"
-py["parser"] = "xhtml"
-#py["parser"] = "py"
+#py["parser"] = "xhtml"
+py["parser"] = "py"
 </t>
 <t tx="zoomq.20110503084352.4317"># Caching configuration
 # =====================
@@ -26743,7 +26743,7 @@ py["static_dir"] = os.path.join(blogdir, "_static")
 
 # What flavours should get generated?
 py["static_flavours"] = ["html"
-    ,"atom"
+    #,"atom"
     ]
 #py["static_flavours"] = ["atom"]
 #py["static_flavours"] = ["rdf"]
@@ -26767,7 +26767,7 @@ py["static_monthnames"] = 0
 
 # Whether (1) or not (0) you want to create date indexes using month
 # numbers?  (ex. /2004/04/01)  Defaults to 0 (no).
-#py["static_monthnumbers"] = 0
+py["static_monthnumbers"] = 0
 #py["static_monthnumbers"] = 1
 
 </t>
@@ -26831,10 +26831,10 @@ $(tagcloud)
 &lt;/table&gt;&lt;!-- main page structure--&gt;
 
 &lt;/div&gt; &lt;!--end for class="container"--&gt;
+&lt;/body&gt;
+
 &lt;&lt;JS loader&gt;&gt;
 
-
-&lt;/body&gt;
 &lt;/html&gt;
 </t>
 <t tx="zoomq.20110503084352.4324">@language html&lt;html&gt;
@@ -26849,15 +26849,6 @@ $(tagcloud)
 
 &lt;link rel="stylesheet" type="text/css"  href="/pybstyle/html.flav/style.css" /&gt;
 &lt;link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/html.flav/print.css" /&gt;
-&lt;!-- Include *at least* the core style and default theme --&gt;
-&lt;link rel="stylesheet" type="text/css" 
-    href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css"/&gt;
-&lt;link rel="stylesheet" type="text/css" 
-    href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeFadeToGrey.css"/&gt;
-&lt;!-- Include the jQuery usage css 
-href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
-&lt;link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/jQrssPopupBubble.css" /&gt;
---&gt;
 
 &lt;/head&gt;
 &lt;body&gt;
@@ -27023,22 +27014,8 @@ href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
 &lt;/span&gt;
 
 &lt;br/&gt;
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;!-- for Disqus actions --&gt;
-&lt;script type="text/javascript"&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'zoomquietpyblosxomblogging'; // required: replace example with your forum shortname
-    // The following are highly recommended additional parameters. Remove the slashes in front to use.
-    var disqus_identifier = "$(urlencode(file_path)).$(flavour)";
-    var disqus_url = "http://blog.zoomquiet.org$(base_url)/$(urlencode(file_path)).$(flavour)";
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;!--&lt;a href="http://disqus.com" class="dsq-brlink"&gt;blog comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
 &lt;center id="pyentrynavi"&gt;
@@ -28101,27 +28078,62 @@ theme design base &lt;a href="http://www.bestwpthemes.com/doc/"&gt;"Doc"&lt;/a&g
 &lt;br /&gt;&amp;#26412;&lt;span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type"&gt;&amp;#20316;&amp;#21697;&lt;/span&gt;&amp;#30001;&lt;span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"&gt;Zoom.Quiet&lt;/span&gt;&amp;#21019;&amp;#20316;&amp;#65292;&amp;#37319;&amp;#29992;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/"&gt;&amp;#30693;&amp;#35782;&amp;#20849;&amp;#20139;&amp;#32626;&amp;#21517;-&amp;#30456;&amp;#21516;&amp;#26041;&amp;#24335;&amp;#20849;&amp;#20139; 2.5 &amp;#20013;&amp;#22269;&amp;#22823;&amp;#38470;&amp;#35768;&amp;#21487;&amp;#21327;&amp;#35758;&lt;/a&gt;&amp;#36827;&amp;#34892;&amp;#35768;&amp;#21487;&amp;#12290;
 &lt;!--&lt;br /&gt;--&gt;&amp;#22522;&amp;#20110;&lt;a xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://blog.zoomquiet.org" rel="dc:source"&gt;blog.zoomquiet.org&lt;/a&gt;&amp;#19978;&amp;#30340;&amp;#20316;&amp;#21697;&amp;#21019;&amp;#20316;&amp;#12290;
 </t>
-<t tx="zoomq.20110503084352.4334">&lt;!-- Finally, to loading jQuery Ajax Lib. 
-&lt;script type="text/javascript" src="/pybshare/jquery-1.4.2.min.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"&gt;&lt;/script&gt;
---&gt;
-&lt;script type="text/javascript" src="/pybshare/jquery-1.6.2.min.js"&gt;&lt;/script&gt;
-&lt;script src="/pybshare/jquery-pybactions.js" type="text/javascript"&gt;&lt;/script&gt;
-
-&lt;!-- for syntaxhighlighter_2.1.364_zh Include required JS files --&gt;
-&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushBash.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCss.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushDiff.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPlain.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPython.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushSql.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js"&gt;&lt;/script&gt;
+<t tx="zoomq.20110503084352.4334">&lt;!-- for syntaxhighlighter--&gt;
+&lt;link rel="stylesheet" type="text/css" href="/pybshare/syntaxhighlighter_3.0.83/styles/shCore.css"/&gt;
+&lt;link rel="stylesheet" type="text/css" href="/pybshare/syntaxhighlighter_3.0.83/styles/shThemeRDark.css"/&gt;
+&lt;!-- for syntaxhighlighter required JS files --&gt;
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_3.0.83/scripts/shCore.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/pybshare/syntaxhighlighter_3.0.83/scripts/shAutoloader.js"&gt;&lt;/script&gt;
 &lt;!-- Finally, to actually run the highlighter, you need to include this JS on your page --&gt;
 &lt;script type="text/javascript"&gt;
-     SyntaxHighlighter.all()
+function path(){
+    var args = arguments;
+    var result = [];
+    for(var i = 0; i &lt; args.length; i++){
+      result.push(args[i].replace('@', '/pybshare/syntaxhighlighter_3.0.83/scripts/'));
+      };
+    return result;
+    };
+SyntaxHighlighter.autoloader.apply(null, path(
+    'applescript            @shBrushAppleScript.js',
+    'bash shell             @shBrushBash.js',
+    'css                    @shBrushCss.js',
+    'diff patch pas         @shBrushDiff.js',
+    'erl erlang             @shBrushErlang.js',
+    'js jscript javascript  @shBrushJScript.js',
+    'text plain             @shBrushPlain.js',
+    'py python              @shBrushPython.js',
+    'sass scss              @shBrushSass.js',
+    'sql                    @shBrushSql.js',
+    'xml xhtml xslt html    @shBrushXml.js'
+    ));
+
+SyntaxHighlighter.all()
 &lt;/script&gt;
+
+&lt;!-- for Disqus actions --&gt;
+&lt;script type="text/javascript"&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'zoomquietpyblosxomblogging'; // required: replace example with your forum shortname
+    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+    var disqus_identifier = "$(urlencode(file_path)).$(flavour)";
+    var disqus_url = "http://blog.zoomquiet.org$(base_url)/$(urlencode(file_path)).$(flavour)";
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+
+&lt;!-- Include the jQuery usage css 
+href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
+&lt;link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/jQrssPopupBubble.css" /&gt;
+--&gt;
+&lt;!-- Finally, to loading jQuery Ajax Lib. --&gt;
+&lt;script type="text/javascript" src="/pybshare/jquery-1.6.2.min.js"&gt;&lt;/script&gt;
+&lt;script src="/pybshare/jquery-pybactions.js" type="text/javascript"&gt;&lt;/script&gt;
 
 </t>
 <t tx="zoomq.20110503084352.4335">&lt;div id="footer" class="g33"&gt;

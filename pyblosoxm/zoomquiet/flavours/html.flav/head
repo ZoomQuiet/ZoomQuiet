@@ -9,15 +9,6 @@
 
 <link rel="stylesheet" type="text/css"  href="/pybstyle/html.flav/style.css" />
 <link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/html.flav/print.css" />
-<!-- Include *at least* the core style and default theme -->
-<link rel="stylesheet" type="text/css" 
-    href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css"/>
-<link rel="stylesheet" type="text/css" 
-    href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeFadeToGrey.css"/>
-<!-- Include the jQuery usage css 
-href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/>
-<link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/jQrssPopupBubble.css" />
--->
 
 </head>
 <body>

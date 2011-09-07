@@ -239,8 +239,8 @@ py["base_url"] = "/pyblosxom/"
 
 # Default parser/preformatter. Defaults to plain (does nothing)
 #py["parser"] = "plain"
-py["parser"] = "xhtml"
-#py["parser"] = "py"
+#py["parser"] = "xhtml"
+py["parser"] = "py"
 # Static rendering
 # ================
 
@@ -254,7 +254,7 @@ py["static_dir"] = os.path.join(blogdir, "_static")
 
 # What flavours should get generated?
 py["static_flavours"] = ["html"
-    ,"atom"
+    #,"atom"
     ]
 #py["static_flavours"] = ["atom"]
 #py["static_flavours"] = ["rdf"]
@@ -278,7 +278,7 @@ py["static_monthnames"] = 0
 
 # Whether (1) or not (0) you want to create date indexes using month
 # numbers?  (ex. /2004/04/01)  Defaults to 0 (no).
-#py["static_monthnumbers"] = 0
+py["static_monthnumbers"] = 0
 #py["static_monthnumbers"] = 1
 
 # Caching configuration

@@ -187,29 +187,64 @@ theme design base <a href="http://www.bestwpthemes.com/doc/">"Doc"</a>
 </table><!-- main page structure-->
 
 </div> <!--end for class="container"-->
-<!-- Finally, to loading jQuery Ajax Lib. 
-<script type="text/javascript" src="/pybshare/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</body>
+
+<!-- for syntaxhighlighter-->
+<link rel="stylesheet" type="text/css" href="/pybshare/syntaxhighlighter_3.0.83/styles/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="/pybshare/syntaxhighlighter_3.0.83/styles/shThemeRDark.css"/>
+<!-- for syntaxhighlighter required JS files -->
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+<script type="text/javascript" src="/pybshare/syntaxhighlighter_3.0.83/scripts/shAutoloader.js"></script>
+<!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
+<script type="text/javascript">
+function path(){
+    var args = arguments;
+    var result = [];
+    for(var i = 0; i < args.length; i++){
+      result.push(args[i].replace('@', '/pybshare/syntaxhighlighter_3.0.83/scripts/'));
+      };
+    return result;
+    };
+SyntaxHighlighter.autoloader.apply(null, path(
+    'applescript            @shBrushAppleScript.js',
+    'bash shell             @shBrushBash.js',
+    'css                    @shBrushCss.js',
+    'diff patch pas         @shBrushDiff.js',
+    'erl erlang             @shBrushErlang.js',
+    'js jscript javascript  @shBrushJScript.js',
+    'text plain             @shBrushPlain.js',
+    'py python              @shBrushPython.js',
+    'sass scss              @shBrushSass.js',
+    'sql                    @shBrushSql.js',
+    'xml xhtml xslt html    @shBrushXml.js'
+    ));
+
+SyntaxHighlighter.all()
+</script>
+
+<!-- for Disqus actions -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'zoomquietpyblosxomblogging'; // required: replace example with your forum shortname
+    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+    var disqus_identifier = "$(urlencode(file_path)).$(flavour)";
+    var disqus_url = "http://blog.zoomquiet.org$(base_url)/$(urlencode(file_path)).$(flavour)";
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<!-- Include the jQuery usage css 
+href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/>
+<link rel="stylesheet" type="text/css"  media="print" href="/pybstyle/jQrssPopupBubble.css" />
 -->
+<!-- Finally, to loading jQuery Ajax Lib. -->
 <script type="text/javascript" src="/pybshare/jquery-1.6.2.min.js"></script>
 <script src="/pybshare/jquery-pybactions.js" type="text/javascript"></script>
 
-<!-- for syntaxhighlighter_2.1.364_zh Include required JS files -->
-<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js"></script>
-<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushBash.js"></script>
-<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCss.js"></script>
-<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushDiff.js"></script>
-<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"></script>
-<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPlain.js"></script>
-<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPython.js"></script>
-<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushSql.js"></script>
-<script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js"></script>
-<!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
-<script type="text/javascript">
-     SyntaxHighlighter.all()
-</script>
 
-
-
-</body>
 </html>
