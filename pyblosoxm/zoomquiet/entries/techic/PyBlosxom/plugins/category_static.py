@@ -36,6 +36,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 """
 
+
 import math
 import os.path
 import time
@@ -44,9 +45,9 @@ from Pyblosxom import tools
 import Pyblosxom.entries
 #import re
 
-__author__ = 'Zoom.Quiet'
-__version__ = '10.4.20'
-__url__ = 'http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/'
+__author__ = 'Zoom.Quiet <zoomquiet+pyb at gmail dot com>'
+__version__ = '11.09.7'
+__url__ = "http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/category_static.html"
 __description__ = 'Displays an Category index as Tree for all entries. in one page'
 DEFAULT_ROOT = []
 def verify_installation(request):
@@ -149,8 +150,9 @@ def cb_filelist(args):
                     else:
                         body += '<H6>%s/</H6>'%"/".join(etree[p][0][3:])
             for e in etree[p][1:]:
-                body += '<span class="indents">%s</span><a href="%s%s.html">%s</a><br>\n'%(
-                        "..."*len(etree[p][0])
+                body += '<span id="%s" class="indents">%s</span><a href="%s%s.html">%s</a><br>\n'%(
+                        "/".join(etree[p][0])
+                        ,"..."*len(etree[p][0])
                         ,_baseurl
                         ,e[1]
                         ,e[0]

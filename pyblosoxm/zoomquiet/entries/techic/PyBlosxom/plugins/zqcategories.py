@@ -79,7 +79,8 @@ Copyright 2004, 2005, 2006 Will Guaraldi
 """
 __author__ = "Will Guaraldi - willg at bluesock dot org"
 __version__ = "$Id$"
-__url__ = "http://pyblosxom.sourceforge.net/"
+__url__ = "http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/zqcategories.html"
+#__url__ = "http://pyblosxom.sourceforge.net/"
 __description__ = "Builds a list of categories."
 
 from Pyblosxom import tools
@@ -249,3 +250,4 @@ def cb_prepare(args):
     request = args["request"]
     data = request.getData()
     data["categorylinks"] = PyblCategories(request)
+

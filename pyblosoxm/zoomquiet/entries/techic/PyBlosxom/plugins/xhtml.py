@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#tags techic,PyBlosxom,plugins
 """XHTML - html Parser
     - 仅仅适用于 t2t 输出的xhtml
 
@@ -33,7 +32,9 @@ PREFORMATTER_ID = 'xhtml'
 FILE_EXT = 'xhtml'
 __version__ = "v10.4.14"
 __author__ = 'Zoom.Quiet <Zoom.Quiet at gmail.com>'
-__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/xhtml.phtm"
+#__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/xhtml.phtm"
+__url__ = "http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/xhtml.html"
+
 __description__ = "txt2tags export xhmtl entry - Pyblosxom Parser."
 
 from Pyblosxom import tools
@@ -47,7 +48,11 @@ def parse(filename, request):
     ## 简单处理,基于 t2t 2.4.3
     source = open(filename,"r").readlines()
     body = "".join(source[11:-1])
+    #print source[6]
     title = source[6][7:-9]
+    #print source[14]
+    #tags = source[14][4:-6]
+    #print tags
     '''
     title = ""
     for line in open(filename,"r").readlines():
@@ -59,6 +64,7 @@ def parse(filename, request):
     '''
     entryData = {'body' : body
                  ,'title' : title
+                 #,'tags' : tags
                  #filename.replace(config['datadir'], '')
                  }
 

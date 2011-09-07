@@ -1,0 +1,306 @@
+升级到PyBlosxom 1.5rc3
+~ hack 几点
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+= 不折腾要死星人 =
+
+嗯嗯嗯，一清点，居然这么长时间没有发布正式点的 blog 了哪！
+- 想恢复每周的心得汇报，但是，俺有强迫症！
+    - PyBloxom 非常好玩，好用
+    - 但是，一直不甚完美
+    - 不过，这也是俺喜欢她的原因～ ``所有不完美之处，都可以自行 hacking!``
+
+
+
+:   所以:
+    - 安装了 Disqus
+    - 升級了 SyntaxHighlighter
+    - 修复了 py.py
+    - 修复了内置的分类索引
+
+
+
+== 评注 ==
+
+一直以来,PyBlosxom 没有内置一个靠谱的评注系统,是个囧事儿,
+- 现在,官方也想明白了,都 2.0时代了,不纠结了
+- [Comments — PyBlosxom v1.5 documentation http://pyblosxom.bluesock.org/1.5/comments.html#disqus]
+    - 直接建议上 [DISQUS http://disqus.com/]
+    - 为什么不呢?
+```
+好:
+    + 安装简单
+    + 内置spam 管理
+    + 支持提醒,回答,以及其它功能
+坏:
+    - 作为web服务,没有全权控制
+    - 可能难以迁移到其它服务/插件 ~ 虽然有评注的导出功能
+```
+
+反正,俺用了,,很轻松,,而且支持多种 SSO 认证!
+== SyntaxHighlighter ==
+之前,俺为了节省流量,使用了 官方提供的 hosting...
+- 结果伟大的功夫网,总是令展示效果不理想!
+- 现在想通了,直接升级 到 SyntaxHighlighter 3.0.83 
+- 并指向本地的各种资源
+- 比较贴心的是,这次有了 [Dynamic Brush Loading http://alexgorbatchev.com/SyntaxHighlighter/manual/api/autoloader.html]
+    - 不用象以往,逐一JS 的加载了
+
+```
+#! js ; highlight: [1,5,9]
+function path(){
+    var args = arguments;
+    var result = [];
+    for(var i = 0; i < args.length; i++){
+      result.push(args[i].replace('@', '/pybshare/syntaxhighlighter_3.0.83/scripts/'));
+      };
+    return result;
+    };
+SyntaxHighlighter.autoloader.apply(null, path(
+    'applescript            @shBrushAppleScript.js',
+    'bash shell             @shBrushBash.js',
+    'css                    @shBrushCss.js',
+    'diff patch pas         @shBrushDiff.js',
+    'erl erlang             @shBrushErlang.js',
+    'js jscript javascript  @shBrushJScript.js',
+    'text plain             @shBrushPlain.js',
+    'py python              @shBrushPython.js',
+    'sass scss              @shBrushSass.js',
+    'sql                    @shBrushSql.js',
+    'xml xhtml xslt html    @shBrushXml.js'
+    ));
+
+SyntaxHighlighter.all()
+```
+
+
+:   PS:
+    - 也有更加轻量的 [prettify http://code.google.com/p/google-code-prettify/]
+    - 但是,没有 SyntaxHighlighter 的高亮功能
+    - 而且,已经和 t2t 深度定制过,使用很好,也就不追赶了,,,
+
+
+== 插件 ==
+1.5 的插件体系好象有所变化,不那么简单的可以理解了,,,
+
+
+=== py2pre.py ===
+[py2pre.py http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/py2pre.html]
+
+
+: 意图:
+    - 简单的将目录中的 .py 脚本渲染成合适的 html 展示
+
+
+: 问题:
+    - [PyBlosxom - main site - py http://pyblosxom.bluesock.org/registry/text/py.html]
+    - 原先的老插件已经失效,在静态渲染时不触发了
+
+
+
+: 解决:
+    - 根据1.5.* 的文档 [Writing an entryparser — PyBlosxom v1.5 documentation http://pyblosxom.bluesock.org/1.5/dev_writing_plugins.html#writing-an-entryparser]
+    - 快速山寨了一个 [py2pre.py http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/py2pre.html]
+
+
+
+: 技巧:
+    - 直接复用 SyntaxHighlighter 的效能
+    - 将所有脚本内容丢到约定的 ``<pre>`` 中就好
+
+```
+#! python ; highlight: [5]
+#...
+def parse(filename, request):
+    entrydata = {}
+    source = open(filename, "r").read()
+    body = '<pre class="brush: python">%s</pre>' % source
+    entrydata = {'body' : body
+                 ,'title' : filename.split("/")[-1]
+                 }
+    return entrydata
+
+```
+
+
+=== cp4idx2category.py ===
+
+这货不是 PyBlosxom 标准插件,只是发布辅助脚本
+
+
+: 问题:
+    - 发现使用 ``pyblosxom-cmd staticrender --config </path/2/config.py>`` 生成的静态页面,分类索引页面有问题:
+        - 正常的分类索引中,只包含目录中一个文章
+        - 如果是 非内容目录,比如说py 脚本目录,倒是可以包含所有内容,可页面输出又有乱码
+
+
+
+: 尝试:
+    - 吼了列表,没人理
+    - 也忘记以前是否正当了
+    - 追踪代码:
+
+
+```
+#! shell
+Traceback (most recent call last):
+  File "/usr/local/bin/pyblosxom-cmd", line 25, in <module>
+    sys.exit(command_line_handler("pyblosxom-cmd", sys.argv))
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/commandline.py", line 466, in command_line_handler
+    return f(command, argv)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/commandline.py", line 362, in run_static_renderer
+    return p.run_static_renderer(options.incremental)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 409, in run_static_renderer
+    tools.render_url_statically(config, url, q)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 940, in render_url_statically
+    response = render_url(cdict, url, querystring)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 983, in render_url
+    p.run(static=True)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 182, in run
+    blosxom_handler(self._request)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 947, in blosxom_handler
+    renderer.render()
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 330, in render
+    content = self.render_content(self._content)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 273, in render_content
+    self.render_template(parse_vars, "story", override=1))
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 370, in render_template
+    {"entry": entry, "template": template})
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 405, in _run_callback
+    defaultfunc=lambda x:x)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 780, in run_callback
+    output = func(input)
+  File "/home/zoomq/workspace/3hg/zoomquiet-default/pyblosoxm/zoomquiet/plugins/preformatter/markdown-plugin.py", line 44, in cb_story
+...
+
+```
+
+日!这么深的调用栈?!
+```
+#! text
+pyblosxom-cmd   命令工具
+    |
+    +-> commandline.py  解析参数,准备环境
+        |
+        +-> pyblosxom.py    调用工具
+             ^      |
+             |      +-> tools.py    组织插件,参数
+             |          |
+             +----<-----+   嗯嗯嗯?!回调 pyblosxom.py 
+             使用 renderer.render() 和动态网站流程一样,输出内容
+
+```
+    - FT! 具体分类目录在哪个环节生成基本找遍不到了,,,因为将所有需要渲染的,都丢到一个列表中了,,
+
+
+
+: 解决:
+    - 其实复杂的技术问题,总是有很2的解决方案的
+    - 既然难以解决原有的渲染问题,那么 **使用期待的页面替换有问题的就KO的哈!**
+        - 俺的 [category_static.py http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/category_static.html] 插件生成的树状索引: [category-index.html http://blog.zoomquiet.org/pyblosxom/category-index.html] 很可以
+        - 那么对其进行相关裁剪,复制到对应目录中不就得了!?
+
+先小小的增补一下[category_static.py http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/category_static.html]
+```
+#! python ; highlight: [3,4]
+# ...
+for e in etree[p][1:]:
+    body += '<span id="%s" class="indents">%s</span><a href="%s%s.html">%s</a><br>\n'%(
+            "/".join(etree[p][0])
+            ,"..."*len(etree[p][0])
+            ,_baseurl
+            ,e[1]
+            ,e[0]
+            )
+
+
+```
+    - 在前导空间的span 中增加代表文章所在分类目录的 id
+
+
+那么 ``cp4idx2category.py``就可以简单的完成了:
+```
+#! python
+# -*- coding: utf-8 -*-
+'''
+将 category_static.py 生成的树状分类索引页面，复制并修订为各个目录中的 index.html
+'''
+__version__ = 'cp4idx2category v11.09.7'
+__author__ = 'Zoom.Quiet <zoomquiet+pyb at gmail dot com>'
+
+import os
+import sys
+import re
+import shutil
+
+def cp4gen(path):
+    IDX = "%s/category-index.html"% path
+    p = re.compile("%s\/\d{4}"%path )
+    for root, dirs, files in os.walk(path):
+        if path == root:
+            pass
+        elif p.match(root):
+            pass
+        elif "plugin_info" in root:
+            pass
+        else:
+            aimpath = root.replace(path,"")
+            exp = ""
+            for i in open(IDX,'r'):
+                if '<span id="' in i:
+                    if aimpath in i:
+                        exp += i
+                else:
+                    exp += i
+            open("%s/index.html"% root,"w").write(exp)
+    return
+
+if __name__ == '__main__':      # this way the module can be
+    if 2 != len(sys.argv):
+        print """ %s usage::
+$ python cp4idx2category.py path/2/_static
+            |               +- 生成的静态页面入口
+            +- 脚本自身
+        """ % VERSION
+    else:
+        path = sys.argv[1]
+        cp4gen(path)
+
+```
+
+**只要每次,完成静态整站渲染后,用cp4idx2category.py刷一下,就KO!**
+
+== TODO ==
+``不断维护的完美之折腾...``
+
+:   PyBlosxom 静态化发布体系:
++ Hg/Git 的 hooks 开发部署
++ dot 的自动包含图片热区定义的 t2t 处理
++ Leo 中的自动化发布脚本按钮
+
+
+
+= 时间帐单 =
++ ~0.01h    起意，要折腾
++ ~.5h      SyntaxHighlighter升級
++ ~2.5h     DISQUS 加装,主要是注册和文档查阅耗时
++ ~1h       列表吼,E文真的很难以表述清楚...
++ ~1h       py2pre.py 重构完成
++ ~1h       cp4idx2category.py 山寨完成
++ ~1.5h     记录成文
+
+合计,7小时,哗,,,,
+
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+

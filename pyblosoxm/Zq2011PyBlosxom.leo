@@ -52,8 +52,8 @@
 <v t="ZoomQuiet.20060122153701.1"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
 <v t="ZoomQuiet.20060121172947.1"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
 </v>
-<v t="zoomq.20101230094009.5511"><vh>撰写ing..</vh>
-<v t="ZoomQuiet.20060124152735"><vh>gen4dot2htm-py.t2t</vh>
+<v t="zoomq.20101230094009.5511" a="E"><vh>撰写ing..</vh>
+<v t="ZoomQuiet.20060124152735" a="E"><vh>gen4dot2htm-py.t2t</vh>
 <v t="zoomq.20100910090235.9593"><vh>5W1H</vh></v>
 <v t="zoomq.20100910090235.9594"><vh>zqlog</vh></v>
 <v t="zoomq.20100910090235.9595"><vh>智能参数？</vh></v>
@@ -65,7 +65,7 @@
 </v>
 <v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
 </v>
-<v t="ZoomQuiet.20060113092644"><vh>entries</vh>
+<v t="ZoomQuiet.20060113092644" a="E"><vh>entries</vh>
 <v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
 <v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
 <v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
@@ -351,9 +351,9 @@
 </v>
 <v t="zoomq.20100414115206.4538"><vh>utility</vh>
 <v t="ZoomQuiet.20060116170508"><vh>py4gui</vh></v>
-<v t="ZoomQuiet.20060116170643"><vh>py4str</vh>
-<v t="zoomq.20100414115206.4235"><vh>StructuredText</vh>
-<v t="zoomq.20100414115206.4236"><vh>@nosent rst2s5-usage-2010-09-18-23-23.t2t</vh>
+<v t="ZoomQuiet.20060116170643" a="E"><vh>py4str</vh>
+<v t="zoomq.20100414115206.4235" a="E"><vh>StructuredText</vh>
+<v t="zoomq.20100414115206.4236" a="E"><vh>@nosent rst2s5-usage-2010-09-18-23-23.t2t</vh>
 <v t="zoomq.20100920084035.5440"><vh>起</vh></v>
 <v t="zoomq.20100920084035.5441"><vh>用</vh></v>
 <v t="zoomq.20100920084035.9975"><vh>初步</vh></v>
@@ -474,7 +474,7 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060116170256.2"><vh>ZqLib</vh>
-<v t="zoomq.20100910090235.9589"><vh>@nosent MD5-2006-01-24-23-23.t2t</vh>
+<v t="zoomq.20100910090235.9589" a="E"><vh>@nosent MD5-2006-01-24-23-23.t2t</vh>
 <v t="ZoomQuiet.20060122153701.1"></v>
 <v t="ZoomQuiet.20060121172947.1"></v>
 <v t="zoomq.20100910090235.9590"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
@@ -548,21 +548,16 @@
 <v t="zoomq.20100817094645.4076"><vh>Nginx配置</vh></v>
 <v t="zoomq.20060916180156.12"></v>
 <v t="zoomq.20100728103610.7583"></v>
-<v t="zoomq.20100714100009.4008"><vh>@nosent not-doc-2006-05-31-12-00.t2t</vh>
-<v t="zoomq.20100714100009.4009"><vh>noDOC</vh></v>
-<v t="ZoomQuiet.20060122153701.1"></v>
-<v t="ZoomQuiet.20060121172947.1"></v>
-</v>
 <v t="zoomq.20100714100833.4002"><vh>我的”怪癖” (作业)</vh></v>
 </v>
-<v t="ZoomQuiet.20060116170040.5"><vh>techic</vh>
+<v t="ZoomQuiet.20060116170040.5" a="E"><vh>techic</vh>
 <v t="zoomq.20100414115206.4542"><vh>Emacs</vh>
 <v t="zoomq.20100414115206.4558"><vh>@nosent fw_learning_emacs_notes-2007-03-08-18-00.t2t</vh>
 <v t="zoomq.20100414115206.4534"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20100414115206.4391"><vh>PyBlosxom</vh>
-<v t="zoomq.20100414115206.4530"><vh>运维日志</vh>
+<v t="zoomq.20100414115206.4391" a="E"><vh>PyBlosxom</vh>
+<v t="zoomq.20100414115206.4530" a="E"><vh>运维日志</vh>
 <v t="zoomq.20100414115206.4531"><vh>@nosent operacss2-2006-01-28-10-00.t2t</vh>
 <v t="zoomq.20100414115206.4532"><vh>what?</vh></v>
 <v t="zoomq.20100414115206.4533"><vh>fixed</vh></v>
@@ -570,7 +565,7 @@
 <v t="zoomq.20100414115206.4535"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
 <v t="zoomq.20100414115206.4536"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
 </v>
-<v t="zoomq.20100420100426.5527"><vh>@nosent relivin-pyblosxom-2010-04-18-23-23.t2t</vh>
+<v t="zoomq.20100420100426.5527" a="E"><vh>@nosent relivin-pyblosxom-2010-04-18-23-23.t2t</vh>
 <v t="zoomq.20100420100426.5528"><vh>what?</vh></v>
 <v t="zoomq.20100420100426.5529"><vh>plan</vh></v>
 <v t="zoomq.20100910090235.9600"><vh>SyntaxHighlighter</vh></v>
@@ -578,9 +573,20 @@
 <v t="zoomq.20100414115206.4534"></v>
 <v t="zoomq.20100414115206.4535"></v>
 </v>
+<v t="zoomq.20110907090950.6589" a="E"><vh>@nosent upinto-pyblosxom15rc3-2011-09-07-12-23.t2t</vh>
+<v t="zoomq.20110907090950.6590"><vh>what?</vh></v>
+<v t="zoomq.20110907090950.6592"><vh>SyntaxHighlighter</vh></v>
+<v t="zoomq.20110907090950.6596" a="E"><vh>hacking</vh>
+<v t="zoomq.20110907090950.6597"><vh>=== py2pre.py ===</vh></v>
+<v t="zoomq.20110907090950.6598"><vh>=== cp4idx2category.py ===</vh></v>
+</v>
+<v t="zoomq.20110907090950.6593"><vh>TODO</vh></v>
+<v t="zoomq.20110907090950.6594"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
+<v t="zoomq.20110907090950.6595"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
+</v>
 </v>
 <v t="zoomq.20100414115206.4472"><vh>ZqPb+</vh>
-<v t="zoomq.20100414115206.4473"><vh>@nosent zqcategory-2006-01-28-17-00.t2t</vh>
+<v t="zoomq.20100414115206.4473" a="E"><vh>@nosent zqcategory-2006-01-28-17-00.t2t</vh>
 <v t="zoomq.20100414115206.4474"><vh>why?</vh></v>
 <v t="zoomq.20100414115206.4475"><vh>log</vh></v>
 <v t="zoomq.20100414115206.4534"></v>
@@ -667,16 +673,21 @@
 <v t="ZoomQuiet.20060317180750"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
 </v>
 </v>
+<v t="zoomq.20100714100009.4008"><vh>@nosent not-doc-2006-05-31-12-00.t2t</vh>
+<v t="zoomq.20100714100009.4009"><vh>noDOC</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
 </v>
 <v t="ZoomQuiet.20060113151604" a="E"><vh>hacking</vh>
-<v t="ZoomQuiet.20060117230430" a="E"><vh>flavours</vh>
-<v t="zoomq.20110503084352.4319" a="E"><vh>html.flav</vh>
+<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
+<v t="zoomq.20110503084352.4319"><vh>html.flav</vh>
 <v t="zoomq.20110503084352.4320"><vh>@nosent category_list</vh></v>
 <v t="zoomq.20110503084352.4321"><vh>@nosent content_type</vh></v>
 <v t="zoomq.20110503084352.4322"><vh>@nosent date_head</vh></v>
 <v t="zoomq.20110503084352.4324"><vh>@nosent head</vh></v>
 <v t="zoomq.20110503084352.4326"><vh>@nosent story</vh></v>
-<v t="zoomq.20110503084352.4323" a="E"><vh>@nosent foot</vh>
+<v t="zoomq.20110503084352.4323"><vh>@nosent foot</vh>
 <v t="zoomq.20110503084352.4334"><vh>&lt;&lt;JS loader&gt;&gt;</vh></v>
 <v t="zoomq.20110503084352.4329" a="E"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
 <v t="zoomq.20110503084352.4336"><vh>search text box</vh></v>
@@ -764,142 +775,18 @@
 <v t="ZoomQuiet.20060121185526"><vh>@nosent foot.rss20</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060127153926"><vh>core</vh>
-<v t="zoomq.20110831211902.4849"><vh>@nosent commandline.py</vh>
-<v t="zoomq.20110831211902.4850"><vh>commandline declarations</vh></v>
-<v t="zoomq.20110831211902.4851"><vh>pwrap</vh></v>
-<v t="zoomq.20110831211902.4852"><vh>pwrap_error</vh></v>
-<v t="zoomq.20110831211902.4853"><vh>build_pyblosxom</vh></v>
-<v t="zoomq.20110831211902.4854"><vh>build_parser</vh></v>
-<v t="zoomq.20110831211902.4855"><vh>test_installation</vh></v>
-<v t="zoomq.20110831211902.4856"><vh>create_blog</vh></v>
-<v t="zoomq.20110831211902.4857"><vh>render_url</vh></v>
-<v t="zoomq.20110831211902.4858"><vh>run_static_renderer</vh></v>
-<v t="zoomq.20110831211902.4859"><vh>get_handlers</vh></v>
-<v t="zoomq.20110831211902.4860"><vh>command_line_handler</vh></v>
-</v>
-<v t="zoomq.20110831211902.4869"><vh>@nosent pyblosxom.py</vh>
-<v t="zoomq.20110831211902.4870"><vh>pyblosxom declarations</vh></v>
-<v t="zoomq.20110831211902.4871"><vh>class PyBlosxom</vh>
-<v t="zoomq.20110831211902.4872"><vh>__init__</vh></v>
-<v t="zoomq.20110831211902.4873"><vh>initialize</vh></v>
-<v t="zoomq.20110831211902.4874"><vh>cleanup</vh></v>
-<v t="zoomq.20110831211902.4875"><vh>get_request</vh></v>
-<v t="zoomq.20110831211902.4876"><vh>get_response</vh></v>
-<v t="zoomq.20110831211902.4877"><vh>run</vh></v>
-<v t="zoomq.20110831211902.4878"><vh>run_callback</vh></v>
-<v t="zoomq.20110831211902.4879"><vh>run_render_one</vh></v>
-<v t="zoomq.20110831211902.4880"><vh>run_static_renderer</vh>
-<v t="zoomq.20110831211902.4971"><vh>&lt;&lt;cfg&gt;&gt;</vh></v>
-<v t="zoomq.20110831211902.4972"><vh>&lt;&lt;static_month&gt;&gt;</vh></v>
-<v t="zoomq.20110831211902.4973"><vh>&lt;&lt;static_categories&gt;&gt;</vh></v>
+<v t="ZoomQuiet.20060123104045" a="E"><vh>plugins</vh>
+<v t="zoomq.20100414115206.4559"><vh>@nosent cp4idx2category.py</vh>
+<v t="zoomq.20100414115206.4560"><vh>declarations</vh></v>
+<v t="zoomq.20100414115206.4561" a="E"><vh>cp4gen(path)</vh>
+<v t="zoomq.20110907090950.6581"><vh>&lt;&lt;cp as ind&gt;&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110831211902.4881"><vh>class PyBlosxomWSGIApp</vh>
-<v t="zoomq.20110831211902.4882"><vh>__init__</vh></v>
-<v t="zoomq.20110831211902.4883"><vh>run_pyblosxom</vh></v>
-<v t="zoomq.20110831211902.4884"><vh>__call__</vh></v>
-<v t="zoomq.20110831211902.4885"><vh>__iter__</vh></v>
+<v t="zoomq.20110907090950.6578"><vh>@nosent cleant2t.py</vh>
+<v t="zoomq.20110907090950.6579"><vh>cleant2t declarations</vh></v>
+<v t="zoomq.20110907090950.6580"><vh>clean2entry</vh></v>
 </v>
-<v t="zoomq.20110831211902.4886"><vh>pyblosxom_app_factory</vh></v>
-<v t="zoomq.20110831211902.4887"><vh>class EnvDict</vh>
-<v t="zoomq.20110831211902.4888"><vh>__init__</vh></v>
-<v t="zoomq.20110831211902.4889"><vh>__getitem__</vh></v>
-</v>
-<v t="zoomq.20110831211902.4890"><vh>class Request</vh>
-<v t="zoomq.20110831211902.4891"><vh>__init__</vh></v>
-<v t="zoomq.20110831211902.4892"><vh>__iter__</vh></v>
-<v t="zoomq.20110831211902.4893"><vh>buffer_input_stream</vh></v>
-<v t="zoomq.20110831211902.4894"><vh>set_response</vh></v>
-<v t="zoomq.20110831211902.4895"><vh>get_response</vh></v>
-<v t="zoomq.20110831211902.4896"><vh>_getform</vh></v>
-<v t="zoomq.20110831211902.4897"><vh>get_form</vh></v>
-<v t="zoomq.20110831211902.4898"><vh>get_configuration</vh></v>
-<v t="zoomq.20110831211902.4899"><vh>get_http</vh></v>
-<v t="zoomq.20110831211902.4900"><vh>get_data</vh></v>
-<v t="zoomq.20110831211902.4901"><vh>add_http</vh></v>
-<v t="zoomq.20110831211902.4902"><vh>add_data</vh></v>
-<v t="zoomq.20110831211902.4903"><vh>add_configuration</vh></v>
-<v t="zoomq.20110831211902.4904"><vh>__getattr__</vh></v>
-<v t="zoomq.20110831211902.4905"><vh>__repr__</vh></v>
-</v>
-<v t="zoomq.20110831211902.4906"><vh>class Response</vh>
-<v t="zoomq.20110831211902.4907"><vh>__init__</vh></v>
-<v t="zoomq.20110831211902.4908"><vh>__iter__</vh></v>
-<v t="zoomq.20110831211902.4909"><vh>set_status</vh></v>
-<v t="zoomq.20110831211902.4910"><vh>get_status</vh></v>
-<v t="zoomq.20110831211902.4911"><vh>add_header</vh></v>
-<v t="zoomq.20110831211902.4912"><vh>get_headers</vh></v>
-<v t="zoomq.20110831211902.4913"><vh>send_headers</vh></v>
-<v t="zoomq.20110831211902.4914"><vh>send_body</vh></v>
-</v>
-<v t="zoomq.20110831211902.4915"><vh>blosxom_handler</vh></v>
-<v t="zoomq.20110831211902.4916"><vh>blosxom_entry_parser</vh></v>
-<v t="zoomq.20110831211902.4917"><vh>blosxom_file_list_handler</vh></v>
-<v t="zoomq.20110831211902.4918"><vh>blosxom_sort_list_handler</vh></v>
-<v t="zoomq.20110831211902.4919"><vh>blosxom_truncate_list_handler</vh></v>
-<v t="zoomq.20110831211902.4920"><vh>blosxom_process_path_info</vh></v>
-<v t="zoomq.20110831211902.4921"><vh>run_pyblosxom</vh></v>
-</v>
-<v t="zoomq.20110831211902.4922"><vh>@nosent tools.py</vh>
-<v t="zoomq.20110831211902.4923"><vh>tools declarations</vh></v>
-<v t="zoomq.20110831211902.4924"><vh>initialize</vh></v>
-<v t="zoomq.20110831211902.4925"><vh>deprecated_function</vh></v>
-<v t="zoomq.20110831211902.4926"><vh>class ConfigSyntaxErrorException</vh></v>
-<v t="zoomq.20110831211902.4927"><vh>convert_configini_values</vh></v>
-<v t="zoomq.20110831211902.4928"><vh>escape_text</vh></v>
-<v t="zoomq.20110831211902.4929"><vh>urlencode_text</vh></v>
-<v t="zoomq.20110831211902.4930"><vh>class Stripper</vh>
-<v t="zoomq.20110831211902.4931"><vh>__init__</vh></v>
-<v t="zoomq.20110831211902.4932"><vh>unknown_starttag</vh></v>
-<v t="zoomq.20110831211902.4933"><vh>unknown_endtag</vh></v>
-<v t="zoomq.20110831211902.4934"><vh>handle_data</vh></v>
-<v t="zoomq.20110831211902.4935"><vh>gettext</vh></v>
-</v>
-<v t="zoomq.20110831211902.4936"><vh>commasplit</vh></v>
-<v t="zoomq.20110831211902.4937"><vh>class Replacer</vh>
-<v t="zoomq.20110831211902.4938"><vh>__init__</vh></v>
-<v t="zoomq.20110831211902.4939"><vh>replace</vh></v>
-</v>
-<v t="zoomq.20110831211902.4940"><vh>parse</vh></v>
-<v t="zoomq.20110831211902.4941"><vh>walk</vh></v>
-<v t="zoomq.20110831211902.4942"><vh>_walk_internal</vh></v>
-<v t="zoomq.20110831211902.4943"><vh>filestat</vh></v>
-<v t="zoomq.20110831211902.4944"><vh>what_ext</vh></v>
-<v t="zoomq.20110831211902.4945"><vh>is_year</vh></v>
-<v t="zoomq.20110831211902.4946"><vh>importname</vh></v>
-<v t="zoomq.20110831211902.4947"><vh>generate_rand_str</vh></v>
-<v t="zoomq.20110831211902.4948"><vh>run_callback</vh></v>
-<v t="zoomq.20110831211902.4949"><vh>addcr</vh></v>
-<v t="zoomq.20110831211902.4950"><vh>create_entry</vh></v>
-<v t="zoomq.20110831211902.4951"><vh>get_cache</vh></v>
-<v t="zoomq.20110831211902.4952"><vh>update_static_entry</vh></v>
-<v t="zoomq.20110831211902.4953"><vh>render_url_statically</vh></v>
-<v t="zoomq.20110831211902.4954"><vh>render_url</vh></v>
-<v t="zoomq.20110831211902.4955"><vh>class LogFilter</vh>
-<v t="zoomq.20110831211902.4956"><vh>__init__</vh></v>
-<v t="zoomq.20110831211902.4957"><vh>filter</vh></v>
-</v>
-<v t="zoomq.20110831211902.4958"><vh>get_logger</vh></v>
-<v t="zoomq.20110831211902.4959"><vh>log_exception</vh></v>
-<v t="zoomq.20110831211902.4960"><vh>log_caller</vh></v>
-</v>
-<v t="zoomq.20110831211902.4861" a="E"><vh>@nosent plugin_utils.py</vh>
-<v t="zoomq.20110831211902.4862"><vh>plugin_utils declarations</vh></v>
-<v t="zoomq.20110831211902.4863"><vh>catalogue_plugin</vh></v>
-<v t="zoomq.20110831211902.4864"><vh>get_callback_chain</vh></v>
-<v t="zoomq.20110831211902.4865"><vh>initialize_plugins</vh></v>
-<v t="zoomq.20110831211902.4866"><vh>get_plugin_by_name</vh></v>
-<v t="zoomq.20110831211902.4867"><vh>get_module_name</vh></v>
-<v t="zoomq.20110831211902.4868"><vh>get_plugin_list</vh></v>
-</v>
-</v>
-<v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
-<v t="zoomq.20100414115206.4559"><vh>@nosent cleant2t.py</vh>
-<v t="zoomq.20100414115206.4560"><vh>cleant2t declarations</vh></v>
-<v t="zoomq.20100414115206.4561"><vh>clean2entry</vh></v>
-</v>
-<v t="ZoomQuiet.20060113155741" a="E"><vh>preformaters</vh>
+<v t="ZoomQuiet.20060113155741"><vh>preformatter</vh>
 <v t="ZoomQuiet.20060122144657"><vh>为t2t</vh>
 <v t="ZoomQuiet.20060121163046"><vh>@nosent xhtml.py</vh>
 <v t="ZoomQuiet.20060121163046.1"><vh>&lt;&lt; xhtml declarations &gt;&gt;</vh>
@@ -1097,22 +984,58 @@
 <v t="zoomq.20100414115206.4893"><vh>exec_command_line</vh></v>
 </v>
 </v>
-<v t="zoomq.20110831211902.4966" a="E"><vh>@nosent py.py</vh>
+<v t="zoomq.20110907090950.6570"><vh>@nosent py2pre.py</vh>
+<v t="zoomq.20110907090950.6571" a="E"><vh>&lt;&lt; declarations &gt;&gt;</vh>
+<v t="zoomq.20110907090950.6572"><vh>&lt;&lt;CopyLeft&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20110907090950.6573"><vh>cb_entryparser</vh></v>
+<v t="zoomq.20110907090950.6574"><vh>parse</vh></v>
+</v>
+<v t="zoomq.20110907090950.6554"><vh>为.py</vh>
+<v t="zoomq.20110907090950.6534"><vh>py2pre.py</vh>
+<v t="zoomq.20110907090950.6535"><vh>&lt;&lt;declarations&gt;&gt;</vh>
+<v t="zoomq.20110907090950.6539"><vh>&lt;&lt;CopyLeft&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20110907090950.6541"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20110831211902.4966"><vh>cb_entryparser py.py</vh>
 <v t="zoomq.20110831211902.4967"><vh>&lt;&lt; xhtml declarations &gt;&gt;</vh>
 <v t="zoomq.20110831211902.4968"><vh>&lt;&lt;CopyLeft&gt;&gt;</vh></v>
 </v>
 <v t="zoomq.20110831211902.4969"><vh>cb_entryparser</vh></v>
 <v t="zoomq.20110831211902.4970"><vh>parse</vh></v>
 </v>
+<v t="zoomq.20110907090950.6548"><vh>cb_preformat py.py</vh>
+<v t="zoomq.20110907090950.6549"><vh>&lt;&lt;declarations&gt;&gt;</vh>
+<v t="zoomq.20110907090950.6550"><vh>&lt;&lt;CopyLeft&gt;&gt;</vh></v>
+</v>
+<v t="zoomq.20110907090950.6551"><vh>cb_preformat</vh></v>
+<v t="zoomq.20110907090950.6553"><vh>parse</vh></v>
+</v>
 <v t="ZoomQuiet.20060122150604"><vh>Orig. py.py</vh>
 <v t="ZoomQuiet.20060122150604.1"><vh>&lt;&lt; py declarations &gt;&gt;</vh></v>
 <v t="ZoomQuiet.20060122150604.2"><vh>cb_entryparser</vh></v>
 <v t="ZoomQuiet.20060122150604.3"><vh>parse</vh></v>
-<v t="ZoomQuiet.20060122150604.4"><vh>class Parser</vh>
+<v t="ZoomQuiet.20060122150604.4" a="E"><vh>class Parser</vh>
 <v t="ZoomQuiet.20060122150604.5"><vh>__init__</vh></v>
 <v t="ZoomQuiet.20060122150604.6"><vh>format</vh></v>
 <v t="ZoomQuiet.20060122150604.7"><vh>__call__</vh></v>
 </v>
+</v>
+</v>
+<v t="zoomq.20110907090950.6523"><vh>@nosent markdown-plugin.py</vh>
+<v t="zoomq.20110907090950.6524"><vh>markdown-plugin declarations</vh></v>
+<v t="zoomq.20110907090950.6525"><vh>cb_story</vh></v>
+</v>
+<v t="zoomq.20110907090950.6526"><vh>genericwiki.py</vh>
+<v t="zoomq.20110907090950.6527"><vh>genericwiki declarations</vh></v>
+<v t="zoomq.20110907090950.6528"><vh>cb_preformat</vh></v>
+<v t="zoomq.20110907090950.6529"><vh>parse</vh></v>
+</v>
+<v t="zoomq.20110907090950.6519"><vh>linebreaks.py</vh>
+<v t="zoomq.20110907090950.6520"><vh>linebreaks declarations</vh></v>
+<v t="zoomq.20110907090950.6521"><vh>cb_preformat</vh></v>
+<v t="zoomq.20110907090950.6522"><vh>parse</vh></v>
 </v>
 <v t="ZoomQuiet.20060113182537"><vh>@nosent moinmoin.py</vh>
 <v t="ZoomQuiet.20060113182537.1"><vh>&lt;&lt; moinmoin declarations &gt;&gt;</vh></v>
@@ -1122,18 +1045,18 @@
 <v t="ZoomQuiet.20060113182537.5"><vh>parse</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060128153018"><vh>zqpyb+</vh>
+<v t="ZoomQuiet.20060128153018" a="E"><vh>zqpyb+</vh>
 <v t="ZoomQuiet.20060128161220"><vh>__stuff</vh>
 <v t="zoomq.20100420100426.5502"><vh>_pushsubdir()</vh></v>
 <v t="zoomq.20100420100426.5500"><vh>try文章结构列表</vh></v>
 </v>
-<v t="zoomq.20100420100426.5124"><vh>@nosent category_static.py</vh>
+<v t="zoomq.20100420100426.5124" a="E"><vh>@nosent category_static.py</vh>
 <v t="zoomq.20100420100426.5125"><vh>&lt;&lt;declarations&gt;&gt;</vh></v>
 <v t="zoomq.20100420100426.5126"><vh>verify_installation</vh></v>
-<v t="zoomq.20100420100426.5127"><vh>cb_filelist</vh>
+<v t="zoomq.20100420100426.5127" a="E"><vh>cb_filelist</vh>
 <v t="zoomq.20100420100426.5129"><vh>gen_dict</vh></v>
 <v t="zoomq.20100420100426.5130"><vh>gen_tree</vh></v>
-<v t="zoomq.20100514091552.4530"><vh>gen_html</vh>
+<v t="zoomq.20100514091552.4530" a="E"><vh>gen_html</vh>
 <v t="zoomq.20100514091552.4532"><vh>&lt;&lt;item link&gt;&gt;</vh></v>
 </v>
 </v>
@@ -1459,8 +1382,138 @@
 </v>
 </v>
 </v>
+<v t="ZoomQuiet.20060127153926"><vh>core</vh>
+<v t="zoomq.20110831211902.4849"><vh>@nosent commandline.py</vh>
+<v t="zoomq.20110831211902.4850"><vh>commandline declarations</vh></v>
+<v t="zoomq.20110831211902.4851"><vh>pwrap</vh></v>
+<v t="zoomq.20110831211902.4852"><vh>pwrap_error</vh></v>
+<v t="zoomq.20110831211902.4853"><vh>build_pyblosxom</vh></v>
+<v t="zoomq.20110831211902.4854"><vh>build_parser</vh></v>
+<v t="zoomq.20110831211902.4855"><vh>test_installation</vh></v>
+<v t="zoomq.20110831211902.4856"><vh>create_blog</vh></v>
+<v t="zoomq.20110831211902.4857"><vh>render_url</vh></v>
+<v t="zoomq.20110831211902.4858"><vh>run_static_renderer</vh></v>
+<v t="zoomq.20110831211902.4859"><vh>get_handlers</vh></v>
+<v t="zoomq.20110831211902.4860"><vh>command_line_handler</vh></v>
 </v>
-<v t="ZoomQuiet.20060113092617" a="E"><vh>web配置</vh>
+<v t="zoomq.20110831211902.4869"><vh>@nosent pyblosxom.py</vh>
+<v t="zoomq.20110831211902.4870"><vh>pyblosxom declarations</vh></v>
+<v t="zoomq.20110831211902.4871"><vh>class PyBlosxom</vh>
+<v t="zoomq.20110831211902.4872"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4873"><vh>initialize</vh></v>
+<v t="zoomq.20110831211902.4874"><vh>cleanup</vh></v>
+<v t="zoomq.20110831211902.4875"><vh>get_request</vh></v>
+<v t="zoomq.20110831211902.4876"><vh>get_response</vh></v>
+<v t="zoomq.20110831211902.4877"><vh>run</vh></v>
+<v t="zoomq.20110831211902.4878"><vh>run_callback</vh></v>
+<v t="zoomq.20110831211902.4879"><vh>run_render_one</vh></v>
+<v t="zoomq.20110831211902.4880"><vh>run_static_renderer</vh>
+<v t="zoomq.20110831211902.4971"><vh>&lt;&lt;cfg&gt;&gt;</vh></v>
+<v t="zoomq.20110831211902.4972"><vh>&lt;&lt;static_month&gt;&gt;</vh></v>
+<v t="zoomq.20110831211902.4973"><vh>&lt;&lt;static_categories&gt;&gt;</vh></v>
+</v>
+</v>
+<v t="zoomq.20110831211902.4881"><vh>class PyBlosxomWSGIApp</vh>
+<v t="zoomq.20110831211902.4882"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4883"><vh>run_pyblosxom</vh></v>
+<v t="zoomq.20110831211902.4884"><vh>__call__</vh></v>
+<v t="zoomq.20110831211902.4885"><vh>__iter__</vh></v>
+</v>
+<v t="zoomq.20110831211902.4886"><vh>pyblosxom_app_factory</vh></v>
+<v t="zoomq.20110831211902.4887"><vh>class EnvDict</vh>
+<v t="zoomq.20110831211902.4888"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4889"><vh>__getitem__</vh></v>
+</v>
+<v t="zoomq.20110831211902.4890"><vh>class Request</vh>
+<v t="zoomq.20110831211902.4891"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4892"><vh>__iter__</vh></v>
+<v t="zoomq.20110831211902.4893"><vh>buffer_input_stream</vh></v>
+<v t="zoomq.20110831211902.4894"><vh>set_response</vh></v>
+<v t="zoomq.20110831211902.4895"><vh>get_response</vh></v>
+<v t="zoomq.20110831211902.4896"><vh>_getform</vh></v>
+<v t="zoomq.20110831211902.4897"><vh>get_form</vh></v>
+<v t="zoomq.20110831211902.4898"><vh>get_configuration</vh></v>
+<v t="zoomq.20110831211902.4899"><vh>get_http</vh></v>
+<v t="zoomq.20110831211902.4900"><vh>get_data</vh></v>
+<v t="zoomq.20110831211902.4901"><vh>add_http</vh></v>
+<v t="zoomq.20110831211902.4902"><vh>add_data</vh></v>
+<v t="zoomq.20110831211902.4903"><vh>add_configuration</vh></v>
+<v t="zoomq.20110831211902.4904"><vh>__getattr__</vh></v>
+<v t="zoomq.20110831211902.4905"><vh>__repr__</vh></v>
+</v>
+<v t="zoomq.20110831211902.4906"><vh>class Response</vh>
+<v t="zoomq.20110831211902.4907"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4908"><vh>__iter__</vh></v>
+<v t="zoomq.20110831211902.4909"><vh>set_status</vh></v>
+<v t="zoomq.20110831211902.4910"><vh>get_status</vh></v>
+<v t="zoomq.20110831211902.4911"><vh>add_header</vh></v>
+<v t="zoomq.20110831211902.4912"><vh>get_headers</vh></v>
+<v t="zoomq.20110831211902.4913"><vh>send_headers</vh></v>
+<v t="zoomq.20110831211902.4914"><vh>send_body</vh></v>
+</v>
+<v t="zoomq.20110831211902.4915"><vh>blosxom_handler</vh></v>
+<v t="zoomq.20110831211902.4916"><vh>blosxom_entry_parser</vh></v>
+<v t="zoomq.20110831211902.4917"><vh>blosxom_file_list_handler</vh></v>
+<v t="zoomq.20110831211902.4918"><vh>blosxom_sort_list_handler</vh></v>
+<v t="zoomq.20110831211902.4919"><vh>blosxom_truncate_list_handler</vh></v>
+<v t="zoomq.20110831211902.4920"><vh>blosxom_process_path_info</vh></v>
+<v t="zoomq.20110831211902.4921"><vh>run_pyblosxom</vh></v>
+</v>
+<v t="zoomq.20110831211902.4922"><vh>@nosent tools.py</vh>
+<v t="zoomq.20110831211902.4923"><vh>tools declarations</vh></v>
+<v t="zoomq.20110831211902.4924"><vh>initialize</vh></v>
+<v t="zoomq.20110831211902.4925"><vh>deprecated_function</vh></v>
+<v t="zoomq.20110831211902.4926"><vh>class ConfigSyntaxErrorException</vh></v>
+<v t="zoomq.20110831211902.4927"><vh>convert_configini_values</vh></v>
+<v t="zoomq.20110831211902.4928"><vh>escape_text</vh></v>
+<v t="zoomq.20110831211902.4929"><vh>urlencode_text</vh></v>
+<v t="zoomq.20110831211902.4930"><vh>class Stripper</vh>
+<v t="zoomq.20110831211902.4931"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4932"><vh>unknown_starttag</vh></v>
+<v t="zoomq.20110831211902.4933"><vh>unknown_endtag</vh></v>
+<v t="zoomq.20110831211902.4934"><vh>handle_data</vh></v>
+<v t="zoomq.20110831211902.4935"><vh>gettext</vh></v>
+</v>
+<v t="zoomq.20110831211902.4936"><vh>commasplit</vh></v>
+<v t="zoomq.20110831211902.4937"><vh>class Replacer</vh>
+<v t="zoomq.20110831211902.4938"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4939"><vh>replace</vh></v>
+</v>
+<v t="zoomq.20110831211902.4940"><vh>parse</vh></v>
+<v t="zoomq.20110831211902.4941"><vh>walk</vh></v>
+<v t="zoomq.20110831211902.4942"><vh>_walk_internal</vh></v>
+<v t="zoomq.20110831211902.4943"><vh>filestat</vh></v>
+<v t="zoomq.20110831211902.4944"><vh>what_ext</vh></v>
+<v t="zoomq.20110831211902.4945"><vh>is_year</vh></v>
+<v t="zoomq.20110831211902.4946"><vh>importname</vh></v>
+<v t="zoomq.20110831211902.4947"><vh>generate_rand_str</vh></v>
+<v t="zoomq.20110831211902.4948"><vh>run_callback</vh></v>
+<v t="zoomq.20110831211902.4949"><vh>addcr</vh></v>
+<v t="zoomq.20110831211902.4950"><vh>create_entry</vh></v>
+<v t="zoomq.20110831211902.4951"><vh>get_cache</vh></v>
+<v t="zoomq.20110831211902.4952"><vh>update_static_entry</vh></v>
+<v t="zoomq.20110831211902.4953"><vh>render_url_statically</vh></v>
+<v t="zoomq.20110831211902.4954"><vh>render_url</vh></v>
+<v t="zoomq.20110831211902.4955"><vh>class LogFilter</vh>
+<v t="zoomq.20110831211902.4956"><vh>__init__</vh></v>
+<v t="zoomq.20110831211902.4957"><vh>filter</vh></v>
+</v>
+<v t="zoomq.20110831211902.4958"><vh>get_logger</vh></v>
+<v t="zoomq.20110831211902.4959"><vh>log_exception</vh></v>
+<v t="zoomq.20110831211902.4960"><vh>log_caller</vh></v>
+</v>
+<v t="zoomq.20110831211902.4861" a="E"><vh>@nosent plugin_utils.py</vh>
+<v t="zoomq.20110831211902.4862"><vh>plugin_utils declarations</vh></v>
+<v t="zoomq.20110831211902.4863"><vh>catalogue_plugin</vh></v>
+<v t="zoomq.20110831211902.4864"><vh>get_callback_chain</vh></v>
+<v t="zoomq.20110831211902.4865"><vh>initialize_plugins</vh></v>
+<v t="zoomq.20110831211902.4866"><vh>get_plugin_by_name</vh></v>
+<v t="zoomq.20110831211902.4867"><vh>get_module_name</vh></v>
+<v t="zoomq.20110831211902.4868"><vh>get_plugin_list</vh></v>
+</v>
+</v>
+</v>
+<v t="ZoomQuiet.20060113092617"><vh>web配置</vh>
 <v t="ZoomQuiet.20060113092909" a="E"><vh>@nosent config.py</vh>
 <v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
 <v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
@@ -1723,7 +1776,7 @@ http://www.c-area.ch/code/pyblosxom/plugins/
 
 
 </t>
-<t tx="ZoomQuiet.20060113155741">@path preformaters</t>
+<t tx="ZoomQuiet.20060113155741">@path preformatter</t>
 <t tx="ZoomQuiet.20060113160325">@language Moin
 Python开发编码规范
 &lt;&lt;t2t head&gt;&gt;
@@ -4865,7 +4918,9 @@ PREFORMATTER_ID = 'xhtml'
 FILE_EXT = 'xhtml'
 __version__ = "v10.4.14"
 __author__ = 'Zoom.Quiet &lt;Zoom.Quiet at gmail.com&gt;'
-__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/xhtml.phtm"
+#__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/xhtml.phtm"
+__url__ = "http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/xhtml.html"
+
 __description__ = "txt2tags export xhmtl entry - Pyblosxom Parser."
 
 from Pyblosxom import tools
@@ -5799,7 +5854,7 @@ py["plugin_dirs"] = [os.path.join(blogdir, "plugins")
                         ,os.path.join(blogdir, "plugins/archives")
                         ,os.path.join(blogdir, "plugins/navigate")
                         ,os.path.join(blogdir, "plugins/date")                        
-                        ,os.path.join(blogdir, "plugins/preformaters")
+                        ,os.path.join(blogdir, "plugins/preformatter")
                         ,os.path.join(blogdir, "plugins/folksonomy")
                         ,os.path.join(blogdir, "plugins/willplugins")
                         ,os.path.join(blogdir, "plugins/zqpyb+")    
@@ -8552,9 +8607,10 @@ py["load_plugins"] = ["pyfilenamemtime"
                         #,"pycategories"
                         #,"firstdaydiv"
                         ,"xhtml"
-                        ,"py"
+                        ,"py2pre"
+                        #,"markdown-plugin"
                         #,"rst"
-                        ,"pyentrynavi"
+                        #,"pyentrynavi"
                         #,"filekicker"
                         #,"photogallery"
                         ,"wbgrecent"
@@ -8733,6 +8789,7 @@ DEFAULT_END = "&lt;/ul&gt;&lt;/li&gt;"
 DEFAULT_FINISH = "&lt;/ul&gt;"
 
 @others
+
 </t>
 <t tx="ZoomQuiet.20060128153405.1">"""改良的分类索引，与zqcrecent配合运用
 Walks through your blog root figuring out all the categories you have
@@ -11470,8 +11527,9 @@ limodou
     - 所以！
 : hacked:
     //path/to/site-packages/Pyblosxom/entries/fileentry.py//
+
 ```
-::brush: py
+#! python
 #147 line...
         self['entryext'] = ext
         self['filebasename'] = file_basename
@@ -11480,7 +11538,7 @@ limodou
 : 模板处理:
     这样一来**story.***的模板中就可以对应修正输出了！
 ```
-::brush: html
+#! html
 | &lt;a href="$base_url/$file_path_urlencoded.$flavour" 
     title="permalink"&gt;#
     永久链接&lt;/a&gt;&lt;!--permanent link to this entry--&gt;
@@ -13319,33 +13377,44 @@ super-apropos 哪些文档提到此概念
 if __name__ == '__main__':      # this way the module can be
     if 2 != len(sys.argv):
         print """ %s usage::
-$ python cleant2t.py path/2/t2t/export/entry.html
+$ python cp4idx2category.py path/2/_static
+            |               +- 生成的静态页面入口
+            +- 脚本自身
         """ % VERSION
     else:
-        htmfile = sys.argv[1]
-        clean2entry(htmfile)
+        path = sys.argv[1]
+        cp4gen(path)
 
 </t>
 <t tx="zoomq.20100414115206.4560"># -*- coding: utf-8 -*-
-# =============================================================
-# 快速预处理 t2t 生成的html :
-#   - 清除 &lt;body/&gt; 之外的代码
-#   - 将 title 单独放在头部,以便 PyBlosxom 识别使用
-# =============================================================
-__version__ = 'cleant2t.py v10.4.13'
-__author__ = 'Zoom.Quiet &lt;zoomq at zeuux dot org&gt;'
+'''
+将 category_static.py 生成的树状分类索引页面，复制并修订为各个目录中的 index.html
+'''
+__version__ = 'cp4idx2category v11.09.7'
+__author__ = 'Zoom.Quiet &lt;zoomquiet+pyb at gmail dot com&gt;'
 
+import os
 import sys
+import re
+import shutil
+
 
 </t>
-<t tx="zoomq.20100414115206.4561">def clean2entry(htmf):
-    html = open(htmf).readlines()
-    #print html[9:-1]
-    #print html[5][7:-9]
-    body = "".join(html[9:-1])
-    #return "%s\n%s"%(html[5][7:-9],body)
-    open("%s.txt"%htmf,"w").write("%s\n%s"%(html[5][7:-9],body))
-    print "cleaned,ans exp. as %s.txt"%htmf
+<t tx="zoomq.20100414115206.4561">def cp4gen(path):
+    #print path
+    IDX = "%s/category-index.html"% path
+    p = re.compile("%s\/\d{4}"%path )
+    for root, dirs, files in os.walk(path):
+        if path == root:
+            pass
+        elif p.match(root):
+            pass
+        elif "plugin_info" in root:
+            pass
+        else:
+            #print root.replace(path,"")  #,dirs,files
+            &lt;&lt;cp as ind&gt;&gt;
+    return
 
 </t>
 <t tx="zoomq.20100414115206.4579">@path archives
@@ -16217,6 +16286,7 @@ DEFAULT_FINISH = "&lt;/ul&gt;"
 DEFAULT_ROOT = []
 
 @others
+
 </t>
 <t tx="zoomq.20100414115206.4718"># vim: tabstop=4 shiftwidth=4
 """
@@ -16298,7 +16368,8 @@ Copyright 2004, 2005, 2006 Will Guaraldi
 """
 __author__ = "Will Guaraldi - willg at bluesock dot org"
 __version__ = "$Id: zqcategories.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $"
-__url__ = "http://pyblosxom.sourceforge.net/"
+__url__ = "http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/zqcategories.html"
+#__url__ = "http://pyblosxom.sourceforge.net/"
 __description__ = "Builds a list of categories."
 
 </t>
@@ -23112,6 +23183,7 @@ class TagsTest(unittest.TestCase):
 # -*- coding: utf-8 -*-
 
 @others
+
 </t>
 <t tx="zoomq.20100420100426.3909"># vim: tabstop=4 shiftwidth=4
 """
@@ -23159,6 +23231,7 @@ Copyright 2004, 2005 Wari Wahab
 """
 __author__ = "Wari Wahab - wari at wari dot per dot sg"
 __version__ = "$Id: zqarchives.py,v d3884047bbb9 2010/10/26 23:00:07 zoomquiet+hg $"
+__url__ = "http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/zqarchives.html"
 
 from Pyblosxom import tools
 import time, os
@@ -23513,9 +23586,9 @@ from Pyblosxom import tools
 import Pyblosxom.entries
 #import re
 
-__author__ = 'Zoom.Quiet'
-__version__ = '10.4.20'
-__url__ = 'http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/'
+__author__ = 'Zoom.Quiet &lt;zoomquiet+pyb at gmail dot com&gt;'
+__version__ = '11.09.7'
+__url__ = "http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/category_static.html"
 __description__ = 'Displays an Category index as Tree for all entries. in one page'
 DEFAULT_ROOT = []
 @others
@@ -23556,6 +23629,7 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 """
+
 
 </t>
 <t tx="zoomq.20100420100426.5126">def verify_installation(request):
@@ -23823,8 +23897,9 @@ if k[0] != "".join(etree[p][0]):
         else:
             body += '&lt;H6&gt;%s/&lt;/H6&gt;'%"/".join(etree[p][0][3:])
 for e in etree[p][1:]:
-    body += '&lt;span class="indents"&gt;%s&lt;/span&gt;&lt;a href="%s%s.html"&gt;%s&lt;/a&gt;&lt;br&gt;\n'%(
-            "..."*len(etree[p][0])
+    body += '&lt;span id="%s" class="indents"&gt;%s&lt;/span&gt;&lt;a href="%s%s.html"&gt;%s&lt;/a&gt;&lt;br&gt;\n'%(
+            "/".join(etree[p][0])
+            ,"..."*len(etree[p][0])
             ,_baseurl
             ,e[1]
             ,e[0]
@@ -25913,7 +25988,7 @@ ZoomQuiet
 
 **Pythonic 的使用:**
 ```
-::brush: shell
+#! shell
 Python 2.4.1 (#65, Mar 30 2005, 09:13:57) [MSC v.1310 32 bit (Intel)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 &gt;&gt;&gt; import md5
@@ -31608,6 +31683,802 @@ for mem in categories:
     mem = os.path.normpath(mem + "/index.")
     for f in flavours:
         renderme.append((mem + f, ""))
+</t>
+<t tx="zoomq.20110907090950.6519">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="zoomq.20110907090950.6520"># vim: tabstop=4 shiftwidth=4 expandtab
+"""
+Preformatter for people who are lazy to type &lt;p&gt;s, &lt;br /&gt;s, and &lt;/p&gt;
+
+Let's face it, HTML is hard, and us non-html slaves do not need treatment that
+HTML markups do to us.
+
+This preformat plugin will help you with all the silly linebreaks markup and
+convert them to either a &lt;br /&gt; for those one liners, or a &lt;p&gt; for those blank
+lines.
+
+You can configure this as your default preformatter by configuring it in your
+L{config} file as follows::
+
+    py['parser'] = 'linebreaks'
+
+or in your blosxom entries, place a C{#parser wiki} line after the title of
+your blog::
+
+    My Little Blog Entry
+    #parser linebreaks
+    This is a text
+    that will become
+
+    properly tagged html for simple 
+    linebreaks
+
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004, 2005 Wari Wahab
+"""
+__author__ = 'Wari Wahab &lt;wari at wari dot per dot sg&gt;'
+__version__ = "$Id: linebreaks.py,v 708256bd3393 2011/09/07 04:57:37 zoomquiet+hg $"
+PREFORMATTER_ID = 'linebreaks'
+
+import re
+</t>
+<t tx="zoomq.20110907090950.6521">def cb_preformat(args):
+    """
+    Preformat callback chain looks for this.
+
+    @param args: a dict with 'parser' string and a list 'story'
+    @type args: dict
+    """
+    if args['parser'] == PREFORMATTER_ID:
+        return parse(''.join(args['story']))
+
+
+</t>
+<t tx="zoomq.20110907090950.6522">def parse(text):
+    """
+    Load some text and add linebreaks markup
+
+    @param text: A text for conversion
+    @type text: string
+    """
+    text = re.sub('\n\n+','&lt;/p&gt;&lt;p&gt;',text)
+    text = re.sub('\n','&lt;br /&gt;',text)
+    return '&lt;p&gt;%s&lt;/p&gt;' % text
+</t>
+<t tx="zoomq.20110907090950.6523">@language python
+@tabwidth -4
+@others
+@ignore</t>
+<t tx="zoomq.20110907090950.6524">#!/usr/bin/env python
+"""
+markdown-plugin.py -- A Python Markdown v2.x plugin for PyBlosxom.
+
+This plugin requires Python Markdown v2.x, which you can download from:
+
+    http://www.freewisdom.org/projects/python-markdown/
+
+Extract the 'markdown' directory from the Python Markdown tarball (the
+directory containing __init__.py, not the Markdown-2.x.y directory)  into your
+pyblosxom plugins dir alongside this plugin. Your plugins dir should look like
+this:
+
+    plugins/ &lt;-- your pyblosxom plugins dir
+        markdown-plugin.py &lt;-- this file
+        markdown/ &lt;-- the Python Markdown module
+        ... &lt;-- (any other pyblosxom plugins)
+
+Now any posts with filenames ending in one of the FILENAME_EXTENSIONS defined
+below will be passed through python-markdown.
+
+Copyright (C) 2005, 2011 Benjamin Mako Hill
+Copyright (c) 2009, 2010, seanh
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at
+your option) any later version.
+
+"""
+_version__ = '0.3'
+__author__ = 'Benjamin Mako Hill &lt;mako@atdot.cc&gt;'
+__author__ = 'seanh &lt;snhmnd@gmail.com&gt;'
+
+FILENAME_EXTENSIONS = ('.txt','.text','.mkdn','.markdown','.md','.mdown','.markdn','.mkd','.mdwn')
+
+import markdown
+import os
+
+md = markdown.Markdown(output_format='html4',extensions=['extra',])
+
+</t>
+<t tx="zoomq.20110907090950.6525">def cb_story(args):
+    entry = args['entry']
+    print os.path.splitext(entry['filename'])
+    if os.path.splitext(entry['filename'])[1] in FILENAME_EXTENSIONS:
+        entry['body'] = md.convert(u''.join(entry['body'].decode("utf-8")))
+        md.reset()
+    return args
+</t>
+<t tx="zoomq.20110907090950.6526">@language python
+@tabwidth -4
+@others
+if __name__ == '__main__':
+    text = """This is a test
+    To test the wiki
+
+    [http://roughingit.subtlehints.net/pyblosxom?blah=duh#spam A link]
+    news:roughingit.subtlehints.net/pyblosxom/ - no, ''I'' do '''not''' have a news
+    server.  mailto:wari@example should go link to an email.  WikiWiki is a wiki
+    Keyword
+    """
+    print parse(text, 'http://wiki.subtlehints.net/moin/')
+</t>
+<t tx="zoomq.20110907090950.6527"># vim: tabstop=4 shiftwidth=4 expandtab
+"""
+Generic wiki markup PreFormatter 2002-11-18, for pyblosxom
+CHANGE wikibaseurl to point to your wiki, &amp; wikinamepattern to yours
+Bug reports, comments, presents, etc. to John Abbe at johnca@ourpla.net
+ToDo: Lists; code/&lt;pre&gt;; InterWiki links; other wikinamepatterns
+
+You can configure this as your default preformatter by configuring it in your
+L{config} file as follows::
+
+    py['parser'] = 'genericwiki'
+
+or in your blosxom entries, place a C{#parser wiki} line after the title of
+your blog::
+
+    My Little Blog Entry
+    #parser genericwiki
+    This is a text in '''wiki''' format
+
+This preformatter also supports WikiWirds, you need to point out where your
+Wiki site is. This is configured with a new variable in your config.py file,
+'genericwiki_baseurl'::
+
+    py['genericwiki_baseurl'] = 'http://www.google.com/search?q='
+
+The above example would expand 'WikiWord' to
+http://www.google.com/search?q=WikiWord
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright 2004, 2005 John Abbe
+"""
+__author__ = 'John Abbe &lt;johnca at ourpla dot net&gt;'
+__version__ = "$Id: genericwiki.py,v 708256bd3393 2011/09/07 04:57:37 zoomquiet+hg $"
+PREFORMATTER_ID = 'genericwiki'
+import re
+
+</t>
+<t tx="zoomq.20110907090950.6528">def cb_preformat(args):
+    """
+    Preformat callback chain looks for this.
+
+    @param args: a dict with 'parser' string and a list 'story'
+    @type args: dict
+    """
+    if args['parser'] == PREFORMATTER_ID:
+        config = args['request'].getConfiguration()
+        baseurl = config.get('genericwiki_baseurl', None)
+        return parse(''.join(args['story']), baseurl)
+
+
+</t>
+<t tx="zoomq.20110907090950.6529">def parse(text, wikibaseurl):
+    """
+    The main workhorse that convert wiki text into html markup
+
+    @param text: Text for conversion
+    @type text: string
+    """
+    # WikiName pattern used in your wiki
+    wikinamepattern = r'\b(([A-Z]+[a-z]+){2,})\b' # original
+    mailurlpattern = r'mailto\:[\"\-\_\.\w]+\@[\-\_\.\w]+\w'
+    newsurlpattern = r'news\:(?:\w+\.){1,}\w+'
+    fileurlpattern = r'(?:http|https|file|ftp):[/-_.\w-]+[\/\w][?&amp;+=%\w/-_.#]*'
+
+    # Turn '[xxx:address label]' into labeled link
+    text = re.sub(r'\[(' +
+           fileurlpattern + '|' +
+           mailurlpattern + '|' +
+           newsurlpattern + ')\s+(.+?)\]',
+           r'&lt;a href="\1"&gt;\2&lt;/a&gt;', text)
+
+    # Convert naked URLs into links -- skip ones with a " before
+    text = re.sub(r'(?&lt;!")(' +
+           newsurlpattern + '|' +
+           fileurlpattern + '|' +
+           mailurlpattern + ')',
+           r'&lt;a href="\1"&gt;\1&lt;/a&gt;', text)
+
+    # Convert WikiNames into links
+    if wikibaseurl:
+        text = re.sub(r'(?&lt;![\?\/\=])' +
+               wikinamepattern, '&lt;a href="' +
+               wikibaseurl + r'\1"&gt;\1&lt;/a&gt;', text)
+
+    # '' for emphasis, ''' for strong, ---- for a horizontal rule
+    text = re.sub(r"'''(.*?)'''", r"&lt;strong&gt;\1&lt;/strong&gt;", text)
+    text = re.sub(r"''(.*?)''", r"&lt;em&gt;\1&lt;/em&gt;", text)
+    text = re.sub(r"\n(-{4,})\n", "&lt;hr&gt;", text)
+
+    # Convert two or more newlines into &lt;p&gt;
+    text = re.sub(r'\n{2,}', r'&lt;/p&gt;\n&lt;p&gt;', text)
+
+    return "&lt;p&gt;" + text + "&lt;/p&gt;"
+
+</t>
+<t tx="zoomq.20110907090950.6534">@language python
+@tabwidth -4
+&lt;&lt;declarations&gt;&gt;
+__author__ = 'Zoom.Quiet &lt;Zoom.Quiet at gmail.com&gt;'
+__version__ = "v11.08.31"
+__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/py.html"
+__description__ = ".py export hmtl entry with syntaxhighlighter."
+PREFORMATTER_ID = 'py'
+
+import os
+@others
+</t>
+<t tx="zoomq.20110907090950.6535">"""
+Preformatter for people who are want export .py into &lt;pre/&gt; with syntaxhighlighter
+
+You can configure this as your default preformatter by configuring it in your
+L{config} file as follows::
+
+    py['parser'] = 'py'
+
+
+&lt;&lt;CopyLeft&gt;&gt;
+"""
+</t>
+<t tx="zoomq.20110907090950.6539">Copyright (c) 2011 Zoom.Quiet 
+All rights reserved.
+
+Redistribution and use in source and binary forms are permitted
+provided that the above copyright notice and this paragraph are
+duplicated in all such forms and that any documentation,
+advertising materials, and other materials related to such
+distribution and use acknowledge that the software was developed
+by the zoomquiet.org.  The name of the
+University may not be used to endorse or promote products derived
+from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+</t>
+<t tx="zoomq.20110907090950.6541">def cb_story(args):
+    entry = args['entry']
+    if 'filename' in entry.keys():
+        if PREFORMATTER_ID == os.path.splitext(entry['filename'])[1]:
+            print os.path.splitext(entry['filename'])[1]
+            entry['body'] = '&lt;pre class="brush: python"&gt;%s&lt;/pre&gt;' % entry['body'].decode("utf-8")
+    return args
+</t>
+<t tx="zoomq.20110907090950.6548">@language python
+@tabwidth -4
+&lt;&lt;declarations&gt;&gt;
+__author__ = 'Zoom.Quiet &lt;Zoom.Quiet at gmail.com&gt;'
+__version__ = "v11.08.31"
+__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/py.html"
+__description__ = ".py export hmtl entry with syntaxhighlighter."
+PREFORMATTER_ID = 'py'
+
+@others
+</t>
+<t tx="zoomq.20110907090950.6549">"""
+Preformatter for people who are want export .py into &lt;pre/&gt; with syntaxhighlighter
+
+You can configure this as your default preformatter by configuring it in your
+L{config} file as follows::
+
+    py['parser'] = 'py'
+
+
+&lt;&lt;CopyLeft&gt;&gt;
+"""
+</t>
+<t tx="zoomq.20110907090950.6550">Copyright (c) 2011 Zoom.Quiet 
+All rights reserved.
+
+Redistribution and use in source and binary forms are permitted
+provided that the above copyright notice and this paragraph are
+duplicated in all such forms and that any documentation,
+advertising materials, and other materials related to such
+distribution and use acknowledge that the software was developed
+by the zoomquiet.org.  The name of the
+University may not be used to endorse or promote products derived
+from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+</t>
+<t tx="zoomq.20110907090950.6551">def cb_preformat(args):
+    """
+    Preformat callback chain looks for this.
+
+    @param args: a dict with 'parser' string and a list 'story'
+    @type args: dict
+    """
+    if args['parser'] == PREFORMATTER_ID:
+        return parse(''.join(args['story']))
+
+
+</t>
+<t tx="zoomq.20110907090950.6553">def parse(text):
+    """
+    Load some text and add linebreaks markup
+
+    @param text: A text for conversion
+    @type text: string
+    """
+    return '&lt;pre class="brush: python"&gt;%s&lt;/pre&gt;' % text
+</t>
+<t tx="zoomq.20110907090950.6554">为简单的将 .py 的文本，转换成可读的页面...</t>
+<t tx="zoomq.20110907090950.6570"># -*- coding: utf-8 -*-
+&lt;&lt; declarations &gt;&gt;
+## Leo: tab_width=-4 page_width=80
+__version__ = "v11.09.7"
+__author__ = 'Zoom.Quiet &lt;zoomquiet+pyb at gmail dot com&gt;'
+__url__ = "http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/py2pre.html"
+__description__ = ".py export hmtl entry with syntaxhighlighter."
+
+#from Pyblosxom import tools
+
+@others
+
+</t>
+<t tx="zoomq.20110907090950.6571">"""py - html Parser
+    - refactory py2pre.py from xhtml.py
+
+&lt;&lt;CopyLeft&gt;&gt;
+
+"""
+
+
+</t>
+<t tx="zoomq.20110907090950.6572">Copyright (c) 2011 Zoom.Quiet 
+All rights reserved.
+
+Redistribution and use in source and binary forms are permitted
+provided that the above copyright notice and this paragraph are
+duplicated in all such forms and that any documentation,
+advertising materials, and other materials related to such
+distribution and use acknowledge that the software was developed
+by the zoomquiet.org.  The name of the
+University may not be used to endorse or promote products derived
+from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+</t>
+<t tx="zoomq.20110907090950.6573">def cb_entryparser(entryparsingdict):
+    """
+    Register self as plain file handler
+    """
+    entryparsingdict["py"] = parse
+    return entryparsingdict
+</t>
+<t tx="zoomq.20110907090950.6574">def parse(filename, request):
+    #import os
+    entrydata = {}
+    source = open(filename, "r").read()
+    #print filenames
+    body = '&lt;pre class="brush: python"&gt;%s&lt;/pre&gt;' % source
+    entrydata = {'body' : body
+                 ,'title' : filename.split("/")[-1]
+                 }
+    return entrydata
+</t>
+<t tx="zoomq.20110907090950.6578">@language python
+@tabwidth -4
+@others
+if __name__ == '__main__':      # this way the module can be
+    if 2 != len(sys.argv):
+        print """ %s usage::
+$ python cleant2t.py path/2/t2t/export/entry.html
+        """ % VERSION
+    else:
+        htmfile = sys.argv[1]
+        clean2entry(htmfile)
+
+</t>
+<t tx="zoomq.20110907090950.6579"># -*- coding: utf-8 -*-
+# =============================================================
+# 快速预处理 t2t 生成的html :
+#   - 清除 &lt;body/&gt; 之外的代码
+#   - 将 title 单独放在头部,以便 PyBlosxom 识别使用
+# =============================================================
+__version__ = 'cleant2t.py v10.4.13'
+__author__ = 'Zoom.Quiet &lt;zoomq at zeuux dot org&gt;'
+
+import sys
+
+</t>
+<t tx="zoomq.20110907090950.6580">def clean2entry(htmf):
+    html = open(htmf).readlines()
+    #print html[9:-1]
+    #print html[5][7:-9]
+    body = "".join(html[9:-1])
+    #return "%s\n%s"%(html[5][7:-9],body)
+    open("%s.txt"%htmf,"w").write("%s\n%s"%(html[5][7:-9],body))
+    print "cleaned,ans exp. as %s.txt"%htmf
+
+</t>
+<t tx="zoomq.20110907090950.6581">aimpath = root.replace(path,"")
+exp = ""
+for i in open(IDX,'r'):
+    if '&lt;span id="' in i:
+        if aimpath in i:
+            exp += i
+    else:
+        exp += i
+
+open("%s/index.html"% root,"w").write(exp)
+</t>
+<t tx="zoomq.20110907090950.6589">@language Moin
+升级到PyBlosxom 1.5rc3
+~ hack 几点
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20110907090950.6590">= 不折腾要死星人 =
+
+嗯嗯嗯，一清点，居然这么长时间没有发布正式点的 blog 了哪！
+- 想恢复每周的心得汇报，但是，俺有强迫症！
+    - PyBloxom 非常好玩，好用
+    - 但是，一直不甚完美
+    - 不过，这也是俺喜欢她的原因～ ``所有不完美之处，都可以自行 hacking!``
+
+
+
+:   所以:
+    - 安装了 Disqus
+    - 升級了 SyntaxHighlighter
+    - 修复了 py.py
+    - 修复了内置的分类索引
+
+
+
+== 评注 ==
+
+一直以来,PyBlosxom 没有内置一个靠谱的评注系统,是个囧事儿,
+- 现在,官方也想明白了,都 2.0时代了,不纠结了
+- [Comments — PyBlosxom v1.5 documentation http://pyblosxom.bluesock.org/1.5/comments.html#disqus]
+    - 直接建议上 [DISQUS http://disqus.com/]
+    - 为什么不呢?
+```
+好:
+    + 安装简单
+    + 内置spam 管理
+    + 支持提醒,回答,以及其它功能
+坏:
+    - 作为web服务,没有全权控制
+    - 可能难以迁移到其它服务/插件 ~ 虽然有评注的导出功能
+```
+
+反正,俺用了,,很轻松,,而且支持多种 SSO 认证!
+</t>
+<t tx="zoomq.20110907090950.6592">== SyntaxHighlighter ==
+之前,俺为了节省流量,使用了 官方提供的 hosting...
+- 结果伟大的功夫网,总是令展示效果不理想!
+- 现在想通了,直接升级 到 SyntaxHighlighter 3.0.83 
+- 并指向本地的各种资源
+- 比较贴心的是,这次有了 [Dynamic Brush Loading http://alexgorbatchev.com/SyntaxHighlighter/manual/api/autoloader.html]
+    - 不用象以往,逐一JS 的加载了
+
+```
+#! js ; highlight: [1,5,9]
+function path(){
+    var args = arguments;
+    var result = [];
+    for(var i = 0; i &lt; args.length; i++){
+      result.push(args[i].replace('@', '/pybshare/syntaxhighlighter_3.0.83/scripts/'));
+      };
+    return result;
+    };
+SyntaxHighlighter.autoloader.apply(null, path(
+    'applescript            @shBrushAppleScript.js',
+    'bash shell             @shBrushBash.js',
+    'css                    @shBrushCss.js',
+    'diff patch pas         @shBrushDiff.js',
+    'erl erlang             @shBrushErlang.js',
+    'js jscript javascript  @shBrushJScript.js',
+    'text plain             @shBrushPlain.js',
+    'py python              @shBrushPython.js',
+    'sass scss              @shBrushSass.js',
+    'sql                    @shBrushSql.js',
+    'xml xhtml xslt html    @shBrushXml.js'
+    ));
+
+SyntaxHighlighter.all()
+```
+
+
+:   PS:
+    - 也有更加轻量的 [prettify http://code.google.com/p/google-code-prettify/]
+    - 但是,没有 SyntaxHighlighter 的高亮功能
+    - 而且,已经和 t2t 深度定制过,使用很好,也就不追赶了,,,
+
+</t>
+<t tx="zoomq.20110907090950.6593">
+== TODO ==
+``不断维护的完美之折腾...``
+
+:   PyBlosxom 静态化发布体系:
++ Hg/Git 的 hooks 开发部署
++ dot 的自动包含图片热区定义的 t2t 处理
++ Leo 中的自动化发布脚本按钮
+
+
+
+= 时间帐单 =
++ ~0.01h    起意，要折腾
++ ~.5h      SyntaxHighlighter升級
++ ~2.5h     DISQUS 加装,主要是注册和文档查阅耗时
++ ~1h       列表吼,E文真的很难以表述清楚...
++ ~1h       py2pre.py 重构完成
++ ~1h       cp4idx2category.py 山寨完成
++ ~1.5h     记录成文
+
+合计,7小时,哗,,,,
+
+
+</t>
+<t tx="zoomq.20110907090950.6594">t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+</t>
+<t tx="zoomq.20110907090950.6595">------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+</t>
+<t tx="zoomq.20110907090950.6596">
+== 插件 ==
+1.5 的插件体系好象有所变化,不那么简单的可以理解了,,,
+
+
+@others
+</t>
+<t tx="zoomq.20110907090950.6597">=== py2pre.py ===
+[py2pre.py http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/py2pre.html]
+
+
+: 意图:
+    - 简单的将目录中的 .py 脚本渲染成合适的 html 展示
+
+
+: 问题:
+    - [PyBlosxom - main site - py http://pyblosxom.bluesock.org/registry/text/py.html]
+    - 原先的老插件已经失效,在静态渲染时不触发了
+
+
+
+: 解决:
+    - 根据1.5.* 的文档 [Writing an entryparser — PyBlosxom v1.5 documentation http://pyblosxom.bluesock.org/1.5/dev_writing_plugins.html#writing-an-entryparser]
+    - 快速山寨了一个 [py2pre.py http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/py2pre.html]
+
+
+
+: 技巧:
+    - 直接复用 SyntaxHighlighter 的效能
+    - 将所有脚本内容丢到约定的 ``&lt;pre&gt;`` 中就好
+
+```
+#! python ; highlight: [5]
+#...
+def parse(filename, request):
+    entrydata = {}
+    source = open(filename, "r").read()
+    body = '&lt;pre class="brush: python"&gt;%s&lt;/pre&gt;' % source
+    entrydata = {'body' : body
+                 ,'title' : filename.split("/")[-1]
+                 }
+    return entrydata
+
+```
+
+</t>
+<t tx="zoomq.20110907090950.6598">
+=== cp4idx2category.py ===
+
+这货不是 PyBlosxom 标准插件,只是发布辅助脚本
+
+
+: 问题:
+    - 发现使用 ``pyblosxom-cmd staticrender --config &lt;/path/2/config.py&gt;`` 生成的静态页面,分类索引页面有问题:
+        - 正常的分类索引中,只包含目录中一个文章
+        - 如果是 非内容目录,比如说py 脚本目录,倒是可以包含所有内容,可页面输出又有乱码
+
+
+
+: 尝试:
+    - 吼了列表,没人理
+    - 也忘记以前是否正当了
+    - 追踪代码:
+
+
+```
+#! shell
+Traceback (most recent call last):
+  File "/usr/local/bin/pyblosxom-cmd", line 25, in &lt;module&gt;
+    sys.exit(command_line_handler("pyblosxom-cmd", sys.argv))
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/commandline.py", line 466, in command_line_handler
+    return f(command, argv)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/commandline.py", line 362, in run_static_renderer
+    return p.run_static_renderer(options.incremental)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 409, in run_static_renderer
+    tools.render_url_statically(config, url, q)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 940, in render_url_statically
+    response = render_url(cdict, url, querystring)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 983, in render_url
+    p.run(static=True)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 182, in run
+    blosxom_handler(self._request)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 947, in blosxom_handler
+    renderer.render()
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 330, in render
+    content = self.render_content(self._content)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 273, in render_content
+    self.render_template(parse_vars, "story", override=1))
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 370, in render_template
+    {"entry": entry, "template": template})
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 405, in _run_callback
+    defaultfunc=lambda x:x)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 780, in run_callback
+    output = func(input)
+  File "/home/zoomq/workspace/3hg/zoomquiet-default/pyblosoxm/zoomquiet/plugins/preformatter/markdown-plugin.py", line 44, in cb_story
+...
+
+```
+
+日!这么深的调用栈?!
+```
+#! text
+pyblosxom-cmd   命令工具
+    |
+    +-&gt; commandline.py  解析参数,准备环境
+        |
+        +-&gt; pyblosxom.py    调用工具
+             ^      |
+             |      +-&gt; tools.py    组织插件,参数
+             |          |
+             +----&lt;-----+   嗯嗯嗯?!回调 pyblosxom.py 
+             使用 renderer.render() 和动态网站流程一样,输出内容
+
+```
+    - FT! 具体分类目录在哪个环节生成基本找遍不到了,,,因为将所有需要渲染的,都丢到一个列表中了,,
+
+
+
+: 解决:
+    - 其实复杂的技术问题,总是有很2的解决方案的
+    - 既然难以解决原有的渲染问题,那么 **使用期待的页面替换有问题的就KO的哈!**
+        - 俺的 [category_static.py http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/category_static.html] 插件生成的树状索引: [category-index.html http://blog.zoomquiet.org/pyblosxom/category-index.html] 很可以
+        - 那么对其进行相关裁剪,复制到对应目录中不就得了!?
+
+先小小的增补一下[category_static.py http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/category_static.html]
+```
+#! python ; highlight: [3,4]
+# ...
+for e in etree[p][1:]:
+    body += '&lt;span id="%s" class="indents"&gt;%s&lt;/span&gt;&lt;a href="%s%s.html"&gt;%s&lt;/a&gt;&lt;br&gt;\n'%(
+            "/".join(etree[p][0])
+            ,"..."*len(etree[p][0])
+            ,_baseurl
+            ,e[1]
+            ,e[0]
+            )
+
+
+```
+    - 在前导空间的span 中增加代表文章所在分类目录的 id
+
+
+那么 ``cp4idx2category.py``就可以简单的完成了:
+```
+#! python
+# -*- coding: utf-8 -*-
+'''
+将 category_static.py 生成的树状分类索引页面，复制并修订为各个目录中的 index.html
+'''
+__version__ = 'cp4idx2category v11.09.7'
+__author__ = 'Zoom.Quiet &lt;zoomquiet+pyb at gmail dot com&gt;'
+
+import os
+import sys
+import re
+import shutil
+
+def cp4gen(path):
+    IDX = "%s/category-index.html"% path
+    p = re.compile("%s\/\d{4}"%path )
+    for root, dirs, files in os.walk(path):
+        if path == root:
+            pass
+        elif p.match(root):
+            pass
+        elif "plugin_info" in root:
+            pass
+        else:
+            aimpath = root.replace(path,"")
+            exp = ""
+            for i in open(IDX,'r'):
+                if '&lt;span id="' in i:
+                    if aimpath in i:
+                        exp += i
+                else:
+                    exp += i
+            open("%s/index.html"% root,"w").write(exp)
+    return
+
+if __name__ == '__main__':      # this way the module can be
+    if 2 != len(sys.argv):
+        print """ %s usage::
+$ python cp4idx2category.py path/2/_static
+            |               +- 生成的静态页面入口
+            +- 脚本自身
+        """ % VERSION
+    else:
+        path = sys.argv[1]
+        cp4gen(path)
+
+```
+
+**只要每次,完成静态整站渲染后,用cp4idx2category.py刷一下,就KO!**
 </t>
 </tnodes>
 </leo_file>

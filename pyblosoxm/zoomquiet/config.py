@@ -130,7 +130,7 @@ py["plugin_dirs"] = [os.path.join(blogdir, "plugins")
                         ,os.path.join(blogdir, "plugins/archives")
                         ,os.path.join(blogdir, "plugins/navigate")
                         ,os.path.join(blogdir, "plugins/date")                        
-                        ,os.path.join(blogdir, "plugins/preformaters")
+                        ,os.path.join(blogdir, "plugins/preformatter")
                         ,os.path.join(blogdir, "plugins/folksonomy")
                         ,os.path.join(blogdir, "plugins/willplugins")
                         ,os.path.join(blogdir, "plugins/zqpyb+")    
@@ -160,9 +160,10 @@ py["load_plugins"] = ["pyfilenamemtime"
                         #,"pycategories"
                         #,"firstdaydiv"
                         ,"xhtml"
-                        ,"py"
+                        ,"py2pre"
+                        #,"markdown-plugin"
                         #,"rst"
-                        ,"pyentrynavi"
+                        #,"pyentrynavi"
                         #,"filekicker"
                         #,"photogallery"
                         ,"wbgrecent"

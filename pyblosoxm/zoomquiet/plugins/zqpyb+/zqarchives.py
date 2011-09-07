@@ -46,6 +46,7 @@ Copyright 2004, 2005 Wari Wahab
 """
 __author__ = "Wari Wahab - wari at wari dot per dot sg"
 __version__ = "$Id$"
+__url__ = "http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/zqarchives.html"
 
 from Pyblosxom import tools
 import time, os
@@ -134,3 +135,4 @@ def cb_prepare(args):
     request = args["request"]
     data = request.get_data()
     data["archivelinks"] = PyblArchives(request)
+

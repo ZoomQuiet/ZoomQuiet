@@ -1,0 +1,451 @@
+<?xml version="1.0"
+      encoding="UTF-8"
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>升级到PyBlosxom 1.5rc3</title>
+<meta name="generator" content="http://txt2tags.sf.net" />
+</head>
+<body>
+
+<div class="header" id="header">
+<a name='toptopNFdHWVBaN' id='toptopNFdHWVBaN'></a><h1>升级到PyBlosxom 1.5rc3</h1>
+<h2>~ hack 几点</h2>
+<h3>t2t渲染:2011-09-07 04:50:53</h3>
+</div>
+
+<div class="toc" id="toc">
+  <ol>
+  <li><a href="#toc1R0VYQ0JaR">不折腾要死星人</a>
+    <ul>
+    <li><a href="#toc2R0VYRENMU">1.1. 评注</a>
+    </li>
+    <li><a href="#toc3R0VYREVMU">1.2. 插件</a>
+      <ul>
+      <li><a href="#toc4R0VYREVMU">1.2.1. py2pre.py</a>
+      </li>
+      <li><a href="#toc5R0VYREVMU">1.2.2. cp4idx2category.py</a>
+      </li>
+      </ul>
+    </li>
+    <li><a href="#toc6R0VYREdMU">1.3. TODO</a>
+    </li>
+    </ul>
+  </li>
+  <li><a href="#toc7R0lYQ0JaV">时间帐单</a>
+  </li>
+  </ol>
+
+</div>
+<div class="body" id="body">
+<a id="toc1R0VYQ0JaR" name="toc1R0VYQ0JaR"></a>
+<h1><A href='#toptopNFdHWVBaN'> 1. 不折腾要死星人 </A></h1>
+<p>
+嗯嗯嗯，一清点，居然这么长时间没有发布正式点的 blog 了哪！
+</p>
+<ul>
+<li>想恢复每周的心得汇报，但是，俺有强迫症！
+    <ul>
+    <li>PyBloxom 非常好玩，好用
+    </li>
+    <li>但是，一直不甚完美
+    </li>
+    <li>不过，这也是俺喜欢她的原因～ <code>所有不完美之处，都可以自行 hacking!</code>
+    </li>
+    </ul>
+</li>
+</ul>
+
+<dl>
+<dt>  所以:</dt><dd>
+    <ul>
+    <li>安装了 Disqus
+    </li>
+    <li>升級了 SyntaxHighlighter
+    </li>
+    <li>修复了 py.py
+    </li>
+    <li>修复了内置的分类索引
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<a id="toc2R0VYRENMU" name="toc2R0VYRENMU"></a>
+<h2><A href='#toptopNFdHWVBaN'> 1.1. 评注 </A></h2>
+<p>
+一直以来,PyBlosxom 没有内置一个靠谱的评注系统,是个囧事儿,
+</p>
+<ul>
+<li>现在,官方也想明白了,都 2.0时代了,不纠结了
+</li>
+<li><a href="http://pyblosxom.bluesock.org/1.5/comments.html#disqus">Comments — PyBlosxom v1.5 documentation</a>
+    <ul>
+    <li>直接建议上 <a href="http://disqus.com/">DISQUS</a>
+    </li>
+    <li>为什么不呢?
+<pre>
+好:
+    + 安装简单
+    + 内置spam 管理
+    + 支持提醒,回答,以及其它功能
+坏:
+    - 作为web服务,没有全权控制
+    - 可能难以迁移到其它服务/插件 ~ 虽然有评注的导出功能
+</pre>
+    <p></p>
+反正,俺用了,,很轻松,,而且支持多种 SSO 认证!
+== SyntaxHighlighter ==
+之前,俺为了节省流量,使用了 官方提供的 hosting...
+    </li>
+    </ul>
+</li>
+<li>结果伟大的功夫网,总是令展示效果不理想!
+</li>
+<li>现在想通了,直接升级 到 SyntaxHighlighter 3.0.83 
+</li>
+<li>并指向本地的各种资源
+</li>
+<li>比较贴心的是,这次有了 <a href="http://alexgorbatchev.com/SyntaxHighlighter/manual/api/autoloader.html">Dynamic Brush Loading</a>
+    <ul>
+    <li>不用象以往,逐一JS 的加载了
+    <p></p>
+<pre class="brush:  js ; highlight: [1,5,9]">
+
+function path(){
+    var args = arguments;
+    var result = [];
+    for(var i = 0; i &lt; args.length; i++){
+      result.push(args[i].replace('@', '/pybshare/syntaxhighlighter_3.0.83/scripts/'));
+      };
+    return result;
+    };
+SyntaxHighlighter.autoloader.apply(null, path(
+    'applescript            @shBrushAppleScript.js',
+    'bash shell             @shBrushBash.js',
+    'css                    @shBrushCss.js',
+    'diff patch pas         @shBrushDiff.js',
+    'erl erlang             @shBrushErlang.js',
+    'js jscript javascript  @shBrushJScript.js',
+    'text plain             @shBrushPlain.js',
+    'py python              @shBrushPython.js',
+    'sass scss              @shBrushSass.js',
+    'sql                    @shBrushSql.js',
+    'xml xhtml xslt html    @shBrushXml.js'
+    ));
+
+SyntaxHighlighter.all()
+</pre>
+    </li>
+    </ul>
+</li>
+</ul>
+
+<dl>
+<dt>  PS:</dt><dd>
+    <ul>
+    <li>也有更加轻量的 <a href="http://code.google.com/p/google-code-prettify/">prettify</a>
+    </li>
+    <li>但是,没有 SyntaxHighlighter 的高亮功能
+    </li>
+    <li>而且,已经和 t2t 深度定制过,使用很好,也就不追赶了,,,
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<a id="toc3R0VYREVMU" name="toc3R0VYREVMU"></a>
+<h2><A href='#toptopNFdHWVBaN'> 1.2. 插件 </A></h2>
+<p>
+1.5 的插件体系好象有所变化,不那么简单的可以理解了,,,
+</p>
+<a id="toc4R0VYREVMU" name="toc4R0VYREVMU"></a>
+<h3><A href='#toptopNFdHWVBaN'> 1.2.1. py2pre.py </A></h3>
+<p>
+<a href="http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/py2pre.html">py2pre.py</a>
+</p>
+<dl>
+<dt>意图:</dt><dd>
+    <ul>
+    <li>简单的将目录中的 .py 脚本渲染成合适的 html 展示
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<dl>
+<dt>问题:</dt><dd>
+    <ul>
+    <li><a href="http://pyblosxom.bluesock.org/registry/text/py.html">PyBlosxom - main site - py</a>
+    </li>
+    <li>原先的老插件已经失效,在静态渲染时不触发了
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<dl>
+<dt>解决:</dt><dd>
+    <ul>
+    <li>根据1.5.* 的文档 <a href="http://pyblosxom.bluesock.org/1.5/dev_writing_plugins.html#writing-an-entryparser">Writing an entryparser — PyBlosxom v1.5 documentation</a>
+    </li>
+    <li>快速山寨了一个 <a href="http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/py2pre.html">py2pre.py</a>
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<dl>
+<dt>技巧:</dt><dd>
+    <ul>
+    <li>直接复用 SyntaxHighlighter 的效能
+    </li>
+    <li>将所有脚本内容丢到约定的 <code>&lt;pre&gt;</code> 中就好
+    <p></p>
+<pre class="brush:  python ; highlight: [5]">
+
+#...
+def parse(filename, request):
+    entrydata = {}
+    source = open(filename, "r").read()
+    body = '&lt;pre class="brush: python"&gt;%s&lt;/pre&gt;' % source
+    entrydata = {'body' : body
+                 ,'title' : filename.split("/")[-1]
+                 }
+    return entrydata
+
+</pre>
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<a id="toc5R0VYREVMU" name="toc5R0VYREVMU"></a>
+<h3><A href='#toptopNFdHWVBaN'> 1.2.2. cp4idx2category.py </A></h3>
+<p>
+这货不是 PyBlosxom 标准插件,只是发布辅助脚本
+</p>
+<dl>
+<dt>问题:</dt><dd>
+    <ul>
+    <li>发现使用 <code>pyblosxom-cmd staticrender --config &lt;/path/2/config.py&gt;</code> 生成的静态页面,分类索引页面有问题:
+        <ul>
+        <li>正常的分类索引中,只包含目录中一个文章
+        </li>
+        <li>如果是 非内容目录,比如说py 脚本目录,倒是可以包含所有内容,可页面输出又有乱码
+        </li>
+        </ul>
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<dl>
+<dt>尝试:</dt><dd>
+    <ul>
+    <li>吼了列表,没人理
+    </li>
+    <li>也忘记以前是否正当了
+    </li>
+    <li>追踪代码:
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<pre class="brush:  shell">
+
+Traceback (most recent call last):
+  File "/usr/local/bin/pyblosxom-cmd", line 25, in &lt;module&gt;
+    sys.exit(command_line_handler("pyblosxom-cmd", sys.argv))
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/commandline.py", line 466, in command_line_handler
+    return f(command, argv)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/commandline.py", line 362, in run_static_renderer
+    return p.run_static_renderer(options.incremental)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 409, in run_static_renderer
+    tools.render_url_statically(config, url, q)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 940, in render_url_statically
+    response = render_url(cdict, url, querystring)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 983, in render_url
+    p.run(static=True)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 182, in run
+    blosxom_handler(self._request)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 947, in blosxom_handler
+    renderer.render()
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 330, in render
+    content = self.render_content(self._content)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 273, in render_content
+    self.render_template(parse_vars, "story", override=1))
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 370, in render_template
+    {"entry": entry, "template": template})
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 405, in _run_callback
+    defaultfunc=lambda x:x)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 780, in run_callback
+    output = func(input)
+  File "/home/zoomq/workspace/3hg/zoomquiet-default/pyblosoxm/zoomquiet/plugins/preformatter/markdown-plugin.py", line 44, in cb_story
+...
+
+</pre>
+<p></p>
+<p>
+日!这么深的调用栈?!
+</p>
+<pre class="brush:  text">
+
+pyblosxom-cmd   命令工具
+    |
+    +-&gt; commandline.py  解析参数,准备环境
+        |
+        +-&gt; pyblosxom.py    调用工具
+             ^      |
+             |      +-&gt; tools.py    组织插件,参数
+             |          |
+             +----&lt;-----+   嗯嗯嗯?!回调 pyblosxom.py 
+             使用 renderer.render() 和动态网站流程一样,输出内容
+
+</pre>
+    <ul>
+    <li>FT! 具体分类目录在哪个环节生成基本找遍不到了,,,因为将所有需要渲染的,都丢到一个列表中了,,
+    </li>
+    </ul>
+
+<dl>
+<dt>解决:</dt><dd>
+    <ul>
+    <li>其实复杂的技术问题,总是有很2的解决方案的
+    </li>
+    <li>既然难以解决原有的渲染问题,那么 <b>使用期待的页面替换有问题的就KO的哈!</b>
+        <ul>
+        <li>俺的 <a href="http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/category_static.html">category_static.py</a> 插件生成的树状索引: <a href="http://blog.zoomquiet.org/pyblosxom/category-index.html">category-index.html</a> 很可以
+        </li>
+        <li>那么对其进行相关裁剪,复制到对应目录中不就得了!?
+        <p></p>
+先小小的增补一下<a href="http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/category_static.html">category_static.py</a>
+<pre class="brush:  python ; highlight: [3,4]">
+
+# ...
+for e in etree[p][1:]:
+    body += '&lt;span id="%s" class="indents"&gt;%s&lt;/span&gt;&lt;a href="%s%s.html"&gt;%s&lt;/a&gt;&lt;br&gt;\n'%(
+            "/".join(etree[p][0])
+            ,"..."*len(etree[p][0])
+            ,_baseurl
+            ,e[1]
+            ,e[0]
+            )
+
+
+</pre>
+        </li>
+        </ul>
+    </li>
+    <li>在前导空间的span 中增加代表文章所在分类目录的 id
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<p>
+那么 <code>cp4idx2category.py</code>就可以简单的完成了:
+</p>
+<pre class="brush:  python">
+
+# -*- coding: utf-8 -*-
+'''
+将 category_static.py 生成的树状分类索引页面，复制并修订为各个目录中的 index.html
+'''
+__version__ = 'cp4idx2category v11.09.7'
+__author__ = 'Zoom.Quiet &lt;zoomquiet+pyb at gmail dot com&gt;'
+
+import os
+import sys
+import re
+import shutil
+
+def cp4gen(path):
+    IDX = "%s/category-index.html"% path
+    p = re.compile("%s\/\d{4}"%path )
+    for root, dirs, files in os.walk(path):
+        if path == root:
+            pass
+        elif p.match(root):
+            pass
+        elif "plugin_info" in root:
+            pass
+        else:
+            aimpath = root.replace(path,"")
+            exp = ""
+            for i in open(IDX,'r'):
+                if '&lt;span id="' in i:
+                    if aimpath in i:
+                        exp += i
+                else:
+                    exp += i
+            open("%s/index.html"% root,"w").write(exp)
+    return
+
+if __name__ == '__main__':      # this way the module can be
+    if 2 != len(sys.argv):
+        print """ %s usage::
+$ python cp4idx2category.py path/2/_static
+            |               +- 生成的静态页面入口
+            +- 脚本自身
+        """ % VERSION
+    else:
+        path = sys.argv[1]
+        cp4gen(path)
+
+</pre>
+<p></p>
+<p>
+<b>只要每次,完成静态整站渲染后,用cp4idx2category.py刷一下,就KO!</b>
+</p>
+<a id="toc6R0VYREdMU" name="toc6R0VYREdMU"></a>
+<h2><A href='#toptopNFdHWVBaN'> 1.3. TODO </A></h2>
+<p>
+<code>不断维护的完美之折腾...</code>
+</p>
+<dl>
+<dt>  PyBlosxom 静态化发布体系:</dt><dd>
+</dd>
+</dl>
+
+<ol>
+<li>Hg/Git 的 hooks 开发部署
+</li>
+<li>dot 的自动包含图片热区定义的 t2t 处理
+</li>
+<li>Leo 中的自动化发布脚本按钮
+</li>
+</ol>
+
+<a id="toc7R0lYQ0JaV" name="toc7R0lYQ0JaV"></a>
+<h1><A href='#toptopNFdHWVBaN'> 2. 时间帐单 </A></h1>
+<ol>
+<li>~0.01h    起意，要折腾
+</li>
+<li>~.5h      SyntaxHighlighter升級
+</li>
+<li>~2.5h     DISQUS 加装,主要是注册和文档查阅耗时
+</li>
+<li>~1h       列表吼,E文真的很难以表述清楚...
+</li>
+<li>~1h       py2pre.py 重构完成
+</li>
+<li>~1h       cp4idx2category.py 山寨完成
+</li>
+<li>~1.5h     记录成文
+<p></p>
+合计,7小时,哗,,,,
+</li>
+</ol>
+
+<hr class="light" />
+<p>
+动力源自::<b><a href="http://txt2tags.sf.net">txt2tags</a></b>
+</p>
+</div>
+
+<!-- xhtml code generated by txt2tags 2.4 (http://txt2tags.sf.net) -->
+<!-- cmdline: txt2tags upinto-pyblosxom15rc3-2011-09-07-12-23.t2t -->
+</body></html>

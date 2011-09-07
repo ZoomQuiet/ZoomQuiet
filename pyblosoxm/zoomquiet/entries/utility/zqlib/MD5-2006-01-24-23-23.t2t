@@ -14,7 +14,7 @@ ZoomQuiet
 
 **Pythonic 的使用:**
 ```
-::brush: shell
+#! shell
 Python 2.4.1 (#65, Mar 30 2005, 09:13:57) [MSC v.1310 32 bit (Intel)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import md5

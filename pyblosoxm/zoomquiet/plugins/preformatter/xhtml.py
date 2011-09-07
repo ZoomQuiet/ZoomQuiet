@@ -32,7 +32,9 @@ PREFORMATTER_ID = 'xhtml'
 FILE_EXT = 'xhtml'
 __version__ = "v10.4.14"
 __author__ = 'Zoom.Quiet <Zoom.Quiet at gmail.com>'
-__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/xhtml.phtm"
+#__url__ = "http://blog.zoomquiet.org/pyblosxom/OpenSource/PyBlosxom/plugins/xhtml.phtm"
+__url__ = "http://blog.zoomquiet.org/pyblosxom/techic/PyBlosxom/plugins/xhtml.html"
+
 __description__ = "txt2tags export xhmtl entry - Pyblosxom Parser."
 
 from Pyblosxom import tools

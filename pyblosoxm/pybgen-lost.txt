@@ -1,0 +1,124 @@
+fixed PyB 1.5.*
+静态渲染无法生成正确的类别索引:
+
+$ pyblosxom-cmd staticrender
+
+/usr/local/bin/pyblosxom-cmd
+...
+from Pyblosxom.commandline import command_line_handler
+
+if __name__ == '__main__':
+    sys.exit(command_line_handler("pyblosxom-cmd", sys.argv))
+
+>>  commandline.py
+def command_line_handler(scriptname, argv):
+...
+    handlers = get_handlers()
+...
+    for (c, f, h) in handlers:
+        if c == command:
+            return f(command, argv)
+
+def run_static_renderer(command, argv):
+..
+    p = build_pyblosxom()
+..
+    return p.run_static_renderer(options.incremental)
+
+...
+
+>>  pyblosxom.py
+...
+class PyBlosxom:
+...
+    def run_static_renderer(self, incremental=False):
+    ...
+        categories = categories.keys()
+        ...
+        for mem in categories:
+        mem = os.path.normpath(mem + "/index.")
+        for f in flavours:
+            renderme.append((mem + f, ""))
+    ...
+    
+    for url, q in renderme:
+        url = url.replace(os.sep, "/")
+        print "rendering '%s' ..." % url
+
+        tools.render_url_statically(config, url, q)
+
+>>  tools.py
+
+def render_url_statically(cdict, url, querystring):
+...
+    response = render_url(cdict, url, querystring)
+...
+
+def render_url(cdict, pathinfo, querystring=""):
+    
+    from pyblosxom import PyBlosxom
+...
+
+    data = {"STATIC": 1}
+    p = PyBlosxom(cdict, env, data)
+    p.run(static=True)
+    return p.get_response()
+
+>>  pyblosxom.py
+
+def get_response(self):
+    """Returns the Response object associated with this Request.
+    """
+    return self._request.getResponse()
+
+...
+def __init__(self, config, environ, data=None):
+...
+    self._request = Request(config, environ, data)
+
+class Request(object):
+...
+    self.setResponse(Response(self))
+
+class Response(object):
+..
+    
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+追踪:
+Traceback (most recent call last):
+  File "/usr/local/bin/pyblosxom-cmd", line 25, in <module>
+    sys.exit(command_line_handler("pyblosxom-cmd", sys.argv))
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/commandline.py", line 466, in command_line_handler
+    return f(command, argv)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/commandline.py", line 362, in run_static_renderer
+    return p.run_static_renderer(options.incremental)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 409, in run_static_renderer
+    tools.render_url_statically(config, url, q)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 940, in render_url_statically
+    response = render_url(cdict, url, querystring)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 983, in render_url
+    p.run(static=True)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 182, in run
+    blosxom_handler(self._request)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/pyblosxom.py", line 947, in blosxom_handler
+    renderer.render()
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 330, in render
+    content = self.render_content(self._content)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 273, in render_content
+    self.render_template(parse_vars, "story", override=1))
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 370, in render_template
+    {"entry": entry, "template": template})
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/renderers/blosxom.py", line 405, in _run_callback
+    defaultfunc=lambda x:x)
+  File "/usr/local/lib/python2.6/dist-packages/Pyblosxom/tools.py", line 780, in run_callback
+    output = func(input)
+  File "/home/zoomq/workspace/3hg/zoomquiet-default/pyblosoxm/zoomquiet/plugins/preformatter/markdown-plugin.py", line 44, in cb_story
+    if os.path.splitext(entry['filename'])[1] in FILENAME_EXTENSIONS:
+KeyError: 'filename'
+
+
+
+
+
+

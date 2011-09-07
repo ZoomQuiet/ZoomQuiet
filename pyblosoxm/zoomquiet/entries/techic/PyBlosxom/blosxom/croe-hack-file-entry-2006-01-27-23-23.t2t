@@ -24,8 +24,9 @@ t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
     - 所以！
 : hacked:
     //path/to/site-packages/Pyblosxom/entries/fileentry.py//
+
 ```
-::brush: py
+#! python
 #147 line...
         self['entryext'] = ext
         self['filebasename'] = file_basename
@@ -34,7 +35,7 @@ t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
 : 模板处理:
     这样一来**story.***的模板中就可以对应修正输出了！
 ```
-::brush: html
+#! html
 | <a href="$base_url/$file_path_urlencoded.$flavour" 
     title="permalink">#
     永久链接</a><!--permanent link to this entry-->

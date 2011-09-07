@@ -201,3 +201,4 @@ def cb_prepare(args):
     request = args["request"]
     data = request.getData()
     data["categorylinks"] = PyblCategories(request)
+
