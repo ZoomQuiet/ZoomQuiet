@@ -88,8 +88,10 @@
         <br/>
                 </li>
                 <li>
+        <!--
         <a href="http://www.7-zip.org/"><img alt="i enjoy 7-zip" src="/pybimage/icon/7zip.png"/></a>
         <br/>
+        -->        
         <a href="http://www.gimp.org/"><img alt="Get z Great GIMP!"  src="/pybimage/icon/getgimp.png"/></a>
         <br/>
         <a href="http://www.inkscape.org/"><img alt="Get z Great Inkscape!"  src="/pybimage/icon/getinkscape.png"/></a>
@@ -101,8 +103,9 @@
         <a href="http://www.onlineghibli.com/"><img alt="i watch GHIBLI mov." src="/pybimage/icon/ghibli.png"/></a>
         <br/>   
         <a href="http://www.thematrix101.com/"><img alt="i watch The Matrix" src="/pybimage/icon/martix.png"/></a>
-        <br/>   
+        <!--<br/>   
         <a href="http://www.fifthelement.com/"><img alt="i watch 第五元素" src="/pybimage/icon/fifthelemen.png"/></a>
+        -->
         <br/>   
         <a href="http://www.xfiles.com/"><img alt="i watch X-FILES" src="/pybimage/icon/xfiles.png"/></a>
         <br/>   
@@ -134,7 +137,6 @@
 
 
         </ul><!-- id="Blogroll" -->
-
 
             </div><!-- id="footeractions" class="sidebar"-->
     </td><td>

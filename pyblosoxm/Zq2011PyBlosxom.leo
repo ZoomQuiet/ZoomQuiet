@@ -678,7 +678,7 @@
 <v t="zoomq.20110503084352.4326"><vh>@nosent story</vh></v>
 <v t="zoomq.20110503084352.4323" a="E"><vh>@nosent foot</vh>
 <v t="zoomq.20110503084352.4334"><vh>&lt;&lt;JS loader&gt;&gt;</vh></v>
-<v t="zoomq.20110503084352.4329"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
+<v t="zoomq.20110503084352.4329" a="E"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
 <v t="zoomq.20110503084352.4336"><vh>search text box</vh></v>
 <v t="zoomq.20110503084352.4337"><vh>abt.</vh>
 <v t="zoomq.20110503084352.4341"><vh>reading.</vh></v>
@@ -28043,7 +28043,6 @@ $debug
 
 @others
 
-
     &lt;/div&gt;&lt;!-- id="footeractions" class="sidebar"--&gt;
 </t>
 <t tx="zoomq.20110503084352.4330">&lt;!-- MID function barnners --&gt;
@@ -28204,8 +28203,10 @@ href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
 &lt;br/&gt;
         &lt;/li&gt;
         &lt;li&gt;
+&lt;!--
 &lt;a href="http://www.7-zip.org/"&gt;&lt;img alt="i enjoy 7-zip" src="/pybimage/icon/7zip.png"/&gt;&lt;/a&gt;
 &lt;br/&gt;
+--&gt;        
 &lt;a href="http://www.gimp.org/"&gt;&lt;img alt="Get z Great GIMP!"  src="/pybimage/icon/getgimp.png"/&gt;&lt;/a&gt;
 &lt;br/&gt;
 &lt;a href="http://www.inkscape.org/"&gt;&lt;img alt="Get z Great Inkscape!"  src="/pybimage/icon/getinkscape.png"/&gt;&lt;/a&gt;
@@ -28217,8 +28218,9 @@ href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css"/&gt;
 &lt;a href="http://www.onlineghibli.com/"&gt;&lt;img alt="i watch GHIBLI mov." src="/pybimage/icon/ghibli.png"/&gt;&lt;/a&gt;
 &lt;br/&gt;   
 &lt;a href="http://www.thematrix101.com/"&gt;&lt;img alt="i watch The Matrix" src="/pybimage/icon/martix.png"/&gt;&lt;/a&gt;
-&lt;br/&gt;   
+&lt;!--&lt;br/&gt;   
 &lt;a href="http://www.fifthelement.com/"&gt;&lt;img alt="i watch 第五元素" src="/pybimage/icon/fifthelemen.png"/&gt;&lt;/a&gt;
+--&gt;
 &lt;br/&gt;   
 &lt;a href="http://www.xfiles.com/"&gt;&lt;img alt="i watch X-FILES" src="/pybimage/icon/xfiles.png"/&gt;&lt;/a&gt;
 &lt;br/&gt;   
