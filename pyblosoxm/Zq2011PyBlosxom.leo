@@ -65,7 +65,7 @@
 </v>
 <v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
 </v>
-<v t="ZoomQuiet.20060113092644"><vh>entries</vh>
+<v t="ZoomQuiet.20060113092644" a="E"><vh>entries</vh>
 <v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
 <v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
 <v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
@@ -278,7 +278,7 @@
 <v t="ZoomQuiet.20060116170227.2"><vh>openpeople</vh></v>
 <v t="ZoomQuiet.20060116170256.1"><vh>WeKnow</vh></v>
 </v>
-<v t="zoomq.20100414115206.4540"><vh>mind</vh>
+<v t="zoomq.20100414115206.4540" a="E"><vh>mind</vh>
 <v t="ZoomQuiet.20060531114330"><vh>@nosent why-noread-paid-books-2010-08-06-11-01.t2t</vh>
 <v t="ZoomQuiet.20060531114330.1"><vh>main</vh></v>
 <v t="zoomq.20060916180156.12"></v>
@@ -349,11 +349,11 @@
 </v>
 <v t="ZoomQuiet.20060116170435"><vh>SiFi</vh></v>
 </v>
-<v t="zoomq.20100414115206.4538"><vh>utility</vh>
+<v t="zoomq.20100414115206.4538" a="E"><vh>utility</vh>
 <v t="ZoomQuiet.20060116170508"><vh>py4gui</vh></v>
-<v t="ZoomQuiet.20060116170643" a="E"><vh>py4str</vh>
-<v t="zoomq.20100414115206.4235" a="E"><vh>StructuredText</vh>
-<v t="zoomq.20100414115206.4236" a="E"><vh>@nosent rst2s5-usage-2010-09-18-23-23.t2t</vh>
+<v t="ZoomQuiet.20060116170643"><vh>py4str</vh>
+<v t="zoomq.20100414115206.4235"><vh>StructuredText</vh>
+<v t="zoomq.20100414115206.4236"><vh>@nosent rst2s5-usage-2010-09-18-23-23.t2t</vh>
 <v t="zoomq.20100920084035.5440"><vh>起</vh></v>
 <v t="zoomq.20100920084035.5441"><vh>用</vh></v>
 <v t="zoomq.20100920084035.9975"><vh>初步</vh></v>
@@ -435,7 +435,18 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170643.2"><vh>py4xml</vh></v>
+<v t="ZoomQuiet.20060116170643.2" a="E"><vh>py4xml</vh>
+<v t="zoomq.20110908090929.8040" a="E"><vh>@nosent scrapbook-expidxlevels-2011-09-08-13-13.t2t</vh>
+<v t="zoomq.20110908090929.8041"><vh>what?</vh></v>
+<v t="zoomq.20110908090929.8043" a="E"><vh>hacking</vh>
+<v t="zoomq.20110908090929.8044"><vh>=== py2pre.py ===</vh></v>
+<v t="zoomq.20110908090929.8045"><vh>=== cp4idx2category.py ===</vh></v>
+</v>
+<v t="zoomq.20110908090929.8046"><vh>TODO</vh></v>
+<v t="zoomq.20110908090929.8047"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
+<v t="zoomq.20110908090929.8048"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
+</v>
+</v>
 <v t="ZoomQuiet.20060116170643.3"><vh>py4zh</vh>
 <v t="ZoomQuiet.20060118011633"><vh>@nosent zh2utf8.py</vh></v>
 <v t="ZoomQuiet.20060118013917"><vh>@nosent autoDetectXMLEncoding.py</vh></v>
@@ -474,7 +485,7 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060116170256.2"><vh>ZqLib</vh>
-<v t="zoomq.20100910090235.9589" a="E"><vh>@nosent MD5-2006-01-24-23-23.t2t</vh>
+<v t="zoomq.20100910090235.9589"><vh>@nosent MD5-2006-01-24-23-23.t2t</vh>
 <v t="ZoomQuiet.20060122153701.1"></v>
 <v t="ZoomQuiet.20060121172947.1"></v>
 <v t="zoomq.20100910090235.9590"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
@@ -550,7 +561,7 @@
 <v t="zoomq.20100728103610.7583"></v>
 <v t="zoomq.20100714100833.4002"><vh>我的”怪癖” (作业)</vh></v>
 </v>
-<v t="ZoomQuiet.20060116170040.5"><vh>techic</vh>
+<v t="ZoomQuiet.20060116170040.5" a="E"><vh>techic</vh>
 <v t="zoomq.20100414115206.4542"><vh>Emacs</vh>
 <v t="zoomq.20100414115206.4558"><vh>@nosent fw_learning_emacs_notes-2007-03-08-18-00.t2t</vh>
 <v t="zoomq.20100414115206.4534"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
@@ -565,7 +576,7 @@
 <v t="zoomq.20100414115206.4535"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
 <v t="zoomq.20100414115206.4536"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
 </v>
-<v t="zoomq.20100420100426.5527" a="E"><vh>@nosent relivin-pyblosxom-2010-04-18-23-23.t2t</vh>
+<v t="zoomq.20100420100426.5527"><vh>@nosent relivin-pyblosxom-2010-04-18-23-23.t2t</vh>
 <v t="zoomq.20100420100426.5528"><vh>what?</vh></v>
 <v t="zoomq.20100420100426.5529"><vh>plan</vh></v>
 <v t="zoomq.20100910090235.9600"><vh>SyntaxHighlighter</vh></v>
@@ -576,7 +587,7 @@
 <v t="zoomq.20110907090950.6589" a="E"><vh>@nosent upinto-pyblosxom15rc3-2011-09-07-12-23.t2t</vh>
 <v t="zoomq.20110907090950.6590"><vh>what?</vh></v>
 <v t="zoomq.20110907090950.6592"><vh>SyntaxHighlighter</vh></v>
-<v t="zoomq.20110907090950.6596" a="E"><vh>hacking</vh>
+<v t="zoomq.20110907090950.6596"><vh>hacking</vh>
 <v t="zoomq.20110907090950.6597"><vh>=== py2pre.py ===</vh></v>
 <v t="zoomq.20110907090950.6598"><vh>=== cp4idx2category.py ===</vh></v>
 </v>
@@ -586,7 +597,7 @@
 </v>
 </v>
 <v t="zoomq.20100414115206.4472"><vh>ZqPb+</vh>
-<v t="zoomq.20100414115206.4473" a="E"><vh>@nosent zqcategory-2006-01-28-17-00.t2t</vh>
+<v t="zoomq.20100414115206.4473"><vh>@nosent zqcategory-2006-01-28-17-00.t2t</vh>
 <v t="zoomq.20100414115206.4474"><vh>why?</vh></v>
 <v t="zoomq.20100414115206.4475"><vh>log</vh></v>
 <v t="zoomq.20100414115206.4534"></v>
@@ -679,12 +690,12 @@
 <v t="ZoomQuiet.20060121172947.1"></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060113151604" a="E"><vh>hacking</vh>
-<v t="ZoomQuiet.20060117230430" a="E"><vh>flavours</vh>
-<v t="zoomq.20110503084352.4319" a="E"><vh>html.flav</vh>
-<v t="zoomq.20110503084352.4323" a="E"><vh>@nosent foot</vh>
+<v t="ZoomQuiet.20060113151604"><vh>hacking</vh>
+<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
+<v t="zoomq.20110503084352.4319"><vh>html.flav</vh>
+<v t="zoomq.20110503084352.4323"><vh>@nosent foot</vh>
 <v t="zoomq.20110503084352.4334"><vh>&lt;&lt;JS loader&gt;&gt;</vh></v>
-<v t="zoomq.20110503084352.4329" a="E"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
+<v t="zoomq.20110503084352.4329"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
 <v t="zoomq.20110503084352.4336"><vh>search text box</vh></v>
 <v t="zoomq.20110503084352.4337"><vh>abt.</vh>
 <v t="zoomq.20110503084352.4341"><vh>reading.</vh></v>
@@ -778,7 +789,7 @@
 <v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
 <v t="zoomq.20100414115206.4559"><vh>@nosent cp4idx2category.py</vh>
 <v t="zoomq.20100414115206.4560"><vh>declarations</vh></v>
-<v t="zoomq.20100414115206.4561" a="E"><vh>cp4gen(path)</vh>
+<v t="zoomq.20100414115206.4561"><vh>cp4gen(path)</vh>
 <v t="zoomq.20110907090950.6581"><vh>&lt;&lt;cp as ind&gt;&gt;</vh></v>
 </v>
 </v>
@@ -985,7 +996,7 @@
 </v>
 </v>
 <v t="zoomq.20110907090950.6570"><vh>@nosent py2pre.py</vh>
-<v t="zoomq.20110907090950.6571" a="E"><vh>&lt;&lt; declarations &gt;&gt;</vh>
+<v t="zoomq.20110907090950.6571"><vh>&lt;&lt; declarations &gt;&gt;</vh>
 <v t="zoomq.20110907090950.6572"><vh>&lt;&lt;CopyLeft&gt;&gt;</vh></v>
 </v>
 <v t="zoomq.20110907090950.6573"><vh>cb_entryparser</vh></v>
@@ -1016,7 +1027,7 @@
 <v t="ZoomQuiet.20060122150604.1"><vh>&lt;&lt; py declarations &gt;&gt;</vh></v>
 <v t="ZoomQuiet.20060122150604.2"><vh>cb_entryparser</vh></v>
 <v t="ZoomQuiet.20060122150604.3"><vh>parse</vh></v>
-<v t="ZoomQuiet.20060122150604.4" a="E"><vh>class Parser</vh>
+<v t="ZoomQuiet.20060122150604.4"><vh>class Parser</vh>
 <v t="ZoomQuiet.20060122150604.5"><vh>__init__</vh></v>
 <v t="ZoomQuiet.20060122150604.6"><vh>format</vh></v>
 <v t="ZoomQuiet.20060122150604.7"><vh>__call__</vh></v>
@@ -1045,18 +1056,18 @@
 <v t="ZoomQuiet.20060113182537.5"><vh>parse</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060128153018" a="E"><vh>zqpyb+</vh>
+<v t="ZoomQuiet.20060128153018"><vh>zqpyb+</vh>
 <v t="ZoomQuiet.20060128161220"><vh>__stuff</vh>
 <v t="zoomq.20100420100426.5502"><vh>_pushsubdir()</vh></v>
 <v t="zoomq.20100420100426.5500"><vh>try文章结构列表</vh></v>
 </v>
-<v t="zoomq.20100420100426.5124" a="E"><vh>@nosent category_static.py</vh>
+<v t="zoomq.20100420100426.5124"><vh>@nosent category_static.py</vh>
 <v t="zoomq.20100420100426.5125"><vh>&lt;&lt;declarations&gt;&gt;</vh></v>
 <v t="zoomq.20100420100426.5126"><vh>verify_installation</vh></v>
-<v t="zoomq.20100420100426.5127" a="E"><vh>cb_filelist</vh>
+<v t="zoomq.20100420100426.5127"><vh>cb_filelist</vh>
 <v t="zoomq.20100420100426.5129"><vh>gen_dict</vh></v>
 <v t="zoomq.20100420100426.5130"><vh>gen_tree</vh></v>
-<v t="zoomq.20100514091552.4530" a="E"><vh>gen_html</vh>
+<v t="zoomq.20100514091552.4530"><vh>gen_html</vh>
 <v t="zoomq.20100514091552.4532"><vh>&lt;&lt;item link&gt;&gt;</vh></v>
 </v>
 </v>
@@ -1502,7 +1513,7 @@
 <v t="zoomq.20110831211902.4959"><vh>log_exception</vh></v>
 <v t="zoomq.20110831211902.4960"><vh>log_caller</vh></v>
 </v>
-<v t="zoomq.20110831211902.4861" a="E"><vh>@nosent plugin_utils.py</vh>
+<v t="zoomq.20110831211902.4861"><vh>@nosent plugin_utils.py</vh>
 <v t="zoomq.20110831211902.4862"><vh>plugin_utils declarations</vh></v>
 <v t="zoomq.20110831211902.4863"><vh>catalogue_plugin</vh></v>
 <v t="zoomq.20110831211902.4864"><vh>get_callback_chain</vh></v>
@@ -1513,11 +1524,11 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060113092617" a="E"><vh>web配置</vh>
-<v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
+<v t="ZoomQuiet.20060113092617"><vh>web配置</vh>
+<v t="ZoomQuiet.20060113092909" a="E"><vh>@nosent config.py</vh>
 <v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
 <v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
-<v t="ZoomQuiet.20060123105542" a="E"><vh>Plugin configuration</vh>
+<v t="ZoomQuiet.20060123105542"><vh>Plugin configuration</vh>
 <v t="ZoomQuiet.20060127162954"><vh>loader</vh></v>
 <v t="ZoomQuiet.20060127163053"><vh>vars</vh></v>
 </v>
@@ -26818,7 +26829,7 @@ py["static_dir"] = os.path.join(blogdir, "_static")
 
 # What flavours should get generated?
 py["static_flavours"] = ["html"
-    #,"atom"
+    ,"atom"
     ]
 #py["static_flavours"] = ["atom"]
 #py["static_flavours"] = ["rdf"]
@@ -32478,6 +32489,291 @@ $ python cp4idx2category.py path/2/_static
 ```
 
 **只要每次,完成静态整站渲染后,用cp4idx2category.py刷一下,就KO!**
+</t>
+<t tx="zoomq.20110908090929.8040">@language Moin
+ScrapBook辅助工具之expidxlevels
+~ 坑爹的RDF乱斗!
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20110908090929.8041">= 不折腾要死星人 =
+
+嗯嗯嗯，从,,, 20041214101930 开始,坚持使用[SCRAPBOOK :: Firefox Extension http://amb.vis.ne.jp/mozilla/scrapbook/] 进行离线网页的收集和整理了;
+- 一直很爽,而且内置的导出功能,可以一键将本地收集的网页通过一个标准的框架页面,用树状索引进行发布;
+- 使用 rsync 等等文件同步小工具,就可以发布一个静态的表述自个儿关注领域技术的纯资料网站了!
+- 其实一直以来就发布有这类两个网站:
+    - http://floss.zoomquiet.org
+    - http://skm.zoomquiet.org
+
+- 好处是那些优秀的文章,即使原文网站死了,依然在俺这儿原样可查,
+- 问题是:
+    - [/pybimage/2011/zq_2011-09-08-154005_577x344_scrot.png]
+    - 导出的那个索引树,随着时间的积累,已经大到无法忍受了!
+    - 比如说, floss.zoomquiet.org 的树,包含 2万多节点,自身体积已经超过5M
+    - 有网友吼,用 Chrome 都无法打开!
+
+
+:   所以:
+    - 得想招精简如此多节点的索引树了,,,
+    - 为了时不时，在俺这儿打捞历史文章的亲们...
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110908090929.8043">== scraptools ==
+
+所以,有了 [ZoomQuiet / scraptools — Bitbucket https://bitbucket.org/ZoomQuiet/scraptools/wiki/Home]
+
+其中的 expidxlevels.py 就是专门进行自动索引化简的...
+
+@others
+</t>
+<t tx="zoomq.20110908090929.8044">=== RDF ===
+以前在相关讲演中吼过,选择 [SCRAPBOOK :: Firefox Extension http://amb.vis.ne.jp/mozilla/scrapbook/]的好点之一,就是有标准的XML 数据输出,好进行二次处理
+    - 幻灯: http://zoomquiet.org/res/s5/100918-MyTools/rst2s5/
+    - 录音: http://zoomquiet.org/res/m/r/wav4zoomq/100930-snda-mytools/
+
+: 设想:
+    - 将 ``scrapbook.rdf`` (自动生成的记录树关系的RDF)进行合理解析
+    - 整理成分级索引页面就可以解决单一索引的巨大加载问题了
+
+
+: 杯具:
+    - TMD没有一种XML解析库对付的了RDF!
+
+
+``scrapbook.rdf`` 的设计很简洁:
+
+- 根节点,索引各个 ``li``
+```
+#! xml
+  &lt;RDF:Seq RDF:about="urn:scrapbook:root"&gt;
+    &lt;RDF:li RDF:resource="urn:scrapbook:item20091114162455"/&gt;
+    &lt;RDF:li RDF:resource="urn:scrapbook:item20050206112141"/&gt;
+  &lt;/RDF:Seq&gt;
+```
+- 每个 ``li`` 也可能是一组 ``Seq``
+```
+#! xml
+  &lt;RDF:Seq RDF:about="urn:scrapbook:item20070212000600"&gt;
+    &lt;RDF:li RDF:resource="urn:scrapbook:item20070212000504"/&gt;
+    &lt;RDF:li RDF:resource="urn:scrapbook:item20070212000555"/&gt;
+  &lt;/RDF:Seq&gt;
+```
+- 不论 ``Seq`` 自身,还是真正的页面,都有一个描述节点来记录详情
+```
+#! xml
+  &lt;RDF:Description RDF:about="urn:scrapbook:item20051216104753"
+                   NS2:id="20051216104753"
+                   NS2:type=""
+                   NS2:title="吉卜力的新作也用blog宣傳"
+                   NS2:chars="UTF-8"
+                   NS2:comment=""
+                   NS2:icon=""
+                   NS2:source="http://www.bigsound.org/portnoy/weblog/001318.html" /&gt;
+```
+- 如果只是分隔线，就是:
+```
+#! xml
+  &lt;NC:BookmarkSeparator RDF:about="urn:scrapbook:item20091113232313"
+                   NS2:id="20091113232313"
+                   NS2:type="separator"
+                   NS2:title=""
+                   NS2:chars=""
+                   NS2:comment=""
+                   NS2:icon=""
+                   NS2:source="" /&gt;
+```
+
+那么一切就应该从 ``&lt;RDF:Seq RDF:about="urn:scrapbook:root"&gt;`` 节点开始爬就好的了,,,
+
+: FT!:
+    - 不论内置的 ``xml.dom`` / ``xml.etree.ElementTree`` 还是伟大的 [lxml http://lxml.de/]
+        - 都不支持根据 XML 节点的属性进行搜索！
+        - 即使可以用 XPath 的算子过滤:``//NC[@RDF:about = "urn:scrapbook:root"]`` ，但是，没有库支持完全功能的XPath!
+        - 俺总不能用 XSLT 先写好过滤，然后再调用支持 XSLT 的浏览器获得中间结果給 Py 用吧？！
+    - 好的，有一堆 RDF 专用解析器
+        - [Redfoot http://redfoot.sourceforge.net/]
+        - [RDFAlchemy http://www.openvest.com/trac/wiki/RDFAlchemy]
+        - [rdflib http://code.google.com/p/rdflib/wiki/ExampleFoafSmushing]
+        - [pyrple - An RDF API in Python http://infomesh.net/pyrple/]
+        - [Raptor http://librdf.org/raptor/]
+        - [SuRF – Object RDF mapper http://packages.python.org/SuRF/]
+        - ...可是！那个复杂哪！居然要在使用前,从相关 XSD 网址下载 Scheme 的!
+        - 也都没有简单的方式,可以让俺搜索到那个该死的  ``&lt;RDF:Seq RDF:about="urn:scrapbook:root"&gt;`` 节点
+        - 不过,也算开了眼,居然有 [RDQL http://www.w3.org/Submission/2004/SUBM-RDQL-20040109/] / [SPARQL http://www.ibm.com/developerworks/cn/education/xml/x-sparql/index.html] 等专用 RDF 解析语言!
+        - 看来当年的 [Semantic Web http://www.ibm.com/developerworks/cn/grid/gr-semgrid/index.html] 的确玩到了很 HIGH 的程序...
+    - 可是,对于俺,这么简单的需求,就是没有简单的处置方法嘛?!
+
+
+
+: 解决:
+    - 冷静了一下,俺只是要进行简单的数据处理,并不一定要真的对 RDF 进行语义上的理解哪?!
+    - XML 自古就有一种原始的,条带化基于事件的处理模型,曰 SAX
+    - Py 内置有最简单的 expat库:
+        - [19.5. xml.parsers.expat — Fast XML parsing using Expat — Python v2.7.2 documentation http://docs.python.org/library/pyexpat.html#example]
+    - 跟着样例快速完成了处理部分,速度也非常的快
+
+```
+#! python ; highlight: [5,17,24]
+def start_element(name, attrs):
+    if "RDF:Seq" == name:
+        CF.IS_SEQ = 1
+        CF.IS_DESC = 0
+        if "urn:scrapbook:root" == attrs['RDF:about']:
+            #print 'ROOT element:', name, attrs
+            CF.IS_ROOT = 1
+            CF.DICTRDF['ROOT']['id'] = attrs['RDF:about'].split(":")[-1]
+            CF.CRTID = attrs['RDF:about'].split(":")[-1]
+            CF.DICTRDF['ROOT']['li'] = []
+        else:
+            CF.IS_ROOT = 0
+            CF.CRTID = attrs['RDF:about'].split(":")[-1]
+            CF.DICTRDF['SEQ'][CF.CRTID] = []
+    else:
+        CF.IS_SEQ = 0
+        if "RDF:li" == name:
+            CF.IS_DESC = 0
+            CF.IS_LI = 1
+            if CF.IS_ROOT:
+                CF.DICTRDF['ROOT']['li'].append(attrs['RDF:resource'].split(":")[-1])
+            else:
+                CF.DICTRDF['SEQ'][CF.CRTID].append(attrs['RDF:resource'].split(":")[-1])
+        elif "RDF:Description" == name:
+            CF.IS_DESC = 1
+            CF.IS_LI = 0
+            CF.CRTID = attrs['RDF:about'].split(":")[-1]
+            CF.DICTRDF['DESC'][CF.CRTID] = {
+                'id':attrs['NS2:id']
+                ,'type':attrs['NS2:type']
+                ,'title':attrs['NS2:title']
+                ,'source':attrs['NS2:source']
+                ,'chars':attrs['NS2:chars']
+                ,'icon':attrs['NS2:icon']
+                ,'comment':attrs['NS2:comment']
+                }
+
+```
+
+
+: 技巧:
+    - 就是用一堆判定,将有限的情况进行区分
+    - 然后丢到个字典中,供给后续处理
+
+```
+#! python ; highlight: [1,2,4]
+{"ROOT":{'id':'','li':[]}
+,"SEQ":{'item...':[]
+    ,,,}
+,"DESC":{'item...':{'id':''
+        ,'type':"" # folder||separator
+        ,'icon':''
+        ,'title':''
+        ,'source':''
+        ,'chars':''
+        ,'comment':''
+        }
+    ,,,
+    }
+}
+```
+
+</t>
+<t tx="zoomq.20110908090929.8045">
+=== yeild ===
+好的,有了 RDF 正确的结构关系数据后,怎么优雅的输出成分层的索引页面?!
+
+- 俺习惯用内置的文本模板功能,通过纯文本的嵌套完成 html 的输出
+- 结果,发现,俺的网页整理到不同深度的目录中
+    - 要想进行递归式的树状生成,很容易引发递归过深,Py 崩溃的现象
+
+
+```
+#! js ; highlight: [2,12]
+// scrapbook/chrome/scrapbook.jar-&gt;content/scrapbook/output.js 中
+	processRescursively : function(aContRes)
+	{
+		this.depth++;
+		var id = ScrapBookData.getProperty(aContRes, "id") || "root";
+		this.content += '&lt;ul id="folder-' + id + '"&gt;\n';
+		var resList = ScrapBookData.flattenResources(aContRes, 0, false);
+		for (var i = 1; i &lt; resList.length; i++) {
+			this.content += '&lt;li class="depth' + String(this.depth) + '"&gt;';
+			this.content += this.getHTMLBody(resList[i]);
+			if (ScrapBookData.isContainer(resList[i]))
+				this.processRescursively(resList[i]);
+			this.content += "&lt;/li&gt;\n";
+		}
+		this.content += "&lt;/ul&gt;\n";
+		this.depth--;
+	},
+
+```
+
+- [SCRAPBOOK http://amb.vis.ne.jp/mozilla/scrapbook/]中的原生处理是硬递归的哪,,,
+- Py 有优雅的迭代式，但是不那么容易用起来:
+    - [yeild 的递归输出问题 http://wiki.woodpecker.org.cn/moin/MiscItems/2011-08-25]
+    - 引发了社区列表讨论，结果获得的经验很简单:
+        - **所有想返回的，都用 yeild 包装上！**
+
+
+于是，一切安定团结了,,,
+
+用 shell 包装个命令，想发布本地 [SCRAPBOOK http://amb.vis.ne.jp/mozilla/scrapbook/] 仓库时，一键完成！</t>
+<t tx="zoomq.20110908090929.8046">
+== TODO ==
+当然总是有不如意的,留存以后,或是有心人完善了:
+
++ 美化平面索引页面
+    + 排版和颜色
+    + CSS 限宽效果用JS 进行动态扩展 
++ 自动对所有抓取的页面,嵌入原始链接的提示
++ 对整体仓库生成 site map 帮助 google 收录 ... 
+
+
+
+= 时间帐单 =
++ ~0.01h    起意，要折腾
++ 0.5h      rdf 理解
++ 1h        ElementTree 尝试
++ 1h        lxml 尝试
++ ~2h       RDF 解析模块收集
++ ~1h       rdflib 尝试
++ ~0.5h     冷静
++ ~0.5h     expat完成解析
++ ~1h       根索引页面输出
++ ~2.5h     递归和迭代尝试
++ ~2h       获得社区反馈，完成所有功能
+
+
+合计,~13小时,哗,,,,大大超出原先半天的预计,纠其原因:
+    + 对XML体系的变态缺乏足够的敬畏
+    + 对递归的理解一直不扎实
+
+
+事实证明:**嘦不经过真实编程的理解，基本都是误解**
+
+
+</t>
+<t tx="zoomq.20110908090929.8047">t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+</t>
+<t tx="zoomq.20110908090929.8048">------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
 </t>
 </tnodes>
 </leo_file>

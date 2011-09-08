@@ -1,0 +1,441 @@
+<?xml version="1.0"
+      encoding="UTF-8"
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ScrapBook辅助工具之expidxlevels</title>
+<meta name="generator" content="http://txt2tags.sf.net" />
+</head>
+<body>
+
+<div class="header" id="header">
+<a name='toptopS05SWEVZT' id='toptopS05SWEVZT'></a><h1>ScrapBook辅助工具之expidxlevels</h1>
+<h2>~ 坑爹的RDF乱斗!</h2>
+<h3>t2t渲染:2011-09-08 04:54:24</h3>
+</div>
+
+<div class="toc" id="toc">
+  <ol>
+  <li><a href="#toc1R0VYQ0JaR">不折腾要死星人</a>
+    <ul>
+    <li><a href="#toc2R0VYRENMU">1.1. scraptools</a>
+      <ul>
+      <li><a href="#toc3R0VYRENMU">1.1.1. RDF</a>
+      </li>
+      <li><a href="#toc4R0VYRENMU">1.1.2. yeild</a>
+      </li>
+      </ul>
+    </li>
+    <li><a href="#toc5R0VYREVMU">1.2. TODO</a>
+    </li>
+    </ul>
+  </li>
+  <li><a href="#toc6R0lYQ0JaV">时间帐单</a>
+  </li>
+  </ol>
+
+</div>
+<div class="body" id="body">
+<a id="toc1R0VYQ0JaR" name="toc1R0VYQ0JaR"></a>
+<h1><A href='#toptopS05SWEVZT'> 1. 不折腾要死星人 </A></h1>
+<p>
+嗯嗯嗯，从,,, 20041214101930 开始,坚持使用<a href="http://amb.vis.ne.jp/mozilla/scrapbook/">SCRAPBOOK :: Firefox Extension</a> 进行离线网页的收集和整理了;
+</p>
+<ul>
+<li>一直很爽,而且内置的导出功能,可以一键将本地收集的网页通过一个标准的框架页面,用树状索引进行发布;
+</li>
+<li>使用 rsync 等等文件同步小工具,就可以发布一个静态的表述自个儿关注领域技术的纯资料网站了!
+</li>
+<li>其实一直以来就发布有这类两个网站:
+    <ul>
+    <li><a href="http://floss.zoomquiet.org">http://floss.zoomquiet.org</a>
+    </li>
+    <li><a href="http://skm.zoomquiet.org">http://skm.zoomquiet.org</a>
+    <p></p>
+    </li>
+    </ul>
+</li>
+<li>好处是那些优秀的文章,即使原文网站死了,依然在俺这儿原样可查,
+</li>
+<li>问题是:
+    <ul>
+    <li><img align="middle" src="/pybimage/2011/zq_2011-09-08-154005_577x344_scrot.png" border="0" alt=""/>
+    </li>
+    <li>导出的那个索引树,随着时间的积累,已经大到无法忍受了!
+    </li>
+    <li>比如说, floss.zoomquiet.org 的树,包含 2万多节点,自身体积已经超过5M
+    </li>
+    <li>有网友吼,用 Chrome 都无法打开!
+    </li>
+    </ul>
+</li>
+</ul>
+
+<dl>
+<dt>  所以:</dt><dd>
+    <ul>
+    <li>得想招精简如此多节点的索引树了,,,
+    </li>
+    <li>为了时不时，在俺这儿打捞历史文章的亲们...
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<a id="toc2R0VYRENMU" name="toc2R0VYRENMU"></a>
+<h2><A href='#toptopS05SWEVZT'> 1.1. scraptools </A></h2>
+<p>
+所以,有了 <a href="https://bitbucket.org/ZoomQuiet/scraptools/wiki/Home">ZoomQuiet / scraptools — Bitbucket</a>
+</p>
+<p>
+其中的 expidxlevels.py 就是专门进行自动索引化简的...
+</p>
+<a id="toc3R0VYRENMU" name="toc3R0VYRENMU"></a>
+<h3><A href='#toptopS05SWEVZT'> 1.1.1. RDF </A></h3>
+<p>
+以前在相关讲演中吼过,选择 <a href="http://amb.vis.ne.jp/mozilla/scrapbook/">SCRAPBOOK :: Firefox Extension</a>的好点之一,就是有标准的XML 数据输出,好进行二次处理
+</p>
+    <ul>
+    <li>幻灯: <a href="http://zoomquiet.org/res/s5/100918-MyTools/rst2s5/">http://zoomquiet.org/res/s5/100918-MyTools/rst2s5/</a>
+    </li>
+    <li>录音: <a href="http://zoomquiet.org/res/m/r/wav4zoomq/100930-snda-mytools/">http://zoomquiet.org/res/m/r/wav4zoomq/100930-snda-mytools/</a>
+    <p></p>
+    </li>
+    </ul>
+
+<dl>
+<dt>设想:</dt><dd>
+    <ul>
+    <li>将 <code>scrapbook.rdf</code> (自动生成的记录树关系的RDF)进行合理解析
+    </li>
+    <li>整理成分级索引页面就可以解决单一索引的巨大加载问题了
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<dl>
+<dt>杯具:</dt><dd>
+    <ul>
+    <li>TMD没有一种XML解析库对付的了RDF!
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<p>
+<code>scrapbook.rdf</code> 的设计很简洁:
+</p>
+<ul>
+<li>根节点,索引各个 <code>li</code>
+<pre class="brush:  xml">
+
+  &lt;RDF:Seq RDF:about="urn:scrapbook:root"&gt;
+    &lt;RDF:li RDF:resource="urn:scrapbook:item20091114162455"/&gt;
+    &lt;RDF:li RDF:resource="urn:scrapbook:item20050206112141"/&gt;
+  &lt;/RDF:Seq&gt;
+</pre>
+</li>
+<li>每个 <code>li</code> 也可能是一组 <code>Seq</code>
+<pre class="brush:  xml">
+
+  &lt;RDF:Seq RDF:about="urn:scrapbook:item20070212000600"&gt;
+    &lt;RDF:li RDF:resource="urn:scrapbook:item20070212000504"/&gt;
+    &lt;RDF:li RDF:resource="urn:scrapbook:item20070212000555"/&gt;
+  &lt;/RDF:Seq&gt;
+</pre>
+</li>
+<li>不论 <code>Seq</code> 自身,还是真正的页面,都有一个描述节点来记录详情
+<pre class="brush:  xml">
+
+  &lt;RDF:Description RDF:about="urn:scrapbook:item20051216104753"
+                   NS2:id="20051216104753"
+                   NS2:type=""
+                   NS2:title="吉卜力的新作也用blog宣傳"
+                   NS2:chars="UTF-8"
+                   NS2:comment=""
+                   NS2:icon=""
+                   NS2:source="http://www.bigsound.org/portnoy/weblog/001318.html" /&gt;
+</pre>
+</li>
+<li>如果只是分隔线，就是:
+<pre class="brush:  xml">
+
+  &lt;NC:BookmarkSeparator RDF:about="urn:scrapbook:item20091113232313"
+                   NS2:id="20091113232313"
+                   NS2:type="separator"
+                   NS2:title=""
+                   NS2:chars=""
+                   NS2:comment=""
+                   NS2:icon=""
+                   NS2:source="" /&gt;
+</pre>
+<p></p>
+那么一切就应该从 <code>&lt;RDF:Seq RDF:about="urn:scrapbook:root"&gt;</code> 节点开始爬就好的了,,,
+<p></p>
+</li>
+</ul>
+
+<dl>
+<dt>FT!:</dt><dd>
+    <ul>
+    <li>不论内置的 <code>xml.dom</code> / <code>xml.etree.ElementTree</code> 还是伟大的 <a href="http://lxml.de/">lxml</a>
+        <ul>
+        <li>都不支持根据 XML 节点的属性进行搜索！
+        </li>
+        <li>即使可以用 XPath 的算子过滤:<code>//NC[@RDF:about = "urn:scrapbook:root"]</code> ，但是，没有库支持完全功能的XPath!
+        </li>
+        <li>俺总不能用 XSLT 先写好过滤，然后再调用支持 XSLT 的浏览器获得中间结果給 Py 用吧？！
+        </li>
+        </ul>
+    </li>
+    <li>好的，有一堆 RDF 专用解析器
+        <ul>
+        <li><a href="http://redfoot.sourceforge.net/">Redfoot</a>
+        </li>
+        <li><a href="http://www.openvest.com/trac/wiki/RDFAlchemy">RDFAlchemy</a>
+        </li>
+        <li><a href="http://code.google.com/p/rdflib/wiki/ExampleFoafSmushing">rdflib</a>
+        </li>
+        <li><a href="http://infomesh.net/pyrple/">pyrple - An RDF API in Python</a>
+        </li>
+        <li><a href="http://librdf.org/raptor/">Raptor</a>
+        </li>
+        <li><a href="http://packages.python.org/SuRF/">SuRF – Object RDF mapper</a>
+        </li>
+        <li>...可是！那个复杂哪！居然要在使用前,从相关 XSD 网址下载 Scheme 的!
+        </li>
+        <li>也都没有简单的方式,可以让俺搜索到那个该死的  <code>&lt;RDF:Seq RDF:about="urn:scrapbook:root"&gt;</code> 节点
+        </li>
+        <li>不过,也算开了眼,居然有 <a href="http://www.w3.org/Submission/2004/SUBM-RDQL-20040109/">RDQL</a> / <a href="http://www.ibm.com/developerworks/cn/education/xml/x-sparql/index.html">SPARQL</a> 等专用 RDF 解析语言!
+        </li>
+        <li>看来当年的 <a href="http://www.ibm.com/developerworks/cn/grid/gr-semgrid/index.html">Semantic Web</a> 的确玩到了很 HIGH 的程序...
+        </li>
+        </ul>
+    </li>
+    <li>可是,对于俺,这么简单的需求,就是没有简单的处置方法嘛?!
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<dl>
+<dt>解决:</dt><dd>
+    <ul>
+    <li>冷静了一下,俺只是要进行简单的数据处理,并不一定要真的对 RDF 进行语义上的理解哪?!
+    </li>
+    <li>XML 自古就有一种原始的,条带化基于事件的处理模型,曰 SAX
+    </li>
+    <li>Py 内置有最简单的 expat库:
+        <ul>
+        <li><a href="http://docs.python.org/library/pyexpat.html#example">19.5. xml.parsers.expat — Fast XML parsing using Expat — Python v2.7.2 documentation</a>
+        </li>
+        </ul>
+    </li>
+    <li>跟着样例快速完成了处理部分,速度也非常的快
+    <p></p>
+<pre class="brush:  python ; highlight: [5,17,24]">
+
+def start_element(name, attrs):
+    if "RDF:Seq" == name:
+        CF.IS_SEQ = 1
+        CF.IS_DESC = 0
+        if "urn:scrapbook:root" == attrs['RDF:about']:
+            #print 'ROOT element:', name, attrs
+            CF.IS_ROOT = 1
+            CF.DICTRDF['ROOT']['id'] = attrs['RDF:about'].split(":")[-1]
+            CF.CRTID = attrs['RDF:about'].split(":")[-1]
+            CF.DICTRDF['ROOT']['li'] = []
+        else:
+            CF.IS_ROOT = 0
+            CF.CRTID = attrs['RDF:about'].split(":")[-1]
+            CF.DICTRDF['SEQ'][CF.CRTID] = []
+    else:
+        CF.IS_SEQ = 0
+        if "RDF:li" == name:
+            CF.IS_DESC = 0
+            CF.IS_LI = 1
+            if CF.IS_ROOT:
+                CF.DICTRDF['ROOT']['li'].append(attrs['RDF:resource'].split(":")[-1])
+            else:
+                CF.DICTRDF['SEQ'][CF.CRTID].append(attrs['RDF:resource'].split(":")[-1])
+        elif "RDF:Description" == name:
+            CF.IS_DESC = 1
+            CF.IS_LI = 0
+            CF.CRTID = attrs['RDF:about'].split(":")[-1]
+            CF.DICTRDF['DESC'][CF.CRTID] = {
+                'id':attrs['NS2:id']
+                ,'type':attrs['NS2:type']
+                ,'title':attrs['NS2:title']
+                ,'source':attrs['NS2:source']
+                ,'chars':attrs['NS2:chars']
+                ,'icon':attrs['NS2:icon']
+                ,'comment':attrs['NS2:comment']
+                }
+
+</pre>
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<dl>
+<dt>技巧:</dt><dd>
+    <ul>
+    <li>就是用一堆判定,将有限的情况进行区分
+    </li>
+    <li>然后丢到个字典中,供给后续处理
+    <p></p>
+<pre class="brush:  python ; highlight: [1,2,4]">
+
+{"ROOT":{'id':'','li':[]}
+,"SEQ":{'item...':[]
+    ,,,}
+,"DESC":{'item...':{'id':''
+        ,'type':"" # folder||separator
+        ,'icon':''
+        ,'title':''
+        ,'source':''
+        ,'chars':''
+        ,'comment':''
+        }
+    ,,,
+    }
+}
+</pre>
+    </li>
+    </ul>
+</dd>
+</dl>
+
+<a id="toc4R0VYRENMU" name="toc4R0VYRENMU"></a>
+<h3><A href='#toptopS05SWEVZT'> 1.1.2. yeild </A></h3>
+<p>
+好的,有了 RDF 正确的结构关系数据后,怎么优雅的输出成分层的索引页面?!
+</p>
+<ul>
+<li>俺习惯用内置的文本模板功能,通过纯文本的嵌套完成 html 的输出
+</li>
+<li>结果,发现,俺的网页整理到不同深度的目录中
+    <ul>
+    <li>要想进行递归式的树状生成,很容易引发递归过深,Py 崩溃的现象
+    </li>
+    </ul>
+</li>
+</ul>
+
+<pre class="brush:  js ; highlight: [2,12]">
+
+// scrapbook/chrome/scrapbook.jar-&gt;content/scrapbook/output.js 中
+	processRescursively : function(aContRes)
+	{
+		this.depth++;
+		var id = ScrapBookData.getProperty(aContRes, "id") || "root";
+		this.content += '&lt;ul id="folder-' + id + '"&gt;\n';
+		var resList = ScrapBookData.flattenResources(aContRes, 0, false);
+		for (var i = 1; i &lt; resList.length; i++) {
+			this.content += '&lt;li class="depth' + String(this.depth) + '"&gt;';
+			this.content += this.getHTMLBody(resList[i]);
+			if (ScrapBookData.isContainer(resList[i]))
+				this.processRescursively(resList[i]);
+			this.content += "&lt;/li&gt;\n";
+		}
+		this.content += "&lt;/ul&gt;\n";
+		this.depth--;
+	},
+
+</pre>
+<p></p>
+<ul>
+<li><a href="http://amb.vis.ne.jp/mozilla/scrapbook/">SCRAPBOOK</a>中的原生处理是硬递归的哪,,,
+</li>
+<li>Py 有优雅的迭代式，但是不那么容易用起来:
+    <ul>
+    <li><a href="http://wiki.woodpecker.org.cn/moin/MiscItems/2011-08-25">yeild 的递归输出问题</a>
+    </li>
+    <li>引发了社区列表讨论，结果获得的经验很简单:
+        <ul>
+        <li><b>所有想返回的，都用 yeild 包装上！</b>
+        </li>
+        </ul>
+    </li>
+    </ul>
+</li>
+</ul>
+
+<p>
+于是，一切安定团结了,,,
+</p>
+<p>
+用 shell 包装个命令，想发布本地 <a href="http://amb.vis.ne.jp/mozilla/scrapbook/">SCRAPBOOK</a> 仓库时，一键完成！
+</p>
+<a id="toc5R0VYREVMU" name="toc5R0VYREVMU"></a>
+<h2><A href='#toptopS05SWEVZT'> 1.2. TODO </A></h2>
+<p>
+当然总是有不如意的,留存以后,或是有心人完善了:
+</p>
+<ol>
+<li>美化平面索引页面
+    <ol>
+    <li>排版和颜色
+    </li>
+    <li>CSS 限宽效果用JS 进行动态扩展 
+    </li>
+    </ol>
+</li>
+<li>自动对所有抓取的页面,嵌入原始链接的提示
+</li>
+<li>对整体仓库生成 site map 帮助 google 收录 ... 
+</li>
+</ol>
+
+<a id="toc6R0lYQ0JaV" name="toc6R0lYQ0JaV"></a>
+<h1><A href='#toptopS05SWEVZT'> 2. 时间帐单 </A></h1>
+<ol>
+<li>~0.01h    起意，要折腾
+</li>
+<li>0.5h      rdf 理解
+</li>
+<li>1h        ElementTree 尝试
+</li>
+<li>1h        lxml 尝试
+</li>
+<li>~2h       RDF 解析模块收集
+</li>
+<li>~1h       rdflib 尝试
+</li>
+<li>~0.5h     冷静
+</li>
+<li>~0.5h     expat完成解析
+</li>
+<li>~1h       根索引页面输出
+</li>
+<li>~2.5h     递归和迭代尝试
+</li>
+<li>~2h       获得社区反馈，完成所有功能
+</li>
+</ol>
+
+<p>
+合计,~13小时,哗,,,,大大超出原先半天的预计,纠其原因:
+</p>
+    <ol>
+    <li>对XML体系的变态缺乏足够的敬畏
+    </li>
+    <li>对递归的理解一直不扎实
+    </li>
+    </ol>
+
+<p>
+事实证明:<b>嘦不经过真实编程的理解，基本都是误解</b>
+</p>
+<hr class="light" />
+<p>
+动力源自::<b><a href="http://txt2tags.sf.net">txt2tags</a></b>
+</p>
+</div>
+
+<!-- xhtml code generated by txt2tags 2.4 (http://txt2tags.sf.net) -->
+<!-- cmdline: txt2tags utility/py4xml/scrapbook-expidxlevels-2011-09-08-13-13.t2t -->
+</body></html>
