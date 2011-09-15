@@ -65,7 +65,7 @@
 </v>
 <v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
 </v>
-<v t="ZoomQuiet.20060113092644" a="E"><vh>entries</vh>
+<v t="ZoomQuiet.20060113092644"><vh>entries</vh>
 <v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
 <v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
 <v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
@@ -278,7 +278,7 @@
 <v t="ZoomQuiet.20060116170227.2"><vh>openpeople</vh></v>
 <v t="ZoomQuiet.20060116170256.1"><vh>WeKnow</vh></v>
 </v>
-<v t="zoomq.20100414115206.4540" a="E"><vh>mind</vh>
+<v t="zoomq.20100414115206.4540"><vh>mind</vh>
 <v t="ZoomQuiet.20060531114330"><vh>@nosent why-noread-paid-books-2010-08-06-11-01.t2t</vh>
 <v t="ZoomQuiet.20060531114330.1"><vh>main</vh></v>
 <v t="zoomq.20060916180156.12"></v>
@@ -435,10 +435,10 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170643.2" a="E"><vh>py4xml</vh>
-<v t="zoomq.20110908090929.8040" a="E"><vh>@nosent scrapbook-expidxlevels-2011-09-08-13-13.t2t</vh>
+<v t="ZoomQuiet.20060116170643.2"><vh>py4xml</vh>
+<v t="zoomq.20110908090929.8040"><vh>@nosent scrapbook-expidxlevels-2011-09-08-13-13.t2t</vh>
 <v t="zoomq.20110908090929.8041"><vh>what?</vh></v>
-<v t="zoomq.20110908090929.8043" a="E"><vh>hacking</vh>
+<v t="zoomq.20110908090929.8043"><vh>hacking</vh>
 <v t="zoomq.20110908090929.8044"><vh>=== py2pre.py ===</vh></v>
 <v t="zoomq.20110908090929.8045"><vh>=== cp4idx2category.py ===</vh></v>
 </v>
@@ -561,14 +561,14 @@
 <v t="zoomq.20100728103610.7583"></v>
 <v t="zoomq.20100714100833.4002"><vh>我的”怪癖” (作业)</vh></v>
 </v>
-<v t="ZoomQuiet.20060116170040.5" a="E"><vh>techic</vh>
+<v t="ZoomQuiet.20060116170040.5"><vh>techic</vh>
 <v t="zoomq.20100414115206.4542"><vh>Emacs</vh>
 <v t="zoomq.20100414115206.4558"><vh>@nosent fw_learning_emacs_notes-2007-03-08-18-00.t2t</vh>
 <v t="zoomq.20100414115206.4534"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20100414115206.4391" a="E"><vh>PyBlosxom</vh>
-<v t="zoomq.20100414115206.4530" a="E"><vh>运维日志</vh>
+<v t="zoomq.20100414115206.4391"><vh>PyBlosxom</vh>
+<v t="zoomq.20100414115206.4530"><vh>运维日志</vh>
 <v t="zoomq.20100414115206.4531"><vh>@nosent operacss2-2006-01-28-10-00.t2t</vh>
 <v t="zoomq.20100414115206.4532"><vh>what?</vh></v>
 <v t="zoomq.20100414115206.4533"><vh>fixed</vh></v>
@@ -584,7 +584,7 @@
 <v t="zoomq.20100414115206.4534"></v>
 <v t="zoomq.20100414115206.4535"></v>
 </v>
-<v t="zoomq.20110907090950.6589" a="E"><vh>@nosent upinto-pyblosxom15rc3-2011-09-07-12-23.t2t</vh>
+<v t="zoomq.20110907090950.6589"><vh>@nosent upinto-pyblosxom15rc3-2011-09-07-12-23.t2t</vh>
 <v t="zoomq.20110907090950.6590"><vh>what?</vh></v>
 <v t="zoomq.20110907090950.6592"><vh>SyntaxHighlighter</vh></v>
 <v t="zoomq.20110907090950.6596"><vh>hacking</vh>
@@ -690,9 +690,9 @@
 <v t="ZoomQuiet.20060121172947.1"></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060113151604"><vh>hacking</vh>
-<v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
-<v t="zoomq.20110503084352.4319"><vh>html.flav</vh>
+<v t="ZoomQuiet.20060113151604" a="E"><vh>hacking</vh>
+<v t="ZoomQuiet.20060117230430" a="E"><vh>flavours</vh>
+<v t="zoomq.20110503084352.4319" a="E"><vh>html.flav</vh>
 <v t="zoomq.20110503084352.4323"><vh>@nosent foot</vh>
 <v t="zoomq.20110503084352.4334"><vh>&lt;&lt;JS loader&gt;&gt;</vh></v>
 <v t="zoomq.20110503084352.4329"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
@@ -1525,7 +1525,7 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060113092617"><vh>web配置</vh>
-<v t="ZoomQuiet.20060113092909" a="E"><vh>@nosent config.py</vh>
+<v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
 <v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
 <v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
 <v t="ZoomQuiet.20060123105542"><vh>Plugin configuration</vh>
@@ -27093,6 +27093,13 @@ $(tagcloud)
 &lt;a href="javascript:window.print()"&gt;[Print]&lt;/a&gt;
  &lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/"&gt;
 &lt;img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/cn/80x15.png" /&gt;&lt;/a&gt;
+&lt;form action="https://www.paypal.com/cgi-bin/webscr" method="post"&gt;
+&lt;input type="hidden" name="cmd" value="_s-xclick"&gt;
+&lt;input type="hidden" name="hosted_button_id" value="E73UR2XVSP7US"&gt;
+&lt;input type="image" src="http://blog.zoomquiet.org/pybimage/icon/dollar_32.png" border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"&gt;
+&lt;img alt="" border="0" src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" width="1" height="1"&gt;
+&lt;/form&gt;
+
 &lt;br/&gt;
 &lt;span class="cclicence"&gt;
     &amp;#26412;&lt;span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type"&gt;&amp;#20316;&amp;#21697;&lt;/span&gt;&amp;#30001;&lt;span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"&gt;Zoom.Quiet&lt;/span&gt;&amp;#21019;&amp;#20316;&amp;#65292;&amp;#37319;&amp;#29992;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/"&gt;&amp;#30693;&amp;#35782;&amp;#20849;&amp;#20139;&amp;#32626;&amp;#21517;-&amp;#30456;&amp;#21516;&amp;#26041;&amp;#24335;&amp;#20849;&amp;#20139; 2.5 &amp;#20013;&amp;#22269;&amp;#22823;&amp;#38470;&amp;#35768;&amp;#21487;&amp;#21327;&amp;#35758;&lt;/a&gt;&amp;#36827;&amp;#34892;&amp;#35768;&amp;#21487;&amp;#12290;

@@ -27,6 +27,13 @@
 <a href="javascript:window.print()">[Print]</a>
  <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/">
 <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/cn/80x15.png" /></a>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="E73UR2XVSP7US">
+<input type="image" src="http://blog.zoomquiet.org/pybimage/icon/dollar_32.png" border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！">
+<img alt="" border="0" src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
+</form>
+
 <br/>
 <span class="cclicence">
     &#26412;<span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">&#20316;&#21697;</span>&#30001;<span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Zoom.Quiet</span>&#21019;&#20316;&#65292;&#37319;&#29992;<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/cn/">&#30693;&#35782;&#20849;&#20139;&#32626;&#21517;-&#30456;&#21516;&#26041;&#24335;&#20849;&#20139; 2.5 &#20013;&#22269;&#22823;&#38470;&#35768;&#21487;&#21327;&#35758;</a>&#36827;&#34892;&#35768;&#21487;&#12290;
