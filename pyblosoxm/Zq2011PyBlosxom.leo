@@ -32873,9 +32873,8 @@ SETI@home 这是多么浪漫的项目哪,都出现在不少网络小说中的科
 &lt;&lt;t2t foot&gt;&gt;
 </t>
 <t tx="zoomq.20111020092508.5257">= 大会 =
-[/pybimage/2011/PyConChina.png]
 
-世界 Python 爱好者的顶级盛会 —— PyCon 大会将首次在中国举办！本次大会由（Python 软件基金会下的）PyCon.Org 正式授权 GTUG、TopGeek、CPyUG 等社区联合举办，由 Python 作者 Guido van Rossum 及其所在的 Google 公司提供关键支持。
+[[/pybimage/2011/PyConChina.png] http://cn.pycon.org/2011/] 世界 Python 爱好者的顶级盛会 —— PyCon 大会将首次在中国举办！本次大会由（Python 软件基金会下的）PyCon.Org 正式授权 GTUG、TopGeek、CPyUG 等社区联合举办，由 Python 作者 Guido van Rossum 及其所在的 Google 公司提供关键支持。
 
 本次大会云集了国内外最为杰出的 Python 开发者，国内 Python 领域的领军人物几乎悉数到场、作为 Python 重镇的各大知名公司几乎无一缺席，所有嘉宾都承诺将自己压箱底的 Python 绝活呈现给大家！[沈游侠 http://eishn.blog.163.com/blog/static/652318201191381314841/]也会在大会上进行题为《Python，通向未来之路》的纯技术演讲，欢迎捧场。
 12 月，让我们聚首上海！
