@@ -42,7 +42,7 @@ if __name__ == '__main__':      # this way the module can be
 $ python cp4idx2category.py path/2/_static
             |               +- 生成的静态页面入口
             +- 脚本自身
-        """ % VERSION
+        """ % __version__
     else:
         path = sys.argv[1]
         cp4gen(path)

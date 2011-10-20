@@ -66,7 +66,7 @@
 <v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
 </v>
 <v t="ZoomQuiet.20060113092644" a="E"><vh>entries</vh>
-<v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
+<v t="ZoomQuiet.20060116170040" a="E"><vh>Zen</vh>
 <v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
 <v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
 <v t="zoomq.20100728103610.7583"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
@@ -117,7 +117,13 @@
 <v t="zoomq.20060916180156.12"></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170108.1"><vh>pythonic</vh>
+<v t="ZoomQuiet.20060116170108.1" a="E"><vh>pythonic</vh>
+<v t="zoomq.20111020092508.5256" a="E"><vh>@nosent pycon2011china-2011-10-10-10-10.t2t</vh>
+<v t="zoomq.20111020092508.5257"><vh>what?</vh></v>
+<v t="zoomq.20111020092508.5258"><vh>think</vh></v>
+<v t="zoomq.20111020092508.5259"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
+<v t="zoomq.20111020092508.5260"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
+</v>
 <v t="zoomq.20100630152750.4000"><vh>@nosent leo-py25-bad-chinese-2007-04-27-18-00.t2t</vh>
 <v t="zoomq.20100728103610.7585"><vh>main</vh></v>
 <v t="zoomq.20100728103610.7583"></v>
@@ -291,7 +297,7 @@
 <v t="zoomq.20060916180156.12"></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170040.4" a="E"><vh>Quiet</vh>
+<v t="ZoomQuiet.20060116170040.4"><vh>Quiet</vh>
 <v t="ZoomQuiet.20060118005001"><vh>foto</vh></v>
 <v t="ZoomQuiet.20060116170330"><vh>living</vh>
 <v t="ZoomQuiet.20060308100814"><vh>@nosent dahua-dialect-2006-05-10-17-00.t2t</vh>
@@ -347,8 +353,8 @@
 <v t="ZoomQuiet.20060122153701.1"></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170435" a="E"><vh>SiFi</vh>
-<v t="zoomq.20111019211314.5249" a="E"><vh>@nosent setiahome-need-help-2011-10-13-13-13.t2t</vh>
+<v t="ZoomQuiet.20060116170435"><vh>SiFi</vh>
+<v t="zoomq.20111019211314.5249"><vh>@nosent setiahome-need-help-2011-10-13-13-13.t2t</vh>
 <v t="zoomq.20111019211314.5250"><vh>what?</vh></v>
 <v t="zoomq.20111019211314.5257"><vh>think</vh></v>
 <v t="zoomq.20111019211314.5255"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
@@ -356,7 +362,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100414115206.4538" a="E"><vh>utility</vh>
+<v t="zoomq.20100414115206.4538"><vh>utility</vh>
 <v t="ZoomQuiet.20060116170508"><vh>py4gui</vh></v>
 <v t="ZoomQuiet.20060116170643"><vh>py4str</vh>
 <v t="zoomq.20100414115206.4235"><vh>StructuredText</vh>
@@ -442,7 +448,7 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170643.2" a="E"><vh>py4xml</vh>
+<v t="ZoomQuiet.20060116170643.2"><vh>py4xml</vh>
 <v t="zoomq.20110908090929.8040"><vh>@nosent scrapbook-expidxlevels-2011-09-08-13-13.t2t</vh>
 <v t="zoomq.20110908090929.8041"><vh>what?</vh></v>
 <v t="zoomq.20110908090929.8043"><vh>hacking</vh>
@@ -697,7 +703,7 @@
 <v t="ZoomQuiet.20060121172947.1"></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060113151604"><vh>hacking</vh>
+<v t="ZoomQuiet.20060113151604" a="E"><vh>hacking</vh>
 <v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
 <v t="zoomq.20110503084352.4319"><vh>html.flav</vh>
 <v t="zoomq.20110503084352.4323"><vh>@nosent foot</vh>
@@ -794,7 +800,7 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
-<v t="zoomq.20100414115206.4559"><vh>@nosent cp4idx2category.py</vh>
+<v t="zoomq.20100414115206.4559" a="E"><vh>@nosent cp4idx2category.py</vh>
 <v t="zoomq.20100414115206.4560"><vh>declarations</vh></v>
 <v t="zoomq.20100414115206.4561"><vh>cp4gen(path)</vh>
 <v t="zoomq.20110907090950.6581"><vh>&lt;&lt;cp as ind&gt;&gt;</vh></v>
@@ -13398,7 +13404,7 @@ if __name__ == '__main__':      # this way the module can be
 $ python cp4idx2category.py path/2/_static
             |               +- 生成的静态页面入口
             +- 脚本自身
-        """ % VERSION
+        """ % __version__
     else:
         path = sys.argv[1]
         cp4gen(path)
@@ -32855,5 +32861,69 @@ SETI@home 这是多么浪漫的项目哪,都出现在不少网络小说中的科
 
 好在科学家有无数方法可以渡过经济危机,[点击捐助 http://setiathome.berkeley.edu/sah_donate.php]
 目前只要几万刀,就可以低烈度的继续寻找外星人了...</t>
+<t tx="zoomq.20111020092508.5256">@language Moin
+首届PyCon中国大会发动！
+~ 让我们聚首上海
+&lt;&lt;t2t head&gt;&gt;
+
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20111020092508.5257">= 大会 =
+[/pybimage/2011/PyConChina.png]
+
+世界 Python 爱好者的顶级盛会 —— PyCon 大会将首次在中国举办！本次大会由（Python 软件基金会下的）PyCon.Org 正式授权 GTUG、TopGeek、CPyUG 等社区联合举办，由 Python 作者 Guido van Rossum 及其所在的 Google 公司提供关键支持。
+
+本次大会云集了国内外最为杰出的 Python 开发者，国内 Python 领域的领军人物几乎悉数到场、作为 Python 重镇的各大知名公司几乎无一缺席，所有嘉宾都承诺将自己压箱底的 Python 绝活呈现给大家！[沈游侠 http://eishn.blog.163.com/blog/static/652318201191381314841/]也会在大会上进行题为《Python，通向未来之路》的纯技术演讲，欢迎捧场。
+12 月，让我们聚首上海！
+大会订票已经开始 http://pycon.51qiangzuo.com 手速一定要快哦！
+
+会议为期两天（12 月 3 日至 4 日），票价 60￥，全部用于会议期间的就餐费用，其余大会所有费用及礼品主要由 Google 等公司承担赞助。作为国内最大的赞助者，我们也同样很荣幸能够服务于广大中国 Python 爱好者。
+
+ps:
+    - 以上内容全文抄录自 [首届中国 PyCon 大会！让我们聚首上海 - 沈崴的日志 - 网易博客 http://eishn.blog.163.com/blog/static/652318201191381314841/]
+
+
+</t>
+<t tx="zoomq.20111020092508.5258">== 感思 ==
+N久前就开始义务的狂热的不断的推广 Python 了:
+- [070322-introPy/ http://zoomquiet.org/res/s5/070322-introPy/]
+- [100820-introPy/ http://zoomquiet.org/res/s5/100820-introPy/]
+
+[PyCon - PythonInfo Wiki http://wiki.python.org/moin/PyCon] 2003开始，每年举行一次,
+后来，随着 Python 的发展，Google 的崛起，每年一次，已经无法满足全球 Python 程序猿的现摆了，
+于是，每年，各国都有 PyCon 授权的正式大会来Party HIGH 一下,
+[Pycon Asia Pacific http://pycon.sit.rp.sg/]2010 在新加坡也整起来了，亲历了一下，很爽；
+只是没想到，今年，中国说搞就搞起来了！
+
+虽然 Python 在中国，社区不少，但是没有 JAVA/.NET/Ruby 等那么趁钱，光鲜，
+大家都在自个儿happy 的用，不怎么出来吼;
+但是，在中国的 Python 程序猿真的都很NB 哪，
+不出来吼，整得是个NB社区样儿，学生们可不屑来学习的哪.
+
+好了,夸了 [/pybimage/2011/cpyug.gif] 的定期FB聚会,
+大家一喝高了,就有了冲动,一冲动就成了...
+
+其实我们玩的真不差了,相比国际上的玩法,有正式舞台了,多吼一吼,有益身心的!
+
+反正,俺一定要出台了,大家也尽力来哈!
+
+</t>
+<t tx="zoomq.20111020092508.5259">t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar 
+</t>
+<t tx="zoomq.20111020092508.5260">------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
+</t>
 </tnodes>
 </leo_file>
