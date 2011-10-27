@@ -367,8 +367,8 @@ time(...)
     如果你要将RCS或CVS的杂项(crud)包含在你的源文件中,按如下做.
 {{{
 #!python
-        __version__ = "$Revision: 1.4 $"
-        # $Source: E:/cvsroot/python_doc/pep8.txt,v $
+        __version__ = "$Revision$"
+        # $Source$
 }}}
 
 
@@ -379,8 +379,8 @@ time(...)
 # 文件：$id$
 # 版本： $Revision$
 这样的标记在提交给配置管理服务器后，会自动适配成为相应的字符串，如：
-# 文件：$Id: ZqsPyBlosxom.leo 2102 2007-06-16 05:17:26Z zoomq $
-# 版本： $Revision: 1.4 $
+# 文件：$Id$
+# 版本： $Revision$
 ----HD
 }}}
 
