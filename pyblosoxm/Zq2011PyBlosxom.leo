@@ -65,8 +65,8 @@
 </v>
 <v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
 </v>
-<v t="ZoomQuiet.20060113092644" a="E"><vh>entries</vh>
-<v t="ZoomQuiet.20060116170040" a="E"><vh>Zen</vh>
+<v t="ZoomQuiet.20060113092644"><vh>entries</vh>
+<v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
 <v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
 <v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
 <v t="zoomq.20100728103610.7583"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
@@ -117,8 +117,8 @@
 <v t="zoomq.20060916180156.12"></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170108.1" a="E"><vh>pythonic</vh>
-<v t="zoomq.20111020092508.5256" a="E"><vh>@nosent pycon2011china-2011-10-10-10-10.t2t</vh>
+<v t="ZoomQuiet.20060116170108.1"><vh>pythonic</vh>
+<v t="zoomq.20111020092508.5256"><vh>@nosent pycon2011china-2011-10-10-10-10.t2t</vh>
 <v t="zoomq.20111020092508.5257"><vh>what?</vh></v>
 <v t="zoomq.20111020092508.5258"><vh>think</vh></v>
 <v t="zoomq.20111020092508.5259"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
@@ -705,8 +705,8 @@
 </v>
 <v t="ZoomQuiet.20060113151604" a="E"><vh>hacking</vh>
 <v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
-<v t="zoomq.20110503084352.4319"><vh>html.flav</vh>
-<v t="zoomq.20110503084352.4323"><vh>@nosent foot</vh>
+<v t="zoomq.20110503084352.4319" a="E"><vh>html.flav</vh>
+<v t="zoomq.20110503084352.4323" a="E"><vh>@nosent foot</vh>
 <v t="zoomq.20110503084352.4334"><vh>&lt;&lt;JS loader&gt;&gt;</vh></v>
 <v t="zoomq.20110503084352.4329"><vh>&lt;&lt;LEFT function barnners&gt;&gt;</vh>
 <v t="zoomq.20110503084352.4336"><vh>search text box</vh></v>
@@ -800,7 +800,7 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
-<v t="zoomq.20100414115206.4559" a="E"><vh>@nosent cp4idx2category.py</vh>
+<v t="zoomq.20100414115206.4559"><vh>@nosent cp4idx2category.py</vh>
 <v t="zoomq.20100414115206.4560"><vh>declarations</vh></v>
 <v t="zoomq.20100414115206.4561"><vh>cp4gen(path)</vh>
 <v t="zoomq.20110907090950.6581"><vh>&lt;&lt;cp as ind&gt;&gt;</vh></v>
@@ -1617,7 +1617,8 @@ extensible
 techic
 
 </t>
-<t tx="ZoomQuiet.20060113092644">@path entries
+<t tx="ZoomQuiet.20060113092644">@path pybnodes
+#entries
 
 </t>
 <t tx="ZoomQuiet.20060113092909"># -*- coding: utf-8 -*-
@@ -4283,7 +4284,8 @@ SNS 化活动</t>
 
 
 &lt;&lt;t2t foot&gt;&gt;</t>
-<t tx="ZoomQuiet.20060117230430">@path flavours
+<t tx="ZoomQuiet.20060117230430">@path pybstyle
+#flavours
 </t>
 <t tx="ZoomQuiet.20060117230447">@path phtm.flav</t>
 <t tx="ZoomQuiet.20060117230523">&lt;html&gt;
