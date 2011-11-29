@@ -66,9 +66,27 @@ def cb_filelist(args):
 
     # get the entries
     datadir = config['datadir']
-    files = tools.Walk(request, datadir)
+    #print help(tools.walk)
+    '''upgrade as tools.walk
+    walk(request, root='.', recurse=0, pattern='', return_folders=0)
+    :param request: the Request object
+    :param root: the root directory to walk
+    :param recurse: the depth of recursion; defaults to 0 which goes all
+                    the way down
+    :param pattern: the regexp object for matching files; defaults to
+                    '' which causes PyBlosxom to return files with
+                    file extensions that match those the entryparsers
+                    handle
+    :param return_folders: True if you want only folders, False if you
+                    want files AND folders
+    
+    :returns: a list of file paths.
+    '''
+    files = tools.Walk(request
+        ,root=datadir
+        ,recurse=2)
     files.sort()
-
+    #print files
     body = '<div id="categoriselist">'
     #print files
     # sort into sections, one for each letter. the dictionary is 
@@ -77,7 +95,6 @@ def cb_filelist(args):
     #   the entrise dictionary is 
     # path => (entry name, 0) 
     entrise = []
-
     entry_extensions = data['extensions'].keys()
 
     for file in files:
@@ -123,6 +140,7 @@ def cb_filelist(args):
     [('Zen', ['ZenChinese', 'ZenGoogle', 'Zenpythonic']), ('oss', ['oss', 'ossFreeBSD', 'ossMozillaFireFox', 'ossUbuntu']), ('opening', []), ('mind', ['mind']), ('Quiet', ['Quietliving', 'Quietnomeans']), ('utility', ['utilitySubversion', 'utilitySubversionhooks', 'utilitypy4strStructuredText', 'utilitypy4webDjango', 'utilitypy4webMoinMoin', 'utilitypy4webQuixote', 'utilitypy4zh', 'utilityzqlib']), ('internet', ['internet', 'internetFolksonomy']), ('easy', ['easymovie', 'easymusic']), ('techic', ['techic', 'techicEmacs', 'techicPyBlosxom', 'techicPyBlosxomblosxom', 'techicPyBlosxomplugins'])]
     '''
     body += '<h3>/</h3>'
+    #print etree
     for e in etree[''][1:]:
         #print "etree[''] include::",e
         body += '<span class="indents">%s</span><a href="%s%s.html">%s</a><br>\n'%(
@@ -132,7 +150,6 @@ def cb_filelist(args):
             ,e[0]
             )
     #print root_entry_list
-
     for k in root_entry_list:
         #['techic', 'techicEmacs', 'techicPyBlosxom', 'techicPyBlosxomblosxom', 'techicPyBlosxomplugins']
         body += '<h4>%s/</h4>'%k[0]

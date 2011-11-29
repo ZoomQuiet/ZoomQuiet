@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Leo (http://webpages.charter.net/edreamleo/front.html) -->
 <?xml-stylesheet ekr_test?>
-<leo_file>
+<leo_file xmlns:leo="http://www.leo-editor.org/2011/leo" >
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
 	<global_window_position top="50" left="50" height="500" width="700"/>
@@ -799,10 +800,10 @@
 <v t="ZoomQuiet.20060121185526"><vh>@nosent foot.rss20</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060123104045"><vh>plugins</vh>
-<v t="zoomq.20100414115206.4559"><vh>@nosent cp4idx2category.py</vh>
+<v t="ZoomQuiet.20060123104045" a="E"><vh>plugins</vh>
+<v t="zoomq.20100414115206.4559" a="E"><vh>@nosent cp4idx2category.py</vh>
 <v t="zoomq.20100414115206.4560"><vh>declarations</vh></v>
-<v t="zoomq.20100414115206.4561"><vh>cp4gen(path)</vh>
+<v t="zoomq.20100414115206.4561" a="E"><vh>cp4gen(path)</vh>
 <v t="zoomq.20110907090950.6581"><vh>&lt;&lt;cp as ind&gt;&gt;</vh></v>
 </v>
 </v>
@@ -1069,7 +1070,7 @@
 <v t="ZoomQuiet.20060113182537.5"><vh>parse</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060128153018"><vh>zqpyb+</vh>
+<v t="ZoomQuiet.20060128153018" a="E"><vh>zqpyb+</vh>
 <v t="ZoomQuiet.20060128161220"><vh>__stuff</vh>
 <v t="zoomq.20100420100426.5502"><vh>_pushsubdir()</vh></v>
 <v t="zoomq.20100420100426.5500"><vh>try文章结构列表</vh></v>
@@ -1077,10 +1078,10 @@
 <v t="zoomq.20100420100426.5124"><vh>@nosent category_static.py</vh>
 <v t="zoomq.20100420100426.5125"><vh>&lt;&lt;declarations&gt;&gt;</vh></v>
 <v t="zoomq.20100420100426.5126"><vh>verify_installation</vh></v>
-<v t="zoomq.20100420100426.5127"><vh>cb_filelist</vh>
+<v t="zoomq.20100420100426.5127" a="E"><vh>cb_filelist</vh>
 <v t="zoomq.20100420100426.5129"><vh>gen_dict</vh></v>
 <v t="zoomq.20100420100426.5130"><vh>gen_tree</vh></v>
-<v t="zoomq.20100514091552.4530"><vh>gen_html</vh>
+<v t="zoomq.20100514091552.4530" a="E"><vh>gen_html</vh>
 <v t="zoomq.20100514091552.4532"><vh>&lt;&lt;item link&gt;&gt;</vh></v>
 </v>
 </v>
@@ -1537,11 +1538,11 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060113092617"><vh>web配置</vh>
-<v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
+<v t="ZoomQuiet.20060113092617" a="E"><vh>web配置</vh>
+<v t="ZoomQuiet.20060113092909" a="E"><vh>@nosent config.py</vh>
 <v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
 <v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
-<v t="ZoomQuiet.20060123105542"><vh>Plugin configuration</vh>
+<v t="ZoomQuiet.20060123105542" a="E"><vh>Plugin configuration</vh>
 <v t="ZoomQuiet.20060127162954"><vh>loader</vh></v>
 <v t="ZoomQuiet.20060127163053"><vh>vars</vh></v>
 </v>
@@ -13415,15 +13416,17 @@ $ python cp4idx2category.py path/2/_static
 <t tx="zoomq.20100414115206.4560"># -*- coding: utf-8 -*-
 '''
 将 category_static.py 生成的树状分类索引页面，复制并修订为各个目录中的 index.html
+    - 要忽略 zqarchives 生成的月度索引
 '''
-__version__ = 'cp4idx2category v11.09.7'
+__version__ = 'cp4idx2category v11.11.29'
 __author__ = 'Zoom.Quiet &lt;zoomquiet+pyb at gmail dot com&gt;'
 
 import os
 import sys
 import re
 import shutil
-
+import fnmatch
+#import glob
 
 </t>
 <t tx="zoomq.20100414115206.4561">def cp4gen(path):
@@ -13439,7 +13442,12 @@ import shutil
             pass
         else:
             #print root.replace(path,"")  #,dirs,files
-            &lt;&lt;cp as ind&gt;&gt;
+            #   cancel zqarchives gen's idx
+            if fnmatch.fnmatch(root,'_static/20*'):
+                pass
+            else:
+                #print root, dirs, files
+                &lt;&lt;cp as ind&gt;&gt;
     return
 
 </t>
@@ -23675,9 +23683,27 @@ GNU General Public License for more details.
 
     # get the entries
     datadir = config['datadir']
-    files = tools.Walk(request, datadir)
+    #print help(tools.walk)
+    '''upgrade as tools.walk
+    walk(request, root='.', recurse=0, pattern='', return_folders=0)
+    :param request: the Request object
+    :param root: the root directory to walk
+    :param recurse: the depth of recursion; defaults to 0 which goes all
+                    the way down
+    :param pattern: the regexp object for matching files; defaults to
+                    '' which causes PyBlosxom to return files with
+                    file extensions that match those the entryparsers
+                    handle
+    :param return_folders: True if you want only folders, False if you
+                    want files AND folders
+    
+    :returns: a list of file paths.
+    '''
+    files = tools.Walk(request
+        ,root=datadir
+        ,recurse=2)
     files.sort()
-
+    #print files
     body = '&lt;div id="categoriselist"&gt;'
     @others
     #print body
@@ -23710,7 +23736,6 @@ GNU General Public License for more details.
 #   the entrise dictionary is 
 # path =&gt; (entry name, 0) 
 entrise = []
-
 entry_extensions = data['extensions'].keys()
 
 for file in files:
@@ -23877,6 +23902,7 @@ for entry in entrise:
 
 </t>
 <t tx="zoomq.20100514091552.4530">body += '&lt;h3&gt;/&lt;/h3&gt;'
+#print etree
 for e in etree[''][1:]:
     #print "etree[''] include::",e
     body += '&lt;span class="indents"&gt;%s&lt;/span&gt;&lt;a href="%s%s.html"&gt;%s&lt;/a&gt;&lt;br&gt;\n'%(
@@ -23886,7 +23912,6 @@ for e in etree[''][1:]:
         ,e[0]
         )
 #print root_entry_list
-
 for k in root_entry_list:
     #['techic', 'techicEmacs', 'techicPyBlosxom', 'techicPyBlosxomblosxom', 'techicPyBlosxomplugins']
     body += '&lt;h4&gt;%s/&lt;/h4&gt;'%k[0]
@@ -26732,7 +26757,7 @@ py["blog_author"] = "Zoom.Quiet"
 
 # What is the email address through which readers of the blog may contact
 # the authors?
-py["blog_email"] = "zoomquiet+sns [AT] gmail.com"
+py["blog_email"] = "zoomquiet+blog [AT] gmail.com"
 
 # These are the rights you give to others in regards to the content
 # on your blog.  Generally, this is the copyright information.
@@ -26753,10 +26778,11 @@ py["blog_encoding"] = "utf-8"
 #py["locale"] = "en_US.iso-8859-1"
 
 # Where are this blog's entries kept?
-py["datadir"] = os.path.join(blogdir, "entries")
-
+py["datadir"] = os.path.join(blogdir, "pybnodes")
+#   os.path.join(blogdir, "entries")
 # Where are this blog's flavours kept?
-py["flavourdir"] = os.path.join(blogdir, "flavours")
+py["flavourdir"] = os.path.join(blogdir, "pybstyle")
+#   os.path.join(blogdir, "flavours")
 
 # List of strings with directories that should be ignored (e.g. "CVS")
 # ex: py['ignore_directories'] = ["CVS", "temp"]

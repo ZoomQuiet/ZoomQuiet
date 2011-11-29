@@ -48,7 +48,7 @@ py["blog_author"] = "Zoom.Quiet"
 
 # What is the email address through which readers of the blog may contact
 # the authors?
-py["blog_email"] = "zoomquiet+sns [AT] gmail.com"
+py["blog_email"] = "zoomquiet+blog [AT] gmail.com"
 
 # These are the rights you give to others in regards to the content
 # on your blog.  Generally, this is the copyright information.
@@ -69,10 +69,11 @@ py["blog_encoding"] = "utf-8"
 #py["locale"] = "en_US.iso-8859-1"
 
 # Where are this blog's entries kept?
-py["datadir"] = os.path.join(blogdir, "entries")
-
+py["datadir"] = os.path.join(blogdir, "pybnodes")
+#   os.path.join(blogdir, "entries")
 # Where are this blog's flavours kept?
-py["flavourdir"] = os.path.join(blogdir, "flavours")
+py["flavourdir"] = os.path.join(blogdir, "pybstyle")
+#   os.path.join(blogdir, "flavours")
 
 # List of strings with directories that should be ignored (e.g. "CVS")
 # ex: py['ignore_directories'] = ["CVS", "temp"]

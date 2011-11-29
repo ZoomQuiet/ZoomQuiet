@@ -1,15 +1,17 @@
 # -*- coding: utf-8 -*-
 '''
 将 category_static.py 生成的树状分类索引页面，复制并修订为各个目录中的 index.html
+    - 要忽略 zqarchives 生成的月度索引
 '''
-__version__ = 'cp4idx2category v11.09.7'
+__version__ = 'cp4idx2category v11.11.29'
 __author__ = 'Zoom.Quiet <zoomquiet+pyb at gmail dot com>'
 
 import os
 import sys
 import re
 import shutil
-
+import fnmatch
+#import glob
 
 def cp4gen(path):
     #print path
@@ -24,16 +26,21 @@ def cp4gen(path):
             pass
         else:
             #print root.replace(path,"")  #,dirs,files
-            aimpath = root.replace(path,"")
-            exp = ""
-            for i in open(IDX,'r'):
-                if '<span id="' in i:
-                    if aimpath in i:
+            #   cancel zqarchives gen's idx
+            if fnmatch.fnmatch(root,'_static/20*'):
+                pass
+            else:
+                #print root, dirs, files
+                aimpath = root.replace(path,"")
+                exp = ""
+                for i in open(IDX,'r'):
+                    if '<span id="' in i:
+                        if aimpath in i:
+                            exp += i
+                    else:
                         exp += i
-                else:
-                    exp += i
 
-            open("%s/index.html"% root,"w").write(exp)
+                open("%s/index.html"% root,"w").write(exp)
     return
 
 if __name__ == '__main__':      # this way the module can be
