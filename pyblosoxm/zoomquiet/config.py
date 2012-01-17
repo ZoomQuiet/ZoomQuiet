@@ -26,7 +26,9 @@ py = {}
 
 import os
 
-blogdir = '/home/zoomq/workspace/3hg/zoomquiet-default/pyblosoxm/zoomquiet'
+blogdir = '/Users/zoomq/Works/3hg/zoomquiet-default/pyblosoxm/zoomquiet'
+
+#'/home/zoomq/workspace/3hg/zoomquiet-default/pyblosoxm/zoomquiet'
 #'/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet'
 #'/home/zoomq/workspace/3hg/pyk.pyblosoxm/zoomquiet/cgi/'
 #"/home/zoomq/workspace/py-virtualenv/home/blog/"
@@ -54,7 +56,7 @@ py["blog_email"] = "zoomquiet+blog [AT] gmail.com"
 # on your blog.  Generally, this is the copyright information.
 # This is used in the Atom feeds.  Leaving this blank or not filling
 # it in correctly could result in a feed that doesn't validate.
-py["blog_rights"] = "Copyright 2001-2011 Zoom.Quiet"
+py["blog_rights"] = "Copyright 2001-2012 Zoom.Quiet"
 
 # What is this blog's primary language (for outgoing RSS feed)?
 #py["blog_language"] = "en"
