@@ -1070,18 +1070,18 @@
 <v t="ZoomQuiet.20060113182537.5"><vh>parse</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060128153018" a="E"><vh>zqpyb+</vh>
+<v t="ZoomQuiet.20060128153018"><vh>zqpyb+</vh>
 <v t="ZoomQuiet.20060128161220"><vh>__stuff</vh>
 <v t="zoomq.20100420100426.5502"><vh>_pushsubdir()</vh></v>
 <v t="zoomq.20100420100426.5500"><vh>try文章结构列表</vh></v>
 </v>
-<v t="zoomq.20100420100426.5124"><vh>@nosent category_static.py</vh>
+<v t="zoomq.20100420100426.5124" a="E"><vh>@nosent category_static.py</vh>
 <v t="zoomq.20100420100426.5125"><vh>&lt;&lt;declarations&gt;&gt;</vh></v>
 <v t="zoomq.20100420100426.5126"><vh>verify_installation</vh></v>
 <v t="zoomq.20100420100426.5127" a="E"><vh>cb_filelist</vh>
 <v t="zoomq.20100420100426.5129"><vh>gen_dict</vh></v>
 <v t="zoomq.20100420100426.5130"><vh>gen_tree</vh></v>
-<v t="zoomq.20100514091552.4530" a="E"><vh>gen_html</vh>
+<v t="zoomq.20100514091552.4530"><vh>gen_html</vh>
 <v t="zoomq.20100514091552.4532"><vh>&lt;&lt;item link&gt;&gt;</vh></v>
 </v>
 </v>
@@ -1090,7 +1090,7 @@
 <v t="zoomq.20100414115206.4717"><vh>@nosent zqcategories.py</vh>
 <v t="zoomq.20100414115206.4718"><vh>&lt;&lt;pycategories declarations&gt;&gt;</vh></v>
 <v t="zoomq.20100414115206.4719"><vh>verify_installation</vh></v>
-<v t="zoomq.20100414115206.4720"><vh>class PyblCategories</vh>
+<v t="zoomq.20100414115206.4720" a="E"><vh>class PyblCategories</vh>
 <v t="zoomq.20100414115206.4721"><vh>__init__</vh></v>
 <v t="zoomq.20100414115206.4722"><vh>__str__</vh></v>
 <v t="zoomq.20100414115206.4723"><vh>genCategories</vh></v>
@@ -13436,6 +13436,7 @@ import fnmatch
     IDX = "%s/category-index.html"% path
     p = re.compile("%s\/\d{4}"%path )
     for root, dirs, files in os.walk(path):
+        #print root
         if path == root:
             pass
         elif p.match(root):
@@ -23680,11 +23681,13 @@ GNU General Public License for more details.
     _baseurl = config.get("base_url", "")
 
     trigger = config.get('cindex_trigger', 'site-index')
+
     if http['PATH_INFO'] != trigger:
         return
 
     # get the entries
     datadir = config['datadir']
+    #print dir(tools)
     #print help(tools.walk)
     '''upgrade as tools.walk
     walk(request, root='.', recurse=0, pattern='', return_folders=0)
@@ -23701,11 +23704,13 @@ GNU General Public License for more details.
     
     :returns: a list of file paths.
     '''
-    files = tools.Walk(request
+    files = tools.walk(request
         ,root=datadir
-        ,recurse=2)
+        ,recurse=3)
     files.sort()
     #print files
+    #print len(files)
+    #return
     body = '&lt;div id="categoriselist"&gt;'
     @others
     #print body
@@ -26896,8 +26901,8 @@ py["static_monthnames"] = 0
 
 # Whether (1) or not (0) you want to create date indexes using month
 # numbers?  (ex. /2004/04/01)  Defaults to 0 (no).
+#py["static_monthnumbers"] = 0
 py["static_monthnumbers"] = 1
-#py["static_monthnumbers"] = 1
 
 </t>
 <t tx="zoomq.20110503084352.4319">@path html.flav

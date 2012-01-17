@@ -61,11 +61,13 @@ def cb_filelist(args):
     _baseurl = config.get("base_url", "")
 
     trigger = config.get('cindex_trigger', 'site-index')
+
     if http['PATH_INFO'] != trigger:
         return
 
     # get the entries
     datadir = config['datadir']
+    #print dir(tools)
     #print help(tools.walk)
     '''upgrade as tools.walk
     walk(request, root='.', recurse=0, pattern='', return_folders=0)
@@ -82,11 +84,13 @@ def cb_filelist(args):
     
     :returns: a list of file paths.
     '''
-    files = tools.Walk(request
+    files = tools.walk(request
         ,root=datadir
-        ,recurse=2)
+        ,recurse=3)
     files.sort()
     #print files
+    #print len(files)
+    #return
     body = '<div id="categoriselist">'
     #print files
     # sort into sections, one for each letter. the dictionary is 

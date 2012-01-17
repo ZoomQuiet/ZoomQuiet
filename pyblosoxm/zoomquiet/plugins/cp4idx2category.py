@@ -18,6 +18,7 @@ def cp4gen(path):
     IDX = "%s/category-index.html"% path
     p = re.compile("%s\/\d{4}"%path )
     for root, dirs, files in os.walk(path):
+        #print root
         if path == root:
             pass
         elif p.match(root):
