@@ -1,3 +1,5 @@
+.*\.DS_Store
+.*\.xhtml
 .*\.pyc
 .*\.egg
 .*\.so

@@ -66,7 +66,7 @@
 </v>
 <v t="zoomq.20101230094009.5512"><vh>101230-yumirror</vh></v>
 </v>
-<v t="ZoomQuiet.20060113092644"><vh>entries</vh>
+<v t="ZoomQuiet.20060113092644" a="E"><vh>entries</vh>
 <v t="ZoomQuiet.20060116170040"><vh>Zen</vh>
 <v t="ZoomQuiet.20060116170040.1"><vh>Chinese</vh>
 <v t="zoomq.20060916180156"><vh>@nosent CCSalon-2006-06-11-14-00.t2t</vh>
@@ -207,7 +207,7 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170040.2"><vh>oss</vh>
+<v t="ZoomQuiet.20060116170040.2" a="E"><vh>oss</vh>
 <v t="ZoomQuiet.20060125173931"><vh>@nosent OSSdocDemoJPS-2006-01-17-23-23.t2t</vh>
 <v t="zoomq.20060916180156.12"></v>
 <v t="zoomq.20100728103610.7583"></v>
@@ -215,10 +215,15 @@
 <v t="ZoomQuiet.20060125173931.2"><vh>结构</vh></v>
 <v t="ZoomQuiet.20060125173931.3"><vh>TODO</vh></v>
 </v>
-<v t="zoomq.20100414115206.4549"><vh>@nosent solaris-fs-choice-2008-04-23-21-43.t2t</vh>
+<v t="zoomq.20100414115206.4549" a="E"><vh>@nosent solaris-fs-choice-2008-04-23-21-43.t2t</vh>
 <v t="zoomq.20100728103610.7583"></v>
 <v t="zoomq.20060916180156.12"></v>
 <v t="zoomq.20100728103610.7586"><vh>main</vh></v>
+</v>
+<v t="zoomq.20120305142323.7644" a="E"><vh>@nosent openresty-intro-2012-03-06-01-13.t2t</vh>
+<v t="zoomq.20120305142323.7646"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
+<v t="zoomq.20120305142323.7645"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
+<v t="zoomq.20120305142323.7647"><vh>main</vh></v>
 </v>
 <v t="ZoomQuiet.20060116170150"><vh>CPyUG</vh></v>
 <v t="ZoomQuiet.20060410130427"><vh>FreeBSD</vh>
@@ -363,7 +368,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100414115206.4538"><vh>utility</vh>
+<v t="zoomq.20100414115206.4538" a="E"><vh>utility</vh>
 <v t="ZoomQuiet.20060116170508"><vh>py4gui</vh></v>
 <v t="ZoomQuiet.20060116170643"><vh>py4str</vh>
 <v t="zoomq.20100414115206.4235"><vh>StructuredText</vh>
@@ -383,8 +388,8 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170643.4"><vh>py4sys</vh>
-<v t="zoomq.20100714100833.4007"><vh>@nosent py4sa-rename-mp3s-2010-07-13-22-02.t2t</vh>
+<v t="ZoomQuiet.20060116170643.4" a="E"><vh>py4sys</vh>
+<v t="zoomq.20100714100833.4007" a="E"><vh>@nosent py4sa-rename-mp3s-2010-07-13-22-02.t2t</vh>
 <v t="zoomq.20100714100833.4008"><vh>问题</vh></v>
 <v t="zoomq.20100714140857.4015"><vh>嘗試</vh></v>
 <v t="zoomq.20100714140857.4016"><vh>Py之</vh></v>
@@ -576,6 +581,8 @@
 <v t="zoomq.20100714100833.4002"><vh>我的”怪癖” (作业)</vh></v>
 </v>
 <v t="ZoomQuiet.20060116170040.5"><vh>techic</vh>
+<v t="zoomq.20120305142323.7638"><vh>Mac</vh></v>
+<v t="zoomq.20120305142323.7639"><vh>iOS</vh></v>
 <v t="zoomq.20100414115206.4542"><vh>Emacs</vh>
 <v t="zoomq.20100414115206.4558"><vh>@nosent fw_learning_emacs_notes-2007-03-08-18-00.t2t</vh>
 <v t="zoomq.20100414115206.4534"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
@@ -704,7 +711,7 @@
 <v t="ZoomQuiet.20060121172947.1"></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060113151604" a="E"><vh>hacking</vh>
+<v t="ZoomQuiet.20060113151604"><vh>hacking</vh>
 <v t="ZoomQuiet.20060117230430"><vh>flavours</vh>
 <v t="zoomq.20110503084352.4319" a="E"><vh>html.flav</vh>
 <v t="zoomq.20110503084352.4323" a="E"><vh>@nosent foot</vh>
@@ -1542,7 +1549,7 @@
 <v t="ZoomQuiet.20060113092909" a="E"><vh>@nosent config.py</vh>
 <v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
 <v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
-<v t="ZoomQuiet.20060123105542" a="E"><vh>Plugin configuration</vh>
+<v t="ZoomQuiet.20060123105542"><vh>Plugin configuration</vh>
 <v t="ZoomQuiet.20060127162954"><vh>loader</vh></v>
 <v t="ZoomQuiet.20060127163053"><vh>vars</vh></v>
 </v>
@@ -26878,6 +26885,7 @@ py["static_dir"] = os.path.join(blogdir, "_static")
 # What flavours should get generated?
 py["static_flavours"] = ["html"
     ,"atom"
+    ,"rdf"
     ]
 #py["static_flavours"] = ["atom"]
 #py["static_flavours"] = ["rdf"]
@@ -32957,6 +32965,918 @@ N久前就开始义务的狂热的不断的推广 Python 了:
 
 % leo: 编辑
 
+
+</t>
+<t tx="zoomq.20120305142323.7638">@path Mac</t>
+<t tx="zoomq.20120305142323.7639">@path iOS</t>
+<t tx="zoomq.20120305142323.7644">@language Moin
+由Lua 粘合的Nginx生态环境
+-- agentZh tech-club.org 演讲听录
+&lt;&lt;t2t head&gt;&gt;
+
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20120305142323.7645">
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+</t>
+<t tx="zoomq.20120305142323.7646">------------------------------
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% Leo 4.9.1 devel, build 4914 编辑
+
+
+</t>
+<t tx="zoomq.20120305142323.7647">- 活动: [Tech-Club技术沙龙（2012年2月）活动小结 http://www.tech-club.org/?p=247]
+- 幻灯: [ngx_openresty: an Nginx ecosystem glued by Lua http://agentzh.org/misc/slides/ngx-openresty-ecosystem/#1]
+- 录音: http://vdisk.weibo.com/s/2Qcon
+- 笔录: Zoom.Quiet &lt;zoomquiet+nginx@gmail.com&gt;
+- Chnangelog:
+    120302 finished
+    120301 init.
+
+早已关注 angenZh 对 nginx 的给力 ahcking,这次总算有个阶段性的说明,虽然无法现场交流,
+好在有录音,为了其它没有时间听的人们,以及给搜索引擎更好的搜索数据,俺义务听录全文;
+
+
+= 免责聲明 =
+
++ 录音/幻灯来自作者,版权当然属于他们
++ 文字听录来自 Zoom.Quiet,一切文字问题都是我造成的,与原著无关
++ 因为本人技术有限,仅通过幻灯和录音,记错的地方负责在我,与原著者无关
++ 任何不满和意见,请直接与我联系以便改进
+    - zoomquiet+nginx@gmail.com
+
+
+= Lua 粘合的 Nginx 生态环境 =
+
+
+
+很高今天和大家进行分享,之前,在北京进行过相关的分享;
+今天我们的話題是 Nginx 也可以說是关于 Lua 的;
+介绍过去3年以来我们的工作,
+工程名字是,openresty,可以追溯到2007年,那会儿,我刚刚进入 Yahoo! 中国,
+第一份工作就是架构一个开放平台, Yahoo! 自个儿的开放平台,
+系统作到后来逐渐偏离了初衷,
+我们开始为大型的互联网公司作一些和web 前端打交道的系统支持;
+
+我在 Yahoo!和 TaoBao 分别工作了两年,就辞职了;
+主要因为,我们的开源作品,越来越多人使用了,
+而我一方面,要应付所謂业务需求,另方面要响应来自国内外积极开发者们的要求或是bug;
+所以,干脆辞了专心作事儿;
+本来,我想搬到厦门,可是我老婆在福州找到了工作,于是,,
+现在,我不拿工资,义务为全球的愛好者开发 ;-)
+现在,已经在福州呆了7个月,这是我老婆给拍的照片;
+我习惯,先在纸上写好代码,然后输入电脑,
+
+前面放的是 Kindel ;
+这台 Kindel 的来历比较有意思,
+- 在TaoBao 的时候,我打算将 openresty 重写,因为一开始是用 Perl 来写的
+- 而在Yahoo! 的时候虽然已经使用 openresty 統一了搜索功能,但性能的确一般
+- 当时,本想基于 Apache 来改写,不过一位师傅跟我讲:"你就直接拿c 写吧,基于 Apache 写没有前途的!"
+- 俺很郁闷,就问,那怎么整? 师傅回答,你研究一下 nginx 的源代码吧,然后就没再理我
+而看代码是很累的,所以,俺一到 TaoBao 就买了台 Kindel 来看代码...
+
+
+
+== openresty ==
+
+
+
+刚刚提过, openresty 在开发过程中逐偏离了原计划;
+再面对后来,更加具体的公司业务后,
+这时,已经可以看出所謂 Ajax/Servise 化了,
+在我接触过的各种繁忙的互联网公司,都有种趋势,就是:
+```
+    对看起来是个整体的web 应用
+    习惯在后台拆成很多 Service
+    有些Service 是供給客户端发起請求来访问的,
+    而有些Service 根本就是为其它服务而服务的,也使用了 http 协议进行发布
+```
+
+这种结构,导致整体系统变得非常分散
+- 由多个部门,分别实现一部分系統
+- 而每个部门,暴露給其它部门的,都是 http 协议,resful 形式的接口而已
+
+比如说, 去哪儿 网,就是非常非常松散的服务组合成的;
+    - 一个請求进入后,立即分解成各种請求分别进行
+    - 而有些就在 Service 之间进行了
+
+既然,http 协议如此常见,我们就需要强大的实现基础;
+nginx 是我们调研的各种平台中,最不烂的一个!
+     - 其它真心都特别烂,,,
+Apache 最大的问题是其 I/O 模型,无法完成非常高效的响应;
+但是优点是:开发接口规整,基于它来写 mod 非常方便;
+Lighttpd 正好相反,其 I/O 非常高效,但是开发接口不怎么友好;
+而 Nginx 融合了两者的优点 ;-)
+
+``&lt;&lt;&lt;      5:11``
+
+- 一方面使用了 lighttpd 多路复用的 I/O 模型
+- 另一方面以借鉴了 apache 的模块开发支持
+
+在(openresty)开发过程中,经常有人问,为什么 nginx 如此之快?
+- 我们知道 nginx 是单线程的,
+- 而单线程的模型,为什么可以承担上万甚至上几十万的并发請求?!
+因为 nginx 的工作方式,如动画所示,这是我刚刚用 perl 生成的一个简单 git 动画:
+- 这其实是操作系统线程作的事儿
+- 前面3个,分别对应不同的 http 请求
+- 每个方块代表一个读或是写操作
+- 最后的 epoll_wait 就是 linux 系統中最高效的一种事件接口
+
+也就是説 nginx 内部其实是种事件驱动的机制
+- 只有相关事件发生时,才处理具体数据
+- 如果当前接口没有数据时,就会立即切换出去,处理其它请求
+- 所以,虽然只有一个线程,但是,可以同时处理很多很多线程的請求处理
+那么,这种形式的 web 系統,可以很轻易的将 cpu 跑满,即使带宽没有跑满的情况下;
+而 apache 这类多进程多线程模型的服务器,则很难将 cpu 跑满:
+    - 因为并发达到一定量时
+    - 内存首先将耗尽
+    - 因为在 linux 系统中,线程数是有限的,每个线程必须预分配8m大小的栈,不论是否使用!
+    - 所以,线程增加时,内存首先成为瓶颈
+    - 即使挺过内存问题,当并发请求足够多时,cpu 争用线程的调度问题又成为系統瓶颈
+
+&lt;&lt;&lt; 8:31
+
+所以,nginx 这样简单的单进单线模型,反而被 memcached 等高性能系统定为I/O 模型;
+那么,我们作了什么呢?
+    - 主要是为 nginx 提供了很多补丁,进行了 bugfix
+    - 同时利用 nginx 提供的开发者接口,贡献了很多模块
+    - 我们还将之前提及的 Lua 嵌入 nginx ,使其具有全功能的交互能力
+    - 更加把 Lux 一些常用库,也放进去了
+    - 然后打成一个大包,命名为 openresty
+...这是使用 Tiddlywiki 随便作的一个 主頁: http://openresty.org
+
+
+== 配置小语言 ==
+
+nginx 本身有个很重要的特点,这在维基百科的条目中也强調过:
+    - 其配置文件记法是非常灵活,并可读的
+    - nginx.conf 配置文件,本地其实就是个小語言
+比如:
+
+```
+#! js
+location = '/hello' {
+       set_unescape_uri $person $arg_person;
+       set_if_empty $person 'anonymous';
+       echo "hello, $person!";
+   }
+```
+
+这段配置,对于 apache 用户来説,也很熟悉
+    - 我们首先使用类似正则表达式的形式来约定一个响应的 url
+    - 然后,可以使用各种 nginx 的指令对内部变量进行到系列操作
+    - 变量也是配置文件的一部分,很象一种编程語言
+    - 比如,这里,我们就将 person 这个变量使用 arg_person 进行赋值
+    - 然后,用 'anonymous' 作为空值时的默认值给 $person
+    - 最后直接使用 echo 将結果输出
+这样,我们就可以使用 curl 模拟浏览器访问,给 /hello 提供一个utf8 编码的字串值,
+以 ?person= 的GET 方式变量,
+就可以获得預期的反馈:  hello, 章亦春
+不給参数的話,刚刚的 anonymouse 就起作用了;
+
+所以,整体上,我们期望在 nginx 中实现服务接口,就这样写点配置就好,不用写什么认真的c 代码;-)
+而跑起来就象飞一样,因为,这么来写,实际和用c 现实没有什么区别;
+
+事实上,全世界的开发者都在使用 nginx 的开发接口,在拼命丰富这种配置文件小語言的词汇表!
+- 而真正决定其表达能力的是:"vicabulary"
+- 比如说,我们看这个例子,这是我写向第2或是第3个nginx 模块:
+  - 用以直接访问 memcached 的所謂上游模块
+  - nginx 有自个儿的一套术语,在其后的各种服务比如memcached ,在nginx 而言就是上游
+  - 对应的,那些访问 nginx 的浏览器等等客户端,就视为下游
+
+```
+#! js
+
+# (not quite) REST interface to our memcached server
+#  at 127.0.0.1:11211
+location = /memc {
+    set $memc_cmd $arg_cmd;
+    set $memc_key $arg_key;
+    set $memc_value $arg_val;
+    set $memc_exptime $arg_exptime;
+    memc_pass 127.0.0.1:11211;
+    }
+```
+
+  - 这样简单的配置一下,通过 set 将url 上的各种参数映射给几个变量,
+  - 然后通过 memc_pass 连接到远端一个memcached 服务,当然后面也可以是个集群
+  - 立即,我们就得到一个,应该說是种伪 restfule 的 memcached 的使用接口服务
+  - 我们可以使用 curl 来操作目标 memcached 了
+  - 比如说,著名的 flush_all 命令,就可以直接通过 url 来执行
+
+- 通过这种形式,我们可以快速扩展成对memcached 集群的简洁管理服务,进行各种操作
+- 这样作的好处在于::
+  - 不論其它相关应用使用 php 什么乱七八糟的語言写的,都可以統一包装成 http 接口
+  - 令整个业务系统变成http 协议,这样系统的复杂度就能够有效降低
+- 同样可以这样对 MySQL 等等其它集群服务进行包装
+- 包括大家知道的 taobao 集群,对外部开发来說,好象是专门为外部扩展发布的服务,
+  - 其实在 taobao 内部各种服务也是以两样形式組合起来的
+  - 大家知道 taobao 是java 系的,它很多服务是通过定制 jvm 完成的
+  - 所以,对于ali 原先业务,以及合作方的业务,还有我们数据统计部门的业务,对于jvm是无法直接使用的
+  - 怎么办?所以,通过开放平台业务,将各种内部服务,封装成一系列 http 接口方便使用
+  - 包括taobao 的登录,其实也封装成 http 接口,供给,taobao 子域名应用来使用
+- 不论使用什么开发語言,总是可以对http 协议进行访问的
+  - 而且 http 协议本身非常简单
+  - 我们可以方便的获取许多现成的工具进行调试/追踪/优化,,,
+  - 另外,由于选择了 nginx,这使得http 的开销,代价变的非常非常的低
+- 记得 去哪儿网,原先有业务使用了几十台 MySQL
+  - 前端使用 java 的jodb 进行连接
+  - 而因为代码写的比较糟糕,因为业务部门嘛,写的时候不会注意连接池的效率,
+  - 所以,每台主机的负载都非常 非常 高
+  - 而,我们后来改为nginx 作前端,結果一台nginx 就将以前几十台java 主机的业务抗了下来
+  - 通过封装成 http 接口,业务代码随便长连接/短连接,随便它搞,都撑得住了!
+  - 于是,被他们java 程序员描述成不可能的任务,被一台 nginx 主机就解决了
+
+&lt;&lt;&lt; 17:00
+(插入提问): 封装具体作了什么?为什么比原先的方式效率高? 虽然改成了 http 实际连接MySQL 时不同样要消耗?
+- 因为,封装成 http 接口的数据库,我们内部使用了连接池
+- 已经优化的高效数据库连接池,而一般工程师不用关注连接池的技巧,专心完成业务代码就好,不容易出错
+- 而且,使用语言专用中间件的话,牵涉到其它问题:
+    - 中间件本身是否稳定?高效率?
+    - 中间件本身是否易于扩展好维护?
+    - 等等一系列问题,远没有統一成 http 服务于所有語言实现的应用来的干脆简洁
+- 甚至于,我们后来引入了完整的 Lua 語言,它基本足够完备,可以支持我们直接完成业务
+    - taobao 的数据魔方,就直接使用脚本在 nginx 中完成的
+    - 相比原先php的版本,仅仅这一项,就提高响应速度一个量級!
+- 所以,不论 memcached 还是什么数据库,我们可以統一到一个中间件
+    - 而且 http 协议的中间件,还有个好处是可以直接公开給外部使用
+    - 因为 http 上的访问控制很好作,复杂度也低
+    - 我们的量子統計,就是直接和taobao 主站服务通过 http 良好整合在了一起
+    - 可以简单的一个参数处理就发布給外部或是内部来安全使用
+
+
+
+== ngx_drizzle ==
+
+
+通过模块,我们可以建立应用和 MySQL 间的非阻塞通訊
+  - 这点非常重要!
+  - 因为,当前端访问后端很大的数据集群的时候,其本身的并发能力就成为瓶颈
+  - 设想后端有近百台 MySQL 时,后台本身的并发量就已经非常大了
+  - 而前端类似 php 技术根本无法将后端所有主机的能力都应用起来
+  - 所以,我们非常需要非阻塞技术
+  - 需要一种数据库代理,就象很高能的网关一样,将后端所有MySQL 服务器的能力都激发出来
+  - 而不用期待前端应用来自行完成并发调度
+基于以上认知,我们开发了各种数据的非阻塞上游模块:
+    - 包括对 MySQL/Postgres/redis 等等
+    - 也尝试过对 Oracole ,但是,其官方的 c 驱动有些限制,虽然也提供了非阻塞接口,但是不完整
+    - 在建立连接和銷毁连接时,只能以阻塞方式进行,所以,很纠结
+    - MySQL 官方的 c 驱动也只提供了阻塞方式!
+    - 那只好寻求第三方的驱动,我们选择了 Drizzle 这个驱动,并整合进来
+成为 ngx_drizzle 模块
+
+```
+#! js
+upstream my_mysql_backend {
+           drizzle_server 127.0.0.1:3306 dbname=test
+                       password=some_pass user=monty
+                       protocol=mysql;
+           # a connection pool that can cache up to
+           #   200 mysql TCP connections
+           drizzle_keepalive max=200 overflow=reject;
+       }
+```
+
+- 我们这样简单配置:
+    - 通过 drizzle_server 配置连接口令和协议,因为模块可以连接 MySQL 和 drizzle 两种数据源,所以,要声明协议模式
+    - 使用 drizzle_keepalive 建立一个连接池,限定上限为200,当超过连接限制时就 reject,相当对数据库的简单保护
+    - 然后这样定义一个 cat 接口
+
+```
+#! js
+location ~ '^/cat/(.*)' {
+       set $name $1;
+       set_quote_sql_str $quoted_name $name;
+       drizzle_query "select *
+           from cats
+           where name=$quoted_name";
+       drizzle_pass my_mysql_backend;
+       rds_json on;
+   }
+```
+
+    - cat 之后是这猫的名字,使用 set 获得,这是 nginx 本身的功能
+    - 然后使用 set_quote_sql_str 对查询语句进行转义,以防止SQL注入攻击
+    - 通过 drizzle_query 组合成查询語句
+    - drizzle_pass 来完成对后端数据集群的查询,因为前面的 drizzle_server·可聲明一组 MySQL服务器
+    - 甚至于,我们为查询返回的結果集,定制了一种格式,叫 rds_json
+      - 这种格式是面向各种关系型数据库的
+      - 我们针对这种格式,开发了一系列过滤器可以自由输出 csd或是json格式
+      - 这样,几乎所有报表接口,都通过这种方式实现的
+      - taobao 直通车就使用了 csd 格式,因为他们是将这当成中间件来使用的
+      - 而我们是直接通过 json 以 Ajax 形式对外的
+    - 这样,通过 curl 访问 cat 接口查詢 Jerry ,就可以获得名叫Jerry 的猫的相关数据
+    - 这里json 的输出,可以通过一系列方式,进行自由的调整
+    - 比如说,有的要求每行数据都是 key/value 的格式,有的要求紧凑格式,第一行包含key之后,以后的全部是数据等等,,,
+
+
+
+== ngx_postgres ==
+
+
+那么 portsgres 访问接口模块名叫:ngx_postgres
+- 这是一位波兰的 hacker 在我们的ngx_drizzle 基础上完成的
+- 因为它仿造了我们的接口形式
+- pg 的官方模块是无法使用的,于是他花了两个月的时间,完成了这个模块
+- 去哪儿网,有很多地方就使用了这一模块
+- 我们可以看到如何使用 Lua 来调用这个标准模块
+因为在 web 开发中,每向上一层,速度会下降一级,但是,功能会丰富很多
+- 但是,使用 nginx 模块来完成,速度损失很有限
+
+```
+#! js
+upstream my_pg_backend {
+       postgres_server 10.62.136.3:5432 dbname=test
+               user=someone password=123456;
+       postgres_keepalive max=50 mode=single overflow=ignore;
+   }
+```
+
+    - 这里,我们配置 overflow 时 ignore ,忽略,就是説,连接超过限定时,直接进入短连接模式
+```
+#! js
+location ~ '^/cat/(.*)' {
+       set $name $1;
+       set_quote_pgsql_str $quoted_name $name;
+       postgres_query "select *
+           from cats
+           where name=$quoted_name";
+       postgres_pass my_pg_backend;
+       rds_json on;
+   }
+```
+
+    - 这样定义一个 pg 版本的 cat 接口
+    - 注意,进行SQL 转义时问的是 set_quote_pgsql_str, 因为pg 的SQL转义和其它的不同
+
+
+==  ngx_redis2 ==
+
+
+然后,去年的时候,我为了好玩,写了个 redis 的模块: ngx_redis2
+- 依然是100%非阻塞,去哪儿和天涯也都大量使用了这一模块
+
+```
+#! js
+upstream my_redis_node {
+       server 127.0.0.1:6379;
+       keepalive 1024 single;
+   }
+```
+    - 同样使用 upstream 定义一个或是多个连接池
+    - 使用 keepalive 定义并发策略,这种场景中 tcp 在 http 的连接消耗是非常低的
+
+```
+#! js
+# multiple pipelined queries
+   location /foo {
+       set $value 'first';
+       redis2_query set one $value;
+       redis2_query get one;
+       redis2_pass my_redis_node;
+   }
+```
+    - 这里,我使用 redis2_query 定义了两个请求
+    - 通过流水线形式,一次請求发送了两个命令过去,响应时,就有两个响应,按照顺序返回
+
+
+
+== ngx_srcache ==
+
+
+ngx_srcache 是个很有趣的通用缓存模块
+- 之前为 apache 写过一些模块,其中一个比较有趣的,就是针对mod_cache 模块,写了个 memcached 的模块,就可以通过 memcached 对apache 中任意的响应进行缓存!
+- 这模块当初是为 Yahoo! 的搜索业务中,爬虫的抽取系統进行設計的
+- 当然我就发现,apache 里对 memcached 进行阻塞访问时,有点虚焦? 随着并发数增加,响应速度极速下降
+- 所以,在nginx 时,就不会有这种问题,保证所有处理都是非阻塞的!包括访问 memcached
+- 所以,我们可以在配置文件中自行决定使用什么后端来存储缓存
+
+```
+#! js
+location /api {
+       set $key "$uri?$args";
+       srcache_fetch GET /memc key=$key;
+       srcache_store PUT /memc key=$key&amp;exptime=3600;
+       # proxy_pass/drizzle_pass/postgres_pass/etc
+   }
+```
+    - 这里我们定义两种调用,所謂 fetch 是在 apache 中一种模板,c級别的调用但是,技法和 http 的 get 一樣
+    - 这样声明的 location,我们可以同时即对外提供调用,也可以对配置内部其它 location 进行调用!
+```
+#! js
+ location /memc {
+       internal;
+       set_unescape_uri $memc_key $arg_key;
+       set $memc_exptime $arg_exptime;
+       set_hashed_upstream $backend my_memc_cluster $memc_key;
+       memc_pass $backend;
+   }
+```
+    - 这样,其实就是在收到請求时,实际调用了 /memc 接口,访问后端缓存
+    - 收到結果后,再使用 srcache_store 接口整理put 回请求的入口 location, 設置相应的格式
+    - 而 /memc 接口通过 internal 标记,成为仅仅对内服务的接口
+    - 后面我们通过一系列指令,从 url 参数 ;-)
+      - 即使是内部调用,依然是个标准的 http 請求界面
+    - 然后使用 set_hashed_upstream 对 memcached 的集群.进行基于鍵的模的 hash 将結果放到 $backend
+    - 最后使用 memc_pass 完成对集群的查询
+    - 这里的 my_memc_cluster 是怎么定义的呢?
+
+```
+#! js
+upstream memc1 {
+       server 10.32.126.3:11211;
+   }
+   upstream memc2 {
+       server 10.32.126.4:11211;
+   }
+   upstream_list my_memc_cluster memc1 memc2;
+```
+- 使用 upstream 定义两个服务,使用upstream_list 声明为一个集群
+- 这里其实也有限制的:
+    - 在我们动态追加主机时
+    - 我们要重新生成配置文件,然后使用 touch 命令通知 nginx 重新加载
+    - 而这一限制,我们将看到,在基于 Lua 的实现中会不存在  ;-)
+
+前面我们看到,经过简单的配置,我们就可以获得一系列强大的 api 服务;
+
+``&lt;&lt;&lt; 29:51``
+
+
+
+== ngx_iconv ==
+
+
+
+实际使用中,还有一个重要的需求就是字符串编码:
+- 因为,有的业务是基于 gbk的,有的又是 utf-8 的
+- 一般我们可以在数据库层面进行处理
+- 但是,对于一些功能弱些的产品,比如说,memcache/redis 等,就没办法了
+- 所以,我们完成了自己的动态编码转换模块:
+```
+ngx_iconv
+```
+- 不管大家在访问 MySQL 时,使用的什么途径,比如习惯的反向代理什么的
+- 都可以通过 iconv_filter 对响应体进行编码转换!
+- 而且是流式的转换,也就是說,不需要 buffer,来一点数据就立即完成转换
+
+```
+#! js
+location /api {
+       # drizzle_pass/postgres_pass/etc
+       iconv_filter from=UTF-8 to=GBK;
+   }
+```
+    - 以上这是从 utf-8 到 gbk 的转换
+
+``&lt;&lt;&lt; 30:54``
+
+
+
+== 嵌入 Lua ==
+
+
+后面我们化了很大力气将 Lua 嵌入到了裏面:
+- 这样使得,可以实现任意复杂的业务了
+
+```
+#! js
+# nginx.conf
+   location = /hello {
+       content_by_lua '
+           ngx.say("Hello World")
+       ';
+   }
+```
+
+    - 这样我们就完成了一个 hallo world
+    - ngx.say 是 lua 显露給模块的接口
+- 另外当然也可以调用外部脚本
+- 如同我们写php 应用时,习惯将业务脚本单独组织在 .php 文件中一样
+
+
+```
+#! js
+# nginx.conf
+   location = /hello {
+       content_by_lua_file conf/hello.lua;
+   }
+```
+
+- 通过 content_by_lua_file 调用外部文件:
+
+```
+#! sql
+-- hello.lua
+   ngx.say("Hello World")
+```
+
+- 这里的脚本可以任意复杂,也可以使用Lua 自己的库
+
+早先,我们非常依赖,ngninx 的子请求,来复用 nginx 的请求模块:
+- 比如说,我们一个模块,需要同时访问 memcached/mysql/pg 等許多后端
+- 这时,怎么办? 这么来:
+
+
+```
+#! js
+location = /memc {
+       internal;
+       memc_pass ...;
+   }
+   location = /api {
+       content_by_lua '
+           local resp = ngx.location.capture("/memc")
+           if resp.status ~= 200 then
+               ngx.exit(500)
+           end
+           ngx.say(resp.body)
+       ';
+   }
+```
+    - 先在 /memc 中建立到 memcache 的连接,并声明为内部接口
+    - 然后,在 /api 中使用 ngx.location.capture 发起一个 location 請求
+    - 就象发起一个正当的 http 请求一样,请求它,但是,其实没有http的开销,因为,这是c 级别的内部调用!
+    - 而且是个异步调用,虽然我们是以同步的方式来写的
+    - 然后我们可以检验响应是否 200,否则访问 500
+    - 最后就可以将响应体输出出来
+
+
+
+
+
+=== 同步形式异步执行! ===
+
+
+
+这里为什么可以同步的写?
+- 写过 javascript 前端程序的朋友,应该知道要实现异步效果,我们很多时候,要使用回调
+- 而在 Lua 中我们可以这么来,因为 Lua 支持协程,即,concurrent
+- 这样,我们可以在一个 Lua 线程中分割出多个Lua 用户级的逻辑线程
+- 这种伪线程,可以实现比操作系统高的多的多的并发能力,因为系统开销非常的小
+- 近年有一些技术,也都支持了 concurrent 的技术,可以象http 请求顺序一样,顺着写
+- 不用象js 程序员那些纠结倒着写,在需要顺序操作时,又必须借重一些技法,而应用技法的代码,又实在难看,无法习惯
+
+所以,我们当初选择 Lua 一个很重要的原因就是支持 协程
+- 这里我们假定,同时要访问多个数据源
+- 而且,查询是没有依赖关系的,那我们就可以同时发出请求
+- 这样我总的延时, 是我所有请求中最慢的一个所用时间,而不是原先的所有请求用时的叠加!
+- 这种方式,就是用并发换取了响应时间
+
+```
+#! js
+location = /api {
+       content_by_lua '
+           local res1, res2, res3 =
+               ngx.location.capture_multi{
+                   {"/memc"}, {"/mysql"}, {"/postgres"}
+               }
+           ngx.say(res1.body, res2.body, res3.body)
+       ';
+   }
+```
+
+    - 这里我们就同时发出了3个请求
+    - 同时到 memcached/mysql/pg
+    - 然后全新响应后,将結果放到 res1/2/3 三个变量中返回
+所以,这种模型里,实现并发访问也是很方便的 ;-)
+
+``&lt;&lt;&lt; 35:20``
+
+
+
+
+
+
+== lua_shared_dict ==
+
+
+这是我去年,花力气完成的 nginx 共享内存字典模块: lua_shared_dict
+- 因为 nginx 是多 worker 模型,可以有多个进程
+- 但是,其实 workder 数量和并发无关,这不同于 apache
+- nginx 多worker 的目的是将 cpu 跑满,因为它是单进程的嘛
+- nginx 实际只跑了操作系统的一个线程,所以,多核主机中,如果有8核心,我们一般就起8个 worker 的
+- 如果业务有硬盘 I/O 的操作时,我们一般会起比核数略多的 worker 数
+    - 因为在 linux 中,磁盘很难有非阻塞的操作
+    - 虽然有什么 aio 的模型,但是有很多其它问题
+    - 所以,本质上 nginx 多 worker 是为了跑满 cpu
+- 那么,一但多进程了,就存在满满的共存问题
+    - 比如説,我们想在多个进程间共存配置/业务数据
+    - 所以,基于共存内存来作
+
+```
+#! js
+lua_shared_dict dogs 10m;
+   server {
+       location = /set {
+           content_by_lua '
+               local dogs = ngx.shared.dogs
+               dogs:set("Tom", ngx.var.arg_n)
+               ngx.say("OK")
+           '
+       }
+       location = /get {
+           content_by_lua '
+               local dogs = ngx.shared.dogs
+               ngx.say("Tom: ", dogs.get("Tom"))
+           ';
+       }
+```
+
+- 这有个例子:
+    - 首先,使用 lua_shared_dict 分配一 10M 的空间
+    - 然后,使用 OOP 方式,来定义两个接口:一个 /set 一个/get
+    - 然后,不论哪个 worker 具体调用哪个操作
+    - 但是結果,是終保存一致的
+- 使用 curl 先set 一下,再 get 就变成了 59,因为内部进行了自增
+    - 共存的实现是通过紅黑树+自旋鎖来达成的:
+        - 紅黑树的查找类似 hash 表查找的一种算法
+        - 为保持读写的数据一致性,使用 自旋鎖来保证
+        - 所以,当并发增大或是更新量增大时, 自旋鎖可能有问题,未来我们准备进一步修改成报灰的模型
+    - 其实,共享内存的方式,在鎖开销非常小时,效率是非常高的,在腾讯单机并发跑到20万都是小意思;
+
+另外,在 Lua 中,我们需要对大数据量的一种非缓存的输出:
+- 因为,在很多 web 框架中或多或少都有缓存,有的甚至使用了全缓存
+- 那么,当你输出体积很大的数据时,就很易囧掉
+- 而,在 Lua 中,我们就很容易控制这点
+
+```
+#! sql
+-- api.lua
+-- asynchronous emit data as a response body part
+ngx.say("big data chunk")
+-- won`t return until all the data flushed out
+ngx.flush(true)
+-- ditto
+ngx.say("another big data chunk")
+ngx.flush(true)
+```
+    - 比如,这里我们先 ngx.say ,异步的输出一个数据
+    - 这段数据不一定刷得出去,如果网卡没来得及输出这投数据的话,这会在 nginx 的进程中缓存
+    - 如果,我想等待数据输出后,再继续,就使用 ngx.flush ,这时,只有数据真正刷到系统的缓冲区后,才返回
+    - 这样保证我们 nginx 的缓存是非低的,然后我们再处理下一个数据段
+    - 如此就实现了流式的大数据输出
+
+这样,有时网络很慢,而数据量又大,最好的方式就是:
+- 既然你发的慢,那我也收的慢: 你一点点发,我就一点点收
+- 这样我们就可以使用很少的资源,来支持很多大数据量的慢连接用户
+
+
+
+
+
+== Socket形式 ==
+
+
+然而,还有些慢连接就是恶意攻击:
+- 我可以生成很多 http 连接,接进来后,慢的发送,甚至就不发送,来拖死你的应用
+- 这种情况中,你一不注意,服务分配给太多資源的话,整个系统就很容易被拖垮
+所以,去年年底,今年年初,我下决心,完成了一个 同步非阻塞的 socket 接口:
+
+&lt;&lt;&lt; 40:50
+
+这样,我就不用通过 nginx 的上游模块来访问http 请求:
+- 我们就可以让 Lua 直接通过 http,或是 unix  socket 协议,访问任意后端服务
+
+```
+#! rb
+local sock = ngx.socket.tcp()
+sock:settimeout(1000)   -- one second
+local ok, err = sock:connect("127.0.0.1", 11211)
+if not ok then
+   ngx.say("failed to connect: ", err)
+   return
+end
+```
+
+- 象这样,建立 socket 端口,并可以设定超时
+- 我们就可以进行非阻塞的访问控制,当超时时,nginx 就可以自动挂起,切入其它协程进行处理
+- 如果所有连接都不活跃,我也可以等待系统的 epoll 调用了
+就不用傻傻的完全呆在那儿了
+
+```
+#! rb
+   local bytes, err = sock:send("flush_all\r\n")
+   if not bytes then
+       ngx.say("failed to send query: ", err)
+       return
+   end
+
+   local line, err = sock:receive()
+   if not line then
+       ngx.say("failed to receive a line: ", err)
+       return
+   end
+
+   ngx.say("result: ", line)
+```
+
+- 或是使用 sock:send 直接返回,就可以继续其它请求了
+- 使用 receive 来接收查询的返回,读失败有失败处理,成功就打印出来
+一切都是自然顺序
+
+```
+#! rb
+   local ok, err = sock:setkeepalive(60000, 500)
+   if not ok then
+       ngx.say("failed to put the connection into pool "
+           .. "with pool capacity 500 "
+           .. "and maximal idle time 60 sec")
+       return
+   end
+```
+
+- 这是连接池的调用
+- 通过 sock:setkeepalive , Lua 模块,就会将当前连接,放入另一连接池中以供其它請求复用
+- 也就是說,如果其它請求,請求到同一个url 时, nginx 会直接交給它原先的连接,而省去了开新连接的消耗
+- keepalive 的参数比较少:
+   - 头一个是,最大空闲时间,即,一个连接放在连接池里没有任何人来使用的最大时间
+     - 这里是60秒,因为维持一连接的代价还是很昂贵的,如果一分钟了也没有人来用,我就主动关闭你节省资源
+     - 对于负载比较大的应用,这样可以减少浪费
+   - 第二个参数是,最大连接数,
+     - 这里是500,如果连接数超过限制,就自动进入转移连接的模式
+
+Unix 域套接字 是 Linux/Unix 系统独特的进程接口
+- 虽然不走 http 协议,但是调用形式和 tcp 的 socket 完全类似
+
+```
+#! rb
+   local sock = ngx.socket.tcp()
+   local ok, err = sock:connect("/tmp/some.sock")
+   if not ok then
+       ngx.say("failed to connect to /tmp/some.sock: ", err)
+       return
+   end
+```
+
+- 一樣通过 ngx.socket.tcp 来建立连接
+- 然后,使用 sock:connect 来指定一个特殊文件,接入套接字
+- 就可以进行各种日常的操作了
+
+
+
+
+
+
+== concurrent ~ "cosocket" ==
+
+
+这个模块是基于 concurrent 的:
+- 写是顺序写,但是执行是非阻塞的!
+这点非常重要!
+- 协程技术诞生也有些年头了,
+- 但是,至今 99.9% 的 web 应用依然是阻塞式的
+- 因为早年,基于阻塞的应用开发太习惯了
+- 而基于异步的开发,对于工程师的思維能力要求太高,这也是为什么 node.js 工程师在开发时的主要痛苦
+- 因为,要求改变思維方式来考虑问题,我们的程序员多是 php 的,要求他们改变思维是很痛苦的
+
+所以,不仅仅是为了推广我们的平台
+- 更是为了兼容工程师的阻塞式思維,同时又可以利用协程来提高系统性能,达到单机上万的响应能力
+- 我们引入了 Lua 的协程,并称之为:
+"cosocket"
+- 即,concurrent based socket
+- 而一位资深的 python 粉丝告诉我,python也有优秀的协程库:
+    - 是基于 greenlet 的 Gevent
+    - 当然,类似我们的系統,都是可以支撑非常高并发的响应
+
+但是,我们当初选择 Lua 还有个很重要的原因是:
+- cpu 的执行效率
+- 当你的并发模式,已经是极致的时候
+- cpu 很容易成为瓶颈!
+
+一般情况下是 带宽首先不够了,然后 cpu 被跑满
+- 而在 apache 模型中,反而是内存首先不足
+- 经常是24个进程,swap 8G/24G 不断的增长,卡住什么也玩不了了
+- 而cpu 光在那儿进行上下文切换,没有作什么有意义的事儿
+即,所謂内耗
+
+当我们将应用从 I/O 模型解放后,拼的都是 CPU:
+- 因为,内存一般消耗都不太大
+- 我们经常在 256M 内存的虚拟机,或是64M 内存的嵌入式设备中跑生产服务
+内存,真心不应该是问题所在,,,
+
+但是,要进行計算时就一定要快!
+- 而 Lua 近年发展编译器到什么地步?
+- 有种编译器,可以运行时动态生成机器码
+- 在我们的测试中,高过了末启用优化的 gpc
+- 而启用优化的 gpc ,消耗资源又高过 Lua
+
+所以, Lua 的性能没有问题
+- 然后我们实际,按照 ruby 社区的説法,就是直接基于Lua 扩展出了一种专用小語言
+- 业务团队实际并没有直接使用 Lua 来写,而是使用我们为业务专门定制的一种专用脚本(DSL)
+- 所以,代码量非常的少
+而且,我们的定制小語言,是强类型的:
+- 强类型語言有很多好处
+- 而且,可以在小語言中,定义对业务領域的高层次約束
+- 你就可以很方便的查找出业务工程师常范的错误,转化成語言特性包含到约束中,在编译器中实现!
+- 最后编译成包含优化的 Lua 代码,让它跑的象飞一样!
+而且! 哪天,我高兴了,也可以让它生成 C 代码让它跑到极致!
+- 这样,业务不用改一行代码,但是,系统效能可以提高几倍
+- 等等,这些都是可以实现的,,,
+
+要,实现这些,要求我们的基础必须非常非常的高效,同时又非常非常小巧!
+- 这样我们才能在上面搭上层建筑
+- 即,所謂的: **"勿在浮沙筑高台"!**
+- 在这一过程中,我们也吃过很多苦,,,好在有 nginx ...
+
+再有,我们发现 socket 模型,一样可以用来读取下游,即客户端请求数据!
+- 当请求体很大,比如说,上传一个很大的文件时
+- 也需要异步处理 ,就省的我操心了
+- 所以,我就对下游請求,包装了一个只读的 socket,可以对請求数据进行流式读取
+
+```
+#! rb
+   local sock, err = ngx.req.socket()
+   if not sock then
+       ngx.say("failed to get request socket: ", err)
+       return
+   end
+   sock:settimeout(10000)  -- 10 sec timeout
+
+   while true do
+       local chunk, err = sock:receive(4096)
+       if not chunk then
+           if err == "closed" then
+               break
+           end
+           ngx.say("faile to read: ", err)
+           return
+       end
+       process_chunk(chunk)
+   end
+```
+
+- 这样,建立一个下游 socket 后,以 4096 字节为一个块(trunk)进行读取
+- 然后检查是否结束,即使没有结束,我也可以一块块的进行处理
+- 比如,读一块就写到硬盘上,或是写到远程的一个 tcp 连接,这连接也是非阻塞的!
+- 象这样,我这层就非常非常高效!
+
+
+
+
+== 高层实现  ==
+
+
+
+进行各种高层次的实现就非常方便了
+- 以前我用几年时间才能实现纯 Lua 的 MySQL 的连接模块
+- 现在用几百行 Lua 脚本就实现了: lua-resty-mysql
+  - 而且是非常完备的实现
+  - 支持多結果/存储过程等等高級功能
+- 而且性能非常接近纯 C 写的模块,我评测下来,也就差 10~20% 的响应
+- 如果未来,我用C 改写其中计算密集型的处理模块,那性能可以进一步大幅度提升!
+
+lua-resty-memcached 也就500多行就搞掂了!
+- 是完整的 memcached 协议的支持
+
+所以,用这种技术,可以很方便的实现公司里固定的或是全新的后端服务;
+
+redis协议本身設計的非常巧妙,虽然命令多,但是底层传输协议非常简洁
+- 所以,我只用 200 多行,就实现了:lua-resty-redis
+
+后面两个模块都比较粗糙,仅仅封装了传输协议,所以,执行效率,高于它们官方c 实现的等价物 ;-)
+
+lua-resty-upload 就是提及的大文件上传模块
+- 不过,这模块写的比较粗糙
+- api 暴露的不够 优美,,,,
+
+
+
+
+= abt. =
+
+
+- 我在 http://github.com/agentzh 上天天提交代码;
+- 也刷weibo : http://weibo.com/agentzh/ 不过,最近刷的比较少,,,
+
+``&lt;&lt;&lt; 53:00``
+
+
+QA:
+
+- 将 Lua 当成什么来用? 直接业务嘛?
+  - 简单的可以直接来
+  - 也可以架构更高层的領域脚本,编译成 Lua 来执行
+  - 不过,最终,都是通过寄生在 nginx 平台上的 Lua 来实际跑
+
+- 那 openresty 主要解决了nginx 的什么问题?是nginx 的缺陷嘛?
+  - 分两个方面来想:
+  - 1.作为 nginx 的补充,很多人也是这么用的,比如说负载的接入,简化 F5 的前端配置,访问的逻辑控制,,,
+  - 2. 直接作为 web 应用的机制,直接实现所有的应用,输出网页,发布 web service,等等
+
+- 和 apache 什么的性能差别主要在哪里?
+  - 主要是 I/O 模型的本质差异
+  - nginx + Lua 可以完成数量级上的提升
+  - 而且,作为应用或是作为hhttpd 可以同时胜任双重角色!
 
 </t>
 </tnodes>

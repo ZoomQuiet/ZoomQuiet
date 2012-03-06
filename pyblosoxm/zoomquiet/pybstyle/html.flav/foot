@@ -219,6 +219,7 @@ SyntaxHighlighter.autoloader.apply(null, path(
     'js jscript javascript  @shBrushJScript.js',
     'text plain             @shBrushPlain.js',
     'py python              @shBrushPython.js',
+    'rb ruby                @shBrushRuby.js',
     'sass scss              @shBrushSass.js',
     'sql                    @shBrushSql.js',
     'xml xhtml xslt html    @shBrushXml.js'
