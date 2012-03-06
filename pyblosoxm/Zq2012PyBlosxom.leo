@@ -33000,8 +33000,9 @@ N久前就开始义务的狂热的不断的推广 Python 了:
 - 录音: http://vdisk.weibo.com/s/2Qcon
 - 笔录: Zoom.Quiet &lt;zoomquiet+nginx@gmail.com&gt;
 - Chnangelog:
-    120302 finished
-    120301 init.
+    - 120306 fixed some ID name
+    - 120305 finished
+    - 120301 init.
 
 很早就一直关注 agentzh 对 nginx 的给力 hacking,这次总算有个阶段性的说明,虽然无法现场交流,
 好在有录音,为了其它没有时间听的人们,以及给搜索引擎更好的搜索数据,俺义务听录全文;
