@@ -368,7 +368,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100414115206.4538" a="E"><vh>utility</vh>
+<v t="zoomq.20100414115206.4538"><vh>utility</vh>
 <v t="ZoomQuiet.20060116170508"><vh>py4gui</vh></v>
 <v t="ZoomQuiet.20060116170643"><vh>py4str</vh>
 <v t="zoomq.20100414115206.4235"><vh>StructuredText</vh>
@@ -388,8 +388,8 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170643.4" a="E"><vh>py4sys</vh>
-<v t="zoomq.20100714100833.4007" a="E"><vh>@nosent py4sa-rename-mp3s-2010-07-13-22-02.t2t</vh>
+<v t="ZoomQuiet.20060116170643.4"><vh>py4sys</vh>
+<v t="zoomq.20100714100833.4007"><vh>@nosent py4sa-rename-mp3s-2010-07-13-22-02.t2t</vh>
 <v t="zoomq.20100714100833.4008"><vh>问题</vh></v>
 <v t="zoomq.20100714140857.4015"><vh>嘗試</vh></v>
 <v t="zoomq.20100714140857.4016"><vh>Py之</vh></v>
@@ -1546,7 +1546,7 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060113092617" a="E"><vh>web配置</vh>
-<v t="ZoomQuiet.20060113092909" a="E"><vh>@nosent config.py</vh>
+<v t="ZoomQuiet.20060113092909"><vh>@nosent config.py</vh>
 <v t="zoomq.20110503084352.4314"><vh>Blog configuration</vh></v>
 <v t="zoomq.20110503084352.4315"><vh>Logging configuration</vh></v>
 <v t="ZoomQuiet.20060123105542"><vh>Plugin configuration</vh>
@@ -32971,7 +32971,7 @@ N久前就开始义务的狂热的不断的推广 Python 了:
 <t tx="zoomq.20120305142323.7639">@path iOS</t>
 <t tx="zoomq.20120305142323.7644">@language Moin
 由Lua 粘合的Nginx生态环境
--- agentZh tech-club.org 演讲听录
+-- agentzh tech-club.org 演讲听录
 &lt;&lt;t2t head&gt;&gt;
 
 
@@ -33003,7 +33003,7 @@ N久前就开始义务的狂热的不断的推广 Python 了:
     120302 finished
     120301 init.
 
-早已关注 angenZh 对 nginx 的给力 ahcking,这次总算有个阶段性的说明,虽然无法现场交流,
+早已关注 agentzh 对 nginx 的给力 ahcking,这次总算有个阶段性的说明,虽然无法现场交流,
 好在有录音,为了其它没有时间听的人们,以及给搜索引擎更好的搜索数据,俺义务听录全文;
 
 
