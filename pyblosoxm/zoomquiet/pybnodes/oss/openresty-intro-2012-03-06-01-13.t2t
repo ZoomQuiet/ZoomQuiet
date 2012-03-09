@@ -13,7 +13,8 @@
 - 录音: http://vdisk.weibo.com/s/2Qcon
 - 笔录: Zoom.Quiet <zoomquiet+nginx@gmail.com>
 - Chnangelog:
-    - 120306 fixed some ID name
+    - 120309 fixed kindel->kindle, thanx for milel liu;
+    - 120306 fixed agentzh ID name,thanx himself alert
     - 120305 finished
     - 120301 init.
 
@@ -51,8 +52,8 @@
 现在,已经在福州呆了7个月,这是我老婆给拍的照片;
 我习惯,先在纸上写好代码,然后输入电脑,
 
-前面放的是 Kindel ;
-这台 Kindel 的来历比较有意思,
+前面放的是 kindle ;
+这台 kindle 的来历比较有意思,
 - 在TaoBao 的时候,我打算将 openresty 重写,因为一开始是用 Perl 来写的
 - 而在Yahoo! 的时候虽然已经使用 openresty 統一了搜索功能,但性能的确一般
 - 当时,本想基于 Apache 来改写,不过一位师傅跟我讲:"你就直接拿c 写吧,基于 Apache 写没有前途的!"
