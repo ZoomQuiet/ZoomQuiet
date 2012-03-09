@@ -33001,6 +33001,7 @@ N久前就开始义务的狂热的不断的推广 Python 了:
 - 笔录: Zoom.Quiet &lt;zoomquiet+nginx@gmail.com&gt;
 - Chnangelog:
     - 120309 fixed kindel-&gt;kindle, thanx for milel liu;
+    - 120308 fixed ahcking-&gt;hacking,thanx weakish
     - 120306 fixed agentzh ID name,thanx himself alert
     - 120305 finished
     - 120301 init.
