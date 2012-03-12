@@ -13,6 +13,7 @@
 - 录音: http://vdisk.weibo.com/s/2Qcon
 - 笔录: Zoom.Quiet <zoomquiet+nginx@gmail.com>
 - Chnangelog:
+    - 120312 fixed as s/hhttp/http/g ,thanx muxueqz
     - 120309 fixed kindel->kindle, thanx for milel liu;
     - 120308 fixed ahcking->hacking,thanx weakish
     - 120306 fixed agentzh ID name,thanx himself alert
@@ -892,7 +893,7 @@ QA:
 - 和 apache 什么的性能差别主要在哪里?
   - 主要是 I/O 模型的本质差异
   - nginx + Lua 可以完成数量级上的提升
-  - 而且,作为应用或是作为hhttpd 可以同时胜任双重角色!
+  - 而且,作为应用或是作为 httpd 可以同时胜任双重角色!
 
 
 

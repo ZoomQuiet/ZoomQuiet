@@ -215,7 +215,7 @@
 <v t="ZoomQuiet.20060125173931.2"><vh>结构</vh></v>
 <v t="ZoomQuiet.20060125173931.3"><vh>TODO</vh></v>
 </v>
-<v t="zoomq.20100414115206.4549" a="E"><vh>@nosent solaris-fs-choice-2008-04-23-21-43.t2t</vh>
+<v t="zoomq.20100414115206.4549"><vh>@nosent solaris-fs-choice-2008-04-23-21-43.t2t</vh>
 <v t="zoomq.20100728103610.7583"></v>
 <v t="zoomq.20060916180156.12"></v>
 <v t="zoomq.20100728103610.7586"><vh>main</vh></v>
@@ -33000,6 +33000,7 @@ N久前就开始义务的狂热的不断的推广 Python 了:
 - 录音: http://vdisk.weibo.com/s/2Qcon
 - 笔录: Zoom.Quiet &lt;zoomquiet+nginx@gmail.com&gt;
 - Chnangelog:
+    - 120312 fixed as s/hhttp/http/g ,thanx muxueqz
     - 120309 fixed kindel-&gt;kindle, thanx for milel liu;
     - 120308 fixed ahcking-&gt;hacking,thanx weakish
     - 120306 fixed agentzh ID name,thanx himself alert
@@ -33879,7 +33880,7 @@ QA:
 - 和 apache 什么的性能差别主要在哪里?
   - 主要是 I/O 模型的本质差异
   - nginx + Lua 可以完成数量级上的提升
-  - 而且,作为应用或是作为hhttpd 可以同时胜任双重角色!
+  - 而且,作为应用或是作为 httpd 可以同时胜任双重角色!
 
 </t>
 </tnodes>
