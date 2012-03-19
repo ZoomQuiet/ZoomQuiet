@@ -24576,14 +24576,18 @@ OpenBookProject
 是也乎, Ubuntu 和 MBP 不是同种事物吼
 - 不过 Ubuntu 作为操作系统,可以安装在几乎任何硬件中
 - 但是, OS X 只有在 Apple 硬件上,才真心自在
+
 所以,,,,
 
 出于各种原因, 111216 在澳门专卖店,老婆赞助之下,入手俺第一台个人笔记本:
+
 - MacBook Pro(15吋)
 - 2.2 GHz 四核 Intel Core i7
 - 8 GB 1333 MHz DDR3(自购4G)
 - 500GB 5400-rpm
 - Mac OS X Lion 10.7.3 Lion (自动从10.7.2升级的)
+
+
 
 而之前使用的是公司配置的 联想 x200商用笔记本,安装的是 Ubunru 10.04.4 LTS(Gutsy Gibbon);
 更早先,2006年之前,是Dell 的商务本,安装windows2003服务器版;
@@ -24613,6 +24617,14 @@ OpenBookProject
 |  思维导图 | FreeMind | XMind | Xmind |
 |  关系图谱 | Graphviz | Graphviz | Graphviz |
 |  **UML** | JUDE | JUDE | websequencediagrams.com |
+|  **antiRSI** | Workrave | Workrave | focus booster |
+|  abt.系统管理  ||||
+|  **软件仓库** | NULL(可悲!) | apt | brew |
+|  **版本管理** | CVS+SVN | SVN+Hg | Hg+git |
+|  **输入法** | BXM | SCIM(外挂BXM) | IMKQIM(外挂BXM) |
+|  **终端** | Putty | Gnome 终端 | iTerm 2 |
+|  **文件管理** | Total Commander | gnome-commder | muCommander |
+|  **CPU分享** | BINC | BINC | BINC |
 |  abt.输出  ||||
 |  办公 | Office | OOo | OOo |
 |  幻灯 | OOo | S5 | rst2S5 |
@@ -24627,18 +24639,15 @@ OpenBookProject
 |  系统监察 | 内置(弱!) | 内置+htop | 内置+atMonitor |
 |  中文字体 | wqy | wqy | wqy |
 |  编程字体 | Courier | Monaco | Incosolata |
-|  **输入法** | BXM | SCIM(外挂BXM) | IMKQIM(外挂BXM) |
-|  **终端** | Putty | Gnome 终端 | iTerm 2 |
 |  **编程** | UltraEdit+Leo | GEdit+Leo | Sublime Text2 / Emacs +Leo  |
-|  **文件管理** | Total Commander | gnome-commder | muCommander |
 |  IM | Pidgin+Skype | Pidgin+Skype | Aduim+QQ |
-|  **antiRSI** | Workrave | Workrave | focus booster |
-|  **CPU分享** | BINC | BINC | BINC |
 
 
 可以看到,近7成的软件,根本不用迁移,可以直接使用!-)
 - 这就是开源的伟力之一!
 - 当然,有几个核心常用软件是有一定挣扎才迁移过来的,,,
+
+
 接下来,将对其中比较折腾的进行逐一回顾,,,
 
 
