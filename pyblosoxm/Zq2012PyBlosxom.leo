@@ -24600,7 +24600,7 @@ OpenBookProject
 
 ||  对比\内容 | ~2006 | ~2011 | 2012~ |
 ||  OS | Windows | Ubuntu | MAC |
-|  abt.输入  ||||
+|  &gt;&gt;&gt; abt.输入 &lt;&lt;&lt;  ||||
 |  浏览器 | SwiftFox | SwiftFox | FireFox |
 |  资料收集 | ScrapBook | ScrapBook | ScrapBook |
 |  视频回放 | MPlayer | MPlayer | MPlayer |
@@ -24613,20 +24613,21 @@ OpenBookProject
 |  **图片浏览** | IrfanView | Geeqie | Xee |
 |  **笔记** | Leo | Zim+Leo | Notational Velocity+Leo |
 |  **辞典** | 星际译王 | 星际译王 | 内置(外挂星际译王词库) |
-|  abt.思考  ||||
+|  &gt;&gt;&gt; abt.思考 &lt;&lt;&lt;  ||||
 |  思维导图 | FreeMind | XMind | Xmind |
 |  关系图谱 | Graphviz | Graphviz | Graphviz |
 |  **UML** | JUDE | JUDE | websequencediagrams.com |
 |  **antiRSI** | Workrave | Workrave | focus booster |
-|  abt.系统管理  ||||
+|  &gt;&gt;&gt; abt.系统管理 &lt;&lt;&lt;  ||||
+|  虚拟机 | NULL | VirtualBox | VirtualBox |
 |  **软件仓库** | NULL(可悲!) | apt | brew |
 |  **版本管理** | CVS+SVN | SVN+Hg | Hg+git |
 |  **输入法** | BXM | SCIM(外挂BXM) | IMKQIM(外挂BXM) |
 |  **终端** | Putty | Gnome 终端 | iTerm 2 |
 |  **文件管理** | Total Commander | gnome-commder | muCommander |
 |  **CPU分享** | BINC | BINC | BINC |
-|  abt.输出  ||||
-|  办公 | Office | OOo | OOo |
+|  &gt;&gt;&gt; abt.输出 &lt;&lt;&lt;  ||||
+|  办公 | OOo | OOo | OOo |
 |  幻灯 | OOo | S5 | rst2S5 |
 |  文档 | t2t/rst | t2t/rst | t2t/rst |
 |  **在线写作** | [It’s All Text! http://docwhat.org/2007/03/its_all_text_v06/] | [It’s All Text! http://docwhat.org/2007/03/its_all_text_v06/] | [It’s All Text! http://docwhat.org/2007/03/its_all_text_v06/] |
