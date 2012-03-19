@@ -801,7 +801,7 @@
 </v>
 </v>
 <v t="ZoomQuiet.20060123104045" a="E"><vh>plugins</vh>
-<v t="zoomq.20100414115206.4559" a="E"><vh>@nosent cp4idx2category.py</vh>
+<v t="zoomq.20100414115206.4559"><vh>@nosent cp4idx2category.py</vh>
 <v t="zoomq.20100414115206.4560"><vh>declarations</vh></v>
 <v t="zoomq.20100414115206.4561" a="E"><vh>cp4gen(path)</vh>
 <v t="zoomq.20110907090950.6581"><vh>&lt;&lt;cp as ind&gt;&gt;</vh></v>
@@ -811,7 +811,7 @@
 <v t="zoomq.20110907090950.6579"><vh>cleant2t declarations</vh></v>
 <v t="zoomq.20110907090950.6580"><vh>clean2entry</vh></v>
 </v>
-<v t="ZoomQuiet.20060113155741"><vh>preformatter</vh>
+<v t="ZoomQuiet.20060113155741" a="E"><vh>preformatter</vh>
 <v t="ZoomQuiet.20060122144657"><vh>为t2t</vh>
 <v t="ZoomQuiet.20060121163046"><vh>@nosent xhtml.py</vh>
 <v t="ZoomQuiet.20060121163046.1"><vh>&lt;&lt; xhtml declarations &gt;&gt;</vh>
@@ -1070,7 +1070,7 @@
 <v t="ZoomQuiet.20060113182537.5"><vh>parse</vh></v>
 </v>
 </v>
-<v t="ZoomQuiet.20060128153018" a="E"><vh>zqpyb+</vh>
+<v t="ZoomQuiet.20060128153018"><vh>zqpyb+</vh>
 <v t="ZoomQuiet.20060128161220"><vh>__stuff</vh>
 <v t="zoomq.20100420100426.5502"><vh>_pushsubdir()</vh></v>
 <v t="zoomq.20100420100426.5500"><vh>try文章结构列表</vh></v>
@@ -31828,7 +31828,8 @@ import re
 <t tx="zoomq.20110907090950.6523">@language python
 @tabwidth -4
 @others
-@ignore</t>
+
+</t>
 <t tx="zoomq.20110907090950.6524">#!/usr/bin/env python
 """
 markdown-plugin.py -- A Python Markdown v2.x plugin for PyBlosxom.

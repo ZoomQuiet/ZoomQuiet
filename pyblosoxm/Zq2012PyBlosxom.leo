@@ -207,7 +207,7 @@
 </v>
 </v>
 </v>
-<v t="ZoomQuiet.20060116170040.2" a="E"><vh>oss</vh>
+<v t="ZoomQuiet.20060116170040.2"><vh>oss</vh>
 <v t="ZoomQuiet.20060125173931"><vh>@nosent OSSdocDemoJPS-2006-01-17-23-23.t2t</vh>
 <v t="zoomq.20060916180156.12"></v>
 <v t="zoomq.20100728103610.7583"></v>
@@ -220,7 +220,7 @@
 <v t="zoomq.20060916180156.12"></v>
 <v t="zoomq.20100728103610.7586"><vh>main</vh></v>
 </v>
-<v t="zoomq.20120305142323.7644" a="E"><vh>@nosent openresty-intro-2012-03-06-01-13.t2t</vh>
+<v t="zoomq.20120305142323.7644"><vh>@nosent openresty-intro-2012-03-06-01-13.t2t</vh>
 <v t="zoomq.20120305142323.7646"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
 <v t="zoomq.20120305142323.7645"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
 <v t="zoomq.20120305142323.7647"><vh>main</vh></v>
@@ -580,8 +580,14 @@
 <v t="zoomq.20100728103610.7583"></v>
 <v t="zoomq.20100714100833.4002"><vh>我的”怪癖” (作业)</vh></v>
 </v>
-<v t="ZoomQuiet.20060116170040.5"><vh>techic</vh>
-<v t="zoomq.20120305142323.7638"><vh>Mac</vh></v>
+<v t="ZoomQuiet.20060116170040.5" a="E"><vh>techic</vh>
+<v t="zoomq.20120305142323.7638" a="E"><vh>Mac</vh>
+<v t="zoomq.20100714100009.4008" a="E"><vh>@nosent ubuntu2mac-mytoolbox-2012-02-14-23-23.t2t</vh>
+<v t="zoomq.20100714100009.4009"><vh>main</vh></v>
+<v t="ZoomQuiet.20060122153701.1"></v>
+<v t="ZoomQuiet.20060121172947.1"></v>
+</v>
+</v>
 <v t="zoomq.20120305142323.7639"><vh>iOS</vh></v>
 <v t="zoomq.20100414115206.4542"><vh>Emacs</vh>
 <v t="zoomq.20100414115206.4558"><vh>@nosent fw_learning_emacs_notes-2007-03-08-18-00.t2t</vh>
@@ -705,10 +711,10 @@
 <v t="ZoomQuiet.20060317180750"><vh>&lt;&lt;SNSlink&gt;&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20100714100009.4008"><vh>@nosent not-doc-2006-05-31-12-00.t2t</vh>
-<v t="zoomq.20100714100009.4009"><vh>noDOC</vh></v>
-<v t="ZoomQuiet.20060122153701.1"></v>
-<v t="ZoomQuiet.20060121172947.1"></v>
+<v t="zoomq.20120316222934.11482"><vh>@nosent not-doc-2006-05-31-12-00.t2t</vh>
+<v t="zoomq.20120316222934.11483"><vh>noDOC</vh></v>
+<v t="zoomq.20120316222934.11484"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
+<v t="zoomq.20120316222934.11485"><vh>&lt;&lt;t2t foot&gt;&gt;</vh></v>
 </v>
 </v>
 <v t="ZoomQuiet.20060113151604"><vh>hacking</vh>
@@ -24557,8 +24563,8 @@ OpenBookProject
 
 </t>
 <t tx="zoomq.20100714100009.4008">@language Moin
-NOT WORD!
---不仅仅关乎版权
+从 Ubuntu 到 MBP
+--我的工具箱迁移
 &lt;&lt;t2t head&gt;&gt;
 
 @others
@@ -24567,36 +24573,81 @@ NOT WORD!
 &lt;&lt;t2t foot&gt;&gt;
 </t>
 <t tx="zoomq.20100714100009.4009">
-: [几行字也发个doc?? http://blog.delphij.net/archives/001487.html]:
-    经常在邮件中看到朋友们将些小故事塞到 word 中分享,
-    和delphij 同样的感慨…………
+是也乎, Ubuntu 和 MBP 不是同种事物吼
+- 不过 Ubuntu 作为操作系统,可以安装在几乎任何硬件中
+- 但是, OS X 只有在 Apple 硬件上,才真心自在
+所以,,,,
 
-: 有诗曰:
-```
-文本文件好 
-工具遍地跑
-程序两三行
-全部改好了
-```
-    [文本好了歌 http://blog.cathayan.org/item/920] - Blog on 27th Floor
-    cathayan 的感慨
+出于各种原因, 111216 在澳门专卖店,老婆赞助之下,入手俺第一台个人笔记本:
+- MacBook Pro(15吋)
+- 2.2 GHz 四核 Intel Core i7
+- 8 GB 1333 MHz DDR3(自购4G)
+- 500GB 5400-rpm
+- Mac OS X Lion 10.7.3 Lion (自动从10.7.2升级的)
 
-: 文可文，非常文。本可文，非常本。文本,数据之始,字符,万思之母...
-    [结构化文本 http://wiki.woodpecker.org.cn/moin/AllAboutText]才是王道！
-    呜乎矣哉!是也乎是也乎!!
-    为了我们的写作快感，抵制一切富格式化编辑器!
-    有结构化文本想怎么漂亮都成的!不用在界面中辛苦的使用mouse 永远的点击…………
+而之前使用的是公司配置的 联想 x200商用笔记本,安装的是 Ubunru 10.04.4 LTS(Gutsy Gibbon);
+更早先,2006年之前,是Dell 的商务本,安装windows2003服务器版;
 
-: 可恨/可叹:
-    M$的市场策略，成功的将
-    ``正式文档===word文档``
-    的概念填入了人们的头脑中，特别是在中国！
+虽然作的事儿一直没有怎么变化,但是,日用环境的变迁,令俺对工具箱有着不同的选择.
+因为,很早水决心迁移出 M$ 环境的,所以,软件的组合,一直偏向跨平台,FLOSS软件;
 
-: 觉醒:
-    从我作起！[/pybimage/nodoc4cn.png] 至少从OOo 开始！
+倒是入 MAC 完全有点意外,工具的迁移有点小波折,特此,以系列文章形式记要一下;
 
 
-[抵制.doc运动 http://www.cyut.edu.tw/~ckhung/i/nd/fydoc.png]</t>
+||  对比\内容 | ~2006 | ~2011 | 2012~ |
+||  OS | Windows | Ubuntu | MAC |
+|  abt.输入  ||||
+|  浏览器 | SwiftFox | SwiftFox | FireFox |
+|  资料收集 | ScrapBook | ScrapBook | ScrapBook |
+|  视频回放 | MPlayer | MPlayer | MPlayer |
+|  email | Thunderbird+Gmail | Thunderbird+Gmail | Gmail |
+|  **pdf** | FoxitReader | Document View | Skim |
+|  **chm** | 内置 | CHM Reader(FF插件) | Enolsoft CHM View|
+|  **漫画阅读** | ComicsViewer | Comix | Simple Comic |
+|  **文本阅读** | ReadBook | LiteBook2 | EPUBReader |
+|  **音乐播放** | foobar2000 | Moc | Cmus |
+|  **图片浏览** | IrfanView | Geeqie | Xee |
+|  **笔记** | Leo | Zim+Leo | Notational Velocity+Leo |
+|  **辞典** | 星际译王 | 星际译王 | 内置(外挂星际译王词库) |
+|  abt.思考  ||||
+|  思维导图 | FreeMind | XMind | Xmind |
+|  关系图谱 | Graphviz | Graphviz | Graphviz |
+|  **UML** | JUDE | JUDE | websequencediagrams.com |
+|  abt.输出  ||||
+|  办公 | Office | OOo | OOo |
+|  幻灯 | OOo | S5 | rst2S5 |
+|  文档 | t2t/rst | t2t/rst | t2t/rst |
+|  **在线写作** | [It’s All Text! http://docwhat.org/2007/03/its_all_text_v06/] | [It’s All Text! http://docwhat.org/2007/03/its_all_text_v06/] | [It’s All Text! http://docwhat.org/2007/03/its_all_text_v06/] |
+|  图片管理 | Picasa | Picasa | Picasa |
+|  图形设计 | Inkscape | Inkscape | Inkscape |
+|  图像处理 | GIMP | GIMP | GIMP |
+|  视频处理 | ffmpeg | ffmpeg | ffmpeg |
+|  音频编辑 | Audacity | Audacity | Audacity |
+|  视频编辑 | - | Avidemux2 | Avidemux2 |
+|  系统监察 | 内置(弱!) | 内置+htop | 内置+atMonitor |
+|  中文字体 | wqy | wqy | wqy |
+|  编程字体 | Courier | Monaco | Incosolata |
+|  **输入法** | BXM | SCIM(外挂BXM) | IMKQIM(外挂BXM) |
+|  **终端** | Putty | Gnome 终端 | iTerm 2 |
+|  **编程** | UltraEdit+Leo | GEdit+Leo | Sublime Text2 / Emacs +Leo  |
+|  **文件管理** | Total Commander | gnome-commder | muCommander |
+|  IM | Pidgin+Skype | Pidgin+Skype | Aduim+QQ |
+|  **antiRSI** | Workrave | Workrave | focus booster |
+|  **CPU分享** | BINC | BINC | BINC |
+
+
+可以看到,近7成的软件,根本不用迁移,可以直接使用!-)
+- 这就是开源的伟力之一!
+- 当然,有几个核心常用软件是有一定挣扎才迁移过来的,,,
+接下来,将对其中比较折腾的进行逐一回顾,,,
+
+
+
+
+
+
+
+</t>
 <t tx="zoomq.20100714100833.4002">
 我的”怪癖” (作业)
 2005-08-26　01:09:00
@@ -33881,6 +33932,62 @@ QA:
   - 主要是 I/O 模型的本质差异
   - nginx + Lua 可以完成数量级上的提升
   - 而且,作为应用或是作为 httpd 可以同时胜任双重角色!
+
+</t>
+<t tx="zoomq.20120316222934.11482">@language Moin
+NOT WORD!
+--不仅仅关乎版权
+&lt;&lt;t2t head&gt;&gt;
+
+@others
+
+
+&lt;&lt;t2t foot&gt;&gt;
+</t>
+<t tx="zoomq.20120316222934.11483">
+: [几行字也发个doc?? http://blog.delphij.net/archives/001487.html]:
+    经常在邮件中看到朋友们将些小故事塞到 word 中分享,
+    和delphij 同样的感慨…………
+
+: 有诗曰:
+```
+文本文件好 
+工具遍地跑
+程序两三行
+全部改好了
+```
+    [文本好了歌 http://blog.cathayan.org/item/920] - Blog on 27th Floor
+    cathayan 的感慨
+
+: 文可文，非常文。本可文，非常本。文本,数据之始,字符,万思之母...
+    [结构化文本 http://wiki.woodpecker.org.cn/moin/AllAboutText]才是王道！
+    呜乎矣哉!是也乎是也乎!!
+    为了我们的写作快感，抵制一切富格式化编辑器!
+    有结构化文本想怎么漂亮都成的!不用在界面中辛苦的使用mouse 永远的点击…………
+
+: 可恨/可叹:
+    M$的市场策略，成功的将
+    ``正式文档===word文档``
+    的概念填入了人们的头脑中，特别是在中国！
+
+: 觉醒:
+    从我作起！[/pybimage/nodoc4cn.png] 至少从OOo 开始！
+
+
+[抵制.doc运动 http://www.cyut.edu.tw/~ckhung/i/nd/fydoc.png]</t>
+<t tx="zoomq.20120316222934.11484">
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar --enum-title
+
+</t>
+<t tx="zoomq.20120316222934.11485">------------------------------
+- 动力源自::**[txt2tags http://txt2tags.sf.net]**
+- t2t渲染:: %%date(%Y-%m-%d %I:%M:%S)
+
+% Leo 4.7.1 final: 编辑
+
 
 </t>
 </tnodes>
