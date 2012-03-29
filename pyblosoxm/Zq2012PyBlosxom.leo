@@ -581,8 +581,8 @@
 <v t="zoomq.20100714100833.4002"><vh>我的”怪癖” (作业)</vh></v>
 </v>
 <v t="ZoomQuiet.20060116170040.5" a="E"><vh>techic</vh>
-<v t="zoomq.20120305142323.7638" a="E"><vh>Mac</vh>
-<v t="zoomq.20100714100009.4008" a="E"><vh>@nosent ubuntu2mac-mytoolbox-2012-02-14-23-23.t2t</vh>
+<v t="zoomq.20120305142323.7638"><vh>Mac</vh>
+<v t="zoomq.20100714100009.4008"><vh>@nosent ubuntu2mac-mytoolbox-2012-02-14-23-23.t2t</vh>
 <v t="zoomq.20100714100009.4009"><vh>main</vh></v>
 <v t="ZoomQuiet.20060122153701.1"></v>
 <v t="ZoomQuiet.20060121172947.1"></v>
@@ -594,8 +594,8 @@
 <v t="zoomq.20100414115206.4534"><vh>&lt;&lt;t2t head&gt;&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20100414115206.4391"><vh>PyBlosxom</vh>
-<v t="zoomq.20100414115206.4530"><vh>运维日志</vh>
+<v t="zoomq.20100414115206.4391" a="E"><vh>PyBlosxom</vh>
+<v t="zoomq.20100414115206.4530" a="E"><vh>运维日志</vh>
 <v t="zoomq.20100414115206.4531"><vh>@nosent operacss2-2006-01-28-10-00.t2t</vh>
 <v t="zoomq.20100414115206.4532"><vh>what?</vh></v>
 <v t="zoomq.20100414115206.4533"><vh>fixed</vh></v>
@@ -611,7 +611,7 @@
 <v t="zoomq.20100414115206.4534"></v>
 <v t="zoomq.20100414115206.4535"></v>
 </v>
-<v t="zoomq.20110907090950.6589"><vh>@nosent upinto-pyblosxom15rc3-2011-09-07-12-23.t2t</vh>
+<v t="zoomq.20110907090950.6589" a="E"><vh>@nosent upinto-pyblosxom15rc3-2011-09-07-12-23.t2t</vh>
 <v t="zoomq.20110907090950.6590"><vh>what?</vh></v>
 <v t="zoomq.20110907090950.6592"><vh>SyntaxHighlighter</vh></v>
 <v t="zoomq.20110907090950.6596"><vh>hacking</vh>
@@ -32340,6 +32340,8 @@ open("%s/index.html"% root,"w").write(exp)
 ```
 
 反正,俺用了,,很轻松,,而且支持多种 SSO 认证!
+
+
 </t>
 <t tx="zoomq.20110907090950.6592">== SyntaxHighlighter ==
 之前,俺为了节省流量,使用了 官方提供的 hosting...
