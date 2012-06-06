@@ -34122,7 +34122,7 @@ N久前就开始义务的狂热的不断的推广 Python 了:
 - 照片: http://www.flickr.com/photos/zoomq/tags/openparty120602smellrainwind/
 - 笔录: Zoom.Quiet &lt;zoomquiet+openparty@gmail.com&gt;
 - Chnangelog:
-    - 120604 finished all
+    - 120606 finished all
     - 120604 done 早說
     - 120602 init.
 
