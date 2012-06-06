@@ -1,0 +1,62 @@
+Haskell.cn 冲哪!
+~ 小记Haskell 中国社区启动
+t2t渲染:%%date(%Y-%m-%d %I:%M:%S)
+
+%! Target  : xhtml
+%! Encoding: UTF-8
+%! Options : --toc --css-sugar 
+
+
+= 以前 =
+
+- 在各种想象不到的地方,有各种隐士在快乐的学习以及使用 Haskell
+- 甚至于,图书都有慢慢在翻译的,,,
+
+但是,到底有多少中国人,在学习,使用 Haskell ?
+
+真心不知道,好象也没有人知道...
+
+
+= 现在 =
+
+- [QCon北京2012大会 http://www.qconbeijing.com/news.php?id=37] "编写显然正确的代码" ~ 黄毅,已经首次,公开吼 Haskell 了
+- 当然,其实,以前在沙龙就吼过... [Haskell介绍 http://yi-programmer.com/slide/haskell-intro/]
+- 好象,各种媒体,慢慢的因为多核,因为并发,重新关注起来了 Haskell
+- 豆瓣小组里终于:
+
+    - [关于建立Haskell中文(社区)的一点想法 http://www.douban.com/group/topic/28920097/]
+
+- 好事儿呢! 相关 Google groups 也创立几年了,只是一定没有什么热闹的讨论
+- 因为没有什么大家都可以掺合的 hs 实践,除了自学,写点片段自娱自乐...
+
+
+= 以后 =
+
+- 有了社区,就聚集了人
+- 有了人,就应该有很 COOL 的项目
+- 有了项目就有了代码,将代码运行起来,服务我们自个儿,,,
+- 社区就活跃了呢...
+
+
+
+= 进展 =
+
+- http://haskell.cn 域名已经找到主持人
+- 大妈聚集起来了: https://github.com/HaskellCNOrg
+- 应用仓库也有了: https://bitbucket.org/ZoomQuiet/haskell2cn
+
+
+然后? 我们需要什么社区功能?!
+- 俺习惯性的部署了: [Haskell.cn 聚合 http://haskell.cn/rss/]
+
+...
+
+
+
+
+------------------------------
+动力源自::**[txt2tags http://txt2tags.sf.net]**
+
+% leo: 编辑
+
+
