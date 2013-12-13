@@ -10,9 +10,10 @@
 
 - 活动: [Tech-Club技术沙龙（2012年2月）活动小结 http://www.tech-club.org/?p=247]
 - 幻灯: [ngx_openresty: an Nginx ecosystem glued by Lua http://agentzh.org/misc/slides/ngx-openresty-ecosystem/#1]
-- 录音: http://vdisk.weibo.com/s/2Qcon
+- 录音: [120306_ngx_openresty.mp3 http://zoomq.qiniudn.com/ZQCollection/120306_ngx_openresty.mp3]
 - 笔录: Zoom.Quiet <zoomquiet+nginx@gmail.com>
 - Chnangelog:
+    - 131213 fixed losted http://vdisk.weibo.com/s/2Qcon
     - 120312 fixed as s/hhttp/http/g ,thanx muxueqz
     - 120309 fixed kindel->kindle, thanx for milel liu;
     - 120308 fixed ahcking->hacking,thanx weakish
