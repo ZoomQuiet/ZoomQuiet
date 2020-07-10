@@ -1,0 +1,3 @@
+中国Python社区中最长情的贡献者, 从04年共同创建 CPyUG(中国Python用户组)以来,长年为 Pythonic 在中国的推广/实践进行各种尝试, 连续四届主持PyCon中国大会筹办,是大家公认的 "大妈"(Zoom.Quiet)
+
+> Time is unimportant, only life important...
