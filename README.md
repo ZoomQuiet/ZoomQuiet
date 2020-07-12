@@ -8,5 +8,6 @@
 | [blog](https://blog.zoomquiet.io/pages/zoomquiet.html) | [TFUG](http://zh.tfug.world/) | [编程思维](https://py.101.camp/) |
 | [weekly](http://weekly.pychina.org/) | [自怼圈](https://du.101.camp/) | [作曲班](https://mu.101.camp/) |
 | [ScrapBooks](https://zoomquiet.io/collection.html) | [蟒中国](https://pychina.org/) | [OBP](https://zoomquiet.io/obp/index.html) |
+| ... | ... | [FM电台](https://fm.101.camp/) |
 
 
