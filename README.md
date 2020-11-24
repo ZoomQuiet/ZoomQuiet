@@ -24,3 +24,6 @@
 可惜没法象金庸那样通过故事感染全体华人;)
 
 ![](http://ydlj.zoomquiet.top/ipic/2020-11-24-zq42-today-card-2011.024.jpeg)
+
+geek时间/Py进阶训练营/带货吐糟篇/fm.101.camp 蟒营™电台 钩陈各种值得探讨 
+https://fm.101.camp/2020/geek2py-dama.html
