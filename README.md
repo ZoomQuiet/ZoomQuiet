@@ -14,7 +14,7 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=zoomquiet&show_icons=true&count_private=true&include_all_commits=true&layout=compact&theme=panda)](https://blog.zoomquiet.io)
 
-[![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zoomquiet&theme=panda&card_width=460&layout=compact&show_icons=true&hide=javascript,html,php,Smarty,XSLT,TeX,C++,CSS)](https://zoomquiet.io)
+[![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zoomquiet&theme=panda&card_width=420&layout=compact&show_icons=true&hide=javascript,html,php,Smarty,XSLT,TeX,C++,CSS)](https://zoomquiet.io)
 
 
 投稿/反馈邮箱:
