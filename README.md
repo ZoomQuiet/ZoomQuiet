@@ -13,7 +13,7 @@
 
 -----------------------------------------
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=zoomquiet&show_icons=true&theme=panda)](https://blog.zoomquiet.io)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=zoomquiet&show_icons=true&count_private=true&theme=panda)](https://blog.zoomquiet.io)
 
 [![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zoomquiet&theme=panda&layout=compact&show_icons=true&hide=javascript,html,php,Smarty,XSLT,TeX,C++,CSS)](https://zoomquiet.io)
 
