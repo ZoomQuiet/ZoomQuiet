@@ -32,29 +32,82 @@ ffmpeg -i $RES  -filter_complex "[0:v]setpts=0.05*PTS[v]" -map "[v]" "$AIM-zip.m
 
 
 -----------------------------------------
-**220615 KJV ++ ...**
+**220616 KJV ++ ...**
 
 
-> 呢喃/ NN4775 七十七国 异种输血
+> 呢喃/ NN4776 彭帅申冤 国际歌出
 
 
+60 年前的今天彭大元帅上万言书...然后, 这事儿知道就好, 无法分析更多;
+119 年前的今天, 福特成立汽车制造公司, 后来提高生产效能/压榨劳动力神器
+=> 流水线就将诞生在 Ford Motor Company 车间中( PS: 人家纽交所代号是 F , 单字母...) 而 福特 本身是从 愛迪生照明公司 出来后才创业的...这些背景故事当然都是各种商业图书中分析过, 如何成立百年公司的秘密也都被反复断言并持续被打破过...
+
+这些都先不聊, 想挖一下 "全国学联"
+中华全国学生联合会( 英语: All-China Students' Federation, 缩写: ACSF), 简称 "全国学联", 是中国共产党领导下的中国高等学校学生会/研究生会和中等学校学生会的联合组织, 是中华全国青年联合会的会员组织; 全国学联按照民主集中制的组织原则, 在中国共产党的领导和中国共产主义青年团的指导下, 依照国家的法律/法规和本组织的章程, 独立自主地开展工作;
+当前总部地址: 中国北京市前门东大街10号;
+http://qgxl.youth.cn/
+当年可是革命先锋, 很是串联全国高校进行了不少运动, 然后, 那一年...学联的仿制品们冒头...然后...嗯哼, 也没法说了;
+
+所以, 还是回想一下 134 年的今天诞生的国际歌吧:
+於19世紀末法國在巴黎公社運動之後誕生, 定名《L'Internationale》詞作者是參加了巴黎公社的歐仁·鮑狄埃/Eugène Pottier, 直接配合 馬賽曲 来演唱;
+广为人知道的是编入唱词的 第 1, 2, 6段:
+
+I.
+Debout les damnés de la terre !
+Debout les forçats de la faim !
+La raison tonne en son cratère,
+C'est l'éruption de la fin.
+Du passé, faisons table rase,
+Foule esclave debout ! debout !
+Le monde va changer de base :
+Nous ne sommes rien, soyons tout !
 
 
-807年前的今天, 英王被迫和议会签署 "自由大宪章" 从此创造出君主立宪制, 国家权力开始进一步精细化分解, 不再由一家一姓垄断; 这其中思想的分裂/融合/激变...足繁不及道也, 好在一直有各种图书/影视作品嗯哼...只是中国人看来总是感觉哪里有不对...别说一个皇帝了, 就是一个亲王都可以建立类似血滴子之类的机构来管理封地以及其它...由商人组成的银行, 借款还不上时, 随便找个理由不就抄家了? 怎么可能被迫签定什么东西? 就算是签了, 不遵守好象也从来没什么机制可以惩罚的吧....好吧, 论民主的起源/论人类不平等的起源/... 各种扫盲图书得先捋一下了;
-这些社科类混乱的东西, 还是没理科来的好玩...比如说 136年前的今天, 有记录的第一次成功输血是在一头温顺的棉羊和一位健壮的青年之间完成的, 因为外伤, 原本应该死亡的青年, 被救了回来, 只是后来相同手术在其它案例中成功率并不高, 很怀疑最初案例起作用的可能不是血液, 只是血液中包含的水, 通过补液让患者自身循环恢复而已...
-好吧, 是的, 科学在早期其实和社会学一样, 都是乱来的, 只是混乱中通过实证理论, 自己能通过不断纠正以及抽象总结, 逐步发现规则, 提示原理, 创造理论, 发明技术...自己将自己不断推升到前辈难以想象的地方...
-当然, 这一切都基于一个前提:
-宇宙包含的内在规则是固定的, 不变的, 可以被发现的, 不可改变的....
-这也是为什么 三体 中智子先行入侵后, 通过原子级别的操作, 将物理基础规则改变后, 导致科学界大崩溃, 锁死了人类发展, 这才可能确保后续入侵一定成功.
-好吧, 既然, 这是人类可以想象出来的, 那么很大可能有办法实现;
-就象 NASA 机库大门上刻的断言:
+Refrain
+C'est la lutte finale,
+Groupons-nous, et demain
+L'Internationale,
+Sera le genre humain.
+C'est la lutte finale,
+Groupons-nous, et demain
+L'Internationale,
+Sera le genre humain.
 
-    IF WE CAN DREAM IT,
-    WE CAN DO IT.
 
-多么狂妄又多么人类的口号哪...
+II.
+Il n'est pas de sauveurs suprêmes,
+Ni dieu, ni César, ni tribun,
+Producteurs, sauvons-nous nous-mêmes !
+Décrétons le salut commun !
+Pour que le voleur rende gorge,
+Pour tirer l'esprit du cachot,
+Soufflons nous-mêmes notre forge,
+Battons le fer quand il est chaud !
 
-![](https://ipic.zoomquiet.top/2022-06-14-zq42-today-card-2206.015.jpeg)
+
+Refrain
+
+
+VI.
+Ouvriers, paysans, nous sommes
+Le grand parti des travailleurs ;
+La terre n'appartient qu'aux hommes,
+L'oisif ira loger ailleurs.
+Combien de nos chairs se repaissent !
+Mais si les corbeaux, les vautours,
+Un de ces matins disparaissent,
+Le soleil brillera toujours !
+
+
+当年国共两党都拿来作过军歌:
+![](https://ipic.zoomquiet.top/2022-06-15-zshot%202022-06-15%2008.02.06.jpg)
+
+
+其它不为人知的段落是这样的:
+
+![](https://ipic.zoomquiet.top/2022-06-15-zshot%202022-06-15%2008.03.06.jpg)
+
+![](https://ipic.zoomquiet.top/2022-06-15-zq42-today-card-2206.016.jpeg)
 
 
 ![DU22.4](https://ipic.zoomquiet.top/2022-04-30-220430DU6y_zip.jpg!/fw/420)
