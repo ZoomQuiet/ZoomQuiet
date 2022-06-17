@@ -32,82 +32,41 @@ ffmpeg -i $RES  -filter_complex "[0:v]setpts=0.05*PTS[v]" -map "[v]" "$AIM-zip.m
 
 
 -----------------------------------------
-**220616 KJV ++ ...**
+**220617 KJV ++ ...**
 
 
-> 呢喃/ NN4776 彭帅申冤 国际歌出
+> 呢喃/ NN4777 大公报出 防治干旱
 
 
-60 年前的今天彭大元帅上万言书...然后, 这事儿知道就好, 无法分析更多;
-119 年前的今天, 福特成立汽车制造公司, 后来提高生产效能/压榨劳动力神器
-=> 流水线就将诞生在 Ford Motor Company 车间中( PS: 人家纽交所代号是 F , 单字母...) 而 福特 本身是从 愛迪生照明公司 出来后才创业的...这些背景故事当然都是各种商业图书中分析过, 如何成立百年公司的秘密也都被反复断言并持续被打破过...
-
-这些都先不聊, 想挖一下 "全国学联"
-中华全国学生联合会( 英语: All-China Students' Federation, 缩写: ACSF), 简称 "全国学联", 是中国共产党领导下的中国高等学校学生会/研究生会和中等学校学生会的联合组织, 是中华全国青年联合会的会员组织; 全国学联按照民主集中制的组织原则, 在中国共产党的领导和中国共产主义青年团的指导下, 依照国家的法律/法规和本组织的章程, 独立自主地开展工作;
-当前总部地址: 中国北京市前门东大街10号;
-http://qgxl.youth.cn/
-当年可是革命先锋, 很是串联全国高校进行了不少运动, 然后, 那一年...学联的仿制品们冒头...然后...嗯哼, 也没法说了;
-
-所以, 还是回想一下 134 年的今天诞生的国际歌吧:
-於19世紀末法國在巴黎公社運動之後誕生, 定名《L'Internationale》詞作者是參加了巴黎公社的歐仁·鮑狄埃/Eugène Pottier, 直接配合 馬賽曲 来演唱;
-广为人知道的是编入唱词的 第 1, 2, 6段:
-
-I.
-Debout les damnés de la terre !
-Debout les forçats de la faim !
-La raison tonne en son cratère,
-C'est l'éruption de la fin.
-Du passé, faisons table rase,
-Foule esclave debout ! debout !
-Le monde va changer de base :
-Nous ne sommes rien, soyons tout !
 
 
-Refrain
-C'est la lutte finale,
-Groupons-nous, et demain
-L'Internationale,
-Sera le genre humain.
-C'est la lutte finale,
-Groupons-nous, et demain
-L'Internationale,
-Sera le genre humain.
+72年前的今天, 中央音乐学院成立;
+
+![](https://ipic.zoomquiet.top/2022-06-16-zshot%202022-06-16%2008.09.08.jpg)
+
+校訓: 勤奮 求實 團結 進取(可以复用在其它场景中 ;-)地址: 中國北京市西城區鮑家街43號 , 是的, 就是那个摇滚乐队名称出处, 老汪之所以能在音乐界奋斗这么久, 有长期正规音乐训练基础是关键因素; 不过最近引起关注的不是老汪, 或是其它中央音乐学院知名校友, 而是从来低调的 "荒井十一", 现在被各种音乐综艺节目请出来作音乐总监, 这才被知道:
+时光音乐会 (2021)
+https://movie.douban.com/subject/35633481/
+首次知道有音乐总监这一职位, 关键是以往节目中从来对制作团队很少宣传, 字幕上也基本不给任何提示 , 都是歌手和词曲而已; 这个节目将合声, 以及各种乐手的名字主要成绩什么都字幕大大给出,  这才关注到  "荒井十一" 怎么看都象艺名的这位:
+
+![](https://ipic.zoomquiet.top/2022-06-16-zshot%202022-06-16%2008.22.29.jpg)
 
 
-II.
-Il n'est pas de sauveurs suprêmes,
-Ni dieu, ni César, ni tribun,
-Producteurs, sauvons-nous nous-mêmes !
-Décrétons le salut commun !
-Pour que le voleur rende gorge,
-Pour tirer l'esprit du cachot,
-Soufflons nous-mêmes notre forge,
-Battons le fer quand il est chaud !
+右下角最低调的这位; 一查才知道, 09年加入 "小娟＆山谷裡的居民" 之后就开始了专辑制作, 14年之后就开始了各种巡迴演唱會的音乐总监职责, 负责针对不同场景不同受众, 以及现场资源, 快速改编/整合/调配/...音乐, 确保整体上感受统一, 有辩识度, 又抓耳; 虽然是打击乐专业, 但是很明确对其它所有类型乐器都有自己的理解;
+他始终认为做音乐并不是照着某个概念风格硬套, 而是要做出艺人自己的特点, 展现出艺人真实的一面, 挖掘出真正最适合他的东西; 尤其是在拥有自己的厂牌十一音乐之后, 更加充分认识到以什么样的体系及模式来引导歌手, 才能发挥出歌手本身的特质, 着手树立音乐人风格体系;
+可以说是音乐界的良心触媒了, 自己没有形成固定风格以及系列作品, 专注挖掘其它音乐人特性, 乐于触发全新感观, 重启音乐事业...
+感觉很象石油界那些新开采技术, 将以往无法自喷的油田, 通过压入蒸汽或是其它介质, 将油页岩中含有的石油挤出, 从而将乏油田重新变成高产油田...
+
+只是很奇怪, 荒井十一 这种甘当背景的性格是如何形成的? 难道还有天生喜欢作幕后英雄的人?
+
+好象所有 FLOSS/自由|开源软件 界的人, 都有这种倾向? 长期钻研一个领域技术, 开发出一种/系列 专用工具, 免费提供给所有同行使用, 减少日常工作量, 提高代码效率, 系统效能... 却并不能直接形成最终可以在市场上销售的成品, 基础工具的研发和维护, 相比最终用户可以感知的成品, 基础工具一般并不会被广大用户直接接触到, 但是, 作为上游软件, 对最终系统品质的影响却非常大, 而且越上游潜在影响力越大;
+
+问题就在 "潜在影响力" , 这一潜在就难以衡量, 无法衡量也就无法估值, 导致大家将开源行为本身当成营销手段, 而不认为开源产品本身有什么价值...这可就本末倒置了...
+
+嗯哼, 这个方向的讨论近年开始热烈讨论起来, 也是因为大厂开始关注了, 具体的推荐关注 开源社 系列直播讨论.​
 
 
-Refrain
-
-
-VI.
-Ouvriers, paysans, nous sommes
-Le grand parti des travailleurs ;
-La terre n'appartient qu'aux hommes,
-L'oisif ira loger ailleurs.
-Combien de nos chairs se repaissent !
-Mais si les corbeaux, les vautours,
-Un de ces matins disparaissent,
-Le soleil brillera toujours !
-
-
-当年国共两党都拿来作过军歌:
-![](https://ipic.zoomquiet.top/2022-06-15-zshot%202022-06-15%2008.02.06.jpg)
-
-
-其它不为人知的段落是这样的:
-
-![](https://ipic.zoomquiet.top/2022-06-15-zshot%202022-06-15%2008.03.06.jpg)
-
-![](https://ipic.zoomquiet.top/2022-06-15-zq42-today-card-2206.016.jpeg)
+![](https://ipic.zoomquiet.top/2022-06-16-zq42-today-card-2206.017.jpeg)
 
 
 ![DU22.4](https://ipic.zoomquiet.top/2022-04-30-220430DU6y_zip.jpg!/fw/420)
