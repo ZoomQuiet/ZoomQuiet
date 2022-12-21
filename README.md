@@ -27,11 +27,6 @@
 
 
 
-![DU22.4](https://ipic.zoomquiet.top/2022-04-30-220430DU6y_zip.jpg!/fw/420)
-
-
-
-
 
 
 PS:
