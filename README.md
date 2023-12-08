@@ -1,6 +1,10 @@
-中国Python社区中最长情的贡献者, 从04年共同创建 CPyUG(中国Python用户组)以来,长年为 Pythonic 在中国的推广/实践进行各种尝试, 连续四届主持PyCon中国大会筹办,是大家公认的 "大妈"(Zoom.Quiet)
+中国Python社区中最长情的贡献者, 从04年共同创建 CPyUG(中国Python用户组)以来,长年为 Pythonic 在中国的推广/实践进行各种尝试, 连续四届主持PyCon中国大会筹办,是大家公认的 "大妈"(Zoom.Quiet);
 
-> Mainium: THE MAIN ELEMENT TO ANTI-MEME FOR UPGRADE TEME.
+> 当前转战自媒体, 分享有趣有料有种的事儿:
+
+[大妈的多重宇宙 youtube.com/@Chaos42DAMA](https://www.youtube.com/@Chaos42DAMA)
+
+
 
 | site | community | works |
 | :-----| :----: | ----: |
@@ -12,58 +16,38 @@
 | ... | ... | ... |
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=zoomquiet&show_icons=true&count_private=true&include_all_commits=true&layout=compact&theme=panda)](https://blog.zoomquiet.io)
+> Buy me a coffee
 
-[![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zoomquiet&theme=panda&card_width=445&layout=compact&show_icons=true&hide=javascript,html,php,Smarty,XSLT,TeX,C++,CSS)](https://zoomquiet.io)
+- https://www.buymeacoffee.com/zoomquiet
+- 支付宝:
+  + ![alipay](https://ipic.zoomquiet.top/2023-12-08-alipay.jpg!/fw/360)
+- 微信:
+  + ![wxpay](https://ipic.zoomquiet.top/2023-12-08-wxpay.jpg!/fw/360)
 
 
-
-
-投稿/反馈邮箱:
+联系/反馈邮箱:
 
     askdama[AT]googlegroups.com
 
 (邮件列表地址, 
 当成正常邮件发送邮件就好, 不用订阅, 不用翻越...)
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=zoomquiet&show_icons=true&count_private=true&include_all_commits=true&layout=compact&theme=panda)](https://blog.zoomquiet.io)
 
-
-
-PS:
-> 是什么让你频繁地不由自主拿出手机？
-
-跳出当前无聊的时空,
-无论手机中展现的是什么内容/数据,
-多数都是和当前身体所在场景/时间/空间 不同的,
-另外的时空,
-而且, 手机中的时空给我们的感觉是
-
-    i'am the God
-
-想看就看, 不看就切换,
-不象所在的时空, 几乎一切都受到各种制约,
-当然,
-理性思考一下就知道,
-手机中的时空受到的控制更加精密, 更加不受自己控制,
-但是, 这种控制感,
-却是所有人都需要的...
-
-所以, 
-忍不住拿出手机来刷一刷,
-并不是为了手机本身, 或是手机带来的一切,
-而是可以借机`假装跳出当前无聊的自己`...
+[![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zoomquiet&theme=panda&card_width=445&layout=compact&show_icons=true&hide=javascript,html,php,Smarty,XSLT,TeX,C++,CSS)](https://zoomquiet.io)
 
 
 
 ```
-NN 5179
+NN 5316
 
-        _~`~~~_
-    \) /  ^ -  \ \/
-      '_   ⏡   _'
-      / '--~--' /
+     _~-~^~_
+ \/ /  ◵ ?  \ ()
+   '_   △   _'
+   | '--.--' )
 
 ...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```
     .
     ..
     ...
