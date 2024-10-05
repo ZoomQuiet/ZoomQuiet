@@ -15,6 +15,7 @@
 | ... | ... | [FM电台](https://fm.101.camp/) |
 | ... | ... | ... |
 
+<img src="https://img.shields.io/liberapay/receives/zoomquiet.svg?logo=liberapay">
 
 联系/反馈邮箱:
 
