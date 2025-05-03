@@ -16,9 +16,11 @@
 | ... | ... | ... |
 
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V014ROQS)
 
-<img src="https://img.shields.io/liberapay/receives/zoomquiet.svg?logo=liberapay">
+<a href="https://liberapay.com/zoomquiet/"><img src="https://img.shields.io/liberapay/receives/zoomquiet.svg?logo=liberapay">
+</a>
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V014ROQS)
 
 联系/反馈邮箱:
 
