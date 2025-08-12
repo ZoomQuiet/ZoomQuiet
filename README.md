@@ -16,18 +16,15 @@
 | ... | ... | ... |
 
 
-> Buy me a coffee
 
-- https://www.buymeacoffee.com/zoomquiet
-- 支付宝:
-  + ![alipay](https://ipic.zoomquiet.top/2023-12-08-alipay.jpg!/fw/360)
-- 微信:
-  + ![wxpay](https://ipic.zoomquiet.top/2023-12-08-wxpay.jpg!/fw/360)
+<a href="https://liberapay.com/zoomquiet/"><img src="https://img.shields.io/liberapay/receives/zoomquiet.svg?logo=liberapay">
+</a>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V014ROQS)
 
 联系/反馈邮箱:
 
-    askdama[AT]googlegroups.com
+    askDAMA[AT]googlegroups.com
 
 (邮件列表地址, 
 当成正常邮件发送邮件就好, 不用订阅, 不用翻越...)
@@ -47,14 +44,8 @@ NN 5316
    | '--.--' )
 
 ...act by ferris-actor v0.2.4 (built on 23.0303.201916)
-```
-    .
-    ..
-    ...
+
     是也乎,(￣▽￣)
-    ...
-    ..
-    .
 ```
 
 
