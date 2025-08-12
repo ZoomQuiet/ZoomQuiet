@@ -9,7 +9,7 @@
 | site | community | works |
 | :-----| :----: | ----: |
 | [root](http://zoomquiet.io/) | [GDG](https://blog.zhgdg.org/) | [大妈的多重宇宙 - YouTube](https://www.youtube.com/@Chaos42DAMA) |
-| [blog](https://blog.zoomquiet.io/pages/zoomquiet.html) | [锈<周刊> China<Rustaceans>](https://weekly.rs.101.so/2023/index.html#%E5%91%A8%E5%88%8A) | [蟒营®](https://doc.101.camp/) |
+| [blog](https://blog.zoomquiet.io/pages/zoomquiet.html) | .. | [蟒营®](https://doc.101.camp/) |
 | [weekly](http://weekly.pychina.org/) | [自怼圈](https://du.101.camp/) | [编程思维](https://py.101.camp/) |
 | [ScrapBooks](https://zoomquiet.io/collection.html) | [蟒中国](https://pychina.org/) | [OBP](https://zoomquiet.io/obp/index.html) |
 | ... | ... | [FM电台](https://fm.101.camp/) |
