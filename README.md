@@ -17,15 +17,16 @@
 
 > 国内赞助:
 
-- ![支付宝](pay2ali.jpg)
-- ![微信支持](pay2wx.jpg)
+- 支付宝: ![支付宝](pay2ali.jpg)
+- 微信: ![微信支持](pay2wx.jpg)
 
 
 > 国际赞助:
 
-- <a href="https://liberapay.com/zoomquiet/"><img src="https://img.shields.io/liberapay/receives/zoomquiet.svg?logo=liberapay">
+<a href="https://liberapay.com/zoomquiet/"><img src="https://img.shields.io/liberapay/receives/zoomquiet.svg?logo=liberapay">
 </a>
-- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V014ROQS)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V014ROQS)
 
 联系/反馈邮箱:
 
