@@ -8,7 +8,7 @@
 
 | site | community | works |
 | :-----| :----: | ----: |
-| [root](http://zoomquiet.io/) | [GDG](https://blog.zhgdg.org/) | [大妈的多重宇宙 - YouTube](https://www.youtube.com/@Chaos42DAMA) |
+| [root](http://zoomquiet.io/) | ..| [大妈的多重宇宙 - YouTube](https://www.youtube.com/@Chaos42DAMA) |
 | [blog](https://blog.zoomquiet.io/pages/zoomquiet.html) | .. | [蟒营®](https://doc.101.camp/) |
 | [weekly](http://weekly.pychina.org/) | [自怼圈](https://du.101.camp/) | [编程思维](https://py.101.camp/) |
 | [ScrapBooks](https://zoomquiet.io/collection.html) | [蟒中国](https://pychina.org/) | [OBP](https://zoomquiet.io/obp/index.html) |
@@ -16,25 +16,13 @@
 | ... | ... | ... |
 
 
-| \渠道 | 支付宝 | 微信 |
+| \ | 支付宝 | 微信 |
 | :-----| :----: | :----: |
 | 国内 | ![支付宝](pay2ali.jpg) | ![微信支持](pay2wx.jpg) |
-| \渠道 | liberapay | ko-fi |
+| \ | liberapay | ko-fi |
 | 国际 | <a href="https://liberapay.com/zoomquiet/"><img src="https://img.shields.io/liberapay/receives/zoomquiet.svg?logo=liberapay"> | [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V014ROQS) |
 | ... | ... | ... |
 
-| \渠道 | liberapay | ko-fi |
-| :-----| :----: | :----: |
-| 国际 | <a href="https://liberapay.com/zoomquiet/"><img src="https://img.shields.io/liberapay/receives/zoomquiet.svg?logo=liberapay"> | [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V014ROQS) |
-
-
-
-> 国际赞助:
-
-<a href="https://liberapay.com/zoomquiet/"><img src="https://img.shields.io/liberapay/receives/zoomquiet.svg?logo=liberapay">
-</a>
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V014ROQS)
 
 联系/反馈邮箱:
 
