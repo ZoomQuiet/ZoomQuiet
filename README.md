@@ -16,15 +16,15 @@
 | ... | ... | ... |
 
 
-| \ | 支付宝 | 微信 |
+| \渠道 | 支付宝 | 微信 |
 | :-----| :----: | ----: |
-| 国内赞助 | ![支付宝](pay2ali.jpg) | ![微信支持](pay2wx.jpg) |
+| 国内 | ![支付宝](pay2ali.jpg) | ![微信支持](pay2wx.jpg) |
 
 
-> 国内赞助:
+| \渠道 | liberapay | ko-fi |
+| :-----| :----: | ----: |
+| 国际 | <a href="https://liberapay.com/zoomquiet/"><img src="https://img.shields.io/liberapay/receives/zoomquiet.svg?logo=liberapay"> | [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V014ROQS) |
 
-- 支付宝: ![支付宝](pay2ali.jpg)
-- 微信: ![微信支持](pay2wx.jpg)
 
 
 > 国际赞助:
