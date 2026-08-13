@@ -8,11 +8,12 @@
 
 > LLM 口粮线路: 分享几个自己长期用下来感觉值得的, 并且邀请也有奖励的..
 
+- https://opencode.ai/go?ref=XJX2X2268T 良心线路,每月 10$ 所有核心国模都能用到 60$ 额度, 注意要打开`启用部署在中国的模型` 这个开关后才能用上 Deepseek
+- https://pateway.ai/?aff=KSUL6RMJ 已知 gpt-5.6-luna 最低线路 0.5折
 - https://foxcode.rjj.cc/auth/register?aff=OIXUD 全网 Claude+GPT 最低价格 , 最大折扣能达到 1/140 官价
 - https://apikey.fun/register?aff=TGFZRQJ6BC2J 老叶团队私用的, 全网 grouk 4.5 最大折扣 0.3 
-- https://pateway.ai/?aff=KSUL6RMJ 已知 gpt-5.6-luna 最低线路 0.5折
-- https://www.openmodel.ai?ref=B38x1z3n 也是群友自用的, 全网 Deepseek 折扣最大 2.5 折线路, 以及其它各种模型也都有
 - https://platform.xiaomimimo.com?ref=W2ZNQQ 评分超过 Opus 4.8 的 MiMo 2.5, Standard 月度套餐 有 110亿 tok, 完全可以作为主力口粮
+
 
 ------
 > 自由赞助
