@@ -11,9 +11,9 @@
 
 - sub2api 聚合平台官方赞助商:
   - https://codex-everywhere.com/home?aff=4YKA78R2TAC4 已知 gpt-6-astra 折扣最强线路 `0.03x`
-  - https://www.openmodel.ai?ref=B38x1z3n 已知 deepseek-v4.1-flash 折扣最强 `2.5折` 线路
   - https://pateway.ai/?aff=KSUL6RMJ 已知 gpt-5.6-luna 折扣最强线路 `0.5折` 起
-  - https://apikey.fun/register?aff=TGFZRQJ6BC2J 老叶团队私用的, 已知 Gemini 最大折扣 `1.4折` 线路 
+  - https://apikey.fan/register?aff=TGFZRQJ6BC2J 老叶团队私用的, 已知 Gemini 最大折扣 `1.4折` 线路 
+  - https://www.openmodel.ai?ref=B38x1z3n 已知 deepseek-v4.1-flash 折扣最强 `2.5折` 线路
 - https://foxcode.rjj.cc/auth/register?aff=OIXUD 全网 Claude+GPT 最低价格 , 最大折扣能达到 1/140 官价, 就是扣额度算法不透明消耗越来越快
 - https://commandcode.ai/docs/plans/goat 在 opencode 缩减订阅方案的额度后, 群友推荐的类似线路, 但是, 额度更多, 同样 $10/月, 但是有更多免费和顶级模型
 - https://opencode.ai/go?ref=XJX2X2268T 良心线路,每月 10$ 所有核心国模都能用到 60$ 额度, 注意要打开`启用部署在中国的模型` 这个开关后才能用上 Deepseek
