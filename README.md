@@ -10,6 +10,7 @@
 
 
 - sub2api 聚合平台官方赞助商:
+  - https://codex-everywhere.com/home?aff=4YKA78R2TAC4 已知 gpt-6-astra 折扣最强线路 `0.03x`
   - https://www.openmodel.ai?ref=B38x1z3n 已知 deepseek-v4.1-flash 折扣最强 `2.5折` 线路
   - https://pateway.ai/?aff=KSUL6RMJ 已知 gpt-5.6-luna 折扣最强线路 `0.5折` 起
   - https://apikey.fun/register?aff=TGFZRQJ6BC2J 老叶团队私用的, 已知 Gemini 最大折扣 `1.4折` 线路 
